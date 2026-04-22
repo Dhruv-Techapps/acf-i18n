@@ -1,0 +1,170 @@
+{
+  "EXT_NAME": {
+    "message": "자동 클릭커 - 자동 완성"
+  },
+  "EXT_NAME_DEV": {
+    "message": "자동 클릭커 - 자동 완성 [DEV]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "자동 클릭커 - 자동완성[베타]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "자동 클릭커 - 자동완성 [LOCAL]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "자동 채우기"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "자동 입력 필드 또는 자동 클릭 버튼 또는 어디서나 링크. 클릭 속도 테스트를 구성하고 확인할 수 있습니다."
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "ACF 백업"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "구성은 Google Drive에 백업됩니다. $1"
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "Google 드라이브에서 구성이 복원됩니다.구성 페이지를 새로 고침하여 컨텐츠를로드하십시오."
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "백업 할 수있는 구성이 없습니다"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "파일에서 발견 된 콘텐츠가 없습니다"
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "구성되지 않았습니다"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "프로세스 방법은 찾을 수 없습니다"
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "★이 필드를 구성합니다"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ 위치별 구성"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ 측면 패널/☉ 녹화"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ 구성 페이지 열기"
+  },
+  "@TABS__TITLE": {
+    "message": "탭"
+  },
+  "@TABS__ERROR": {
+    "message": "지정된 탭 또는 탭 ID를 찾을 수 없습니다."
+  },
+  "@ACTION__TITLE": {
+    "message": "행동"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "사용자 스크립트"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "이름이 없습니다"
+  },
+  "@ADDON__TITLE": {
+    "message": "애도"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "동작 조건"
+  },
+  "@BATCH__TITLE": {
+    "message": "일괄"
+  },
+  "@CONFIG__TITLE": {
+    "message": "구성"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "요소 찾기는 비어 있습니다"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "조건이 일치하지 않습니다."
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "잘못된 비교"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "연산자보다 크거나 작은 것만 숫자 만 비교할 수 있습니다."
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "잘못된 요소 찾기 또는 애드온 조건"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "요소 찾기는 확인란을 대상으로해야합니다"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "잘못된 요소 찾기"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "찾을 수 없습니다 - 중지하십시오"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "찾을 수 없습니다 - 다시로드"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "Goto에 대한 작업을 찾을 수 없습니다."
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "주어진 선택기로 요소를 찾을 수 없습니다."
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "구성이 올바르게 업데이트되었는지 확인하려면 구성 페이지를 방문하여 작업 조건을 검토하고 업데이트하세요."
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "조건 만족됨"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "조건이 만족스럽지 않음"
+  },
+  "@ERROR": {
+    "message": "오류"
+  },
+  "@SCHEDULE": {
+    "message": "일정"
+  },
+  "@REPEAT": {
+    "message": "반복하다"
+  },
+  "@COMPLETED": {
+    "message": "완전한"
+  },
+  "@DEFAULT": {
+    "message": "기본"
+  },
+  "@WAIT": {
+    "message": "기다리다"
+  },
+  "@DISABLED": {
+    "message": "장애가 있는"
+  },
+  "@RESULT": {
+    "message": "결과"
+  },
+  "@GOTO": {
+    "message": "이동"
+  },
+  "@RECHECK": {
+    "message": "다시 확인하십시오"
+  },
+  "@COMPARE": {
+    "message": "비교하다"
+  },
+  "@RECHECK_OPTION": {
+    "message": "재확인"
+  },
+  "@DOCS": {
+    "message": "문서"
+  },
+  "@CHAT": {
+    "message": "채팅"
+  },
+  "@ADVANCE": {
+    "message": "전진"
+  },
+  "@SPONSOR": {
+    "message": "스폰서"
+  }
+}

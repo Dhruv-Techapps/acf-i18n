@@ -1,0 +1,170 @@
+{
+  "EXT_NAME": {
+    "message": "Trình nhấp chuột tự động - Tự động điền"
+  },
+  "EXT_NAME_DEV": {
+    "message": "Trình nhấp chuột tự động - Tự động điền [DEV]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "Trình nhấp chuột tự động - Tự động điền [BETA]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "Trình nhấp chuột tự động - Tự động điền [LOCAL]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "Tự động điền"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "Trường nhập Tự động điền hoặc nút tự động nhấp hoặc liên kết bất kỳ thứ gì ở bất kỳ đâu. Bạn có thể định cấu hình và kiểm tra kiểm tra tốc độ nhấp chuột"
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "Sao lưu ACF"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "Cấu hình được sao lưu trên Google Drive với giá $1"
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "Cấu hình được khôi phục từ Google Drive. Làm mới trang cấu hình để tải nội dung."
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "Không tìm thấy cấu hình nào để sao lưu"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "Không tìm thấy nội dung trong tập tin"
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "không được cấu hình"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "phương pháp xử lý không được tìm thấy"
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "★ Cấu hình cho trường này"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ Cấu hình theo vị trí"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ Bảng điều khiển bên/☉ Ghi âm"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ Mở trang cấu hình"
+  },
+  "@TABS__TITLE": {
+    "message": "Tab"
+  },
+  "@TABS__ERROR": {
+    "message": "Không thể tìm thấy tab hoặc ID tab được chỉ định."
+  },
+  "@ACTION__TITLE": {
+    "message": "Hoạt động"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "Kịch bản người dùng"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "không tên"
+  },
+  "@ADDON__TITLE": {
+    "message": "Thêm vào"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "Hành động Điều kiện"
+  },
+  "@BATCH__TITLE": {
+    "message": "Lô hàng"
+  },
+  "@CONFIG__TITLE": {
+    "message": "Cấu hình"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "Trình tìm kiếm phần tử trống"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "tình trạng không khớp."
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "So sánh không chính xác"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "Toán tử lớn hơn hoặc nhỏ hơn chỉ có thể so sánh các số"
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "Công cụ tìm phần tử hoặc điều kiện bổ sung không chính xác"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "Trình tìm kiếm phần tử nên nhắm mục tiêu vào hộp kiểm"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "Công cụ tìm phần tử không hợp lệ"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "Không tìm thấy - DỪNG"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "Không tìm thấy - TẢI LẠI"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "Không tìm thấy hành động nào cho Goto"
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "Không tìm thấy phần tử nào có bộ chọn đã cho"
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "Vui lòng truy cập trang cấu hình để xem lại và cập nhật Điều kiện hành động để đảm bảo cấu hình được cập nhật đúng cách."
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "Điều kiện thỏa mãn"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "Điều kiện không thỏa mãn"
+  },
+  "@ERROR": {
+    "message": "Lỗi"
+  },
+  "@SCHEDULE": {
+    "message": "Lịch trình"
+  },
+  "@REPEAT": {
+    "message": "lặp lại"
+  },
+  "@COMPLETED": {
+    "message": "Hoàn thành"
+  },
+  "@DEFAULT": {
+    "message": "mặc định"
+  },
+  "@WAIT": {
+    "message": "Chờ đợi"
+  },
+  "@DISABLED": {
+    "message": "Tàn tật"
+  },
+  "@RESULT": {
+    "message": "Kết quả"
+  },
+  "@GOTO": {
+    "message": "Đi đến"
+  },
+  "@RECHECK": {
+    "message": "kiểm tra lại"
+  },
+  "@COMPARE": {
+    "message": "So sánh"
+  },
+  "@RECHECK_OPTION": {
+    "message": "Kiểm tra lạiTùy chọn"
+  },
+  "@DOCS": {
+    "message": "Tài liệu"
+  },
+  "@CHAT": {
+    "message": "Trò chuyện"
+  },
+  "@ADVANCE": {
+    "message": "Nâng cao"
+  },
+  "@SPONSOR": {
+    "message": "Nhà tài trợ"
+  }
+}

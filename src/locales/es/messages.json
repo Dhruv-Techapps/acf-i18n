@@ -1,0 +1,170 @@
+{
+  "EXT_NAME": {
+    "message": "Clicker automático - Autocompletar"
+  },
+  "EXT_NAME_DEV": {
+    "message": "Clicker automático - Autocompletar [DEV]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "Clicker automático - Autocompletar [BETA]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "Clicker automático - Autocompletar [LOCAL]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "Autocompletar"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "Campo de entrada de autocompletar o botón de clic automático o vincular cualquier cosa en cualquier lugar. Puede configurar y verificar la prueba de velocidad de clic"
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "Copia de seguridad ACF"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "Las configuraciones están respaldadas en Google Drive en $1"
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "Las configuraciones se restauran desde Google Drive. Actualice la página de configuraciones para cargar contenido."
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "No se encontraron configuraciones para respaldar"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "No se encontró contenido en el archivo."
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "no está configurado"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "no se encuentra el método de proceso"
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "★ Configurar para este campo"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ Configurar por posición"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ Panel lateral/☉ Registro"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ Abrir página de configuración"
+  },
+  "@TABS__TITLE": {
+    "message": "Pestañas"
+  },
+  "@TABS__ERROR": {
+    "message": "No se puede localizar la pestaña especificada o el ID de pestaña."
+  },
+  "@ACTION__TITLE": {
+    "message": "Acción"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "Script de usuario"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "sin nombre"
+  },
+  "@ADDON__TITLE": {
+    "message": "Añadir"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "Condición de acción"
+  },
+  "@BATCH__TITLE": {
+    "message": "Lote"
+  },
+  "@CONFIG__TITLE": {
+    "message": "configuración"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "El buscador de elementos está en blanco"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "La condición no coincidía."
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "Comparación incorrecta"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "Los operadores mayores o menores que solo pueden comparar números"
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "Buscador de elementos o condición de complemento incorrectos"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "El Buscador de elementos debe apuntar a una casilla de verificación"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "Buscador de elementos no válidos"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "No encontrado - DETENER"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "No encontrado - RECARGAR"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "Acción no encontrada para Goto"
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "No se encontró ningún elemento con el selector indicado"
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "Visite la página de configuración para revisar y actualizar la condición de acción para asegurarse de que la configuración esté actualizada correctamente."
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "Condición satisfecha"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "Condición no satisfecha"
+  },
+  "@ERROR": {
+    "message": "Error"
+  },
+  "@SCHEDULE": {
+    "message": "Cronograma"
+  },
+  "@REPEAT": {
+    "message": "repetir"
+  },
+  "@COMPLETED": {
+    "message": "Terminado"
+  },
+  "@DEFAULT": {
+    "message": "por defecto"
+  },
+  "@WAIT": {
+    "message": "esperar"
+  },
+  "@DISABLED": {
+    "message": "Desactivado"
+  },
+  "@RESULT": {
+    "message": "Resultado"
+  },
+  "@GOTO": {
+    "message": "Ir a"
+  },
+  "@RECHECK": {
+    "message": "volver a comprobar"
+  },
+  "@COMPARE": {
+    "message": "Comparar"
+  },
+  "@RECHECK_OPTION": {
+    "message": "Volver a comprobar la opción"
+  },
+  "@DOCS": {
+    "message": "Documentos"
+  },
+  "@CHAT": {
+    "message": "Charlar"
+  },
+  "@ADVANCE": {
+    "message": "Avance"
+  },
+  "@SPONSOR": {
+    "message": "Patrocinador"
+  }
+}

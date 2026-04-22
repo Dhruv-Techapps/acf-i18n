@@ -1,0 +1,206 @@
+{
+  "EXT_NAME": {
+    "message": "Auto Clicker - AutoFill"
+  },
+  "EXT_NAME_DEV": {
+    "message": "Auto Clicker - AutoFill [DEV]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "Auto Clicker - AutoFill [BETA]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "Auto Clicker - AutoFill [LOCAL]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "Auto Clicker - AutoFill"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "AutoFill input field or auto click button or link anything anywhere.You can configure and check click speed test"
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "ACF Backup"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "Configurations are backup on Google Drive at $1"
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "Configurations are restored from Google Drive. Refresh configurations page to load content."
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "No configurations found to backup"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "No content found in the file"
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "is not configured"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "process method is not found"
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "⊕ Configure for this Field"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ Configure by Position"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ Side Panel / ☉ Recording"
+  },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "Automations"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "Recording"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "Search"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "Matched"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "Other"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "Start Recording"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "Stop Recording"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "Start filling form..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "If you have already filled form"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "Already Filled ?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "click"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "Edit Automation"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ Open Configuration Page"
+  },
+  "@TABS__TITLE": {
+    "message": "Tabs"
+  },
+  "@TABS__ERROR": {
+    "message": "Unable to locate the specified tab or tab ID."
+  },
+  "@ACTION__TITLE": {
+    "message": "Action"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "User Script"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "no-name"
+  },
+  "@ADDON__TITLE": {
+    "message": "Addon"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "Action Condition"
+  },
+  "@BATCH__TITLE": {
+    "message": "Batch"
+  },
+  "@CONFIG__TITLE": {
+    "message": "Config"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "Element Finder is blank"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "condition did not match."
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "Incorrect comparison"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "Greater than or less than operators can only compare numbers"
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "Incorrect element finder or addon condition"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "Element Finder should target a checkbox"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "Invalid element finder"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "Not Found - STOP"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "Not Found - RELOAD"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "Action not found for Goto"
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "No element found with the given selector"
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "Please visit the configuration page to review and update the Action Condition to ensure the configuration is properly updated."
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "Condition Satisfied"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "Condition Not Satisfied"
+  },
+  "@ERROR": {
+    "message": "Error"
+  },
+  "@SCHEDULE": {
+    "message": "Schedule"
+  },
+  "@REPEAT": {
+    "message": "repeat"
+  },
+  "@COMPLETED": {
+    "message": "Completed"
+  },
+  "@DEFAULT": {
+    "message": "default"
+  },
+  "@WAIT": {
+    "message": "wait"
+  },
+  "@DISABLED": {
+    "message": "Disabled"
+  },
+  "@RESULT": {
+    "message": "Result"
+  },
+  "@GOTO": {
+    "message": "Goto"
+  },
+  "@RECHECK": {
+    "message": "recheck"
+  },
+  "@COMPARE": {
+    "message": "Compare"
+  },
+  "@RECHECK_OPTION": {
+    "message": "RecheckOption"
+  },
+  "@DOCS": {
+    "message": "Docs"
+  },
+  "@CHAT": {
+    "message": "Chat"
+  },
+  "@ADVANCE": {
+    "message": "Advance"
+  },
+  "@SPONSOR": {
+    "message": "Sponsor"
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "header": {
+    "theme": {
+      "light": "Mude para o tema claro",
+      "dark": "Mude para o tema escuro"
+    },
+    "google-group": "Grupo do Google",
+    "login": "Conecte-se",
+    "logout": "Sair",
+    "settings": "Configurações globais"
+  },
+  "footer": {
+    "resources": "Recursos",
+    "docs": "Documentos",
+    "blog": "Blogue",
+    "configuration": "Configuração",
+    "issues": "Problemas",
+    "rate-us": "Nos avalie",
+    "discussion": "Discussão",
+    "test": "Formulário prático",
+    "about": "Sobre",
+    "contact": "Contato",
+    "chat": "Bater papo",
+    "connect": "Conectar",
+    "google-group": "Grupo do Google",
+    "privacy": "Política de Privacidade",
+    "social": "Social",
+    "discord": "Discórdia",
+    "youtube": "YouTube",
+    "facebook": "Facebook",
+    "whatsapp": "Whatsapp",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "github": "GitHub"
+  },
+  "toast": {
+    "configuration": {
+      "addConfig": {
+        "header": "Configuração",
+        "body": "[{{name}}] adicionado com sucesso"
+      },
+      "duplicateConfig": {
+        "header": "Configuração",
+        "body": "[{{name}}] duplicado com sucesso"
+      },
+      "removeConfig": {
+        "header": "Configuração",
+        "body": "[{{name}}] removido com sucesso"
+      },
+      "exportAll": {
+        "header": "Exportação em massa",
+        "body": "Configurações exportadas com sucesso"
+      },
+      "importAll": {
+        "header": "Importação em massa",
+        "body": "Configurações importadas com sucesso"
+      },
+      "importError": {
+        "header": "Erro de importação"
+      },
+      "importSuccess": {
+        "header": "Configuração",
+        "body": "[{{name}}] importado com sucesso"
+      },
+      "updateBatch": {
+        "header": "Lote",
+        "body": "lote salvo com sucesso!"
+      }
+    },
+    "action": {
+      "save": {
+        "header": "Ações",
+        "body": "ações salvas com sucesso!"
+      }
+    }
+  },
+  "confirm": {
+    "configuration": {
+      "remove": {
+        "title": "Remover configuração",
+        "message": "Tem certeza de que deseja remover a configuração [{{name}}]?"
+      }
+    },
+    "backup": {
+      "restore": {
+        "title": "Restaurar configurações da nuvem",
+        "message": "Tem certeza de que deseja restaurar as configurações da nuvem. Ele substituirá todas as suas configurações e este processo não é reversível."
+      }
+    },
+    "action": {
+      "remove": {
+        "title": "Remover ação",
+        "message": "Tem certeza de que deseja remover a ação [{{name}}]?"
+      }
+    },
+    "userscript": {
+      "remove": {
+        "title": "Remover script do usuário",
+        "message": "Tem certeza de que deseja remover o script de usuário [{{name}}]?"
+      }
+    }
+  },
+  "modal": {
+    "settings": {
+      "title": "Configurações globais",
+      "checkIFrames": "Verifique IFrames",
+      "checkIFramesHint": "Isso verifica o elemento dentro dos iFrames",
+      "reloadOnError": "Recarregar em caso de erros",
+      "reloadOnErrorHint": "Esta página recarrega se ocorrer algum erro",
+      "advance": "Avançar",
+      "advanceHint": "Ative o modo avançado para mais recursos",
+      "notification": {
+        "title": "Mostrar notificação",
+        "error": "em Ocorreu um erro",
+        "action": "na conclusão da ação",
+        "batch": "na conclusão do lote",
+        "config": "na conclusão da configuração",
+        "sound": "Som de notificação",
+        "discord": {
+          "title": "Notificação no Discord",
+          "hint": "Você precisa fazer login e ingressar em nosso <1>servidor Discord</1> para receber notificações no Discord",
+          "info": "Seu recurso atualmente em desenvolvimento e pode passar para notificação específica <b>de ação</b> no próximo lançamento"
+        }
+      },
+      "statusBar": {
+        "title": "Barra de status",
+        "hint": "Mostrar barra de status na parte inferior da página",
+        "hide": "Esconder",
+        "top-left": "Canto superior esquerdo",
+        "top-right": "Canto superior direito",
+        "bottom-left": "Inferior esquerdo",
+        "bottom-right": "Canto inferior direito"
+      },
+      "retry": {
+        "title": "Tentar novamente",
+        "interval": "Intervalo de repetição",
+        "stop": "Parar",
+        "skip": "Pular não encontrado",
+        "refresh": "Atualizar",
+        "hint": "Abaixo estão as ações que podem ser executadas se o xpath não for encontrado por extensão após nova tentativa"
+      },
+      "backup": {
+        "title": "Cópia de segurança",
+        "last-backup": "Ultimo Back up:",
+        "backup": "Backup na nuvem",
+        "restore": "Restaurar da nuvem",
+        "now": "Faça backup agora",
+        "auto-backup": "Backup automático",
+        "daily": "Diário",
+        "weekly": "Semanalmente",
+        "monthly": "Por mês",
+        "off": "Desligado"
+      },
+      "saveMessage": "Configurações salvas com sucesso!"
+    },
+    "configSettings": {
+      "title": "Configurações",
+      "start": "Começar",
+      "auto": "Auto",
+      "autoHint": "<b>Automático</b> (padrão) quando o navegador é atualizado ou uma nova página é carregada, a extensão carrega automaticamente com ele",
+      "manual": "Manual",
+      "manualHint": "<b>Manual</b> , uma vez carregado o navegador, o usuário pode invocar manualmente a extensão usando a tecla de atalho",
+      "extensionLoad": "Carga de extensão",
+      "window": "Janela",
+      "windowHint": "O navegador <b>de janela</b> (padrão) carrega a extensão assim que todo o seu conteúdo é carregado",
+      "document": "Documento",
+      "hotkey": "Tecla de atalho",
+      "documentHint": "O navegador <b>de documentos</b> carrega a extensão antes que os scripts e imagens sejam carregados (mais rápido) (inseguro)",
+      "triggerUrlChange": "Acionar na alteração de URL",
+      "triggerUrlChangeHint": "<b>A alteração do URL do gatilho</b> acionará a configuração se o URL for alterado sem recarregar a página (como no SPA)",
+      "urlMatch": "Correspondência de URL",
+      "regex": "Regex",
+      "exact": "Exato"
+    },
+    "reorder": {
+      "title": "Reordenar configurações",
+      "hint": "Salve todas as configurações antes de fazer um novo pedido"
+    },
+    "extensionNotFound": {
+      "title": "Extensão não encontrada",
+      "subTitle": "Esta é a página de configuração da extensão <b>{{VITE_PUBLIC_NAME}}</b>",
+      "hint": "Você precisa baixar a extensão primeiro para poder usar esta"
+    },
+    "actionSettings": {
+      "title": "Configurações de ação",
+      "info": "As configurações de ação substituirão as configurações globais e são aplicáveis tanto à ação quanto à sua condição adicional",
+      "iframeFirst": "Iframe primeiro",
+      "iframeFirstHint": "Isso verifica o elemento primeiro no iframe e depois na página principal",
+      "retry": {
+        "title": "Tentar novamente",
+        "hint": "* Abaixo estão as ações que podem ser executadas se o xpath não for encontrado por extensão após nova tentativa",
+        "interval": "Intervalo de repetição",
+        "stop": "Parar",
+        "skip": "Pular ação",
+        "goto": "Ir para ação",
+        "refresh": "Atualizar"
+      }
+    },
+    "actionCondition": {
+      "action": "Ação",
+      "status": "Status",
+      "title": "Condição de Ação",
+      "info": "As condições de ação são usadas para adicionar condições relacionadas ao status da ação anterior",
+      "skip": "Pular ação",
+      "goto": "Ir para ação",
+      "proceed": "Continuar Ação",
+      "hint": "Abaixo estão as ações que podem ser executadas se a condição não for correspondida pela extensão"
+    },
+    "ads": {
+      "title": "Por favor, permita anúncios em nosso site",
+      "subTitle": "Quais dessas extensões você possui?"
+    },
+    "addon": {
+      "title": "Adicionar",
+      "info": "A condição de adição será verificada antes de executar a ação",
+      "elementFinder": "Localizador de elementos",
+      "condition": "Doença",
+      "value": "Valor",
+      "valueExtractor": "Extrator de valor",
+      "recheck": {
+        "title": "Verifique novamente",
+        "hint": "* Abaixo estão as ações que podem ser executadas se a nova verificação não corresponder à extensão após a nova verificação",
+        "interval": "Verifique novamente o intervalo",
+        "stop": "Parar",
+        "skip": "Pular ação",
+        "refresh": "Atualizar",
+        "goto": "Ir para ação"
+      }
+    },
+    "schedule": {
+      "title": "Agendar",
+      "info": "Configuração de agendamento para data e hora específicas",
+      "date": "Data",
+      "time": "Tempo",
+      "repeat": "Repita"
+    }
+  },
+  "message": {
+    "config": "Configuração salva com sucesso!",
+    "configSettings": "Configuração salva com sucesso!",
+    "batch": "Lote salvo com sucesso!",
+    "action": "Ação salva com sucesso!",
+    "reorderActions": "Ação reordenada com sucesso!",
+    "removeAction": "Ação removida com sucesso!",
+    "actionAddon": "Addon salvo com sucesso!",
+    "actionStatement": "Ação Condição salva com sucesso!",
+    "actionSettings": "Configurações de ação salvas com sucesso!",
+    "schedule": "Agenda salva com sucesso!"
+  },
+  "configuration": {
+    "title": "Configuração",
+    "add": "Nova configuração",
+    "exportAll": "Configuração de exportação em massa",
+    "importAll": "Configuração de importação em massa",
+    "remove": "Remover configuração",
+    "duplicate": "Configuração duplicada",
+    "reorder": "Reordenar configurações",
+    "removeConfigs": "Configuração de remoção em massa",
+    "settings": "Definições de configuração",
+    "enable": "Habilitar",
+    "export": "Exportar configuração",
+    "import": "Configuração de importação",
+    "url": "URL",
+    "name": "Nome",
+    "initWait": "Iniciar espera",
+    "startTime": "Hora de início",
+    "noConfig": "Nenhuma configuração encontrada. Refine sua pesquisa."
+  },
+  "batch": {
+    "title": "Lote",
+    "repeat": "Repita",
+    "repeatHint": "<b>A repetição</b> executará novamente todas as ações sem recarregar a página com o intervalo fornecido.",
+    "repeatInterval": "Intervalo R",
+    "refresh": "Atualizar",
+    "refreshHint": "<b>Atualizar</b> irá recarregar a página assim que todas as ações forem concluídas."
+  },
+  "error": {
+    "number": "Somente números válidos são permitidos",
+    "interval": "Somente números válidos são permitidos",
+    "url": "O URL é obrigatório",
+    "initWait": "Somente números válidos são permitidos",
+    "scheduleDate": "A data do agendamento deve corresponder ao formato AAAA-MM-DD (2025-12-01)",
+    "scheduleTime": "O horário agendado deve corresponder ao formato HH:mm:ss.sss (23:59:59.000)",
+    "scheduleRepeat": "A repetição do agendamento deve ser apenas numérica",
+    "startTime": "A hora de início deve corresponder ao formato HH:mm:ss:fff (12:12:12:000)",
+    "json": "Json selecionado não é válido",
+    "hotKey": "Uma única letra sem Ctrl/Command não é válida",
+    "valueExtractor": "Não é um regex válido",
+    "value": "Valor é requerido",
+    "condition": "A condição é obrigatória",
+    "elementFinder": "O Localizador de Elementos é obrigatório"
+  },
+  "action": {
+    "title": "Ação",
+    "add": "Adicionar ação",
+    "addBefore": "Adicionar ação acima",
+    "addAfter": "Adicione ação abaixo",
+    "addon": "Adicionar",
+    "remove": "Remover ação",
+    "settings": "Configurações de ação",
+    "disable": "Desabilitar ação",
+    "enable": "Habilitar ação",
+    "initWait": "Iniciar espera",
+    "name": "Nome",
+    "elementFinder": "Localizador de elementos",
+    "value": "Valor",
+    "repeat": "Repita",
+    "repeatInterval": "Intervalo R"
+  },
+  "userscript": {
+    "add": "Adicionar script de usuário"
+  },
+  "popover": {
+    "valueExtractor": {
+      "title": "Exemplos"
+    },
+    "startTime": {
+      "content": "Experimente &lt;1&gt;URL do agendamento</1> nossa nova extensão de navegador.<br /> é usado para agendar uma página da web/URL em um determinado dia e hora"
+    },
+    "hotkey": {
+      "title": "Tecla de atalho",
+      "content": "Pressione a tecla de atalho no teclado para digitar automaticamente no campo",
+      "hint": "Uma única letra sem <kbd>Ctrl</kbd> , <kbd>Alt</kbd> ou <kbd>Shift</kbd> não é válida"
+    }
+  },
+  "common": {
+    "appName": "Clicker automático - Preenchimento automático",
+    "settings": "Configurações",
+    "error": "Erro",
+    "save": "Salvar",
+    "clear": "Claro",
+    "close": "Fechar",
+    "download": "Download",
+    "disabled": "Desabilitado",
+    "sec": "segundo",
+    "min": "min",
+    "no": "Não",
+    "yes": "Sim",
+    "local": "LOCAL",
+    "dev": "DEV",
+    "stable": "ESTÁBULO",
+    "examples": "Exemplos"
+  },
+  "language": {
+    "en": "Inglês",
+    "fr": "Francês",
+    "ko": "coreano",
+    "ca": "Canadá",
+    "hi": "hindi",
+    "zh_CN": "chinês",
+    "zh_TW": "Chinês Tradicional",
+    "sv": "sueco",
+    "pt": "Português",
+    "ja": "japonês",
+    "nl": "Holandês",
+    "de": "Alemão",
+    "es": "Espanhol",
+    "vi": "vietnamita",
+    "fi": "finlandês",
+    "ar": "árabe",
+    "it": "italiano",
+    "ru": "russo",
+    "id": "indonésio"
+  }
+}

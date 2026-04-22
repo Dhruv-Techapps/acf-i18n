@@ -1,0 +1,365 @@
+{
+  "header": {
+    "theme": {
+      "light": "Zum hellen Design wechseln",
+      "dark": "Zum dunklen Design wechseln"
+    },
+    "google-group": "Google-Gruppe",
+    "login": "Anmeldung",
+    "logout": "Ausloggen",
+    "settings": "Globale Einstellungen"
+  },
+  "footer": {
+    "resources": "Ressourcen",
+    "docs": "Dokumentation",
+    "blog": "Der Blog",
+    "configuration": "Aufbau",
+    "issues": "Probleme",
+    "rate-us": "Bewerten Sie uns",
+    "discussion": "Diskussion",
+    "test": "Übungsformular",
+    "about": "Um",
+    "contact": "Kontakt",
+    "chat": "Plaudern",
+    "connect": "Verbinden",
+    "google-group": "Google-Gruppe",
+    "privacy": "Datenschutzrichtlinie",
+    "social": "Sozial",
+    "discord": "Zwietracht",
+    "youtube": "Youtube",
+    "facebook": "Facebook",
+    "whatsapp": "Whatsapp",
+    "instagram": "BIKE24 nutzt für den genannten Dienst die technische Plattform von Instagram (Facebook Ireland Ltd., 4 Grand Canal Square, Dublin 2,",
+    "twitter": "Þjórsárden",
+    "github": "Github"
+  },
+  "toast": {
+    "configuration": {
+      "addConfig": {
+        "header": "Aufbau",
+        "body": "[{{name}}] erfolgreich hinzugefügt"
+      },
+      "duplicateConfig": {
+        "header": "Aufbau",
+        "body": "[{{name}}] erfolgreich dupliziert"
+      },
+      "removeConfig": {
+        "header": "Aufbau",
+        "body": "[{{name}}] erfolgreich entfernt"
+      },
+      "exportAll": {
+        "header": "Massenexport",
+        "body": "Konfigurationen erfolgreich exportiert"
+      },
+      "importAll": {
+        "header": "Massenimport",
+        "body": "Konfigurationen erfolgreich importiert"
+      },
+      "importError": {
+        "header": "Importfehler"
+      },
+      "importSuccess": {
+        "header": "Aufbau",
+        "body": "[{{name}}] erfolgreich importiert"
+      },
+      "updateBatch": {
+        "header": "Charge",
+        "body": "Stapel erfolgreich gespeichert!"
+      }
+    },
+    "action": {
+      "save": {
+        "header": "Aktionen",
+        "body": "Aktionen erfolgreich gespeichert!"
+      }
+    }
+  },
+  "confirm": {
+    "configuration": {
+      "remove": {
+        "title": "Konfiguration entfernen",
+        "message": "Möchten Sie die [{{name}}]-Konfiguration wirklich entfernen?"
+      }
+    },
+    "backup": {
+      "restore": {
+        "title": "Konfigurationen aus der Cloud wiederherstellen",
+        "message": "Möchten Sie die Konfigurationen wirklich aus der Cloud wiederherstellen? Dadurch werden alle Ihre Konfigurationen ersetzt und dieser Vorgang ist nicht umkehrbar."
+      }
+    },
+    "action": {
+      "remove": {
+        "title": "Aktion entfernen",
+        "message": "Möchten Sie die Aktion [{{name}}] wirklich entfernen?"
+      }
+    },
+    "userscript": {
+      "remove": {
+        "title": "Benutzerskript entfernen",
+        "message": "Möchten Sie das Benutzerskript [{{name}}] wirklich entfernen?"
+      }
+    }
+  },
+  "modal": {
+    "settings": {
+      "title": "Globale Einstellungen",
+      "checkIFrames": "IFrames prüfen",
+      "checkIFramesHint": "Dies prüft Elemente innerhalb von iFrames",
+      "reloadOnError": "Bei Fehlern neu laden",
+      "reloadOnErrorHint": "Dies lädt die Seite neu, wenn ein Fehler auftritt",
+      "advance": "Vorauszahlung",
+      "advanceHint": "Aktivieren Sie den erweiterten Modus für weitere Funktionen",
+      "notification": {
+        "title": "Benachrichtigung anzeigen",
+        "error": "am Fehler ist aufgetreten",
+        "action": "bei Abschluss der Aktion",
+        "batch": "bei Batch-Abschluss",
+        "config": "bei Konfigurationsabschluss",
+        "sound": "Benachrichtigungston",
+        "discord": {
+          "title": "Benachrichtigung auf Discord",
+          "hint": "Sie müssen sich anmelden und unserem <1>Discord-Server</1> beitreten, um Benachrichtigungen auf Discord zu erhalten.",
+          "info": "Es befindet sich derzeit in der Entwicklung und die Funktion wird in der nächsten Version möglicherweise zu <b>einer aktionsspezifischen</b> Benachrichtigung wechseln."
+        }
+      },
+      "statusBar": {
+        "title": "Statusleiste",
+        "hint": "Statusleiste unten auf der Seite anzeigen",
+        "hide": "Verstecken",
+        "top-left": "Oben links",
+        "top-right": "Oben rechts",
+        "bottom-left": "Unten links",
+        "bottom-right": "Unten rechts"
+      },
+      "retry": {
+        "title": "Wiederholen",
+        "interval": "Wiederholungsintervall",
+        "stop": "Stoppen",
+        "skip": "Überspringen – Nicht gefunden",
+        "refresh": "Aktualisierung",
+        "hint": "Nachfolgend finden Sie die Aktionen, die ausgeführt werden können, wenn XPath nach einem erneuten Versuch nicht von der Erweiterung gefunden wird."
+      },
+      "backup": {
+        "title": "Sicherung",
+        "last-backup": "Letztes Backup:",
+        "backup": "Backup in die Cloud",
+        "restore": "Wiederherstellung aus der Cloud",
+        "now": "Jetzt sichern",
+        "auto-backup": "Automatische Sicherung",
+        "daily": "Täglich",
+        "weekly": "Wöchentlich",
+        "monthly": "Monatlich",
+        "off": "Aus"
+      },
+      "saveMessage": "Einstellungen erfolgreich gespeichert!"
+    },
+    "configSettings": {
+      "title": "Konfigurationseinstellungen",
+      "start": "Start",
+      "auto": "Auto",
+      "autoHint": "<b>Automatisch</b> (Standard) Sobald der Browser aktualisiert oder eine neue Seite geladen wird, wird die Erweiterung automatisch mitgeladen.",
+      "manual": "Handbuch",
+      "manualHint": "<b>Manuell:</b> Sobald der Browser geladen ist, kann der Benutzer die Erweiterung manuell per Hotkey aufrufen",
+      "extensionLoad": "Erweiterungslast",
+      "window": "Fenster",
+      "windowHint": "<b>Der Windows</b> -Browser (Standard) lädt die Erweiterung, sobald der gesamte Inhalt geladen ist.",
+      "document": "Dokumentieren",
+      "hotkey": "Tastenkombination",
+      "documentHint": "<b>Der Dokumentenbrowser</b> lädt die Erweiterung, bevor Skripte und Bilder geladen werden (schneller) (unsicher)",
+      "triggerUrlChange": "Auslöser bei URL-Änderung",
+      "triggerUrlChangeHint": "<b>„URL-Änderung auslösen“</b> löst die Konfiguration aus, wenn die URL ohne Neuladen der Seite geändert wird (wie in SPA).",
+      "urlMatch": "URL-Übereinstimmung",
+      "regex": "Regulärer Ausdruck",
+      "exact": "Genau"
+    },
+    "reorder": {
+      "title": "Konfigurationen neu anordnen",
+      "hint": "Bitte speichern Sie alle Konfigurationen vor einer Neubestellung"
+    },
+    "extensionNotFound": {
+      "title": "Erweiterung nicht gefunden",
+      "subTitle": "Dies ist die Konfigurationsseite für <b>die {{VITE_PUBLIC_NAME}}-</b> Erweiterung",
+      "hint": "Sie müssen zuerst die Erweiterung herunterladen, um diese nutzen zu können"
+    },
+    "actionSettings": {
+      "title": "Aktionseinstellungen",
+      "info": "Aktionseinstellungen überschreiben globale Einstellungen und gelten sowohl für die Aktion als auch für deren Add-On-Bedingung.",
+      "iframeFirst": "Iframe zuerst",
+      "iframeFirstHint": "Dadurch wird zuerst das Element im Iframe und dann auf der Hauptseite überprüft.",
+      "retry": {
+        "title": "Wiederholen",
+        "hint": "* Nachfolgend sind die Aktionen aufgeführt, die ausgeführt werden können, wenn XPath nach einem erneuten Versuch nicht von der Erweiterung gefunden wird.",
+        "interval": "Wiederholungsintervall",
+        "stop": "Stoppen",
+        "skip": "Aktion überspringen",
+        "goto": "Gehe zu Aktion",
+        "refresh": "Aktualisierung"
+      }
+    },
+    "actionCondition": {
+      "action": "Aktion",
+      "status": "Status",
+      "title": "Aktionsbedingung",
+      "info": "Aktionsbedingungen werden verwendet, um Bedingungen hinzuzufügen, die sich auf den vorherigen Aktionsstatus beziehen.",
+      "skip": "Aktion überspringen",
+      "goto": "Gehe zu Aktion",
+      "proceed": "Aktion fortsetzen",
+      "hint": "Nachfolgend finden Sie die Aktionen, die ausgeführt werden können, wenn die Bedingung nicht durch die Erweiterung erfüllt wird."
+    },
+    "ads": {
+      "title": "Bitte erlauben Sie Anzeigen auf unserer Site",
+      "subTitle": "Welche dieser Erweiterungen hast du?"
+    },
+    "addon": {
+      "title": "Hinzufügen Auf",
+      "info": "Die Bedingung zum Hinzufügen wird vor der Ausführung der Aktion überprüft.",
+      "elementFinder": "Elementfinder",
+      "condition": "Zustand",
+      "value": "Wert",
+      "valueExtractor": "Werteextraktor",
+      "recheck": {
+        "title": "Erneut prüfen",
+        "hint": "* Nachfolgend sind die Aktionen aufgeführt, die ausgeführt werden können, wenn die erneute Überprüfung nicht mit der Erweiterung übereinstimmt.",
+        "interval": "Prüfintervall",
+        "stop": "Stoppen",
+        "skip": "Aktion überspringen",
+        "refresh": "Aktualisierung",
+        "goto": "Gehe zu Aktion"
+      }
+    },
+    "schedule": {
+      "title": "Zeitplan",
+      "info": "Zeitplankonfiguration für bestimmtes Datum und Uhrzeit",
+      "date": "Datum",
+      "time": "Zeit",
+      "repeat": "Wiederholen"
+    }
+  },
+  "message": {
+    "config": "Konfiguration erfolgreich gespeichert!",
+    "configSettings": "Konfigurationseinstellungen erfolgreich gespeichert!",
+    "batch": "Stapel erfolgreich gespeichert!",
+    "action": "Aktion erfolgreich gespeichert!",
+    "reorderActions": "Aktion erfolgreich neu bestellt!",
+    "removeAction": "Aktion erfolgreich entfernt!",
+    "actionAddon": "Add-on erfolgreich gespeichert!",
+    "actionStatement": "Aktionsbedingung erfolgreich gespeichert!",
+    "actionSettings": "Aktionseinstellungen erfolgreich gespeichert!",
+    "schedule": "Zeitplan erfolgreich gespeichert!"
+  },
+  "configuration": {
+    "title": "Aufbau",
+    "add": "Neue Konfiguration",
+    "exportAll": "Massenexportkonfiguration",
+    "importAll": "Massenimportkonfiguration",
+    "remove": "Konfiguration entfernen",
+    "duplicate": "Doppelte Konfiguration",
+    "reorder": "Neuanordnung der Konfigurationen",
+    "removeConfigs": "Massenentfernen der Konfiguration",
+    "settings": "Konfigurationseinstellungen",
+    "enable": "Aktivieren",
+    "export": "Konfiguration exportieren",
+    "import": "Konfiguration importieren",
+    "url": "URL",
+    "name": "Name",
+    "initWait": "Initialisierung: Warten",
+    "startTime": "Startzeit",
+    "noConfig": "Keine Konfiguration gefunden. Bitte verfeinern Sie Ihre Suche."
+  },
+  "batch": {
+    "title": "Charge",
+    "repeat": "Wiederholen",
+    "repeatHint": "<b>Durch Wiederholen</b> werden alle Aktionen im angegebenen Intervall erneut ausgeführt, ohne dass die Seite neu geladen wird.",
+    "repeatInterval": "R-Intervall",
+    "refresh": "Aktualisierung",
+    "refreshHint": "<b>Durch Aktualisieren</b> wird die Seite neu geladen, sobald alle Aktionen abgeschlossen sind."
+  },
+  "error": {
+    "number": "Es sind nur gültige Nummern zulässig.",
+    "interval": "Es sind nur gültige Nummern zulässig.",
+    "url": "URL ist erforderlich",
+    "initWait": "Es sind nur gültige Nummern zulässig.",
+    "scheduleDate": "Das geplante Datum muss dem Format JJJJ-MM-TT (01.12.2025) entsprechen.",
+    "scheduleTime": "Die geplante Zeit muss dem Format HH:mm:ss.sss (23:59:59.000) entsprechen",
+    "scheduleRepeat": "Die Wiederholung des Zeitplans sollte nur eine Zahl sein",
+    "startTime": "Die Startzeit muss dem Format HH:mm:ss:fff (12:12:12:000) entsprechen.",
+    "json": "Das ausgewählte JSON ist ungültig",
+    "hotKey": "Ein einzelner Buchstabe ohne Strg/Befehl ist ungültig",
+    "valueExtractor": "Kein gültiger regulärer Ausdruck",
+    "value": "Wert erforderlich",
+    "condition": "Kondition ist Voraussetzung",
+    "elementFinder": "Element Finder ist erforderlich"
+  },
+  "action": {
+    "title": "Aktion",
+    "add": "Aktion hinzufügen",
+    "addBefore": "Aktion oben hinzufügen",
+    "addAfter": "Aktion unten hinzufügen",
+    "addon": "Hinzufügen Auf",
+    "remove": "Aktion entfernen",
+    "settings": "Aktionseinstellungen",
+    "disable": "Aktion deaktivieren",
+    "enable": "Aktion aktivieren",
+    "initWait": "Initialisieren – Warten",
+    "name": "Name",
+    "elementFinder": "Elementfinder",
+    "value": "Wert",
+    "repeat": "Wiederholen",
+    "repeatInterval": "R-Intervall"
+  },
+  "userscript": {
+    "add": "Benutzerskript hinzufügen"
+  },
+  "popover": {
+    "valueExtractor": {
+      "title": "Beispiele"
+    },
+    "startTime": {
+      "content": "Versuchen Sie &lt;1&gt; URL planen</1> unsere neue Browsererweiterung.<br /> Es wird verwendet, um Webseiten/URLs für einen bestimmten Tag und eine bestimmte Uhrzeit zu planen."
+    },
+    "hotkey": {
+      "title": "Tastenkombination",
+      "content": "Drücken Sie die Tastenkombination auf der Tastatur, um automatisch in das Feld einzutippen.",
+      "hint": "Ein einzelner Buchstabe ohne <kbd>Strg</kbd> , <kbd>Alt</kbd> oder <kbd>Umschalt</kbd> ist ungültig"
+    }
+  },
+  "common": {
+    "appName": "Auto Clicker - AutoFill",
+    "settings": "Einstellungen",
+    "error": "Fehler",
+    "save": "Speichern",
+    "clear": "Klar",
+    "close": "Schließen",
+    "download": "Herunterladen",
+    "disabled": "Deaktiviert",
+    "sec": "Sek",
+    "min": "Min",
+    "no": "NEIN",
+    "yes": "Ja",
+    "local": "LOKAL",
+    "dev": "ENTWICKLER",
+    "stable": "STABIL",
+    "examples": "Beispiele"
+  },
+  "language": {
+    "en": "Englisch",
+    "fr": "Französisch",
+    "ko": "Koreanisch",
+    "ca": "Kanada",
+    "hi": "Hindi",
+    "zh_CN": "Chinesisch",
+    "zh_TW": "Traditionelles Chinesisch",
+    "sv": "Schwedisch",
+    "pt": "Portugiesisch",
+    "ja": "japanisch",
+    "nl": "Niederländisch",
+    "de": "Deutsch",
+    "es": "Spanisch",
+    "vi": "Vietnamesisch",
+    "fi": "finnisch",
+    "ar": "Arabisch",
+    "it": "Italienisch",
+    "ru": "Russisch",
+    "id": "Indonesisch"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "EXT_NAME": {
+    "message": "Clicker Otomatis - IsiOtomatis"
+  },
+  "EXT_NAME_DEV": {
+    "message": "Clicker Otomatis - IsiOtomatis [DEV]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "Pengklik Otomatis - IsiOtomatis [BETA]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "Clicker Otomatis - IsiOtomatis [LOKAL]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "Isi Otomatis"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "Bidang masukan IsiOtomatis atau tombol klik otomatis atau tautkan apa saja di mana saja. Anda dapat mengonfigurasi dan memeriksa uji kecepatan klik"
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "Cadangan ACF"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "Konfigurasi dicadangkan di Google Drive pada $1"
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "Konfigurasi dipulihkan dari Google Drive. Segarkan halaman konfigurasi untuk memuat konten."
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "Tidak ada konfigurasi yang ditemukan untuk dicadangkan"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "Tidak ada konten yang ditemukan dalam file"
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "tidak dikonfigurasi"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "metode proses tidak ditemukan"
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "★ Konfigurasi untuk Bidang ini"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ Konfigurasi berdasarkan Posisi"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ Panel Samping/☉ Rekaman"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ Buka Halaman Konfigurasi"
+  },
+  "@TABS__TITLE": {
+    "message": "tab"
+  },
+  "@TABS__ERROR": {
+    "message": "Tidak dapat menemukan tab atau ID tab yang ditentukan."
+  },
+  "@ACTION__TITLE": {
+    "message": "Tindakan"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "Skrip Pengguna"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "tanpa nama"
+  },
+  "@ADDON__TITLE": {
+    "message": "Tambahan"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "Kondisi Aksi"
+  },
+  "@BATCH__TITLE": {
+    "message": "Kelompok"
+  },
+  "@CONFIG__TITLE": {
+    "message": "Konfigurasi"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "Pencari Elemen kosong"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "kondisi tidak cocok."
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "Perbandingan yang salah"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "Lebih besar atau kurang dari operator hanya dapat membandingkan angka"
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "Pencari elemen atau kondisi tambahan salah"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "Element Finder harus menargetkan kotak centang"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "Pencari elemen tidak valid"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "Tidak Ditemukan - BERHENTI"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "Tidak Ditemukan - MUAT ULANG"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "Tindakan tidak ditemukan untuk Goto"
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "Tidak ada elemen yang ditemukan dengan pemilih yang diberikan"
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "Silakan kunjungi halaman konfigurasi untuk meninjau dan memperbarui Kondisi Tindakan guna memastikan konfigurasi diperbarui dengan benar."
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "Kondisi Memuaskan"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "Kondisi Tidak Memuaskan"
+  },
+  "@ERROR": {
+    "message": "Kesalahan"
+  },
+  "@SCHEDULE": {
+    "message": "Jadwal"
+  },
+  "@REPEAT": {
+    "message": "mengulang"
+  },
+  "@COMPLETED": {
+    "message": "Lengkap"
+  },
+  "@DEFAULT": {
+    "message": "bawaan"
+  },
+  "@WAIT": {
+    "message": "Tunggu"
+  },
+  "@DISABLED": {
+    "message": "Dengan disabilitas"
+  },
+  "@RESULT": {
+    "message": "Hasil"
+  },
+  "@GOTO": {
+    "message": "Pergi ke"
+  },
+  "@RECHECK": {
+    "message": "periksa ulang"
+  },
+  "@COMPARE": {
+    "message": "Membandingkan"
+  },
+  "@RECHECK_OPTION": {
+    "message": "Opsi Periksa Ulang"
+  },
+  "@DOCS": {
+    "message": "dokumen"
+  },
+  "@CHAT": {
+    "message": "Mengobrol"
+  },
+  "@ADVANCE": {
+    "message": "Maju"
+  },
+  "@SPONSOR": {
+    "message": "Sponsor"
+  }
+}

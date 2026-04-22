@@ -1,0 +1,170 @@
+{
+  "EXT_NAME": {
+    "message": "Auto Clicker - AutoFill"
+  },
+  "EXT_NAME_DEV": {
+    "message": "Auto Clicker - AutoFill [DEV]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "Auto Clicker - AutoFill [BETA]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "Auto Clicker - AutoFill [LOKAL]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "Automatisch ausfüllen"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "Eingabefelder automatisch ausfüllen oder automatisch auf Schaltflächen klicken oder beliebige Links einfügen. Sie können den Klickgeschwindigkeitstest konfigurieren und überprüfen."
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "ACF-Sicherung"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "Konfigurationen werden auf Google Drive unter $1 gesichert."
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "Konfigurationen werden von Google Drive wiederhergestellt. Aktualisieren Sie die Konfigurationsseite, um den Inhalt zu laden."
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "Keine zu sichernden Konfigurationen gefunden"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "Kein Inhalt in der Datei gefunden"
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "ist nicht konfiguriert"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "Die Prozessmethode wurde nicht gefunden."
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "★ Für dieses Feld konfigurieren"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ Nach Position konfigurieren"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ Seitenwand/☉ Aufnahme"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ Konfigurationsseite öffnen"
+  },
+  "@TABS__TITLE": {
+    "message": "Registerkarten"
+  },
+  "@TABS__ERROR": {
+    "message": "Die angegebene Registerkarte oder Registerkarten-ID konnte nicht gefunden werden."
+  },
+  "@ACTION__TITLE": {
+    "message": "Aktion"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "Benutzerskript"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "kein Name"
+  },
+  "@ADDON__TITLE": {
+    "message": "Hinzufügen Auf"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "Aktionsbedingung"
+  },
+  "@BATCH__TITLE": {
+    "message": "Charge"
+  },
+  "@CONFIG__TITLE": {
+    "message": "Konfiguration"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "Der Elementfinder ist leer"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "Bedingung stimmte nicht überein."
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "Falscher Vergleich"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "Größer-als- oder Kleiner-als-Operatoren können nur Zahlen vergleichen"
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "Falscher Elementfinder oder Addon-Bedingung"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "Der Elementfinder sollte auf ein Kontrollkästchen abzielen"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "Ungültiger Elementfinder"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "Nicht gefunden - STOP"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "Nicht gefunden – NEU LADEN"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "Für „Gehe zu“ wurde keine Aktion gefunden."
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "Mit dem angegebenen Selektor wurde kein Element gefunden"
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "Bitte besuchen Sie die Konfigurationsseite, um die Aktionsbedingung zu überprüfen und zu aktualisieren, damit sichergestellt ist, dass die Konfiguration ordnungsgemäß aktualisiert wird."
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "Bedingung erfüllt"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "Bedingung nicht erfüllt"
+  },
+  "@ERROR": {
+    "message": "Fehler"
+  },
+  "@SCHEDULE": {
+    "message": "Zeitplan"
+  },
+  "@REPEAT": {
+    "message": "wiederholen"
+  },
+  "@COMPLETED": {
+    "message": "Vollendet"
+  },
+  "@DEFAULT": {
+    "message": "Standard"
+  },
+  "@WAIT": {
+    "message": "Warten"
+  },
+  "@DISABLED": {
+    "message": "Deaktiviert"
+  },
+  "@RESULT": {
+    "message": "Ergebnis"
+  },
+  "@GOTO": {
+    "message": "Gehe zu"
+  },
+  "@RECHECK": {
+    "message": "erneut prüfen"
+  },
+  "@COMPARE": {
+    "message": "Vergleichen"
+  },
+  "@RECHECK_OPTION": {
+    "message": "Option erneut prüfen"
+  },
+  "@DOCS": {
+    "message": "Dokumentation"
+  },
+  "@CHAT": {
+    "message": "Plaudern"
+  },
+  "@ADVANCE": {
+    "message": "Vorauszahlung"
+  },
+  "@SPONSOR": {
+    "message": "Sponsor"
+  }
+}

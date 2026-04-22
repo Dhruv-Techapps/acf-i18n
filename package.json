@@ -1,0 +1,9 @@
+{
+  "name": "@dhruv-techapps/acf-i18n",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "translate-web": "node src/translate-web.mjs",
+    "translate-message": "node src/translate-message.mjs"
+  }
+}

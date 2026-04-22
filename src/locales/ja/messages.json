@@ -1,0 +1,170 @@
+{
+  "EXT_NAME": {
+    "message": "オートクリッカー - オートフィル"
+  },
+  "EXT_NAME_DEV": {
+    "message": "オートクリッカー - オートフィル [DEV]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "オートクリッカー - オートフィル [ベータ版]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "オートクリッカー - オートフィル [ローカル]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "自動入力"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "入力フィールドの自動入力やボタンの自動クリック、または任意の場所へのリンク。クリック速度テストを設定して確認できます。"
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "ACF バックアップ"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "設定は Google ドライブに $1 でバックアップされています"
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "設定は Google ドライブから復元されます。コンテンツを読み込むには、設定ページを更新してください。"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "バックアップする構成が見つかりません"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "ファイル内にコンテンツが見つかりません"
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "設定されていません"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "プロセスメソッドが見つかりません"
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "★ このフィールドの設定"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ 位置で設定"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ サイドパネル/☉ 記録"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ 設定ページを開く"
+  },
+  "@TABS__TITLE": {
+    "message": "タブ"
+  },
+  "@TABS__ERROR": {
+    "message": "指定されたタブまたはタブ ID が見つかりません。"
+  },
+  "@ACTION__TITLE": {
+    "message": "アクション"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "ユーザースクリプト"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "ノーネーム"
+  },
+  "@ADDON__TITLE": {
+    "message": "アドオン"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "アクション条件"
+  },
+  "@BATCH__TITLE": {
+    "message": "バッチ"
+  },
+  "@CONFIG__TITLE": {
+    "message": "設定"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "要素ファインダーが空白です"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "条件が一致しませんでした。"
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "誤った比較"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "より大きいまたはより小さい演算子は数値のみを比較できます"
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "要素ファインダーまたはアドオン条件が正しくありません"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "要素ファインダーはチェックボックスをターゲットにする必要があります"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "無効な要素ファインダー"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "見つかりません - 停止"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "見つかりません - 再読み込み"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "Goto のアクションが見つかりません"
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "指定されたセレクターで要素が見つかりません"
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "構成が適切に更新されるように、構成ページにアクセスしてアクション条件を確認して更新してください。"
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "条件を満たしました"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "条件が満たされていない"
+  },
+  "@ERROR": {
+    "message": "エラー"
+  },
+  "@SCHEDULE": {
+    "message": "スケジュール"
+  },
+  "@REPEAT": {
+    "message": "繰り返す"
+  },
+  "@COMPLETED": {
+    "message": "完了"
+  },
+  "@DEFAULT": {
+    "message": "デフォルト"
+  },
+  "@WAIT": {
+    "message": "待って"
+  },
+  "@DISABLED": {
+    "message": "無効"
+  },
+  "@RESULT": {
+    "message": "結果"
+  },
+  "@GOTO": {
+    "message": "後藤"
+  },
+  "@RECHECK": {
+    "message": "再確認"
+  },
+  "@COMPARE": {
+    "message": "比較する"
+  },
+  "@RECHECK_OPTION": {
+    "message": "再チェックオプション"
+  },
+  "@DOCS": {
+    "message": "ドキュメント"
+  },
+  "@CHAT": {
+    "message": "チャット"
+  },
+  "@ADVANCE": {
+    "message": "前進"
+  },
+  "@SPONSOR": {
+    "message": "スポンサー"
+  }
+}

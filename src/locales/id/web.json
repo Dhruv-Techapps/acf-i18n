@@ -1,0 +1,365 @@
+{
+  "header": {
+    "theme": {
+      "light": "Beralih ke tema terang",
+      "dark": "Beralih ke tema gelap"
+    },
+    "google-group": "Grup Google",
+    "login": "Gabung",
+    "logout": "Keluar",
+    "settings": "Pengaturan global"
+  },
+  "footer": {
+    "resources": "Sumber daya",
+    "docs": "dokumen",
+    "blog": "Blog",
+    "configuration": "Konfigurasi",
+    "issues": "Masalah",
+    "rate-us": "Nilai kami",
+    "discussion": "Diskusi",
+    "test": "Formulir Latihan",
+    "about": "Tentang",
+    "contact": "Kontak",
+    "chat": "Mengobrol",
+    "connect": "Menghubung",
+    "google-group": "Grup Google",
+    "privacy": "Kebijakan pribadi",
+    "social": "Sosial",
+    "discord": "Perselisihan",
+    "youtube": "Youtube",
+    "facebook": "Facebook",
+    "whatsapp": "ada apa",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "github": "Github"
+  },
+  "toast": {
+    "configuration": {
+      "addConfig": {
+        "header": "Konfigurasi",
+        "body": "[{{name}}] berhasil ditambahkan"
+      },
+      "duplicateConfig": {
+        "header": "Konfigurasi",
+        "body": "[{{name}}] berhasil diduplikasi"
+      },
+      "removeConfig": {
+        "header": "Konfigurasi",
+        "body": "[{{name}}] berhasil dihapus"
+      },
+      "exportAll": {
+        "header": "Ekspor Massal",
+        "body": "Konfigurasi berhasil diekspor"
+      },
+      "importAll": {
+        "header": "Impor Massal",
+        "body": "Konfigurasi berhasil diimpor"
+      },
+      "importError": {
+        "header": "Kesalahan Impor"
+      },
+      "importSuccess": {
+        "header": "Konfigurasi",
+        "body": "[{{name}}] berhasil diimpor"
+      },
+      "updateBatch": {
+        "header": "Kelompok",
+        "body": "kumpulan berhasil disimpan!"
+      }
+    },
+    "action": {
+      "save": {
+        "header": "Tindakan",
+        "body": "tindakan berhasil disimpan!"
+      }
+    }
+  },
+  "confirm": {
+    "configuration": {
+      "remove": {
+        "title": "Hapus Konfigurasi",
+        "message": "Apakah Anda yakin untuk menghapus Konfigurasi [{{name}}]?"
+      }
+    },
+    "backup": {
+      "restore": {
+        "title": "Pulihkan Konfigurasi dari cloud",
+        "message": "Apakah Anda yakin untuk memulihkan konfigurasi dari cloud. Ini akan menggantikan semua konfigurasi Anda dan proses ini tidak dapat dibalik."
+      }
+    },
+    "action": {
+      "remove": {
+        "title": "Hapus Tindakan",
+        "message": "Apakah Anda yakin akan menghapus Tindakan [{{name}}]?"
+      }
+    },
+    "userscript": {
+      "remove": {
+        "title": "Hapus Skrip Pengguna",
+        "message": "Apakah Anda yakin untuk menghapus Skrip Pengguna [{{name}}]?"
+      }
+    }
+  },
+  "modal": {
+    "settings": {
+      "title": "Pengaturan global",
+      "checkIFrames": "Periksa IFrame",
+      "checkIFramesHint": "Ini memeriksa elemen dalam iFrames",
+      "reloadOnError": "Muat ulang pada Kesalahan",
+      "reloadOnErrorHint": "Ini memuat ulang halaman jika terjadi kesalahan",
+      "advance": "Maju",
+      "advanceHint": "Aktifkan mode lanjutan untuk lebih banyak fitur",
+      "notification": {
+        "title": "Tunjukkan notifikasi",
+        "error": "pada Terjadi Kesalahan",
+        "action": "pada penyelesaian Tindakan",
+        "batch": "pada penyelesaian Batch",
+        "config": "pada penyelesaian Konfigurasi",
+        "sound": "Suara notifikasi",
+        "discord": {
+          "title": "Pemberitahuan tentang Perselisihan",
+          "hint": "Anda harus masuk dan bergabung dengan <1>server Discord</1> kami untuk menerima pemberitahuan di Discord",
+          "info": "Saat ini sedang dalam pengembangan dan fiturnya mungkin beralih ke pemberitahuan khusus <b>tindakan</b> di rilis mendatang"
+        }
+      },
+      "statusBar": {
+        "title": "Status bar",
+        "hint": "Tampilkan bilah status di bagian bawah halaman",
+        "hide": "Bersembunyi",
+        "top-left": "Kiri Atas",
+        "top-right": "Kanan atas",
+        "bottom-left": "Kiri bawah",
+        "bottom-right": "Kanan bawah"
+      },
+      "retry": {
+        "title": "Mencoba kembali",
+        "interval": "Interval Coba Lagi",
+        "stop": "Berhenti",
+        "skip": "Lewati Tidak Ditemukan",
+        "refresh": "Menyegarkan",
+        "hint": "Di bawah ini adalah tindakan yang dapat dilakukan jika xpath tidak ditemukan dengan ekstensi setelah mencoba lagi"
+      },
+      "backup": {
+        "title": "Cadangan",
+        "last-backup": "Cadangan terakhir:",
+        "backup": "Cadangkan ke Cloud",
+        "restore": "Pulihkan dari Cloud",
+        "now": "Cadangkan Sekarang",
+        "auto-backup": "Pencadangan Otomatis",
+        "daily": "Sehari-hari",
+        "weekly": "Mingguan",
+        "monthly": "Bulanan",
+        "off": "Mati"
+      },
+      "saveMessage": "Pengaturan berhasil disimpan!"
+    },
+    "configSettings": {
+      "title": "Pengaturan Konfigurasi",
+      "start": "Awal",
+      "auto": "Mobil",
+      "autoHint": "<b>Otomatis</b> (default) setelah browser disegarkan atau halaman baru dimuat, ekstensi dimuat secara otomatis dengannya",
+      "manual": "petunjuk",
+      "manualHint": "<b>Manual</b> setelah browser dimuat, pengguna dapat memanggil ekstensi secara manual menggunakan hotkey",
+      "extensionLoad": "Beban Ekstensi",
+      "window": "Jendela",
+      "windowHint": "Browser <b>jendela</b> (default) memuat ekstensi setelah semua kontennya dimuat",
+      "document": "Dokumen",
+      "hotkey": "Tombol pintas",
+      "documentHint": "Browser <b>dokumen</b> memuat ekstensi sebelum skrip dan gambar dimuat (lebih cepat) (tidak aman)",
+      "triggerUrlChange": "Pemicu pada Perubahan URL",
+      "triggerUrlChangeHint": "<b>Pemicu Perubahan URL</b> akan memicu konfigurasi jika URL diubah tanpa memuat ulang halaman (seperti di SPA)",
+      "urlMatch": "Pencocokan URL",
+      "regex": "Regex",
+      "exact": "Akurat"
+    },
+    "reorder": {
+      "title": "Susun Ulang Konfigurasi",
+      "hint": "Harap simpan semua konfigurasi sebelum memesan ulang"
+    },
+    "extensionNotFound": {
+      "title": "Ekstensi Tidak Ditemukan",
+      "subTitle": "Ini adalah halaman konfigurasi untuk ekstensi <b>{{VITE_PUBLIC_NAME}}</b>",
+      "hint": "Anda perlu mengunduh ekstensi terlebih dahulu untuk memanfaatkan ini"
+    },
+    "actionSettings": {
+      "title": "Pengaturan Tindakan",
+      "info": "Pengaturan tindakan akan menggantikan pengaturan global, dan ini berlaku untuk tindakan dan kondisi tambahannya",
+      "iframeFirst": "Iframe Pertama",
+      "iframeFirstHint": "Ini memeriksa elemen dalam iframe terlebih dahulu dan kemudian di halaman utama",
+      "retry": {
+        "title": "Mencoba kembali",
+        "hint": "* Di bawah ini adalah tindakan yang dapat dilakukan jika xpath tidak ditemukan dengan ekstensi setelah mencoba lagi",
+        "interval": "Interval Coba Lagi",
+        "stop": "Berhenti",
+        "skip": "Lewati Tindakan",
+        "goto": "Aksi Goto",
+        "refresh": "Menyegarkan"
+      }
+    },
+    "actionCondition": {
+      "action": "Tindakan",
+      "status": "Status",
+      "title": "Kondisi Aksi",
+      "info": "Kondisi tindakan digunakan untuk menambahkan kondisi yang berkaitan dengan status tindakan sebelumnya",
+      "skip": "Lewati Tindakan",
+      "goto": "Aksi Goto",
+      "proceed": "Lanjutkan Tindakan",
+      "hint": "Berikut adalah tindakan yang dapat dilakukan jika kondisi tidak cocok dengan ekstensi"
+    },
+    "ads": {
+      "title": "Harap izinkan iklan di situs kami",
+      "subTitle": "Di antara ekstensi berikut, manakah yang Anda miliki?"
+    },
+    "addon": {
+      "title": "Tambahan",
+      "info": "Kondisi tambahan akan diperiksa sebelum menjalankan Tindakan",
+      "elementFinder": "Penemu Elemen",
+      "condition": "Kondisi",
+      "value": "Nilai",
+      "valueExtractor": "Ekstraktor Nilai",
+      "recheck": {
+        "title": "Periksa kembali",
+        "hint": "*Di bawah ini adalah tindakan yang dapat dilakukan jika pengecekan ulang tidak dicocokkan dengan perpanjangan setelah pengecekan ulang",
+        "interval": "Periksa kembali Interval",
+        "stop": "Berhenti",
+        "skip": "Lewati Tindakan",
+        "refresh": "Menyegarkan",
+        "goto": "Aksi Goto"
+      }
+    },
+    "schedule": {
+      "title": "Jadwal",
+      "info": "Konfigurasi jadwal untuk tanggal dan waktu tertentu",
+      "date": "Tanggal",
+      "time": "Waktu",
+      "repeat": "Mengulang"
+    }
+  },
+  "message": {
+    "config": "Konfigurasi berhasil disimpan!",
+    "configSettings": "Pengaturan Konfigurasi berhasil disimpan!",
+    "batch": "Batch berhasil disimpan!",
+    "action": "Tindakan berhasil disimpan!",
+    "reorderActions": "Tindakan berhasil disusun ulang!",
+    "removeAction": "Tindakan berhasil dihapus!",
+    "actionAddon": "Addon berhasil disimpan!",
+    "actionStatement": "Kondisi Tindakan berhasil disimpan!",
+    "actionSettings": "Pengaturan Tindakan berhasil disimpan!",
+    "schedule": "Jadwal berhasil disimpan!"
+  },
+  "configuration": {
+    "title": "Konfigurasi",
+    "add": "Konfigurasi Baru",
+    "exportAll": "Konfigurasi Ekspor Massal",
+    "importAll": "Konfigurasi Impor Massal",
+    "remove": "Hapus Konfigurasi",
+    "duplicate": "Konfigurasi Duplikat",
+    "reorder": "Susun Ulang Konfigurasi",
+    "removeConfigs": "Hapus Konfigurasi Secara Massal",
+    "settings": "Pengaturan konfigurasi",
+    "enable": "Memungkinkan",
+    "export": "Konfigurasi Ekspor",
+    "import": "Konfigurasi Impor",
+    "url": "URL",
+    "name": "Nama",
+    "initWait": "Ini tunggu",
+    "startTime": "Waktu mulai",
+    "noConfig": "Tidak Ada Konfigurasi yang Ditemukan, Harap persempit pencarian Anda."
+  },
+  "batch": {
+    "title": "Kelompok",
+    "repeat": "Mengulang",
+    "repeatHint": "<b>Pengulangan</b> akan menjalankan kembali semua tindakan tanpa memuat ulang halaman dengan interval yang diberikan.",
+    "repeatInterval": "R-Interval",
+    "refresh": "Menyegarkan",
+    "refreshHint": "<b>Penyegaran</b> akan memuat ulang halaman setelah semua tindakan selesai."
+  },
+  "error": {
+    "number": "Hanya nomor valid yang diperbolehkan",
+    "interval": "Hanya nomor valid yang diperbolehkan",
+    "url": "URL diperlukan",
+    "initWait": "Hanya nomor valid yang diperbolehkan",
+    "scheduleDate": "Tanggal jadwal harus sesuai dengan format YYYY-MM-DD (2025-12-01)",
+    "scheduleTime": "Jadwal waktu harus sesuai dengan format HH:mm:ss.sss (23:59:59.000)",
+    "scheduleRepeat": "Pengulangan jadwal sebaiknya hanya berupa angka",
+    "startTime": "Waktu mulai harus sesuai dengan format HH:mm:ss:fff (12:12:12:000)",
+    "json": "Json yang dipilih tidak valid",
+    "hotKey": "Satu huruf tanpa Ctrl/Command tidak valid",
+    "valueExtractor": "Bukan ekspresi reguler yang valid",
+    "value": "Nilai Dibutuhkan",
+    "condition": "Kondisi diperlukan",
+    "elementFinder": "Pencari Elemen diperlukan"
+  },
+  "action": {
+    "title": "Tindakan",
+    "add": "Tambahkan Tindakan",
+    "addBefore": "Tambahkan Tindakan Di Atas",
+    "addAfter": "Tambahkan Tindakan Di Bawah",
+    "addon": "Tambahan",
+    "remove": "Hapus Tindakan",
+    "settings": "Pengaturan Tindakan",
+    "disable": "Nonaktifkan Tindakan",
+    "enable": "Aktifkan Tindakan",
+    "initWait": "Ini tunggu",
+    "name": "Nama",
+    "elementFinder": "Penemu Elemen",
+    "value": "Nilai",
+    "repeat": "Mengulang",
+    "repeatInterval": "R-Interval"
+  },
+  "userscript": {
+    "add": "Tambahkan Skrip Pengguna"
+  },
+  "popover": {
+    "valueExtractor": {
+      "title": "Contoh"
+    },
+    "startTime": {
+      "content": "Coba &lt;1&gt;URL Jadwal</1> ekstensi browser baru kami.<br /> ini digunakan untuk menjadwalkan halaman web/URL pada hari dan waktu tertentu"
+    },
+    "hotkey": {
+      "title": "Tombol pintas",
+      "content": "Tekan tombol pintas pada keyboard untuk mengetik secara otomatis di kolom",
+      "hint": "Satu huruf tanpa <kbd>Ctrl</kbd> , <kbd>Alt</kbd> atau <kbd>Shift</kbd> tidak valid"
+    }
+  },
+  "common": {
+    "appName": "Clicker Otomatis - IsiOtomatis",
+    "settings": "Pengaturan",
+    "error": "Kesalahan",
+    "save": "Menyimpan",
+    "clear": "Jernih",
+    "close": "Menutup",
+    "download": "Unduh",
+    "disabled": "Dengan disabilitas",
+    "sec": "detik",
+    "min": "menit",
+    "no": "TIDAK",
+    "yes": "Ya",
+    "local": "LOKAL",
+    "dev": "PERANGKAT",
+    "stable": "STABIL",
+    "examples": "Contoh"
+  },
+  "language": {
+    "en": "Bahasa inggris",
+    "fr": "Perancis",
+    "ko": "Korea",
+    "ca": "Kanada",
+    "hi": "Hindi",
+    "zh_CN": "Cina",
+    "zh_TW": "Cina Tradisional",
+    "sv": "Orang Swedia",
+    "pt": "Portugis",
+    "ja": "Jepang",
+    "nl": "Belanda",
+    "de": "Jerman",
+    "es": "Orang Spanyol",
+    "vi": "Orang Vietnam",
+    "fi": "Finlandia",
+    "ar": "Arab",
+    "it": "Italia",
+    "ru": "Rusia",
+    "id": "bahasa Indonesia"
+  }
+}

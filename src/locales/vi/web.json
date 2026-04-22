@@ -1,0 +1,365 @@
+{
+  "header": {
+    "theme": {
+      "light": "Chuyển sang chủ đề nhẹ nhàng",
+      "dark": "Chuyển sang chủ đề tối"
+    },
+    "google-group": "Nhóm Google",
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất",
+    "settings": "Thiết lập toàn cầu"
+  },
+  "footer": {
+    "resources": "Tài nguyên",
+    "docs": "Tài liệu",
+    "blog": "Blog",
+    "configuration": "Cấu hình",
+    "issues": "Vấn đề",
+    "rate-us": "Đánh giá chúng tôi",
+    "discussion": "Cuộc thảo luận",
+    "test": "Mẫu thực hành",
+    "about": "Về",
+    "contact": "Liên hệ",
+    "chat": "Trò chuyện",
+    "connect": "Kết nối",
+    "google-group": "Nhóm Google",
+    "privacy": "Chính sách bảo mật",
+    "social": "Xã hội",
+    "discord": "Bất hòa",
+    "youtube": "Youtube",
+    "facebook": "Facebook",
+    "whatsapp": "Whatsapp",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "github": "Github"
+  },
+  "toast": {
+    "configuration": {
+      "addConfig": {
+        "header": "Cấu hình",
+        "body": "[{{name}}] đã thêm thành công"
+      },
+      "duplicateConfig": {
+        "header": "Cấu hình",
+        "body": "[{{name}}] được sao chép thành công"
+      },
+      "removeConfig": {
+        "header": "Cấu hình",
+        "body": "[{{name}}] đã xóa thành công"
+      },
+      "exportAll": {
+        "header": "Xuất số lượng lớn",
+        "body": "Đã xuất cấu hình thành công"
+      },
+      "importAll": {
+        "header": "Nhập khẩu số lượng lớn",
+        "body": "Cấu hình được nhập thành công"
+      },
+      "importError": {
+        "header": "Lỗi nhập"
+      },
+      "importSuccess": {
+        "header": "Cấu hình",
+        "body": "[{{name}}] đã nhập thành công"
+      },
+      "updateBatch": {
+        "header": "Lô hàng",
+        "body": "đã lưu hàng loạt thành công!"
+      }
+    },
+    "action": {
+      "save": {
+        "header": "hành động",
+        "body": "hành động được lưu thành công!"
+      }
+    }
+  },
+  "confirm": {
+    "configuration": {
+      "remove": {
+        "title": "Xóa cấu hình",
+        "message": "Bạn có chắc chắn xóa Cấu hình [{{name}}] không?"
+      }
+    },
+    "backup": {
+      "restore": {
+        "title": "Khôi phục cấu hình từ đám mây",
+        "message": "Bạn có chắc chắn khôi phục cấu hình từ cloud. Nó sẽ thay thế tất cả các cấu hình của bạn và quá trình này không thể đảo ngược được."
+      }
+    },
+    "action": {
+      "remove": {
+        "title": "Xóa hành động",
+        "message": "Bạn có chắc chắn xóa hành động [{{name}}] không?"
+      }
+    },
+    "userscript": {
+      "remove": {
+        "title": "Xóa tập lệnh người dùng",
+        "message": "Bạn có chắc chắn muốn xóa [{{name}}] User Script không?"
+      }
+    }
+  },
+  "modal": {
+    "settings": {
+      "title": "Thiết lập toàn cầu",
+      "checkIFrames": "Kiểm tra IFrame",
+      "checkIFramesHint": "Phần tử kiểm tra này trong iFrames",
+      "reloadOnError": "Tải lại khi có lỗi",
+      "reloadOnErrorHint": "Trang này sẽ tải lại nếu có lỗi xảy ra",
+      "advance": "Nâng cao",
+      "advanceHint": "Bật chế độ nâng cao để có nhiều tính năng hơn",
+      "notification": {
+        "title": "Hiện thông báo",
+        "error": "trên Đã xảy ra lỗi",
+        "action": "khi hoàn thành hành động",
+        "batch": "khi hoàn thành hàng loạt",
+        "config": "khi hoàn thành cấu hình",
+        "sound": "Âm thanh thông báo",
+        "discord": {
+          "title": "Thông báo về Discord",
+          "hint": "Bạn cần đăng nhập và tham gia <1>máy chủ Discord</1> của chúng tôi để nhận thông báo trên Discord",
+          "info": "Tính năng hiện đang được phát triển và có thể chuyển sang <b>hành động</b> cụ thể trong bản phát hành sắp tới"
+        }
+      },
+      "statusBar": {
+        "title": "Thanh trạng thái",
+        "hint": "Hiển thị thanh trạng thái ở cuối trang",
+        "hide": "Trốn",
+        "top-left": "Trên cùng bên trái",
+        "top-right": "Trên cùng bên phải",
+        "bottom-left": "Dưới cùng bên trái",
+        "bottom-right": "Góc phải ở phía dưới"
+      },
+      "retry": {
+        "title": "Thử lại",
+        "interval": "Khoảng thời gian thử lại",
+        "stop": "Dừng lại",
+        "skip": "Bỏ qua Không tìm thấy",
+        "refresh": "Làm cho khỏe lại",
+        "hint": "Dưới đây là hành động có thể được thực hiện nếu tiện ích mở rộng không tìm thấy xpath sau khi thử lại"
+      },
+      "backup": {
+        "title": "Hỗ trợ",
+        "last-backup": "Sao lưu cuối cùng:",
+        "backup": "Sao lưu lên đám mây",
+        "restore": "Khôi phục từ đám mây",
+        "now": "Sao lưu ngay",
+        "auto-backup": "Tự động sao lưu",
+        "daily": "Hằng ngày",
+        "weekly": "hàng tuần",
+        "monthly": "hàng tháng",
+        "off": "Tắt"
+      },
+      "saveMessage": "Cài đặt đã lưu thành công!"
+    },
+    "configSettings": {
+      "title": "Cài đặt cấu hình",
+      "start": "Bắt đầu",
+      "auto": "Tự động",
+      "autoHint": "<b>Tự động</b> (mặc định) khi trình duyệt được làm mới hoặc trang mới được tải tiện ích mở rộng tự động tải cùng với nó",
+      "manual": "Thủ công",
+      "manualHint": "<b>Hướng dẫn sử dụng</b> khi trình duyệt được tải, người dùng có thể gọi tiện ích mở rộng theo cách thủ công bằng phím nóng",
+      "extensionLoad": "Tải tiện ích mở rộng",
+      "window": "Cửa sổ",
+      "windowHint": "Trình duyệt <b>cửa sổ</b> (mặc định) tải tiện ích mở rộng sau khi tất cả nội dung của nó được tải",
+      "document": "Tài liệu",
+      "hotkey": "Phím nóng",
+      "documentHint": "Trình duyệt tài liệu tải <b>tiện ích</b> mở rộng trước khi tải tập lệnh và hình ảnh (nhanh hơn) (không an toàn)",
+      "triggerUrlChange": "Kích hoạt khi thay đổi URL",
+      "triggerUrlChangeHint": "<b>Kích hoạt thay đổi URL</b> sẽ kích hoạt cấu hình nếu URL được thay đổi mà không tải lại trang (như trong SPA)",
+      "urlMatch": "Kết hợp URL",
+      "regex": "Biểu thức chính quy",
+      "exact": "Chính xác"
+    },
+    "reorder": {
+      "title": "Sắp xếp lại cấu hình",
+      "hint": "Hãy lưu lại toàn bộ cấu hình trước khi sắp xếp lại"
+    },
+    "extensionNotFound": {
+      "title": "Không tìm thấy tiện ích mở rộng",
+      "subTitle": "Đây là trang cấu hình cho tiện ích mở rộng <b>{{VITE_PUBLIC_NAME}}</b>",
+      "hint": "Trước tiên, bạn cần tải xuống tiện ích mở rộng để sử dụng tiện ích này"
+    },
+    "actionSettings": {
+      "title": "Cài đặt hành động",
+      "info": "Cài đặt hành động sẽ ghi đè cài đặt chung và cài đặt này có thể áp dụng cho cả hành động và điều kiện bổ sung của nó",
+      "iframeFirst": "Khung nội tuyến đầu tiên",
+      "iframeFirstHint": "Phần tử này kiểm tra phần tử trong iframe trước rồi mới đến trang chính",
+      "retry": {
+        "title": "Thử lại",
+        "hint": "* Dưới đây là hành động có thể được thực hiện nếu tiện ích mở rộng không tìm thấy xpath sau khi thử lại",
+        "interval": "Khoảng thời gian thử lại",
+        "stop": "Dừng lại",
+        "skip": "Bỏ qua hành động",
+        "goto": "Đi đến hành động",
+        "refresh": "Làm cho khỏe lại"
+      }
+    },
+    "actionCondition": {
+      "action": "Hoạt động",
+      "status": "Trạng thái",
+      "title": "Điều kiện hành động",
+      "info": "Điều kiện hành động được sử dụng để thêm điều kiện liên quan đến trạng thái hành động trước đó",
+      "skip": "Bỏ qua hành động",
+      "goto": "Đi đến hành động",
+      "proceed": "Tiến hành hành động",
+      "hint": "Dưới đây là hành động có thể được thực hiện nếu điều kiện không khớp với phần mở rộng"
+    },
+    "ads": {
+      "title": "Vui lòng cho phép quảng cáo trên trang web của chúng tôi",
+      "subTitle": "Bạn có tiện ích mở rộng nào trong số này?"
+    },
+    "addon": {
+      "title": "Thêm vào",
+      "info": "Thêm điều kiện sẽ được kiểm tra trước khi thực hiện Hành động",
+      "elementFinder": "Trình tìm kiếm phần tử",
+      "condition": "Tình trạng",
+      "value": "Giá trị",
+      "valueExtractor": "Trình trích xuất giá trị",
+      "recheck": {
+        "title": "Kiểm tra lại",
+        "hint": "* Dưới đây là hành động có thể được thực hiện nếu việc kiểm tra lại không khớp với phần mở rộng sau khi kiểm tra lại",
+        "interval": "Khoảng thời gian kiểm tra lại",
+        "stop": "Dừng lại",
+        "skip": "Bỏ qua hành động",
+        "refresh": "Làm cho khỏe lại",
+        "goto": "Đi đến hành động"
+      }
+    },
+    "schedule": {
+      "title": "Lịch trình",
+      "info": "Cấu hình lịch trình cho ngày và giờ cụ thể",
+      "date": "Ngày",
+      "time": "Thời gian",
+      "repeat": "Lặp lại"
+    }
+  },
+  "message": {
+    "config": "Đã lưu cấu hình thành công!",
+    "configSettings": "Cài đặt cấu hình đã được lưu thành công!",
+    "batch": "Đã lưu hàng loạt thành công!",
+    "action": "Đã lưu hành động thành công!",
+    "reorderActions": "Đã sắp xếp lại hành động thành công!",
+    "removeAction": "Đã xóa hành động thành công!",
+    "actionAddon": "Addon đã được lưu thành công!",
+    "actionStatement": "Điều kiện hành động đã được lưu thành công!",
+    "actionSettings": "Cài đặt hành động đã được lưu thành công!",
+    "schedule": "Lịch trình đã được lưu thành công!"
+  },
+  "configuration": {
+    "title": "Cấu hình",
+    "add": "Cấu hình mới",
+    "exportAll": "Cấu hình xuất hàng loạt",
+    "importAll": "Cấu hình nhập hàng loạt",
+    "remove": "Xóa cấu hình",
+    "duplicate": "Cấu hình trùng lặp",
+    "reorder": "Sắp xếp lại cấu hình",
+    "removeConfigs": "Cấu hình xóa hàng loạt",
+    "settings": "Thiết lập cấu hình",
+    "enable": "Cho phép",
+    "export": "Xuất cấu hình",
+    "import": "Nhập cấu hình",
+    "url": "URL",
+    "name": "Tên",
+    "initWait": "Bắt đầu chờ",
+    "startTime": "Thời gian bắt đầu",
+    "noConfig": "Không tìm thấy cấu hình, vui lòng tinh chỉnh tìm kiếm của bạn."
+  },
+  "batch": {
+    "title": "Lô hàng",
+    "repeat": "Lặp lại",
+    "repeatHint": "<b>Lặp lại</b> sẽ chạy lại tất cả hành động mà không cần tải lại trang với khoảng thời gian đã cho.",
+    "repeatInterval": "Khoảng R",
+    "refresh": "Làm cho khỏe lại",
+    "refreshHint": "<b>Làm mới</b> sẽ tải lại trang sau khi tất cả các hành động được hoàn thành."
+  },
+  "error": {
+    "number": "Chỉ cho phép số hợp lệ",
+    "interval": "Chỉ cho phép số hợp lệ",
+    "url": "URL là bắt buộc",
+    "initWait": "Chỉ cho phép số hợp lệ",
+    "scheduleDate": "Ngày lịch trình phải theo định dạng YYYY-MM-DD (2025-12-01)",
+    "scheduleTime": "Thời gian lịch trình phải phù hợp với định dạng HH:mm:ss.sss (23:59:59.000)",
+    "scheduleRepeat": "Lịch trình lặp lại chỉ nên là số",
+    "startTime": "Thời gian bắt đầu phải khớp với định dạng HH:mm:ss:fff (12:12:12:000)",
+    "json": "Json đã chọn không hợp lệ",
+    "hotKey": "Một chữ cái không có Ctrl/Command là không hợp lệ",
+    "valueExtractor": "Không phải là biểu thức chính quy hợp lệ",
+    "value": "Giá trị là bắt buộc",
+    "condition": "Điều kiện là bắt buộc",
+    "elementFinder": "Trình tìm kiếm phần tử là bắt buộc"
+  },
+  "action": {
+    "title": "Hoạt động",
+    "add": "Thêm hành động",
+    "addBefore": "Thêm hành động ở trên",
+    "addAfter": "Thêm hành động bên dưới",
+    "addon": "Thêm vào",
+    "remove": "Xóa hành động",
+    "settings": "Cài đặt hành động",
+    "disable": "Vô hiệu hóa hành động",
+    "enable": "Kích hoạt hành động",
+    "initWait": "Bắt đầu chờ",
+    "name": "Tên",
+    "elementFinder": "Trình tìm kiếm phần tử",
+    "value": "Giá trị",
+    "repeat": "Lặp lại",
+    "repeatInterval": "Khoảng R"
+  },
+  "userscript": {
+    "add": "Thêm tập lệnh người dùng"
+  },
+  "popover": {
+    "valueExtractor": {
+      "title": "Ví dụ"
+    },
+    "startTime": {
+      "content": "Hãy thử &lt;1&gt;Lên lịch URL</1> phần mở rộng trình duyệt mới của chúng tôi.<br /> nó được sử dụng để lên lịch trang web/URL vào ngày và giờ cụ thể"
+    },
+    "hotkey": {
+      "title": "Phím nóng",
+      "content": "Nhấn phím nóng trên bàn phím để tự động nhập trường",
+      "hint": "Một chữ cái không có <kbd>Ctrl</kbd> , <kbd>Alt</kbd> hoặc <kbd>Shift</kbd> là không hợp lệ"
+    }
+  },
+  "common": {
+    "appName": "Trình nhấp chuột tự động - Tự động điền",
+    "settings": "Cài đặt",
+    "error": "Lỗi",
+    "save": "Cứu",
+    "clear": "Thông thoáng",
+    "close": "Đóng",
+    "download": "Tải xuống",
+    "disabled": "Tàn tật",
+    "sec": "giây",
+    "min": "phút",
+    "no": "KHÔNG",
+    "yes": "Đúng",
+    "local": "ĐỊA PHƯƠNG",
+    "dev": "DEV",
+    "stable": "ỔN ĐỊNH",
+    "examples": "Ví dụ"
+  },
+  "language": {
+    "en": "Tiếng Anh",
+    "fr": "người Pháp",
+    "ko": "Hàn Quốc",
+    "ca": "Canada",
+    "hi": "Tiếng Hindi",
+    "zh_CN": "người Trung Quốc",
+    "zh_TW": "Tiếng Trung phồn thể",
+    "sv": "tiếng Thụy Điển",
+    "pt": "tiếng Bồ Đào Nha",
+    "ja": "tiếng Nhật",
+    "nl": "tiếng Hà Lan",
+    "de": "tiếng Đức",
+    "es": "người Tây Ban Nha",
+    "vi": "Tiếng Việt",
+    "fi": "tiếng Phần Lan",
+    "ar": "tiếng Ả Rập",
+    "it": "người Ý",
+    "ru": "tiếng Nga",
+    "id": "tiếng Indonesia"
+  }
+}

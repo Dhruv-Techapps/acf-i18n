@@ -1,0 +1,365 @@
+{
+  "header": {
+    "theme": {
+      "light": "Byt till ljustemat",
+      "dark": "Byt till det mörka temat"
+    },
+    "google-group": "Google-gruppen",
+    "login": "Logga in",
+    "logout": "Logga ut",
+    "settings": "Globala inställningar"
+  },
+  "footer": {
+    "resources": "Resurser",
+    "docs": "Dokument",
+    "blog": "Blogg",
+    "configuration": "Konfiguration",
+    "issues": "frågor",
+    "rate-us": "Gradera oss",
+    "discussion": "Diskussion",
+    "test": "Övningsformulär",
+    "about": "Handla om",
+    "contact": "Kontakt",
+    "chat": "Chatt",
+    "connect": "Ansluta",
+    "google-group": "Google-gruppen",
+    "privacy": "Integritetspolicy",
+    "social": "Social",
+    "discord": "Disharmoni",
+    "youtube": "Youtube",
+    "facebook": "Facebook",
+    "whatsapp": "Whatsapp",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "github": "Github"
+  },
+  "toast": {
+    "configuration": {
+      "addConfig": {
+        "header": "Konfiguration",
+        "body": "[{{name}}] har lagts till"
+      },
+      "duplicateConfig": {
+        "header": "Konfiguration",
+        "body": "[{{name}}] har duplicerats"
+      },
+      "removeConfig": {
+        "header": "Konfiguration",
+        "body": "[{{name}}] har tagits bort"
+      },
+      "exportAll": {
+        "header": "Bulkexport",
+        "body": "Konfigurationer har exporterats"
+      },
+      "importAll": {
+        "header": "Bulkimport",
+        "body": "Konfigurationer har importerats"
+      },
+      "importError": {
+        "header": "Importfel"
+      },
+      "importSuccess": {
+        "header": "Konfiguration",
+        "body": "[{{name}}] har importerats"
+      },
+      "updateBatch": {
+        "header": "Omgång",
+        "body": "batch har sparats framgångsrikt!"
+      }
+    },
+    "action": {
+      "save": {
+        "header": "Handlingar",
+        "body": "åtgärder sparade framgångsrikt!"
+      }
+    }
+  },
+  "confirm": {
+    "configuration": {
+      "remove": {
+        "title": "Ta bort konfiguration",
+        "message": "Är du säker på att ta bort [{{name}}]-konfigurationen?"
+      }
+    },
+    "backup": {
+      "restore": {
+        "title": "Återställ konfigurationer från molnet",
+        "message": "Är du säker på att återställa konfigurationer från molnet. Det kommer att ersätta alla dina konfigurationer och denna process är inte reversibel."
+      }
+    },
+    "action": {
+      "remove": {
+        "title": "Ta bort åtgärd",
+        "message": "Är du säker på att ta bort åtgärden [{{name}}]?"
+      }
+    },
+    "userscript": {
+      "remove": {
+        "title": "Ta bort användarskript",
+        "message": "Är du säker på att du vill ta bort användarskriptet [{{name}}]?"
+      }
+    }
+  },
+  "modal": {
+    "settings": {
+      "title": "Globala inställningar",
+      "checkIFrames": "Kontrollera IFrames",
+      "checkIFramesHint": "Detta kontrollerar element inom iFrames",
+      "reloadOnError": "Ladda om vid fel",
+      "reloadOnErrorHint": "Detta laddar om sidan om något fel uppstår",
+      "advance": "Förskott",
+      "advanceHint": "Aktivera avancerat läge för fler funktioner",
+      "notification": {
+        "title": "Visa notifikation",
+        "error": "på Fel uppstod",
+        "action": "vid åtgärdens slutförande",
+        "batch": "vid slutförande av batch",
+        "config": "när konfigurationen är klar",
+        "sound": "Notifikations ljud",
+        "discord": {
+          "title": "Avisering på Discord",
+          "hint": "Du måste logga in och gå med i vår <1>Discord-server</1> för att få meddelande på Discord",
+          "info": "Dess för närvarande under utveckling och funktion kan komma att flyttas till <b>åtgärdsspecifikt</b> meddelande i kommande release"
+        }
+      },
+      "statusBar": {
+        "title": "Statusfältet",
+        "hint": "Visa statusfältet längst ner på sidan",
+        "hide": "Dölj",
+        "top-left": "Övre vänstra",
+        "top-right": "Överst till höger",
+        "bottom-left": "Nedre vänstra",
+        "bottom-right": "Nere till höger"
+      },
+      "retry": {
+        "title": "Försök igen",
+        "interval": "Försök igen Intervall",
+        "stop": "Sluta",
+        "skip": "Hoppa ej hittades",
+        "refresh": "Uppdatera",
+        "hint": "Nedan finns åtgärder som kan utföras om xpath inte hittas som förlängning efter ett nytt försök"
+      },
+      "backup": {
+        "title": "Säkerhetskopiering",
+        "last-backup": "Senaste säkerhetskopiering:",
+        "backup": "Säkerhetskopiera till molnet",
+        "restore": "Återställ från molnet",
+        "now": "Säkerhetskopiera nu",
+        "auto-backup": "Automatisk säkerhetskopiering",
+        "daily": "Dagligen",
+        "weekly": "Varje vecka",
+        "monthly": "En gång i månaden",
+        "off": "Av"
+      },
+      "saveMessage": "Inställningarna har sparats!"
+    },
+    "configSettings": {
+      "title": "Konfigurationsinställningar",
+      "start": "Start",
+      "auto": "Bil",
+      "autoHint": "<b>Auto</b> (standard) när webbläsaren uppdateras eller ny sida laddas laddas tillägget automatiskt med den",
+      "manual": "Manuell",
+      "manualHint": "<b>Manuell</b> när webbläsaren har laddats kan användaren manuellt anropa tillägg med snabbtangenten",
+      "extensionLoad": "Förlängningsbelastning",
+      "window": "Fönster",
+      "windowHint": "<b>Window</b> (standard) webbläsare laddar tillägget när allt innehåll har laddats",
+      "document": "Dokumentera",
+      "hotkey": "Snabbtangent",
+      "documentHint": "<b>Dokumentwebbläsaren</b> laddar tillägget innan skript och bilder laddas (snabbare) (osäkert)",
+      "triggerUrlChange": "Utlösare vid URL-ändring",
+      "triggerUrlChangeHint": "<b>Utlösande URL-ändring</b> utlöser konfigurationen om URL:en ändras utan att sidan laddas om (som i SPA).",
+      "urlMatch": "URL Match",
+      "regex": "Regex",
+      "exact": "Exakt"
+    },
+    "reorder": {
+      "title": "Ordna om konfigurationer",
+      "hint": "Spara alla konfigurationer innan du beställer om"
+    },
+    "extensionNotFound": {
+      "title": "Tillägg hittades inte",
+      "subTitle": "Det här är konfigurationssidan för tillägget <b>{{VITE_PUBLIC_NAME}}</b>",
+      "hint": "Du måste ladda ner tillägget först för att kunna använda detta"
+    },
+    "actionSettings": {
+      "title": "Åtgärdsinställningar",
+      "info": "Åtgärdsinställningar kommer att åsidosätta globala inställningar och de är tillämpliga för både åtgärd och dess tilläggsvillkor",
+      "iframeFirst": "Iframe först",
+      "iframeFirstHint": "Detta kontrollerar element inom iframe först och sedan på huvudsidan",
+      "retry": {
+        "title": "Försök igen",
+        "hint": "* Nedan finns åtgärder som kan utföras om xpath inte hittas genom förlängning efter ett nytt försök",
+        "interval": "Försök igen Intervall",
+        "stop": "Sluta",
+        "skip": "Hoppa över åtgärd",
+        "goto": "Gå till Action",
+        "refresh": "Uppdatera"
+      }
+    },
+    "actionCondition": {
+      "action": "Handling",
+      "status": "Status",
+      "title": "Åtgärdsvillkor",
+      "info": "Åtgärdsvillkor används för att lägga till villkor med relaterade till tidigare åtgärdsstatus",
+      "skip": "Skip Action",
+      "goto": "Gå till Action",
+      "proceed": "Fortsätt åtgärd",
+      "hint": "Nedan finns åtgärder som kan utföras om villkoret inte matchas genom förlängning"
+    },
+    "ads": {
+      "title": "Tillåt annonser på vår webbplats",
+      "subTitle": "Vilka av dessa tillägg har du?"
+    },
+    "addon": {
+      "title": "Tillägg",
+      "info": "Lägg till villkor kommer att kontrolleras innan åtgärden utförs",
+      "elementFinder": "Element Finder",
+      "condition": "Skick",
+      "value": "Värde",
+      "valueExtractor": "Value Extractor",
+      "recheck": {
+        "title": "Kontrollera igen",
+        "hint": "* Nedan finns åtgärder som kan utföras om omkontroll inte matchas av förlängning efter omkontroll",
+        "interval": "Kontrollera intervall igen",
+        "stop": "Sluta",
+        "skip": "Hoppa över åtgärd",
+        "refresh": "Uppdatera",
+        "goto": "Gå till Action"
+      }
+    },
+    "schedule": {
+      "title": "Schema",
+      "info": "Schemaläggningskonfiguration för specifikt datum och tid",
+      "date": "Datum",
+      "time": "Tid",
+      "repeat": "Upprepa"
+    }
+  },
+  "message": {
+    "config": "Konfigurationen har sparats!",
+    "configSettings": "Konfigurationsinställningen har sparats!",
+    "batch": "Batchen har sparats!",
+    "action": "Åtgärden har sparats!",
+    "reorderActions": "Åtgärden har ombeställts!",
+    "removeAction": "Åtgärden har tagits bort!",
+    "actionAddon": "Tillägget har sparats!",
+    "actionStatement": "Åtgärdsvillkoret har sparats!",
+    "actionSettings": "Åtgärdsinställningarna har sparats!",
+    "schedule": "Schemat sparat!"
+  },
+  "configuration": {
+    "title": "Konfiguration",
+    "add": "Ny konfig",
+    "exportAll": "Bulkexportkonfiguration",
+    "importAll": "Bulkimportkonfiguration",
+    "remove": "Ta bort konfiguration",
+    "duplicate": "Duplicera konfiguration",
+    "reorder": "Ordna om konfigurationer",
+    "removeConfigs": "Massta bort konfiguration",
+    "settings": "Konfigurationsinställningar",
+    "enable": "Gör det möjligt",
+    "export": "Exportera konfiguration",
+    "import": "Importera konfiguration",
+    "url": "URL",
+    "name": "namn",
+    "initWait": "Init Vänta",
+    "startTime": "Starttid",
+    "noConfig": "Ingen konfiguration hittades. Förfina din sökning."
+  },
+  "batch": {
+    "title": "Omgång",
+    "repeat": "Upprepa",
+    "repeatHint": "<b>Repeat</b> kör alla åtgärder på nytt utan att ladda om sidan med det angivna intervallet.",
+    "repeatInterval": "R-intervall",
+    "refresh": "Uppdatera",
+    "refreshHint": "<b>Uppdatera</b> laddar om sidan när alla åtgärder är klara."
+  },
+  "error": {
+    "number": "Endast giltiga nummer är tillåtna",
+    "interval": "Endast giltiga nummer är tillåtna",
+    "url": "URL krävs",
+    "initWait": "Endast giltiga nummer är tillåtna",
+    "scheduleDate": "Schemaläggningsdatumet ska matcha formatet ÅÅÅÅ-MM-DD (2025-12-01)",
+    "scheduleTime": "Schemalagd tid ska matcha formatet HH:mm:ss.sss (23:59:59.000)",
+    "scheduleRepeat": "Schemalagd upprepning ska endast vara nummer",
+    "startTime": "Starttiden bör matcha formatet HH:mm:ss:fff (12:12:12:000)",
+    "json": "Vald Json är inte giltig",
+    "hotKey": "En bokstav utan Ctrl/Command är inte giltig",
+    "valueExtractor": "Inte ett giltigt regex",
+    "value": "Värde behövs",
+    "condition": "Kondition krävs",
+    "elementFinder": "Element Finder krävs"
+  },
+  "action": {
+    "title": "Handling",
+    "add": "Lägg till åtgärd",
+    "addBefore": "Lägg till åtgärd ovan",
+    "addAfter": "Lägg till åtgärd nedan",
+    "addon": "Tillägg",
+    "remove": "Ta bort åtgärd",
+    "settings": "Åtgärdsinställningar",
+    "disable": "Inaktivera åtgärd",
+    "enable": "Aktivera åtgärd",
+    "initWait": "Init Vänta",
+    "name": "namn",
+    "elementFinder": "Element Finder",
+    "value": "Värde",
+    "repeat": "Upprepa",
+    "repeatInterval": "R-intervall"
+  },
+  "userscript": {
+    "add": "Lägg till användarskript"
+  },
+  "popover": {
+    "valueExtractor": {
+      "title": "Exempel"
+    },
+    "startTime": {
+      "content": "Försök med &lt;1&gt;Schemalägg URL</1> vårt nya webbläsartillägg.<br /> den används för att schemalägga webbsida/URL vid en viss dag och tid"
+    },
+    "hotkey": {
+      "title": "Snabbtangent",
+      "content": "Tryck snabbtangenten på tangentbordet för att automatiskt skriva i fältet",
+      "hint": "En bokstav utan <kbd>Ctrl</kbd> , <kbd>Alt</kbd> eller <kbd>Shift</kbd> är inte giltig"
+    }
+  },
+  "common": {
+    "appName": "Autoklicker - Autofyll",
+    "settings": "inställningar",
+    "error": "Fel",
+    "save": "Spara",
+    "clear": "Klar",
+    "close": "Stänga",
+    "download": "Ladda ner",
+    "disabled": "Inaktiverad",
+    "sec": "sek",
+    "min": "min",
+    "no": "Nej",
+    "yes": "Ja",
+    "local": "LOKAL",
+    "dev": "DEV",
+    "stable": "STABIL",
+    "examples": "Exempel"
+  },
+  "language": {
+    "en": "engelsk",
+    "fr": "franska",
+    "ko": "koreanska",
+    "ca": "Kanada",
+    "hi": "hindi",
+    "zh_CN": "kinesiska",
+    "zh_TW": "Traditionell kinesiska",
+    "sv": "svenska",
+    "pt": "portugisiska",
+    "ja": "japanska",
+    "nl": "holländska",
+    "de": "tysk",
+    "es": "spanska",
+    "vi": "vietnamesiska",
+    "fi": "finska",
+    "ar": "arabiska",
+    "it": "italienska",
+    "ru": "ryska",
+    "id": "indonesiska"
+  }
+}

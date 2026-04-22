@@ -1,0 +1,170 @@
+{
+  "EXT_NAME": {
+    "message": "自动点击器 - 自动填充器"
+  },
+  "EXT_NAME_DEV": {
+    "message": "自动点击器 - 自动填充 [DEV]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "自动点击器 - 自动填充 [BETA]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "自动点击器 - 自动填充 [本地]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "自动填充"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "自动填充输入字段或自动点击按钮或链接任何地方。您可以配置并检查点击速度测试"
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "ACF备份"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "配置于 $1 在 Google Drive 上备份"
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "配置从Google Drive恢复。刷新配置页面以加载内容。"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "找不到备份的配置"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "文件中找不到内容"
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "未配置"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "未找到过程方法"
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "★ 为此字段配置"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ 按位置配置"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ 侧面板/☉ 记录"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ 打开配置页面"
+  },
+  "@TABS__TITLE": {
+    "message": "选项卡"
+  },
+  "@TABS__ERROR": {
+    "message": "无法找到指定的选项卡或选项卡ID。"
+  },
+  "@ACTION__TITLE": {
+    "message": "行动"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "用户脚本"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "无名"
+  },
+  "@ADDON__TITLE": {
+    "message": "添加在"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "动作条件"
+  },
+  "@BATCH__TITLE": {
+    "message": "批"
+  },
+  "@CONFIG__TITLE": {
+    "message": "config"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "元素查找器是空白的"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "条件不匹配。"
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "不正确的比较"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "大于或少于操作员只能比较数字"
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "错误的元素查找器或插件条件"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "元素查找器应针对复选框"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "无效元素查找器"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "找不到 - 停止"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "找不到 - 重新加载"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "未找到 Goto 的操作"
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "使用给定的选择器未找到元素"
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "请访问配置页面来审查和更新操作条件，以确保配置正确更新。"
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "条件满足"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "条件不满足"
+  },
+  "@ERROR": {
+    "message": "错误"
+  },
+  "@SCHEDULE": {
+    "message": "日程"
+  },
+  "@REPEAT": {
+    "message": "重复"
+  },
+  "@COMPLETED": {
+    "message": "完全的"
+  },
+  "@DEFAULT": {
+    "message": "默认"
+  },
+  "@WAIT": {
+    "message": "等待"
+  },
+  "@DISABLED": {
+    "message": "禁用"
+  },
+  "@RESULT": {
+    "message": "结果"
+  },
+  "@GOTO": {
+    "message": "去"
+  },
+  "@RECHECK": {
+    "message": "重新检查"
+  },
+  "@COMPARE": {
+    "message": "比较"
+  },
+  "@RECHECK_OPTION": {
+    "message": "补偿"
+  },
+  "@DOCS": {
+    "message": "文档"
+  },
+  "@CHAT": {
+    "message": "聊天"
+  },
+  "@ADVANCE": {
+    "message": "进步"
+  },
+  "@SPONSOR": {
+    "message": "赞助"
+  }
+}

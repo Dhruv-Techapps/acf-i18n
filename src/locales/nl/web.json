@@ -1,0 +1,365 @@
+{
+  "header": {
+    "theme": {
+      "light": "Schakel over naar het lichtthema",
+      "dark": "Schakel over naar het donkere thema"
+    },
+    "google-group": "Google-groep",
+    "login": "Log in",
+    "logout": "Uitloggen",
+    "settings": "Algemene instellingen"
+  },
+  "footer": {
+    "resources": "Bronnen",
+    "docs": "Documenten",
+    "blog": "Bloggen",
+    "configuration": "Configuratie",
+    "issues": "Problemen",
+    "rate-us": "Beoordeel ons",
+    "discussion": "Discussie",
+    "test": "Oefenformulier",
+    "about": "Over",
+    "contact": "Contact",
+    "chat": "Chatten",
+    "connect": "Aansluiten",
+    "google-group": "Google-groep",
+    "privacy": "Privacybeleid",
+    "social": "Sociaal",
+    "discord": "Meningsverschil",
+    "youtube": "YouTube",
+    "facebook": "Facebook",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "twitter": "Twitteren",
+    "github": "Github"
+  },
+  "toast": {
+    "configuration": {
+      "addConfig": {
+        "header": "Configuratie",
+        "body": "[{{naam}}] is succesvol toegevoegd"
+      },
+      "duplicateConfig": {
+        "header": "Configuratie",
+        "body": "[{{naam}}] is succesvol gedupliceerd"
+      },
+      "removeConfig": {
+        "header": "Configuratie",
+        "body": "[{{naam}}] is succesvol verwijderd"
+      },
+      "exportAll": {
+        "header": "Bulkexport",
+        "body": "Configuraties zijn succesvol geëxporteerd"
+      },
+      "importAll": {
+        "header": "Bulkimport",
+        "body": "Configuraties zijn succesvol geïmporteerd"
+      },
+      "importError": {
+        "header": "Importfout"
+      },
+      "importSuccess": {
+        "header": "Configuratie",
+        "body": "[{{naam}}] is succesvol geïmporteerd"
+      },
+      "updateBatch": {
+        "header": "Partij",
+        "body": "batch succesvol opgeslagen!"
+      }
+    },
+    "action": {
+      "save": {
+        "header": "Acties",
+        "body": "acties succesvol opgeslagen!"
+      }
+    }
+  },
+  "confirm": {
+    "configuration": {
+      "remove": {
+        "title": "Configuratie verwijderen",
+        "message": "Weet u zeker dat u de configuratie [{{name}}] wilt verwijderen?"
+      }
+    },
+    "backup": {
+      "restore": {
+        "title": "Herstel configuraties vanuit de cloud",
+        "message": "Weet u zeker dat u configuraties vanuit de cloud wilt herstellen? Het vervangt al uw configuraties en dit proces is niet omkeerbaar."
+      }
+    },
+    "action": {
+      "remove": {
+        "title": "Actie verwijderen",
+        "message": "Weet u zeker dat u [{{name}}] actie wilt verwijderen?"
+      }
+    },
+    "userscript": {
+      "remove": {
+        "title": "Gebruikersscript verwijderen",
+        "message": "Weet u zeker dat u het gebruikersscript [{{name}}] wilt verwijderen?"
+      }
+    }
+  },
+  "modal": {
+    "settings": {
+      "title": "Algemene instellingen",
+      "checkIFrames": "Controleer IFrames",
+      "checkIFramesHint": "Hiermee wordt het element binnen iFrames gecontroleerd",
+      "reloadOnError": "Herladen bij fouten",
+      "reloadOnErrorHint": "Hierdoor wordt de pagina opnieuw geladen als er een fout optreedt",
+      "advance": "Voorschot",
+      "advanceHint": "Schakel de geavanceerde modus in voor meer functies",
+      "notification": {
+        "title": "Bekijk notificatie",
+        "error": "aan Er is een fout opgetreden",
+        "action": "bij voltooiing van de actie",
+        "batch": "bij batchvoltooiing",
+        "config": "bij voltooiing van de configuratie",
+        "sound": "Notificatie geluid",
+        "discord": {
+          "title": "Melding over onenigheid",
+          "hint": "U moet inloggen en lid worden van onze <1>Discord-server</1> om meldingen op Discord te ontvangen",
+          "info": "Het is momenteel in ontwikkeling en de functie kan in de komende release worden verplaatst naar <b>een actiespecifieke</b> melding"
+        }
+      },
+      "statusBar": {
+        "title": "Statusbalk",
+        "hint": "Toon statusbalk onderaan de pagina",
+        "hide": "Verbergen",
+        "top-left": "Linksboven",
+        "top-right": "Rechtsboven",
+        "bottom-left": "Linksonder",
+        "bottom-right": "Rechts onder"
+      },
+      "retry": {
+        "title": "Opnieuw proberen",
+        "interval": "Interval opnieuw proberen",
+        "stop": "Stop",
+        "skip": "Overslaan niet gevonden",
+        "refresh": "Vernieuwen",
+        "hint": "Hieronder staan acties die kunnen worden uitgevoerd als xpath na een nieuwe poging niet door de extensie wordt gevonden"
+      },
+      "backup": {
+        "title": "Back-up",
+        "last-backup": "Laatste backup:",
+        "backup": "Back-up naar de cloud",
+        "restore": "Herstellen vanuit de cloud",
+        "now": "Nu backuppen",
+        "auto-backup": "Automatische back-up",
+        "daily": "Dagelijks",
+        "weekly": "Wekelijks",
+        "monthly": "Maandelijks",
+        "off": "Uit"
+      },
+      "saveMessage": "Instellingen succesvol opgeslagen!"
+    },
+    "configSettings": {
+      "title": "Configuratie-instellingen",
+      "start": "Begin",
+      "auto": "Auto",
+      "autoHint": "<b>Automatisch</b> (standaard) zodra de browser wordt vernieuwd of een nieuwe pagina wordt geladen, wordt de extensie automatisch geladen",
+      "manual": "Handmatig",
+      "manualHint": "<b>Handmatig</b> zodra de browser is geladen, kan de gebruiker de extensie handmatig oproepen met behulp van een sneltoets",
+      "extensionLoad": "Extensiebelasting",
+      "window": "Raam",
+      "windowHint": "<b>Vensterbrowser</b> (standaard) laadt de extensie zodra alle inhoud ervan is geladen",
+      "document": "Document",
+      "hotkey": "Sneltoets",
+      "documentHint": "<b>Documentbrowser</b> laadt extensie voordat scripts en afbeeldingen worden geladen (sneller) (onveilig)",
+      "triggerUrlChange": "Trigger bij URL-wijziging",
+      "triggerUrlChangeHint": "<b>Trigger URL-wijziging</b> activeert de configuratie als de URL wordt gewijzigd zonder dat de pagina opnieuw wordt geladen (zoals in SPA)",
+      "urlMatch": "URL-overeenkomst",
+      "regex": "Regex",
+      "exact": "Exact"
+    },
+    "reorder": {
+      "title": "Configuratie opnieuw ordenen",
+      "hint": "Bewaar alle configuraties voordat u opnieuw bestelt"
+    },
+    "extensionNotFound": {
+      "title": "Extensie niet gevonden",
+      "subTitle": "Dit is de configuratiepagina voor de extensie <b>{{VITE_PUBLIC_NAME}}</b>",
+      "hint": "Om hiervan gebruik te kunnen maken, moet u eerst de extensie downloaden"
+    },
+    "actionSettings": {
+      "title": "Actie-instellingen",
+      "info": "Actie-instellingen hebben voorrang op de algemene instellingen en zijn van toepassing op zowel de actie als de aanvullende voorwaarde",
+      "iframeFirst": "Iframe eerst",
+      "iframeFirstHint": "Hiermee wordt eerst het element binnen iframe gecontroleerd en vervolgens op de hoofdpagina",
+      "retry": {
+        "title": "Opnieuw proberen",
+        "hint": "* Hieronder staan acties die kunnen worden uitgevoerd als xpath na een nieuwe poging niet door de extensie wordt gevonden",
+        "interval": "Interval opnieuw proberen",
+        "stop": "Stop",
+        "skip": "Actie overslaan",
+        "goto": "Ga naar Actie",
+        "refresh": "Vernieuwen"
+      }
+    },
+    "actionCondition": {
+      "action": "Actie",
+      "status": "Toestand",
+      "title": "Actie voorwaarde",
+      "info": "Actievoorwaarden worden gebruikt om voorwaarden toe te voegen die betrekking hebben op de eerdere actiestatus",
+      "skip": "Actie overslaan",
+      "goto": "Ga naar Actie",
+      "proceed": "Ga door met actie",
+      "hint": "Hieronder staan de acties die kunnen worden uitgevoerd als de extensie niet aan de voorwaarde voldoet"
+    },
+    "ads": {
+      "title": "Sta advertenties op onze site toe",
+      "subTitle": "Welke van deze extensies heeft u?"
+    },
+    "addon": {
+      "title": "Toevoegen",
+      "info": "Voorwaarde toevoegen wordt gecontroleerd voordat actie wordt uitgevoerd",
+      "elementFinder": "Elementzoeker",
+      "condition": "Voorwaarde",
+      "value": "Waarde",
+      "valueExtractor": "Waarde-extractor",
+      "recheck": {
+        "title": "Controleer opnieuw",
+        "hint": "* Hieronder staan acties die kunnen worden uitgevoerd als de hercontrole niet gepaard gaat met verlenging na hercontrole",
+        "interval": "Controleer het interval opnieuw",
+        "stop": "Stop",
+        "skip": "Actie overslaan",
+        "refresh": "Vernieuwen",
+        "goto": "Ga naar Actie"
+      }
+    },
+    "schedule": {
+      "title": "Schema",
+      "info": "Planningconfiguratie voor specifieke datum en tijd",
+      "date": "Datum",
+      "time": "Tijd",
+      "repeat": "Herhalen"
+    }
+  },
+  "message": {
+    "config": "Configuratie succesvol opgeslagen!",
+    "configSettings": "Configuratie-instelling succesvol opgeslagen!",
+    "batch": "Batch succesvol opgeslagen!",
+    "action": "Actie succesvol opgeslagen!",
+    "reorderActions": "Actie succesvol opnieuw gerangschikt!",
+    "removeAction": "Actie succesvol verwijderd!",
+    "actionAddon": "Add-on succesvol opgeslagen!",
+    "actionStatement": "Actie Conditie succesvol opgeslagen!",
+    "actionSettings": "Actie-instellingen succesvol opgeslagen!",
+    "schedule": "Schema succesvol opgeslagen!"
+  },
+  "configuration": {
+    "title": "Configuratie",
+    "add": "Nieuwe configuratie",
+    "exportAll": "Configuratie voor bulkexport",
+    "importAll": "Configuratie voor bulkimport",
+    "remove": "Configuratie verwijderen",
+    "duplicate": "Dubbele configuratie",
+    "reorder": "Configuratie opnieuw ordenen",
+    "removeConfigs": "Configuratie bulksgewijs verwijderen",
+    "settings": "Configuratie-instellingen",
+    "enable": "Inschakelen",
+    "export": "Configuratie exporteren",
+    "import": "Configuratie importeren",
+    "url": "URL",
+    "name": "Naam",
+    "initWait": "Begin Wacht",
+    "startTime": "Starttijd",
+    "noConfig": "Geen configuratie gevonden. Verfijn uw zoekopdracht."
+  },
+  "batch": {
+    "title": "Partij",
+    "repeat": "Herhalen",
+    "repeatHint": "<b>Bij herhalen</b> worden alle acties opnieuw uitgevoerd zonder de pagina opnieuw te laden met het opgegeven interval.",
+    "repeatInterval": "R-interval",
+    "refresh": "Vernieuwen",
+    "refreshHint": "<b>Bij vernieuwen</b> wordt de pagina opnieuw geladen zodra alle acties zijn voltooid."
+  },
+  "error": {
+    "number": "Alleen geldige nummers zijn toegestaan",
+    "interval": "Alleen geldige nummers zijn toegestaan",
+    "url": "URL is vereist",
+    "initWait": "Alleen geldige nummers zijn toegestaan",
+    "scheduleDate": "De geplande datum moet overeenkomen met het formaat JJJJ-MM-DD (2025-12-01)",
+    "scheduleTime": "De geplande tijd moet overeenkomen met het formaat HH:mm:ss.sss (23:59:59.000)",
+    "scheduleRepeat": "Herhaling van het schema mag alleen een nummer zijn",
+    "startTime": "De starttijd moet overeenkomen met de notatie HH:mm:ss:fff (12:12:12:000)",
+    "json": "Geselecteerde JSON is niet geldig",
+    "hotKey": "Eén letter zonder Ctrl/Command is niet geldig",
+    "valueExtractor": "Geen geldige regex",
+    "value": "Waarde is vereist",
+    "condition": "Conditie is vereist",
+    "elementFinder": "Elementzoeker is vereist"
+  },
+  "action": {
+    "title": "Actie",
+    "add": "Actie toevoegen",
+    "addBefore": "Actie hierboven toevoegen",
+    "addAfter": "Voeg actie hieronder toe",
+    "addon": "Toevoegen",
+    "remove": "Actie verwijderen",
+    "settings": "Actie-instellingen",
+    "disable": "Actie uitschakelen",
+    "enable": "Actie inschakelen",
+    "initWait": "Begin Wacht",
+    "name": "Naam",
+    "elementFinder": "Elementzoeker",
+    "value": "Waarde",
+    "repeat": "Herhalen",
+    "repeatInterval": "R-interval"
+  },
+  "userscript": {
+    "add": "Gebruikersscript toevoegen"
+  },
+  "popover": {
+    "valueExtractor": {
+      "title": "Voorbeelden"
+    },
+    "startTime": {
+      "content": "Probeer &lt;1&gt;Plannings-URL</1> onze nieuwe browserextensie.<br /> het wordt gebruikt om de webpagina/URL op een bepaalde dag en tijd te plannen"
+    },
+    "hotkey": {
+      "title": "Sneltoets",
+      "content": "Druk op de sneltoets op het toetsenbord om automatisch in het veld te typen",
+      "hint": "Eén letter zonder <kbd>Ctrl</kbd> , <kbd>Alt</kbd> of <kbd>Shift</kbd> is niet geldig"
+    }
+  },
+  "common": {
+    "appName": "Automatische Clicker - Automatisch aanvullen",
+    "settings": "Instellingen",
+    "error": "Fout",
+    "save": "Redden",
+    "clear": "Duidelijk",
+    "close": "Dichtbij",
+    "download": "Downloaden",
+    "disabled": "Gehandicapt",
+    "sec": "sec",
+    "min": "min",
+    "no": "Nee",
+    "yes": "Ja",
+    "local": "LOKAAL",
+    "dev": "DEV",
+    "stable": "STAL",
+    "examples": "Voorbeelden"
+  },
+  "language": {
+    "en": "Engels",
+    "fr": "Frans",
+    "ko": "Koreaans",
+    "ca": "Canada",
+    "hi": "Hindi",
+    "zh_CN": "Chinese",
+    "zh_TW": "Traditioneel Chinees",
+    "sv": "Zweeds",
+    "pt": "Portugees",
+    "ja": "Japans",
+    "nl": "Nederlands",
+    "de": "Duits",
+    "es": "Spaans",
+    "vi": "Vietnamees",
+    "fi": "Fins",
+    "ar": "Arabisch",
+    "it": "Italiaans",
+    "ru": "Russisch",
+    "id": "Indonesisch"
+  }
+}

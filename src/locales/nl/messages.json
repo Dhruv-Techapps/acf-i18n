@@ -1,0 +1,170 @@
+{
+  "EXT_NAME": {
+    "message": "Automatische Clicker - Automatisch aanvullen"
+  },
+  "EXT_NAME_DEV": {
+    "message": "Automatische klikker - Automatisch aanvullen [DEV]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "Automatische clicker - Automatisch aanvullen [BÈTA]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "Automatische klikker - Automatisch aanvullen [LOKAAL]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "Automatisch vullen"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "Invoerveld automatisch aanvullen of automatische klikknop of iets waar dan ook koppelen. U kunt de kliksnelheidstest configureren en controleren"
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "ACF-back-up"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "Configuraties worden geback-upt op Google Drive om $1"
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "Configuraties worden hersteld vanuit Google Drive. Vernieuw de configuratiepagina om inhoud te laden."
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "Geen configuraties gevonden voor back-up"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "Er is geen inhoud gevonden in het bestand"
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "is niet geconfigureerd"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "procesmethode is niet gevonden"
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "★ Configureer voor dit veld"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ Configureren op positie"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ Zijpaneel/☉ Opnemen"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ Open de configuratiepagina"
+  },
+  "@TABS__TITLE": {
+    "message": "Tabbladen"
+  },
+  "@TABS__ERROR": {
+    "message": "Kan het opgegeven tabblad of tabblad-ID niet vinden."
+  },
+  "@ACTION__TITLE": {
+    "message": "Actie"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "Gebruikersscript"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "geen naam"
+  },
+  "@ADDON__TITLE": {
+    "message": "Toevoegen"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "Actievoorwaarde"
+  },
+  "@BATCH__TITLE": {
+    "message": "Partij"
+  },
+  "@CONFIG__TITLE": {
+    "message": "Configuratie"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "Elementzoeker is leeg"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "De conditie kwam niet overeen."
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "Verkeerde vergelijking"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "Groter dan of kleiner dan-operatoren kunnen alleen getallen vergelijken"
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "Onjuiste elementzoeker of add-onvoorwaarde"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "Element Finder moet een selectievakje targeten"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "Ongeldige elementzoeker"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "Niet gevonden - STOP"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "Niet gevonden - HERLADEN"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "Actie niet gevonden voor Goto"
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "Geen element gevonden met de opgegeven selector"
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "Ga naar de configuratiepagina om de actievoorwaarde te controleren en bij te werken, zodat u zeker weet dat de configuratie correct is bijgewerkt."
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "Conditie voldaan"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "Conditie niet voldaan"
+  },
+  "@ERROR": {
+    "message": "Fout"
+  },
+  "@SCHEDULE": {
+    "message": "Schema"
+  },
+  "@REPEAT": {
+    "message": "herhalen"
+  },
+  "@COMPLETED": {
+    "message": "Voltooid"
+  },
+  "@DEFAULT": {
+    "message": "standaard"
+  },
+  "@WAIT": {
+    "message": "wachten"
+  },
+  "@DISABLED": {
+    "message": "Gehandicapt"
+  },
+  "@RESULT": {
+    "message": "Resultaat"
+  },
+  "@GOTO": {
+    "message": "Ga naar"
+  },
+  "@RECHECK": {
+    "message": "opnieuw controleren"
+  },
+  "@COMPARE": {
+    "message": "Vergelijken"
+  },
+  "@RECHECK_OPTION": {
+    "message": "ControleerOptie opnieuw"
+  },
+  "@DOCS": {
+    "message": "Documenten"
+  },
+  "@CHAT": {
+    "message": "Chatten"
+  },
+  "@ADVANCE": {
+    "message": "Voorschot"
+  },
+  "@SPONSOR": {
+    "message": "Sponsor"
+  }
+}

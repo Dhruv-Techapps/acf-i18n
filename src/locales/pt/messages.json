@@ -1,0 +1,170 @@
+{
+  "EXT_NAME": {
+    "message": "Clicker automático - Preenchimento automático"
+  },
+  "EXT_NAME_DEV": {
+    "message": "Clicker automático - Preenchimento automático [DEV]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "Clicker automático - Preenchimento automático [BETA]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "Clicker automático - Preenchimento automático [LOCAL]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "Preenchimento automático"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "Campo de entrada de preenchimento automático ou botão de clique automático ou vincule qualquer coisa em qualquer lugar. Você pode configurar e verificar o teste de velocidade de clique"
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "Backup ACF"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "As configurações são salvas no Google Drive em $1"
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "As configurações são restauradas do Google Drive. Atualize a página de configurações para carregar o conteúdo."
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "Nenhuma configuração encontrada para backup"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "Nenhum conteúdo encontrado no arquivo"
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "não está configurado"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "método de processo não foi encontrado"
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "★ Configurar para este campo"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ Configurar por posição"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ Painel Lateral/☉ Gravação"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ Abrir página de configuração"
+  },
+  "@TABS__TITLE": {
+    "message": "Guias"
+  },
+  "@TABS__ERROR": {
+    "message": "Não foi possível localizar a guia ou o ID da guia especificado."
+  },
+  "@ACTION__TITLE": {
+    "message": "Ação"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "Script do usuário"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "sem nome"
+  },
+  "@ADDON__TITLE": {
+    "message": "Adicionar"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "Condição de ação"
+  },
+  "@BATCH__TITLE": {
+    "message": "Lote"
+  },
+  "@CONFIG__TITLE": {
+    "message": "Configuração"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "O Localizador de elementos está em branco"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "condição não correspondeu."
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "Comparação incorreta"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "Operadores maiores ou menores que só podem comparar números"
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "Localizador de elemento ou condição de complemento incorreto"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "O Element Finder deve ter como alvo uma caixa de seleção"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "Localizador de elemento inválido"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "Não encontrado - PARAR"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "Não encontrado - RECARREGAR"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "Ação não encontrada para Goto"
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "Nenhum elemento encontrado com o seletor fornecido"
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "Acesse a página de configuração para revisar e atualizar a Condição de Ação para garantir que a configuração esteja atualizada corretamente."
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "Condição Satisfeita"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "Condição não satisfeita"
+  },
+  "@ERROR": {
+    "message": "Erro"
+  },
+  "@SCHEDULE": {
+    "message": "Agendar"
+  },
+  "@REPEAT": {
+    "message": "repita"
+  },
+  "@COMPLETED": {
+    "message": "Concluído"
+  },
+  "@DEFAULT": {
+    "message": "padrão"
+  },
+  "@WAIT": {
+    "message": "espere"
+  },
+  "@DISABLED": {
+    "message": "Desabilitado"
+  },
+  "@RESULT": {
+    "message": "Resultado"
+  },
+  "@GOTO": {
+    "message": "Vá para"
+  },
+  "@RECHECK": {
+    "message": "verificar novamente"
+  },
+  "@COMPARE": {
+    "message": "Comparar"
+  },
+  "@RECHECK_OPTION": {
+    "message": "Opção de verificação novamente"
+  },
+  "@DOCS": {
+    "message": "Documentos"
+  },
+  "@CHAT": {
+    "message": "Bater papo"
+  },
+  "@ADVANCE": {
+    "message": "Avançar"
+  },
+  "@SPONSOR": {
+    "message": "Patrocinador"
+  }
+}

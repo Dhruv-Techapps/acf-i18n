@@ -1,0 +1,170 @@
+{
+  "EXT_NAME": {
+    "message": "Autoklicker - Autofyll"
+  },
+  "EXT_NAME_DEV": {
+    "message": "Autoklicker - Autofyll [DEV]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "Autoklicker - Autofyll [BETA]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "Autoklicker - Autofyll [LOKALT]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "Autofyll"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "Autofyll inmatningsfält eller autoklickknapp eller länka någonstans var som helst. Du kan konfigurera och kontrollera klickhastighetstest"
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "ACF backup"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "Konfigurationer säkerhetskopieras på Google Drive på $1"
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "Konfigurationer återställs från Google Drive. Uppdatera konfigurationssidan för att ladda innehåll."
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "Inga konfigurationer hittades för säkerhetskopiering"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "Inget innehåll hittades i filen"
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "är inte konfigurerad"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "processmetoden hittades inte"
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "★ Konfigurera för detta fält"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ Konfigurera efter position"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ Sidopanel/☉ Inspelning"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ Öppna konfigurationssidan"
+  },
+  "@TABS__TITLE": {
+    "message": "Flikar"
+  },
+  "@TABS__ERROR": {
+    "message": "Det gick inte att hitta det angivna flik- eller flik-ID."
+  },
+  "@ACTION__TITLE": {
+    "message": "Handling"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "Användarskript"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "inget namn"
+  },
+  "@ADDON__TITLE": {
+    "message": "Tillägg"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "Åtgärdsvillkor"
+  },
+  "@BATCH__TITLE": {
+    "message": "Omgång"
+  },
+  "@CONFIG__TITLE": {
+    "message": "Konfig"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "Element Finder är tom"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "skicket stämde inte."
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "Felaktig jämförelse"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "Större än eller mindre än operatörer kan bara jämföra siffror"
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "Felaktig elementsökare eller tilläggsvillkor"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "Element Finder bör rikta in sig på en kryssruta"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "Ogiltig elementsökare"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "Hittade inte - STOPP"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "Hittade inte - LADDA OM"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "Åtgärden hittades inte för Goto"
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "Inget element hittades med den givna väljaren"
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "Besök konfigurationssidan för att granska och uppdatera åtgärdsvillkoret för att säkerställa att konfigurationen är korrekt uppdaterad."
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "Tillstånd tillfredsställt"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "Skick ej uppfyllt"
+  },
+  "@ERROR": {
+    "message": "Fel"
+  },
+  "@SCHEDULE": {
+    "message": "Schema"
+  },
+  "@REPEAT": {
+    "message": "upprepa"
+  },
+  "@COMPLETED": {
+    "message": "Avslutad"
+  },
+  "@DEFAULT": {
+    "message": "standard"
+  },
+  "@WAIT": {
+    "message": "vänta"
+  },
+  "@DISABLED": {
+    "message": "Inaktiverad"
+  },
+  "@RESULT": {
+    "message": "Resultat"
+  },
+  "@GOTO": {
+    "message": "Gå till"
+  },
+  "@RECHECK": {
+    "message": "kontrollera igen"
+  },
+  "@COMPARE": {
+    "message": "Jämföra"
+  },
+  "@RECHECK_OPTION": {
+    "message": "Omkontrollalternativ"
+  },
+  "@DOCS": {
+    "message": "Dokument"
+  },
+  "@CHAT": {
+    "message": "Chatt"
+  },
+  "@ADVANCE": {
+    "message": "Förskott"
+  },
+  "@SPONSOR": {
+    "message": "Sponsor"
+  }
+}
