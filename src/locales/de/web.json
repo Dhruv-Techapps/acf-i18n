@@ -1,354 +1,554 @@
 {
-  "header": {
-    "theme": {
-      "light": "Zum hellen Design wechseln",
-      "dark": "Zum dunklen Design wechseln"
-    },
-    "google-group": "Google-Gruppe",
-    "login": "Anmeldung",
-    "logout": "Ausloggen",
-    "settings": "Globale Einstellungen"
+  "meta": {
+    "appName": "Auto Clicker - AutoFill",
+    "logoAlt": "Autoklick-Logo für automatisches Ausfüllen"
   },
-  "footer": {
-    "resources": "Ressourcen",
-    "docs": "Dokumentation",
-    "blog": "Der Blog",
-    "configuration": "Aufbau",
+  "status": {
+    "connecting": "Verbindung wird hergestellt..."
+  },
+  "links": {
+    "docs": "Dokumente",
+    "blog": "Blog",
+    "configuration": "Konfiguration",
     "issues": "Probleme",
-    "rate-us": "Bewerten Sie uns",
     "discussion": "Diskussion",
     "test": "Übungsformular",
-    "about": "Um",
     "contact": "Kontakt",
-    "chat": "Plaudern",
+    "chat": "Chat",
     "connect": "Verbinden",
-    "google-group": "Google-Gruppe",
     "privacy": "Datenschutzrichtlinie",
-    "social": "Sozial",
-    "discord": "Zwietracht",
-    "youtube": "Youtube",
-    "facebook": "Facebook",
-    "whatsapp": "Whatsapp",
-    "instagram": "BIKE24 nutzt für den genannten Dienst die technische Plattform von Instagram (Facebook Ireland Ltd., 4 Grand Canal Square, Dublin 2,",
-    "twitter": "Þjórsárden",
-    "github": "Github"
+    "googleGroup": "Google-Gruppe"
   },
-  "toast": {
-    "configuration": {
-      "addConfig": {
-        "header": "Aufbau",
-        "body": "[{{name}}] erfolgreich hinzugefügt"
-      },
-      "duplicateConfig": {
-        "header": "Aufbau",
-        "body": "[{{name}}] erfolgreich dupliziert"
-      },
-      "removeConfig": {
-        "header": "Aufbau",
-        "body": "[{{name}}] erfolgreich entfernt"
-      },
-      "exportAll": {
-        "header": "Massenexport",
-        "body": "Konfigurationen erfolgreich exportiert"
-      },
-      "importAll": {
-        "header": "Massenimport",
-        "body": "Konfigurationen erfolgreich importiert"
-      },
-      "importError": {
-        "header": "Importfehler"
-      },
-      "importSuccess": {
-        "header": "Aufbau",
-        "body": "[{{name}}] erfolgreich importiert"
-      },
-      "updateBatch": {
-        "header": "Charge",
-        "body": "Stapel erfolgreich gespeichert!"
-      }
-    },
-    "action": {
-      "save": {
-        "header": "Aktionen",
-        "body": "Aktionen erfolgreich gespeichert!"
-      }
+  "about": "Um",
+  "social": "Soziale Medien",
+  "theme": {
+    "title": "Thema",
+    "switchLight": "Wechseln Sie zum hellen Design",
+    "switchDark": "Zum dunklen Design wechseln",
+    "light": "Licht",
+    "dark": "Dunkel",
+    "auto": "Auto"
+  },
+  "loading": "Laden...",
+  "loginModal": {
+    "title": "Bitte melden Sie sich an",
+    "signingIn": "Anmelden..."
+  },
+  "learnMore": "Mehr erfahren",
+  "login": "Login",
+  "logout": "Abmelden",
+  "connect": "Verbinden",
+  "disconnect": "Trennen",
+  "resources": "Ressourcen",
+  "settings": {
+    "title": "Globale Einstellungen",
+    "additional": "Zusätzliche Einstellungen",
+    "toast": {
+      "header": "Einstellungen",
+      "body": "Einstellungen erfolgreich gespeichert!"
     }
   },
-  "confirm": {
-    "configuration": {
-      "remove": {
-        "title": "Konfiguration entfernen",
-        "message": "Möchten Sie die [{{name}}]-Konfiguration wirklich entfernen?"
-      }
-    },
-    "backup": {
+  "notification": {
+    "title": "Benachrichtigung anzeigen",
+    "error": "Bei einem Fehler trat ein Fehler auf",
+    "step": "Nach Abschluss des Schritts",
+    "loop": "Nach Abschluss der Schleife",
+    "automation": "Nach Abschluss der Automatisierung",
+    "sound": "Benachrichtigungston"
+  },
+  "discord": {
+    "title": "Benachrichtigung auf Discord",
+    "loginRequired": "Bitte melde dich <1>in deinem Konto an</1>, bevor du dich mit Discord verbindest."
+  },
+  "checkIFrames": {
+    "title": "Suche in eingebetteten Seiten",
+    "hint": "Suchen Sie auch nach Elementen in eingebetteten Abschnitten der Seite."
+  },
+  "reloadOnError": {
+    "title": "Seite bei Fehler aktualisieren",
+    "hint": "Die Seite wird automatisch neu geladen, falls etwas schiefgeht.",
+    "contextInvalidated": "Der Erweiterungskontext ist ungültig."
+  },
+  "statusBar": {
+    "title": "Statusleiste",
+    "hint": "Statusleiste am unteren Seitenrand anzeigen",
+    "positions": {
+      "hide": "Verstecken",
+      "top-left": "Oben links",
+      "top-right": "Oben rechts",
+      "bottom-left": "Unten links",
+      "bottom-right": "Unten rechts"
+    }
+  },
+  "retry": {
+    "title": "Wiederholungsversuche",
+    "interval": "Wartezeit zwischen den Wiederholungsversuchen",
+    "intervalRange": "Wartezeit zwischen den Wiederholungsversuchen",
+    "to": "Zu",
+    "stop": "Automatisierung stoppen",
+    "skip": "Diesen Schritt überspringen",
+    "refresh": "Aktualisieren und erneut versuchen",
+    "goto": "Gehe zu Schritt",
+    "hint": "Was soll geschehen, wenn der Artikel auf der Seite nicht gefunden wird?",
+    "unlimited-tooltip": "Stellen Sie die Option auf „Unbegrenzt“, um die Suche so lange fortzusetzen, bis das Element gefunden wird. Gehen Sie dabei mit Vorsicht vor, da Ihr Browser möglicherweise nicht mehr reagiert, falls das Element nicht angezeigt wird.",
+    "range-tooltip": "Um die Zufälligkeit der Wiederholungsintervalle zu erhöhen und eine Erkennung zu vermeiden, legen Sie einen Bereich fest. Wenn Sie beispielsweise 5 bis 10 Sekunden einstellen, wird für jeden Wiederholungsversuch zufällig eine Zeit zwischen 5 und 10 Sekunden gewählt."
+  },
+  "backup": {
+    "title": "Backup",
+    "lastBackup": "Letzte Datensicherung:",
+    "backup": "Backup in der Cloud",
+    "restore": "Wiederherstellung aus der Cloud",
+    "now": "Jetzt sichern",
+    "autoBackup": "Automatische Datensicherung",
+    "daily": "Täglich",
+    "weekly": "Wöchentlich",
+    "monthly": "Monatlich",
+    "off": "Aus",
+    "loginRequired": "Bitte melden Sie sich <1>in Ihrem Konto an</1>, bevor Sie eine Verbindung zu Google Drive herstellen.",
+    "checkingAccess": "Google Drive-Zugriff wird überprüft...",
+    "connect": "Mit Google Drive verbinden",
+    "connected": "Google Drive-Backup",
+    "loadingFiles": "Ihre Dateien werden geladen...",
+    "restoreAction": "Wiederherstellen",
+    "delete": "Löschen",
+    "noBackup": "Kein Backup gefunden",
+    "confirm": {
       "restore": {
-        "title": "Konfigurationen aus der Cloud wiederherstellen",
-        "message": "Möchten Sie die Konfigurationen wirklich aus der Cloud wiederherstellen? Dadurch werden alle Ihre Konfigurationen ersetzt und dieser Vorgang ist nicht umkehrbar."
+        "title": "Automatisierungen aus der Cloud wiederherstellen",
+        "message": "Sind Sie sicher, dass Sie die Automatisierungen aus der Cloud wiederherstellen möchten? Dadurch werden alle Ihre Automatisierungen ersetzt und dieser Vorgang kann nicht rückgängig gemacht werden."
       }
     },
-    "action": {
-      "remove": {
-        "title": "Aktion entfernen",
-        "message": "Möchten Sie die Aktion [{{name}}] wirklich entfernen?"
-      }
-    },
-    "userscript": {
-      "remove": {
-        "title": "Benutzerskript entfernen",
-        "message": "Möchten Sie das Benutzerskript [{{name}}] wirklich entfernen?"
+    "toast": {
+      "header": "Backup",
+      "body": "Sicherung erfolgreich gespeichert!"
+    }
+  },
+  "migrationBackup": {
+    "title": "Migrationssicherung",
+    "description": "Diese Momentaufnahmen werden automatisch vor Schema-Migrationen erstellt und ermöglichen es Ihnen, Ihre alten Daten zu überprüfen oder zu exportieren.",
+    "loading": "Migrationssicherungen werden geladen...",
+    "empty": "Es wurden keine Migrationssicherungen gefunden.",
+    "download": "Herunterladen",
+    "replaceLocalData": "Backup wiederherstellen",
+    "delete": "Löschen",
+    "version": "Version",
+    "unknownVersion": "Unbekannt",
+    "errorLoading": "Fehler beim Laden der Migrationssicherungen",
+    "errorRestore": "Die Wiederherstellung des Migrations-Backups ist fehlgeschlagen.",
+    "errorDelete": "Fehler beim Löschen der Migrationssicherung",
+    "confirm": {
+      "restore": {
+        "title": "Dieses Backup wiederherstellen",
+        "message": "Sind Sie sicher, dass Sie diese Sicherung wiederherstellen möchten? Ihre aktuellen Automatisierungen und Einstellungen werden überschrieben."
+      },
+      "delete": {
+        "title": "Migrationssicherung löschen",
+        "message": "Sind Sie sicher, dass Sie diese Migrationssicherung löschen möchten?"
       }
     }
   },
-  "modal": {
-    "settings": {
-      "title": "Globale Einstellungen",
-      "checkIFrames": "IFrames prüfen",
-      "checkIFramesHint": "Dies prüft Elemente innerhalb von iFrames",
-      "reloadOnError": "Bei Fehlern neu laden",
-      "reloadOnErrorHint": "Dies lädt die Seite neu, wenn ein Fehler auftritt",
-      "advance": "Vorauszahlung",
-      "advanceHint": "Aktivieren Sie den erweiterten Modus für weitere Funktionen",
-      "notification": {
-        "title": "Benachrichtigung anzeigen",
-        "error": "am Fehler ist aufgetreten",
-        "action": "bei Abschluss der Aktion",
-        "batch": "bei Batch-Abschluss",
-        "config": "bei Konfigurationsabschluss",
-        "sound": "Benachrichtigungston",
-        "discord": {
-          "title": "Benachrichtigung auf Discord",
-          "hint": "Sie müssen sich anmelden und unserem <1>Discord-Server</1> beitreten, um Benachrichtigungen auf Discord zu erhalten.",
-          "info": "Es befindet sich derzeit in der Entwicklung und die Funktion wird in der nächsten Version möglicherweise zu <b>einer aktionsspezifischen</b> Benachrichtigung wechseln."
-        }
-      },
-      "statusBar": {
-        "title": "Statusleiste",
-        "hint": "Statusleiste unten auf der Seite anzeigen",
-        "hide": "Verstecken",
-        "top-left": "Oben links",
-        "top-right": "Oben rechts",
-        "bottom-left": "Unten links",
-        "bottom-right": "Unten rechts"
-      },
-      "retry": {
-        "title": "Wiederholen",
-        "interval": "Wiederholungsintervall",
-        "stop": "Stoppen",
-        "skip": "Überspringen – Nicht gefunden",
-        "refresh": "Aktualisierung",
-        "hint": "Nachfolgend finden Sie die Aktionen, die ausgeführt werden können, wenn XPath nach einem erneuten Versuch nicht von der Erweiterung gefunden wird."
-      },
-      "backup": {
-        "title": "Sicherung",
-        "last-backup": "Letztes Backup:",
-        "backup": "Backup in die Cloud",
-        "restore": "Wiederherstellung aus der Cloud",
-        "now": "Jetzt sichern",
-        "auto-backup": "Automatische Sicherung",
-        "daily": "Täglich",
-        "weekly": "Wöchentlich",
-        "monthly": "Monatlich",
-        "off": "Aus"
-      },
-      "saveMessage": "Einstellungen erfolgreich gespeichert!"
-    },
-    "configSettings": {
-      "title": "Konfigurationseinstellungen",
-      "start": "Start",
-      "auto": "Auto",
-      "autoHint": "<b>Automatisch</b> (Standard) Sobald der Browser aktualisiert oder eine neue Seite geladen wird, wird die Erweiterung automatisch mitgeladen.",
-      "manual": "Handbuch",
-      "manualHint": "<b>Manuell:</b> Sobald der Browser geladen ist, kann der Benutzer die Erweiterung manuell per Hotkey aufrufen",
-      "extensionLoad": "Erweiterungslast",
-      "window": "Fenster",
-      "windowHint": "<b>Der Windows</b> -Browser (Standard) lädt die Erweiterung, sobald der gesamte Inhalt geladen ist.",
-      "document": "Dokumentieren",
-      "hotkey": "Tastenkombination",
-      "documentHint": "<b>Der Dokumentenbrowser</b> lädt die Erweiterung, bevor Skripte und Bilder geladen werden (schneller) (unsicher)",
-      "triggerUrlChange": "Auslöser bei URL-Änderung",
-      "triggerUrlChangeHint": "<b>„URL-Änderung auslösen“</b> löst die Konfiguration aus, wenn die URL ohne Neuladen der Seite geändert wird (wie in SPA).",
-      "urlMatch": "URL-Übereinstimmung",
-      "regex": "Regulärer Ausdruck",
-      "exact": "Genau"
-    },
-    "reorder": {
-      "title": "Konfigurationen neu anordnen",
-      "hint": "Bitte speichern Sie alle Konfigurationen vor einer Neubestellung"
-    },
-    "extensionNotFound": {
-      "title": "Erweiterung nicht gefunden",
-      "subTitle": "Dies ist die Konfigurationsseite für <b>die {{VITE_PUBLIC_NAME}}-</b> Erweiterung",
-      "hint": "Sie müssen zuerst die Erweiterung herunterladen, um diese nutzen zu können"
-    },
-    "actionSettings": {
-      "title": "Aktionseinstellungen",
-      "info": "Aktionseinstellungen überschreiben globale Einstellungen und gelten sowohl für die Aktion als auch für deren Add-On-Bedingung.",
-      "iframeFirst": "Iframe zuerst",
-      "iframeFirstHint": "Dadurch wird zuerst das Element im Iframe und dann auf der Hauptseite überprüft.",
-      "retry": {
-        "title": "Wiederholen",
-        "hint": "* Nachfolgend sind die Aktionen aufgeführt, die ausgeführt werden können, wenn XPath nach einem erneuten Versuch nicht von der Erweiterung gefunden wird.",
-        "interval": "Wiederholungsintervall",
-        "stop": "Stoppen",
-        "skip": "Aktion überspringen",
-        "goto": "Gehe zu Aktion",
-        "refresh": "Aktualisierung"
-      }
-    },
-    "actionCondition": {
-      "action": "Aktion",
-      "status": "Status",
-      "title": "Aktionsbedingung",
-      "info": "Aktionsbedingungen werden verwendet, um Bedingungen hinzuzufügen, die sich auf den vorherigen Aktionsstatus beziehen.",
-      "skip": "Aktion überspringen",
-      "goto": "Gehe zu Aktion",
-      "proceed": "Aktion fortsetzen",
-      "hint": "Nachfolgend finden Sie die Aktionen, die ausgeführt werden können, wenn die Bedingung nicht durch die Erweiterung erfüllt wird."
-    },
-    "ads": {
-      "title": "Bitte erlauben Sie Anzeigen auf unserer Site",
-      "subTitle": "Welche dieser Erweiterungen hast du?"
-    },
-    "addon": {
-      "title": "Hinzufügen Auf",
-      "info": "Die Bedingung zum Hinzufügen wird vor der Ausführung der Aktion überprüft.",
-      "elementFinder": "Elementfinder",
-      "condition": "Zustand",
-      "value": "Wert",
-      "valueExtractor": "Werteextraktor",
-      "recheck": {
-        "title": "Erneut prüfen",
-        "hint": "* Nachfolgend sind die Aktionen aufgeführt, die ausgeführt werden können, wenn die erneute Überprüfung nicht mit der Erweiterung übereinstimmt.",
-        "interval": "Prüfintervall",
-        "stop": "Stoppen",
-        "skip": "Aktion überspringen",
-        "refresh": "Aktualisierung",
-        "goto": "Gehe zu Aktion"
-      }
-    },
-    "schedule": {
-      "title": "Zeitplan",
-      "info": "Zeitplankonfiguration für bestimmtes Datum und Uhrzeit",
-      "date": "Datum",
-      "time": "Zeit",
-      "repeat": "Wiederholen"
+  "errorPage": {
+    "title": "Diese Seite konnte nicht geöffnet werden.",
+    "subtitle": "Die angeforderte Seite konnte nicht geladen werden. Weitere Informationen finden Sie unten.",
+    "routeLabel": "Route",
+    "detailsLabel": "Fehlerdetails",
+    "goToAutomations": "Gehe zu Automatisierungen",
+    "goToHome": "Zur Startseite"
+  },
+  "reorder": {
+    "title": "Automatisierte Nachbestellungen",
+    "hint": "Bitte speichern Sie alle Automatisierungen, bevor Sie neu bestellen."
+  },
+  "extensionNotFound": {
+    "title": "Erweiterung nicht installiert",
+    "subTitle": "Diese Seite funktioniert mit der <b>Auto Clicker - AutoFill-</b> Erweiterung für Chrome &amp; Edge.",
+    "hint": "Bitte installieren Sie zuerst die Erweiterung, um loszulegen.",
+    "download": "herunterladen"
+  },
+  "versionAlert": {
+    "securityUpdate": "Sicherheitsupdate erforderlich:",
+    "message": "Eine neuere Version von <1>Auto Clicker & Auto Fill</1> ist verfügbar und enthält Korrekturen für kürzlich identifizierte Sicherheitslücken.",
+    "learnMore": "Mehr erfahren",
+    "update": "Bitte aktualisieren Sie auf die neueste Version, um weiterhin geschützt zu sein."
+  },
+  "stepSettings": {
+    "title": "Schritteinstellungen",
+    "info": "Diese Einstellungen gelten nur für diesen Schritt und seine Vorprüfung und haben Vorrang vor Ihren globalen Einstellungen.",
+    "iframeFirst": "Zuerst eingebettete Seiten durchsuchen",
+    "iframeFirstHint": "Schauen Sie sich zunächst die eingebetteten Inhalte der Seite an, bevor Sie die Hauptseite durchsuchen.",
+    "toast": {
+      "header": "Schritteinstellungen",
+      "body": "Schritteinstellungen erfolgreich gespeichert!"
     }
   },
-  "message": {
-    "config": "Konfiguration erfolgreich gespeichert!",
-    "configSettings": "Konfigurationseinstellungen erfolgreich gespeichert!",
-    "batch": "Stapel erfolgreich gespeichert!",
-    "action": "Aktion erfolgreich gespeichert!",
-    "reorderActions": "Aktion erfolgreich neu bestellt!",
-    "removeAction": "Aktion erfolgreich entfernt!",
-    "actionAddon": "Add-on erfolgreich gespeichert!",
-    "actionStatement": "Aktionsbedingung erfolgreich gespeichert!",
-    "actionSettings": "Aktionseinstellungen erfolgreich gespeichert!",
-    "schedule": "Zeitplan erfolgreich gespeichert!"
+  "stateGuard": {
+    "action": "Vorheriger Schritt",
+    "status": "Ergebnis",
+    "title": "Staatsgarde",
+    "add": "Bedingung hinzufügen",
+    "info": "Legen Sie eine Regel fest, die anhand der Ergebnisse der vorherigen Schritte steuert, ob dieser Schritt ausgeführt werden soll.",
+    "stop": "Automatisierung stoppen",
+    "skip": "Diesen Schritt überspringen",
+    "refresh": "Aktualisieren und erneut versuchen",
+    "goto": "Gehe zu Schritt",
+    "proceed": "Führe diesen Schritt trotzdem aus",
+    "hint": "Was soll geschehen, wenn die Regel nicht eingehalten wird?",
+    "toast": {
+      "header": "Staatsgarde",
+      "body": "Staatswache erfolgreich gerettet!"
+    }
   },
-  "configuration": {
-    "title": "Aufbau",
-    "add": "Neue Konfiguration",
-    "exportAll": "Massenexportkonfiguration",
-    "importAll": "Massenimportkonfiguration",
-    "remove": "Konfiguration entfernen",
-    "duplicate": "Doppelte Konfiguration",
-    "reorder": "Neuanordnung der Konfigurationen",
-    "removeConfigs": "Massenentfernen der Konfiguration",
-    "settings": "Konfigurationseinstellungen",
+  "pageGuard": {
+    "title": "Page Guard",
+    "info": "Führe diesen Schritt nur aus, wenn ein Wert auf der Seite deiner Bedingung entspricht.",
+    "elementFinder": "Artikel auf Seite finden",
+    "condition": "Vergleichen",
+    "value": "Vergleichen Sie mit",
+    "valueExtractor": "Nummer oder Text extrahieren",
+    "valueExtractorHint": "Verwenden Sie ein Muster, um einen bestimmten Teil des Wertes zu extrahieren. Extrahieren Sie beispielsweise 24,00 aus $24,00 oder 10 aus 10 Automatisierungen.",
+    "recheck": {
+      "title": "Wenn die Bedingung nicht erfüllt ist",
+      "hint": "Wählen Sie aus, was geschehen soll, wenn die Filterbedingung nicht erfüllt ist.",
+      "recheck": "Erneut prüfen",
+      "interval": "Warten Sie, bevor Sie erneut prüfen.",
+      "stop": "Automatisierung stoppen",
+      "skip": "Diesen Schritt überspringen",
+      "refresh": "Aktualisieren und erneut versuchen",
+      "goto": "Gehe zu Schritt"
+    },
+    "toast": {
+      "header": "Page Guard",
+      "body": "Seitenschutz erfolgreich gespeichert!"
+    }
+  },
+  "schedule": {
+    "title": "Automatisierung von Zeitplänen",
+    "info": "Führen Sie diese Automatisierung an einem bestimmten Datum und zu einer bestimmten Uhrzeit aus.",
+    "date": "Datum",
+    "time": "Zeit",
+    "repeat": "In wenigen Minuten wiederholen",
+    "toast": {
+      "header": "Zeitplan",
+      "body": "Zeitplan erfolgreich gespeichert!"
+    }
+  },
+  "upgradePlan": {
+    "title": "Upgrade-Plan",
+    "subtitle": "Schalten Sie erweiterte Funktionen frei und holen Sie das Beste aus Auto Clicker AutoFill heraus.",
+    "currentPlan": "Ihr aktueller Plan",
+    "free": {
+      "name": "🆓 GRATIS",
+      "tagline": "Leistungsstarke Automatisierung für alle – kein Konto erforderlich.",
+      "perMonth": "für immer",
+      "cta": "Aktueller Plan",
+      "includes": "Im Lieferumfang enthalten:",
+      "features": {
+        "unlimitedAutomations": "Unbegrenzte Automatisierungen",
+        "unlimitedSteps": "Unbegrenzte Schritte pro Automatisierung",
+        "loopSteps": "Wiederhole die Schritte in einer Schleife",
+        "recording": "Visueller Schrittzähler",
+        "allValues": "Alle Werttypen – keine API erforderlich"
+      }
+    },
+    "plus": {
+      "name": "🚀 PLUS",
+      "tagline": "Alle wichtigen Funktionen sowie eine detailliertere Kontrolle über Vorabprüfungen und Einstellungen innerhalb weniger Schritte.",
+      "perMonth": "pro Monat",
+      "cta": "Upgrade auf Plus",
+      "includes": "Alles kostenlos, plus:",
+      "features": {
+        "addonCondition": "Bedingte Addon-Logik",
+        "actionCondition": "Bedingungen pro Aktion",
+        "actionSettings": "Einstellungen und Überschreibungen auf Aktionsebene",
+        "noAds": "Werbefreies Erlebnis"
+      }
+    },
+    "lite": {
+      "name": "⭐ LITE",
+      "tagline": "Essenzielle Funktionen für fortgeschrittene Benutzer, die mehr Kontrolle wünschen.",
+      "perMonth": "pro Monat",
+      "cta": "Upgrade auf Lite",
+      "includes": "Alles kostenlos, plus:",
+      "features": {
+        "addonCondition": "Bedingte Addon-Logik",
+        "actionCondition": "Bedingungen pro Aktion",
+        "actionSettings": "Einstellungen und Überschreibungen auf Aktionsebene",
+        "noAds": "Werbefreies Erlebnis"
+      }
+    },
+    "pro": {
+      "name": "🔹 PRO",
+      "tagline": "Die volle Leistungsfähigkeit der Automatisierung – mit Integrationen, KI und priorisiertem Support.",
+      "perMonth": "pro Monat",
+      "cta": "Upgrade auf Pro",
+      "includes": "Alles in Plus, plus:",
+      "features": {
+        "sheets": "Google Sheets-Integration",
+        "discord": "Discord-Benachrichtigungen",
+        "captcha": "Captcha-Auflöser (demnächst verfügbar)",
+        "vipSupport": "Priorisierter Support über Discord",
+        "earlyAccess": "Früher Zugriff auf neue Funktionen",
+        "prideAndJoy": "Unterstützerabzeichen & Anerkennung durch die Gemeinschaft"
+      }
+    }
+  },
+  "googleSheets": {
+    "title": "Google Tabellen",
+    "hint": "Verbinden Sie Ihr Google Sheets-Konto, um Ihre Automatisierungen und Protokolle einfach zu exportieren und Ihre Automatisierungshistorie an einem Ort zu verwalten.",
+    "useStable": {
+      "title": "Verwenden Sie stabile Versionen für Google Sheets-Funktionen.",
+      "message": "Für optimale Leistung und Zuverlässigkeit in Google Tabellen empfiehlt es sich, stabile Versionen der Funktionen zu verwenden. Diese Versionen werden gründlich getestet, um eine reibungslose Funktionalität zu gewährleisten und Ihnen eine verlässliche Plattform für Ihre Aufgaben zu bieten. Durch die Priorisierung von Stabilität können Sie Ihre Produktivität steigern und das Risiko unerwarteter Probleme minimieren. Benötigen Sie Hilfe oder Unterstützung bei der effektiven Nutzung von Google Tabellen? Dann wenden Sie sich gerne an unseren Support!"
+    },
+    "loginRequired": "Bitte melden Sie sich <1>in Ihrem Konto an</1>, bevor Sie eine Verbindung zu Google Sheets herstellen.",
+    "connect": "Mit Google Sheets verbinden",
+    "connected": "Mit Google Sheets verbunden"
+  },
+  "sidebar": {
+    "search": "Suchen",
+    "upgradePlan": "Upgrade-Plan",
+    "login": "Login",
+    "logout": "Abmelden",
+    "language": "Sprache",
+    "learnMore": "Mehr erfahren",
+    "guestInitial": "E",
+    "guestName": "Forscher",
+    "freePlan": "FREI"
+  },
+  "automations": {
+    "title": "Meine Automatisierungen",
+    "count": "Automatisierungen ({{count}})",
+    "search": "Durchsuchen Sie Ihre Automatisierung...",
+    "add": "Neu",
+    "reorder": "Neu bestellen",
+    "reorderByName": "Nach Namen sortieren",
+    "selected": "ausgewählt",
+    "selected_one": "1 Automatisierung ausgewählt",
+    "selected_other": "{{count}} Automatisierungen ausgewählt",
+    "selectAll": "Alle auswählen",
+    "exportSelected": "Exportieren ausgewählt",
+    "deleteSelected": "Ausgewählte löschen",
+    "cancelSelection": "Auswahl abbrechen",
+    "automationsWithinExtension": "Automatisierungen innerhalb der Erweiterung",
+    "selectAutomations": "Wählen Sie die zu exportierenden oder zu löschenden Automatisierungen aus.",
+    "select": "Wählen",
+    "import": "Import",
+    "filter": {
+      "all": "Alle",
+      "enabled": "Ermöglicht",
+      "disabled": "Deaktiviert"
+    },
+    "toast": {
+      "header": "Automatisierungen",
+      "remove": "Automatisierungen erfolgreich entfernt",
+      "remove_one": "Automatisierung erfolgreich entfernt",
+      "remove_other": "{{count}} Automatisierungen erfolgreich entfernt",
+      "export": "Automatisierungen erfolgreich exportiert",
+      "export_one": "1 Automatisierung erfolgreich exportiert",
+      "export_other": "{{count}} Automatisierungen erfolgreich exportiert",
+      "import": "Automatisierungen erfolgreich importiert",
+      "import_one": "1 Automatisierung erfolgreich importiert",
+      "import_other": "{{count}} Automatisierungen erfolgreich importiert",
+      "reorder": "Automatisierungen erfolgreich neu angeordnet"
+    }
+  },
+  "automation": {
+    "title": "Automatisierung",
+    "remove": "Entfernen",
+    "duplicate": "Duplikat",
     "enable": "Aktivieren",
-    "export": "Konfiguration exportieren",
-    "import": "Konfiguration importieren",
+    "disable": "Deaktivieren",
+    "disabled": "Deaktiviert",
+    "edit": "Bearbeiten",
+    "export": "Export",
+    "import": "Import",
+    "schedule": "Zeitplan",
+    "batch": "Schleifeneinstellungen",
+    "watch": "Monitoreinstellungen",
     "url": "URL",
     "name": "Name",
-    "initWait": "Initialisierung: Warten",
-    "startTime": "Startzeit",
-    "noConfig": "Keine Konfiguration gefunden. Bitte verfeinern Sie Ihre Suche."
+    "initWait": "Warten Sie, bevor Sie beginnen",
+    "startTime": "Geplante Startzeit",
+    "noConfig": "Keine Automatisierung gefunden. Bitte verfeinern Sie Ihre Suche.",
+    "confirm": {
+      "title": "Automatisierung entfernen",
+      "message": "Möchten Sie die Automatisierung [{{name}}] wirklich entfernen?"
+    },
+    "toast": {
+      "header": "Automatisierung",
+      "body": "Automatisierung erfolgreich gespeichert!",
+      "schedule": "Automatisierungsplan erfolgreich gespeichert!",
+      "settings": "Automatisierungseinstellungen erfolgreich gespeichert!",
+      "add": "Automatisierung erfolgreich hinzugefügt",
+      "duplicate": "Automatisierung erfolgreich dupliziert"
+    },
+    "disable-tooltip": "Deaktivieren Sie diese Automatisierung, damit sie nicht ausgeführt wird, ohne sie zu löschen. Sie können sie später bei Bedarf wieder aktivieren.",
+    "enable-tooltip": "Aktivieren Sie diese Automatisierung, damit sie ausgeführt werden kann. Sie können sie später wieder deaktivieren, wenn Sie sie pausieren möchten, ohne sie zu löschen."
   },
-  "batch": {
-    "title": "Charge",
+  "automationSettings": {
+    "title": "Automatisierungseinstellungen",
+    "startType": "Laufmodus",
+    "hotkey": "Tastenkombination",
+    "auto": "Automatisch",
+    "autoHint": "<b>Automatisch</b> – wird bei jedem Seitenaufruf selbstständig ausgeführt. Sie müssen nichts tun.",
+    "manual": "Manuelle (Hotkey-)",
+    "manualHint": "<b>Manuell</b> – wird nur ausgeführt, wenn Sie die von Ihnen festgelegte Tastenkombination drücken.",
+    "loadType": "Seitenladezeit",
+    "window": "Nach Volllast",
+    "windowHint": "<b>Nach vollständigem Laden</b> (Empfohlen) — Die Automatisierung beginnt, nachdem die gesamte Seite einschließlich Bilder und Skripte vollständig geladen wurde.",
+    "document": "Beim Laden der Seite",
+    "documentHint": "Die Automatisierung startet, sobald die Seitenstruktur bereit ist, noch bevor Bilder und Skripte vollständig geladen sind. <b>Dies</b> ist schneller, kann aber auf manchen Seiten instabil sein.",
+    "triggerUrlChange": "Seitennavigation ausführen",
+    "triggerUrlChangeHint": "<b>Bei Seitennavigation ausführen</b> – führt die Automatisierung erneut aus, wenn sich die Seitenadresse ändert, ohne dass die Seite vollständig neu geladen werden muss. Nützlich für Gmail, Twitter und andere moderne Apps.",
+    "urlMatch": "URL-Übereinstimmungstyp",
+    "regex": "Musterübereinstimmung",
+    "exact": "Exakte URL",
+    "startTime": "Startzeit (für Automatisierungen)",
+    "googleSheetsId": "Google Sheets ID",
+    "bypass": {
+      "title": "Standardverhalten des Browsers für Hotkeys umgehen",
+      "alert": "Alarm",
+      "confirm": "Bestätigen",
+      "prompt": "Prompt"
+    }
+  },
+  "loop": {
+    "title": "Schleife",
     "repeat": "Wiederholen",
-    "repeatHint": "<b>Durch Wiederholen</b> werden alle Aktionen im angegebenen Intervall erneut ausgeführt, ohne dass die Seite neu geladen wird.",
-    "repeatInterval": "R-Intervall",
-    "refresh": "Aktualisierung",
-    "refreshHint": "<b>Durch Aktualisieren</b> wird die Seite neu geladen, sobald alle Aktionen abgeschlossen sind."
+    "repeatHint": "<b>Die Wiederholungsfunktion</b> führt alle Schritte im angegebenen Intervall erneut aus, ohne die Seite neu zu laden.",
+    "repeatInterval": "Intervall zwischen den Schleifen",
+    "repeatIntervalRange": "Intervall zwischen den Schleifen",
+    "refresh": "Aktualisieren",
+    "refreshHint": "<b>Durch Klicken auf „Aktualisieren“</b> wird die Seite neu geladen, sobald alle Schritte abgeschlossen sind.",
+    "toast": {
+      "header": "Schleifeneinstellungen",
+      "body": "Schleifeneinstellungen erfolgreich gespeichert!"
+    }
   },
   "error": {
-    "number": "Es sind nur gültige Nummern zulässig.",
-    "interval": "Es sind nur gültige Nummern zulässig.",
-    "url": "URL ist erforderlich",
-    "initWait": "Es sind nur gültige Nummern zulässig.",
-    "scheduleDate": "Das geplante Datum muss dem Format JJJJ-MM-TT (01.12.2025) entsprechen.",
-    "scheduleTime": "Die geplante Zeit muss dem Format HH:mm:ss.sss (23:59:59.000) entsprechen",
-    "scheduleRepeat": "Die Wiederholung des Zeitplans sollte nur eine Zahl sein",
-    "startTime": "Die Startzeit muss dem Format HH:mm:ss:fff (12:12:12:000) entsprechen.",
-    "json": "Das ausgewählte JSON ist ungültig",
-    "hotKey": "Ein einzelner Buchstabe ohne Strg/Befehl ist ungültig",
-    "valueExtractor": "Kein gültiger regulärer Ausdruck",
-    "value": "Wert erforderlich",
-    "condition": "Kondition ist Voraussetzung",
-    "elementFinder": "Element Finder ist erforderlich"
+    "required": "Dieses Feld ist erforderlich",
+    "number": "Bitte geben Sie eine gültige Nummer ein.",
+    "integer": "Bitte geben Sie eine gültige ganze Zahl ein.",
+    "positive": "Muss eine positive Zahl sein",
+    "min": "Bitte geben Sie einen Wert größer oder gleich {{min}} ein.",
+    "max": "Bitte geben Sie einen Wert ein, der kleiner oder gleich {{max}} ist.",
+    "url": "Bitte geben Sie eine Website-URL ein, um fortzufahren.",
+    "initWait": "Bitte geben Sie eine gültige Nummer ein.",
+    "scheduleDate": "Bitte geben Sie ein gültiges Datum in diesem Format ein: 2025-12-01",
+    "scheduleTime": "Bitte geben Sie eine gültige Uhrzeit in diesem Format ein: 23:59:59.000",
+    "scheduleRepeat": "Bitte geben Sie eine gültige Zahl für die Anzahl der Wiederholungen ein.",
+    "startTime": "Bitte geben Sie eine gültige Startzeit in diesem Format ein: 12:12:12.000",
+    "json": "Die ausgewählte Datei ist kein gültiges JSON – bitte überprüfen Sie dies und versuchen Sie es erneut.",
+    "hotKey": "Bitte verwenden Sie einen Buchstaben in Kombination mit Strg, Alt oder Umschalt (z. B. Strg + A).",
+    "valueExtractor": "Das eingegebene Muster ist ungültig – bitte überprüfen Sie es und versuchen Sie es erneut.",
+    "value": "Bitte geben Sie einen Wert ein, um fortzufahren.",
+    "condition": "Bitte wählen Sie eine Erkrankung aus, um fortzufahren.",
+    "elementFinder": "Bitte geben Sie an, wie der Artikel auf der Seite gefunden werden kann.",
+    "spreadsheetId": "Bitte geben Sie eine gültige Google Sheets-ID ein (44 Zeichen, z. B. 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)"
   },
-  "action": {
-    "title": "Aktion",
-    "add": "Aktion hinzufügen",
-    "addBefore": "Aktion oben hinzufügen",
-    "addAfter": "Aktion unten hinzufügen",
-    "addon": "Hinzufügen Auf",
-    "remove": "Aktion entfernen",
-    "settings": "Aktionseinstellungen",
-    "disable": "Aktion deaktivieren",
-    "enable": "Aktion aktivieren",
-    "initWait": "Initialisieren – Warten",
+  "step": {
+    "title": "Schritt",
+    "plural": "Schritte",
+    "step_one": "1. Schritt",
+    "step_other": "{{count}} Schritte",
+    "add": "Schritt hinzufügen",
+    "addBefore": "Schritt oben hinzufügen",
+    "addAfter": "Fügen Sie unten einen Schritt hinzu",
+    "remove": "Schritt entfernen",
+    "disable": "Schritt deaktivieren",
+    "enable": "Schritt aktivieren",
+    "initWait": "Verzögerung",
     "name": "Name",
-    "elementFinder": "Elementfinder",
+    "elementFinder": "Ziel",
     "value": "Wert",
     "repeat": "Wiederholen",
-    "repeatInterval": "R-Intervall"
+    "repeatInterval": "Intervall",
+    "defaultName": "Aktion oder Benutzerskript",
+    "confirm": {
+      "remove": {
+        "title": "Schritt entfernen",
+        "message": "Sind Sie sicher, dass Sie den Schritt [{{name}}] entfernen möchten?"
+      }
+    },
+    "toast": {
+      "header": "Schritt",
+      "body": "Schritt erfolgreich gespeichert!",
+      "remove": "Schritt erfolgreich entfernt!",
+      "reorder": "Schritte erfolgreich neu angeordnet!"
+    }
   },
   "userscript": {
-    "add": "Benutzerskript hinzufügen"
+    "add": "Benutzerskript hinzufügen",
+    "confirm": {
+      "remove": {
+        "title": "Benutzerskript entfernen",
+        "message": "Sind Sie sicher, dass Sie das Benutzerskript [{{name}}] entfernen möchten?"
+      }
+    }
   },
   "popover": {
     "valueExtractor": {
-      "title": "Beispiele"
+      "title": "Beispiele",
+      "attributeSelector": "Attributselektor",
+      "regex": "Regex"
     },
-    "startTime": {
-      "content": "Versuchen Sie &lt;1&gt; URL planen</1> unsere neue Browsererweiterung.<br /> Es wird verwendet, um Webseiten/URLs für einen bestimmten Tag und eine bestimmte Uhrzeit zu planen."
+    "elementFinder": {
+      "getElementBy": "getElementBy",
+      "elementFinder": "Elementfinder",
+      "count": "Anzahl der Elemente"
+    },
+    "value": {
+      "plainText": "Klartext",
+      "more": "mehr"
+    },
+    "flags": {
+      "title": "Flaggen",
+      "global": "Kehre nach dem ersten Spiel nicht zurück.",
+      "multiLine": "^ und $ markieren den Zeilenanfang bzw. das Zeilenende.",
+      "insensitive": "Groß-/Kleinschreibung ignorierende Übereinstimmung",
+      "extended": "Leerzeichen ignorieren",
+      "singleLine": "Punkt entspricht Zeilenumbruch"
     },
     "hotkey": {
       "title": "Tastenkombination",
-      "content": "Drücken Sie die Tastenkombination auf der Tastatur, um automatisch in das Feld einzutippen.",
-      "hint": "Ein einzelner Buchstabe ohne <kbd>Strg</kbd> , <kbd>Alt</kbd> oder <kbd>Umschalt</kbd> ist ungültig"
+      "content": "Drücken Sie die Tastenkombination auf der Tastatur, um den Text automatisch in das Feld einzugeben.",
+      "hint": "Ein einzelner Buchstabe ohne <kbd>Strg</kbd> , <kbd>Alt</kbd> oder <kbd>Umschalt</kbd> ist ungültig."
     }
   },
   "common": {
     "appName": "Auto Clicker - AutoFill",
-    "settings": "Einstellungen",
+    "file": "Datei",
     "error": "Fehler",
     "save": "Speichern",
     "clear": "Klar",
+    "cancel": "Stornieren",
     "close": "Schließen",
     "download": "Herunterladen",
     "disabled": "Deaktiviert",
-    "sec": "Sek",
-    "min": "Min",
+    "remove": "Entfernen",
+    "edit": "Bearbeiten",
+    "enable": "Aktivieren",
+    "disable": "Deaktivieren",
+    "duplicate": "Duplikat",
+    "sec": "Sekunde",
+    "min": "min",
     "no": "NEIN",
     "yes": "Ja",
     "local": "LOKAL",
-    "dev": "ENTWICKLER",
+    "dev": "DEV",
     "stable": "STABIL",
-    "examples": "Beispiele"
+    "examples": "Beispiele",
+    "add": "Hinzufügen",
+    "confirm": "Bestätigen"
   },
-  "language": {
+  "languages": {
+    "title": "Sprache",
     "en": "Englisch",
     "fr": "Französisch",
     "ko": "Koreanisch",
     "ca": "Kanada",
     "hi": "Hindi",
-    "zh_CN": "Chinesisch",
-    "zh_TW": "Traditionelles Chinesisch",
+    "zh_CN": "Chinesisch (vereinfacht)",
+    "zh_TW": "Chinesisch (Traditionell)",
     "sv": "Schwedisch",
     "pt": "Portugiesisch",
     "ja": "japanisch",
@@ -361,5 +561,86 @@
     "it": "Italienisch",
     "ru": "Russisch",
     "id": "Indonesisch"
+  },
+  "monitor": {
+    "title": "Monitor",
+    "enabled": "Überwachung aktivieren",
+    "enabledHint": "Aktionen automatisch erneut ausführen, wenn neue passende Elemente zur Seite hinzugefügt werden (z. B. für unendliches Scrollen, asynchrone Inhalte).",
+    "rootSelector": "Monitor Root",
+    "rootSelectorPlaceholder": "Körper",
+    "rootSelectorHint": "CSS-Selektor für den zu beobachtenden Container",
+    "watchAttributes": "Monitorattribute",
+    "attributesPlaceholder": "Stil, Klasse, versteckt",
+    "attributesHint": "Durch Kommas getrennte Liste der Attribute, die auf Änderungen überwacht werden sollen",
+    "debounce": "Debounce",
+    "debounceHint": "Verzögerung vor der Verarbeitung neuer Elemente (1-5 Sekunden)",
+    "timeout": "Time-out",
+    "timeoutHint": "Automatischer Stopp nach N Minuten (1-180)",
+    "urlChange": "Stopp bei URL-Änderung",
+    "urlChangeHint": "Die Überwachung wird automatisch gestoppt, wenn sich die Seiten-URL ändert.",
+    "toast": {
+      "header": "Monitor",
+      "body": "Monitor erfolgreich gespeichert!"
+    }
+  },
+  "home": {
+    "title": "Willkommen bei Auto Clicker - AutoFill",
+    "subtitle": "Automatisieren Sie Klicks und Formularausfüllungen auf jeder Website, indem Sie Ziele und Aktionen definieren.",
+    "quickStart": {
+      "title": "Schnellstartanleitung",
+      "step1": {
+        "title": "1. Installieren Sie die Erweiterung",
+        "desc": "Laden Sie die Erweiterung aus dem Chrome Web Store oder dem Edge-Add-ons-Bereich herunter und installieren Sie sie."
+      },
+      "step2": {
+        "title": "2. Eine Zielseite konfigurieren",
+        "desc": "Öffnen Sie eine Webseite, klicken Sie mit der rechten Maustaste auf ein beliebiges Element und wählen Sie Auto Clicker - AutoFill → Für dieses Feld konfigurieren."
+      },
+      "step3": {
+        "title": "3. Speichern & Ausführen",
+        "desc": "Speichern Sie Ihre Konfiguration und laden Sie die Zielseite neu. Die Automatisierung wird automatisch ausgeführt."
+      }
+    },
+    "tips": {
+      "title": "Hilfreiche Tipps",
+      "tip1": {
+        "title": "Probieren Sie es auf der Testseite aus.",
+        "desc": "Öffnen Sie test.getautoclicker.com, fügen Sie zwei Aktionen hinzu – eine zum Ausfüllen eines Benutzernamenfelds und eine zum Klicken auf eine Schaltfläche – und speichern und starten Sie das Programm."
+      },
+      "tip2": {
+        "title": "Zielartikel genau",
+        "desc": "Verwenden Sie Elementpfade, um gezielt bestimmte Elemente auf einer Seite anzusprechen, z. B. //input[@name=\"username\"], um eine zuverlässigere Automatisierung zu erreichen."
+      },
+      "tip3": {
+        "title": "Langsame Seitenladezeiten bewältigen",
+        "desc": "Legen Sie bei Ihrer Automatisierung eine Wartezeit vor dem Start fest, falls die Seite langsam lädt, bevor Ihre Schritte ausgeführt werden."
+      },
+      "tip4": {
+        "title": "Globale Einstellungen & Hotkeys",
+        "desc": "Konfigurieren Sie den Startmodus, definieren Sie eine Tastenkombination und passen Sie die Position der Statusleiste in den globalen Einstellungen an."
+      },
+      "tip5": {
+        "title": "Rechtsklick zum automatischen Aufnehmen",
+        "desc": "Klicken Sie mit der rechten Maustaste auf ein beliebiges Eingabefeld oder eine Schaltfläche auf einer Seite und wählen Sie „Für dieses Feld konfigurieren“, um die URL und den Elementfinder automatisch auszufüllen."
+      }
+    },
+    "videos": {
+      "title": "Videoanleitungen",
+      "video1": {
+        "title": "Auto Clicker AutoFill - Complete Overview"
+      },
+      "video2": {
+        "title": "Erste Schritte mit Auto Clicker AutoFill"
+      },
+      "video3": {
+        "title": "Formulare automatisch ausfüllen"
+      },
+      "video4": {
+        "title": "Schaltflächen automatisch anklicken"
+      },
+      "video5": {
+        "title": "Erweiterte Konfigurationstipps"
+      }
+    }
   }
 }
