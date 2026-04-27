@@ -236,6 +236,15 @@
     "title": "升級計劃",
     "subtitle": "解鎖進階功能，充分發揮 Auto Clicker AutoFill 的效用。",
     "currentPlan": "您目前的計劃",
+    "upgrading": "正在升級…",
+    "cancelling": "正在取消…",
+    "cancelPlan": "取消計劃",
+    "cancelConfirm": "您確定要在目前計費週期結束時取消訂閱嗎？",
+    "cancelError": "訂閱取消失敗，請稍後再試。",
+    "loginRequired": "請登入升級您的套餐。",
+    "loginLink": "登入",
+    "activeSubscription": "有效訂閱：",
+    "subscriptionStatus": "狀態：{{status}}",
     "free": {
       "name": "🆓 免費",
       "tagline": "強大的自動化功能，人人可用－無需註冊帳號。",
@@ -348,7 +357,8 @@
       "import": "自動化流程已成功導入。",
       "import_one": "1 個自動化流程已成功匯入。",
       "import_other": "{{count}} 個自動化流程已成功匯入",
-      "reorder": "自動化流程已成功重新排序"
+      "reorder": "自動化流程已成功重新排序",
+      "alreadyExists": "所有自動化流程均已存在，且內容完全相同。"
     }
   },
   "automation": {
@@ -642,5 +652,16 @@
         "title": "進階配置技巧"
       }
     }
+  },
+  "conflictModal": {
+    "title": "配置衝突",
+    "conflicts": "衝突",
+    "of": "的",
+    "description": "請選擇解決此衝突的方式。",
+    "existing": "現有（前）",
+    "incoming": "即將到來的（之後）",
+    "skip": "跳過",
+    "createNew": "創建新",
+    "overwrite": "覆蓋"
   }
 }

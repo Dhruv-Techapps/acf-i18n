@@ -236,6 +236,15 @@
     "title": "Uppgraderingsplan",
     "subtitle": "Lås upp avancerade funktioner och få ut det mesta av Auto Clicker AutoFill.",
     "currentPlan": "Din nuvarande plan",
+    "upgrading": "Uppgraderar...",
+    "cancelling": "Inställande...",
+    "cancelPlan": "Avbryt abonnemang",
+    "cancelConfirm": "Är du säker på att du vill avsluta din prenumeration i slutet av den nuvarande faktureringsperioden?",
+    "cancelError": "Det gick inte att avsluta prenumerationen. Försök igen senare.",
+    "loginRequired": "Vänligen logga in för att uppgradera ditt abonnemang.",
+    "loginLink": "Logga in",
+    "activeSubscription": "Aktiv prenumeration:",
+    "subscriptionStatus": "Status: {{status}}",
     "free": {
       "name": "🆓 GRATIS",
       "tagline": "Kraftfull automatisering för alla – inget konto krävs.",
@@ -348,7 +357,8 @@
       "import": "Automatiseringarna har importerats",
       "import_one": "1 automatisering har importerats",
       "import_other": "{{count}} automatiseringar har importerats",
-      "reorder": "Automatiseringarna har omordnats"
+      "reorder": "Automatiseringarna har omordnats",
+      "alreadyExists": "Alla automatiseringar finns redan med identiskt innehåll"
     }
   },
   "automation": {
@@ -642,5 +652,16 @@
         "title": "Avancerade konfigurationstips"
       }
     }
+  },
+  "conflictModal": {
+    "title": "Konfigurationskonflikt",
+    "conflicts": "konflikter",
+    "of": "av",
+    "description": "Välj hur du vill lösa denna konflikt.",
+    "existing": "Befintlig (före)",
+    "incoming": "Inkommande (efter)",
+    "skip": "Hoppa",
+    "createNew": "Skapa ny",
+    "overwrite": "Skriva över"
   }
 }

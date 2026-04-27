@@ -16,8 +16,7 @@ class TranslateCommon {
     console.log('thisDir', thisDir);
     const repoRoot = path.resolve(thisDir, '..');
     console.log('repoRoot', repoRoot);
-    console.log('process.env.GCP_SERVICE_ACCOUNT_KEY_PATH', process.env.GCP_SERVICE_ACCOUNT_KEY_PATH);
-    const keyPath = path.join(repoRoot, process.env.GCP_SERVICE_ACCOUNT_KEY_PATH || 'service-account.json');
+    const keyPath = path.join(repoRoot, '../../Documents/serviceAccountKey.json');
     console.log('keyPath', keyPath);
 
     this.translate = new Translate({ keyFilename: keyPath });
@@ -52,19 +51,19 @@ class TranslateCommon {
 
   start = async () => {
     // Read the JSON file
-    const filePath = `locales/en/${this.file}`;
+    const filePath = `src/locales/en/${this.file}`;
     const englishJson = await fs.promises.readFile(filePath, 'utf8');
 
     for (const { lang, folder } of LANGUAGES) {
       console.error('------------- Processing :: ', folder, lang);
-      const translatedFilePath = `locales/${folder}/${this.file}`;
+      const translatedFilePath = `src/locales/${folder}/${this.file}`;
 
       const targetJson = await fs.promises.readFile(translatedFilePath, 'utf8').catch(() => {
-        fs.promises.mkdir(`locales/${folder}`, { recursive: true });
+        fs.promises.mkdir(`src/locales/${folder}`, { recursive: true });
       });
       // Translate the JSON object and log the result
       const translatedJson = await this.translateObject(JSON.parse(englishJson), lang, JSON.parse(targetJson || '{}'));
-      await fs.promises.writeFile(`locales/${folder}/${this.file}`, JSON.stringify(translatedJson, null, 2));
+      await fs.promises.writeFile(`src/locales/${folder}/${this.file}`, JSON.stringify(translatedJson, null, 2));
     }
   };
 }

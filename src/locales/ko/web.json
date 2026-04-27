@@ -236,6 +236,15 @@
     "title": "업그레이드 플랜",
     "subtitle": "Auto Clicker AutoFill의 고급 기능을 활용하여 최대한의 효과를 누리세요.",
     "currentPlan": "현재 사용 중인 플랜",
+    "upgrading": "업그레이드 중...",
+    "cancelling": "취소 중...",
+    "cancelPlan": "계획 취소",
+    "cancelConfirm": "현재 결제 주기가 끝나는 시점에 구독을 취소하시겠습니까?",
+    "cancelError": "구독 취소에 실패했습니다. 나중에 다시 시도해 주세요.",
+    "loginRequired": "요금제를 업그레이드하려면 로그인하세요.",
+    "loginLink": "로그인",
+    "activeSubscription": "활성 구독:",
+    "subscriptionStatus": "상태: {{status}}",
     "free": {
       "name": "🆓 무료",
       "tagline": "누구나 사용할 수 있는 강력한 자동화 기능 - 계정 필요 없음",
@@ -348,7 +357,8 @@
       "import": "자동화 기능이 성공적으로 가져와졌습니다.",
       "import_one": "자동화 1개를 성공적으로 가져왔습니다.",
       "import_other": "{{count}}개의 자동화 항목이 성공적으로 가져와졌습니다.",
-      "reorder": "자동화 재정렬이 성공적으로 완료되었습니다."
+      "reorder": "자동화 재정렬이 성공적으로 완료되었습니다.",
+      "alreadyExists": "모든 자동화 기능은 이미 동일한 콘텐츠로 존재합니다."
     }
   },
   "automation": {
@@ -642,5 +652,16 @@
         "title": "고급 구성 팁"
       }
     }
+  },
+  "conflictModal": {
+    "title": "구성 충돌",
+    "conflicts": "갈등",
+    "of": "~의",
+    "description": "이 갈등을 해결할 방법을 선택해 주세요.",
+    "existing": "기존 (이전)",
+    "incoming": "들어오는 (후)",
+    "skip": "건너뛰다",
+    "createNew": "새 항목 생성",
+    "overwrite": "덮어쓰기"
   }
 }

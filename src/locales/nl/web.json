@@ -236,6 +236,15 @@
     "title": "Upgradeplan",
     "subtitle": "Ontgrendel geavanceerde functies en haal het maximale uit Auto Clicker AutoFill.",
     "currentPlan": "Uw huidige plan",
+    "upgrading": "Upgraden...",
+    "cancelling": "Annuleren...",
+    "cancelPlan": "Plan annuleren",
+    "cancelConfirm": "Weet je zeker dat je je abonnement aan het einde van de huidige factureringsperiode wilt opzeggen?",
+    "cancelError": "Abonnement annuleren is mislukt. Probeer het later opnieuw.",
+    "loginRequired": "Log in om uw abonnement te upgraden.",
+    "loginLink": "Inloggen",
+    "activeSubscription": "Actief abonnement:",
+    "subscriptionStatus": "Status: {{status}}",
     "free": {
       "name": "🆓 GRATIS",
       "tagline": "Krachtige automatisering voor iedereen — geen account nodig.",
@@ -348,7 +357,8 @@
       "import": "Automatiseringen succesvol geïmporteerd",
       "import_one": "1 automatisering succesvol geïmporteerd",
       "import_other": "{{count}} automatiseringen succesvol geïmporteerd",
-      "reorder": "Automatiseringen succesvol opnieuw besteld"
+      "reorder": "Automatiseringen succesvol opnieuw besteld",
+      "alreadyExists": "Alle automatiseringen bestaan al met identieke inhoud."
     }
   },
   "automation": {
@@ -642,5 +652,16 @@
         "title": "Geavanceerde configuratietips"
       }
     }
+  },
+  "conflictModal": {
+    "title": "Configuratieconflict",
+    "conflicts": "conflicten",
+    "of": "van",
+    "description": "Kies hoe dit conflict opgelost moet worden.",
+    "existing": "Bestaand (voorheen)",
+    "incoming": "Inkomend (Na)",
+    "skip": "Overslaan",
+    "createNew": "Nieuw aanmaken",
+    "overwrite": "Overschrijven"
   }
 }

@@ -236,6 +236,15 @@
     "title": "アップグレードプラン",
     "subtitle": "高度な機能のロックを解除し、Auto Clicker AutoFill を最大限に活用しましょう。",
     "currentPlan": "現在のプラン",
+    "upgrading": "アップグレード中...",
+    "cancelling": "キャンセル中...",
+    "cancelPlan": "プランをキャンセルする",
+    "cancelConfirm": "現在の請求期間終了時に、本当に定期購読を解約しますか？",
+    "cancelError": "定期購読のキャンセルに失敗しました。しばらくしてからもう一度お試しください。",
+    "loginRequired": "プランをアップグレードするには、ログインしてください。",
+    "loginLink": "ログイン",
+    "activeSubscription": "有効な購読:",
+    "subscriptionStatus": "ステータス: {{status}}",
     "free": {
       "name": "🆓 無料",
       "tagline": "誰でも利用できる強力な自動化 — アカウントは必要ありません。",
@@ -348,7 +357,8 @@
       "import": "自動化が正常にインポートされました",
       "import_one": "1 個の自動化が正常にインポートされました",
       "import_other": "{{count}} 個の自動化が正常にインポートされました",
-      "reorder": "自動化が正常に並べ替えられました"
+      "reorder": "自動化が正常に並べ替えられました",
+      "alreadyExists": "すべての自動化は既に存在し、内容も同一です。"
     }
   },
   "automation": {
@@ -642,5 +652,16 @@
         "title": "高度な設定のヒント"
       }
     }
+  },
+  "conflictModal": {
+    "title": "設定の競合",
+    "conflicts": "紛争",
+    "of": "の",
+    "description": "この紛争をどのように解決するかを選択してください。",
+    "existing": "既存（以前）",
+    "incoming": "受信（後）",
+    "skip": "スキップ",
+    "createNew": "新規作成",
+    "overwrite": "上書き"
   }
 }

@@ -236,6 +236,15 @@
     "title": "Kế hoạch nâng cấp",
     "subtitle": "Mở khóa các tính năng nâng cao và tận dụng tối đa Auto Clicker AutoFill.",
     "currentPlan": "Kế hoạch hiện tại của bạn",
+    "upgrading": "Đang nâng cấp...",
+    "cancelling": "Đang hủy...",
+    "cancelPlan": "Hủy gói dịch vụ",
+    "cancelConfirm": "Bạn có chắc chắn muốn hủy đăng ký của mình vào cuối chu kỳ thanh toán hiện tại không?",
+    "cancelError": "Không thể hủy đăng ký. Vui lòng thử lại sau.",
+    "loginRequired": "Vui lòng đăng nhập để nâng cấp gói dịch vụ của bạn.",
+    "loginLink": "Đăng nhập",
+    "activeSubscription": "Đăng ký đang hoạt động:",
+    "subscriptionStatus": "Trạng thái: {{status}}",
     "free": {
       "name": "🆓 MIỄN PHÍ",
       "tagline": "Công nghệ tự động hóa mạnh mẽ dành cho tất cả mọi người — không cần tài khoản.",
@@ -348,7 +357,8 @@
       "import": "Quá trình nhập tự động hóa thành công.",
       "import_one": "1 quy trình tự động hóa đã được nhập khẩu thành công.",
       "import_other": "{{count}} tự động hóa đã được nhập thành công",
-      "reorder": "Các quy trình tự động hóa đã được sắp xếp lại thành công."
+      "reorder": "Các quy trình tự động hóa đã được sắp xếp lại thành công.",
+      "alreadyExists": "Tất cả các quy trình tự động hóa hiện có với nội dung giống hệt nhau."
     }
   },
   "automation": {
@@ -642,5 +652,16 @@
         "title": "Mẹo cấu hình nâng cao"
       }
     }
+  },
+  "conflictModal": {
+    "title": "Xung đột cấu hình",
+    "conflicts": "xung đột",
+    "of": "của",
+    "description": "Hãy chọn cách giải quyết xung đột này.",
+    "existing": "Hiện hữu (Trước đây)",
+    "incoming": "Đến (Sau)",
+    "skip": "Nhảy",
+    "createNew": "Tạo mới",
+    "overwrite": "Ghi đè"
   }
 }

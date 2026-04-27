@@ -236,6 +236,15 @@
     "title": "Plan de actualización",
     "subtitle": "Desbloquee funciones avanzadas y aproveche al máximo Auto Clicker AutoFill.",
     "currentPlan": "Su plan actual",
+    "upgrading": "Actualizando...",
+    "cancelling": "Cancelado...",
+    "cancelPlan": "Cancelar plan",
+    "cancelConfirm": "¿Está seguro de que desea cancelar su suscripción al final del ciclo de facturación actual?",
+    "cancelError": "No se pudo cancelar la suscripción. Inténtelo de nuevo más tarde.",
+    "loginRequired": "Inicie sesión para actualizar su plan.",
+    "loginLink": "Acceso",
+    "activeSubscription": "Suscripción activa:",
+    "subscriptionStatus": "Estado: {{status}}",
     "free": {
       "name": "🆓 GRATIS",
       "tagline": "Automatización potente para todos: no se requiere cuenta.",
@@ -348,7 +357,8 @@
       "import": "Automatizaciones importadas exitosamente",
       "import_one": "1 automatización importada exitosamente",
       "import_other": "{{count}} automatizaciones importadas correctamente",
-      "reorder": "Automatizaciones reordenadas con éxito"
+      "reorder": "Automatizaciones reordenadas con éxito",
+      "alreadyExists": "Todas las automatizaciones ya existen con contenido idéntico."
     }
   },
   "automation": {
@@ -642,5 +652,16 @@
         "title": "Consejos de configuración avanzada"
       }
     }
+  },
+  "conflictModal": {
+    "title": "Conflicto de configuración",
+    "conflicts": "conflictos",
+    "of": "de",
+    "description": "Por favor, elija cómo resolver este conflicto.",
+    "existing": "Existente (Antes)",
+    "incoming": "Entrante (Después)",
+    "skip": "Saltar",
+    "createNew": "Crear nuevo",
+    "overwrite": "Exagerar"
   }
 }

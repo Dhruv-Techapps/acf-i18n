@@ -236,6 +236,15 @@
     "title": "Upgrade-Plan",
     "subtitle": "Schalten Sie erweiterte Funktionen frei und holen Sie das Beste aus Auto Clicker AutoFill heraus.",
     "currentPlan": "Ihr aktueller Plan",
+    "upgrading": "Aktualisierung...",
+    "cancelling": "Wird abgebrochen...",
+    "cancelPlan": "Plan stornieren",
+    "cancelConfirm": "Möchten Sie Ihr Abonnement wirklich zum Ende des aktuellen Abrechnungszeitraums kündigen?",
+    "cancelError": "Abonnement konnte nicht gekündigt werden. Bitte versuchen Sie es später erneut.",
+    "loginRequired": "Bitte melden Sie sich an, um Ihren Tarif zu aktualisieren.",
+    "loginLink": "Einloggen",
+    "activeSubscription": "Aktives Abonnement:",
+    "subscriptionStatus": "Status: {{status}}",
     "free": {
       "name": "🆓 GRATIS",
       "tagline": "Leistungsstarke Automatisierung für alle – kein Konto erforderlich.",
@@ -348,7 +357,8 @@
       "import": "Automatisierungen erfolgreich importiert",
       "import_one": "1 Automatisierung erfolgreich importiert",
       "import_other": "{{count}} Automatisierungen erfolgreich importiert",
-      "reorder": "Automatisierungen erfolgreich neu angeordnet"
+      "reorder": "Automatisierungen erfolgreich neu angeordnet",
+      "alreadyExists": "Alle Automatisierungen existieren bereits mit identischem Inhalt"
     }
   },
   "automation": {
@@ -642,5 +652,16 @@
         "title": "Erweiterte Konfigurationstipps"
       }
     }
+  },
+  "conflictModal": {
+    "title": "Konfigurationskonflikt",
+    "conflicts": "Konflikte",
+    "of": "von",
+    "description": "Bitte wählen Sie eine Möglichkeit zur Lösung dieses Konflikts.",
+    "existing": "Vorhanden (Vorher)",
+    "incoming": "Eingehend (Nachher)",
+    "skip": "Überspringen",
+    "createNew": "Neu erstellen",
+    "overwrite": "Überschreiben"
   }
 }

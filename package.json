@@ -3,7 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "translate-web": "node src/translate-web.mjs",
-    "translate-message": "node src/translate-message.mjs"
+    "start": "npx serve src -l 3333",
+    "web": "node src/translate-web.mjs",
+    "message": "node src/translate-message.mjs"
+  },
+  "devDependencies": {
+    "@google-cloud/translate": "^9.3.0"
   }
 }

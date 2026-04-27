@@ -236,6 +236,15 @@
     "title": "Rencana Peningkatan",
     "subtitle": "Aktifkan fitur-fitur canggih dan dapatkan hasil maksimal dari Auto Clicker AutoFill.",
     "currentPlan": "Paket Anda Saat Ini",
+    "upgrading": "Perbaikan...",
+    "cancelling": "Pembatalan...",
+    "cancelPlan": "Batalkan Rencana",
+    "cancelConfirm": "Apakah Anda yakin ingin membatalkan langganan Anda di akhir siklus penagihan saat ini?",
+    "cancelError": "Pembatalan langganan gagal. Silakan coba lagi nanti.",
+    "loginRequired": "Silakan masuk untuk meningkatkan paket langganan Anda.",
+    "loginLink": "Masuk",
+    "activeSubscription": "Langganan Aktif:",
+    "subscriptionStatus": "Status: {{status}}",
     "free": {
       "name": "🆓 GRATIS",
       "tagline": "Otomatisasi canggih untuk semua orang — tanpa perlu akun.",
@@ -348,7 +357,8 @@
       "import": "Otomatisasi berhasil diimpor.",
       "import_one": "1 otomatisasi berhasil diimpor",
       "import_other": "{{count}} otomatisasi berhasil diimpor",
-      "reorder": "Otomatisasi berhasil diurutkan ulang."
+      "reorder": "Otomatisasi berhasil diurutkan ulang.",
+      "alreadyExists": "Semua otomatisasi sudah ada dengan konten yang identik."
     }
   },
   "automation": {
@@ -642,5 +652,16 @@
         "title": "Tips Konfigurasi Lanjutan"
       }
     }
+  },
+  "conflictModal": {
+    "title": "Konflik Konfigurasi",
+    "conflicts": "konflik",
+    "of": "dari",
+    "description": "Silakan pilih cara untuk menyelesaikan konflik ini.",
+    "existing": "Yang Ada (Sebelumnya)",
+    "incoming": "Masuk (Setelah)",
+    "skip": "Melewati",
+    "createNew": "Buat Baru",
+    "overwrite": "Timpa"
   }
 }

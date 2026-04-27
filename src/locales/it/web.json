@@ -236,6 +236,15 @@
     "title": "Piano di aggiornamento",
     "subtitle": "Sblocca funzionalità avanzate e sfrutta al massimo Auto Clicker AutoFill.",
     "currentPlan": "Il tuo piano attuale",
+    "upgrading": "Aggiornamento in corso...",
+    "cancelling": "Annullamento in corso...",
+    "cancelPlan": "Annulla il piano",
+    "cancelConfirm": "Sei sicuro di voler annullare l'abbonamento al termine del ciclo di fatturazione corrente?",
+    "cancelError": "Impossibile annullare l'abbonamento. Riprova più tardi.",
+    "loginRequired": "Effettua il login per aggiornare il tuo piano.",
+    "loginLink": "Login",
+    "activeSubscription": "Abbonamento attivo:",
+    "subscriptionStatus": "Stato: {{status}}",
     "free": {
       "name": "🆓 GRATUITO",
       "tagline": "Automazione potente per tutti: non è necessario un account.",
@@ -348,7 +357,8 @@
       "import": "Automazioni importate con successo",
       "import_one": "1 automazione importata con successo",
       "import_other": "{{count}} automazioni importate correttamente",
-      "reorder": "Automazioni riordinate con successo"
+      "reorder": "Automazioni riordinate con successo",
+      "alreadyExists": "Tutte le automazioni esistono già con contenuti identici"
     }
   },
   "automation": {
@@ -642,5 +652,16 @@
         "title": "Suggerimenti per la configurazione avanzata"
       }
     }
+  },
+  "conflictModal": {
+    "title": "Conflitto di configurazione",
+    "conflicts": "conflitti",
+    "of": "Di",
+    "description": "Si prega di scegliere come risolvere questo conflitto.",
+    "existing": "Esistente (prima)",
+    "incoming": "In entrata (dopo)",
+    "skip": "Saltare",
+    "createNew": "Crea nuovo",
+    "overwrite": "Sovrascrivi"
   }
 }

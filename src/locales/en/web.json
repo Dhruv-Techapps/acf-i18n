@@ -236,6 +236,15 @@
     "title": "Upgrade Plan",
     "subtitle": "Unlock advanced features and get the most out of Auto Clicker AutoFill.",
     "currentPlan": "Your Current Plan",
+    "upgrading": "Upgrading...",
+    "cancelling": "Cancelling...",
+    "cancelPlan": "Cancel Plan",
+    "cancelConfirm": "Are you sure you want to cancel your subscription at the end of the current billing cycle?",
+    "cancelError": "Failed to cancel subscription. Please try again later.",
+    "loginRequired": "Please log in to upgrade your plan.",
+    "loginLink": "Log in",
+    "activeSubscription": "Active Subscription:",
+    "subscriptionStatus": "Status: {{status}}",
     "free": {
       "name": "🆓 FREE",
       "tagline": "Powerful automation for everyone — no account required.",
@@ -348,7 +357,8 @@
       "import": "Automations imported successfully",
       "import_one": "1 automation imported successfully",
       "import_other": "{{count}} automations imported successfully",
-      "reorder": "Automations reordered successfully"
+      "reorder": "Automations reordered successfully",
+      "alreadyExists": "All automations already exist with identical content"
     }
   },
   "automation": {
@@ -642,5 +652,16 @@
         "title": "Advanced Configuration Tips"
       }
     }
+  },
+  "conflictModal": {
+    "title": "Configuration Conflict",
+    "conflicts": "conflicts",
+    "of": "of",
+    "description": "Please choose how to resolve this conflict.",
+    "existing": "Existing (Before)",
+    "incoming": "Incoming (After)",
+    "skip": "Skip",
+    "createNew": "Create New",
+    "overwrite": "Overwrite"
   }
 }

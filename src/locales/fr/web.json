@@ -236,6 +236,15 @@
     "title": "Plan de mise à niveau",
     "subtitle": "Débloquez les fonctionnalités avancées et tirez le meilleur parti d'Auto Clicker AutoFill.",
     "currentPlan": "Votre forfait actuel",
+    "upgrading": "Mise à niveau...",
+    "cancelling": "Annulation...",
+    "cancelPlan": "Annuler le forfait",
+    "cancelConfirm": "Êtes-vous sûr de vouloir annuler votre abonnement à la fin du cycle de facturation actuel ?",
+    "cancelError": "Impossible d'annuler l'abonnement. Veuillez réessayer plus tard.",
+    "loginRequired": "Veuillez vous connecter pour mettre à niveau votre forfait.",
+    "loginLink": "Se connecter",
+    "activeSubscription": "Abonnement actif :",
+    "subscriptionStatus": "Statut : {{status}}",
     "free": {
       "name": "🆓 GRATUIT",
       "tagline": "Une automatisation puissante pour tous – aucun compte requis.",
@@ -348,7 +357,8 @@
       "import": "Automatisations importées avec succès",
       "import_one": "1 automatisation importée avec succès",
       "import_other": "{{count}} automatisations importées avec succès",
-      "reorder": "Les automatisations ont été réorganisées avec succès"
+      "reorder": "Les automatisations ont été réorganisées avec succès",
+      "alreadyExists": "Toutes les automatisations existent déjà avec un contenu identique"
     }
   },
   "automation": {
@@ -642,5 +652,16 @@
         "title": "Conseils de configuration avancée"
       }
     }
+  },
+  "conflictModal": {
+    "title": "Conflit de configuration",
+    "conflicts": "conflits",
+    "of": "de",
+    "description": "Veuillez choisir comment résoudre ce conflit.",
+    "existing": "Existant (Avant)",
+    "incoming": "Entrant (Après)",
+    "skip": "Sauter",
+    "createNew": "Créer un nouveau",
+    "overwrite": "Écraser"
   }
 }
