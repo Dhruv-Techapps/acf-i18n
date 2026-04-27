@@ -2,6 +2,8 @@ name: Deploy [CDN]
 run-name: Deploy to CDN by @${{ github.actor }} on ${{ inputs.version || github.ref_name }}
 
 on:
+  push:
+    branches: ["main"]
   workflow_dispatch:
 
 jobs:
