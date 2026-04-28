@@ -30,6 +30,9 @@
     "auto": "자동"
   },
   "loading": "로딩 중...",
+  "loader": {
+    "subtitle": "자동화를 불러오는 중..."
+  },
   "loginModal": {
     "title": "로그인해 주세요",
     "signingIn": "로그인..."

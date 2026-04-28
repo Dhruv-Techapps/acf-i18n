@@ -30,6 +30,9 @@
     "auto": "Bil"
   },
   "loading": "Belastning...",
+  "loader": {
+    "subtitle": "Laddar dina automationer..."
+  },
   "loginModal": {
     "title": "Vänligen logga in",
     "signingIn": "Logga in..."

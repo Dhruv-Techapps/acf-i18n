@@ -30,6 +30,9 @@
     "auto": "Auto"
   },
   "loading": "Ladataan...",
+  "loader": {
+    "subtitle": "Ladataan automaatioita..."
+  },
   "loginModal": {
     "title": "Kirjaudu sisään",
     "signingIn": "Kirjaudu sisään..."

@@ -30,6 +30,9 @@
     "auto": "汽车"
   },
   "loading": "加载中...",
+  "loader": {
+    "subtitle": "正在加载您的自动化..."
+  },
   "loginModal": {
     "title": "请登录",
     "signingIn": "登入..."

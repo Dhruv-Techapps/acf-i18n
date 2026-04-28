@@ -30,6 +30,9 @@
     "auto": "Mobil"
   },
   "loading": "Memuat...",
+  "loader": {
+    "subtitle": "Memuat otomasi Anda..."
+  },
   "loginModal": {
     "title": "Silakan masuk",
     "signingIn": "Masuk..."

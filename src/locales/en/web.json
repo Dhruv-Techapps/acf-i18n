@@ -30,6 +30,9 @@
     "auto": "Auto"
   },
   "loading": "Loading...",
+  "loader": {
+    "subtitle": "Loading your automations..."
+  },
   "loginModal": {
     "title": "Please sign in",
     "signingIn": "Sign in..."

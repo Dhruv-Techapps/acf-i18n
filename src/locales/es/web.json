@@ -30,6 +30,9 @@
     "auto": "Auto"
   },
   "loading": "Cargando...",
+  "loader": {
+    "subtitle": "Cargando sus automatizaciones..."
+  },
   "loginModal": {
     "title": "Por favor, inicia sesión",
     "signingIn": "Iniciar sesión..."

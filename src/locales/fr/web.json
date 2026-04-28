@@ -30,6 +30,9 @@
     "auto": "Auto"
   },
   "loading": "Chargement...",
+  "loader": {
+    "subtitle": "Chargement de vos automatisations..."
+  },
   "loginModal": {
     "title": "Veuillez vous connecter",
     "signingIn": "Se connecter..."
