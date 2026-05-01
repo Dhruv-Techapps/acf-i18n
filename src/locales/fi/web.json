@@ -349,6 +349,14 @@
       "enabled": "Käytössä",
       "disabled": "Liikuntarajoitteinen"
     },
+    "confirm": {
+      "delete": {
+        "title": "Poista automaatiot",
+        "message": "Haluatko varmasti poistaa valitut automaatiot?",
+        "message_one": "Haluatko varmasti poistaa valitun automaation?",
+        "message_other": "Haluatko varmasti poistaa valitut {{count}} automaatiota?"
+      }
+    },
     "toast": {
       "header": "Automaatiot",
       "remove": "Automaatiot poistettu onnistuneesti",
@@ -382,13 +390,29 @@
     "initWait": "Odota ennen aloitusta",
     "startTime": "Aikataulutettu aloitusaika",
     "noConfig": "Automaatiota ei löytynyt, ole hyvä ja tarkenna hakuasi.",
+    "publish": "Julkaista",
+    "unpublish": "Peruuta julkaisu",
+    "published": "Julkaistu",
+    "importing": "Tuodaan...",
+    "publishing": "Julkaistaan...",
+    "publish-loginRequired": "Kirjaudu sisään julkaistaksesi tämän automaation.",
+    "publish-ownedByOther": "Käyttäjä [{{name}}] on julkaissut tämän automaation. Voit kopioida sen tilillesi ja julkaista muutoksesi.",
     "confirm": {
-      "title": "Poista automaatio",
-      "message": "Haluatko varmasti poistaa [{{name}}] -automaation?"
+      "remove": {
+        "title": "Poista automaatio",
+        "message": "Haluatko varmasti poistaa [{{name}}] -automaation?"
+      },
+      "import": {
+        "title": "Tuontiautomaatio",
+        "message": "Tuonti korvaa nykyisen automaatiosi, jos sellainen on olemassa. Jatketaanko?"
+      }
     },
     "toast": {
       "header": "Automaatio",
       "body": "Automaatio tallennettu onnistuneesti!",
+      "published": "Automaatio julkaistu onnistuneesti!",
+      "unpublished": "Automaation julkaisun peruutus onnistui!",
+      "imported": "Tiedosto '{{title}}' tuotu onnistuneesti",
       "schedule": "Automaatioaikataulu tallennettu onnistuneesti!",
       "settings": "Automaatioasetukset tallennettu onnistuneesti!",
       "add": "Automaatio lisätty onnistuneesti",
@@ -396,6 +420,29 @@
     },
     "disable-tooltip": "Poista tämä automaatio käytöstä estääksesi sen suorittamisen poistamatta sitä. Voit ottaa sen uudelleen käyttöön myöhemmin, kun tarvitset sitä.",
     "enable-tooltip": "Ota tämä automaatio käyttöön, jotta se voi toimia. Voit poistaa sen käytöstä myöhemmin, jos haluat keskeyttää sen poistamatta sitä."
+  },
+  "metadata": {
+    "title": "Otsikko",
+    "description": "Kuvaus",
+    "tags": "Tunnisteet",
+    "tags-help": "Lisää tunnisteita, joiden avulla muut löytävät automaatiosi (pilkuilla erotettuna).",
+    "visibility": "Näkyvyys",
+    "commaSeparated": "Syötä pilkulla erotetut arvot"
+  },
+  "explore": {
+    "title": "Tutustu automaatioihin",
+    "search": "Hakuautomaatiot...",
+    "loadMore": "Lataa lisää",
+    "loginToExplore": "<1>Kirjaudu sisään</1> tutustuaksesi julkaistuihin automaatioihin.",
+    "filter": {
+      "all": "Kaikki",
+      "mine": "Minun",
+      "published": "Julkaistu"
+    },
+    "toast": {
+      "header": "Tutkia",
+      "import": "Automaatio tuotu onnistuneesti!"
+    }
   },
   "automationSettings": {
     "title": "Automaatioasetukset",
@@ -536,6 +583,7 @@
     "cancel": "Peruuttaa",
     "close": "Lähellä",
     "download": "Lataa",
+    "loading": "Ladataan...",
     "disabled": "Liikuntarajoitteinen",
     "remove": "Poistaa",
     "edit": "Muokata",

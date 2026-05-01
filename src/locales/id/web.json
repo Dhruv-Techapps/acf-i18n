@@ -349,6 +349,14 @@
       "enabled": "Diaktifkan",
       "disabled": "Dengan disabilitas"
     },
+    "confirm": {
+      "delete": {
+        "title": "Hapus Otomatisasi",
+        "message": "Apakah Anda yakin ingin menghapus otomatisasi yang dipilih?",
+        "message_one": "Apakah Anda yakin ingin menghapus otomatisasi yang dipilih?",
+        "message_other": "Apakah Anda yakin ingin menghapus {{count}} otomatisasi yang dipilih?"
+      }
+    },
     "toast": {
       "header": "Otomatisasi",
       "remove": "Otomatisasi berhasil dihapus.",
@@ -382,13 +390,29 @@
     "initWait": "Tunggu Sebelum Memulai",
     "startTime": "Waktu Mulai yang Dijadwalkan",
     "noConfig": "Tidak ditemukan otomatisasi, harap perbaiki pencarian Anda.",
+    "publish": "Menerbitkan",
+    "unpublish": "Batalkan publikasi",
+    "published": "Diterbitkan",
+    "importing": "Pengimporan...",
+    "publishing": "Penerbitan...",
+    "publish-loginRequired": "Silakan masuk untuk mempublikasikan otomatisasi ini.",
+    "publish-ownedByOther": "Otomatisasi ini dipublikasikan oleh pengguna [{{name}}]. Anda dapat menduplikasi otomatisasi ini ke akun Anda dan mempublikasikan perubahan Anda.",
     "confirm": {
-      "title": "Hapus Otomatisasi",
-      "message": "Apakah Anda yakin ingin menghapus otomatisasi [{{name}}]?"
+      "remove": {
+        "title": "Hapus Otomatisasi",
+        "message": "Apakah Anda yakin ingin menghapus otomatisasi [{{name}}]?"
+      },
+      "import": {
+        "title": "Otomatisasi Impor",
+        "message": "Mengimpor akan menggantikan otomatisasi Anda saat ini jika ada. Lanjutkan?"
+      }
     },
     "toast": {
       "header": "Otomatisasi",
       "body": "Otomatisasi berhasil disimpan!",
+      "published": "Otomatisasi berhasil dipublikasikan!",
+      "unpublished": "Otomatisasi berhasil dibatalkan publikasinya!",
+      "imported": "'{{title}}' berhasil diimpor",
       "schedule": "Jadwal otomatisasi berhasil disimpan!",
       "settings": "Pengaturan otomatisasi berhasil disimpan!",
       "add": "Otomatisasi berhasil ditambahkan.",
@@ -396,6 +420,29 @@
     },
     "disable-tooltip": "Nonaktifkan otomatisasi ini untuk mencegahnya berjalan tanpa menghapusnya. Anda dapat mengaktifkannya kembali nanti saat dibutuhkan.",
     "enable-tooltip": "Aktifkan otomatisasi ini agar dapat berjalan. Anda dapat menonaktifkannya kembali nanti jika ingin menjeda tanpa menghapusnya."
+  },
+  "metadata": {
+    "title": "Judul",
+    "description": "Keterangan",
+    "tags": "Tag",
+    "tags-help": "Tambahkan tag untuk membantu orang lain menemukan otomatisasi Anda (dipisahkan dengan koma).",
+    "visibility": "Visibilitas",
+    "commaSeparated": "Masukkan nilai yang dipisahkan koma."
+  },
+  "explore": {
+    "title": "Jelajahi Otomatisasi",
+    "search": "Otomatisasi pencarian...",
+    "loadMore": "Muat Lebih Banyak",
+    "loginToExplore": "Silakan <1>Masuk</1> untuk menjelajahi otomatisasi yang telah dipublikasikan.",
+    "filter": {
+      "all": "Semua",
+      "mine": "Milikku",
+      "published": "Diterbitkan"
+    },
+    "toast": {
+      "header": "Mengeksplorasi",
+      "import": "Otomatisasi berhasil diimpor!"
+    }
   },
   "automationSettings": {
     "title": "Pengaturan Otomatisasi",
@@ -536,6 +583,7 @@
     "cancel": "Membatalkan",
     "close": "Menutup",
     "download": "Unduh",
+    "loading": "Memuat...",
     "disabled": "Dengan disabilitas",
     "remove": "Menghapus",
     "edit": "Edit",

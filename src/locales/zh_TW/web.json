@@ -349,6 +349,14 @@
       "enabled": "已啟用",
       "disabled": "已停用"
     },
+    "confirm": {
+      "delete": {
+        "title": "刪除自動化",
+        "message": "您確定要刪除選取的自動化流程嗎？",
+        "message_one": "您確定要刪除選取的自動化流程嗎？",
+        "message_other": "您確定要刪除選定的 {{count}} 個自動化流程嗎？"
+      }
+    },
     "toast": {
       "header": "自動化",
       "remove": "自動化操作已成功移除。",
@@ -382,13 +390,29 @@
     "initWait": "請稍候再開始",
     "startTime": "預定開始時間",
     "noConfig": "未找到自動化程序，請優化您的搜尋。",
+    "publish": "發布",
+    "unpublish": "取消發布",
+    "published": "已發布",
+    "importing": "輸入...",
+    "publishing": "出版...",
+    "publish-loginRequired": "請登入以發布此自動化流程。",
+    "publish-ownedByOther": "此自動化腳本由使用者 [{{name}}] 發布。您可以將其複製到您的帳戶並發布您的變更。",
     "confirm": {
-      "title": "移除自動化",
-      "message": "您確定要移除 [{{name}}] 自動化流程嗎？"
+      "remove": {
+        "title": "移除自動化",
+        "message": "您確定要移除 [{{name}}] 自動化流程嗎？"
+      },
+      "import": {
+        "title": "進口自動化",
+        "message": "導入操作將覆蓋您目前的自動化流程（如果已存在）。是否繼續？"
+      }
     },
     "toast": {
       "header": "自動化",
       "body": "自動化流程保存成功！",
+      "published": "自動化發布成功！",
+      "unpublished": "自動化流程已成功取消發布！",
+      "imported": "已成功導入“{{title}}”",
       "schedule": "自動化日程已成功儲存！",
       "settings": "自動化設定已成功儲存！",
       "add": "自動化功能已成功添加",
@@ -396,6 +420,29 @@
     },
     "disable-tooltip": "停用此自動化功能可防止其在未刪除的情況下運作。您可以在需要時再次啟用它。",
     "enable-tooltip": "啟用此自動化功能即可運作。如果您想暫停運行但不想刪除它，可以稍後再次停用它。"
+  },
+  "metadata": {
+    "title": "標題",
+    "description": "描述",
+    "tags": "標籤",
+    "tags-help": "添加標籤，幫助其他人發現您的自動化程序（逗號分隔）。",
+    "visibility": "能見度",
+    "commaSeparated": "請輸入以逗號分隔的值"
+  },
+  "explore": {
+    "title": "探索自動化",
+    "search": "搜尋自動化…",
+    "loadMore": "加載更多",
+    "loginToExplore": "請<1>登入</1>以瀏覽已發佈的自動化流程。",
+    "filter": {
+      "all": "全部",
+      "mine": "礦",
+      "published": "已發布"
+    },
+    "toast": {
+      "header": "探索",
+      "import": "自動化資料導入成功！"
+    }
   },
   "automationSettings": {
     "title": "自動化設定",
@@ -536,6 +583,7 @@
     "cancel": "取消",
     "close": "關閉",
     "download": "下載",
+    "loading": "載入中...",
     "disabled": "已停用",
     "remove": "消除",
     "edit": "編輯",

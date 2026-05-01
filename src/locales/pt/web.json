@@ -31,7 +31,6 @@
   },
   "loading": "Carregando...",
   "loader": {
-
     "subtitle": "Carregando suas automações..."
   },
   "loginModal": {
@@ -350,6 +349,14 @@
       "enabled": "Habilitado",
       "disabled": "Desabilitado"
     },
+    "confirm": {
+      "delete": {
+        "title": "Excluir Automações",
+        "message": "Tem certeza de que deseja excluir as automações selecionadas?",
+        "message_one": "Tem certeza de que deseja excluir a automação selecionada?",
+        "message_other": "Tem certeza de que deseja excluir as {{count}} automações selecionadas?"
+      }
+    },
     "toast": {
       "header": "Automações",
       "remove": "Automações removidas com sucesso",
@@ -383,13 +390,29 @@
     "initWait": "Aguarde antes de começar",
     "startTime": "Horário de início programado",
     "noConfig": "Nenhuma automação encontrada. Por favor, refine sua busca.",
+    "publish": "Publicar",
+    "unpublish": "Despublicar",
+    "published": "Publicado",
+    "importing": "Importando...",
+    "publishing": "Publicando...",
+    "publish-loginRequired": "Faça login para publicar esta automação.",
+    "publish-ownedByOther": "Esta automação foi publicada pelo usuário [{{name}}]. Você pode duplicá-la em sua conta e publicar suas alterações.",
     "confirm": {
-      "title": "Remover a automação",
-      "message": "Tem certeza de que deseja remover a automação [{{name}}]?"
+      "remove": {
+        "title": "Remover a automação",
+        "message": "Tem certeza de que deseja remover a automação [{{name}}]?"
+      },
+      "import": {
+        "title": "Automação de Importação",
+        "message": "A importação substituirá sua automação atual, caso exista. Continuar?"
+      }
     },
     "toast": {
       "header": "Automação",
       "body": "Automação salva com sucesso!",
+      "published": "Automação publicada com sucesso!",
+      "unpublished": "Automação despublicada com sucesso!",
+      "imported": "Importação de '{{title}}' realizada com sucesso.",
       "schedule": "Agendamento de automação salvo com sucesso!",
       "settings": "Configurações de automação salvas com sucesso!",
       "add": "Automação adicionada com sucesso",
@@ -397,6 +420,29 @@
     },
     "disable-tooltip": "Desative esta automação para impedir que ela seja executada sem excluí-la. Você poderá ativá-la novamente mais tarde, quando precisar.",
     "enable-tooltip": "Habilite esta automação para que ela seja executada. Você poderá desabilitá-la posteriormente, caso queira pausá-la sem excluí-la."
+  },
+  "metadata": {
+    "title": "Título",
+    "description": "Descrição",
+    "tags": "Etiquetas",
+    "tags-help": "Adicione tags para ajudar outras pessoas a descobrirem sua automação (separadas por vírgulas).",
+    "visibility": "Visibilidade",
+    "commaSeparated": "Insira valores separados por vírgulas."
+  },
+  "explore": {
+    "title": "Explore as Automações",
+    "search": "Automações de pesquisa...",
+    "loadMore": "Carregar mais",
+    "loginToExplore": "Faça <1>login</1> para explorar as automações publicadas.",
+    "filter": {
+      "all": "Todos",
+      "mine": "Meu",
+      "published": "Publicado"
+    },
+    "toast": {
+      "header": "Explorar",
+      "import": "Automação importada com sucesso!"
+    }
   },
   "automationSettings": {
     "title": "Configurações de automação",
@@ -537,6 +583,7 @@
     "cancel": "Cancelar",
     "close": "Fechar",
     "download": "Download",
+    "loading": "Carregando...",
     "disabled": "Desabilitado",
     "remove": "Remover",
     "edit": "Editar",
