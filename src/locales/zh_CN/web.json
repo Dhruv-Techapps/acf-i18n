@@ -436,7 +436,7 @@
     "loginToExplore": "请<1>登录</1>以浏览已发布的自动化流程。",
     "filter": {
       "all": "全部",
-      "mine": "矿",
+      "mine": "我的",
       "published": "已发布"
     },
     "toast": {
