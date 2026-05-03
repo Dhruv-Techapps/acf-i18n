@@ -343,7 +343,7 @@
     "automationsWithinExtension": "扩展程序中的自动化",
     "selectAutomations": "选择要导出或删除的自动化流程",
     "select": "选择",
-    "import": "进口",
+    "import": "导入",
     "filter": {
       "all": "全部",
       "enabled": "已启用",
@@ -381,7 +381,7 @@
     "disabled": "已禁用",
     "edit": "编辑",
     "export": "出口",
-    "import": "进口",
+    "import": "导入",
     "schedule": "日程",
     "batch": "循环设置",
     "watch": "显示器设置",
@@ -393,8 +393,8 @@
     "publish": "发布",
     "unpublish": "取消发布",
     "published": "已发布",
-    "importing": "输入...",
-    "publishing": "出版...",
+    "importing": "导入中...",
+    "publishing": "发布中...",
     "publish-loginRequired": "请登录以发布此自动化流程。",
     "publish-ownedByOther": "此自动化脚本由用户 [{{name}}] 发布。您可以将其复制到您的帐户并发布您的更改。",
     "confirm": {
@@ -403,7 +403,7 @@
         "message": "您确定要移除 [{{name}}] 自动化流程吗？"
       },
       "import": {
-        "title": "进口自动化",
+        "title": "导入自动化",
         "message": "导入操作将覆盖您当前的自动化流程（如果已存在）。是否继续？"
       }
     },

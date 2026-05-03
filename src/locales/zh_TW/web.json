@@ -343,7 +343,7 @@
     "automationsWithinExtension": "擴充功能中的自動化",
     "selectAutomations": "選擇要匯出或刪除的自動化流程",
     "select": "選擇",
-    "import": "進口",
+    "import": "匯入",
     "filter": {
       "all": "全部",
       "enabled": "已啟用",
@@ -381,7 +381,7 @@
     "disabled": "已停用",
     "edit": "編輯",
     "export": "出口",
-    "import": "進口",
+    "import": "匯入",
     "schedule": "行程",
     "batch": "循環設定",
     "watch": "顯示器設定",
@@ -393,8 +393,8 @@
     "publish": "發布",
     "unpublish": "取消發布",
     "published": "已發布",
-    "importing": "輸入...",
-    "publishing": "出版...",
+    "importing": "匯入中...",
+    "publishing": "發布中...",
     "publish-loginRequired": "請登入以發布此自動化流程。",
     "publish-ownedByOther": "此自動化腳本由使用者 [{{name}}] 發布。您可以將其複製到您的帳戶並發布您的變更。",
     "confirm": {
@@ -403,7 +403,7 @@
         "message": "您確定要移除 [{{name}}] 自動化流程嗎？"
       },
       "import": {
-        "title": "進口自動化",
+        "title": "匯入自動化",
         "message": "導入操作將覆蓋您目前的自動化流程（如果已存在）。是否繼續？"
       }
     },
