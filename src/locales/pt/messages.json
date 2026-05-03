@@ -47,6 +47,42 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Painel Lateral/☉ Gravação"
   },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "Automações"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "Gravação"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "Procurar"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "Combinado"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "Outro"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "Iniciar gravação"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "Parar gravação"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "Comece a preencher o formulário..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "Se você já preencheu o formulário"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "Já está preenchido?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "clique"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "Editar Automação"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Abrir página de configuração"
   },

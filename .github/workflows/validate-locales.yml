@@ -1,0 +1,24 @@
+name: Validate Locales
+
+on:
+  pull_request:
+    paths:
+      - 'src/locales/**'
+      - 'src/validate-locales.mjs'
+      - 'src/translate.constant.mjs'
+      - 'package.json'
+      - '.github/workflows/validate-locales.yml'
+env:
+  FORCE_COLOR: 2
+  NODE: 24
+
+jobs:
+  validate-locales:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+      - uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f
+        with:
+          node-version: ${{ env.NODE }}
+      - name: Validate locale key parity
+        run: npm run check:locales

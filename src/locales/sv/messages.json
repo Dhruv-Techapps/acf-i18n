@@ -47,6 +47,42 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Sidopanel/☉ Inspelning"
   },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "Automatiseringar"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "Inspelning"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "Söka"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "Matchade"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "Andra"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "Starta inspelning"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "Stoppa inspelningen"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "Börja fylla i formuläret..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "Om du redan har fyllt i formuläret"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "Redan fylld?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "klick"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "Redigera automatisering"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Öppna konfigurationssidan"
   },

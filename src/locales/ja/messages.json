@@ -47,6 +47,42 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ サイドパネル/☉ 記録"
   },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "自動化"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "録音"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "検索"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "マッチしました"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "他の"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "録画を開始"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "録画を停止"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "フォームへの入力を開始してください..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "すでにフォームに記入済みの場合"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "すでに記入済みですか？"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "クリック"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "編集自動化"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ 設定ページを開く"
   },

@@ -349,6 +349,14 @@
       "enabled": "Ingeschakeld",
       "disabled": "Gehandicapt"
     },
+    "confirm": {
+      "delete": {
+        "title": "Automatiseringen verwijderen",
+        "message": "Weet je zeker dat je de geselecteerde automatiseringen wilt verwijderen?",
+        "message_one": "Weet je zeker dat je de geselecteerde automatisering wilt verwijderen?",
+        "message_other": "Weet je zeker dat je de geselecteerde {{count}} automatiseringen wilt verwijderen?"
+      }
+    },
     "toast": {
       "header": "Automatiseringen",
       "remove": "Automatiseringen succesvol verwijderd",
@@ -382,13 +390,29 @@
     "initWait": "Wacht voordat je begint",
     "startTime": "Geplande starttijd",
     "noConfig": "Geen automatisering gevonden. Verfijn uw zoekopdracht.",
+    "publish": "Publiceren",
+    "unpublish": "De-publiceren",
+    "published": "Gepubliceerd",
+    "importing": "Importeren...",
+    "publishing": "Publiceren...",
+    "publish-loginRequired": "Log in om deze automatisering te publiceren.",
+    "publish-ownedByOther": "Deze automatisering is gepubliceerd door gebruiker [{{name}}]. Je kunt deze kopiëren naar je eigen account en je wijzigingen publiceren.",
     "confirm": {
-      "title": "Automatisering verwijderen",
-      "message": "Weet je zeker dat je de automatisering van [{{name}}] wilt verwijderen?"
+      "remove": {
+        "title": "Automatisering verwijderen",
+        "message": "Weet je zeker dat je de automatisering van [{{name}}] wilt verwijderen?"
+      },
+      "import": {
+        "title": "Automatisering van import",
+        "message": "Door te importeren wordt uw huidige automatisering vervangen, indien deze bestaat. Doorgaan?"
+      }
     },
     "toast": {
       "header": "Automatisering",
       "body": "Automatisering succesvol opgeslagen!",
+      "published": "Automatisering succesvol gepubliceerd!",
+      "unpublished": "Automatisering succesvol uit publicatie gehaald!",
+      "imported": "'{{title}}' is succesvol geïmporteerd.",
       "schedule": "Het automatiseringsschema is succesvol opgeslagen!",
       "settings": "Automatiseringsinstellingen succesvol opgeslagen!",
       "add": "Automatisering succesvol toegevoegd",
@@ -396,6 +420,29 @@
     },
     "disable-tooltip": "Schakel deze automatisering uit om te voorkomen dat deze wordt uitgevoerd zonder deze te verwijderen. U kunt deze later weer inschakelen wanneer u deze nodig hebt.",
     "enable-tooltip": "Schakel deze automatisering in om deze te laten draaien. Je kunt deze later weer uitschakelen als je de automatisering wilt pauzeren zonder deze te verwijderen."
+  },
+  "metadata": {
+    "title": "Titel",
+    "description": "Beschrijving",
+    "tags": "Tags",
+    "tags-help": "Voeg tags toe (gescheiden door komma's) zodat anderen uw automatisering gemakkelijker kunnen vinden.",
+    "visibility": "Zichtbaarheid",
+    "commaSeparated": "Voer door komma's gescheiden waarden in."
+  },
+  "explore": {
+    "title": "Verken automatiseringen",
+    "search": "Automatiseringszoekopdrachten...",
+    "loadMore": "Meer laden",
+    "loginToExplore": "<1>Log in</1> om gepubliceerde automatiseringen te bekijken.",
+    "filter": {
+      "all": "Alle",
+      "mine": "De mijne",
+      "published": "Gepubliceerd"
+    },
+    "toast": {
+      "header": "Ontdekken",
+      "import": "Automatisering succesvol geïmporteerd!"
+    }
   },
   "automationSettings": {
     "title": "Automatiseringsinstellingen",
@@ -536,6 +583,7 @@
     "cancel": "Annuleren",
     "close": "Dichtbij",
     "download": "Download",
+    "loading": "Laden...",
     "disabled": "Gehandicapt",
     "remove": "Verwijderen",
     "edit": "Bewerking",

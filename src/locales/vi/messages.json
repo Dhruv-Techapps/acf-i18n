@@ -47,6 +47,42 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Bảng điều khiển bên/☉ Ghi âm"
   },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "Tự động hóa"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "Ghi âm"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "Tìm kiếm"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "Phù hợp"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "Khác"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "Bắt đầu ghi âm"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "Dừng ghi âm"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "Bắt đầu điền vào biểu mẫu..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "Nếu bạn đã điền xong mẫu đơn"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "Đã điền đầy đủ?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "nhấp chuột"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "Chỉnh sửa tự động hóa"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Mở trang cấu hình"
   },

@@ -47,6 +47,42 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ 側板/☉ 記錄"
   },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "自動化"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "記錄"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "搜尋"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "匹配"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "其他"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "開始錄製"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "停止錄製"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "開始填寫表格…"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "如果您已經填寫過表格"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "已填寫？"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "點選"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "編輯自動化"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ 開啟設定頁面"
   },

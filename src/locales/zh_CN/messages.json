@@ -47,6 +47,42 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ 侧面板/☉ 记录"
   },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "自动化"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "记录"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "搜索"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "匹配"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "其他"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "开始录制"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "停止录制"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "开始填写表格……"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "如果您已经填写过表格"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "已填写？"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "点击"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "编辑自动化"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ 打开配置页面"
   },

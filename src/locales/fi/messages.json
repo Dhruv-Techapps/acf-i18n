@@ -47,6 +47,42 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Sivupaneeli/☉ Äänitys"
   },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "Automaatiot"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "Äänitys"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "Haku"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "Vastaava"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "Muut"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "Aloita tallennus"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "Lopeta tallennus"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "Aloita lomakkeen täyttäminen..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "Jos olet jo täyttänyt lomakkeen"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "Jo Täytetty?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "klikkaus"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "Muokkaa automatisointia"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Avaa määrityssivu"
   },

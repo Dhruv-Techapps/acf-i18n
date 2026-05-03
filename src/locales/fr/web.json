@@ -349,6 +349,14 @@
       "enabled": "Activé",
       "disabled": "Désactivé"
     },
+    "confirm": {
+      "delete": {
+        "title": "Supprimer les automatisations",
+        "message": "Êtes-vous sûr de vouloir supprimer les automatisations sélectionnées ?",
+        "message_one": "Êtes-vous sûr de vouloir supprimer l'automatisation sélectionnée ?",
+        "message_other": "Êtes-vous sûr de vouloir supprimer les {{count}} automatisations sélectionnées ?"
+      }
+    },
     "toast": {
       "header": "Automatisations",
       "remove": "Automatisations supprimées avec succès",
@@ -382,13 +390,29 @@
     "initWait": "Attendez avant de commencer",
     "startTime": "Heure de début prévue",
     "noConfig": "Aucune automatisation trouvée. Veuillez affiner votre recherche.",
+    "publish": "Publier",
+    "unpublish": "Dépublier",
+    "published": "Publié",
+    "importing": "Importation en cours...",
+    "publishing": "Publication en cours...",
+    "publish-loginRequired": "Veuillez vous connecter pour publier cette automatisation.",
+    "publish-ownedByOther": "Cette automatisation a été publiée par l'utilisateur [{{name}}]. Vous pouvez la dupliquer sur votre compte et y publier vos modifications.",
     "confirm": {
-      "title": "Supprimer l'automatisation",
-      "message": "Êtes-vous sûr de vouloir supprimer l'automatisation [{{name}}] ?"
+      "remove": {
+        "title": "Supprimer l'automatisation",
+        "message": "Êtes-vous sûr de vouloir supprimer l'automatisation [{{name}}] ?"
+      },
+      "import": {
+        "title": "Automatisation de l'importation",
+        "message": "L'importation remplacera votre automatisation actuelle, le cas échéant. Continuer ?"
+      }
     },
     "toast": {
       "header": "Automation",
       "body": "L'automatisation a été enregistrée avec succès !",
+      "published": "L'automatisation a été publiée avec succès !",
+      "unpublished": "Automatisation dépubliée avec succès !",
+      "imported": "Importation réussie de '{{title}}'",
       "schedule": "Planification automatisée enregistrée avec succès !",
       "settings": "Paramètres d'automatisation enregistrés avec succès !",
       "add": "L'automatisation a été ajoutée avec succès",
@@ -396,6 +420,29 @@
     },
     "disable-tooltip": "Désactivez cette automatisation pour éviter qu'elle ne s'exécute sans l'avoir supprimée. Vous pourrez la réactiver ultérieurement si nécessaire.",
     "enable-tooltip": "Activez cette automatisation pour qu'elle s'exécute. Vous pourrez la désactiver ultérieurement si vous souhaitez la suspendre sans la supprimer."
+  },
+  "metadata": {
+    "title": "Titre",
+    "description": "Description",
+    "tags": "Étiquettes",
+    "tags-help": "Ajoutez des balises pour aider les autres à découvrir votre automatisation (séparées par des virgules).",
+    "visibility": "Visibilité",
+    "commaSeparated": "Saisissez des valeurs séparées par des virgules"
+  },
+  "explore": {
+    "title": "Explorez les automatisations",
+    "search": "Automatisation de la recherche...",
+    "loadMore": "Charger plus",
+    "loginToExplore": "Veuillez <1>vous connecter</1> pour explorer les automatisations publiées.",
+    "filter": {
+      "all": "Tous",
+      "mine": "Le mien",
+      "published": "Publié"
+    },
+    "toast": {
+      "header": "Explorer",
+      "import": "L'automatisation a été importée avec succès !"
+    }
   },
   "automationSettings": {
     "title": "Paramètres d'automatisation",
@@ -536,6 +583,7 @@
     "cancel": "Annuler",
     "close": "Fermer",
     "download": "Télécharger",
+    "loading": "Chargement...",
     "disabled": "Désactivé",
     "remove": "Retirer",
     "edit": "Modifier",

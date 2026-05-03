@@ -343,11 +343,19 @@
     "automationsWithinExtension": "扩展程序中的自动化",
     "selectAutomations": "选择要导出或删除的自动化流程",
     "select": "选择",
-    "import": "进口",
+    "import": "导入",
     "filter": {
       "all": "全部",
       "enabled": "已启用",
       "disabled": "已禁用"
+    },
+    "confirm": {
+      "delete": {
+        "title": "删除自动化",
+        "message": "您确定要删除选定的自动化流程吗？",
+        "message_one": "您确定要删除选定的自动化流程吗？",
+        "message_other": "您确定要删除选定的 {{count}} 个自动化流程吗？"
+      }
     },
     "toast": {
       "header": "自动化",
@@ -373,7 +381,7 @@
     "disabled": "已禁用",
     "edit": "编辑",
     "export": "出口",
-    "import": "进口",
+    "import": "导入",
     "schedule": "日程",
     "batch": "循环设置",
     "watch": "显示器设置",
@@ -382,13 +390,29 @@
     "initWait": "请稍候再开始",
     "startTime": "预定开始时间",
     "noConfig": "未找到自动化程序，请优化您的搜索。",
+    "publish": "发布",
+    "unpublish": "取消发布",
+    "published": "已发布",
+    "importing": "导入中...",
+    "publishing": "发布中...",
+    "publish-loginRequired": "请登录以发布此自动化流程。",
+    "publish-ownedByOther": "此自动化脚本由用户 [{{name}}] 发布。您可以将其复制到您的帐户并发布您的更改。",
     "confirm": {
-      "title": "移除自动化",
-      "message": "您确定要移除 [{{name}}] 自动化流程吗？"
+      "remove": {
+        "title": "移除自动化",
+        "message": "您确定要移除 [{{name}}] 自动化流程吗？"
+      },
+      "import": {
+        "title": "导入自动化",
+        "message": "导入操作将覆盖您当前的自动化流程（如果已存在）。是否继续？"
+      }
     },
     "toast": {
       "header": "自动化",
       "body": "自动化流程保存成功！",
+      "published": "自动化发布成功！",
+      "unpublished": "自动化流程已成功取消发布！",
+      "imported": "已成功导入“{{title}}”",
       "schedule": "自动化日程已成功保存！",
       "settings": "自动化设置已成功保存！",
       "add": "自动化功能已成功添加",
@@ -396,6 +420,29 @@
     },
     "disable-tooltip": "禁用此自动化功能可防止其在未删除的情况下运行。您可以在需要时再次启用它。",
     "enable-tooltip": "启用此自动化功能即可运行。如果您想暂停运行但不想删除它，可以稍后再次禁用它。"
+  },
+  "metadata": {
+    "title": "标题",
+    "description": "描述",
+    "tags": "标签",
+    "tags-help": "添加标签，帮助其他人发现您的自动化流程（逗号分隔）。",
+    "visibility": "能见度",
+    "commaSeparated": "请输入以逗号分隔的值"
+  },
+  "explore": {
+    "title": "探索自动化",
+    "search": "搜索自动化……",
+    "loadMore": "加载更多",
+    "loginToExplore": "请<1>登录</1>以浏览已发布的自动化流程。",
+    "filter": {
+      "all": "全部",
+      "mine": "我的",
+      "published": "已发布"
+    },
+    "toast": {
+      "header": "探索",
+      "import": "自动化数据导入成功！"
+    }
   },
   "automationSettings": {
     "title": "自动化设置",
@@ -536,6 +583,7 @@
     "cancel": "取消",
     "close": "关闭",
     "download": "下载",
+    "loading": "加载中...",
     "disabled": "已禁用",
     "remove": "消除",
     "edit": "编辑",

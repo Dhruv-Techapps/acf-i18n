@@ -349,6 +349,14 @@
       "enabled": "Enabled",
       "disabled": "Disabled"
     },
+    "confirm": {
+      "delete": {
+        "title": "Delete Automations",
+        "message": "Are you sure you want to delete the selected automations?",
+        "message_one": "Are you sure you want to delete the selected automation?",
+        "message_other": "Are you sure you want to delete the selected {{count}} automations?"
+      }
+    },
     "toast": {
       "header": "Automations",
       "remove": "Automations removed successfully",
@@ -382,13 +390,29 @@
     "initWait": "Wait Before Start",
     "startTime": "Scheduled Start Time",
     "noConfig": "No automation found. Please refine your search.",
+    "publish": "Publish",
+    "unpublish": "Unpublish",
+    "published": "Published",
+    "importing": "Importing...",
+    "publishing": "Publishing...",
+    "publish-loginRequired": "Please login to publish this automation.",
+    "publish-ownedByOther": "This automation is published by [{{name}}] user. You can duplicate it to your account and publish your changes.",
     "confirm": {
-      "title": "Remove Automation",
-      "message": "Are you sure you want to remove [{{name}}] automation?"
+      "remove": {
+        "title": "Remove Automation",
+        "message": "Are you sure you want to remove [{{name}}] automation?"
+      },
+      "import": {
+        "title": "Import Automation",
+        "message": "Importing will replace your current automation if it exists. Continue?"
+      }
     },
     "toast": {
       "header": "Automation",
       "body": "Automation saved successfully!",
+      "published": "Automation published successfully!",
+      "unpublished": "Automation unpublished successfully!",
+      "imported": "Successfully imported '{{title}}'",
       "schedule": "Automation schedule saved successfully!",
       "settings": "Automation settings saved successfully!",
       "add": "Automation added successfully",
@@ -396,6 +420,29 @@
     },
     "disable-tooltip": "Disable this automation to prevent it from running without deleting it. You can enable it again later when you need it.",
     "enable-tooltip": "Enable this automation to allow it to run. You can disable it again later if you want to pause it without deleting it."
+  },
+  "metadata": {
+    "title": "Title",
+    "description": "Description",
+    "tags": "Tags",
+    "tags-help": "Add tags to help others discover your automation (comma-separated).",
+    "visibility": "Visibility",
+    "commaSeparated": "Enter comma-separated values"
+  },
+  "explore": {
+    "title": "Explore Automations",
+    "search": "Search automations...",
+    "loadMore": "Load More",
+    "loginToExplore": "Please <1>Login</1> to explore published automations.",
+    "filter": {
+      "all": "All",
+      "mine": "Mine",
+      "published": "Published"
+    },
+    "toast": {
+      "header": "Explore",
+      "import": "Automation imported successfully!"
+    }
   },
   "automationSettings": {
     "title": "Automation Settings",
@@ -536,6 +583,7 @@
     "cancel": "Cancel",
     "close": "Close",
     "download": "Download",
+    "loading": "Loading...",
     "disabled": "Disabled",
     "remove": "Remove",
     "edit": "Edit",

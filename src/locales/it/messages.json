@@ -47,6 +47,42 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Pannello laterale/☉ Record"
   },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "Automazioni"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "Registrazione"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "Ricerca"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "Corrispondenza"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "Altro"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "Avvia la registrazione"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "Interrompi la registrazione"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "Inizia a compilare il modulo..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "Se hai già compilato il modulo"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "Già compilato?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "clic"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "Automazione di modifica"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Apri la pagina di configurazione"
   },
