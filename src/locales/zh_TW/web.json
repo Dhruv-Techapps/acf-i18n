@@ -436,7 +436,7 @@
     "loginToExplore": "請<1>登入</1>以瀏覽已發佈的自動化流程。",
     "filter": {
       "all": "全部",
-      "mine": "礦",
+      "mine": "我的",
       "published": "已發布"
     },
     "toast": {
