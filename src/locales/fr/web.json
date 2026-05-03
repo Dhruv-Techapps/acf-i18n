@@ -394,7 +394,7 @@
     "unpublish": "Dépublier",
     "published": "Publié",
     "importing": "Importation en cours...",
-    "publishing": "Édition...",
+    "publishing": "Publication en cours...",
     "publish-loginRequired": "Veuillez vous connecter pour publier cette automatisation.",
     "publish-ownedByOther": "Cette automatisation a été publiée par l'utilisateur [{{name}}]. Vous pouvez la dupliquer sur votre compte et y publier vos modifications.",
     "confirm": {

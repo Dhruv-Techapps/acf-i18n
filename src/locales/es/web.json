@@ -393,7 +393,7 @@
     "publish": "Publicar",
     "unpublish": "Despublicar",
     "published": "Publicado",
-    "importing": "Importador...",
+    "importing": "Importando...",
     "publishing": "Publicación...",
     "publish-loginRequired": "Inicia sesión para publicar esta automatización.",
     "publish-ownedByOther": "Esta automatización la publica el usuario [{{name}}]. Puedes duplicarla en tu cuenta y publicar tus cambios.",

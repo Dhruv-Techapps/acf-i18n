@@ -75,7 +75,7 @@
     "message": "すでにフォームに記入済みの場合"
   },
   "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
-    "message": "既に満席ですか？"
+    "message": "すでに記入済みですか？"
   },
   "@SIDE_PANEL__CLICK": {
     "message": "クリック"

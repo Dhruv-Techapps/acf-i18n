@@ -78,7 +78,7 @@
     "message": "이미 다 채웠나요?"
   },
   "@SIDE_PANEL__CLICK": {
-    "message": "딸깍 하는 소리"
+    "message": "클릭"
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "편집 자동화"
