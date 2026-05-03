@@ -426,7 +426,7 @@
     "description": "설명",
     "tags": "태그",
     "tags-help": "다른 사용자가 자동화 기능을 쉽게 찾을 수 있도록 태그를 추가하세요(쉼표로 구분).",
-    "visibility": "시계",
+    "visibility": "공개 범위",
     "commaSeparated": "쉼표로 구분된 값을 입력하세요"
   },
   "explore": {
