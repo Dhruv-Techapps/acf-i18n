@@ -5,7 +5,8 @@
   "scripts": {
     "start": "npx serve src -l 3333",
     "web": "node src/translate-web.mjs",
-    "message": "node src/translate-message.mjs"
+    "message": "node src/translate-message.mjs",
+    "check:locales": "node src/validate-locales.mjs"
   },
   "devDependencies": {
     "@google-cloud/translate": "^9.3.0"
