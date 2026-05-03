@@ -411,7 +411,7 @@
       "header": "Automatisering",
       "body": "Automatisering succesvol opgeslagen!",
       "published": "Automatisering succesvol gepubliceerd!",
-      "unpublished": "Automatisering succesvol gedeactiveerd!",
+      "unpublished": "Automatisering succesvol uit publicatie gehaald!",
       "imported": "'{{title}}' is succesvol geïmporteerd.",
       "schedule": "Het automatiseringsschema is succesvol opgeslagen!",
       "settings": "Automatiseringsinstellingen succesvol opgeslagen!",
