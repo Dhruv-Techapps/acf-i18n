@@ -426,7 +426,7 @@
     "description": "Beschreibung",
     "tags": "Tags",
     "tags-help": "Fügen Sie Tags hinzu, damit andere Ihre Automatisierung leichter finden (durch Komma getrennt).",
-    "visibility": "Sichtweite",
+    "visibility": "Sichtbarkeit",
     "commaSeparated": "Geben Sie durch Kommas getrennte Werte ein."
   },
   "explore": {
