@@ -394,7 +394,7 @@
     "unpublish": "Rimuovi dalla pubblicazione",
     "published": "Pubblicato",
     "importing": "Importazione...",
-    "publishing": "Editoria...",
+    "publishing": "Pubblicazione...",
     "publish-loginRequired": "Effettua il login per pubblicare questa automazione.",
     "publish-ownedByOther": "Questa automazione è stata pubblicata dall'utente [{{name}}]. Puoi duplicarla nel tuo account e pubblicare le modifiche.",
     "confirm": {
@@ -411,7 +411,7 @@
       "header": "Automazione",
       "body": "Automazione salvata con successo!",
       "published": "Automazione pubblicata con successo!",
-      "unpublished": "Automazione rimossa con successo!",
+      "unpublished": "Automazione rimossa dalla pubblicazione con successo!",
       "imported": "Importazione di '{{title}}' completata con successo.",
       "schedule": "Pianificazione dell'automazione salvata con successo!",
       "settings": "Impostazioni di automazione salvate con successo!",

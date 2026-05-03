@@ -394,7 +394,7 @@
     "unpublish": "De-publiceren",
     "published": "Gepubliceerd",
     "importing": "Importeren...",
-    "publishing": "Uitgeverij...",
+    "publishing": "Publiceren...",
     "publish-loginRequired": "Log in om deze automatisering te publiceren.",
     "publish-ownedByOther": "Deze automatisering is gepubliceerd door gebruiker [{{name}}]. Je kunt deze kopiëren naar je eigen account en je wijzigingen publiceren.",
     "confirm": {
@@ -433,7 +433,7 @@
     "title": "Verken automatiseringen",
     "search": "Automatiseringszoekopdrachten...",
     "loadMore": "Meer laden",
-    "loginToExplore": "Log in om gepubliceerde automatiseringen te bekijken.",
+    "loginToExplore": "<1>Log in</1> om gepubliceerde automatiseringen te bekijken.",
     "filter": {
       "all": "Alle",
       "mine": "De mijne",

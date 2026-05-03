@@ -394,7 +394,7 @@
     "unpublish": "非公開",
     "published": "公開済み",
     "importing": "インポート中...",
-    "publishing": "出版…",
+    "publishing": "公開中...",
     "publish-loginRequired": "この自動化を公開するには、ログインしてください。",
     "publish-ownedByOther": "この自動化スクリプトは[{{name}}]ユーザーによって公開されています。ご自身のアカウントに複製して、変更内容を公開することができます。",
     "confirm": {
