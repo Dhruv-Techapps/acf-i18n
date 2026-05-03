@@ -394,7 +394,7 @@
     "unpublish": "Veröffentlichung aufheben",
     "published": "Veröffentlicht",
     "importing": "Importiert...",
-    "publishing": "Veröffentlichung...",
+    "publishing": "Wird veröffentlicht...",
     "publish-loginRequired": "Bitte melden Sie sich an, um diese Automatisierung zu veröffentlichen.",
     "publish-ownedByOther": "Diese Automatisierung wurde von Benutzer [{{name}}] veröffentlicht. Sie können sie in Ihr Konto kopieren und Ihre Änderungen veröffentlichen.",
     "confirm": {
