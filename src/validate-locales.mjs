@@ -15,6 +15,14 @@ const findMissingPaths = (source, target, prefix = '') => {
     return missing;
   }
 
+  if (!isObject(target)) {
+    for (const key of Object.keys(source)) {
+      const nextPath = prefix ? `${prefix}.${key}` : key;
+      missing.push(nextPath);
+    }
+    return missing;
+  }
+
   for (const [key, sourceValue] of Object.entries(source)) {
     const nextPath = prefix ? `${prefix}.${key}` : key;
 
@@ -48,7 +56,19 @@ const validate = async () => {
 
   for (const fileName of FILES_TO_VALIDATE) {
     const sourcePath = path.join(LOCALES_ROOT, SOURCE_LOCALE, fileName);
-    const sourceJson = await readJson(sourcePath);
+
+    let sourceJson;
+    try {
+      sourceJson = await readJson(sourcePath);
+    } catch {
+      allFailures.push(`${sourcePath}: source file is missing or invalid JSON`);
+      continue;
+    }
+
+    if (!isObject(sourceJson)) {
+      allFailures.push(`${sourcePath}: source JSON must be an object`);
+      continue;
+    }
 
     for (const { folder } of LANGUAGES) {
       const targetPath = path.join(LOCALES_ROOT, folder, fileName);
@@ -82,4 +102,12 @@ const validate = async () => {
   console.log('Locale validation passed. All locale files include English keys.');
 };
 
-validate();
+validate().catch((error) => {
+  console.error('Locale validation failed due to an unexpected error.');
+  if (error instanceof Error) {
+    console.error(error.message);
+  } else {
+    console.error(String(error));
+  }
+  process.exit(1);
+});
