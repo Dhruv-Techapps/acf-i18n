@@ -411,7 +411,7 @@
       "header": "Automatisierung",
       "body": "Automatisierung erfolgreich gespeichert!",
       "published": "Automatisierung erfolgreich veröffentlicht!",
-      "unpublished": "Automatisierung erfolgreich deinstalliert!",
+      "unpublished": "Veröffentlichung der Automatisierung erfolgreich aufgehoben!",
       "imported": "'{{title}}' erfolgreich importiert",
       "schedule": "Automatisierungsplan erfolgreich gespeichert!",
       "settings": "Automatisierungseinstellungen erfolgreich gespeichert!",
