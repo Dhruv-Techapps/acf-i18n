@@ -47,6 +47,42 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Zijpaneel/☉ Opnemen"
   },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "Automatiseringen"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "Opname"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "Zoekopdracht"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "Overeenkomst"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "Ander"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "Start opnemen"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "Stop met opnemen"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "Begin met het invullen van het formulier..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "Als u het formulier al heeft ingevuld"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "Reeds ingevuld?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "klik"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "Automatisering bewerken"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Open de configuratiepagina"
   },

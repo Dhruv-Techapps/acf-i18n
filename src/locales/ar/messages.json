@@ -47,6 +47,42 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ اللوحة الجانبية/☉ التسجيل"
   },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "الأتمتة"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "تسجيل"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "يبحث"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "متطابق"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "آخر"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "ابدأ التسجيل"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "أوقف التسجيل"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "ابدأ بملء النموذج..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "إذا كنت قد ملأت النموذج بالفعل"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "هل تم ملؤها بالفعل؟"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "انقر"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "أتمتة التحرير"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ افتح صفحة التكوين"
   },

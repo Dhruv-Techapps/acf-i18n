@@ -47,6 +47,42 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Боковая панель/☉ Запись"
   },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "Автоматизация"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "Запись"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "Поиск"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "Совпадающий"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "Другой"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "Начать запись"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "Остановить запись"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "Начните заполнять форму..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "Если вы уже заполнили форму"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "Уже заполнено?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "клик"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "Редактировать автоматизацию"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Открыть страницу конфигурации"
   },

@@ -47,6 +47,42 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Panneau latéral/☉ Disque"
   },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "Automatisations"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "Enregistrement"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "Recherche"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "Correspondance"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "Autre"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "Démarrer l'enregistrement"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "Arrêter l'enregistrement"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "Commencez à remplir le formulaire..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "Si vous avez déjà rempli le formulaire"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "Déjà rempli ?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "cliquez"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "Automatisation de la modification"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Page de configuration ouvrir"
   },

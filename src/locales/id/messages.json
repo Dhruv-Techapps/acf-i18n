@@ -47,6 +47,42 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Panel Samping/☉ Rekaman"
   },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "Otomatisasi"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "Rekaman"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "Mencari"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "Cocok"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "Lainnya"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "Mulai Merekam"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "Hentikan Perekaman"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "Mulailah mengisi formulir..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "Jika Anda sudah mengisi formulir"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "Sudah terisi?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "klik"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "Edit Otomatisasi"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Buka Halaman Konfigurasi"
   },

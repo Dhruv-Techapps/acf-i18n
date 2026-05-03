@@ -47,6 +47,42 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ 측면 패널/☉ 녹화"
   },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "자동화"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "녹음"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "찾다"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "일치함"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "다른"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "녹화 시작"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "녹화 중지"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "양식 작성을 시작하세요..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "이미 양식을 작성하셨다면"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "이미 다 채웠나요?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "딸깍 하는 소리"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "편집 자동화"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ 구성 페이지 열기"
   },

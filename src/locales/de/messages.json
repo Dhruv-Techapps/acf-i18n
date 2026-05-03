@@ -47,6 +47,42 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Seitenwand/☉ Aufnahme"
   },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "Automatisierungen"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "Aufnahme"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "Suchen"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "Übereinstimmend"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "Andere"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "Aufnahme starten"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "Aufnahme stoppen"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "Beginnen Sie mit dem Ausfüllen des Formulars..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "Wenn Sie das Formular bereits ausgefüllt haben"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "Bereits ausgefüllt?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "klicken"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "Automatisierung bearbeiten"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Konfigurationsseite öffnen"
   },
