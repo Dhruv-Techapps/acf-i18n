@@ -436,6 +436,10 @@
     "search": "Automações de pesquisa...",
     "loadMore": "Carregar mais",
     "loginToExplore": "Faça <1>login</1> para explorar as automações publicadas.",
+    "no-published": "Nenhuma automação encontrada. Seja o primeiro a publicar uma!",
+    "downloads_zero": "Sem downloads",
+    "downloads_one": "1 Download",
+    "downloads_other": "{{count}} Downloads",
     "filter": {
       "all": "Todos",
       "mine": "Meu",

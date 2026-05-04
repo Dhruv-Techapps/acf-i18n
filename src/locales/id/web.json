@@ -436,6 +436,10 @@
     "search": "Otomatisasi pencarian...",
     "loadMore": "Muat Lebih Banyak",
     "loginToExplore": "Silakan <1>Masuk</1> untuk menjelajahi otomatisasi yang telah dipublikasikan.",
+    "no-published": "Tidak ditemukan otomatisasi. Jadilah yang pertama menerbitkan otomatisasi!",
+    "downloads_zero": "Tidak ada unduhan",
+    "downloads_one": "1 Unduhan",
+    "downloads_other": "{{count}} Unduhan",
     "filter": {
       "all": "Semua",
       "mine": "Milikku",

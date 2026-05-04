@@ -436,6 +436,10 @@
     "search": "Tự động hóa tìm kiếm...",
     "loadMore": "Tải thêm",
     "loginToExplore": "Vui lòng <1>Đăng nhập</1> để khám phá các quy trình tự động hóa đã được công bố.",
+    "no-published": "Không tìm thấy quy trình tự động hóa nào. Hãy là người đầu tiên đăng tải một quy trình!",
+    "downloads_zero": "Không có tệp tải xuống",
+    "downloads_one": "1 Tải xuống",
+    "downloads_other": "{{count}} Lượt tải xuống",
     "filter": {
       "all": "Tất cả",
       "mine": "Của tôi",

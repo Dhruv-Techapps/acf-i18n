@@ -436,6 +436,10 @@
     "search": "Hakuautomaatiot...",
     "loadMore": "Lataa lisää",
     "loginToExplore": "<1>Kirjaudu sisään</1> tutustuaksesi julkaistuihin automaatioihin.",
+    "no-published": "Ei automaatioita. Ole ensimmäinen, joka julkaisee sellaisen!",
+    "downloads_zero": "Ei latauksia",
+    "downloads_one": "1 lataus",
+    "downloads_other": "{{count}} Lataukset",
     "filter": {
       "all": "Kaikki",
       "mine": "Minun",

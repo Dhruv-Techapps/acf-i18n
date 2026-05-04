@@ -436,6 +436,10 @@
     "search": "Sökautomatiseringar...",
     "loadMore": "Ladda mer",
     "loginToExplore": "Vänligen <1>Logga in</1> för att utforska publicerade automatiseringar.",
+    "no-published": "Inga automatiseringar hittades. Bli först med att publicera en!",
+    "downloads_zero": "Inga nedladdningar",
+    "downloads_one": "1 nedladdning",
+    "downloads_other": "{{count}} Nedladdningar",
     "filter": {
       "all": "Alla",
       "mine": "Mina",

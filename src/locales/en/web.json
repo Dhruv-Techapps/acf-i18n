@@ -436,6 +436,10 @@
     "search": "Search automations...",
     "loadMore": "Load More",
     "loginToExplore": "Please <1>Login</1> to explore published automations.",
+    "no-published": "No automations found. Be the first to publish one!",
+    "downloads_zero": "No downloads",
+    "downloads_one": "1 Download",
+    "downloads_other": "{{count}} Downloads",
     "filter": {
       "all": "All",
       "mine": "Mine",

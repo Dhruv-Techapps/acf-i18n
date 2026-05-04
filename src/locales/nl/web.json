@@ -436,6 +436,10 @@
     "search": "Automatiseringszoekopdrachten...",
     "loadMore": "Meer laden",
     "loginToExplore": "<1>Log in</1> om gepubliceerde automatiseringen te bekijken.",
+    "no-published": "Geen automatiseringen gevonden. Wees de eerste die er een publiceert!",
+    "downloads_zero": "Geen downloads",
+    "downloads_one": "1 download",
+    "downloads_other": "{{count}} Downloads",
     "filter": {
       "all": "Alle",
       "mine": "De mijne",

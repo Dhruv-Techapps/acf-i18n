@@ -436,6 +436,10 @@
     "search": "搜索自动化……",
     "loadMore": "加载更多",
     "loginToExplore": "请<1>登录</1>以浏览已发布的自动化流程。",
+    "no-published": "未找到自动化脚本。快来发布一个吧！",
+    "downloads_zero": "无需下载",
+    "downloads_one": "1 下载",
+    "downloads_other": "{{count}} 次下载",
     "filter": {
       "all": "全部",
       "mine": "我的",

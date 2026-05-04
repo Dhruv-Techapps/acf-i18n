@@ -436,6 +436,10 @@
     "search": "搜尋自動化…",
     "loadMore": "加載更多",
     "loginToExplore": "請<1>登入</1>以瀏覽已發佈的自動化流程。",
+    "no-published": "未找到自動化腳本。快來發布第一個吧！",
+    "downloads_zero": "無需下載",
+    "downloads_one": "1 下載",
+    "downloads_other": "{{count}} 次下載",
     "filter": {
       "all": "全部",
       "mine": "我的",
