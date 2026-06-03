@@ -275,19 +275,6 @@
         "noAds": "Reclamevrije ervaring"
       }
     },
-    "lite": {
-      "name": "⭐ LITE",
-      "tagline": "Essentiële functies voor gevorderde gebruikers die meer controle willen.",
-      "perMonth": "per maand",
-      "cta": "Upgrade naar Lite",
-      "includes": "Alles wat in Free zit, plus:",
-      "features": {
-        "addonCondition": "Voorwaardelijke add-on-logica",
-        "actionCondition": "Voorwaarden per actie",
-        "actionSettings": "Instellingen en overschrijvingen op actieniveau",
-        "noAds": "Reclamevrije ervaring"
-      }
-    },
     "pro": {
       "name": "🔹 PRO",
       "tagline": "De volledige kracht van automatisering — met integraties, AI en prioriteitsondersteuning.",

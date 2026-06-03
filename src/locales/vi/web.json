@@ -275,19 +275,6 @@
         "noAds": "Trải nghiệm không có quảng cáo"
       }
     },
-    "lite": {
-      "name": "⭐ LITE",
-      "tagline": "Các tính năng thiết yếu dành cho người dùng chuyên nghiệp muốn có nhiều quyền kiểm soát hơn.",
-      "perMonth": "mỗi tháng",
-      "cta": "Nâng cấp lên phiên bản Lite",
-      "includes": "Tất cả mọi thứ đều có trong phiên bản miễn phí, cộng thêm:",
-      "features": {
-        "addonCondition": "Logic bổ sung có điều kiện",
-        "actionCondition": "Quy tắc điều kiện mỗi hành động",
-        "actionSettings": "Cài đặt và ghi đè ở cấp độ hành động",
-        "noAds": "Trải nghiệm không có quảng cáo"
-      }
-    },
     "pro": {
       "name": "🔹 CHUYÊN NGHIỆP",
       "tagline": "Sức mạnh toàn diện của tự động hóa — với khả năng tích hợp, trí tuệ nhân tạo và hỗ trợ ưu tiên.",

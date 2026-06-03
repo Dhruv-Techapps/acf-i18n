@@ -275,19 +275,6 @@
         "noAds": "Pengalaman tanpa iklan"
       }
     },
-    "lite": {
-      "name": "⭐ RINGAN",
-      "tagline": "Fitur-fitur penting untuk pengguna tingkat lanjut yang menginginkan kontrol lebih.",
-      "perMonth": "per bulan",
-      "cta": "Tingkatkan ke Versi Lite",
-      "includes": "Semuanya gratis, ditambah:",
-      "features": {
-        "addonCondition": "Logika tambahan bersyarat",
-        "actionCondition": "Aturan kondisi per tindakan",
-        "actionSettings": "Pengaturan dan penggantian tingkat tindakan",
-        "noAds": "Pengalaman tanpa iklan"
-      }
-    },
     "pro": {
       "name": "🔹 PRO",
       "tagline": "Kekuatan penuh otomatisasi — dengan integrasi, AI, dan dukungan prioritas.",

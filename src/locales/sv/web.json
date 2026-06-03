@@ -275,19 +275,6 @@
         "noAds": "Reklamfri upplevelse"
       }
     },
-    "lite": {
-      "name": "⭐ LITE",
-      "tagline": "Viktiga funktioner för avancerade användare som vill ha mer kontroll.",
-      "perMonth": "per månad",
-      "cta": "Uppgradera till Lite",
-      "includes": "Allt gratis, plus:",
-      "features": {
-        "addonCondition": "Villkorlig tilläggslogik",
-        "actionCondition": "Regler för villkor per åtgärd",
-        "actionSettings": "Inställningar och åsidosättningar på åtgärdsnivå",
-        "noAds": "Reklamfri upplevelse"
-      }
-    },
     "pro": {
       "name": "🔹 PROFFS",
       "tagline": "Automatiseringens fulla kraft – med integrationer, AI och prioriterad support.",

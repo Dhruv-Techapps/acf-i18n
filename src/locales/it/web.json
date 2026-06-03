@@ -274,20 +274,6 @@
         "actionSettings": "Impostazioni e override a livello di azione",
         "noAds": "Esperienza senza pubblicità"
       }
-    },
-    "lite": {
-      "name": "⭐ LITE",
-      "tagline": "Funzionalità essenziali per gli utenti esperti che desiderano un maggiore controllo.",
-      "perMonth": "al mese",
-      "cta": "Passa a Lite",
-      "includes": "Tutto ciò che è incluso nella versione gratuita, più:",
-      "features": {
-        "addonCondition": "Logica aggiuntiva condizionale",
-        "actionCondition": "Regole di condizione per azione",
-        "actionSettings": "Impostazioni e override a livello di azione",
-        "noAds": "Esperienza senza pubblicità"
-      }
-    },
     "pro": {
       "name": "🔹 PRO",
       "tagline": "Tutta la potenza dell'automazione, con integrazioni, intelligenza artificiale e supporto prioritario.",

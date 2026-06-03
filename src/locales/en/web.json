@@ -275,19 +275,6 @@
         "noAds": "Ad-free experience"
       }
     },
-    "lite": {
-      "name": "⭐ LITE",
-      "tagline": "Essential features for power users who want more control.",
-      "perMonth": "per month",
-      "cta": "Upgrade to Lite",
-      "includes": "Everything in Free, plus:",
-      "features": {
-        "addonCondition": "Conditional addon logic",
-        "actionCondition": "Per-action condition rules",
-        "actionSettings": "Action-level settings & overrides",
-        "noAds": "Ad-free experience"
-      }
-    },
     "pro": {
       "name": "🔹 PRO",
       "tagline": "The full power of automation — with integrations, AI, and priority support.",

@@ -275,19 +275,6 @@
         "noAds": "Mainokseton kokemus"
       }
     },
-    "lite": {
-      "name": "⭐ KEVYT",
-      "tagline": "Olennaisia ominaisuuksia tehokäyttäjille, jotka haluavat enemmän hallintaa.",
-      "perMonth": "kuukaudessa",
-      "cta": "Päivitä Lite-versioon",
-      "includes": "Kaikki ilmaiseksi, plus:",
-      "features": {
-        "addonCondition": "Ehdollinen lisäosan logiikka",
-        "actionCondition": "Toimintokohtaiset ehtosäännöt",
-        "actionSettings": "Toimintotason asetukset ja ohitukset",
-        "noAds": "Mainokseton kokemus"
-      }
-    },
     "pro": {
       "name": "🔹 AMMATTILAINEN",
       "tagline": "Automaation täysi teho – integraatioilla, tekoälyllä ja priorisoidulla tuella.",

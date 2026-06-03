@@ -275,19 +275,6 @@
         "noAds": "Experiencia sin publicidad"
       }
     },
-    "lite": {
-      "name": "⭐ LITE",
-      "tagline": "Funciones esenciales para usuarios avanzados que desean más control.",
-      "perMonth": "por mes",
-      "cta": "Actualizar a Lite",
-      "includes": "Todo gratis, más:",
-      "features": {
-        "addonCondition": "Lógica de complemento condicional",
-        "actionCondition": "Reglas de condición por acción",
-        "actionSettings": "Configuraciones y anulaciones a nivel de acción",
-        "noAds": "Experiencia sin publicidad"
-      }
-    },
     "pro": {
       "name": "🔹 PRO",
       "tagline": "Todo el poder de la automatización: con integraciones, IA y soporte prioritario.",

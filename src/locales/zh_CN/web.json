@@ -275,19 +275,6 @@
         "noAds": "无广告体验"
       }
     },
-    "lite": {
-      "name": "⭐ LITE",
-      "tagline": "为希望获得更多控制权的高级用户提供的必备功能。",
-      "perMonth": "每月",
-      "cta": "升级到精简版",
-      "includes": "免费内容全部，外加：",
-      "features": {
-        "addonCondition": "条件插件逻辑",
-        "actionCondition": "每个动作的条件规则",
-        "actionSettings": "操作级别设置和覆盖",
-        "noAds": "无广告体验"
-      }
-    },
     "pro": {
       "name": "🔹 专业版",
       "tagline": "充分发挥自动化的强大功能——集成、人工智能和优先支持。",
