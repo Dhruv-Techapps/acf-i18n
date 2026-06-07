@@ -244,10 +244,16 @@
     "cancelPlan": "Avbryt abonnemang",
     "cancelConfirm": "Är du säker på att du vill avsluta din prenumeration i slutet av den nuvarande faktureringsperioden?",
     "cancelError": "Det gick inte att avsluta prenumerationen. Försök igen senare.",
+    "cancellationScheduled": "Avbokning planerad",
+    "cancellationDetails": "Din prenumeration förblir aktiv fram till nästa faktureringsdatum. Du kommer att ha full tillgång till alla funktioner fram till dess.",
+    "scheduledCancelDate": "Planerat avbokningsdatum",
     "loginRequired": "Vänligen logga in för att uppgradera ditt abonnemang.",
     "loginLink": "Logga in",
     "activeSubscription": "Aktiv prenumeration:",
     "subscriptionStatus": "Status: {{status}}",
+    "processing": "Behandlar betalning och uppdaterar din prenumeration...",
+    "upgrade": "Uppgradera",
+    "downgrade": "Nedvärdera",
     "free": {
       "name": "🆓 GRATIS",
       "tagline": "Kraftfull automatisering för alla – inget konto krävs.",
@@ -290,6 +296,12 @@
         "prideAndJoy": "Supportermärke och erkännande från samhället"
       }
     }
+  },
+  "subscription": {
+    "title": "Prenumeration",
+    "changePlan": "Ändringsplan",
+    "status": "Status",
+    "nextBillingDate": "Nästa faktureringsdatum"
   },
   "googleSheets": {
     "title": "Google Kalkylark",

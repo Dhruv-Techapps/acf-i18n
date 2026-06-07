@@ -244,10 +244,16 @@
     "cancelPlan": "Plan stornieren",
     "cancelConfirm": "Möchten Sie Ihr Abonnement wirklich zum Ende des aktuellen Abrechnungszeitraums kündigen?",
     "cancelError": "Abonnement konnte nicht gekündigt werden. Bitte versuchen Sie es später erneut.",
+    "cancellationScheduled": "Stornierung geplant",
+    "cancellationDetails": "Ihr Abonnement bleibt bis zum nächsten Abrechnungsdatum aktiv. Sie haben bis dahin weiterhin vollen Zugriff auf alle Funktionen.",
+    "scheduledCancelDate": "Geplantes Stornierungsdatum",
     "loginRequired": "Bitte melden Sie sich an, um Ihren Tarif zu aktualisieren.",
     "loginLink": "Einloggen",
     "activeSubscription": "Aktives Abonnement:",
     "subscriptionStatus": "Status: {{status}}",
+    "processing": "Zahlungsabwicklung und Aktualisierung Ihres Abonnements...",
+    "upgrade": "Upgrade",
+    "downgrade": "Herabstufung",
     "free": {
       "name": "🆓 GRATIS",
       "tagline": "Leistungsstarke Automatisierung für alle – kein Konto erforderlich.",
@@ -290,6 +296,12 @@
         "prideAndJoy": "Unterstützerabzeichen & Anerkennung durch die Gemeinschaft"
       }
     }
+  },
+  "subscription": {
+    "title": "Abonnement",
+    "changePlan": "Änderungsplan",
+    "status": "Status",
+    "nextBillingDate": "Nächster Abrechnungstermin"
   },
   "googleSheets": {
     "title": "Google Tabellen",

@@ -244,10 +244,16 @@
     "cancelPlan": "取消计划",
     "cancelConfirm": "您确定要在当前计费周期结束时取消订阅吗？",
     "cancelError": "订阅取消失败，请稍后再试。",
+    "cancellationScheduled": "已安排取消",
+    "cancellationDetails": "您的订阅将持续有效至下一个账单日。在此之前，您仍可继续完全使用所有功能。",
+    "scheduledCancelDate": "预定取消日期",
     "loginRequired": "请登录升级您的套餐。",
     "loginLink": "登录",
     "activeSubscription": "有效订阅：",
     "subscriptionStatus": "状态：{{status}}",
+    "processing": "正在处理付款并更新您的订阅信息……",
+    "upgrade": "升级",
+    "downgrade": "降级",
     "free": {
       "name": "🆓 免费",
       "tagline": "强大的自动化功能，人人可用——无需注册账号。",
@@ -290,6 +296,12 @@
         "prideAndJoy": "支持者徽章和社区认可"
       }
     }
+  },
+  "subscription": {
+    "title": "订阅",
+    "changePlan": "变更计划",
+    "status": "地位",
+    "nextBillingDate": "下一个账单日期"
   },
   "googleSheets": {
     "title": "Google 表格",

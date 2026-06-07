@@ -244,10 +244,16 @@
     "cancelPlan": "Annuler le forfait",
     "cancelConfirm": "Êtes-vous sûr de vouloir annuler votre abonnement à la fin du cycle de facturation actuel ?",
     "cancelError": "Impossible d'annuler l'abonnement. Veuillez réessayer plus tard.",
+    "cancellationScheduled": "Annulation prévue",
+    "cancellationDetails": "Votre abonnement restera actif jusqu'à la prochaine date de facturation. Vous conserverez un accès complet à toutes les fonctionnalités jusqu'à cette date.",
+    "scheduledCancelDate": "Date d'annulation prévue",
     "loginRequired": "Veuillez vous connecter pour mettre à niveau votre forfait.",
     "loginLink": "Se connecter",
     "activeSubscription": "Abonnement actif :",
     "subscriptionStatus": "Statut : {{status}}",
+    "processing": "Traitement du paiement et mise à jour de votre abonnement...",
+    "upgrade": "Mise à niveau",
+    "downgrade": "Rétrograder",
     "free": {
       "name": "🆓 GRATUIT",
       "tagline": "Une automatisation puissante pour tous – aucun compte requis.",
@@ -290,6 +296,12 @@
         "prideAndJoy": "badge de soutien et reconnaissance communautaire"
       }
     }
+  },
+  "subscription": {
+    "title": "Abonnement",
+    "changePlan": "Plan de changement",
+    "status": "Statut",
+    "nextBillingDate": "Prochaine date de facturation"
   },
   "googleSheets": {
     "title": "Google Sheets",

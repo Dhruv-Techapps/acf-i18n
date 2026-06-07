@@ -244,10 +244,16 @@
     "cancelPlan": "Cancelar plano",
     "cancelConfirm": "Tem certeza de que deseja cancelar sua assinatura ao final do ciclo de faturamento atual?",
     "cancelError": "Não foi possível cancelar a assinatura. Tente novamente mais tarde.",
+    "cancellationScheduled": "Cancelamento agendado",
+    "cancellationDetails": "Sua assinatura permanecerá ativa até a próxima data de cobrança. Você continuará tendo acesso completo a todos os recursos até lá.",
+    "scheduledCancelDate": "Data de cancelamento programada",
     "loginRequired": "Faça login para atualizar seu plano.",
     "loginLink": "Conecte-se",
     "activeSubscription": "Assinatura ativa:",
     "subscriptionStatus": "Status: {{status}}",
+    "processing": "Processando o pagamento e atualizando sua assinatura...",
+    "upgrade": "Atualizar",
+    "downgrade": "Rebaixamento",
     "free": {
       "name": "🆓 GRÁTIS",
       "tagline": "Automação poderosa para todos — sem necessidade de conta.",
@@ -290,6 +296,12 @@
         "prideAndJoy": "Distintivo de apoiador e reconhecimento da comunidade"
       }
     }
+  },
+  "subscription": {
+    "title": "Subscrição",
+    "changePlan": "Plano de mudança",
+    "status": "Status",
+    "nextBillingDate": "Próxima data de faturamento"
   },
   "googleSheets": {
     "title": "Planilhas Google",

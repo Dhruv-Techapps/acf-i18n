@@ -244,10 +244,16 @@
     "cancelPlan": "Hủy gói dịch vụ",
     "cancelConfirm": "Bạn có chắc chắn muốn hủy đăng ký của mình vào cuối chu kỳ thanh toán hiện tại không?",
     "cancelError": "Không thể hủy đăng ký. Vui lòng thử lại sau.",
+    "cancellationScheduled": "Lịch hủy",
+    "cancellationDetails": "Gói đăng ký của bạn sẽ vẫn có hiệu lực cho đến ngày thanh toán tiếp theo. Bạn sẽ tiếp tục được truy cập đầy đủ vào tất cả các tính năng cho đến lúc đó.",
+    "scheduledCancelDate": "Ngày hủy dự kiến",
     "loginRequired": "Vui lòng đăng nhập để nâng cấp gói dịch vụ của bạn.",
     "loginLink": "Đăng nhập",
     "activeSubscription": "Đăng ký đang hoạt động:",
     "subscriptionStatus": "Trạng thái: {{status}}",
+    "processing": "Đang xử lý thanh toán và cập nhật gói đăng ký của bạn...",
+    "upgrade": "Nâng cấp",
+    "downgrade": "Hạ cấp",
     "free": {
       "name": "🆓 MIỄN PHÍ",
       "tagline": "Công nghệ tự động hóa mạnh mẽ dành cho tất cả mọi người — không cần tài khoản.",
@@ -290,6 +296,12 @@
         "prideAndJoy": "Huy hiệu người ủng hộ & sự ghi nhận của cộng đồng"
       }
     }
+  },
+  "subscription": {
+    "title": "Đăng ký",
+    "changePlan": "Kế hoạch thay đổi",
+    "status": "Trạng thái",
+    "nextBillingDate": "Ngày lập hóa đơn tiếp theo"
   },
   "googleSheets": {
     "title": "Google Sheets",
