@@ -244,10 +244,16 @@
     "cancelPlan": "プランをキャンセルする",
     "cancelConfirm": "現在の請求期間終了時に、本当に定期購読を解約しますか？",
     "cancelError": "定期購読のキャンセルに失敗しました。しばらくしてからもう一度お試しください。",
+    "cancellationScheduled": "キャンセル予定",
+    "cancellationDetails": "お客様のご契約は次回の請求日まで有効です。それまでは、すべての機能に引き続きアクセスできます。",
+    "scheduledCancelDate": "予定されているキャンセル日",
     "loginRequired": "プランをアップグレードするには、ログインしてください。",
     "loginLink": "ログイン",
     "activeSubscription": "有効な購読:",
     "subscriptionStatus": "ステータス: {{status}}",
+    "processing": "お支払いの処理と購読情報の更新を行っています...",
+    "upgrade": "アップグレード",
+    "downgrade": "ダウングレード",
     "free": {
       "name": "🆓 無料",
       "tagline": "誰でも利用できる強力な自動化 — アカウントは必要ありません。",
@@ -275,19 +281,6 @@
         "noAds": "広告なしの体験"
       }
     },
-    "lite": {
-      "name": "⭐ ライト",
-      "tagline": "より高度な制御を望むパワーユーザーにとって必須の機能。",
-      "perMonth": "月額",
-      "cta": "ライトにアップグレード",
-      "includes": "Free に含まれるすべての機能に加え、次の機能もご利用いただけます:",
-      "features": {
-        "addonCondition": "条件付きアドオンロジック",
-        "actionCondition": "アクションごとの条件ルール",
-        "actionSettings": "アクションレベルの設定とオーバーライド",
-        "noAds": "広告なしの体験"
-      }
-    },
     "pro": {
       "name": "🔹 プロ",
       "tagline": "統合、AI、優先サポートによる自動化のフルパワー。",
@@ -303,6 +296,12 @@
         "prideAndJoy": "サポーターバッジとコミュニティの認知"
       }
     }
+  },
+  "subscription": {
+    "title": "サブスクリプション",
+    "changePlan": "変更計画",
+    "status": "状態",
+    "nextBillingDate": "次回の請求日"
   },
   "googleSheets": {
     "title": "Googleスプレッドシート",

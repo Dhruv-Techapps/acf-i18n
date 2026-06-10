@@ -244,10 +244,16 @@
     "cancelPlan": "Batalkan Rencana",
     "cancelConfirm": "Apakah Anda yakin ingin membatalkan langganan Anda di akhir siklus penagihan saat ini?",
     "cancelError": "Pembatalan langganan gagal. Silakan coba lagi nanti.",
+    "cancellationScheduled": "Pembatalan Terjadwal",
+    "cancellationDetails": "Langganan Anda akan tetap aktif hingga tanggal penagihan berikutnya. Anda akan tetap memiliki akses penuh ke semua fitur hingga saat itu.",
+    "scheduledCancelDate": "Tanggal Pembatalan yang Dijadwalkan",
     "loginRequired": "Silakan masuk untuk meningkatkan paket langganan Anda.",
     "loginLink": "Masuk",
     "activeSubscription": "Langganan Aktif:",
     "subscriptionStatus": "Status: {{status}}",
+    "processing": "Memproses pembayaran dan memperbarui langganan Anda...",
+    "upgrade": "Meningkatkan",
+    "downgrade": "Penurunan peringkat",
     "free": {
       "name": "🆓 GRATIS",
       "tagline": "Otomatisasi canggih untuk semua orang — tanpa perlu akun.",
@@ -275,19 +281,6 @@
         "noAds": "Pengalaman tanpa iklan"
       }
     },
-    "lite": {
-      "name": "⭐ RINGAN",
-      "tagline": "Fitur-fitur penting untuk pengguna tingkat lanjut yang menginginkan kontrol lebih.",
-      "perMonth": "per bulan",
-      "cta": "Tingkatkan ke Versi Lite",
-      "includes": "Semuanya gratis, ditambah:",
-      "features": {
-        "addonCondition": "Logika tambahan bersyarat",
-        "actionCondition": "Aturan kondisi per tindakan",
-        "actionSettings": "Pengaturan dan penggantian tingkat tindakan",
-        "noAds": "Pengalaman tanpa iklan"
-      }
-    },
     "pro": {
       "name": "🔹 PRO",
       "tagline": "Kekuatan penuh otomatisasi — dengan integrasi, AI, dan dukungan prioritas.",
@@ -303,6 +296,12 @@
         "prideAndJoy": "Lencana pendukung & pengakuan komunitas"
       }
     }
+  },
+  "subscription": {
+    "title": "Langganan",
+    "changePlan": "Rencana Perubahan",
+    "status": "Status",
+    "nextBillingDate": "Tanggal Penagihan Berikutnya"
   },
   "googleSheets": {
     "title": "Google Sheets",

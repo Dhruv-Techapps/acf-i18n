@@ -244,10 +244,16 @@
     "cancelPlan": "取消计划",
     "cancelConfirm": "您确定要在当前计费周期结束时取消订阅吗？",
     "cancelError": "订阅取消失败，请稍后再试。",
+    "cancellationScheduled": "已安排取消",
+    "cancellationDetails": "您的订阅将持续有效至下一个账单日。在此之前，您仍可继续完全使用所有功能。",
+    "scheduledCancelDate": "预定取消日期",
     "loginRequired": "请登录升级您的套餐。",
     "loginLink": "登录",
     "activeSubscription": "有效订阅：",
     "subscriptionStatus": "状态：{{status}}",
+    "processing": "正在处理付款并更新您的订阅信息……",
+    "upgrade": "升级",
+    "downgrade": "降级",
     "free": {
       "name": "🆓 免费",
       "tagline": "强大的自动化功能，人人可用——无需注册账号。",
@@ -275,19 +281,6 @@
         "noAds": "无广告体验"
       }
     },
-    "lite": {
-      "name": "⭐ LITE",
-      "tagline": "为希望获得更多控制权的高级用户提供的必备功能。",
-      "perMonth": "每月",
-      "cta": "升级到精简版",
-      "includes": "免费内容全部，外加：",
-      "features": {
-        "addonCondition": "条件插件逻辑",
-        "actionCondition": "每个动作的条件规则",
-        "actionSettings": "操作级别设置和覆盖",
-        "noAds": "无广告体验"
-      }
-    },
     "pro": {
       "name": "🔹 专业版",
       "tagline": "充分发挥自动化的强大功能——集成、人工智能和优先支持。",
@@ -303,6 +296,12 @@
         "prideAndJoy": "支持者徽章和社区认可"
       }
     }
+  },
+  "subscription": {
+    "title": "订阅",
+    "changePlan": "变更计划",
+    "status": "地位",
+    "nextBillingDate": "下一个账单日期"
   },
   "googleSheets": {
     "title": "Google 表格",

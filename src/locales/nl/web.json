@@ -244,10 +244,16 @@
     "cancelPlan": "Plan annuleren",
     "cancelConfirm": "Weet je zeker dat je je abonnement aan het einde van de huidige factureringsperiode wilt opzeggen?",
     "cancelError": "Abonnement annuleren is mislukt. Probeer het later opnieuw.",
+    "cancellationScheduled": "Geplande annulering",
+    "cancellationDetails": "Je abonnement blijft actief tot de volgende factureringsdatum. Je behoudt tot die tijd volledige toegang tot alle functies.",
+    "scheduledCancelDate": "Geplande annuleringsdatum",
     "loginRequired": "Log in om uw abonnement te upgraden.",
     "loginLink": "Inloggen",
     "activeSubscription": "Actief abonnement:",
     "subscriptionStatus": "Status: {{status}}",
+    "processing": "Betaling verwerken en uw abonnement bijwerken...",
+    "upgrade": "Upgrade",
+    "downgrade": "Verlaging",
     "free": {
       "name": "🆓 GRATIS",
       "tagline": "Krachtige automatisering voor iedereen — geen account nodig.",
@@ -275,19 +281,6 @@
         "noAds": "Reclamevrije ervaring"
       }
     },
-    "lite": {
-      "name": "⭐ LITE",
-      "tagline": "Essentiële functies voor gevorderde gebruikers die meer controle willen.",
-      "perMonth": "per maand",
-      "cta": "Upgrade naar Lite",
-      "includes": "Alles wat in Free zit, plus:",
-      "features": {
-        "addonCondition": "Voorwaardelijke add-on-logica",
-        "actionCondition": "Voorwaarden per actie",
-        "actionSettings": "Instellingen en overschrijvingen op actieniveau",
-        "noAds": "Reclamevrije ervaring"
-      }
-    },
     "pro": {
       "name": "🔹 PRO",
       "tagline": "De volledige kracht van automatisering — met integraties, AI en prioriteitsondersteuning.",
@@ -303,6 +296,12 @@
         "prideAndJoy": "Supportersbadge & erkenning vanuit de gemeenschap"
       }
     }
+  },
+  "subscription": {
+    "title": "Abonnement",
+    "changePlan": "Wijzigingsplan",
+    "status": "Status",
+    "nextBillingDate": "Volgende factuurdatum"
   },
   "googleSheets": {
     "title": "Google Sheets",

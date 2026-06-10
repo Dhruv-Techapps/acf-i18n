@@ -244,10 +244,16 @@
     "cancelPlan": "Cancel Plan",
     "cancelConfirm": "Are you sure you want to cancel your subscription at the end of the current billing cycle?",
     "cancelError": "Failed to cancel subscription. Please try again later.",
+    "cancellationScheduled": "Cancellation Scheduled",
+    "cancellationDetails": "Your subscription will remain active until the next billing date. You'll continue to have full access to all features until then.",
+    "scheduledCancelDate": "Scheduled Cancellation Date",
     "loginRequired": "Please log in to upgrade your plan.",
     "loginLink": "Log in",
     "activeSubscription": "Active Subscription:",
     "subscriptionStatus": "Status: {{status}}",
+    "processing": "Processing payment and updating your subscription...",
+    "upgrade": "Upgrade",
+    "downgrade": "Downgrade",
     "free": {
       "name": "🆓 FREE",
       "tagline": "Powerful automation for everyone — no account required.",
@@ -275,19 +281,6 @@
         "noAds": "Ad-free experience"
       }
     },
-    "lite": {
-      "name": "⭐ LITE",
-      "tagline": "Essential features for power users who want more control.",
-      "perMonth": "per month",
-      "cta": "Upgrade to Lite",
-      "includes": "Everything in Free, plus:",
-      "features": {
-        "addonCondition": "Conditional addon logic",
-        "actionCondition": "Per-action condition rules",
-        "actionSettings": "Action-level settings & overrides",
-        "noAds": "Ad-free experience"
-      }
-    },
     "pro": {
       "name": "🔹 PRO",
       "tagline": "The full power of automation — with integrations, AI, and priority support.",
@@ -303,6 +296,12 @@
         "prideAndJoy": "Supporter badge & community recognition"
       }
     }
+  },
+  "subscription": {
+    "title": "Subscription",
+    "changePlan": "Change Plan",
+    "status": "Status",
+    "nextBillingDate": "Next Billing Date"
   },
   "googleSheets": {
     "title": "Google Sheets",

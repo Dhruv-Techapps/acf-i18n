@@ -244,10 +244,16 @@
     "cancelPlan": "Annulla il piano",
     "cancelConfirm": "Sei sicuro di voler annullare l'abbonamento al termine del ciclo di fatturazione corrente?",
     "cancelError": "Impossibile annullare l'abbonamento. Riprova più tardi.",
+    "cancellationScheduled": "Cancellazione programmata",
+    "cancellationDetails": "L'abbonamento rimarrà attivo fino alla prossima data di fatturazione. Fino ad allora, continuerai ad avere pieno accesso a tutte le funzionalità.",
+    "scheduledCancelDate": "Data di cancellazione programmata",
     "loginRequired": "Effettua il login per aggiornare il tuo piano.",
     "loginLink": "Login",
     "activeSubscription": "Abbonamento attivo:",
     "subscriptionStatus": "Stato: {{status}}",
+    "processing": "Elaborazione del pagamento e aggiornamento dell'abbonamento...",
+    "upgrade": "Aggiornamento",
+    "downgrade": "Declassamento",
     "free": {
       "name": "🆓 GRATUITO",
       "tagline": "Automazione potente per tutti: non è necessario un account.",
@@ -275,19 +281,6 @@
         "noAds": "Esperienza senza pubblicità"
       }
     },
-    "lite": {
-      "name": "⭐ LITE",
-      "tagline": "Funzionalità essenziali per gli utenti esperti che desiderano un maggiore controllo.",
-      "perMonth": "al mese",
-      "cta": "Passa a Lite",
-      "includes": "Tutto ciò che è incluso nella versione gratuita, più:",
-      "features": {
-        "addonCondition": "Logica aggiuntiva condizionale",
-        "actionCondition": "Regole di condizione per azione",
-        "actionSettings": "Impostazioni e override a livello di azione",
-        "noAds": "Esperienza senza pubblicità"
-      }
-    },
     "pro": {
       "name": "🔹 PRO",
       "tagline": "Tutta la potenza dell'automazione, con integrazioni, intelligenza artificiale e supporto prioritario.",
@@ -303,6 +296,12 @@
         "prideAndJoy": "Distintivo di sostenitore e riconoscimento della comunità"
       }
     }
+  },
+  "subscription": {
+    "title": "Sottoscrizione",
+    "changePlan": "Piano di modifica",
+    "status": "Stato",
+    "nextBillingDate": "Prossima data di fatturazione"
   },
   "googleSheets": {
     "title": "Fogli Google",

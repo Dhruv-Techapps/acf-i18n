@@ -244,10 +244,16 @@
     "cancelPlan": "계획 취소",
     "cancelConfirm": "현재 결제 주기가 끝나는 시점에 구독을 취소하시겠습니까?",
     "cancelError": "구독 취소에 실패했습니다. 나중에 다시 시도해 주세요.",
+    "cancellationScheduled": "취소 예정",
+    "cancellationDetails": "구독은 다음 결제일까지 활성 상태로 유지됩니다. 그때까지 모든 기능을 계속해서 이용하실 수 있습니다.",
+    "scheduledCancelDate": "예정된 취소 날짜",
     "loginRequired": "요금제를 업그레이드하려면 로그인하세요.",
     "loginLink": "로그인",
     "activeSubscription": "활성 구독:",
     "subscriptionStatus": "상태: {{status}}",
+    "processing": "결제 처리 및 구독 업데이트 중...",
+    "upgrade": "치받이",
+    "downgrade": "다운그레이드",
     "free": {
       "name": "🆓 무료",
       "tagline": "누구나 사용할 수 있는 강력한 자동화 기능 - 계정 필요 없음",
@@ -275,19 +281,6 @@
         "noAds": "광고 없는 경험"
       }
     },
-    "lite": {
-      "name": "⭐ 라이트",
-      "tagline": "더 많은 제어 기능을 원하는 고급 사용자를 위한 필수 기능입니다.",
-      "perMonth": "월",
-      "cta": "라이트 버전으로 업그레이드하세요",
-      "includes": "무료 콘텐츠의 모든 기능에 더해 다음이 포함됩니다:",
-      "features": {
-        "addonCondition": "조건부 추가 기능 로직",
-        "actionCondition": "액션별 조건 규칙",
-        "actionSettings": "액션 레벨 설정 및 재정의",
-        "noAds": "광고 없는 경험"
-      }
-    },
     "pro": {
       "name": "🔹 프로",
       "tagline": "통합 기능, AI, 우선 지원 등 자동화의 모든 기능을 활용하세요.",
@@ -303,6 +296,12 @@
         "prideAndJoy": "서포터 배지 및 커뮤니티 인정"
       }
     }
+  },
+  "subscription": {
+    "title": "신청",
+    "changePlan": "변경 계획",
+    "status": "상태",
+    "nextBillingDate": "다음 청구일"
   },
   "googleSheets": {
     "title": "구글 시트",

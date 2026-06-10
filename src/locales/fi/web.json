@@ -244,10 +244,16 @@
     "cancelPlan": "Peruuta suunnitelma",
     "cancelConfirm": "Haluatko varmasti peruuttaa tilauksesi nykyisen laskutusjakson lopussa?",
     "cancelError": "Tilauksen peruuttaminen epäonnistui. Yritä myöhemmin uudelleen.",
+    "cancellationScheduled": "Peruutus ajoitettu",
+    "cancellationDetails": "Tilauksesi pysyy voimassa seuraavaan laskutuspäivään asti. Sinulla on siihen asti täysi pääsy kaikkiin ominaisuuksiin.",
+    "scheduledCancelDate": "Suunniteltu peruutuspäivä",
     "loginRequired": "Kirjaudu sisään päivittääksesi sopimuksesi.",
     "loginLink": "Kirjaudu sisään",
     "activeSubscription": "Aktiivinen tilaus:",
     "subscriptionStatus": "Tila: {{status}}",
+    "processing": "Maksua käsitellään ja tilaustasi päivitetään...",
+    "upgrade": "Päivitä",
+    "downgrade": "Alentaa",
     "free": {
       "name": "🆓 ILMAINEN",
       "tagline": "Tehokasta automaatiota kaikille – ei vaadi tiliä.",
@@ -275,19 +281,6 @@
         "noAds": "Mainokseton kokemus"
       }
     },
-    "lite": {
-      "name": "⭐ KEVYT",
-      "tagline": "Olennaisia ominaisuuksia tehokäyttäjille, jotka haluavat enemmän hallintaa.",
-      "perMonth": "kuukaudessa",
-      "cta": "Päivitä Lite-versioon",
-      "includes": "Kaikki ilmaiseksi, plus:",
-      "features": {
-        "addonCondition": "Ehdollinen lisäosan logiikka",
-        "actionCondition": "Toimintokohtaiset ehtosäännöt",
-        "actionSettings": "Toimintotason asetukset ja ohitukset",
-        "noAds": "Mainokseton kokemus"
-      }
-    },
     "pro": {
       "name": "🔹 AMMATTILAINEN",
       "tagline": "Automaation täysi teho – integraatioilla, tekoälyllä ja priorisoidulla tuella.",
@@ -303,6 +296,12 @@
         "prideAndJoy": "Kannattajamerkki ja yhteisön tunnustus"
       }
     }
+  },
+  "subscription": {
+    "title": "Tilaus",
+    "changePlan": "Muuta suunnitelmaa",
+    "status": "Status",
+    "nextBillingDate": "Seuraava laskutuspäivä"
   },
   "googleSheets": {
     "title": "Google-taulukot",
