@@ -295,7 +295,8 @@
         "earlyAccess": "Early access to new features",
         "prideAndJoy": "Supporter badge & community recognition"
       }
-    }
+    },
+    "lockBadgeTooltip": "Requires {{plan}} plan. Click to subscribe."
   },
   "subscription": {
     "title": "Subscription",

@@ -295,7 +295,8 @@
         "earlyAccess": "Früher Zugriff auf neue Funktionen",
         "prideAndJoy": "Unterstützerabzeichen & Anerkennung durch die Gemeinschaft"
       }
-    }
+    },
+    "lockBadgeTooltip": "Erfordert den {{plan}}-Tarif. Klicken Sie hier, um sich anzumelden."
   },
   "subscription": {
     "title": "Abonnement",

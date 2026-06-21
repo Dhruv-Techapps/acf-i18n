@@ -295,7 +295,8 @@
         "earlyAccess": "Tidig åtkomst till nya funktioner",
         "prideAndJoy": "Supportermärke och erkännande från samhället"
       }
-    }
+    },
+    "lockBadgeTooltip": "Kräver {{plan}}-abonnemang. Klicka för att prenumerera."
   },
   "subscription": {
     "title": "Prenumeration",

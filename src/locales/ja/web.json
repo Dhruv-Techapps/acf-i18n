@@ -295,7 +295,8 @@
         "earlyAccess": "新機能への早期アクセス",
         "prideAndJoy": "サポーターバッジとコミュニティの認知"
       }
-    }
+    },
+    "lockBadgeTooltip": "{{plan}}プランが必要です。クリックして購読してください。"
   },
   "subscription": {
     "title": "サブスクリプション",

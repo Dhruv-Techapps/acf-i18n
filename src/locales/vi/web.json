@@ -295,7 +295,8 @@
         "earlyAccess": "Được trải nghiệm sớm các tính năng mới",
         "prideAndJoy": "Huy hiệu người ủng hộ & sự ghi nhận của cộng đồng"
       }
-    }
+    },
+    "lockBadgeTooltip": "Yêu cầu gói {{plan}}. Nhấp vào đây để đăng ký."
   },
   "subscription": {
     "title": "Đăng ký",

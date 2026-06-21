@@ -295,7 +295,8 @@
         "earlyAccess": "Acesso antecipado a novas funcionalidades",
         "prideAndJoy": "Distintivo de apoiador e reconhecimento da comunidade"
       }
-    }
+    },
+    "lockBadgeTooltip": "Requer o plano {{plan}}. Clique para assinar."
   },
   "subscription": {
     "title": "Subscrição",

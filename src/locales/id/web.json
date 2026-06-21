@@ -295,7 +295,8 @@
         "earlyAccess": "Akses awal ke fitur-fitur baru",
         "prideAndJoy": "Lencana pendukung & pengakuan komunitas"
       }
-    }
+    },
+    "lockBadgeTooltip": "Membutuhkan paket {{plan}}. Klik untuk berlangganan."
   },
   "subscription": {
     "title": "Langganan",

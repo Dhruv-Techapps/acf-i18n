@@ -295,7 +295,8 @@
         "earlyAccess": "搶先體驗新功能",
         "prideAndJoy": "支持者徽章和社區認可"
       }
-    }
+    },
+    "lockBadgeTooltip": "需要 {{plan}} 套餐。點擊訂閱。"
   },
   "subscription": {
     "title": "訂閱",

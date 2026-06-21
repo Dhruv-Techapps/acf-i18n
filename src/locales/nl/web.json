@@ -295,7 +295,8 @@
         "earlyAccess": "Vroege toegang tot nieuwe functies",
         "prideAndJoy": "Supportersbadge & erkenning vanuit de gemeenschap"
       }
-    }
+    },
+    "lockBadgeTooltip": "Vereist het {{plan}}-abonnement. Klik om u te abonneren."
   },
   "subscription": {
     "title": "Abonnement",

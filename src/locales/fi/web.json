@@ -295,7 +295,8 @@
         "earlyAccess": "Uusien ominaisuuksien ennakkokäyttöoikeus",
         "prideAndJoy": "Kannattajamerkki ja yhteisön tunnustus"
       }
-    }
+    },
+    "lockBadgeTooltip": "Edellyttää {{plan}} -liittymää. Klikkaa tilataksesi."
   },
   "subscription": {
     "title": "Tilaus",

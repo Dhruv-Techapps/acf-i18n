@@ -295,7 +295,8 @@
         "earlyAccess": "새로운 기능에 대한 조기 액세스",
         "prideAndJoy": "서포터 배지 및 커뮤니티 인정"
       }
-    }
+    },
+    "lockBadgeTooltip": "{{plan}} 플랜이 필요합니다. 구독하려면 클릭하세요."
   },
   "subscription": {
     "title": "신청",
