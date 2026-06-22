@@ -275,10 +275,13 @@
       "cta": "플러스로 업그레이드하세요",
       "includes": "무료 콘텐츠의 모든 기능에 더해 다음이 포함됩니다:",
       "features": {
-        "addonCondition": "조건부 추가 기능 로직",
-        "actionCondition": "액션별 조건 규칙",
-        "actionSettings": "액션 레벨 설정 및 재정의",
-        "noAds": "광고 없는 경험"
+        "noAds": "광고 없는 경험",
+        "automationLoop": "자동화 루프(반복 자동화)",
+        "automationMonitor": "자동화 모니터링(감시 및 대응)",
+        "automationSchedule": "자동화 스케줄러",
+        "pageGuard": "페이지 가드(요소 기반 게이팅)",
+        "stepSettings": "단계별 설정 및 재정의",
+        "stepGuard": "단계 가드(조건부 상태 검사)"
       }
     },
     "pro": {
@@ -291,9 +294,9 @@
         "sheets": "Google Sheets 연동",
         "discord": "디스코드 알림",
         "captcha": "캡차 해결 기능 (출시 예정)",
+        "openai": "OpenAI 통합",
         "vipSupport": "디스코드를 통한 우선 지원",
-        "earlyAccess": "새로운 기능에 대한 조기 액세스",
-        "prideAndJoy": "서포터 배지 및 커뮤니티 인정"
+        "gmail": "Gmail 연동 (곧 출시 예정)"
       }
     },
     "lockBadgeTooltip": "{{plan}} 플랜이 필요합니다. 구독하려면 클릭하세요."
@@ -509,7 +512,11 @@
     "value": "계속하려면 값을 입력하세요.",
     "condition": "계속하려면 조건을 선택하세요.",
     "elementFinder": "페이지에서 해당 항목을 찾는 방법을 입력해 주세요.",
-    "spreadsheetId": "유효한 Google Sheets ID(44자, 예: 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)를 입력해 주세요."
+    "spreadsheetId": "유효한 Google Sheets ID(44자, 예: 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)를 입력해 주세요.",
+    "roleLock": {
+      "header": "{{plan}} 계획 필요",
+      "body": "이 기능을 사용하려면 {{plan}} 플랜이 필요합니다. 계속하려면 플랜을 업그레이드하세요."
+    }
   },
   "step": {
     "title": "단계",

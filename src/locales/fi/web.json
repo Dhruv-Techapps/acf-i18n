@@ -275,10 +275,13 @@
       "cta": "Päivitä Plus-tilaukseen",
       "includes": "Kaikki ilmaiseksi, plus:",
       "features": {
-        "addonCondition": "Ehdollinen lisäosan logiikka",
-        "actionCondition": "Toimintokohtaiset ehtosäännöt",
-        "actionSettings": "Toimintotason asetukset ja ohitukset",
-        "noAds": "Mainokseton kokemus"
+        "noAds": "Mainokseton kokemus",
+        "automationLoop": "Automaatiosilmukka (automaatioiden toisto)",
+        "automationMonitor": "Automaatiomonitori (tarkkaile ja reagoi)",
+        "automationSchedule": "Automaatioaikatauluttaja",
+        "pageGuard": "Sivun suojaus (elementtipohjainen portitus)",
+        "stepSettings": "Vaiheittaiset asetukset ja ohitukset",
+        "stepGuard": "Askelmasuoja (ehdollisen tilan tarkistukset)"
       }
     },
     "pro": {
@@ -291,9 +294,9 @@
         "sheets": "Google Sheetsin integrointi",
         "discord": "Discord-ilmoitukset",
         "captcha": "Captcha-ratkaisija (tulossa pian)",
+        "openai": "OpenAI-integraatio",
         "vipSupport": "Prioriteettituki Discordin kautta",
-        "earlyAccess": "Uusien ominaisuuksien ennakkokäyttöoikeus",
-        "prideAndJoy": "Kannattajamerkki ja yhteisön tunnustus"
+        "gmail": "Gmail-integraatio (tulossa pian)"
       }
     },
     "lockBadgeTooltip": "Edellyttää {{plan}} -liittymää. Klikkaa tilataksesi."
@@ -509,7 +512,11 @@
     "value": "Anna arvo jatkaaksesi",
     "condition": "Valitse ehto jatkaaksesi",
     "elementFinder": "Anna, miten löydät kohteen sivulta",
-    "spreadsheetId": "Anna kelvollinen Google Sheets -tunnus (44 merkkiä, esim. 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)"
+    "spreadsheetId": "Anna kelvollinen Google Sheets -tunnus (44 merkkiä, esim. 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
+    "roleLock": {
+      "header": "{{plan}} Vaadittu suunnitelma",
+      "body": "Tämä ominaisuus vaatii {{plan}}-sopimuksen. Päivitä jatkaaksesi."
+    }
   },
   "step": {
     "title": "Vaihe",

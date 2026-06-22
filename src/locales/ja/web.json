@@ -275,10 +275,13 @@
       "cta": "プラスにアップグレード",
       "includes": "Free に含まれるすべての機能に加え、次の機能もご利用いただけます:",
       "features": {
-        "addonCondition": "条件付きアドオンロジック",
-        "actionCondition": "アクションごとの条件ルール",
-        "actionSettings": "アクションレベルの設定とオーバーライド",
-        "noAds": "広告なしの体験"
+        "noAds": "広告なしの体験",
+        "automationLoop": "自動化ループ（自動化の繰り返し）",
+        "automationMonitor": "自動化モニター（監視と対応）",
+        "automationSchedule": "自動化スケジューラ",
+        "pageGuard": "ページガード（要素ベースのゲーティング）",
+        "stepSettings": "ステップレベルの設定と上書き",
+        "stepGuard": "ステップガード（条件付き状態チェック）"
       }
     },
     "pro": {
@@ -291,9 +294,9 @@
         "sheets": "Googleスプレッドシートとの統合",
         "discord": "Discord通知",
         "captcha": "キャプチャリゾルバー（近日公開予定）",
+        "openai": "OpenAIとの統合",
         "vipSupport": "Discord経由の優先サポート",
-        "earlyAccess": "新機能への早期アクセス",
-        "prideAndJoy": "サポーターバッジとコミュニティの認知"
+        "gmail": "Gmail連携（近日公開予定）"
       }
     },
     "lockBadgeTooltip": "{{plan}}プランが必要です。クリックして購読してください。"
@@ -509,7 +512,11 @@
     "value": "続行するには値を入力してください",
     "condition": "続行するには条件を選択してください",
     "elementFinder": "ページ上のアイテムを見つける方法を入力してください",
-    "spreadsheetId": "有効な Google スプレッドシート ID を入力してください（44 文字、例: 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA）"
+    "spreadsheetId": "有効な Google スプレッドシート ID を入力してください（44 文字、例: 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA）",
+    "roleLock": {
+      "header": "{{plan}} プランが必要です",
+      "body": "この機能を利用するには{{plan}}プランが必要です。引き続きご利用いただくには、プランをアップグレードしてください。"
+    }
   },
   "step": {
     "title": "ステップ",

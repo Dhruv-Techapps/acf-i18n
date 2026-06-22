@@ -275,10 +275,13 @@
       "cta": "Actualizar a Plus",
       "includes": "Todo gratis, más:",
       "features": {
-        "addonCondition": "Lógica de complemento condicional",
-        "actionCondition": "Reglas de condición por acción",
-        "actionSettings": "Configuraciones y anulaciones a nivel de acción",
-        "noAds": "Experiencia sin publicidad"
+        "noAds": "Experiencia sin publicidad",
+        "automationLoop": "Bucle de automatización (automatizaciones repetidas)",
+        "automationMonitor": "Monitorización de la automatización (observar y reaccionar)",
+        "automationSchedule": "Planificador de automatización",
+        "pageGuard": "Protección de página (control basado en elementos)",
+        "stepSettings": "Configuración y anulaciones de nivel de paso",
+        "stepGuard": "Control de paso (verificaciones de estado condicionales)"
       }
     },
     "pro": {
@@ -291,9 +294,9 @@
         "sheets": "Integración con Hojas de cálculo de Google",
         "discord": "Notificaciones de Discord",
         "captcha": "Resolver captcha (próximamente)",
+        "openai": "Integración de OpenAI",
         "vipSupport": "Soporte prioritario a través de Discord",
-        "earlyAccess": "Acceso anticipado a nuevas funciones",
-        "prideAndJoy": "Insignia de simpatizante y reconocimiento de la comunidad"
+        "gmail": "Integración con Gmail (próximamente)"
       }
     },
     "lockBadgeTooltip": "Requiere el plan {{plan}}. Haz clic para suscribirte."
@@ -509,7 +512,11 @@
     "value": "Por favor, introduzca un valor para continuar",
     "condition": "Seleccione una condición para continuar",
     "elementFinder": "Por favor, introduzca cómo encontrar el artículo en la página.",
-    "spreadsheetId": "Ingrese un ID de Hojas de cálculo de Google válido (44 caracteres, por ejemplo, 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)"
+    "spreadsheetId": "Ingrese un ID de Hojas de cálculo de Google válido (44 caracteres, por ejemplo, 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
+    "roleLock": {
+      "header": "{{plan}} Plan requerido",
+      "body": "Esta función requiere un plan {{plan}}. Por favor, actualice su plan para continuar."
+    }
   },
   "step": {
     "title": "Paso",

@@ -275,10 +275,13 @@
       "cta": "Tingkatkan ke Plus",
       "includes": "Semuanya gratis, ditambah:",
       "features": {
-        "addonCondition": "Logika tambahan bersyarat",
-        "actionCondition": "Aturan kondisi per tindakan",
-        "actionSettings": "Pengaturan dan penggantian tingkat tindakan",
-        "noAds": "Pengalaman tanpa iklan"
+        "noAds": "Pengalaman tanpa iklan",
+        "automationLoop": "Siklus otomatisasi (pengulangan otomatisasi)",
+        "automationMonitor": "Monitor otomatisasi (pantau & bereaksi)",
+        "automationSchedule": "Penjadwal otomatisasi",
+        "pageGuard": "Penjaga halaman (pembatasan berbasis elemen)",
+        "stepSettings": "Pengaturan dan penggantian tingkat langkah",
+        "stepGuard": "Penjaga tangga (pemeriksaan status bersyarat)"
       }
     },
     "pro": {
@@ -291,9 +294,9 @@
         "sheets": "Integrasi Google Sheets",
         "discord": "Notifikasi Discord",
         "captcha": "Pemecah Captcha (segera hadir)",
+        "openai": "Integrasi OpenAI",
         "vipSupport": "Dukungan prioritas melalui Discord",
-        "earlyAccess": "Akses awal ke fitur-fitur baru",
-        "prideAndJoy": "Lencana pendukung & pengakuan komunitas"
+        "gmail": "Integrasi Gmail (segera hadir)"
       }
     },
     "lockBadgeTooltip": "Membutuhkan paket {{plan}}. Klik untuk berlangganan."
@@ -509,7 +512,11 @@
     "value": "Silakan masukkan nilai untuk melanjutkan.",
     "condition": "Silakan pilih kondisi untuk melanjutkan.",
     "elementFinder": "Silakan masukkan cara menemukan item tersebut di halaman ini.",
-    "spreadsheetId": "Silakan masukkan ID Google Sheets yang valid (44 karakter, contoh: 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)"
+    "spreadsheetId": "Silakan masukkan ID Google Sheets yang valid (44 karakter, contoh: 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
+    "roleLock": {
+      "header": "{{plan}} Rencana Diperlukan",
+      "body": "Fitur ini memerlukan paket {{plan}}. Silakan tingkatkan paket Anda untuk melanjutkan."
+    }
   },
   "step": {
     "title": "Melangkah",

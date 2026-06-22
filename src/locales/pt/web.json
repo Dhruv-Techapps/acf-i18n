@@ -275,10 +275,13 @@
       "cta": "Faça upgrade para o Plus",
       "includes": "Tudo incluído no pacote gratuito, mais:",
       "features": {
-        "addonCondition": "lógica de complemento condicional",
-        "actionCondition": "Regras de condição por ação",
-        "actionSettings": "Configurações e substituições de nível de ação",
-        "noAds": "Experiência sem anúncios"
+        "noAds": "Experiência sem anúncios",
+        "automationLoop": "Ciclo de automação (repetir automações)",
+        "automationMonitor": "Monitoramento de automação (observar e reagir)",
+        "automationSchedule": "Agendador de automação",
+        "pageGuard": "Proteção de página (controle de acesso baseado em elementos)",
+        "stepSettings": "Configurações e substituições em nível de etapa",
+        "stepGuard": "Guarda de passo (verificações de estado condicional)"
       }
     },
     "pro": {
@@ -291,9 +294,9 @@
         "sheets": "Integração com o Google Sheets",
         "discord": "Notificações do Discord",
         "captcha": "Resolvedor de Captcha (em breve)",
+        "openai": "Integração com OpenAI",
         "vipSupport": "Suporte prioritário via Discord",
-        "earlyAccess": "Acesso antecipado a novas funcionalidades",
-        "prideAndJoy": "Distintivo de apoiador e reconhecimento da comunidade"
+        "gmail": "Integração com o Gmail (em breve)"
       }
     },
     "lockBadgeTooltip": "Requer o plano {{plan}}. Clique para assinar."
@@ -509,7 +512,11 @@
     "value": "Por favor, insira um valor para continuar.",
     "condition": "Por favor, selecione uma condição para continuar.",
     "elementFinder": "Por favor, indique como encontrar o item na página.",
-    "spreadsheetId": "Por favor, insira um ID válido do Google Sheets (44 caracteres, por exemplo, 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)"
+    "spreadsheetId": "Por favor, insira um ID válido do Google Sheets (44 caracteres, por exemplo, 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
+    "roleLock": {
+      "header": "Plano necessário",
+      "body": "Este recurso requer um plano {{plan}}. Faça o upgrade para continuar."
+    }
   },
   "step": {
     "title": "Etapa",

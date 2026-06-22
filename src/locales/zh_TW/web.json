@@ -275,10 +275,13 @@
       "cta": "升級到 Plus",
       "includes": "免費內容全部，外加：",
       "features": {
-        "addonCondition": "條件插件邏輯",
-        "actionCondition": "每個動作的條件規則",
-        "actionSettings": "操作等級設定和覆蓋",
-        "noAds": "無廣告體驗"
+        "noAds": "無廣告體驗",
+        "automationLoop": "自動化循環（重複自動化操作）",
+        "automationMonitor": "自動化監控（觀察並做出反應）",
+        "automationSchedule": "自動化調度器",
+        "pageGuard": "頁面保護（基於元素的門控）",
+        "stepSettings": "步驟級設定和覆蓋",
+        "stepGuard": "步驟保護（條件狀態檢查）"
       }
     },
     "pro": {
@@ -291,9 +294,9 @@
         "sheets": "Google Sheets 集成",
         "discord": "Discord 通知",
         "captcha": "驗證碼解析器（即將推出）",
+        "openai": "OpenAI 集成",
         "vipSupport": "透過 Discord 獲得優先支持",
-        "earlyAccess": "搶先體驗新功能",
-        "prideAndJoy": "支持者徽章和社區認可"
+        "gmail": "Gmail 整合（即將推出）"
       }
     },
     "lockBadgeTooltip": "需要 {{plan}} 套餐。點擊訂閱。"
@@ -509,7 +512,11 @@
     "value": "請輸入數值以繼續",
     "condition": "請選擇一種條件以繼續",
     "elementFinder": "請說明如何在頁面上找到該物品。",
-    "spreadsheetId": "請輸入有效的 Google Sheets ID（44 個字符，例如 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA）"
+    "spreadsheetId": "請輸入有效的 Google Sheets ID（44 個字符，例如 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA）",
+    "roleLock": {
+      "header": "{{plan}} 需要計劃",
+      "body": "此功能需要 {{plan}} 套餐。請升級以繼續使用。"
+    }
   },
   "step": {
     "title": "步",
