@@ -4,7 +4,7 @@ on:
   pull_request:
     paths:
       - 'src/locales/**'
-      - 'src/validate-locales.mjs'
+      - 'src/locales.test.mjs'
       - 'src/translate.constant.mjs'
       - 'package.json'
       - '.github/workflows/validate-locales.yml'
@@ -20,5 +20,5 @@ jobs:
       - uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f
         with:
           node-version: ${{ env.NODE }}
-      - name: Validate locale key parity
-        run: npm run check:locales
+      - name: Test locale completeness and translation quality
+        run: npm test

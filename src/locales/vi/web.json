@@ -275,10 +275,13 @@
       "cta": "Nâng cấp lên Plus",
       "includes": "Tất cả mọi thứ đều có trong phiên bản miễn phí, cộng thêm:",
       "features": {
-        "addonCondition": "Logic bổ sung có điều kiện",
-        "actionCondition": "Quy tắc điều kiện mỗi hành động",
-        "actionSettings": "Cài đặt và ghi đè ở cấp độ hành động",
-        "noAds": "Trải nghiệm không có quảng cáo"
+        "noAds": "Trải nghiệm không có quảng cáo",
+        "automationLoop": "Vòng lặp tự động hóa (lặp lại các quy trình tự động)",
+        "automationMonitor": "Hệ thống giám sát tự động hóa (quan sát và phản ứng)",
+        "automationSchedule": "Bộ lập lịch tự động hóa",
+        "pageGuard": "Bảo vệ trang (kiểm soát dựa trên phần tử)",
+        "stepSettings": "Cài đặt và ghi đè theo từng bước",
+        "stepGuard": "Bước bảo vệ (kiểm tra trạng thái có điều kiện)"
       }
     },
     "pro": {
@@ -291,11 +294,12 @@
         "sheets": "Tích hợp Google Sheets",
         "discord": "Thông báo Discord",
         "captcha": "Công cụ giải mã Captcha (sắp ra mắt)",
+        "openai": "Tích hợp OpenAI",
         "vipSupport": "Hỗ trợ ưu tiên qua Discord",
-        "earlyAccess": "Được trải nghiệm sớm các tính năng mới",
-        "prideAndJoy": "Huy hiệu người ủng hộ & sự ghi nhận của cộng đồng"
+        "gmail": "Tích hợp Gmail (sắp ra mắt)"
       }
-    }
+    },
+    "lockBadgeTooltip": "Yêu cầu gói {{plan}}. Nhấp vào đây để đăng ký."
   },
   "subscription": {
     "title": "Đăng ký",
@@ -508,7 +512,11 @@
     "value": "Vui lòng nhập giá trị để tiếp tục",
     "condition": "Vui lòng chọn một điều kiện để tiếp tục.",
     "elementFinder": "Vui lòng nhập cách tìm kiếm mặt hàng trên trang.",
-    "spreadsheetId": "Vui lòng nhập ID Google Sheets hợp lệ (44 ký tự, ví dụ: 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)"
+    "spreadsheetId": "Vui lòng nhập ID Google Sheets hợp lệ (44 ký tự, ví dụ: 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
+    "roleLock": {
+      "header": "{{plan}} Yêu cầu kế hoạch",
+      "body": "Tính năng này yêu cầu gói {{plan}}. Vui lòng nâng cấp để tiếp tục."
+    }
   },
   "step": {
     "title": "Bước chân",

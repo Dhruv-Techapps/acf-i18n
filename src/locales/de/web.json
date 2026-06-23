@@ -275,10 +275,13 @@
       "cta": "Upgrade auf Plus",
       "includes": "Alles kostenlos, plus:",
       "features": {
-        "addonCondition": "Bedingte Addon-Logik",
-        "actionCondition": "Bedingungen pro Aktion",
-        "actionSettings": "Einstellungen und Überschreibungen auf Aktionsebene",
-        "noAds": "Werbefreies Erlebnis"
+        "noAds": "Werbefreies Erlebnis",
+        "automationLoop": "Automatisierungsschleife (wiederholte Automatisierungen)",
+        "automationMonitor": "Automatisierungsüberwachung (Beobachten & Reagieren)",
+        "automationSchedule": "Automatisierungsplaner",
+        "pageGuard": "Seitenschutz (elementbasierte Steuerung)",
+        "stepSettings": "Einstellungen und Überschreibungen auf Schrittebene",
+        "stepGuard": "Schrittschutz (bedingte Zustandsprüfungen)"
       }
     },
     "pro": {
@@ -291,11 +294,12 @@
         "sheets": "Google Sheets-Integration",
         "discord": "Discord-Benachrichtigungen",
         "captcha": "Captcha-Auflöser (demnächst verfügbar)",
+        "openai": "OpenAI-Integration",
         "vipSupport": "Priorisierter Support über Discord",
-        "earlyAccess": "Früher Zugriff auf neue Funktionen",
-        "prideAndJoy": "Unterstützerabzeichen & Anerkennung durch die Gemeinschaft"
+        "gmail": "Gmail-Integration (demnächst verfügbar)"
       }
-    }
+    },
+    "lockBadgeTooltip": "Erfordert den {{plan}}-Tarif. Klicken Sie hier, um sich anzumelden."
   },
   "subscription": {
     "title": "Abonnement",
@@ -508,7 +512,11 @@
     "value": "Bitte geben Sie einen Wert ein, um fortzufahren.",
     "condition": "Bitte wählen Sie eine Erkrankung aus, um fortzufahren.",
     "elementFinder": "Bitte geben Sie an, wie der Artikel auf der Seite gefunden werden kann.",
-    "spreadsheetId": "Bitte geben Sie eine gültige Google Sheets-ID ein (44 Zeichen, z. B. 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)"
+    "spreadsheetId": "Bitte geben Sie eine gültige Google Sheets-ID ein (44 Zeichen, z. B. 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
+    "roleLock": {
+      "header": "{{plan}} Plan erforderlich",
+      "body": "Für diese Funktion ist ein {{plan}}-Abonnement erforderlich. Bitte aktualisieren Sie Ihr Abonnement, um fortzufahren."
+    }
   },
   "step": {
     "title": "Schritt",

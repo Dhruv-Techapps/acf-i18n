@@ -275,10 +275,13 @@
       "cta": "Upgrade to Plus",
       "includes": "Everything in Free, plus:",
       "features": {
-        "addonCondition": "Conditional addon logic",
-        "actionCondition": "Per-action condition rules",
-        "actionSettings": "Action-level settings & overrides",
-        "noAds": "Ad-free experience"
+        "noAds": "Ad-free experience",
+        "automationLoop": "Automation loop (repeat automations)",
+        "automationMonitor": "Automation monitor (watch & react)",
+        "automationSchedule": "Automation scheduler",
+        "pageGuard": "Page guard (element-based gating)",
+        "stepSettings": "Step-level settings & overrides",
+        "stepGuard": "Step guard (conditional state checks)"
       }
     },
     "pro": {
@@ -289,13 +292,14 @@
       "includes": "Everything in Plus, plus:",
       "features": {
         "sheets": "Google Sheets integration",
-        "discord": "Discord notifications",
-        "captcha": "Captcha resolver (coming soon)",
+        "discord": "Discord integration",
+        "captcha": "Captcha solver",
+        "openai": "OpenAI integration",
         "vipSupport": "Priority support via Discord",
-        "earlyAccess": "Early access to new features",
-        "prideAndJoy": "Supporter badge & community recognition"
+        "gmail": "Gmail integration (coming soon)"
       }
-    }
+    },
+    "lockBadgeTooltip": "Requires {{plan}} plan. Click to subscribe."
   },
   "subscription": {
     "title": "Subscription",
@@ -508,7 +512,11 @@
     "value": "Please enter a value to continue",
     "condition": "Please select a condition to continue",
     "elementFinder": "Please enter how to find the item on the page",
-    "spreadsheetId": "Please enter a valid Google Sheets ID (44 characters, e.g. 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)"
+    "spreadsheetId": "Please enter a valid Google Sheets ID (44 characters, e.g. 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
+    "roleLock": {
+      "header": "{{plan}} Plan Required",
+      "body": "This feature requires a {{plan}} plan. Please upgrade to continue."
+    }
   },
   "step": {
     "title": "Step",

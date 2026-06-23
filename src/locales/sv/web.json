@@ -275,10 +275,13 @@
       "cta": "Uppgradera till Plus",
       "includes": "Allt gratis, plus:",
       "features": {
-        "addonCondition": "Villkorlig tilläggslogik",
-        "actionCondition": "Regler för villkor per åtgärd",
-        "actionSettings": "Inställningar och åsidosättningar på åtgärdsnivå",
-        "noAds": "Reklamfri upplevelse"
+        "noAds": "Reklamfri upplevelse",
+        "automationLoop": "Automationsloop (upprepa automatiseringar)",
+        "automationMonitor": "Automationsövervakning (titta och reagera)",
+        "automationSchedule": "Automatiseringsschemaläggare",
+        "pageGuard": "Sidskydd (elementbaserad grindning)",
+        "stepSettings": "Stegnivåinställningar och åsidosättningar",
+        "stepGuard": "Stegskydd (villkorliga tillståndskontroller)"
       }
     },
     "pro": {
@@ -291,11 +294,12 @@
         "sheets": "Google Sheets-integration",
         "discord": "Discord-aviseringar",
         "captcha": "Captcha-lösare (kommer snart)",
+        "openai": "OpenAI-integration",
         "vipSupport": "Prioriterad support via Discord",
-        "earlyAccess": "Tidig åtkomst till nya funktioner",
-        "prideAndJoy": "Supportermärke och erkännande från samhället"
+        "gmail": "Gmail-integration (kommer snart)"
       }
-    }
+    },
+    "lockBadgeTooltip": "Kräver {{plan}}-abonnemang. Klicka för att prenumerera."
   },
   "subscription": {
     "title": "Prenumeration",
@@ -508,7 +512,11 @@
     "value": "Ange ett värde för att fortsätta",
     "condition": "Välj ett villkor för att fortsätta",
     "elementFinder": "Ange hur du hittar objektet på sidan",
-    "spreadsheetId": "Ange ett giltigt Google Sheets-ID (44 tecken, t.ex. 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)"
+    "spreadsheetId": "Ange ett giltigt Google Sheets-ID (44 tecken, t.ex. 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
+    "roleLock": {
+      "header": "{{plan}} Plan krävs",
+      "body": "Den här funktionen kräver ett {{plan}}-abonnemang. Uppgradera för att fortsätta."
+    }
   },
   "step": {
     "title": "Steg",

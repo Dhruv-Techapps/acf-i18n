@@ -275,10 +275,13 @@
       "cta": "Upgrade naar Plus",
       "includes": "Alles wat in Free zit, plus:",
       "features": {
-        "addonCondition": "Voorwaardelijke add-on-logica",
-        "actionCondition": "Voorwaarden per actie",
-        "actionSettings": "Instellingen en overschrijvingen op actieniveau",
-        "noAds": "Reclamevrije ervaring"
+        "noAds": "Reclamevrije ervaring",
+        "automationLoop": "Automatiseringslus (herhaalde automatiseringen)",
+        "automationMonitor": "Automatiseringsmonitor (kijken en reageren)",
+        "automationSchedule": "Automatiseringsplanner",
+        "pageGuard": "Paginabeveiliging (elementgebaseerde gating)",
+        "stepSettings": "Instellingen en overschrijvingen op stapniveau",
+        "stepGuard": "Stapbeveiliging (voorwaardelijke statuscontroles)"
       }
     },
     "pro": {
@@ -291,11 +294,12 @@
         "sheets": "Integratie met Google Sheets",
         "discord": "Discord-meldingen",
         "captcha": "Captcha-oplosser (binnenkort beschikbaar)",
+        "openai": "OpenAI-integratie",
         "vipSupport": "Prioritaire ondersteuning via Discord",
-        "earlyAccess": "Vroege toegang tot nieuwe functies",
-        "prideAndJoy": "Supportersbadge & erkenning vanuit de gemeenschap"
+        "gmail": "Gmail-integratie (binnenkort beschikbaar)"
       }
-    }
+    },
+    "lockBadgeTooltip": "Vereist het {{plan}}-abonnement. Klik om u te abonneren."
   },
   "subscription": {
     "title": "Abonnement",
@@ -508,7 +512,11 @@
     "value": "Voer een waarde in om verder te gaan.",
     "condition": "Selecteer een aandoening om verder te gaan.",
     "elementFinder": "Geef aan hoe het artikel op de pagina te vinden is.",
-    "spreadsheetId": "Voer een geldige Google Sheets-ID in (maximaal 44 tekens, bijvoorbeeld 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)"
+    "spreadsheetId": "Voer een geldige Google Sheets-ID in (maximaal 44 tekens, bijvoorbeeld 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
+    "roleLock": {
+      "header": "{{plan}} Plan vereist",
+      "body": "Deze functie vereist een {{plan}}-abonnement. Upgrade uw abonnement om verder te gaan."
+    }
   },
   "step": {
     "title": "Stap",

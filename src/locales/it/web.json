@@ -275,10 +275,13 @@
       "cta": "Passa a Plus",
       "includes": "Tutto ciò che è incluso nella versione gratuita, più:",
       "features": {
-        "addonCondition": "Logica aggiuntiva condizionale",
-        "actionCondition": "Regole di condizione per azione",
-        "actionSettings": "Impostazioni e override a livello di azione",
-        "noAds": "Esperienza senza pubblicità"
+        "noAds": "Esperienza senza pubblicità",
+        "automationLoop": "Ciclo di automazione (ripetizione delle automazioni)",
+        "automationMonitor": "Monitoraggio dell'automazione (osserva e reagisci)",
+        "automationSchedule": "Pianificazione dell'automazione",
+        "pageGuard": "Protezione della pagina (controllo basato sugli elementi)",
+        "stepSettings": "Impostazioni e override a livello di passaggio",
+        "stepGuard": "Controllo passo passo (controlli di stato condizionali)"
       }
     },
     "pro": {
@@ -291,11 +294,12 @@
         "sheets": "Integrazione con Google Fogli",
         "discord": "Notifiche Discord",
         "captcha": "Risolutore Captcha (in arrivo)",
+        "openai": "Integrazione OpenAI",
         "vipSupport": "Supporto prioritario tramite Discord",
-        "earlyAccess": "Accesso anticipato alle nuove funzionalità",
-        "prideAndJoy": "Distintivo di sostenitore e riconoscimento della comunità"
+        "gmail": "Integrazione con Gmail (disponibile a breve)"
       }
-    }
+    },
+    "lockBadgeTooltip": "Richiede il piano {{plan}}. Clicca per abbonarti."
   },
   "subscription": {
     "title": "Sottoscrizione",
@@ -508,7 +512,11 @@
     "value": "Inserisci un valore per continuare",
     "condition": "Seleziona una condizione per continuare",
     "elementFinder": "Inserisci come trovare l'articolo nella pagina",
-    "spreadsheetId": "Inserisci un ID Google Sheets valido (44 caratteri, ad esempio 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)"
+    "spreadsheetId": "Inserisci un ID Google Sheets valido (44 caratteri, ad esempio 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
+    "roleLock": {
+      "header": "{{plan}} Piano richiesto",
+      "body": "Questa funzionalità richiede un piano {{plan}}. Effettua l'upgrade per continuare."
+    }
   },
   "step": {
     "title": "Fare un passo",

@@ -275,10 +275,13 @@
       "cta": "升级到 Plus",
       "includes": "免费内容全部，外加：",
       "features": {
-        "addonCondition": "条件插件逻辑",
-        "actionCondition": "每个动作的条件规则",
-        "actionSettings": "操作级别设置和覆盖",
-        "noAds": "无广告体验"
+        "noAds": "无广告体验",
+        "automationLoop": "自动化循环（重复自动化操作）",
+        "automationMonitor": "自动化监控（观察并做出反应）",
+        "automationSchedule": "自动化调度器",
+        "pageGuard": "页面保护（基于元素的门控）",
+        "stepSettings": "步骤级设置和覆盖",
+        "stepGuard": "步骤保护（条件状态检查）"
       }
     },
     "pro": {
@@ -291,11 +294,12 @@
         "sheets": "Google Sheets 集成",
         "discord": "Discord 通知",
         "captcha": "验证码解析器（即将推出）",
+        "openai": "OpenAI 集成",
         "vipSupport": "通过 Discord 获得优先支持",
-        "earlyAccess": "抢先体验新功能",
-        "prideAndJoy": "支持者徽章和社区认可"
+        "gmail": "Gmail 集成（即将推出）"
       }
-    }
+    },
+    "lockBadgeTooltip": "需要 {{plan}} 套餐。点击订阅。"
   },
   "subscription": {
     "title": "订阅",
@@ -508,7 +512,11 @@
     "value": "请输入数值以继续",
     "condition": "请选择一种条件以继续",
     "elementFinder": "请说明如何在页面上找到该物品。",
-    "spreadsheetId": "请输入有效的 Google Sheets ID（44 个字符，例如 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA）"
+    "spreadsheetId": "请输入有效的 Google Sheets ID（44 个字符，例如 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA）",
+    "roleLock": {
+      "header": "{{plan}} 需要计划",
+      "body": "此功能需要 {{plan}} 套餐。请升级以继续使用。"
+    }
   },
   "step": {
     "title": "步",

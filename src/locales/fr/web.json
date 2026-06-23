@@ -275,10 +275,13 @@
       "cta": "Passez à la version Plus",
       "includes": "Tout est gratuit, plus :",
       "features": {
-        "addonCondition": "Logique des modules complémentaires conditionnels",
-        "actionCondition": "Règles de condition par action",
-        "actionSettings": "Paramètres et remplacements au niveau de l'action",
-        "noAds": "Expérience sans publicité"
+        "noAds": "Expérience sans publicité",
+        "automationLoop": "Boucle d'automatisation (automatisations répétitives)",
+        "automationMonitor": "Surveillance de l'automatisation (observer et réagir)",
+        "automationSchedule": "planificateur d'automatisation",
+        "pageGuard": "Protection de page (contrôle d'accès basé sur les éléments)",
+        "stepSettings": "Paramètres et remplacements par étapes",
+        "stepGuard": "garde de pas (vérifications d'état conditionnelles)"
       }
     },
     "pro": {
@@ -291,11 +294,12 @@
         "sheets": "Intégration de Google Sheets",
         "discord": "notifications Discord",
         "captcha": "Résolveur de captcha (bientôt disponible)",
+        "openai": "Intégration d'OpenAI",
         "vipSupport": "Assistance prioritaire via Discord",
-        "earlyAccess": "Accès anticipé aux nouvelles fonctionnalités",
-        "prideAndJoy": "badge de soutien et reconnaissance communautaire"
+        "gmail": "Intégration Gmail (bientôt disponible)"
       }
-    }
+    },
+    "lockBadgeTooltip": "Nécessite un abonnement {{plan}}. Cliquez pour vous abonner."
   },
   "subscription": {
     "title": "Abonnement",
@@ -508,7 +512,11 @@
     "value": "Veuillez saisir une valeur pour continuer",
     "condition": "Veuillez sélectionner une condition pour continuer",
     "elementFinder": "Veuillez indiquer comment trouver l'article sur la page.",
-    "spreadsheetId": "Veuillez saisir un identifiant Google Sheets valide (44 caractères, par exemple : 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)"
+    "spreadsheetId": "Veuillez saisir un identifiant Google Sheets valide (44 caractères, par exemple : 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
+    "roleLock": {
+      "header": "Plan requis",
+      "body": "Cette fonctionnalité nécessite un abonnement {{plan}}. Veuillez passer à un abonnement supérieur pour continuer."
+    }
   },
   "step": {
     "title": "Étape",
