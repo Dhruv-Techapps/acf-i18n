@@ -1,0 +1,7 @@
+test:locales:
+  image: node:24-alpine
+  script:
+    - npm test
+  only:
+    - merge_requests
+    - main
