@@ -202,5 +202,11 @@
   },
   "@SPONSOR": {
     "message": "Sponsor"
+  },
+  "@SUBSCRIPTION__REQUIRED": {
+    "message": "Diperlukan Langganan"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "Anda perlu memiliki langganan Plus untuk mengakses fitur ini."
   }
 }

@@ -202,5 +202,11 @@
   },
   "@SPONSOR": {
     "message": "Sponsor"
+  },
+  "@SUBSCRIPTION__REQUIRED": {
+    "message": "Abonnement vereist"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "Je hebt een Plus-abonnement nodig om toegang te krijgen tot deze functie."
   }
 }

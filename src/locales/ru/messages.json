@@ -202,5 +202,11 @@
   },
   "@SPONSOR": {
     "message": "Спонсор"
+  },
+  "@SUBSCRIPTION__REQUIRED": {
+    "message": "Требуется подписка"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "Для доступа к этой функции необходима подписка Plus."
   }
 }

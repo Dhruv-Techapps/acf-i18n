@@ -202,5 +202,11 @@
   },
   "@SPONSOR": {
     "message": "Sponsori"
+  },
+  "@SUBSCRIPTION__REQUIRED": {
+    "message": "Tilaus vaaditaan"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "Tarvitset Plus-tilauksen käyttääksesi tätä ominaisuutta."
   }
 }

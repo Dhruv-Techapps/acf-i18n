@@ -202,5 +202,11 @@
   },
   "@SPONSOR": {
     "message": "贊助"
+  },
+  "@SUBSCRIPTION__REQUIRED": {
+    "message": "需要訂閱"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "您需要訂閱Plus會員才能使用此功能。"
   }
 }

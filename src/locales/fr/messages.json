@@ -202,5 +202,11 @@
   },
   "@SPONSOR": {
     "message": "Parrainer"
+  },
+  "@SUBSCRIPTION__REQUIRED": {
+    "message": "Abonnement requis"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "Vous devez disposer d'un abonnement Plus pour accéder à cette fonctionnalité."
   }
 }

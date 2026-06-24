@@ -202,5 +202,11 @@
   },
   "@SPONSOR": {
     "message": "Nhà tài trợ"
+  },
+  "@SUBSCRIPTION__REQUIRED": {
+    "message": "Cần đăng ký"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "Bạn cần có gói đăng ký Plus để truy cập tính năng này."
   }
 }

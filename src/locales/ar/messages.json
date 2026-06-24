@@ -202,5 +202,11 @@
   },
   "@SPONSOR": {
     "message": "راعي"
+  },
+  "@SUBSCRIPTION__REQUIRED": {
+    "message": "الاشتراك مطلوب"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "يجب أن يكون لديك اشتراك Plus للوصول إلى هذه الميزة."
   }
 }

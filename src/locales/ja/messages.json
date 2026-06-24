@@ -202,5 +202,11 @@
   },
   "@SPONSOR": {
     "message": "スポンサー"
+  },
+  "@SUBSCRIPTION__REQUIRED": {
+    "message": "購読が必要です"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "この機能を利用するには、Plusプランへの加入が必要です。"
   }
 }

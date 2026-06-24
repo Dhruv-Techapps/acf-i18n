@@ -202,5 +202,11 @@
   },
   "@SPONSOR": {
     "message": "Patrocinador"
+  },
+  "@SUBSCRIPTION__REQUIRED": {
+    "message": "Se requiere suscripción."
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "Necesitas una suscripción Plus para acceder a esta función."
   }
 }
