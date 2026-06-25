@@ -12,7 +12,11 @@ class TranslateMessage extends TranslateCommon {
     for (const key in obj) {
       const value = obj[key];
       const targetValue = targetJson?.[key];
-      if (typeof value === 'string' && key === 'message') {
+      
+      // Copy description and placeholders as-is from English - they are not user-facing
+      if (key === 'description' || key === 'placeholders') {
+        translatedObject[key] = value;
+      } else if (typeof value === 'string' && key === 'message') {
         translatedObject[key] = await this.translateStringValue(value, targetValue, targetLanguage);
       } else if (typeof value === 'object') {
         translatedObject[key] = await this.translateObject(value, targetLanguage, targetValue);
