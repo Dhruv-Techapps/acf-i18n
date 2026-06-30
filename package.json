@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "npx serve src -l 3333",
+    "start": "npx serve src -l tcp://0.0.0.0:3333",
     "web": "node src/translate-web.mjs",
     "message": "node src/translate-message.mjs",
     "test": "node src/locales.test.mjs",
