@@ -207,6 +207,6 @@
     "message": "Tilaus vaaditaan"
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "Tarvitset Plus-tilauksen käyttääksesi tätä ominaisuutta."
+    "message": "Tarvitset $1-tilauksen käyttääksesi $2-ominaisuutta."
   }
 }

@@ -207,6 +207,6 @@
     "message": "Prenumeration krävs"
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "Du behöver en Plus-prenumeration för att få tillgång till den här funktionen."
+    "message": "Du behöver en $1-prenumeration för att få tillgång till funktionen $2."
   }
 }

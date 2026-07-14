@@ -207,6 +207,6 @@
     "message": "Abonnement vereist"
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "Je hebt een Plus-abonnement nodig om toegang te krijgen tot deze functie."
+    "message": "Je hebt een $1-abonnement nodig om toegang te krijgen tot de $2-functie."
   }
 }

@@ -207,6 +207,6 @@
     "message": "Abbonamento necessario"
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "Per accedere a questa funzionalità è necessario disporre di un abbonamento Plus."
+    "message": "Per accedere alla funzionalità $2 è necessario disporre di un abbonamento $1."
   }
 }

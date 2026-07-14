@@ -207,6 +207,6 @@
     "message": "需要訂閱"
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "您需要訂閱Plus會員才能使用此功能。"
+    "message": "您需要訂閱$1會員才能使用$2功能。"
   }
 }

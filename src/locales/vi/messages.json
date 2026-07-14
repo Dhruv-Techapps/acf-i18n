@@ -207,6 +207,6 @@
     "message": "Cần đăng ký"
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "Bạn cần có gói đăng ký Plus để truy cập tính năng này."
+    "message": "Bạn cần có gói đăng ký $1 để truy cập tính năng $2."
   }
 }

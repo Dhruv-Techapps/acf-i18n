@@ -207,6 +207,6 @@
     "message": "Subscription Required"
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "You need to have a $PLAN$ subscription to access $FEATURE$ feature."
+    "message": "You need to have a $1 subscription to access $2 feature."
   }
 }

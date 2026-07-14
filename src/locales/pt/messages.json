@@ -207,6 +207,6 @@
     "message": "É necessária assinatura."
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "Você precisa ter uma assinatura Plus para acessar este recurso."
+    "message": "Você precisa ter uma assinatura $1 para acessar o recurso $2."
   }
 }
