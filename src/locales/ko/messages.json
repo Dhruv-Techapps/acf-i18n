@@ -203,19 +203,10 @@
   "@SPONSOR": {
     "message": "스폰서"
   },
-  "SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "$FEATURE$ 기능을 이용하려면 $PLAN$ 구독이 필요합니다.",
-    "description": "This message is displayed when a user tries to access a feature that requires a subscription. The $PLAN$ and $FEATURE$ placeholders will be replaced with the appropriate values.",
-    "placeholders": {
-      "PLAN": {
-        "content": "$1"
-      },
-      "FEATURE": {
-        "content": "$2"
-      }
-    }
-  },
-  "SUBSCRIPTION__REQUIRED": {
+  "@SUBSCRIPTION__REQUIRED": {
     "message": "구독 필요"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "$2 기능을 이용하려면 $1 구독이 필요합니다."
   }
 }

@@ -203,19 +203,10 @@
   "@SPONSOR": {
     "message": "Sponsor"
   },
-  "SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "You need to have a $PLAN$ subscription to access $FEATURE$ feature.",
-    "description": "This message is displayed when a user tries to access a feature that requires a subscription. The $PLAN$ and $FEATURE$ placeholders will be replaced with the appropriate values.",
-    "placeholders": {
-      "PLAN": {
-        "content": "$1"
-      },
-      "FEATURE": {
-        "content": "$2"
-      }
-    }
-  },
-  "SUBSCRIPTION__REQUIRED": {
+  "@SUBSCRIPTION__REQUIRED": {
     "message": "Subscription Required"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "You need to have a $1 subscription to access $2 feature."
   }
 }

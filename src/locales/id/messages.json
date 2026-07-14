@@ -203,19 +203,10 @@
   "@SPONSOR": {
     "message": "Sponsor"
   },
-  "SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "Anda perlu memiliki langganan $PLAN$ untuk mengakses fitur $FEATURE$.",
-    "description": "This message is displayed when a user tries to access a feature that requires a subscription. The $PLAN$ and $FEATURE$ placeholders will be replaced with the appropriate values.",
-    "placeholders": {
-      "PLAN": {
-        "content": "$1"
-      },
-      "FEATURE": {
-        "content": "$2"
-      }
-    }
-  },
-  "SUBSCRIPTION__REQUIRED": {
+  "@SUBSCRIPTION__REQUIRED": {
     "message": "Diperlukan Langganan"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "Anda perlu memiliki langganan $1 untuk mengakses fitur $2."
   }
 }

@@ -203,19 +203,10 @@
   "@SPONSOR": {
     "message": "Patrocinador"
   },
-  "SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "Você precisa ter uma assinatura $PLAN$ para acessar o recurso $FEATURE$.",
-    "description": "This message is displayed when a user tries to access a feature that requires a subscription. The $PLAN$ and $FEATURE$ placeholders will be replaced with the appropriate values.",
-    "placeholders": {
-      "PLAN": {
-        "content": "$1"
-      },
-      "FEATURE": {
-        "content": "$2"
-      }
-    }
-  },
-  "SUBSCRIPTION__REQUIRED": {
+  "@SUBSCRIPTION__REQUIRED": {
     "message": "É necessária assinatura."
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "Você precisa ter uma assinatura $1 para acessar o recurso $2."
   }
 }

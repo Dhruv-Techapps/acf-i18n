@@ -203,19 +203,10 @@
   "@SPONSOR": {
     "message": "赞助"
   },
-  "SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "您需要订阅 $PLAN$ 才能使用 $FEATURE$ 功能。",
-    "description": "This message is displayed when a user tries to access a feature that requires a subscription. The $PLAN$ and $FEATURE$ placeholders will be replaced with the appropriate values.",
-    "placeholders": {
-      "PLAN": {
-        "content": "$1"
-      },
-      "FEATURE": {
-        "content": "$2"
-      }
-    }
-  },
-  "SUBSCRIPTION__REQUIRED": {
+  "@SUBSCRIPTION__REQUIRED": {
     "message": "需要订阅"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "您需要订阅$1会员才能使用$2功能。"
   }
 }

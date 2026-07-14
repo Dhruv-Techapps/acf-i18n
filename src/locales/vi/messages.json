@@ -203,19 +203,10 @@
   "@SPONSOR": {
     "message": "Nhà tài trợ"
   },
-  "SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "Bạn cần có gói đăng ký $PLAN$ để truy cập tính năng $FEATURE$.",
-    "description": "This message is displayed when a user tries to access a feature that requires a subscription. The $PLAN$ and $FEATURE$ placeholders will be replaced with the appropriate values.",
-    "placeholders": {
-      "PLAN": {
-        "content": "$1"
-      },
-      "FEATURE": {
-        "content": "$2"
-      }
-    }
-  },
-  "SUBSCRIPTION__REQUIRED": {
+  "@SUBSCRIPTION__REQUIRED": {
     "message": "Cần đăng ký"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "Bạn cần có gói đăng ký $1 để truy cập tính năng $2."
   }
 }

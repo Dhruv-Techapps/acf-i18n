@@ -203,19 +203,10 @@
   "@SPONSOR": {
     "message": "راعي"
   },
-  "SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "يجب أن يكون لديك اشتراك في الخطة $PLAN$ للوصول إلى ميزة $FEATURE$.",
-    "description": "This message is displayed when a user tries to access a feature that requires a subscription. The $PLAN$ and $FEATURE$ placeholders will be replaced with the appropriate values.",
-    "placeholders": {
-      "PLAN": {
-        "content": "$1"
-      },
-      "FEATURE": {
-        "content": "$2"
-      }
-    }
-  },
-  "SUBSCRIPTION__REQUIRED": {
+  "@SUBSCRIPTION__REQUIRED": {
     "message": "الاشتراك مطلوب"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "يجب أن يكون لديك اشتراك $1 للوصول إلى ميزة $2."
   }
 }
