@@ -93,7 +93,7 @@
     "message": "Tidak dapat menemukan tab atau ID tab yang ditentukan."
   },
   "@ACTION__TITLE": {
-    "message": "Tindakan"
+    "message": "Langkah"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "Skrip Pengguna"
@@ -108,10 +108,10 @@
     "message": "Kondisi Aksi"
   },
   "@BATCH__TITLE": {
-    "message": "Kelompok"
+    "message": "Perulangan"
   },
   "@CONFIG__TITLE": {
-    "message": "Konfigurasi"
+    "message": "Otomatisasi"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "Pencari Elemen kosong"

@@ -93,7 +93,7 @@
     "message": "Não foi possível localizar a guia ou o ID da guia especificado."
   },
   "@ACTION__TITLE": {
-    "message": "Ação"
+    "message": "Etapa"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "Script do usuário"
@@ -108,10 +108,10 @@
     "message": "Condição de ação"
   },
   "@BATCH__TITLE": {
-    "message": "Lote"
+    "message": "Loop"
   },
   "@CONFIG__TITLE": {
-    "message": "Configuração"
+    "message": "Automação"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "O Localizador de elementos está em branco"

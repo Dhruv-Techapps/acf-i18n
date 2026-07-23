@@ -93,7 +93,7 @@
     "message": "Det gick inte att hitta det angivna flik- eller flik-ID."
   },
   "@ACTION__TITLE": {
-    "message": "Handling"
+    "message": "Steg"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "Användarskript"
@@ -108,10 +108,10 @@
     "message": "Åtgärdsvillkor"
   },
   "@BATCH__TITLE": {
-    "message": "Omgång"
+    "message": "Loop"
   },
   "@CONFIG__TITLE": {
-    "message": "Konfig"
+    "message": "Automatisering"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "Element Finder är tom"

@@ -93,7 +93,7 @@
     "message": "غير قادر على تحديد موقع علامة التبويب أو معرف علامة التبويب المحدد."
   },
   "@ACTION__TITLE": {
-    "message": "فعل"
+    "message": "خطوة"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "برنامج المستخدم"
@@ -108,10 +108,10 @@
     "message": "حالة العمل"
   },
   "@BATCH__TITLE": {
-    "message": "حزمة"
+    "message": "حلقة"
   },
   "@CONFIG__TITLE": {
-    "message": "التكوين"
+    "message": "الأتمتة"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "الباحث عن العناصر فارغ"

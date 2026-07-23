@@ -93,7 +93,7 @@
     "message": "No se puede localizar la pestaña especificada o el ID de pestaña."
   },
   "@ACTION__TITLE": {
-    "message": "Acción"
+    "message": "Paso"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "Script de usuario"
@@ -108,10 +108,10 @@
     "message": "Condición de acción"
   },
   "@BATCH__TITLE": {
-    "message": "Lote"
+    "message": "Bucle"
   },
   "@CONFIG__TITLE": {
-    "message": "configuración"
+    "message": "Automatización"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "El buscador de elementos está en blanco"

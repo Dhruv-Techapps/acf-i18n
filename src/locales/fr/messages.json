@@ -93,7 +93,7 @@
     "message": "Impossible de localiser l'onglet ou l'id d'onglet spécifié."
   },
   "@ACTION__TITLE": {
-    "message": "Action"
+    "message": "Étape"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "Script utilisateur"
@@ -108,10 +108,10 @@
     "message": "Condition d'action"
   },
   "@BATCH__TITLE": {
-    "message": "Lot"
+    "message": "Boucle"
   },
   "@CONFIG__TITLE": {
-    "message": "Configurer"
+    "message": "Automatisation"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "Le chercheur d'élément est vide"
