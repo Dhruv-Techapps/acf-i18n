@@ -93,7 +93,7 @@
     "message": "Невозможно найти указанную вкладку или идентификатор вкладки."
   },
   "@ACTION__TITLE": {
-    "message": "Действие"
+    "message": "Шаг"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "Пользовательский скрипт"
@@ -108,10 +108,10 @@
     "message": "Действие Условие"
   },
   "@BATCH__TITLE": {
-    "message": "Партия"
+    "message": "Цикл"
   },
   "@CONFIG__TITLE": {
-    "message": "Конфигурация"
+    "message": "Автоматизация"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "Поиск элементов пуст"

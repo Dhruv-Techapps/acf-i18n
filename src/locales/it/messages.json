@@ -93,7 +93,7 @@
     "message": "Impossibile individuare la scheda o l'ID scheda specificata."
   },
   "@ACTION__TITLE": {
-    "message": "Azione"
+    "message": "Passaggio"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "Script utente"
@@ -108,10 +108,10 @@
     "message": "Condizione di azione"
   },
   "@BATCH__TITLE": {
-    "message": "Lotto"
+    "message": "Ciclo"
   },
   "@CONFIG__TITLE": {
-    "message": "Configurazione"
+    "message": "Automazione"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "Trova elemento è vuoto"

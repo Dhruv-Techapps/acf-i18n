@@ -93,7 +93,7 @@
     "message": "지정된 탭 또는 탭 ID를 찾을 수 없습니다."
   },
   "@ACTION__TITLE": {
-    "message": "행동"
+    "message": "단계"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "사용자 스크립트"
@@ -108,10 +108,10 @@
     "message": "동작 조건"
   },
   "@BATCH__TITLE": {
-    "message": "일괄"
+    "message": "루프"
   },
   "@CONFIG__TITLE": {
-    "message": "구성"
+    "message": "자동화"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "요소 찾기는 비어 있습니다"

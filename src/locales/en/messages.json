@@ -93,7 +93,7 @@
     "message": "Unable to locate the specified tab or tab ID."
   },
   "@ACTION__TITLE": {
-    "message": "Action"
+    "message": "Step"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "User Script"
@@ -108,10 +108,10 @@
     "message": "Action Condition"
   },
   "@BATCH__TITLE": {
-    "message": "Batch"
+    "message": "Loop"
   },
   "@CONFIG__TITLE": {
-    "message": "Config"
+    "message": "Automation"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "Element Finder is blank"

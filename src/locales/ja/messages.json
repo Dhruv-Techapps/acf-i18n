@@ -93,7 +93,7 @@
     "message": "指定されたタブまたはタブ ID が見つかりません。"
   },
   "@ACTION__TITLE": {
-    "message": "アクション"
+    "message": "ステップ"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "ユーザースクリプト"
@@ -108,10 +108,10 @@
     "message": "アクション条件"
   },
   "@BATCH__TITLE": {
-    "message": "バッチ"
+    "message": "ループ"
   },
   "@CONFIG__TITLE": {
-    "message": "設定"
+    "message": "自動化"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "要素ファインダーが空白です"

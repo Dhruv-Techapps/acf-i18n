@@ -93,7 +93,7 @@
     "message": "无法找到指定的选项卡或选项卡ID。"
   },
   "@ACTION__TITLE": {
-    "message": "行动"
+    "message": "步骤"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "用户脚本"
@@ -108,10 +108,10 @@
     "message": "动作条件"
   },
   "@BATCH__TITLE": {
-    "message": "批"
+    "message": "循环"
   },
   "@CONFIG__TITLE": {
-    "message": "config"
+    "message": "自动化"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "元素查找器是空白的"

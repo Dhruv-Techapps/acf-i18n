@@ -93,7 +93,7 @@
     "message": "Määritettyä välilehteä tai välilehden tunnusta ei löydy."
   },
   "@ACTION__TITLE": {
-    "message": "Toiminta"
+    "message": "Vaihe"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "Käyttäjän skripti"
@@ -108,10 +108,10 @@
     "message": "Toiminto kunto"
   },
   "@BATCH__TITLE": {
-    "message": "Erä"
+    "message": "Silmukka"
   },
   "@CONFIG__TITLE": {
-    "message": "Konfig"
+    "message": "Automaatio"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "Element Finder on tyhjä"

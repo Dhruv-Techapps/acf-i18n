@@ -93,7 +93,7 @@
     "message": "Không thể tìm thấy tab hoặc ID tab được chỉ định."
   },
   "@ACTION__TITLE": {
-    "message": "Hoạt động"
+    "message": "Bước"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "Kịch bản người dùng"
@@ -108,10 +108,10 @@
     "message": "Hành động Điều kiện"
   },
   "@BATCH__TITLE": {
-    "message": "Lô hàng"
+    "message": "Vòng lặp"
   },
   "@CONFIG__TITLE": {
-    "message": "Cấu hình"
+    "message": "Tự động hóa"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "Trình tìm kiếm phần tử trống"

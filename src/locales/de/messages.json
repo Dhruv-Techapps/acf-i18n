@@ -93,7 +93,7 @@
     "message": "Die angegebene Registerkarte oder Registerkarten-ID konnte nicht gefunden werden."
   },
   "@ACTION__TITLE": {
-    "message": "Aktion"
+    "message": "Schritt"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "Benutzerskript"
@@ -108,10 +108,10 @@
     "message": "Aktionsbedingung"
   },
   "@BATCH__TITLE": {
-    "message": "Charge"
+    "message": "Schleife"
   },
   "@CONFIG__TITLE": {
-    "message": "Konfiguration"
+    "message": "Automatisierung"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "Der Elementfinder ist leer"

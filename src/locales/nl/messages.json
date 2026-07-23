@@ -93,7 +93,7 @@
     "message": "Kan het opgegeven tabblad of tabblad-ID niet vinden."
   },
   "@ACTION__TITLE": {
-    "message": "Actie"
+    "message": "Stap"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "Gebruikersscript"
@@ -108,10 +108,10 @@
     "message": "Actievoorwaarde"
   },
   "@BATCH__TITLE": {
-    "message": "Partij"
+    "message": "Lus"
   },
   "@CONFIG__TITLE": {
-    "message": "Configuratie"
+    "message": "Automatisering"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "Elementzoeker is leeg"

@@ -93,7 +93,7 @@
     "message": "無法找到指定的分頁或分頁 ID。"
   },
   "@ACTION__TITLE": {
-    "message": "行動"
+    "message": "步驟"
   },
   "@USER_SCRIPT__TITLE": {
     "message": "使用者腳本"
@@ -108,10 +108,10 @@
     "message": "動作條件"
   },
   "@BATCH__TITLE": {
-    "message": "批次"
+    "message": "循環"
   },
   "@CONFIG__TITLE": {
-    "message": "配置"
+    "message": "自動化"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
     "message": "元素查找器是空白的"
