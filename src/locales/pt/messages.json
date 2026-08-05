@@ -47,11 +47,35 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Painel Lateral/☉ Gravação"
   },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ Pergunte à IA"
+  },
   "@SIDE_PANEL__AUTOMATIONS_TAB": {
     "message": "Automações"
   },
   "@SIDE_PANEL__RECORDING_TAB": {
     "message": "Gravação"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "Perguntar"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "Faça uma pergunta, por exemplo: \"O que é um loop?\""
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "Enviar"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "Fontes"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "Faça login para fazer uma pergunta."
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "Entrar"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "Não foi possível obter uma resposta. Por favor, tente novamente."
   },
   "@SIDE_PANEL__SEARCH": {
     "message": "Procurar"

@@ -3,6 +3,9 @@
     "appName": "AutoClicker - AutoFill",
     "logoAlt": "Automatisch klikken en automatisch invullen van het logo"
   },
+  "askAi": {
+    "floatingButton": "Vraag het aan AI"
+  },
   "status": {
     "connecting": "Verbinden..."
   },

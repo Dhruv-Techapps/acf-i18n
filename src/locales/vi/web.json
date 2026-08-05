@@ -3,6 +3,9 @@
     "appName": "Phần mềm tự động nhấp chuột - Tự động điền",
     "logoAlt": "Tự động nhấp chuột, tự động điền logo"
   },
+  "askAi": {
+    "floatingButton": "Hỏi AI"
+  },
   "status": {
     "connecting": "Đang kết nối..."
   },

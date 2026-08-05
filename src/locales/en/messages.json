@@ -47,11 +47,35 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Side Panel / ☉ Recording"
   },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ Ask AI"
+  },
   "@SIDE_PANEL__AUTOMATIONS_TAB": {
     "message": "Automations"
   },
   "@SIDE_PANEL__RECORDING_TAB": {
     "message": "Recording"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "Ask"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "Ask a question, e.g. \"What is a loop?\""
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "Send"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "Sources"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "Sign in to ask a question."
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "Sign In"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "Couldn't get an answer. Please try again."
   },
   "@SIDE_PANEL__SEARCH": {
     "message": "Search"

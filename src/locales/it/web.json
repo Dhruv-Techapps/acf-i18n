@@ -3,6 +3,9 @@
     "appName": "Auto Clicker - AutoFill",
     "logoAlt": "clic automatico, riempimento automatico del logo"
   },
+  "askAi": {
+    "floatingButton": "Chiedi all'IA"
+  },
   "status": {
     "connecting": "Connessione in corso..."
   },

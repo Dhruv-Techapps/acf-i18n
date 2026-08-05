@@ -3,6 +3,9 @@
     "appName": "Pengklik Otomatis - Isi Otomatis",
     "logoAlt": "Klik otomatis, isi otomatis logo"
   },
+  "askAi": {
+    "floatingButton": "Tanyakan pada AI"
+  },
   "status": {
     "connecting": "Menghubungkan..."
   },

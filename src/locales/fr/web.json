@@ -3,6 +3,9 @@
     "appName": "Clic automatique - Remplissage automatique",
     "logoAlt": "Logo à clic automatique et à remplissage automatique"
   },
+  "askAi": {
+    "floatingButton": "Demandez à l'IA"
+  },
   "status": {
     "connecting": "De liaison..."
   },

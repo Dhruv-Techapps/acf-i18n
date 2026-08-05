@@ -47,11 +47,35 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ 侧面板/☉ 记录"
   },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ 问问人工智能"
+  },
   "@SIDE_PANEL__AUTOMATIONS_TAB": {
     "message": "自动化"
   },
   "@SIDE_PANEL__RECORDING_TAB": {
     "message": "记录"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "问"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "提出一个问题，例如“什么是循环？”"
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "发送"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "来源"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "登录后即可提问。"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "登入"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "未能收到回复，请稍后再试。"
   },
   "@SIDE_PANEL__SEARCH": {
     "message": "搜索"

@@ -3,6 +3,9 @@
     "appName": "Autoklickare - Autofyll",
     "logoAlt": "Autoklicka på Auto Fill-logotypen"
   },
+  "askAi": {
+    "floatingButton": "Fråga AI"
+  },
   "status": {
     "connecting": "Ansluter..."
   },

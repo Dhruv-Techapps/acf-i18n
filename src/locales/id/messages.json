@@ -47,11 +47,35 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Panel Samping/☉ Rekaman"
   },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ Tanya AI"
+  },
   "@SIDE_PANEL__AUTOMATIONS_TAB": {
     "message": "Otomatisasi"
   },
   "@SIDE_PANEL__RECORDING_TAB": {
     "message": "Rekaman"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "Bertanya"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "Ajukan pertanyaan, misalnya, \"Apa itu loop?\""
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "Mengirim"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "Sumber"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "Masuk untuk mengajukan pertanyaan."
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "Masuk"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "Tidak mendapatkan jawaban. Silakan coba lagi."
   },
   "@SIDE_PANEL__SEARCH": {
     "message": "Mencari"

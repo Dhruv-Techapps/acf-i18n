@@ -3,6 +3,9 @@
     "appName": "Automaattinen napsauttaja - Automaattinen täyttö",
     "logoAlt": "Automaattinen napsautus Automaattisen täytön logo"
   },
+  "askAi": {
+    "floatingButton": "Kysy tekoälystä"
+  },
   "status": {
     "connecting": "Yhdistetään..."
   },

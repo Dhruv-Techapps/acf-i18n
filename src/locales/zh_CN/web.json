@@ -3,6 +3,9 @@
     "appName": "自动点击器 - 自动填充",
     "logoAlt": "自动点击自动填充徽标"
   },
+  "askAi": {
+    "floatingButton": "问问人工智能"
+  },
   "status": {
     "connecting": "正在连接..."
   },

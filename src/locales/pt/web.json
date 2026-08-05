@@ -3,6 +3,9 @@
     "appName": "Auto Clicker - Preenchimento Automático",
     "logoAlt": "Clique automático Preenchimento automático do logotipo"
   },
+  "askAi": {
+    "floatingButton": "Pergunte à IA"
+  },
   "status": {
     "connecting": "Conectando..."
   },

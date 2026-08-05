@@ -47,11 +47,35 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Bảng điều khiển bên/☉ Ghi âm"
   },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ Hỏi AI"
+  },
   "@SIDE_PANEL__AUTOMATIONS_TAB": {
     "message": "Tự động hóa"
   },
   "@SIDE_PANEL__RECORDING_TAB": {
     "message": "Ghi âm"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "Hỏi"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "Hãy đặt câu hỏi, ví dụ: \"Vòng lặp là gì?\""
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "Gửi"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "Nguồn"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "Đăng nhập để đặt câu hỏi."
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "Đăng nhập"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "Không nhận được câu trả lời. Vui lòng thử lại."
   },
   "@SIDE_PANEL__SEARCH": {
     "message": "Tìm kiếm"

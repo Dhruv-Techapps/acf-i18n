@@ -47,11 +47,35 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Sidopanel/☉ Inspelning"
   },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ Fråga AI"
+  },
   "@SIDE_PANEL__AUTOMATIONS_TAB": {
     "message": "Automatiseringar"
   },
   "@SIDE_PANEL__RECORDING_TAB": {
     "message": "Inspelning"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "Be"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "Ställ en fråga, t.ex. \"Vad är en loop?\""
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "Skicka"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "Källor"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "Logga in för att ställa en fråga."
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "Logga in"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "Kunde inte få svar. Försök igen."
   },
   "@SIDE_PANEL__SEARCH": {
     "message": "Söka"

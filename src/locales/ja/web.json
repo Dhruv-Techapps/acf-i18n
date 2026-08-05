@@ -3,6 +3,9 @@
     "appName": "オートクリッカー - オートフィル",
     "logoAlt": "オートクリック オートフィルロゴ"
   },
+  "askAi": {
+    "floatingButton": "AIに質問する"
+  },
   "status": {
     "connecting": "接続中..."
   },

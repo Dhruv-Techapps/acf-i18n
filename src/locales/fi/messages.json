@@ -47,11 +47,35 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Sivupaneeli/☉ Äänitys"
   },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ Kysy tekoälältä"
+  },
   "@SIDE_PANEL__AUTOMATIONS_TAB": {
     "message": "Automaatiot"
   },
   "@SIDE_PANEL__RECORDING_TAB": {
     "message": "Äänitys"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "Kysyä"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "Esitä kysymys, esim. \"Mikä on silmukka?\""
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "Lähetä"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "Lähteet"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "Kirjaudu sisään kysyäksesi kysymyksen."
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "Kirjaudu sisään"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "Ei vastausta. Yritä uudelleen."
   },
   "@SIDE_PANEL__SEARCH": {
     "message": "Haku"
