@@ -47,11 +47,35 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ 측면 패널/☉ 녹화"
   },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ AI에게 물어보세요"
+  },
   "@SIDE_PANEL__AUTOMATIONS_TAB": {
     "message": "자동화"
   },
   "@SIDE_PANEL__RECORDING_TAB": {
     "message": "녹음"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "묻다"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "예를 들어 \"반복문이란 무엇인가요?\"와 같은 질문을 해보세요."
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "보내다"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "출처"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "질문하려면 로그인하세요."
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "로그인"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "응답을 얻을 수 없습니다. 다시 시도해 주세요."
   },
   "@SIDE_PANEL__SEARCH": {
     "message": "찾다"

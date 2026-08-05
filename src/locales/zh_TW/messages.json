@@ -47,11 +47,35 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ 側板/☉ 記錄"
   },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ 問問人工智慧"
+  },
   "@SIDE_PANEL__AUTOMATIONS_TAB": {
     "message": "自動化"
   },
   "@SIDE_PANEL__RECORDING_TAB": {
     "message": "記錄"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "問"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "提出一個問題，例如“什麼是循環？”"
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "傳送"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "來源"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "登入後即可提問。"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "登入"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "未能收到回复，請稍後再試。"
   },
   "@SIDE_PANEL__SEARCH": {
     "message": "搜尋"

@@ -47,11 +47,35 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Zijpaneel/☉ Opnemen"
   },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ Vraag het aan AI"
+  },
   "@SIDE_PANEL__AUTOMATIONS_TAB": {
     "message": "Automatiseringen"
   },
   "@SIDE_PANEL__RECORDING_TAB": {
     "message": "Opname"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "Vragen"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "Stel een vraag, bijvoorbeeld: \"Wat is een lus?\""
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "Versturen"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "Bronnen"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "Meld u aan om een vraag te stellen."
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "Inloggen"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "Ik heb geen antwoord gekregen. Probeer het later nog eens."
   },
   "@SIDE_PANEL__SEARCH": {
     "message": "Zoekopdracht"

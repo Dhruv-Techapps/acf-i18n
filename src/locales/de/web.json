@@ -3,6 +3,9 @@
     "appName": "Auto Clicker - AutoFill",
     "logoAlt": "Autoklick-Logo für automatisches Ausfüllen"
   },
+  "askAi": {
+    "floatingButton": "Frag die KI"
+  },
   "status": {
     "connecting": "Verbindung wird hergestellt..."
   },

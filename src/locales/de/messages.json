@@ -47,11 +47,35 @@
   "@CONTEXT_MENU__SIDE_PANEL": {
     "message": "▤ Seitenwand/☉ Aufnahme"
   },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ Frag die KI"
+  },
   "@SIDE_PANEL__AUTOMATIONS_TAB": {
     "message": "Automatisierungen"
   },
   "@SIDE_PANEL__RECORDING_TAB": {
     "message": "Aufnahme"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "Fragen"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "Stellen Sie eine Frage, z. B. „Was ist eine Schleife?“"
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "Schicken"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "Quellen"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "Melden Sie sich an, um eine Frage zu stellen."
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "Anmelden"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "Wir konnten keine Antwort erhalten. Bitte versuchen Sie es erneut."
   },
   "@SIDE_PANEL__SEARCH": {
     "message": "Suchen"
