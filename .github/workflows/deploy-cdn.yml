@@ -1,22 +1,17 @@
 name: Deploy [CDN]
-run-name: Deploy to CDN by @${{ github.actor }} on ${{ inputs.version || github.ref_name }}
+run-name: Deploy to CDN by @${{ github.actor }} on ${{ github.ref_name }}
 
 on:
   push:
-    branches: ["main"]
-  workflow_dispatch:
+    tags: ["v*"]
 
 jobs:
-  main:
+  deploy:
     name: I18n deploy to firebase hosting
-    environment:
-      name: ${{inputs.environment}}
-      url: ${{ steps.release.outputs.url}}
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
       actions: read
-      discussions: write
     steps:
       - name: Clone repository
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v4.2.2
@@ -26,3 +21,21 @@ jobs:
           projectId: auto-clicker-autofill
           target: auto-clicker-auto-fill-static
           channelId: live
+
+  release:
+    name: Create Release
+    needs: deploy
+    if: startsWith(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v4.2.2
+        with:
+          fetch-depth: 0
+      - name: Release to GitHub
+        uses: softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda # v2
+        id: release
+        with:
+          generate_release_notes: true
