@@ -1,17 +1,13 @@
 name: Deploy [CDN]
-run-name: Deploy to CDN by @${{ github.actor }} on ${{ inputs.version || github.ref_name }}
+run-name: Deploy to CDN by @${{ github.actor }} on ${{ github.ref_name }}
 
 on:
   push:
     tags: ["v*"]
-  workflow_dispatch:
 
 jobs:
   deploy:
     name: I18n deploy to firebase hosting
-    environment:
-      name: ${{inputs.environment}}
-      url: ${{ steps.release.outputs.url}}
     runs-on: ubuntu-latest
     permissions:
       contents: read
