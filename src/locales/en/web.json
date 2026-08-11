@@ -309,7 +309,7 @@
       "githubSponsors": "GitHub Sponsors",
       "paypal": "PayPal",
       "instructionsTitle": "Instructions",
-      "step1": "Pay for the number of months you want to subscribe, using the plan's monthly price. For example, six months costs (monthly price) × 6.",
+      "step1": "Pay for the number of months you want to subscribe, using the plan's monthly price. For example, six months cost (monthly price) × 6.",
       "emailUs": "Email us",
       "step2": "your account email, the plan and number of months, and proof of payment — your GitHub Sponsors receipt, or your PayPal email address / transaction ID if you paid via PayPal.",
       "step3": "We'll manually enable your plan from our backend for the number of months you paid for, and it will auto-expire after that period.",
