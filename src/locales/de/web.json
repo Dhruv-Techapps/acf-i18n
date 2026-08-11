@@ -302,7 +302,22 @@
         "gmail": "Gmail-Integration (demnächst verfügbar)"
       }
     },
-    "lockBadgeTooltip": "Erfordert den {{plan}}-Tarif. Klicken Sie hier, um sich anzumelden."
+    "lockBadgeTooltip": "Erfordert den {{plan}}-Tarif. Klicken Sie hier, um sich anzumelden.",
+    "alternativePayment": {
+      "title": "Kann Dodo Payments nicht nutzen?",
+      "description": "Dodo Payments ist nicht in allen Ländern verfügbar und unterstützt in einigen Regionen nur Kreditkarten. Falls Sie Dodo Payments in Ihrem Land nicht nutzen können (oder eine alternative Zahlungsmethode benötigen), können Sie stattdessen über eine der folgenden Optionen bezahlen:",
+      "githubSponsors": "GitHub-Sponsoren",
+      "paypal": "PayPal",
+      "instructionsTitle": "Anweisungen",
+      "step1": "Bezahlen Sie die gewünschte Anzahl an Monaten zum monatlichen Preis des jeweiligen Tarifs. Beispielsweise kostet ein sechsmonatiges Abonnement (monatlicher Preis) × 6.",
+      "emailUs": "Schreiben Sie uns eine E-Mail",
+      "step2": "Ihre E-Mail-Adresse für das Konto, der gewählte Tarif und die Anzahl der Monate sowie ein Zahlungsnachweis – Ihre GitHub Sponsors-Quittung oder Ihre PayPal-E-Mail-Adresse/Transaktions-ID, falls Sie über PayPal bezahlt haben.",
+      "step3": "Wir werden Ihren Tarif manuell von unserem Backend aus für die Anzahl der Monate aktivieren, für die Sie bezahlt haben. Nach Ablauf dieser Frist läuft er automatisch ab.",
+      "noteLabel": "Notiz:",
+      "note": "Da diese Zahlungen nicht über unseren automatisierten Checkout abgewickelt werden, aktivieren wir die Tarife manuell. Dies kann bis zu 72 Stunden dauern. Um eine Unterbrechung des Service zu vermeiden, empfehlen wir, mindestens 3–6 Monate im Voraus zu bezahlen.",
+      "contactPrompt": "Haben Sie eine andere Frage oder möchten Sie einfach Kontakt aufnehmen?",
+      "contactUs": "Kontaktieren Sie uns"
+    }
   },
   "subscription": {
     "title": "Abonnement",

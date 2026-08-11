@@ -302,7 +302,22 @@
         "gmail": "Gmail-integraatio (tulossa pian)"
       }
     },
-    "lockBadgeTooltip": "Edellyttää {{plan}} -liittymää. Klikkaa tilataksesi."
+    "lockBadgeTooltip": "Edellyttää {{plan}} -liittymää. Klikkaa tilataksesi.",
+    "alternativePayment": {
+      "title": "Etkö voi käyttää Dodo Paymentsia?",
+      "description": "Dodo Payments ei ole saatavilla kaikissa maissa, ja joillakin alueilla se tukee vain luottokortteja. Jos et voi käyttää Dodo Paymentsia maassasi (tai tarvitset maksuvälineen, joka ei ole kortti), voit maksaa jollakin näistä:",
+      "githubSponsors": "GitHubin sponsorit",
+      "paypal": "PayPal",
+      "instructionsTitle": "Ohjeet",
+      "step1": "Maksa haluamasi kuukausimäärän mukaan käyttämällä sopimuksen kuukausihintaa. Esimerkiksi kuuden kuukauden hinta (kuukausihinta) × 6.",
+      "emailUs": "Lähetä meille sähköpostia",
+      "step2": "tilisi sähköpostiosoite, sopimus ja kuukausien lukumäärä sekä maksutodistus – GitHub Sponsors -kuittisi tai PayPal-sähköpostiosoitteesi/tapahtumatunnuksesi, jos maksoit PayPalin kautta.",
+      "step3": "Otamme tilauksesi käyttöön manuaalisesti taustajärjestelmästämme maksamiesi kuukausien ajaksi, ja se vanhenee automaattisesti kyseisen ajanjakson jälkeen.",
+      "noteLabel": "Huomautus:",
+      "note": "Koska näitä maksuja ei käsitellä automaattisen kassaprosessin kautta, otamme paketit käyttöön manuaalisesti, ja se voi kestää jopa 72 tuntia. Palvelukatkosten välttämiseksi suosittelemme maksamaan etukäteen vähintään 3–6 kuukautta kerrallaan.",
+      "contactPrompt": "Onko sinulla jokin muu kysymys tai haluatko vain ottaa yhteyttä?",
+      "contactUs": "Ota yhteyttä"
+    }
   },
   "subscription": {
     "title": "Tilaus",

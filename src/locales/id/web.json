@@ -302,7 +302,22 @@
         "gmail": "Integrasi Gmail (segera hadir)"
       }
     },
-    "lockBadgeTooltip": "Membutuhkan paket {{plan}}. Klik untuk berlangganan."
+    "lockBadgeTooltip": "Membutuhkan paket {{plan}}. Klik untuk berlangganan.",
+    "alternativePayment": {
+      "title": "Tidak bisa menggunakan Dodo Payments?",
+      "description": "Dodo Payments tidak tersedia di setiap negara, dan di beberapa wilayah hanya mendukung kartu kredit. Jika Anda tidak dapat menggunakan Dodo Payments di negara Anda (atau Anda memerlukan opsi selain kartu), Anda dapat membayar melalui salah satu metode berikut:",
+      "githubSponsors": "Sponsor GitHub",
+      "paypal": "PayPal",
+      "instructionsTitle": "Instruksi",
+      "step1": "Bayar sesuai jumlah bulan yang Anda inginkan untuk berlangganan, menggunakan harga bulanan paket tersebut. Misalnya, enam bulan harganya (harga bulanan) × 6.",
+      "emailUs": "Kirim email kepada kami",
+      "step2": "Alamat email akun Anda, paket dan jumlah bulan, serta bukti pembayaran — tanda terima GitHub Sponsors Anda, atau alamat email PayPal/ID transaksi Anda jika Anda membayar melalui PayPal.",
+      "step3": "Kami akan mengaktifkan paket Anda secara manual dari sistem backend kami untuk jumlah bulan yang telah Anda bayar, dan paket tersebut akan otomatis berakhir setelah periode tersebut.",
+      "noteLabel": "Catatan:",
+      "note": "Karena pembayaran ini tidak diproses melalui sistem pembayaran otomatis kami, kami mengaktifkan paket secara manual dan prosesnya dapat memakan waktu hingga 72 jam. Untuk menghindari jeda layanan, kami sarankan untuk melakukan pembayaran di muka minimal 3–6 bulan sekaligus.",
+      "contactPrompt": "Punya pertanyaan lain, atau hanya ingin menghubungi kami?",
+      "contactUs": "Hubungi kami"
+    }
   },
   "subscription": {
     "title": "Langganan",

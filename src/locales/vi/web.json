@@ -302,7 +302,22 @@
         "gmail": "Tích hợp Gmail (sắp ra mắt)"
       }
     },
-    "lockBadgeTooltip": "Yêu cầu gói {{plan}}. Nhấp vào đây để đăng ký."
+    "lockBadgeTooltip": "Yêu cầu gói {{plan}}. Nhấp vào đây để đăng ký.",
+    "alternativePayment": {
+      "title": "Không thể sử dụng Dodo Payments?",
+      "description": "Dodo Payments không khả dụng ở mọi quốc gia, và ở một số khu vực, nó chỉ hỗ trợ thẻ tín dụng. Nếu bạn không thể sử dụng Dodo Payments ở quốc gia của mình (hoặc bạn cần một phương thức thanh toán không dùng thẻ), bạn có thể thanh toán thông qua một trong những phương thức sau:",
+      "githubSponsors": "Nhà tài trợ của GitHub",
+      "paypal": "PayPal",
+      "instructionsTitle": "Hướng dẫn",
+      "step1": "Thanh toán cho số tháng bạn muốn đăng ký, dựa trên giá hàng tháng của gói dịch vụ. Ví dụ: sáu tháng có giá là (giá hàng tháng) × 6.",
+      "emailUs": "Hãy gửi email cho chúng tôi.",
+      "step2": "Bạn cần cung cấp địa chỉ email tài khoản, gói dịch vụ và số tháng đăng ký, cùng bằng chứng thanh toán — biên lai GitHub Sponsors hoặc địa chỉ email/mã giao dịch PayPal nếu bạn thanh toán qua PayPal.",
+      "step3": "Chúng tôi sẽ kích hoạt gói dịch vụ của bạn thủ công từ hệ thống quản lý của chúng tôi trong số tháng bạn đã thanh toán, và gói dịch vụ sẽ tự động hết hạn sau thời gian đó.",
+      "noteLabel": "Ghi chú:",
+      "note": "Vì các khoản thanh toán này không được xử lý thông qua hệ thống thanh toán tự động của chúng tôi, chúng tôi sẽ kích hoạt gói dịch vụ thủ công và quá trình này có thể mất đến 72 giờ. Để tránh gián đoạn dịch vụ, chúng tôi khuyên bạn nên trả trước ít nhất 3-6 tháng một lần.",
+      "contactPrompt": "Bạn có câu hỏi khác, hoặc chỉ muốn liên hệ?",
+      "contactUs": "Liên hệ với chúng tôi"
+    }
   },
   "subscription": {
     "title": "Đăng ký",

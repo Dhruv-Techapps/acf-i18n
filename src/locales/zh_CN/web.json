@@ -302,7 +302,22 @@
         "gmail": "Gmail 集成（即将推出）"
       }
     },
-    "lockBadgeTooltip": "需要 {{plan}} 套餐。点击订阅。"
+    "lockBadgeTooltip": "需要 {{plan}} 套餐。点击订阅。",
+    "alternativePayment": {
+      "title": "无法使用Dodo Payments？",
+      "description": "Dodo Payments并非在所有国家/地区都可用，在某些地区仅支持信用卡支付。如果您所在国家/地区无法使用Dodo Payments（或者您需要非信用卡支付方式），您可以选择以下方式之一进行支付：",
+      "githubSponsors": "GitHub赞助商",
+      "paypal": "PayPal",
+      "instructionsTitle": "指示",
+      "step1": "按您希望订阅的月份数付费，费用为套餐的月费。例如，六个月的费用为（月费）× 6。",
+      "emailUs": "给我们发邮件",
+      "step2": "您的帐户电子邮件、计划和月份数，以及付款证明——您的 GitHub Sponsors 收据，或者如果您通过 PayPal 付款，则为您的 PayPal 电子邮件地址/交易 ID。",
+      "step3": "我们将从后台手动启用您的套餐，启用期限为您支付的月份数，期满后套餐将自动到期。",
+      "noteLabel": "笔记：",
+      "note": "由于这些付款并非通过我们的自动结账系统处理，我们需要手动启用套餐，这可能需要长达 72 小时。为避免服务中断，我们建议您一次性预付至少 3-6 个月的费用。",
+      "contactPrompt": "您还有其他问题，或者只是想联系我们？",
+      "contactUs": "联系我们"
+    }
   },
   "subscription": {
     "title": "订阅",
