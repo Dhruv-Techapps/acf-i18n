@@ -302,7 +302,22 @@
         "gmail": "Integración con Gmail (próximamente)"
       }
     },
-    "lockBadgeTooltip": "Requiere el plan {{plan}}. Haz clic para suscribirte."
+    "lockBadgeTooltip": "Requiere el plan {{plan}}. Haz clic para suscribirte.",
+    "alternativePayment": {
+      "title": "¿No puedes usar Dodo Payments?",
+      "description": "Dodo Payments no está disponible en todos los países, y en algunas regiones solo admite tarjetas de crédito. Si no puedes usar Dodo Payments en tu país (o necesitas una opción que no sea con tarjeta), puedes pagar a través de alguna de estas alternativas:",
+      "githubSponsors": "Patrocinadores de GitHub",
+      "paypal": "PayPal",
+      "instructionsTitle": "Instrucciones",
+      "step1": "Paga la cantidad de meses que deseas suscribirte, utilizando el precio mensual del plan. Por ejemplo, seis meses cuestan (precio mensual) × 6.",
+      "emailUs": "Envíanos un correo electrónico",
+      "step2": "Tu correo electrónico de cuenta, el plan y el número de meses, y el comprobante de pago: tu recibo de GitHub Sponsors o tu dirección de correo electrónico de PayPal / ID de transacción si pagaste a través de PayPal.",
+      "step3": "Activaremos manualmente tu plan desde nuestro sistema interno durante el número de meses que hayas pagado, y caducará automáticamente después de ese período.",
+      "noteLabel": "Nota:",
+      "note": "Dado que estos pagos no se procesan mediante nuestro sistema de pago automatizado, activamos los planes manualmente, lo que puede tardar hasta 72 horas. Para evitar interrupciones en el servicio, recomendamos prepagar al menos de 3 a 6 meses por adelantado.",
+      "contactPrompt": "¿Tienes alguna otra pregunta o simplemente quieres ponerte en contacto con nosotros?",
+      "contactUs": "Contáctanos"
+    }
   },
   "subscription": {
     "title": "Suscripción",

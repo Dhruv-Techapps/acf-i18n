@@ -302,7 +302,22 @@
         "gmail": "Intégration Gmail (bientôt disponible)"
       }
     },
-    "lockBadgeTooltip": "Nécessite un abonnement {{plan}}. Cliquez pour vous abonner."
+    "lockBadgeTooltip": "Nécessite un abonnement {{plan}}. Cliquez pour vous abonner.",
+    "alternativePayment": {
+      "title": "Impossible d'utiliser Dodo Payments ?",
+      "description": "Dodo Payments n'est pas disponible dans tous les pays et, dans certaines régions, il n'accepte que les cartes de crédit. Si vous ne pouvez pas utiliser Dodo Payments dans votre pays (ou si vous avez besoin d'un autre moyen de paiement), vous pouvez utiliser l'une des solutions suivantes :",
+      "githubSponsors": "Sponsors GitHub",
+      "paypal": "PayPal",
+      "instructionsTitle": "Instructions",
+      "step1": "Payez le nombre de mois d'abonnement souhaité, en utilisant le prix mensuel du forfait. Par exemple, six mois coûtent (prix mensuel) × 6.",
+      "emailUs": "Envoyez-nous un e-mail",
+      "step2": "votre adresse e-mail de compte, le forfait et le nombre de mois, ainsi qu'une preuve de paiement — votre reçu GitHub Sponsors ou votre adresse e-mail PayPal / identifiant de transaction si vous avez payé via PayPal.",
+      "step3": "Nous activerons manuellement votre abonnement depuis notre système pour la durée du paiement, et il expirera automatiquement après cette période.",
+      "noteLabel": "Note:",
+      "note": "Ces paiements n'étant pas traités automatiquement, nous activons les forfaits manuellement, ce qui peut prendre jusqu'à 72 heures. Pour éviter toute interruption de service, nous vous recommandons de payer d'avance au moins 3 à 6 mois.",
+      "contactPrompt": "Vous avez une autre question, ou vous souhaitez simplement nous contacter ?",
+      "contactUs": "Contactez-nous"
+    }
   },
   "subscription": {
     "title": "Abonnement",

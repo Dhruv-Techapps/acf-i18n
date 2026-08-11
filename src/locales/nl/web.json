@@ -302,7 +302,22 @@
         "gmail": "Gmail-integratie (binnenkort beschikbaar)"
       }
     },
-    "lockBadgeTooltip": "Vereist het {{plan}}-abonnement. Klik om u te abonneren."
+    "lockBadgeTooltip": "Vereist het {{plan}}-abonnement. Klik om u te abonneren.",
+    "alternativePayment": {
+      "title": "Kun je Dodo Payments niet gebruiken?",
+      "description": "Dodo Payments is niet in elk land beschikbaar en in sommige regio's wordt alleen met creditcard betaald. Als je Dodo Payments niet in jouw land kunt gebruiken (of als je een andere betaalmethode dan creditcard nodig hebt), kun je in plaats daarvan via een van de volgende opties betalen:",
+      "githubSponsors": "GitHub-sponsors",
+      "paypal": "PayPal",
+      "instructionsTitle": "Instructies",
+      "step1": "Betaal voor het aantal maanden dat u wilt abonneren, op basis van de maandprijs van het abonnement. Bijvoorbeeld: zes maanden kost (maandprijs) × 6.",
+      "emailUs": "Stuur ons een e-mail",
+      "step2": "Je account-e-mailadres, het abonnement en het aantal maanden, en een betalingsbewijs: je GitHub Sponsors-bon of je PayPal-e-mailadres/transactie-ID als je via PayPal hebt betaald.",
+      "step3": "We activeren je abonnement handmatig vanuit onze backend voor het aantal maanden waarvoor je hebt betaald. Na die periode verloopt het automatisch.",
+      "noteLabel": "Opmerking:",
+      "note": "Omdat deze betalingen niet via ons geautomatiseerde betaalsysteem worden verwerkt, activeren we abonnementen handmatig. Dit kan tot 72 uur duren. Om een onderbreking van de service te voorkomen, raden we aan om minimaal 3 tot 6 maanden vooruit te betalen.",
+      "contactPrompt": "Heb je een andere vraag, of wil je gewoon even contact opnemen?",
+      "contactUs": "Neem contact met ons op"
+    }
   },
   "subscription": {
     "title": "Abonnement",

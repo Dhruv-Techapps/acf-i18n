@@ -302,7 +302,22 @@
         "gmail": "Gmail-integration (kommer snart)"
       }
     },
-    "lockBadgeTooltip": "Kräver {{plan}}-abonnemang. Klicka för att prenumerera."
+    "lockBadgeTooltip": "Kräver {{plan}}-abonnemang. Klicka för att prenumerera.",
+    "alternativePayment": {
+      "title": "Kan du inte använda Dodo Payments?",
+      "description": "Dodo Payments är inte tillgängligt i alla länder, och i vissa regioner stöds endast kreditkort. Om du inte kan använda Dodo Payments i ditt land (eller om du behöver ett alternativ utan kort) kan du betala via något av dessa istället:",
+      "githubSponsors": "GitHub-sponsorer",
+      "paypal": "PayPal",
+      "instructionsTitle": "Instruktioner",
+      "step1": "Betala för det antal månader du vill prenumerera, med hjälp av abonnemangets månadspris. Till exempel kostar sex månader (månadspris) × 6.",
+      "emailUs": "Mejla oss",
+      "step2": "din konto-e-postadress, planen och antalet månader, och betalningsbevis – ditt GitHub Sponsor-kvitto, eller din PayPal-e-postadress/transaktions-ID om du betalade via PayPal.",
+      "step3": "Vi aktiverar din plan manuellt från vår backend för det antal månader du betalat för, och den kommer att upphöra automatiskt efter den perioden.",
+      "noteLabel": "Notera:",
+      "note": "Eftersom dessa betalningar inte behandlas via vår automatiska utcheckning aktiverar vi abonnemang manuellt och det kan ta upp till 72 timmar. För att undvika uppehåll i tjänsten rekommenderar vi att du förskottsbetalningar sker minst 3–6 månader i taget.",
+      "contactPrompt": "Har du en annan fråga, eller vill du bara höra av dig?",
+      "contactUs": "Kontakta oss"
+    }
   },
   "subscription": {
     "title": "Prenumeration",
