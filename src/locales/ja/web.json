@@ -257,6 +257,7 @@
     "processing": "お支払いの処理と購読情報の更新を行っています...",
     "upgrade": "アップグレード",
     "downgrade": "ダウングレード",
+    "comingSoon": "近日公開",
     "free": {
       "name": "🆓 無料",
       "tagline": "誰でも利用できる強力な自動化 — アカウントは必要ありません。",
@@ -296,10 +297,10 @@
       "features": {
         "sheets": "Googleスプレッドシートとの統合",
         "discord": "Discord通知",
-        "captcha": "キャプチャリゾルバー（近日公開予定）",
+        "captcha": "キャプチャソルバー",
         "openai": "OpenAIとの統合",
-        "vipSupport": "Discord経由の優先サポート",
-        "gmail": "Gmail連携（近日公開予定）"
+        "prioritySupport": "Discordによる優先サポート",
+        "gmail": "Gmailとの連携"
       }
     },
     "lockBadgeTooltip": "{{plan}}プランが必要です。クリックして購読してください。",

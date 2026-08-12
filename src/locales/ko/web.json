@@ -257,6 +257,7 @@
     "processing": "결제 처리 및 구독 업데이트 중...",
     "upgrade": "치받이",
     "downgrade": "다운그레이드",
+    "comingSoon": "곧 출시 예정",
     "free": {
       "name": "🆓 무료",
       "tagline": "누구나 사용할 수 있는 강력한 자동화 기능 - 계정 필요 없음",
@@ -296,10 +297,10 @@
       "features": {
         "sheets": "Google Sheets 연동",
         "discord": "디스코드 알림",
-        "captcha": "캡차 해결 기능 (출시 예정)",
+        "captcha": "캡차 해결사",
         "openai": "OpenAI 통합",
-        "vipSupport": "디스코드를 통한 우선 지원",
-        "gmail": "Gmail 연동 (곧 출시 예정)"
+        "prioritySupport": "디스코드를 통한 우선 지원",
+        "gmail": "Gmail 연동"
       }
     },
     "lockBadgeTooltip": "{{plan}} 플랜이 필요합니다. 구독하려면 클릭하세요.",

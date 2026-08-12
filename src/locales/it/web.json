@@ -257,6 +257,7 @@
     "processing": "Elaborazione del pagamento e aggiornamento dell'abbonamento...",
     "upgrade": "Aggiornamento",
     "downgrade": "Declassamento",
+    "comingSoon": "Prossimamente",
     "free": {
       "name": "🆓 GRATUITO",
       "tagline": "Automazione potente per tutti: non è necessario un account.",
@@ -296,10 +297,10 @@
       "features": {
         "sheets": "Integrazione con Google Fogli",
         "discord": "Notifiche Discord",
-        "captcha": "Risolutore Captcha (in arrivo)",
+        "captcha": "Risolutore di captcha",
         "openai": "Integrazione OpenAI",
-        "vipSupport": "Supporto prioritario tramite Discord",
-        "gmail": "Integrazione con Gmail (disponibile a breve)"
+        "prioritySupport": "Assistenza prioritaria tramite Discord",
+        "gmail": "Integrazione con Gmail"
       }
     },
     "lockBadgeTooltip": "Richiede il piano {{plan}}. Clicca per abbonarti.",

@@ -257,6 +257,7 @@
     "processing": "Đang xử lý thanh toán và cập nhật gói đăng ký của bạn...",
     "upgrade": "Nâng cấp",
     "downgrade": "Hạ cấp",
+    "comingSoon": "Sắp ra mắt",
     "free": {
       "name": "🆓 MIỄN PHÍ",
       "tagline": "Công nghệ tự động hóa mạnh mẽ dành cho tất cả mọi người — không cần tài khoản.",
@@ -296,10 +297,10 @@
       "features": {
         "sheets": "Tích hợp Google Sheets",
         "discord": "Thông báo Discord",
-        "captcha": "Công cụ giải mã Captcha (sắp ra mắt)",
+        "captcha": "Trình giải mã Captcha",
         "openai": "Tích hợp OpenAI",
-        "vipSupport": "Hỗ trợ ưu tiên qua Discord",
-        "gmail": "Tích hợp Gmail (sắp ra mắt)"
+        "prioritySupport": "Hỗ trợ ưu tiên qua Discord",
+        "gmail": "Tích hợp Gmail"
       }
     },
     "lockBadgeTooltip": "Yêu cầu gói {{plan}}. Nhấp vào đây để đăng ký.",

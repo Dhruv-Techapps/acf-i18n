@@ -257,6 +257,7 @@
     "processing": "Processando o pagamento e atualizando sua assinatura...",
     "upgrade": "Atualizar",
     "downgrade": "Rebaixamento",
+    "comingSoon": "Em breve",
     "free": {
       "name": "🆓 GRÁTIS",
       "tagline": "Automação poderosa para todos — sem necessidade de conta.",
@@ -296,10 +297,10 @@
       "features": {
         "sheets": "Integração com o Google Sheets",
         "discord": "Notificações do Discord",
-        "captcha": "Resolvedor de Captcha (em breve)",
+        "captcha": "Solucionador de Captcha",
         "openai": "Integração com OpenAI",
-        "vipSupport": "Suporte prioritário via Discord",
-        "gmail": "Integração com o Gmail (em breve)"
+        "prioritySupport": "Suporte prioritário via Discord",
+        "gmail": "Integração com o Gmail"
       }
     },
     "lockBadgeTooltip": "Requer o plano {{plan}}. Clique para assinar.",

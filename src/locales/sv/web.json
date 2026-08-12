@@ -257,6 +257,7 @@
     "processing": "Behandlar betalning och uppdaterar din prenumeration...",
     "upgrade": "Uppgradera",
     "downgrade": "Nedvärdera",
+    "comingSoon": "Kommer snart",
     "free": {
       "name": "🆓 GRATIS",
       "tagline": "Kraftfull automatisering för alla – inget konto krävs.",
@@ -296,10 +297,10 @@
       "features": {
         "sheets": "Google Sheets-integration",
         "discord": "Discord-aviseringar",
-        "captcha": "Captcha-lösare (kommer snart)",
+        "captcha": "Captcha-lösare",
         "openai": "OpenAI-integration",
-        "vipSupport": "Prioriterad support via Discord",
-        "gmail": "Gmail-integration (kommer snart)"
+        "prioritySupport": "Prioriterad support via Discord",
+        "gmail": "Gmail-integration"
       }
     },
     "lockBadgeTooltip": "Kräver {{plan}}-abonnemang. Klicka för att prenumerera.",

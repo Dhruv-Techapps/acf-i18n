@@ -257,6 +257,7 @@
     "processing": "Zahlungsabwicklung und Aktualisierung Ihres Abonnements...",
     "upgrade": "Upgrade",
     "downgrade": "Herabstufung",
+    "comingSoon": "Demnächst verfügbar",
     "free": {
       "name": "🆓 GRATIS",
       "tagline": "Leistungsstarke Automatisierung für alle – kein Konto erforderlich.",
@@ -296,10 +297,10 @@
       "features": {
         "sheets": "Google Sheets-Integration",
         "discord": "Discord-Benachrichtigungen",
-        "captcha": "Captcha-Auflöser (demnächst verfügbar)",
+        "captcha": "Captcha-Löser",
         "openai": "OpenAI-Integration",
-        "vipSupport": "Priorisierter Support über Discord",
-        "gmail": "Gmail-Integration (demnächst verfügbar)"
+        "prioritySupport": "Priorisierter Support über Discord",
+        "gmail": "Gmail-Integration"
       }
     },
     "lockBadgeTooltip": "Erfordert den {{plan}}-Tarif. Klicken Sie hier, um sich anzumelden.",

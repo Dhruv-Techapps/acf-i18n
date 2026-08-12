@@ -257,6 +257,7 @@
     "processing": "正在處理付款並更新您的訂閱資訊…",
     "upgrade": "升級",
     "downgrade": "降級",
+    "comingSoon": "即將推出",
     "free": {
       "name": "🆓 免費",
       "tagline": "強大的自動化功能，人人可用－無需註冊帳號。",
@@ -296,10 +297,10 @@
       "features": {
         "sheets": "Google Sheets 集成",
         "discord": "Discord 通知",
-        "captcha": "驗證碼解析器（即將推出）",
+        "captcha": "驗證碼破解器",
         "openai": "OpenAI 集成",
-        "vipSupport": "透過 Discord 獲得優先支持",
-        "gmail": "Gmail 整合（即將推出）"
+        "prioritySupport": "透過 Discord 獲得優先支持",
+        "gmail": "Gmail 集成"
       }
     },
     "lockBadgeTooltip": "需要 {{plan}} 套餐。點擊訂閱。",
