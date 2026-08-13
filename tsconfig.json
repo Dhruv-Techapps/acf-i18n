@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "lib": ["esnext"],
+    "types": ["node"],
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    // The sources are plain `.mjs` with no annotations, so `strict` would demand JSDoc types on every parameter.
+    // What is wanted here is the cheap half of a typecheck: bad call signatures, typos and missing members.
+    "strict": false
+  },
+  "include": ["src/**/*.mjs"],
+  "exclude": ["node_modules", "src/locales"]
+}

@@ -3,7 +3,7 @@ run-name: Deploy to CDN by @${{ github.actor }} on ${{ github.ref_name }}
 
 on:
   push:
-    tags: ["v*"]
+    tags: ['v*']
 
 jobs:
   deploy:

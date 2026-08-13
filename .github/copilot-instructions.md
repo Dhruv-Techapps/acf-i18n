@@ -50,6 +50,7 @@ This repository manages translations and internationalization for Auto Clicker A
 ## Supported Languages
 
 The project supports 16 languages (plus English source):
+
 - **Asian**: Chinese (Simplified/Traditional), Japanese, Korean, Vietnamese, Indonesian
 - **European**: German, Spanish, French, Italian, Dutch, Portuguese, Russian, Swedish, Finnish
 - **Middle Eastern**: Arabic
@@ -57,13 +58,17 @@ The project supports 16 languages (plus English source):
 ## Translation Scripts
 
 ### translate-web.mjs
+
 Translates web application content (web.json files) for the options page and documentation.
 
 ### translate-message.mjs
+
 Translates Chrome extension messages (messages.json files) used in the extension UI.
 
 ### translate.common.mjs
+
 Shared translation utilities:
+
 - Google Cloud Translate API client initialization
 - String value translation with placeholder preservation
 - Object property synchronization
@@ -72,6 +77,7 @@ Shared translation utilities:
 ## Common Development Tasks
 
 ### Adding New Translation Keys
+
 1. Add new keys to `src/locales/en/messages.json` or `src/locales/en/web.json`
 2. Run appropriate translation script:
    - For extension messages: `npm run message`
@@ -81,12 +87,14 @@ Shared translation utilities:
 5. Commit all changed locale files
 
 ### Updating Existing Translations
+
 1. Edit the English source in `src/locales/en/`
 2. Delete the corresponding keys in other language files (or set to empty string)
 3. Run the translation script to regenerate
 4. Review and commit all changes
 
 ### Placeholder Handling
+
 - Placeholders use `$1`, `$2` format
 - Translation scripts automatically preserve placeholders
 - Format: `{{$1}}` during translation, restored to `$1` after
@@ -101,7 +109,9 @@ Shared translation utilities:
 ## Content Types
 
 ### messages.json
+
 Chrome extension messages following the i18n format:
+
 ```json
 {
   "key_name": {
@@ -112,7 +122,9 @@ Chrome extension messages following the i18n format:
 ```
 
 ### web.json
+
 Web application content in simple key-value format:
+
 ```json
 {
   "key_name": "Translated text"
@@ -132,6 +144,7 @@ Web application content in simple key-value format:
 ## Quality Checks
 
 Before committing:
+
 1. Ensure English source is correct and complete
 2. Run both translation scripts (`npm run web` && `npm run message`)
 3. Verify all locale folders have consistent keys
@@ -142,6 +155,7 @@ Before committing:
 ## Relationship to Other Projects
 
 This i18n project provides translations for:
+
 - **Main extension**: `auto-clicker-auto-fill` (uses messages.json)
 - **Options page**: Hosted at `stable.getautoclicker.com` (uses web.json)
 - **Documentation**: `acf-docs` project (may reference web.json)
