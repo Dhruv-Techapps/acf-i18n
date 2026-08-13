@@ -257,6 +257,7 @@
     "processing": "Maksua käsitellään ja tilaustasi päivitetään...",
     "upgrade": "Päivitä",
     "downgrade": "Alentaa",
+    "comingSoon": "Tulossa pian",
     "free": {
       "name": "🆓 ILMAINEN",
       "tagline": "Tehokasta automaatiota kaikille – ei vaadi tiliä.",
@@ -296,10 +297,10 @@
       "features": {
         "sheets": "Google Sheetsin integrointi",
         "discord": "Discord-ilmoitukset",
-        "captcha": "Captcha-ratkaisija (tulossa pian)",
+        "captcha": "Captcha-ratkaisija",
         "openai": "OpenAI-integraatio",
-        "vipSupport": "Prioriteettituki Discordin kautta",
-        "gmail": "Gmail-integraatio (tulossa pian)"
+        "prioritySupport": "Prioriteettituki Discordin kautta",
+        "gmail": "Gmail-integraatio"
       }
     },
     "lockBadgeTooltip": "Edellyttää {{plan}} -liittymää. Klikkaa tilataksesi.",

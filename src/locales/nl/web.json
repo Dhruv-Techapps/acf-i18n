@@ -257,6 +257,7 @@
     "processing": "Betaling verwerken en uw abonnement bijwerken...",
     "upgrade": "Upgrade",
     "downgrade": "Verlaging",
+    "comingSoon": "Binnenkort beschikbaar",
     "free": {
       "name": "🆓 GRATIS",
       "tagline": "Krachtige automatisering voor iedereen — geen account nodig.",
@@ -296,10 +297,10 @@
       "features": {
         "sheets": "Integratie met Google Sheets",
         "discord": "Discord-meldingen",
-        "captcha": "Captcha-oplosser (binnenkort beschikbaar)",
+        "captcha": "Captcha-oplosser",
         "openai": "OpenAI-integratie",
-        "vipSupport": "Prioritaire ondersteuning via Discord",
-        "gmail": "Gmail-integratie (binnenkort beschikbaar)"
+        "prioritySupport": "Prioritaire ondersteuning via Discord",
+        "gmail": "Gmail-integratie"
       }
     },
     "lockBadgeTooltip": "Vereist het {{plan}}-abonnement. Klik om u te abonneren.",

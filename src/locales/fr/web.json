@@ -257,6 +257,7 @@
     "processing": "Traitement du paiement et mise à jour de votre abonnement...",
     "upgrade": "Mise à niveau",
     "downgrade": "Rétrograder",
+    "comingSoon": "À venir",
     "free": {
       "name": "🆓 GRATUIT",
       "tagline": "Une automatisation puissante pour tous – aucun compte requis.",
@@ -296,10 +297,10 @@
       "features": {
         "sheets": "Intégration de Google Sheets",
         "discord": "notifications Discord",
-        "captcha": "Résolveur de captcha (bientôt disponible)",
+        "captcha": "Résolveur de captcha",
         "openai": "Intégration d'OpenAI",
-        "vipSupport": "Assistance prioritaire via Discord",
-        "gmail": "Intégration Gmail (bientôt disponible)"
+        "prioritySupport": "Assistance prioritaire via Discord",
+        "gmail": "Intégration Gmail"
       }
     },
     "lockBadgeTooltip": "Nécessite un abonnement {{plan}}. Cliquez pour vous abonner.",

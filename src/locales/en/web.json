@@ -257,6 +257,7 @@
     "processing": "Processing payment and updating your subscription...",
     "upgrade": "Upgrade",
     "downgrade": "Downgrade",
+    "comingSoon": "Coming soon",
     "free": {
       "name": "🆓 FREE",
       "tagline": "Powerful automation for everyone — no account required.",
@@ -298,8 +299,8 @@
         "discord": "Discord integration",
         "captcha": "Captcha solver",
         "openai": "OpenAI integration",
-        "vipSupport": "Priority support via Discord",
-        "gmail": "Gmail integration (coming soon)"
+        "prioritySupport": "Priority support via Discord",
+        "gmail": "Gmail integration"
       }
     },
     "lockBadgeTooltip": "Requires {{plan}} plan. Click to subscribe.",

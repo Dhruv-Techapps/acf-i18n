@@ -257,6 +257,7 @@
     "processing": "Memproses pembayaran dan memperbarui langganan Anda...",
     "upgrade": "Meningkatkan",
     "downgrade": "Penurunan peringkat",
+    "comingSoon": "Segera hadir",
     "free": {
       "name": "🆓 GRATIS",
       "tagline": "Otomatisasi canggih untuk semua orang — tanpa perlu akun.",
@@ -296,10 +297,10 @@
       "features": {
         "sheets": "Integrasi Google Sheets",
         "discord": "Notifikasi Discord",
-        "captcha": "Pemecah Captcha (segera hadir)",
+        "captcha": "Pemecah Captcha",
         "openai": "Integrasi OpenAI",
-        "vipSupport": "Dukungan prioritas melalui Discord",
-        "gmail": "Integrasi Gmail (segera hadir)"
+        "prioritySupport": "Dukungan prioritas melalui Discord",
+        "gmail": "Integrasi Gmail"
       }
     },
     "lockBadgeTooltip": "Membutuhkan paket {{plan}}. Klik untuk berlangganan.",
