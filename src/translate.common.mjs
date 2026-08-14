@@ -22,10 +22,19 @@ class TranslateCommon {
     this.translate = new Translate({ keyFilename: keyPath });
     this.file = file;
   }
-  // Function to remove extra properties from obj2 that are not in obj1
-
-  translateObject = async () => {
-    return new Error();
+  // Subclasses implement translateObject() to translate nested objects/records.
+  /**
+   * Translates every string in `obj`, reusing anything already translated in `targetJson`.
+   * Implemented by each subclass — this base only declares the contract.
+   *
+   * @param {Record<string, any>} obj
+   * @param {string} targetLanguage
+   * @param {Record<string, any>} targetJson
+   * @returns {Promise<Record<string, any>>}
+   */
+  // eslint-disable-next-line no-unused-vars
+  translateObject = async (obj, targetLanguage, targetJson) => {
+    throw new Error('translateObject() must be implemented by a subclass');
   };
 
   translateStringValue = async (value, targetValue, targetLanguage) => {

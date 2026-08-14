@@ -104,11 +104,7 @@ for (const fileName of FILES) {
           const source = await getSource(fileName);
           const target = await readJson(path.join(LOCALES_ROOT, folder, fileName));
           const missing = findMissingPaths(source, target);
-          assert.deepEqual(
-            missing,
-            [],
-            `Missing ${missing.length} key(s) in ${folder}/${fileName}:\n${missing.map((k) => `  - ${k}`).join('\n')}`,
-          );
+          assert.deepEqual(missing, [], `Missing ${missing.length} key(s) in ${folder}/${fileName}:\n${missing.map((k) => `  - ${k}`).join('\n')}`);
         });
       }
     });
@@ -119,11 +115,7 @@ for (const fileName of FILES) {
           const source = await getSource(fileName);
           const target = await readJson(path.join(LOCALES_ROOT, folder, fileName));
           const extra = findExtraPaths(source, target);
-          assert.deepEqual(
-            extra,
-            [],
-            `Extra ${extra.length} key(s) in ${folder}/${fileName}:\n${extra.map((k) => `  - ${k}`).join('\n')}`,
-          );
+          assert.deepEqual(extra, [], `Extra ${extra.length} key(s) in ${folder}/${fileName}:\n${extra.map((k) => `  - ${k}`).join('\n')}`);
         });
       }
     });
@@ -147,9 +139,7 @@ for (const fileName of FILES) {
           if (identical.length > 0) {
             const preview = identical.slice(0, 10);
             const rest = identical.length - preview.length;
-            console.log(
-              `  [${folder}/${fileName}] ${identical.length}/${translatable.length} strings appear untranslated:`,
-            );
+            console.log(`  [${folder}/${fileName}] ${identical.length}/${translatable.length} strings appear untranslated:`);
             for (const { path: p, value } of preview) {
               console.log(`    - ${p}: "${value}"`);
             }
@@ -159,7 +149,7 @@ for (const fileName of FILES) {
           const ratio = identical.length / translatable.length;
           assert.ok(
             ratio < TRANSLATION_THRESHOLD,
-            `${folder}/${fileName}: ${identical.length}/${translatable.length} (${Math.round(ratio * 100)}%) strings are identical to English — exceeds ${TRANSLATION_THRESHOLD * 100}% threshold`,
+            `${folder}/${fileName}: ${identical.length}/${translatable.length} (${Math.round(ratio * 100)}%) strings are identical to English — exceeds ${TRANSLATION_THRESHOLD * 100}% threshold`
           );
         });
       }
