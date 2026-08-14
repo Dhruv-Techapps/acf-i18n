@@ -22,8 +22,7 @@ class TranslateCommon {
     this.translate = new Translate({ keyFilename: keyPath });
     this.file = file;
   }
-  // Function to remove extra properties from obj2 that are not in obj1
-
+  // Subclasses implement translateObject() to translate nested objects/records.
   /**
    * Translates every string in `obj`, reusing anything already translated in `targetJson`.
    * Implemented by each subclass — this base only declares the contract.
