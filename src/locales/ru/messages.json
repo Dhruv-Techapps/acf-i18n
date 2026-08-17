@@ -77,6 +77,18 @@
   "@SIDE_PANEL__ASK_ERROR": {
     "message": "Не удалось получить ответ. Пожалуйста, попробуйте еще раз."
   },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
+    "message": "Выберите элемент(ы)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
+    "message": "Выберите другой элемент"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
+    "message": "Нажимайте на элементы на странице… (нажмите, чтобы остановить)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
+    "message": "Удалять"
+  },
   "@SIDE_PANEL__SEARCH": {
     "message": "Поиск"
   },

@@ -77,6 +77,18 @@
   "@SIDE_PANEL__ASK_ERROR": {
     "message": "Ik heb geen antwoord gekregen. Probeer het later nog eens."
   },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
+    "message": "Selecteer element(en)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
+    "message": "Selecteer een ander element"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
+    "message": "Klik op elementen op de pagina… (klik om te stoppen)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
+    "message": "Verwijderen"
+  },
   "@SIDE_PANEL__SEARCH": {
     "message": "Zoekopdracht"
   },

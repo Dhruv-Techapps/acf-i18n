@@ -77,6 +77,18 @@
   "@SIDE_PANEL__ASK_ERROR": {
     "message": "Ei vastausta. Yritä uudelleen."
   },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
+    "message": "Valitse elementti(t)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
+    "message": "Valitse toinen elementti"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
+    "message": "Napsauta sivun elementtejä… (napsauta pysäyttääksesi)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
+    "message": "Poistaa"
+  },
   "@SIDE_PANEL__SEARCH": {
     "message": "Haku"
   },

@@ -77,6 +77,18 @@
   "@SIDE_PANEL__ASK_ERROR": {
     "message": "Kunde inte få svar. Försök igen."
   },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
+    "message": "Välj element(er)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
+    "message": "Välj ett annat element"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
+    "message": "Klicka på element på sidan… (klicka för att stoppa)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
+    "message": "Ta bort"
+  },
   "@SIDE_PANEL__SEARCH": {
     "message": "Söka"
   },
