@@ -77,6 +77,18 @@
   "@SIDE_PANEL__ASK_ERROR": {
     "message": "응답을 얻을 수 없습니다. 다시 시도해 주세요."
   },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
+    "message": "요소를 선택하세요"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
+    "message": "다른 요소를 선택하세요"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
+    "message": "페이지의 요소를 클릭하세요… (클릭하면 중지됩니다)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
+    "message": "제거하다"
+  },
   "@SIDE_PANEL__SEARCH": {
     "message": "찾다"
   },

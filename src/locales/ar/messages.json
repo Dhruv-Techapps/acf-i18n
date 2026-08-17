@@ -77,6 +77,18 @@
   "@SIDE_PANEL__ASK_ERROR": {
     "message": "لم نتمكن من الحصول على إجابة. يرجى المحاولة مرة أخرى."
   },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
+    "message": "حدد العنصر (العناصر)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
+    "message": "حدد عنصرًا آخر"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
+    "message": "انقر على العناصر الموجودة في الصفحة... (انقر للتوقف)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
+    "message": "يزيل"
+  },
   "@SIDE_PANEL__SEARCH": {
     "message": "يبحث"
   },

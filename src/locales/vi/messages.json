@@ -77,6 +77,18 @@
   "@SIDE_PANEL__ASK_ERROR": {
     "message": "Không nhận được câu trả lời. Vui lòng thử lại."
   },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
+    "message": "Chọn (các) phần tử"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
+    "message": "Chọn một phần tử khác"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
+    "message": "Nhấp chuột vào các phần tử trên trang… (nhấp chuột để dừng)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
+    "message": "Di dời"
+  },
   "@SIDE_PANEL__SEARCH": {
     "message": "Tìm kiếm"
   },

@@ -77,6 +77,18 @@
   "@SIDE_PANEL__ASK_ERROR": {
     "message": "回答が得られませんでした。もう一度お試しください。"
   },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
+    "message": "要素を選択してください"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
+    "message": "別の要素を選択してください"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
+    "message": "ページ上の要素をクリックしてください…（クリックすると停止します）"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
+    "message": "取り除く"
+  },
   "@SIDE_PANEL__SEARCH": {
     "message": "検索"
   },

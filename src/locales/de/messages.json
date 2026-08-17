@@ -77,6 +77,18 @@
   "@SIDE_PANEL__ASK_ERROR": {
     "message": "Wir konnten keine Antwort erhalten. Bitte versuchen Sie es erneut."
   },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
+    "message": "Element(e) auswählen"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
+    "message": "Wählen Sie ein anderes Element aus"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
+    "message": "Klicken Sie auf die Elemente auf der Seite… (zum Beenden klicken)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
+    "message": "Entfernen"
+  },
   "@SIDE_PANEL__SEARCH": {
     "message": "Suchen"
   },

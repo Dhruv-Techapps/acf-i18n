@@ -77,6 +77,18 @@
   "@SIDE_PANEL__ASK_ERROR": {
     "message": "Tidak mendapatkan jawaban. Silakan coba lagi."
   },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
+    "message": "Pilih elemen"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
+    "message": "Pilih elemen lain"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
+    "message": "Klik elemen-elemen di halaman… (klik untuk berhenti)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
+    "message": "Menghapus"
+  },
   "@SIDE_PANEL__SEARCH": {
     "message": "Mencari"
   },
