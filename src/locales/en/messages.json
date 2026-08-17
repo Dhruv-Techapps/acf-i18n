@@ -78,13 +78,13 @@
     "message": "Couldn't get an answer. Please try again."
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
-    "message": "Select element(s)"
+    "message": "Select elements"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
     "message": "Select another element"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
-    "message": "Click elements on the page… (click to stop)"
+    "message": "Click elements on the page... (click to stop)"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
     "message": "Remove"
