@@ -258,6 +258,11 @@
     "upgrade": "アップグレード",
     "downgrade": "ダウングレード",
     "comingSoon": "近日公開",
+    "cadence": {
+      "monthly": "月額",
+      "yearly": "年間",
+      "savingsBadge": "10%割引"
+    },
     "free": {
       "name": "🆓 無料",
       "tagline": "誰でも利用できる強力な自動化 — アカウントは必要ありません。",
@@ -276,6 +281,7 @@
       "name": "🚀プラス",
       "tagline": "すべての基本機能に加え、事前チェックと設定をステップごとに細かく制御できます。",
       "perMonth": "月額",
+      "perYear": "年間",
       "cta": "プラスにアップグレード",
       "includes": "Free に含まれるすべての機能に加え、次の機能もご利用いただけます:",
       "features": {
@@ -292,6 +298,7 @@
       "name": "🔹 プロ",
       "tagline": "統合、AI、優先サポートによる自動化のフルパワー。",
       "perMonth": "月額",
+      "perYear": "年間",
       "cta": "プロにアップグレード",
       "includes": "Plus のすべてに加えて:",
       "features": {

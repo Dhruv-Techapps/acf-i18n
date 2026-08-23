@@ -258,6 +258,11 @@
     "upgrade": "Atualizar",
     "downgrade": "Rebaixamento",
     "comingSoon": "Em breve",
+    "cadence": {
+      "monthly": "Mensal",
+      "yearly": "Anual",
+      "savingsBadge": "Economize 10%"
+    },
     "free": {
       "name": "🆓 GRÁTIS",
       "tagline": "Automação poderosa para todos — sem necessidade de conta.",
@@ -276,6 +281,7 @@
       "name": "🚀 MAIS",
       "tagline": "Todos os recursos essenciais, além de um controle mais aprofundado sobre a pré-verificação e as configurações em poucos passos.",
       "perMonth": "por mês",
+      "perYear": "por ano",
       "cta": "Faça upgrade para o Plus",
       "includes": "Tudo incluído no pacote gratuito, mais:",
       "features": {
@@ -292,6 +298,7 @@
       "name": "🔹 PRO",
       "tagline": "Todo o poder da automação — com integrações, IA e suporte prioritário.",
       "perMonth": "por mês",
+      "perYear": "por ano",
       "cta": "Faça o upgrade para a versão Pro.",
       "includes": "Tudo em Plus, mais:",
       "features": {

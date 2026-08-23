@@ -258,6 +258,11 @@
     "upgrade": "Nâng cấp",
     "downgrade": "Hạ cấp",
     "comingSoon": "Sắp ra mắt",
+    "cadence": {
+      "monthly": "Hàng tháng",
+      "yearly": "Hàng năm",
+      "savingsBadge": "Tiết kiệm 10%"
+    },
     "free": {
       "name": "🆓 MIỄN PHÍ",
       "tagline": "Công nghệ tự động hóa mạnh mẽ dành cho tất cả mọi người — không cần tài khoản.",
@@ -276,6 +281,7 @@
       "name": "🚀 THÊM",
       "tagline": "Tất cả những tính năng cần thiết, cùng với khả năng kiểm soát sâu hơn đối với các bước kiểm tra trước và cài đặt.",
       "perMonth": "mỗi tháng",
+      "perYear": "mỗi năm",
       "cta": "Nâng cấp lên Plus",
       "includes": "Tất cả mọi thứ đều có trong phiên bản miễn phí, cộng thêm:",
       "features": {
@@ -292,6 +298,7 @@
       "name": "🔹 CHUYÊN NGHIỆP",
       "tagline": "Sức mạnh toàn diện của tự động hóa — với khả năng tích hợp, trí tuệ nhân tạo và hỗ trợ ưu tiên.",
       "perMonth": "mỗi tháng",
+      "perYear": "mỗi năm",
       "cta": "Nâng cấp lên phiên bản Pro",
       "includes": "Tất cả mọi thứ trong Plus, cộng thêm:",
       "features": {
