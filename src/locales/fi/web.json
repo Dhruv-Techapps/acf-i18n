@@ -258,6 +258,11 @@
     "upgrade": "Päivitä",
     "downgrade": "Alentaa",
     "comingSoon": "Tulossa pian",
+    "cadence": {
+      "monthly": "Kuukausittain",
+      "yearly": "Vuosittain",
+      "savingsBadge": "Säästä 10 %"
+    },
     "free": {
       "name": "🆓 ILMAINEN",
       "tagline": "Tehokasta automaatiota kaikille – ei vaadi tiliä.",
@@ -276,6 +281,7 @@
       "name": "🚀 LISÄÄ",
       "tagline": "Kaikki olennaiset ominaisuudet sekä tarkempi hallinta esitarkistuksessa ja asetuksissa vaihe vaiheelta.",
       "perMonth": "kuukaudessa",
+      "perYear": "vuodessa",
       "cta": "Päivitä Plus-tilaukseen",
       "includes": "Kaikki ilmaiseksi, plus:",
       "features": {
@@ -292,6 +298,7 @@
       "name": "🔹 AMMATTILAINEN",
       "tagline": "Automaation täysi teho – integraatioilla, tekoälyllä ja priorisoidulla tuella.",
       "perMonth": "kuukaudessa",
+      "perYear": "vuodessa",
       "cta": "Päivitä Pro-tasolle",
       "includes": "Kaikki Plus-palvelussa, plus:",
       "features": {

@@ -258,6 +258,11 @@
     "upgrade": "升级",
     "downgrade": "降级",
     "comingSoon": "即将推出",
+    "cadence": {
+      "monthly": "月度",
+      "yearly": "每年",
+      "savingsBadge": "节省 10%"
+    },
     "free": {
       "name": "🆓 免费",
       "tagline": "强大的自动化功能，人人可用——无需注册账号。",
@@ -276,6 +281,7 @@
       "name": "🚀 加",
       "tagline": "所有基本功能，外加对预检和分步设置的更深层次控制。",
       "perMonth": "每月",
+      "perYear": "每年",
       "cta": "升级到 Plus",
       "includes": "免费内容全部，外加：",
       "features": {
@@ -292,6 +298,7 @@
       "name": "🔹 专业版",
       "tagline": "充分发挥自动化的强大功能——集成、人工智能和优先支持。",
       "perMonth": "每月",
+      "perYear": "每年",
       "cta": "升级到专业版",
       "includes": "Plus 中的所有产品，以及：",
       "features": {

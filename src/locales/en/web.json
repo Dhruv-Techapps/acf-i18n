@@ -258,6 +258,11 @@
     "upgrade": "Upgrade",
     "downgrade": "Downgrade",
     "comingSoon": "Coming soon",
+    "cadence": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "savingsBadge": "Save 10%"
+    },
     "free": {
       "name": "🆓 FREE",
       "tagline": "Powerful automation for everyone — no account required.",
@@ -276,6 +281,7 @@
       "name": "🚀 PLUS",
       "tagline": "All the essentials, plus deeper control over pre-check and settings within steps.",
       "perMonth": "per month",
+      "perYear": "per year",
       "cta": "Upgrade to Plus",
       "includes": "Everything in Free, plus:",
       "features": {
@@ -292,6 +298,7 @@
       "name": "🔹 PRO",
       "tagline": "The full power of automation — with integrations, AI, and priority support.",
       "perMonth": "per month",
+      "perYear": "per year",
       "cta": "Upgrade to Pro",
       "includes": "Everything in Plus, plus:",
       "features": {

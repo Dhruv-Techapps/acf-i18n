@@ -258,6 +258,11 @@
     "upgrade": "Meningkatkan",
     "downgrade": "Penurunan peringkat",
     "comingSoon": "Segera hadir",
+    "cadence": {
+      "monthly": "Bulanan",
+      "yearly": "Tahunan",
+      "savingsBadge": "Hemat 10%"
+    },
     "free": {
       "name": "🆓 GRATIS",
       "tagline": "Otomatisasi canggih untuk semua orang — tanpa perlu akun.",
@@ -276,6 +281,7 @@
       "name": "🚀 PLUS",
       "tagline": "Semua hal penting, ditambah kontrol yang lebih mendalam atas pra-pemeriksaan dan pengaturan dalam beberapa langkah.",
       "perMonth": "per bulan",
+      "perYear": "per tahun",
       "cta": "Tingkatkan ke Plus",
       "includes": "Semuanya gratis, ditambah:",
       "features": {
@@ -292,6 +298,7 @@
       "name": "🔹 PRO",
       "tagline": "Kekuatan penuh otomatisasi — dengan integrasi, AI, dan dukungan prioritas.",
       "perMonth": "per bulan",
+      "perYear": "per tahun",
       "cta": "Tingkatkan ke Pro",
       "includes": "Semua yang ada di Plus, plus:",
       "features": {
