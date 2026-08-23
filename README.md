@@ -20,12 +20,12 @@ src/locales/<folder>/web.json        → consumed by the options page
 This is the thing to get right — the same edit reaches the two apps by different routes.
 
 |                 | Extension                                                                                    | Options page                                    |
-| --------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| File            | `messages.json`                                                                              | `web.json`                                       |
-| When            | **Build time**                                                                               | **Runtime**                                      |
-| How             | `apps/acf-extension/webpack.config.js` copies `**/messages.json` into `dist/_locales`        | `fetch` from `VITE_PUBLIC_I18N`                  |
-| Source          | `VITE_PUBLIC_I18N_PATH`, defaulting to `../acf-i18n` (this checkout, as a sibling directory) | `https://cdn.getautoclicker.com/locales`         |
-| To see a change | Rebuild the extension                                                                        | Redeploy this repo (or point at a local server)  |
+| --------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| File            | `messages.json`                                                                              | `web.json`                                      |
+| When            | **Build time**                                                                               | **Runtime**                                     |
+| How             | `apps/acf-extension/webpack.config.js` copies `**/messages.json` into `dist/_locales`        | `fetch` from `VITE_PUBLIC_I18N`                 |
+| Source          | `VITE_PUBLIC_I18N_PATH`, defaulting to `../acf-i18n` (this checkout, as a sibling directory) | `https://cdn.getautoclicker.com/locales`        |
+| To see a change | Rebuild the extension                                                                        | Redeploy this repo (or point at a local server) |
 
 Consequence: **a string fix for the options page needs this repo deployed**, not an options-page release. A string fix for the extension needs an extension rebuild and a store release — the CDN does nothing for it.
 
@@ -47,12 +47,12 @@ Serves `src/` at `http://0.0.0.0:3333` (`npx serve`). The options page's Vite de
 
 ## Scripts
 
-| Command          | What it does                                                                                                                                     |
-| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------|
+| Command | What it does |
+| --- | --- |
 | `npm run message` | Translates `en/messages.json` into all 16 target languages. Walks the tree, translates `message` string values, and **skips `description` and `placeholders`** (metadata, not user-visible). |
-| `npm run web`      | Same for `web.json`.                                                                                                                              |
-| `npm test`         | Validates every locale against `en` — reports **missing keys** and **extra keys** per file, with the full key paths. This is the PR gate (`validate-locales.yml`). |
-| `npm run clean`    | Removes leftover/stale keys that no longer exist in the `en` source.                                                                              |
+| `npm run web` | Same for `web.json`. |
+| `npm test` | Validates every locale against `en` — reports **missing keys** and **extra keys** per file, with the full key paths. This is the PR gate (`validate-locales.yml`). |
+| `npm run clean` | Removes leftover/stale keys that no longer exist in the `en` source. |
 
 Translation uses `@google-cloud/translate`, so the translate scripts need GCP credentials. `npm test` does not.
 
