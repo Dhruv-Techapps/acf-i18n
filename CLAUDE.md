@@ -49,21 +49,21 @@ Serves `src/` at `http://0.0.0.0:3333` (`npx serve`). The options page's Vite de
 
 | Command | What it does |
 | --- | --- |
-| `npm run message` | Translates `en/messages.json` into all 16 target languages. Walks the tree, translates `message` string values, and **skips `description` and `placeholders`** (metadata, not user-visible). Only translates keys that are new or whose `en/` text changed since the last run — see caching note below. |
+| `npm run message` | Translates `en/messages.json` into all 22 target languages. Walks the tree, translates `message` string values, and **skips `description` and `placeholders`** (metadata, not user-visible). Only translates keys that are new or whose `en/` text changed since the last run — see caching note below. |
 | `npm run web` | Same for `web.json`. |
-| `npm run message:force` / `npm run web:force` | Same, but ignores the cache and re-translates every key from scratch regardless of whether `en/` changed. Use this once for a full audit (e.g. after adding the cache, or if you suspect drift), then let the plain `message`/`web` scripts take over incrementally — a full force run re-translates ~600 strings × 16 languages, so it costs real Google Translate API usage. |
+| `npm run message:force` / `npm run web:force` | Same, but ignores the cache and re-translates every key from scratch regardless of whether `en/` changed. Use this once for a full audit (e.g. after adding the cache, or if you suspect drift), then let the plain `message`/`web` scripts take over incrementally — a full force run re-translates ~600 strings × 22 languages, so it costs real Google Translate API usage. |
 | `npm test` | Validates every locale against `en` — **missing keys**, **extra keys**, strings identical to `en` (untranslated), **`{{name}}`/`$1` placeholder integrity**, **`<1>...</1>` tag integrity**, and no leaked internal pipeline tokens (`zzPHzz`/`__FORCE_RETRANSLATE__`) — all per file, with full key paths. Runs in CI (`.github/workflows/test.yml`) on every push and PR. |
 | `npm run clean` | Removes leftover/stale keys that no longer exist in the `en` source. |
 
 Translation uses `@google-cloud/translate`, so the translate scripts need GCP credentials. `npm test` does not.
 
-`npm run message`/`npm run web` track which `en/` string produced each existing translation in `src/locales/.translation-source-cache.json` — committed to the repo, but excluded from the Firebase Hosting deploy by the existing `**/.*` rule in `firebase.json` (it's tooling metadata, not a locale file). This is what lets them skip re-translating keys that haven't changed instead of blindly reusing anything already present in the target file — the latter used to mean an edit to an existing `en/` string silently never reached the other 16 locales.
+`npm run message`/`npm run web` track which `en/` string produced each existing translation in `src/locales/.translation-source-cache.web.json` and `src/locales/.translation-source-cache.messages.json` (one cache per translated file, so the two scripts never race on a shared file) — committed to the repo, but excluded from the Firebase Hosting deploy by the existing `**/.*` rule in `firebase.json` (it's tooling metadata, not a locale file). This is what lets them skip re-translating keys that haven't changed instead of blindly reusing anything already present in the target file — the latter used to mean an edit to an existing `en/` string silently never reached the other 22 locales.
 
 ## Rules
 
 - **Only edit `en/`.** The other 22 are machine-generated; hand-edits are overwritten the next time a translate script runs.
 - Adding a string: add it to `en/messages.json` or `en/web.json`, run the matching translate script, then `npm test` before committing.
-- Removing a string: delete from `en/`, then `npm run clean` — don't hand-delete from 16 files.
+- Removing a string: delete from `en/`, then `npm run clean` — don't hand-delete from 22 files.
 - Keep `messages.json` and `web.json` separate; a key only belongs in the one whose app uses it.
 
 ## CI

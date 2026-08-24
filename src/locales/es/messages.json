@@ -123,7 +123,7 @@
     "message": "↗ Abrir página de configuración"
   },
   "@TABS__TITLE": {
-    "message": "Cortina a la italiana"
+    "message": "Pestañas"
   },
   "@TABS__ERROR": {
     "message": "No se pudo encontrar la pestaña o el ID de pestaña especificado."

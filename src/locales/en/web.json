@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Notification on Discord",
-    "loginRequired": "<1>Login</1> to your account before connecting with Discord."
+    "loginRequired": "<1>Log in</1> to your account before connecting with Discord."
   },
   "checkIFrames": {
     "title": "Search Inside Embedded Pages",
@@ -110,7 +110,7 @@
     "weekly": "Weekly",
     "monthly": "Monthly",
     "off": "Off",
-    "loginRequired": "<1>Login</1> to your account before connecting with Google Drive.",
+    "loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
     "checkingAccess": "Checking Google Drive access...",
     "connect": "Connect with Google Drive",
     "connected": "Google Drive Backup",
@@ -340,7 +340,7 @@
       "title": "Use Stable Versions for Google Sheets Features.",
       "message": "For best results, use the <1>Stable</1> version of Google Sheets features. Stable versions are thoroughly tested to ensure reliable performance, helping you avoid unexpected issues. If you need help, feel free to reach out for support."
     },
-    "loginRequired": "<1>Login</1> to your account before connecting with Google Sheets.",
+    "loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "connect": "Connect with Google Sheets",
     "connected": "Connected with Google Sheets"
   },
@@ -464,7 +464,7 @@
     "title": "Explore Automations",
     "search": "Search automations...",
     "loadMore": "Load More",
-    "loginToExplore": "<1>Login</1> to explore published automations.",
+    "loginToExplore": "<1>Log in</1> to explore published automations.",
     "no-published": "No automations found. Be the first to publish one!",
     "downloads_zero": "No downloads",
     "downloads_one": "1 Download",
