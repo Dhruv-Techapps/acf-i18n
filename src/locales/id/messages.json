@@ -1,51 +1,51 @@
 {
   "EXT_NAME": {
-    "message": "Clicker Otomatis - IsiOtomatis"
+    "message": "Pengklik Otomatis - Isi Otomatis"
   },
   "EXT_NAME_DEV": {
-    "message": "Clicker Otomatis - IsiOtomatis [DEV]"
+    "message": "Pengklik Otomatis - Isi Otomatis [DEV]"
   },
   "EXT_NAME_BETA": {
-    "message": "Pengklik Otomatis - IsiOtomatis [BETA]"
+    "message": "Auto Clicker - Isi Otomatis [BETA]"
   },
   "EXT_NAME_LOCAL": {
-    "message": "Clicker Otomatis - IsiOtomatis [LOKAL]"
+    "message": "Auto Clicker - Isi Otomatis [LOKAL]"
   },
   "EXT_SHORT_NAME": {
-    "message": "Isi Otomatis"
+    "message": "Klik Otomatis - Isi Otomatis"
   },
   "EXT_DESCRIPTION": {
-    "message": "Bidang masukan IsiOtomatis atau tombol klik otomatis atau tautkan apa saja di mana saja. Anda dapat mengonfigurasi dan memeriksa uji kecepatan klik"
+    "message": "Fitur pengisian otomatis untuk kolom input, klik otomatis tombol, atau tautan, apa pun di mana saja. Anda dapat mengkonfigurasi dan memeriksa kecepatan klik."
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
     "message": "Cadangan ACF"
   },
   "@ACF_BACKUP__NOTIFICATION_BACKUP": {
-    "message": "Konfigurasi dicadangkan di Google Drive pada $1"
+    "message": "Konfigurasi dicadangkan di Google Drive di $1"
   },
   "@ACF_BACKUP__NOTIFICATION_RESTORE": {
     "message": "Konfigurasi dipulihkan dari Google Drive. Segarkan halaman konfigurasi untuk memuat konten."
   },
   "@ACF_BACKUP__ERROR_NO_CONFIG": {
-    "message": "Tidak ada konfigurasi yang ditemukan untuk dicadangkan"
+    "message": "Tidak ditemukan konfigurasi untuk dicadangkan."
   },
   "@ACF_BACKUP__ERROR_NO_CONTENT": {
-    "message": "Tidak ada konten yang ditemukan dalam file"
+    "message": "Tidak ada konten yang ditemukan dalam file."
   },
   "@PORT__ACTION_NOT_FOUND": {
-    "message": "tidak dikonfigurasi"
+    "message": "belum dikonfigurasi"
   },
   "@PORT__METHOD_NOT_FOUND": {
-    "message": "metode proses tidak ditemukan"
+    "message": "Metode proses tidak ditemukan"
   },
   "@CONTEXT_MENU__FIELD": {
-    "message": "★ Konfigurasi untuk Bidang ini"
+    "message": "⊕ Konfigurasi untuk Bidang ini"
   },
   "@CONTEXT_MENU__FIELD_POSITION": {
     "message": "⌖ Konfigurasi berdasarkan Posisi"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Panel Samping/☉ Rekaman"
+    "message": "▤ Panel Samping / ☉ Perekaman"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Tanya AI"
@@ -84,7 +84,7 @@
     "message": "Pilih elemen lain"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
-    "message": "Klik elemen-elemen di halaman… (klik untuk berhenti)"
+    "message": "Klik elemen-elemen di halaman... (klik untuk berhenti)"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
     "message": "Menghapus"
@@ -123,10 +123,10 @@
     "message": "↗ Buka Halaman Konfigurasi"
   },
   "@TABS__TITLE": {
-    "message": "tab"
+    "message": "Tab"
   },
   "@TABS__ERROR": {
-    "message": "Tidak dapat menemukan tab atau ID tab yang ditentukan."
+    "message": "Tab atau ID tab yang ditentukan tidak dapat ditemukan."
   },
   "@ACTION__TITLE": {
     "message": "Langkah"
@@ -141,7 +141,7 @@
     "message": "Tambahan"
   },
   "@ACTION_CONDITION__TITLE": {
-    "message": "Kondisi Aksi"
+    "message": "Kondisi Tindakan"
   },
   "@BATCH__TITLE": {
     "message": "Perulangan"
@@ -153,19 +153,19 @@
     "message": "Pencari Elemen kosong"
   },
   "@ERROR__NO_MATCH": {
-    "message": "kondisi tidak cocok."
+    "message": "kondisi tidak sesuai."
   },
   "@ERROR__WRONG_TITLE": {
     "message": "Perbandingan yang salah"
   },
   "@ERROR__WRONG_DESCRIPTION": {
-    "message": "Lebih besar atau kurang dari operator hanya dapat membandingkan angka"
+    "message": "Operator lebih besar dari atau kurang dari hanya dapat membandingkan angka."
   },
   "@ERROR__ELEMENT_FINDER_TITLE": {
-    "message": "Pencari elemen atau kondisi tambahan salah"
+    "message": "Pencari elemen atau kondisi tambahan tidak tepat"
   },
   "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
-    "message": "Element Finder harus menargetkan kotak centang"
+    "message": "Pencari Elemen harus menargetkan kotak centang."
   },
   "@ERROR__INVALID_ELEMENT_FINDER": {
     "message": "Pencari elemen tidak valid"
@@ -180,16 +180,16 @@
     "message": "Tindakan tidak ditemukan untuk Goto"
   },
   "@ERROR__NO_ELEMENT_FOUND": {
-    "message": "Tidak ada elemen yang ditemukan dengan pemilih yang diberikan"
+    "message": "Tidak ada elemen yang ditemukan dengan pemilih yang diberikan."
   },
   "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
-    "message": "Silakan kunjungi halaman konfigurasi untuk meninjau dan memperbarui Kondisi Tindakan guna memastikan konfigurasi diperbarui dengan benar."
+    "message": "Silakan kunjungi halaman konfigurasi untuk meninjau dan memperbarui Kondisi Tindakan guna memastikan konfigurasi telah diperbarui dengan benar."
   },
   "@CONDITION_SATISFIED": {
-    "message": "Kondisi Memuaskan"
+    "message": "Syarat Terpenuhi"
   },
   "@CONDITION_NOT_SATISFIED": {
-    "message": "Kondisi Tidak Memuaskan"
+    "message": "Kondisi Tidak Terpenuhi"
   },
   "@ERROR": {
     "message": "Kesalahan"
@@ -201,7 +201,7 @@
     "message": "mengulang"
   },
   "@COMPLETED": {
-    "message": "Lengkap"
+    "message": "Selesai"
   },
   "@DEFAULT": {
     "message": "bawaan"
@@ -210,7 +210,7 @@
     "message": "Tunggu"
   },
   "@DISABLED": {
-    "message": "Dengan disabilitas"
+    "message": "Dinonaktifkan"
   },
   "@RESULT": {
     "message": "Hasil"
@@ -228,7 +228,7 @@
     "message": "Opsi Periksa Ulang"
   },
   "@DOCS": {
-    "message": "dokumen"
+    "message": "Dokumen"
   },
   "@CHAT": {
     "message": "Mengobrol"

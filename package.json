@@ -5,7 +5,9 @@
   "scripts": {
     "start": "npx serve src -l tcp://0.0.0.0:3333",
     "web": "node src/translate-web.mjs",
+    "web:force": "node src/translate-web.mjs --force",
     "message": "node src/translate-message.mjs",
+    "message:force": "node src/translate-message.mjs --force",
     "test": "node src/locales.test.mjs",
     "clean": "node src/clean-locales.mjs",
     "lint": "eslint .",

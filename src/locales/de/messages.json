@@ -12,25 +12,25 @@
     "message": "Auto Clicker - AutoFill [LOKAL]"
   },
   "EXT_SHORT_NAME": {
-    "message": "Automatisch ausfüllen"
+    "message": "Auto Clicker - AutoFill"
   },
   "EXT_DESCRIPTION": {
-    "message": "Eingabefelder automatisch ausfüllen oder automatisch auf Schaltflächen klicken oder beliebige Links einfügen. Sie können den Klickgeschwindigkeitstest konfigurieren und überprüfen."
+    "message": "Automatisches Ausfüllen von Eingabefeldern, automatisches Klicken von Schaltflächen oder Links an beliebiger Stelle. Sie können die Klickgeschwindigkeit konfigurieren und testen."
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
     "message": "ACF-Sicherung"
   },
   "@ACF_BACKUP__NOTIFICATION_BACKUP": {
-    "message": "Konfigurationen werden auf Google Drive unter $1 gesichert."
+    "message": "Die Konfigurationen sind auf Google Drive unter $1 gesichert."
   },
   "@ACF_BACKUP__NOTIFICATION_RESTORE": {
-    "message": "Konfigurationen werden von Google Drive wiederhergestellt. Aktualisieren Sie die Konfigurationsseite, um den Inhalt zu laden."
+    "message": "Die Konfigurationen werden von Google Drive wiederhergestellt. Aktualisieren Sie die Konfigurationsseite, um die Inhalte zu laden."
   },
   "@ACF_BACKUP__ERROR_NO_CONFIG": {
-    "message": "Keine zu sichernden Konfigurationen gefunden"
+    "message": "Es wurden keine Konfigurationen zum Sichern gefunden."
   },
   "@ACF_BACKUP__ERROR_NO_CONTENT": {
-    "message": "Kein Inhalt in der Datei gefunden"
+    "message": "Die Datei enthielt keinen Inhalt."
   },
   "@PORT__ACTION_NOT_FOUND": {
     "message": "ist nicht konfiguriert"
@@ -39,13 +39,13 @@
     "message": "Die Prozessmethode wurde nicht gefunden."
   },
   "@CONTEXT_MENU__FIELD": {
-    "message": "★ Für dieses Feld konfigurieren"
+    "message": "⊕ Für dieses Feld konfigurieren"
   },
   "@CONTEXT_MENU__FIELD_POSITION": {
     "message": "⌖ Nach Position konfigurieren"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Seitenwand/☉ Aufnahme"
+    "message": "▤ Seitenleiste / ☉ Aufnahme"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Frag die KI"
@@ -78,13 +78,13 @@
     "message": "Wir konnten keine Antwort erhalten. Bitte versuchen Sie es erneut."
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
-    "message": "Element(e) auswählen"
+    "message": "Elemente auswählen"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
     "message": "Wählen Sie ein anderes Element aus"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
-    "message": "Klicken Sie auf die Elemente auf der Seite… (zum Beenden klicken)"
+    "message": "Klicken Sie auf die Elemente auf der Seite... (zum Beenden klicken)"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
     "message": "Entfernen"
@@ -135,7 +135,7 @@
     "message": "Benutzerskript"
   },
   "@ACTION__NO_NAME": {
-    "message": "kein Name"
+    "message": "namenlos"
   },
   "@ADDON__TITLE": {
     "message": "Hinzufügen Auf"
@@ -150,28 +150,28 @@
     "message": "Automatisierung"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
-    "message": "Der Elementfinder ist leer"
+    "message": "Element Finder ist leer"
   },
   "@ERROR__NO_MATCH": {
-    "message": "Bedingung stimmte nicht überein."
+    "message": "Die Bedingung stimmte nicht überein."
   },
   "@ERROR__WRONG_TITLE": {
     "message": "Falscher Vergleich"
   },
   "@ERROR__WRONG_DESCRIPTION": {
-    "message": "Größer-als- oder Kleiner-als-Operatoren können nur Zahlen vergleichen"
+    "message": "Die Operatoren „größer als“ oder „kleiner als“ können nur Zahlen vergleichen."
   },
   "@ERROR__ELEMENT_FINDER_TITLE": {
-    "message": "Falscher Elementfinder oder Addon-Bedingung"
+    "message": "Falsche Elementsuche oder Add-on-Bedingung"
   },
   "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
-    "message": "Der Elementfinder sollte auf ein Kontrollkästchen abzielen"
+    "message": "Element Finder sollte ein Kontrollkästchen anvisieren"
   },
   "@ERROR__INVALID_ELEMENT_FINDER": {
     "message": "Ungültiger Elementfinder"
   },
   "@ERROR__NOT_FOUND_STOP": {
-    "message": "Nicht gefunden - STOP"
+    "message": "Nicht gefunden – STOP"
   },
   "@ERROR__NOT_FOUND_RELOAD": {
     "message": "Nicht gefunden – NEU LADEN"
@@ -180,16 +180,16 @@
     "message": "Für „Gehe zu“ wurde keine Aktion gefunden."
   },
   "@ERROR__NO_ELEMENT_FOUND": {
-    "message": "Mit dem angegebenen Selektor wurde kein Element gefunden"
+    "message": "Mit dem angegebenen Selektor wurde kein Element gefunden."
   },
   "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
-    "message": "Bitte besuchen Sie die Konfigurationsseite, um die Aktionsbedingung zu überprüfen und zu aktualisieren, damit sichergestellt ist, dass die Konfiguration ordnungsgemäß aktualisiert wird."
+    "message": "Bitte besuchen Sie die Konfigurationsseite, um die Aktionsbedingung zu überprüfen und zu aktualisieren und so sicherzustellen, dass die Konfiguration ordnungsgemäß aktualisiert wird."
   },
   "@CONDITION_SATISFIED": {
     "message": "Bedingung erfüllt"
   },
   "@CONDITION_NOT_SATISFIED": {
-    "message": "Bedingung nicht erfüllt"
+    "message": "Zustand nicht erfüllt"
   },
   "@ERROR": {
     "message": "Fehler"
@@ -228,10 +228,10 @@
     "message": "Option erneut prüfen"
   },
   "@DOCS": {
-    "message": "Dokumentation"
+    "message": "Dokumente"
   },
   "@CHAT": {
-    "message": "Plaudern"
+    "message": "Chat"
   },
   "@ADVANCE": {
     "message": "Vorauszahlung"

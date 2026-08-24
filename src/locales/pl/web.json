@@ -1,0 +1,757 @@
+{
+  "meta": {
+    "appName": "Autoklikacz - automatyczne wypełnianie",
+    "logoAlt": "Automatyczne klikanie Logo automatycznego wypełniania"
+  },
+  "askAi": {
+    "floatingButton": "Zapytaj AI"
+  },
+  "status": {
+    "connecting": "Złączony..."
+  },
+  "links": {
+    "docs": "Dokumenty",
+    "blog": "Blog",
+    "configuration": "Konfiguracja",
+    "issues": "Kwestie",
+    "discussion": "Dyskusja",
+    "test": "Formularz ćwiczeń",
+    "contact": "Kontakt",
+    "chat": "Pogawędzić",
+    "connect": "Łączyć",
+    "privacy": "Polityka prywatności",
+    "googleGroup": "Grupa Google"
+  },
+  "about": "O",
+  "social": "Społeczny",
+  "theme": {
+    "title": "Temat",
+    "switchLight": "Przełącz na jasny motyw",
+    "switchDark": "Przełącz na ciemny motyw",
+    "light": "Światło",
+    "dark": "Ciemny",
+    "auto": "Automatyczny"
+  },
+  "loading": "Załadunek...",
+  "loader": {
+    "subtitle": "Ładowanie automatyzacji..."
+  },
+  "loginModal": {
+    "title": "Proszę się zalogować",
+    "signingIn": "Zalogować się..."
+  },
+  "learnMore": "Dowiedz się więcej",
+  "login": "Login",
+  "logout": "Wyloguj",
+  "connect": "Łączyć",
+  "disconnect": "Odłączyć",
+  "resources": "Zasoby",
+  "settings": {
+    "title": "Ustawienia globalne",
+    "additional": "Dodatkowe ustawienia",
+    "toast": {
+      "header": "Ustawienia",
+      "body": "Ustawienia zostały pomyślnie zapisane!"
+    }
+  },
+  "notification": {
+    "title": "Pokaż powiadomienie",
+    "error": "W przypadku błędu",
+    "step": "Po zakończeniu kroku",
+    "loop": "Po zakończeniu pętli",
+    "automation": "Po zakończeniu automatyzacji",
+    "sound": "Dźwięk powiadomienia"
+  },
+  "discord": {
+    "title": "Powiadomienie na Discordzie",
+    "loginRequired": "<1>Zaloguj się</1> na swoje konto przed połączeniem się z Discordem."
+  },
+  "checkIFrames": {
+    "title": "Szukaj wewnątrz osadzonych stron",
+    "hint": "Szukaj również elementów wewnątrz osadzonych sekcji strony"
+  },
+  "reloadOnError": {
+    "title": "Odśwież stronę w przypadku błędu",
+    "hint": "Automatyczne ponowne załadowanie strony, jeśli coś pójdzie nie tak",
+    "contextInvalidated": "Kontekst rozszerzenia jest nieprawidłowy."
+  },
+  "statusBar": {
+    "title": "Pasek stanu",
+    "hint": "Pokaż pasek stanu na dole strony",
+    "positions": {
+      "hide": "Ukrywać",
+      "top-left": "Lewy górny róg",
+      "top-right": "Prawy górny róg",
+      "bottom-left": "Lewy dolny róg",
+      "bottom-right": "Prawy dolny róg"
+    }
+  },
+  "retry": {
+    "title": "Ponowne próby",
+    "interval": "Poczekaj między ponownymi próbami",
+    "intervalRange": "Poczekaj między ponownymi próbami",
+    "to": "Do",
+    "stop": "Zatrzymaj automatyzację",
+    "skip": "Pomiń ten krok",
+    "refresh": "Odśwież i spróbuj ponownie",
+    "goto": "Przejdź do kroku",
+    "hint": "Co się stanie, jeśli elementu nie znaleziono na stronie?",
+    "unlimited-tooltip": "Ustaw opcję „nieograniczone”, aby próbować w nieskończoność, aż do znalezienia elementu. Zachowaj ostrożność, ponieważ może to spowodować, że przeglądarka przestanie odpowiadać, jeśli element nigdy się nie pojawi.",
+    "range-tooltip": "Ustaw zakres, aby zwiększyć losowość interwałów ponawiania prób i uniknąć wykrycia. Na przykład, ustawienie od 5 do 10 sekund spowoduje losowy wybór czasu od 5 do 10 sekund dla każdej próby ponawiania."
+  },
+  "backup": {
+    "title": "Kopia zapasowa",
+    "lastBackup": "Ostatnia kopia zapasowa:",
+    "backup": "Kopia zapasowa w chmurze",
+    "restore": "Przywróć z chmury",
+    "now": "Utwórz kopię zapasową teraz",
+    "autoBackup": "Automatyczne tworzenie kopii zapasowych",
+    "daily": "Codziennie",
+    "weekly": "Tygodnik",
+    "monthly": "Miesięczny",
+    "off": "Wyłączony",
+    "loginRequired": "<1>Zaloguj się</1> na swoje konto przed połączeniem z Dyskiem Google.",
+    "checkingAccess": "Sprawdzanie dostępu do Dysku Google...",
+    "connect": "Połącz się z Dyskiem Google",
+    "connected": "Kopia zapasowa Dysku Google",
+    "loadingFiles": "Ładowanie plików...",
+    "restoreAction": "Przywrócić",
+    "delete": "Usuwać",
+    "noBackup": "Nie znaleziono kopii zapasowej",
+    "confirm": {
+      "restore": {
+        "title": "Przywracanie automatyzacji z chmury",
+        "message": "Czy na pewno chcesz przywrócić automatyzacje z chmury? Spowoduje to zastąpienie wszystkich automatyzacji i nie będzie można tego cofnąć."
+      }
+    },
+    "toast": {
+      "header": "Kopia zapasowa",
+      "body": "Kopia zapasowa została pomyślnie zapisana!"
+    }
+  },
+  "migrationBackup": {
+    "title": "Kopia zapasowa migracji",
+    "description": "Te migawki są automatycznie przechwytywane przed migracjami schematów i umożliwiają przeglądanie lub eksportowanie starych danych.",
+    "loading": "Ładowanie kopii zapasowych migracji...",
+    "empty": "Nie znaleziono kopii zapasowych migracji",
+    "download": "Pobierać",
+    "replaceLocalData": "Przywróć kopię zapasową",
+    "delete": "Usuwać",
+    "version": "Wersja",
+    "unknownVersion": "Nieznany",
+    "errorLoading": "Nie udało się załadować kopii zapasowych migracji",
+    "errorRestore": "Nie udało się przywrócić kopii zapasowej migracji",
+    "errorDelete": "Nie udało się usunąć kopii zapasowej migracji",
+    "confirm": {
+      "restore": {
+        "title": "Przywróć tę kopię zapasową",
+        "message": "Czy na pewno chcesz przywrócić tę kopię zapasową? Twoje obecne automatyzacje i ustawienia zostaną zastąpione."
+      },
+      "delete": {
+        "title": "Usuń kopię zapasową migracji",
+        "message": "Czy na pewno chcesz usunąć tę kopię zapasową migracji?"
+      }
+    }
+  },
+  "errorPage": {
+    "title": "Nie można otworzyć tej strony",
+    "subtitle": "Nie udało się załadować żądanej strony. Sprawdź szczegóły poniżej.",
+    "routeLabel": "Trasa",
+    "detailsLabel": "Szczegóły błędu",
+    "goToAutomations": "Przejdź do automatyzacji",
+    "goToHome": "Idź do domu"
+  },
+  "reorder": {
+    "title": "Zmiana kolejności automatyzacji",
+    "hint": "Przed ponownym zamówieniem zapisz wszystkie automatyzacje"
+  },
+  "extensionNotFound": {
+    "title": "Rozszerzenie nie zostało zainstalowane",
+    "subTitle": "Ta strona działa z rozszerzeniem <b>Auto Clicker - AutoFill</b> dla przeglądarek Chrome i Edge.",
+    "hint": "Aby rozpocząć, najpierw zainstaluj rozszerzenie.",
+    "download": "pobierać"
+  },
+  "versionAlert": {
+    "securityUpdate": "Wymagana aktualizacja zabezpieczeń:",
+    "message": "Dostępna jest nowsza wersja <1>Auto Clicker i Auto Fill</1>, która zawiera poprawki niedawno zidentyfikowanych luk w zabezpieczeniach.",
+    "learnMore": "Dowiedz się więcej",
+    "update": "Aby zachować ochronę, należy dokonać aktualizacji do najnowszej wersji."
+  },
+  "stepSettings": {
+    "title": "Ustawienia kroków",
+    "info": "Ustawienia te dotyczą tylko tego kroku i jego wstępnego sprawdzenia oraz będą miały pierwszeństwo przed ustawieniami globalnymi.",
+    "iframeFirst": "Wyszukaj najpierw osadzone strony",
+    "iframeFirstHint": "Przed przeszukaniem strony głównej sprawdź zawartość osadzoną na stronie",
+    "toast": {
+      "header": "Ustawienia kroków",
+      "body": "Ustawienia kroków zostały pomyślnie zapisane!"
+    }
+  },
+  "stateGuard": {
+    "action": "Poprzedni krok",
+    "status": "Wynik",
+    "title": "Strażnik stanu",
+    "add": "Dodaj warunek",
+    "info": "Ustaw regułę, która będzie kontrolować, czy ten krok ma zostać wykonany, na podstawie tego, co wydarzyło się w poprzednich krokach.",
+    "stop": "Zatrzymaj automatyzację",
+    "skip": "Pomiń ten krok",
+    "refresh": "Odśwież i spróbuj ponownie",
+    "goto": "Przejdź do kroku",
+    "proceed": "Wykonaj ten krok mimo wszystko",
+    "hint": "Co się stanie, jeśli reguła nie będzie spełniona?",
+    "toast": {
+      "header": "Strażnik stanu",
+      "body": "Stan ochrony został pomyślnie zapisany!"
+    }
+  },
+  "pageGuard": {
+    "title": "Page Guard",
+    "info": "Wykonaj ten krok tylko wtedy, gdy wartość na stronie spełnia Twój warunek.",
+    "elementFinder": "Znajdź element na stronie",
+    "condition": "Porównywać",
+    "value": "Porównaj z",
+    "valueExtractor": "Wyodrębnij liczbę lub tekst",
+    "valueExtractorHint": "Użyj wzorca, aby wyodrębnić określoną część wartości. Na przykład, wyodrębnij 24.00 z $24.00 lub 10 z 10 automatyzacji.",
+    "recheck": {
+      "title": "Jeśli warunek nie został spełniony",
+      "hint": "Wybierz, co ma się stać, jeśli warunek filtru nie zostanie spełniony.",
+      "recheck": "Sprawdź ponownie",
+      "interval": "Poczekaj przed ponownym sprawdzeniem",
+      "stop": "Zatrzymaj automatyzację",
+      "skip": "Pomiń ten krok",
+      "refresh": "Odśwież i spróbuj ponownie",
+      "goto": "Przejdź do kroku"
+    },
+    "toast": {
+      "header": "Page Guard",
+      "body": "Page Guard został pomyślnie zapisany!"
+    }
+  },
+  "schedule": {
+    "title": "Automatyzacja harmonogramu",
+    "info": "Uruchom tę automatyzację w określonym dniu i godzinie.",
+    "date": "Data",
+    "time": "Czas",
+    "repeat": "Powtórz w minutach",
+    "toast": {
+      "header": "Harmonogram",
+      "body": "Harmonogram zapisany pomyślnie!"
+    }
+  },
+  "upgradePlan": {
+    "title": "Plan aktualizacji",
+    "subtitle": "Odblokuj zaawansowane funkcje i w pełni wykorzystaj możliwości funkcji Auto Clicker AutoFill.",
+    "currentPlan": "Twój obecny plan",
+    "upgrading": "Aktualizowanie...",
+    "cancelling": "Anulowanie...",
+    "cancelPlan": "Anuluj plan",
+    "cancelConfirm": "Czy na pewno chcesz anulować subskrypcję z końcem bieżącego cyklu rozliczeniowego?",
+    "cancelError": "Nie udało się anulować subskrypcji. Spróbuj ponownie później.",
+    "cancellationScheduled": "Zaplanowano anulowanie",
+    "cancellationDetails": "Twoja subskrypcja pozostanie aktywna do następnej daty rozliczenia. Do tego czasu będziesz mieć pełny dostęp do wszystkich funkcji.",
+    "scheduledCancelDate": "Planowana data anulowania",
+    "loginRequired": "Zaloguj się, aby uaktualnić swój plan.",
+    "loginLink": "Zaloguj się",
+    "activeSubscription": "Aktywna subskrypcja:",
+    "subscriptionStatus": "Status: {{status}}",
+    "processing": "Przetwarzanie płatności i aktualizowanie subskrypcji...",
+    "upgrade": "Aktualizacja",
+    "downgrade": "Obniż",
+    "comingSoon": "Już wkrótce",
+    "cadence": {
+      "monthly": "Miesięczny",
+      "yearly": "Rocznie",
+      "savingsBadge": "2 miesiące za darmo"
+    },
+    "free": {
+      "name": "🆓 FREE",
+      "tagline": "Potężna automatyzacja dla każdego — nie wymaga konta.",
+      "perMonth": "na zawsze",
+      "cta": "Aktualny plan",
+      "includes": "Co jest zawarte:",
+      "features": {
+        "unlimitedAutomations": "Nieograniczone automatyzacje",
+        "unlimitedSteps": "Nieograniczona liczba kroków na automatyzację",
+        "loopSteps": "Powtarzaj kroki w pętli",
+        "recording": "Wizualny rejestrator kroków",
+        "allValues": "Wszystkie typy wartości — nie jest wymagane API"
+      }
+    },
+    "plus": {
+      "name": "🚀 PLUS",
+      "tagline": "Wszystko, co najważniejsze, a także szczegółowa kontrola nad wstępnym sprawdzeniem i ustawieniami w ramach jednej czynności.",
+      "perMonth": "na miesiąc",
+      "perYear": "na rok",
+      "cta": "Przejdź na Plus",
+      "includes": "Wszystko za darmo, a ponadto:",
+      "features": {
+        "noAds": "Doświadczenie bez reklam",
+        "automationLoop": "Pętla automatyzacji (powtarzanie automatyzacji)",
+        "automationMonitor": "Monitorowanie automatyki (obserwowanie i reagowanie)",
+        "automationSchedule": "Harmonogram automatyzacji",
+        "pageGuard": "Ochrona strony (bramkowanie oparte na elementach)",
+        "stepSettings": "Ustawienia i nadpisania na poziomie kroków",
+        "stepGuard": "Ochrona kroku (kontrole stanu warunkowego)"
+      }
+    },
+    "pro": {
+      "name": "🔹 PRO",
+      "tagline": "Pełna moc automatyzacji — z integracją, sztuczną inteligencją i priorytetowym wsparciem.",
+      "perMonth": "na miesiąc",
+      "perYear": "na rok",
+      "cta": "Uaktualnij do wersji Pro",
+      "includes": "Wszystko w Plus, a także:",
+      "features": {
+        "sheets": "Integracja z Arkuszami Google",
+        "discord": "Integracja z Discordem",
+        "captcha": "Rozwiązywacz captcha",
+        "openai": "Integracja OpenAI",
+        "prioritySupport": "Priorytetowe wsparcie przez Discord",
+        "gmail": "Integracja z Gmailem"
+      }
+    },
+    "lockBadgeTooltip": "Wymagany jest plan {{plan}}. Kliknij, aby się zapisać.",
+    "alternativePayment": {
+      "title": "Nie możesz skorzystać z Dodo Payments?",
+      "description": "Usługa Dodo Payments nie jest dostępna we wszystkich krajach, a w niektórych regionach obsługuje tylko karty kredytowe. Jeśli nie możesz korzystać z Dodo Payments w swoim kraju (lub potrzebujesz opcji innej niż karta), możesz zapłacić za pomocą jednej z poniższych metod:",
+      "githubSponsors": "Sponsorzy GitHub",
+      "paypal": "PayPal",
+      "instructionsTitle": "Instrukcje",
+      "step1": "Zapłać za liczbę miesięcy, na które chcesz wykupić abonament, korzystając z miesięcznej ceny planu. Na przykład: koszt za sześć miesięcy (cena miesięczna) × 6.",
+      "emailUs": "Napisz do nas",
+      "step2": "adres e-mail Twojego konta, plan i liczba miesięcy oraz dowód płatności — potwierdzenie z serwisu GitHub Sponsors lub adres e-mail PayPal / identyfikator transakcji, jeśli płaciłeś za pośrednictwem PayPal.",
+      "step3": "Ręcznie włączymy Twój plan w naszym zapleczu na liczbę miesięcy, za którą zapłaciłeś, a po upływie tego okresu plan automatycznie wygaśnie.",
+      "noteLabel": "Notatka:",
+      "note": "Ponieważ te płatności nie są przetwarzane przez nasz system automatycznej płatności, włączamy plany ręcznie, co może zająć do 72 godzin. Aby uniknąć przerwy w świadczeniu usług, zalecamy dokonywanie przedpłat za co najmniej 3–6 miesięcy z góry.",
+      "contactPrompt": "Masz inne pytanie lub po prostu chcesz się z nami skontaktować?",
+      "contactUs": "Skontaktuj się z nami"
+    }
+  },
+  "subscription": {
+    "title": "Prenumerata",
+    "changePlan": "Zmień plan",
+    "status": "Status",
+    "nextBillingDate": "Następna data rozliczenia"
+  },
+  "googleSheets": {
+    "title": "Arkusze Google",
+    "hint": "Połącz swoje konto Arkuszy Google, aby łatwo eksportować automatyzacje i dzienniki oraz śledzić historię automatyzacji w jednym miejscu.",
+    "useStable": {
+      "title": "Użyj stabilnych wersji funkcji Arkuszy Google.",
+      "message": "Aby uzyskać najlepsze rezultaty, skorzystaj z funkcji Arkuszy Google w wersji <1>Stable</1>. Wersje stabilne są dokładnie testowane, aby zapewnić niezawodną wydajność i uniknąć nieoczekiwanych problemów. Jeśli potrzebujesz pomocy, skontaktuj się z nami."
+    },
+    "loginRequired": "Proszę <1>Login</1> do swojego konta przed połączeniem z Arkuszami Google.",
+    "connect": "Połącz się z Arkuszami Google",
+    "connected": "Połączono z Arkuszami Google"
+  },
+  "sidebar": {
+    "search": "Szukaj",
+    "upgradePlan": "Plan aktualizacji",
+    "login": "Login",
+    "logout": "Wyloguj",
+    "language": "Język",
+    "learnMore": "Dowiedz się więcej",
+    "guestInitial": "mi",
+    "guestName": "Odkrywca",
+    "freePlan": "BEZPŁATNY"
+  },
+  "automations": {
+    "title": "Moje automatyzacje",
+    "count": "Automatyzacje ({{count}})",
+    "search": "Przeszukaj swoje automatyzacje...",
+    "add": "Nowy",
+    "reorder": "Zmień kolejność",
+    "reorderByName": "Zmień kolejność według nazwy",
+    "selected": "wybrany",
+    "selected_one": "Wybrano 1 automatyzację",
+    "selected_other": "{{count}} wybrane automatyzacje",
+    "selectAll": "Zaznacz wszystko",
+    "exportSelected": "Eksportuj wybrane",
+    "deleteSelected": "Usuń wybrane",
+    "cancelSelection": "Anuluj wybór",
+    "automationsWithinExtension": "automatyzacje w ramach rozszerzenia",
+    "selectAutomations": "Wybierz automatyzacje do wyeksportowania lub usunięcia",
+    "select": "Wybierać",
+    "import": "Import",
+    "filter": {
+      "all": "Wszystko",
+      "enabled": "Włączony",
+      "disabled": "Wyłączone"
+    },
+    "confirm": {
+      "delete": {
+        "title": "Usuń automatyzacje",
+        "message": "Czy na pewno chcesz usunąć wybrane automatyzacje?",
+        "message_one": "Czy na pewno chcesz usunąć wybraną automatyzację?",
+        "message_other": "Czy na pewno chcesz usunąć wybrane automatyzacje {{count}}?"
+      }
+    },
+    "toast": {
+      "header": "Automatyzacje",
+      "remove": "Automatyzacje zostały pomyślnie usunięte",
+      "remove_one": "Automatyzacja została pomyślnie usunięta",
+      "remove_other": "Automatyzacje {{count}} zostały pomyślnie usunięte",
+      "export": "Automatyzacje zostały pomyślnie wyeksportowane",
+      "export_one": "1 automatyzacja została pomyślnie wyeksportowana",
+      "export_other": "Automatyzacje {{count}} zostały pomyślnie wyeksportowane",
+      "import": "Automatyzacje zostały pomyślnie zaimportowane",
+      "import_one": "1 automatyzacja została pomyślnie zaimportowana",
+      "import_other": "Automatyzacje {{count}} zostały pomyślnie zaimportowane",
+      "reorder": "Automatyzacje zostały pomyślnie uporządkowane",
+      "alreadyExists": "Wszystkie automatyzacje już istnieją i mają identyczną treść"
+    }
+  },
+  "automation": {
+    "title": "Automatyzacja",
+    "remove": "Usunąć",
+    "duplicate": "Duplikat",
+    "enable": "Włącz",
+    "disable": "Wyłącz",
+    "disabled": "Wyłączone",
+    "edit": "Redagować",
+    "export": "Eksport",
+    "import": "Import",
+    "schedule": "Harmonogram",
+    "batch": "Ustawienia pętli",
+    "watch": "Ustawienia monitora",
+    "url": "Adres URL",
+    "name": "Nazwa",
+    "initWait": "Poczekaj przed rozpoczęciem",
+    "startTime": "Planowany czas rozpoczęcia",
+    "noConfig": "Nie znaleziono automatyzacji. Doprecyzuj wyszukiwanie.",
+    "publish": "Opublikuj",
+    "unpublish": "Cofnij publikację",
+    "published": "Opublikowany",
+    "publishedToCloud": "Opublikowano w chmurze",
+    "importing": "Importowanie...",
+    "publishing": "Wydawniczy...",
+    "publish-loginRequired": "Zaloguj się, aby opublikować tę automatyzację.",
+    "publish-ownedByOther": "Ta automatyzacja została opublikowana przez użytkownika [{{name}}]. Możesz ją skopiować na swoje konto i opublikować zmiany.",
+    "confirm": {
+      "remove": {
+        "title": "Usuń automatyzację",
+        "message": "Czy na pewno chcesz usunąć automatyzację [{{name}}]?"
+      },
+      "import": {
+        "title": "Automatyzacja importu",
+        "message": "Importowanie zastąpi obecną automatyzację, jeśli taka istnieje. Kontynuować?"
+      }
+    },
+    "toast": {
+      "header": "Automatyzacja",
+      "body": "Automatyzacja zapisana pomyślnie!",
+      "published": "Automatyzacja opublikowana pomyślnie!",
+      "unpublished": "Automatyzacja została pomyślnie wycofana z publikacji!",
+      "notPublished": "Automatyzacja nie jest publikowana.",
+      "imported": "Pomyślnie zaimportowano „{{title}}”",
+      "schedule": "Harmonogram automatyzacji został pomyślnie zapisany!",
+      "settings": "Ustawienia automatyzacji zostały pomyślnie zapisane!",
+      "add": "Automatyzacja została pomyślnie dodana",
+      "duplicate": "Automatyzacja została pomyślnie powielona"
+    },
+    "disable-tooltip": "Wyłącz tę automatyzację, aby uniemożliwić jej uruchomienie bez jej usunięcia. Możesz ją ponownie włączyć później, gdy będzie potrzebna.",
+    "enable-tooltip": "Włącz tę automatyzację, aby umożliwić jej uruchomienie. Możesz ją później ponownie wyłączyć, jeśli chcesz ją wstrzymać bez usuwania."
+  },
+  "metadata": {
+    "title": "Tytuł",
+    "description": "Opis",
+    "tags": "Tagi",
+    "tags-help": "Dodaj tagi, aby ułatwić innym odkrycie Twojej automatyzacji (rozdzielone przecinkami).",
+    "visibility": "Widoczność",
+    "commaSeparated": "Wprowadź wartości rozdzielone przecinkami"
+  },
+  "explore": {
+    "title": "Poznaj automatyzacje",
+    "search": "Automatyzacja wyszukiwania...",
+    "loadMore": "Załaduj więcej",
+    "loginToExplore": "Proszę <1>Login</1> aby zapoznać się z opublikowanymi automatyzacjami.",
+    "no-published": "Nie znaleziono automatyzacji. Bądź pierwszy, który opublikuje automatyzację!",
+    "downloads_zero": "Brak pobrań",
+    "downloads_one": "1 Pobierz",
+    "downloads_other": "{{count}} Pobrania",
+    "filter": {
+      "all": "Wszystko",
+      "mine": "Kopalnia",
+      "published": "Opublikowany"
+    },
+    "toast": {
+      "header": "Badać",
+      "import": "Automatyzacja zaimportowana pomyślnie!"
+    }
+  },
+  "automationSettings": {
+    "title": "Ustawienia automatyzacji",
+    "startType": "Tryb pracy",
+    "hotkey": "Klawisz skrótu",
+    "auto": "Automatyczny",
+    "autoHint": "<b>Automatic</b> — uruchamia się automatycznie za każdym razem, gdy strona się ładuje. Nie wymaga żadnych działań z Twojej strony.",
+    "manual": "Manual (skrót klawiszowy)",
+    "manualHint": "<b>Manual</b> — działa tylko po naciśnięciu zdefiniowanego skrótu klawiaturowego.",
+    "loadType": "Czas ładowania strony",
+    "window": "Po pełnym obciążeniu",
+    "windowHint": "<b>After Full Load</b> (zalecane) — automatyzacja rozpoczyna się po załadowaniu całej strony, łącznie z obrazami i skryptami.",
+    "document": "Podczas ładowania strony",
+    "documentHint": "<b>As Page Loads</b> — automatyzacja rozpoczyna się, gdy tylko struktura strony jest gotowa, przed załadowaniem obrazów i skryptów. Szybciej, ale może być niestabilna na niektórych stronach.",
+    "triggerUrlChange": "Uruchom nawigację po stronie",
+    "triggerUrlChangeHint": "<b>Uruchom nawigację po stronie</b> — ponownie uruchamia automatyzację po zmianie adresu strony bez konieczności pełnego przeładowania. Przydatne w Gmailu, Twitterze i innych nowoczesnych aplikacjach.",
+    "urlMatch": "Typ dopasowania adresu URL",
+    "regex": "Dopasowanie wzoru",
+    "exact": "Dokładny adres URL",
+    "startTime": "Czas rozpoczęcia (dla automatyzacji)",
+    "googleSheetsId": "Identyfikator Arkuszy Google",
+    "bypass": {
+      "title": "Omiń domyślne zachowanie przeglądarki dla klawiszy skrótu",
+      "alert": "Alarm",
+      "confirm": "Potwierdzać",
+      "prompt": "Prompt"
+    }
+  },
+  "loop": {
+    "title": "Pętla",
+    "repeat": "Powtarzać",
+    "repeatHint": "<b>Repeat</b> spowoduje ponowne uruchomienie wszystkich kroków bez przeładowywania strony w podanym odstępie czasu.",
+    "repeatInterval": "Odstęp między pętlami",
+    "repeatIntervalRange": "Odstęp między pętlami",
+    "refresh": "Odświeżać",
+    "refreshHint": "<b>Refresh</b> ponownie załaduje stronę po zakończeniu wszystkich kroków.",
+    "toast": {
+      "header": "Ustawienia pętli",
+      "body": "Ustawienia pętli zostały pomyślnie zapisane!"
+    }
+  },
+  "error": {
+    "required": "To pole jest wymagane",
+    "number": "Proszę wpisać prawidłowy numer",
+    "integer": "Proszę wprowadzić prawidłową liczbę całkowitą",
+    "positive": "Musi być liczbą dodatnią",
+    "min": "Proszę wprowadzić wartość większą lub równą {{min}}",
+    "max": "Proszę wprowadzić wartość mniejszą lub równą {{max}}",
+    "url": "Aby kontynuować, wprowadź adres URL witryny",
+    "initWait": "Proszę wpisać prawidłowy numer",
+    "scheduleDate": "Proszę wprowadzić prawidłową datę w tym formacie: 2025-12-01",
+    "scheduleTime": "Proszę wprowadzić prawidłowy czas w tym formacie: 23:59:59.000",
+    "scheduleRepeat": "Proszę podać prawidłową liczbę powtórzeń",
+    "startTime": "Proszę wprowadzić prawidłową godzinę rozpoczęcia w tym formacie: 12:12:12.000",
+    "json": "Wybrany plik nie jest prawidłowym plikiem JSON — sprawdź i spróbuj ponownie",
+    "hotKey": "Proszę użyć litery połączonej z klawiszami Ctrl, Alt lub Shift (np. Ctrl + A)",
+    "valueExtractor": "Wprowadzony wzór jest nieprawidłowy — sprawdź i spróbuj ponownie",
+    "value": "Proszę wprowadzić wartość, aby kontynuować",
+    "condition": "Aby kontynuować, wybierz warunek",
+    "elementFinder": "Proszę wpisać, jak znaleźć przedmiot na stronie",
+    "spreadsheetId": "Wprowadź prawidłowy identyfikator Arkuszy Google (44 znaki, np. 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
+    "roleLock": {
+      "header": "Wymagany plan {{plan}}",
+      "body": "Ta funkcja wymaga planu {{plan}}. Aby kontynuować, zaktualizuj plan."
+    }
+  },
+  "step": {
+    "title": "Krok",
+    "plural": "Kroki",
+    "step_one": "1 Krok",
+    "step_other": "{{count}} Kroki",
+    "add": "Dodaj krok",
+    "addBefore": "Dodaj krok powyżej",
+    "addAfter": "Dodaj krok poniżej",
+    "remove": "Usuń krok",
+    "disable": "Wyłącz krok",
+    "enable": "Włącz krok",
+    "initWait": "Opóźnienie",
+    "name": "Nazwa",
+    "elementFinder": "Cel",
+    "value": "Wartość",
+    "repeat": "Powtarzać",
+    "repeatInterval": "Interwał",
+    "defaultName": "Akcja lub skrypt użytkownika",
+    "confirm": {
+      "remove": {
+        "title": "Usuń krok",
+        "message": "Czy na pewno chcesz usunąć krok [{{name}}]?"
+      }
+    },
+    "toast": {
+      "header": "Krok",
+      "body": "Krok zapisany pomyślnie!",
+      "remove": "Krok został pomyślnie usunięty!",
+      "reorder": "Kroki uporządkowane pomyślnie!"
+    }
+  },
+  "userscript": {
+    "add": "Dodaj skrypt użytkownika",
+    "confirm": {
+      "remove": {
+        "title": "Usuń skrypt użytkownika",
+        "message": "Czy na pewno chcesz usunąć skrypt użytkownika [{{name}}]?"
+      }
+    }
+  },
+  "popover": {
+    "valueExtractor": {
+      "title": "Przykłady",
+      "attributeSelector": "Selektor atrybutów",
+      "regex": "Wyrażenie regularne"
+    },
+    "elementFinder": {
+      "getElementBy": "getElementBy",
+      "elementFinder": "Wyszukiwarka elementów",
+      "count": "Liczba elementów"
+    },
+    "value": {
+      "plainText": "Zwykły tekst",
+      "more": "więcej"
+    },
+    "flags": {
+      "title": "flagi",
+      "global": "Nie wracaj po pierwszym meczu",
+      "multiLine": "^ i $ dopasowują początek/koniec linii",
+      "insensitive": "Ignoruj wielkość liter",
+      "extended": "Ignoruj odstępy",
+      "singleLine": "Kropka pasuje do nowej linii"
+    },
+    "hotkey": {
+      "title": "Klawisz skrótu",
+      "content": "Naciśnij klawisz skrótu na klawiaturze, aby automatycznie wpisać dane w polu",
+      "hint": "Pojedyncza litera bez <kbd>Ctrl</kbd>, <kbd>Alt</kbd> lub <kbd>Shift</kbd> jest nieprawidłowa"
+    }
+  },
+  "common": {
+    "appName": "Autoklikacz - automatyczne wypełnianie",
+    "file": "Plik",
+    "error": "Błąd",
+    "save": "Zapisz",
+    "clear": "Wyczyść",
+    "cancel": "Anulować",
+    "close": "Zamknąć",
+    "download": "Pobierać",
+    "loading": "Załadunek...",
+    "disabled": "Wyłączone",
+    "remove": "Usunąć",
+    "edit": "Redagować",
+    "enable": "Włącz",
+    "disable": "Wyłącz",
+    "duplicate": "Duplikat",
+    "sec": "sek",
+    "min": "min",
+    "no": "NIE",
+    "yes": "Tak",
+    "local": "LOKALNY",
+    "dev": "ROZWÓJ",
+    "stable": "Stabilna",
+    "examples": "Przykłady",
+    "add": "Dodać",
+    "confirm": "Potwierdzać"
+  },
+  "languages": {
+    "title": "Język",
+    "en": "angielski",
+    "fr": "francuski",
+    "ko": "koreański",
+    "ca": "kataloński",
+    "hi": "hinduski",
+    "zh_CN": "chiński (uproszczony)",
+    "zh_TW": "chiński (tradycyjny)",
+    "sv": "szwedzki",
+    "pt": "portugalski",
+    "ja": "japoński",
+    "nl": "Holenderski",
+    "de": "niemiecki",
+    "es": "hiszpański",
+    "vi": "wietnamski",
+    "fi": "fiński",
+    "ar": "arabski",
+    "it": "włoski",
+    "ru": "rosyjski",
+    "id": "indonezyjski"
+  },
+  "monitor": {
+    "title": "Monitorowanie",
+    "enabled": "Włącz monitorowanie",
+    "enabledHint": "Automatyczne ponowne uruchamianie akcji po dodaniu do strony nowych pasujących elementów (np. w celu przewijania w nieskończoność, asynchronicznej zawartości)",
+    "rootSelector": "Monitoruj root",
+    "rootSelectorPlaceholder": "body",
+    "rootSelectorHint": "Selektor CSS dla kontenera do obserwacji",
+    "watchAttributes": "Atrybuty monitora",
+    "attributesPlaceholder": "style, class, hidden",
+    "attributesHint": "Lista atrybutów rozdzielonych przecinkami, które należy obserwować pod kątem zmian",
+    "debounce": "Debounce",
+    "debounceHint": "Opóźnienie przed przetworzeniem nowych elementów (1-5 sekund)",
+    "timeout": "Limit czasu",
+    "timeoutHint": "Automatyczne zatrzymanie po N minutach (1-180)",
+    "urlChange": "Zatrzymaj przy zmianie adresu URL",
+    "urlChangeHint": "Automatyczne kończenie obserwacji po zmianie adresu URL strony",
+    "toast": {
+      "header": "Monitorowanie",
+      "body": "Monitor zapisany pomyślnie!"
+    }
+  },
+  "home": {
+    "title": "Witamy w Auto Clicker - Autouzupełnianie",
+    "subtitle": "Zautomatyzuj kliknięcia i wypełnianie formularzy na dowolnej stronie internetowej, definiując cele i działania.",
+    "quickStart": {
+      "title": "Szybki przewodnik",
+      "step1": {
+        "title": "1. Zainstaluj rozszerzenie",
+        "desc": "Pobierz i zainstaluj rozszerzenie ze sklepu Chrome Web Store lub dodatków Edge."
+      },
+      "step2": {
+        "title": "2. Skonfiguruj stronę docelową",
+        "desc": "Otwórz stronę internetową, kliknij prawym przyciskiem myszy dowolny element i wybierz opcję Automatyczne klikanie - Automatyczne wypełnianie → Konfiguruj dla tego pola."
+      },
+      "step3": {
+        "title": "3. Zapisz i uruchom",
+        "desc": "Zapisz konfigurację i przeładuj stronę docelową. Automatyzacja uruchomi się automatycznie."
+      }
+    },
+    "tips": {
+      "title": "Przydatne wskazówki",
+      "tip1": {
+        "title": "Wypróbuj na stronie testowej",
+        "desc": "Otwórz test.getautoclicker.com, dodaj dwie akcje — jedną polegającą na wypełnieniu pola nazwy użytkownika i drugą polegającą na kliknięciu przycisku — a następnie zapisz i uruchom."
+      },
+      "tip2": {
+        "title": "Precyzyjne celowanie w przedmioty",
+        "desc": "Użyj ścieżek elementów, aby wskazać konkretne elementy na stronie, np. //input[@name=\"username\"], co pozwoli na bardziej niezawodną automatyzację."
+      },
+      "tip3": {
+        "title": "Radzenie sobie z powolnym ładowaniem stron",
+        "desc": "Jeśli strona ładuje się wolno przed uruchomieniem kroków, ustaw opcję „Czekaj przed rozpoczęciem” w swojej automatyzacji."
+      },
+      "tip4": {
+        "title": "Ustawienia globalne i klawisze skrótu",
+        "desc": "Skonfiguruj tryb startowy, zdefiniuj skrót klawiaturowy i dostosuj położenie paska stanu w Ustawieniach globalnych."
+      },
+      "tip5": {
+        "title": "Kliknij prawym przyciskiem myszy, aby wykonać automatyczne przechwytywanie",
+        "desc": "Kliknij prawym przyciskiem myszy dowolne pole lub przycisk na stronie i wybierz opcję Konfiguruj dla tego pola, aby automatycznie wypełnić adres URL i wyszukiwarkę elementów."
+      }
+    },
+    "videos": {
+      "title": "Przewodniki wideo",
+      "video1": {
+        "title": "Auto Clicker AutoFill – pełny przegląd"
+      },
+      "video2": {
+        "title": "Wprowadzenie do funkcji automatycznego klikania i automatycznego wypełniania"
+      },
+      "video3": {
+        "title": "Automatyczne wypełnianie formularzy"
+      },
+      "video4": {
+        "title": "Automatyczne klikanie przycisków"
+      },
+      "video5": {
+        "title": "Zaawansowane wskazówki dotyczące konfiguracji"
+      }
+    }
+  },
+  "conflictModal": {
+    "title": "Konflikt konfiguracji",
+    "conflicts": "konflikty",
+    "of": "z",
+    "description": "Wybierz sposób rozwiązania tego konfliktu.",
+    "existing": "Istniejące (przed)",
+    "incoming": "Przychodzące (po)",
+    "skip": "Pominąć",
+    "createNew": "Utwórz nowy",
+    "overwrite": "Przepisać"
+  }
+}

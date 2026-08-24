@@ -1,33 +1,33 @@
 {
   "EXT_NAME": {
-    "message": "Autoklicker - Autofyll"
+    "message": "Autoklickare - Autofyll"
   },
   "EXT_NAME_DEV": {
-    "message": "Autoklicker - Autofyll [DEV]"
+    "message": "Autoklickare - Autofyllning [DEV]"
   },
   "EXT_NAME_BETA": {
-    "message": "Autoklicker - Autofyll [BETA]"
+    "message": "Autoklickare - Autofyllning [BETA]"
   },
   "EXT_NAME_LOCAL": {
-    "message": "Autoklicker - Autofyll [LOKALT]"
+    "message": "Autoklickare - Autofyll [LOKAL]"
   },
   "EXT_SHORT_NAME": {
-    "message": "Autofyll"
+    "message": "Autoklickare - Autofyll"
   },
   "EXT_DESCRIPTION": {
-    "message": "Autofyll inmatningsfält eller autoklickknapp eller länka någonstans var som helst. Du kan konfigurera och kontrollera klickhastighetstest"
+    "message": "Fyll i inmatningsfältet eller klicka automatiskt på knappen eller länka vad som helst. Du kan konfigurera och kontrollera klickhastighetstestet."
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
-    "message": "ACF backup"
+    "message": "ACF-säkerhetskopiering"
   },
   "@ACF_BACKUP__NOTIFICATION_BACKUP": {
-    "message": "Konfigurationer säkerhetskopieras på Google Drive på $1"
+    "message": "Konfigurationerna säkerhetskopieras på Google Drive på $1"
   },
   "@ACF_BACKUP__NOTIFICATION_RESTORE": {
-    "message": "Konfigurationer återställs från Google Drive. Uppdatera konfigurationssidan för att ladda innehåll."
+    "message": "Konfigurationerna har återställts från Google Drive. Uppdatera konfigurationssidan för att ladda innehållet."
   },
   "@ACF_BACKUP__ERROR_NO_CONFIG": {
-    "message": "Inga konfigurationer hittades för säkerhetskopiering"
+    "message": "Inga konfigurationer hittades att säkerhetskopiera"
   },
   "@ACF_BACKUP__ERROR_NO_CONTENT": {
     "message": "Inget innehåll hittades i filen"
@@ -39,13 +39,13 @@
     "message": "processmetoden hittades inte"
   },
   "@CONTEXT_MENU__FIELD": {
-    "message": "★ Konfigurera för detta fält"
+    "message": "⊕ Konfigurera för detta fält"
   },
   "@CONTEXT_MENU__FIELD_POSITION": {
     "message": "⌖ Konfigurera efter position"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Sidopanel/☉ Inspelning"
+    "message": "▤ Sidopanel / ☉ Inspelning"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Fråga AI"
@@ -78,13 +78,13 @@
     "message": "Kunde inte få svar. Försök igen."
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
-    "message": "Välj element(er)"
+    "message": "Välj element"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
     "message": "Välj ett annat element"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
-    "message": "Klicka på element på sidan… (klicka för att stoppa)"
+    "message": "Klicka på element på sidan... (klicka för att stoppa)"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
     "message": "Ta bort"
@@ -126,7 +126,7 @@
     "message": "Flikar"
   },
   "@TABS__ERROR": {
-    "message": "Det gick inte att hitta det angivna flik- eller flik-ID."
+    "message": "Det gick inte att hitta den angivna fliken eller flik-ID:t."
   },
   "@ACTION__TITLE": {
     "message": "Steg"
@@ -135,7 +135,7 @@
     "message": "Användarskript"
   },
   "@ACTION__NO_NAME": {
-    "message": "inget namn"
+    "message": "utan namn"
   },
   "@ADDON__TITLE": {
     "message": "Tillägg"
@@ -150,46 +150,46 @@
     "message": "Automatisering"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
-    "message": "Element Finder är tom"
+    "message": "Elementsökaren är tom"
   },
   "@ERROR__NO_MATCH": {
-    "message": "skicket stämde inte."
+    "message": "skicket stämde inte överens."
   },
   "@ERROR__WRONG_TITLE": {
     "message": "Felaktig jämförelse"
   },
   "@ERROR__WRONG_DESCRIPTION": {
-    "message": "Större än eller mindre än operatörer kan bara jämföra siffror"
+    "message": "Operatorer som är större än eller mindre än kan bara jämföra tal"
   },
   "@ERROR__ELEMENT_FINDER_TITLE": {
     "message": "Felaktig elementsökare eller tilläggsvillkor"
   },
   "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
-    "message": "Element Finder bör rikta in sig på en kryssruta"
+    "message": "Elementsökaren bör rikta in sig på en kryssruta"
   },
   "@ERROR__INVALID_ELEMENT_FINDER": {
     "message": "Ogiltig elementsökare"
   },
   "@ERROR__NOT_FOUND_STOP": {
-    "message": "Hittade inte - STOPP"
+    "message": "Hittades inte - STOPP"
   },
   "@ERROR__NOT_FOUND_RELOAD": {
-    "message": "Hittade inte - LADDA OM"
+    "message": "Hittades inte - LADDA OM"
   },
   "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
-    "message": "Åtgärden hittades inte för Goto"
+    "message": "Åtgärd hittades inte för Goto"
   },
   "@ERROR__NO_ELEMENT_FOUND": {
-    "message": "Inget element hittades med den givna väljaren"
+    "message": "Inget element hittades med den angivna väljaren"
   },
   "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
-    "message": "Besök konfigurationssidan för att granska och uppdatera åtgärdsvillkoret för att säkerställa att konfigurationen är korrekt uppdaterad."
+    "message": "Besök konfigurationssidan för att granska och uppdatera åtgärdsvillkoret och säkerställa att konfigurationen är korrekt uppdaterad."
   },
   "@CONDITION_SATISFIED": {
-    "message": "Tillstånd tillfredsställt"
+    "message": "Tillstånd uppfyllt"
   },
   "@CONDITION_NOT_SATISFIED": {
-    "message": "Skick ej uppfyllt"
+    "message": "Skicket är inte uppfyllt"
   },
   "@ERROR": {
     "message": "Fel"
@@ -225,7 +225,7 @@
     "message": "Jämföra"
   },
   "@RECHECK_OPTION": {
-    "message": "Omkontrollalternativ"
+    "message": "Kontrollera alternativet igen"
   },
   "@DOCS": {
     "message": "Dokument"
@@ -243,6 +243,6 @@
     "message": "Prenumeration krävs"
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "Du behöver en $1-prenumeration för att få tillgång till funktionen $2."
+    "message": "Du behöver en $1-prenumeration för att få tillgång till $2-funktionen."
   }
 }

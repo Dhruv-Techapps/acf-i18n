@@ -1,0 +1,248 @@
+{
+  "EXT_NAME": {
+    "message": "Автоматично кликване - Автоматично попълване"
+  },
+  "EXT_NAME_DEV": {
+    "message": "Автоматично кликване - Автоматично попълване [DEV]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "Автоматично кликване - Автоматично попълване [БЕТА]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "Автоматично кликване - Автоматично попълване [ЛОКАЛНО]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "Автоматично кликване - Автоматично попълване"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "Поле за въвеждане на автоматично попълване или бутон за автоматично щракване или връзка към каквото и да е навсякъде. Можете да конфигурирате и проверите теста за скорост на щракване"
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "Архивиране на ACF"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "Конфигурациите са архивирани в Google Drive на адрес $1"
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "Конфигурациите са възстановени от Google Диск. Обновете страницата с конфигурации, за да заредите съдържанието."
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "Няма намерени конфигурации за архивиране"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "Не е намерено съдържание във файла"
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "не е конфигуриран"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "методът на процеса не е намерен"
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "⊕ Конфигуриране за това поле"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ Конфигуриране по позиция"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ Страничен панел / ☉ Запис"
+  },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ Попитайте ИИ"
+  },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "Автоматизации"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "Запис"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "Попитай"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "Задайте въпрос, например „Какво е цикъл?“"
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "Изпрати"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "Източници"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "Влезте, за да зададете въпрос."
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "Вход"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "Не можах да получа отговор. Моля, опитайте отново."
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
+    "message": "Изберете елементи"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
+    "message": "Изберете друг елемент"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
+    "message": "Кликнете върху елементи на страницата... (кликнете, за да спрете)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
+    "message": "Премахване"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "Търсене"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "Съвпадащи"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "Друго"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "Стартиране на запис"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "Спиране на записа"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "Започнете да попълвате формуляра..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "Ако вече сте попълнили формуляра"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "Вече е попълнено?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "кликване"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "Редактиране на автоматизация"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ Отворете страницата с конфигурацията"
+  },
+  "@TABS__TITLE": {
+    "message": "Раздели"
+  },
+  "@TABS__ERROR": {
+    "message": "Не може да се намери посоченият раздел или идентификатор на раздел."
+  },
+  "@ACTION__TITLE": {
+    "message": "Стъпка"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "Потребителски скрипт"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "без име"
+  },
+  "@ADDON__TITLE": {
+    "message": "Добавка"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "Действие Условие"
+  },
+  "@BATCH__TITLE": {
+    "message": "Цикъл"
+  },
+  "@CONFIG__TITLE": {
+    "message": "Автоматизация"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "Търсачката на елементи е празна"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "условието не съвпадаше."
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "Неправилно сравнение"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "Операторите „по-голямо от“ или „по-малко от“ могат да сравняват само числа"
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "Неправилен търсач на елементи или условие за добавка"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "Търсачът на елементи трябва да е насочен към квадратче за отметка"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "Невалиден търсач на елементи"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "Не е намерено - СТОП"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "Не е намерено - ПРЕЗАРЕЖДАНЕ"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "Не е намерено действие за Goto"
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "Не е намерен елемент с дадения селектор"
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "Моля, посетете страницата с конфигурацията, за да прегледате и актуализирате условието за действие, за да се уверите, че конфигурацията е правилно актуализирана."
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "Състояние задоволително"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "Състоянието не е удовлетворено"
+  },
+  "@ERROR": {
+    "message": "Грешка"
+  },
+  "@SCHEDULE": {
+    "message": "График"
+  },
+  "@REPEAT": {
+    "message": "повторение"
+  },
+  "@COMPLETED": {
+    "message": "Завършено"
+  },
+  "@DEFAULT": {
+    "message": "по подразбиране"
+  },
+  "@WAIT": {
+    "message": "чакай"
+  },
+  "@DISABLED": {
+    "message": "Деактивирано"
+  },
+  "@RESULT": {
+    "message": "Резултат"
+  },
+  "@GOTO": {
+    "message": "Отиди на"
+  },
+  "@RECHECK": {
+    "message": "проверете отново"
+  },
+  "@COMPARE": {
+    "message": "Сравни"
+  },
+  "@RECHECK_OPTION": {
+    "message": "Опция за повторна проверка"
+  },
+  "@DOCS": {
+    "message": "Документи"
+  },
+  "@CHAT": {
+    "message": "Чат"
+  },
+  "@ADVANCE": {
+    "message": "Аванс"
+  },
+  "@SPONSOR": {
+    "message": "Спонсор"
+  },
+  "@SUBSCRIPTION__REQUIRED": {
+    "message": "Изисква се абонамент"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "Трябва да имате абонамент за $1, за да получите достъп до функцията $2."
+  }
+}

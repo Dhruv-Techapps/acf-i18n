@@ -1,0 +1,757 @@
+{
+  "meta": {
+    "appName": "Awtomatikong Pag-click - Awtomatikong Pagpuno",
+    "logoAlt": "Awtomatikong i-click ang Awtomatikong Pagpuno ng logo"
+  },
+  "askAi": {
+    "floatingButton": "Magtanong sa AI"
+  },
+  "status": {
+    "connecting": "Kumokonekta..."
+  },
+  "links": {
+    "docs": "Mga Dokumento",
+    "blog": "Blog",
+    "configuration": "Konpigurasyon",
+    "issues": "Mga Isyu",
+    "discussion": "Talakayan",
+    "test": "Pormularyo ng Pagsasanay",
+    "contact": "Makipag-ugnayan",
+    "chat": "Makipag-chat",
+    "connect": "Kumonekta",
+    "privacy": "Pagkapribado at Patakaran",
+    "googleGroup": "Grupo ng Google"
+  },
+  "about": "Tungkol sa",
+  "social": "Panlipunan",
+  "theme": {
+    "title": "Tema",
+    "switchLight": "Lumipat sa tema na maliwanag",
+    "switchDark": "Lumipat sa madilim na tema",
+    "light": "Liwanag",
+    "dark": "Madilim",
+    "auto": "Awto"
+  },
+  "loading": "Naglo-load...",
+  "loader": {
+    "subtitle": "Nilo-load ang iyong mga automation..."
+  },
+  "loginModal": {
+    "title": "Mangyaring mag-sign in",
+    "signingIn": "Mag-sign in..."
+  },
+  "learnMore": "Matuto Nang Higit Pa",
+  "login": "Mag-login",
+  "logout": "Mag-logout",
+  "connect": "Kumonekta",
+  "disconnect": "Idiskonekta",
+  "resources": "Mga Mapagkukunan",
+  "settings": {
+    "title": "Mga Pandaigdigang Setting",
+    "additional": "Mga Karagdagang Setting",
+    "toast": {
+      "header": "Mga Setting",
+      "body": "Matagumpay na na-save ang mga setting!"
+    }
+  },
+  "notification": {
+    "title": "Ipakita ang Abiso",
+    "error": "Sa Error",
+    "step": "Pagkumpleto sa Hakbang",
+    "loop": "Pagkumpleto sa Loop",
+    "automation": "Sa pagkumpleto ng automation",
+    "sound": "Tunog ng Abiso"
+  },
+  "discord": {
+    "title": "Abiso sa Discord",
+    "loginRequired": "<1>Login</1> sa iyong account bago kumonekta sa Discord."
+  },
+  "checkIFrames": {
+    "title": "Maghanap sa Loob ng Mga Naka-embed na Pahina",
+    "hint": "Maghanap din ng mga item sa loob ng mga naka-embed na seksyon ng pahina"
+  },
+  "reloadOnError": {
+    "title": "I-refresh ang Pahina kapag May Error",
+    "hint": "Awtomatikong i-reload ang pahina kung may magkamali",
+    "contextInvalidated": "Nawalan ng bisa ang konteksto ng extension."
+  },
+  "statusBar": {
+    "title": "Status Bar",
+    "hint": "Ipakita ang status bar sa ibaba ng pahina",
+    "positions": {
+      "hide": "Itago",
+      "top-left": "Kaliwang Itaas",
+      "top-right": "Kanang Itaas",
+      "bottom-left": "Kaliwang Ibaba",
+      "bottom-right": "Ibabang Kanan"
+    }
+  },
+  "retry": {
+    "title": "Mga Pagsubok na Muling Subukan",
+    "interval": "Maghintay sa Pagitan ng mga Pagsubok Muli",
+    "intervalRange": "Maghintay sa Pagitan ng mga Pagsubok Muli",
+    "to": "sa",
+    "stop": "Itigil ang Awtomasyon",
+    "skip": "Laktawan ang Hakbang na Ito",
+    "refresh": "I-refresh at Subukang Muli",
+    "goto": "Pumunta sa Hakbang",
+    "hint": "Ano ang dapat mangyari kung ang item ay hindi matagpuan sa pahina?",
+    "unlimited-tooltip": "Itakda sa walang limitasyon para patuloy na subukan muli nang walang katiyakan hanggang sa matagpuan ang item. Gamitin nang may pag-iingat, dahil maaaring maging sanhi ito ng hindi pagtugon ng iyong browser kung hindi kailanman lilitaw ang item.",
+    "range-tooltip": "Magtakda ng saklaw upang mapataas ang pagiging random ng mga agwat ng muling pagsubok at maiwasan ang pagtuklas. Halimbawa, ang pagtatakda ng 5 hanggang 10 segundo ay pipili ng random na oras sa pagitan ng 5 at 10 segundo para sa bawat pagtatangkang muling subukan."
+  },
+  "backup": {
+    "title": "Pag-backup",
+    "lastBackup": "Huling Pag-backup:",
+    "backup": "I-backup sa Cloud",
+    "restore": "Ibalik mula sa Cloud",
+    "now": "I-backup Ngayon",
+    "autoBackup": "Awtomatikong Pag-backup",
+    "daily": "Araw-araw",
+    "weekly": "Lingguhan",
+    "monthly": "Buwan-buwan",
+    "off": "Patay",
+    "loginRequired": "<1>Login</1> sa iyong account bago kumonekta sa Google Drive.",
+    "checkingAccess": "Sinusuri ang access sa Google Drive...",
+    "connect": "Kumonekta gamit ang Google Drive",
+    "connected": "Pag-backup ng Google Drive",
+    "loadingFiles": "Nilo-load ang iyong mga file...",
+    "restoreAction": "Ibalik",
+    "delete": "Burahin",
+    "noBackup": "Walang nakitang Backup",
+    "confirm": {
+      "restore": {
+        "title": "Ibalik ang mga Awtomasyon mula sa Cloud",
+        "message": "Sigurado ka bang gusto mong ibalik ang mga automation mula sa cloud? Papalitan nito ang lahat ng iyong mga automation at hindi na maaaring i-undo."
+      }
+    },
+    "toast": {
+      "header": "Pag-backup",
+      "body": "Matagumpay na na-save ang backup!"
+    }
+  },
+  "migrationBackup": {
+    "title": "Pag-backup ng Paglipat",
+    "description": "Awtomatikong kinukuha ang mga snapshot na ito bago ang mga paglipat ng schema at hinahayaan kang siyasatin o i-export ang iyong lumang data.",
+    "loading": "Naglo-load ng mga backup ng migration...",
+    "empty": "Walang nakitang backup ng migration",
+    "download": "I-download",
+    "replaceLocalData": "Ibalik ang backup",
+    "delete": "Burahin",
+    "version": "Bersyon",
+    "unknownVersion": "Hindi Kilala",
+    "errorLoading": "Nabigong i-load ang mga backup ng migration",
+    "errorRestore": "Nabigong ibalik ang backup ng paglipat",
+    "errorDelete": "Nabigong burahin ang backup ng paglipat",
+    "confirm": {
+      "restore": {
+        "title": "Ibalik ang backup na ito",
+        "message": "Sigurado ka bang gusto mong ibalik ang backup na ito? Mapapalitan ang kasalukuyan mong mga automation at setting."
+      },
+      "delete": {
+        "title": "Burahin ang backup ng paglipat",
+        "message": "Sigurado ka bang gusto mong burahin ang backup ng migration na ito?"
+      }
+    }
+  },
+  "errorPage": {
+    "title": "Hindi mabuksan ang pahinang ito",
+    "subtitle": "Hindi ma-load ang hiniling na pahina. Tingnan ang mga detalye sa ibaba.",
+    "routeLabel": "Ruta",
+    "detailsLabel": "Mga detalye ng error",
+    "goToAutomations": "Pumunta sa mga automation",
+    "goToHome": "Umuwi ka na"
+  },
+  "reorder": {
+    "title": "Mga Awtomasyon sa Pag-order Muli",
+    "hint": "Paki-save ang lahat ng automation bago mag-order muli"
+  },
+  "extensionNotFound": {
+    "title": "Hindi Naka-install ang Extension",
+    "subTitle": "Gumagana ang pahinang ito gamit ang <b>Auto Clicker - AutoFill</b> extension para sa Chrome at Edge.",
+    "hint": "Paki-install muna ang extension para makapagsimula.",
+    "download": "i-download"
+  },
+  "versionAlert": {
+    "securityUpdate": "Kinakailangan ang Update sa Seguridad:",
+    "message": "May mas bagong bersyon ng <1>Auto Clicker at Auto Fill</1> na available at may kasamang mga pag-aayos para sa mga kamakailang natukoy na kahinaan sa seguridad.",
+    "learnMore": "Matuto nang higit pa",
+    "update": "Paki-update sa pinakabagong bersyon para manatiling protektado."
+  },
+  "stepSettings": {
+    "title": "Mga Setting ng Hakbang",
+    "info": "Ang mga setting na ito ay nalalapat lamang sa hakbang na ito at sa paunang pagsusuri nito, at uunahin ito kaysa sa iyong Mga Pandaigdigang Setting.",
+    "iframeFirst": "Hanapin muna ang mga naka-embed na pahina",
+    "iframeFirstHint": "Tumingin sa loob ng anumang naka-embed na nilalaman sa pahina bago maghanap sa pangunahing pahina",
+    "toast": {
+      "header": "Mga Setting ng Hakbang",
+      "body": "Matagumpay na na-save ang mga setting ng hakbang!"
+    }
+  },
+  "stateGuard": {
+    "action": "Nakaraang Hakbang",
+    "status": "Resulta",
+    "title": "Kondisyon ng Tagapangalaga",
+    "add": "Magdagdag ng Kondisyon",
+    "info": "Magtakda ng panuntunan upang kontrolin kung dapat bang tumakbo ang hakbang na ito, batay sa nangyari sa mga nakaraang hakbang.",
+    "stop": "Itigil ang Awtomasyon",
+    "skip": "Laktawan ang Hakbang na Ito",
+    "refresh": "I-refresh at Subukang Muli",
+    "goto": "Pumunta sa Hakbang",
+    "proceed": "Patakbuhin Pa Rin Ang Hakbang Na Ito",
+    "hint": "Ano ang dapat mangyari kung hindi nasunod ang tuntunin?",
+    "toast": {
+      "header": "Kondisyon ng Tagapangalaga",
+      "body": "Matagumpay na nai-save ang condition guard!"
+    }
+  },
+  "pageGuard": {
+    "title": "Tagapangalaga ng Pahina",
+    "info": "Patakbuhin lamang ang hakbang na ito kung ang isang halaga sa pahina ay nakakatugon sa iyong kundisyon.",
+    "elementFinder": "Hanapin ang Aytem sa Pahina",
+    "condition": "Paghambingin",
+    "value": "Ihambing sa",
+    "valueExtractor": "I-extract ang Numero o Teksto",
+    "valueExtractorHint": "Gumamit ng pattern para makuha ang isang partikular na bahagi ng value. Halimbawa, kunin ang 24.00 mula sa $24.00, o 10 mula sa 10 automation.",
+    "recheck": {
+      "title": "Kung Hindi Natugunan ang Kondisyon",
+      "hint": "Piliin kung ano ang dapat mangyari kung hindi natugunan ang kundisyon ng filter.",
+      "recheck": "Suriin Muli",
+      "interval": "Maghintay Bago Magsuri Muli",
+      "stop": "Itigil ang Awtomasyon",
+      "skip": "Laktawan ang Hakbang na Ito",
+      "refresh": "I-refresh at Subukang Muli",
+      "goto": "Pumunta sa Hakbang"
+    },
+    "toast": {
+      "header": "Tagapangalaga ng Pahina",
+      "body": "Matagumpay na na-save ang page guard!"
+    }
+  },
+  "schedule": {
+    "title": "Pag-aautomat ng Iskedyul",
+    "info": "Patakbuhin ang automation na ito sa isang partikular na petsa at oras.",
+    "date": "Petsa",
+    "time": "Oras",
+    "repeat": "Ulitin sa loob ng ilang minuto",
+    "toast": {
+      "header": "Iskedyul",
+      "body": "Matagumpay na na-save ang iskedyul!"
+    }
+  },
+  "upgradePlan": {
+    "title": "Plano ng Pag-upgrade",
+    "subtitle": "I-unlock ang mga advanced na feature at sulitin ang Auto Clicker AutoFill.",
+    "currentPlan": "Ang Iyong Kasalukuyang Plano",
+    "upgrading": "Nag-a-upgrade...",
+    "cancelling": "Kinakansela...",
+    "cancelPlan": "Kanselahin ang Plano",
+    "cancelConfirm": "Sigurado ka bang gusto mong kanselahin ang iyong subscription sa pagtatapos ng kasalukuyang billing cycle?",
+    "cancelError": "Nabigong kanselahin ang subscription. Pakisubukang muli mamaya.",
+    "cancellationScheduled": "Naka-iskedyul na Pagkansela",
+    "cancellationDetails": "Mananatiling aktibo ang iyong subscription hanggang sa susunod na petsa ng pagsingil. Patuloy kang magkakaroon ng ganap na access sa lahat ng feature hanggang sa panahong iyon.",
+    "scheduledCancelDate": "Nakatakdang Petsa ng Pagkansela",
+    "loginRequired": "Mangyaring mag-log in upang i-upgrade ang iyong plano.",
+    "loginLink": "Mag-log in",
+    "activeSubscription": "Aktibong Suskrisyon:",
+    "subscriptionStatus": "Katayuan: {{status}}",
+    "processing": "Pinoproseso ang bayad at ina-update ang iyong subscription...",
+    "upgrade": "Pag-upgrade",
+    "downgrade": "I-downgrade",
+    "comingSoon": "Malapit na",
+    "cadence": {
+      "monthly": "Buwan-buwan",
+      "yearly": "Taunan",
+      "savingsBadge": "2 buwang libre"
+    },
+    "free": {
+      "name": "🆓 FREE",
+      "tagline": "Mabisang automation para sa lahat — hindi kailangan ng account.",
+      "perMonth": "magpakailanman",
+      "cta": "Kasalukuyang Plano",
+      "includes": "Ano ang kasama:",
+      "features": {
+        "unlimitedAutomations": "Walang limitasyong mga automation",
+        "unlimitedSteps": "Walang limitasyong mga hakbang bawat automation",
+        "loopSteps": "Ulitin ang mga hakbang nang paisa-isa",
+        "recording": "Biswal na tagapagtala ng hakbang",
+        "allValues": "Lahat ng uri ng value — hindi kinakailangan ng API"
+      }
+    },
+    "plus": {
+      "name": "🚀 PLUS",
+      "tagline": "Lahat ng mahahalagang bagay, kasama ang mas malalim na kontrol sa paunang pagsusuri at mga setting sa loob ng ilang hakbang.",
+      "perMonth": "bawat buwan",
+      "perYear": "bawat taon",
+      "cta": "Mag-upgrade sa Plus",
+      "includes": "Lahat ay Libre, kasama ang:",
+      "features": {
+        "noAds": "Karanasan na walang ad",
+        "automationLoop": "Automation loop (mga paulit-ulit na automation)",
+        "automationMonitor": "Monitor ng Awtomasyon (manonood at tumugon)",
+        "automationSchedule": "Taga-iskedyul ng automation",
+        "pageGuard": "Bantay ng pahina (gating batay sa elemento)",
+        "stepSettings": "Mga setting at override sa antas ng hakbang",
+        "stepGuard": "Bantay sa hakbang (mga pagsusuri sa kondisyonal na estado)"
+      }
+    },
+    "pro": {
+      "name": "🔹 PRO",
+      "tagline": "Ang buong kapangyarihan ng automation — kasama ang mga integrasyon, AI, at suportang may prayoridad.",
+      "perMonth": "bawat buwan",
+      "perYear": "bawat taon",
+      "cta": "Mag-upgrade sa Pro",
+      "includes": "Lahat ng nasa Plus, plus:",
+      "features": {
+        "sheets": "Pagsasama ng Google Sheets",
+        "discord": "Pagsasama ng Discord",
+        "captcha": "Tagalutas ng Captcha",
+        "openai": "Pagsasama ng OpenAI",
+        "prioritySupport": "Suporta sa prayoridad sa pamamagitan ng Discord",
+        "gmail": "Pagsasama ng Gmail"
+      }
+    },
+    "lockBadgeTooltip": "Nangangailangan ng {{plan}} plan. I-click para mag-subscribe.",
+    "alternativePayment": {
+      "title": "Hindi magamit ang Dodo Payments?",
+      "description": "Hindi available ang Dodo Payments sa lahat ng bansa, at sa ilang rehiyon ay mga credit card lang ang sinusuportahan nito. Kung hindi mo magamit ang Dodo Payments sa iyong bansa (o kailangan mo ng opsyon na hindi card), maaari kang magbayad gamit ang isa sa mga ito:",
+      "githubSponsors": "Mga Sponsor ng GitHub",
+      "paypal": "PayPal",
+      "instructionsTitle": "Mga Tagubilin",
+      "step1": "Magbayad para sa bilang ng mga buwan na gusto mong mag-subscribe, gamit ang buwanang presyo ng plano. Halimbawa, anim na buwang gastos (buwanang presyo) × 6.",
+      "emailUs": "Mag-email sa amin",
+      "step2": "ang email ng iyong account, ang plano at bilang ng mga buwan, at patunay ng pagbabayad — ang resibo ng iyong GitHub Sponsors, o ang iyong PayPal email address / transaction ID kung nagbayad ka gamit ang PayPal.",
+      "step3": "Manu-mano naming ie-enable ang iyong plano mula sa aming backend para sa bilang ng mga buwan na binayaran mo, at awtomatiko itong mag-e-expire pagkatapos ng panahong iyon.",
+      "noteLabel": "Paalala:",
+      "note": "Dahil hindi pinoproseso ang mga pagbabayad na ito sa pamamagitan ng aming awtomatikong pag-checkout, manu-mano naming pinapagana ang mga plano at maaari itong tumagal nang hanggang 72 oras. Upang maiwasan ang agwat sa serbisyo, inirerekomenda namin ang paunang pagbabayad nang hindi bababa sa 3-6 na buwan sa isang pagkakataon.",
+      "contactPrompt": "May ibang tanong, o gusto lang makipag-ugnayan?",
+      "contactUs": "Makipag-ugnayan sa Amin"
+    }
+  },
+  "subscription": {
+    "title": "Suskrisyon",
+    "changePlan": "Baguhin ang Plano",
+    "status": "Katayuan",
+    "nextBillingDate": "Susunod na Petsa ng Pagsingil"
+  },
+  "googleSheets": {
+    "title": "Mga Google Sheet",
+    "hint": "Ikonekta ang iyong Google Sheets account para madaling ma-export ang iyong mga automation at log, at masubaybayan ang iyong history ng automation sa iisang lugar.",
+    "useStable": {
+      "title": "Gumamit ng mga Stable na Bersyon para sa mga Feature ng Google Sheets.",
+      "message": "Para sa pinakamahusay na resulta, gamitin ang <1>Stable</1> na bersyon ng mga feature ng Google Sheets. Ang mga stable na bersyon ay lubusang sinubukan upang matiyak ang maaasahang pagganap, na tumutulong sa iyong maiwasan ang mga hindi inaasahang isyu. Kung kailangan mo ng tulong, huwag mag-atubiling humingi ng suporta."
+    },
+    "loginRequired": "<1>Login</1> sa iyong account bago kumonekta sa Google Sheets.",
+    "connect": "Kumonekta gamit ang Google Sheets",
+    "connected": "Nakakonekta sa Google Sheets"
+  },
+  "sidebar": {
+    "search": "Maghanap",
+    "upgradePlan": "Plano ng Pag-upgrade",
+    "login": "Mag-login",
+    "logout": "Mag-logout",
+    "language": "Wika",
+    "learnMore": "Matuto Nang Higit Pa",
+    "guestInitial": "E",
+    "guestName": "Manggagalugad",
+    "freePlan": "LIBRE"
+  },
+  "automations": {
+    "title": "Aking mga Awtomasyon",
+    "count": "Mga Awtomasyon ({{count}})",
+    "search": "Hanapin ang iyong mga automation...",
+    "add": "Bago",
+    "reorder": "Ayusing muli",
+    "reorderByName": "Muling Ayusin Ayon sa Pangalan",
+    "selected": "napili",
+    "selected_one": "1 automation ang napili",
+    "selected_other": "Mga napiling automation ng {{count}}",
+    "selectAll": "Piliin lahat",
+    "exportSelected": "Napili ang pag-export",
+    "deleteSelected": "Burahin ang napili",
+    "cancelSelection": "Kanselahin ang pagpili",
+    "automationsWithinExtension": "mga automation sa loob ng extension",
+    "selectAutomations": "Pumili ng mga automation na ie-export o ide-delete",
+    "select": "Piliin",
+    "import": "I-import",
+    "filter": {
+      "all": "Lahat",
+      "enabled": "Pinagana",
+      "disabled": "Naka-disable"
+    },
+    "confirm": {
+      "delete": {
+        "title": "Burahin ang mga Awtomasyon",
+        "message": "Sigurado ka bang gusto mong burahin ang mga napiling automation?",
+        "message_one": "Sigurado ka bang gusto mong burahin ang napiling automation?",
+        "message_other": "Sigurado ka bang gusto mong burahin ang mga napiling automation ng {{count}}?"
+      }
+    },
+    "toast": {
+      "header": "Mga Awtomasyon",
+      "remove": "Matagumpay na naalis ang mga automation",
+      "remove_one": "Matagumpay na naalis ang automation",
+      "remove_other": "Matagumpay na naalis ang mga automation ng {{count}}",
+      "export": "Matagumpay na na-export ang mga automation",
+      "export_one": "Matagumpay na na-export ang 1 automation",
+      "export_other": "Matagumpay na na-export ang mga automation ng {{count}}",
+      "import": "Matagumpay na na-import ang mga automation",
+      "import_one": "Matagumpay na na-import ang 1 automation",
+      "import_other": "Matagumpay na na-import ang mga automation ng {{count}}",
+      "reorder": "Matagumpay na na-reorder ang mga automation",
+      "alreadyExists": "Lahat ng automation ay mayroon nang magkakaparehong nilalaman"
+    }
+  },
+  "automation": {
+    "title": "Awtomasyon",
+    "remove": "Alisin",
+    "duplicate": "Duplikado",
+    "enable": "Paganahin",
+    "disable": "Huwag paganahin",
+    "disabled": "Naka-disable",
+    "edit": "I-edit",
+    "export": "I-export",
+    "import": "I-import",
+    "schedule": "Iskedyul",
+    "batch": "Mga Setting ng Pag-ikot",
+    "watch": "Mga Setting ng Monitor",
+    "url": "URL",
+    "name": "Pangalan",
+    "initWait": "Maghintay Bago Magsimula",
+    "startTime": "Nakatakdang Oras ng Pagsisimula",
+    "noConfig": "Walang nakitang automation. Pakipino ang iyong paghahanap.",
+    "publish": "I-publish",
+    "unpublish": "I-unpublish",
+    "published": "Na-publish",
+    "publishedToCloud": "Na-publish sa cloud",
+    "importing": "Nag-i-import...",
+    "publishing": "Inilalathala...",
+    "publish-loginRequired": "Mangyaring mag-login upang i-publish ang automation na ito.",
+    "publish-ownedByOther": "Ang automation na ito ay inilathala ng user na [{{name}}]. Maaari mo itong i-duplicate sa iyong account at i-publish ang iyong mga pagbabago.",
+    "confirm": {
+      "remove": {
+        "title": "Alisin ang Awtomasyon",
+        "message": "Sigurado ka bang gusto mong alisin ang automation na [{{name}}]?"
+      },
+      "import": {
+        "title": "Awtomasyon sa Pag-import",
+        "message": "Papalitan ng pag-import ang kasalukuyan mong automation kung mayroon man. Magpatuloy?"
+      }
+    },
+    "toast": {
+      "header": "Awtomasyon",
+      "body": "Matagumpay na na-save ang automation!",
+      "published": "Matagumpay na nai-publish ang automation!",
+      "unpublished": "Matagumpay na na-unpublish ang automation!",
+      "notPublished": "Hindi pa nailalathala ang automation.",
+      "imported": "Matagumpay na na-import ang '{{title}}'",
+      "schedule": "Matagumpay na na-save ang iskedyul ng automation!",
+      "settings": "Matagumpay na na-save ang mga setting ng automation!",
+      "add": "Matagumpay na naidagdag ang automation",
+      "duplicate": "Matagumpay na nadoble ang automation"
+    },
+    "disable-tooltip": "I-disable ang automation na ito para maiwasan itong tumakbo nang hindi binubura. Maaari mo itong paganahin muli sa ibang pagkakataon kapag kailangan mo ito.",
+    "enable-tooltip": "Paganahin ang automation na ito upang payagan itong tumakbo. Maaari mo itong i-disable muli sa ibang pagkakataon kung gusto mo itong i-pause nang hindi binubura."
+  },
+  "metadata": {
+    "title": "Pamagat",
+    "description": "Paglalarawan",
+    "tags": "Mga Tag",
+    "tags-help": "Magdagdag ng mga tag para matulungan ang iba na matuklasan ang iyong automation (pinaghihiwalay ng kuwit).",
+    "visibility": "Visibility",
+    "commaSeparated": "Maglagay ng mga halagang pinaghihiwalay ng kuwit"
+  },
+  "explore": {
+    "title": "Galugarin ang mga Awtomasyon",
+    "search": "Mga automation sa paghahanap...",
+    "loadMore": "Magkarga Pa",
+    "loginToExplore": "<1>Login</1> para galugarin ang mga nailathalang automation.",
+    "no-published": "Walang nakitang mga automation. Maging una na mag-publish nito!",
+    "downloads_zero": "Walang mga download",
+    "downloads_one": "1 Pag-download",
+    "downloads_other": "{{count}} Mga Download",
+    "filter": {
+      "all": "Lahat",
+      "mine": "Akin",
+      "published": "Na-publish"
+    },
+    "toast": {
+      "header": "Galugarin",
+      "import": "Matagumpay na na-import ang automation!"
+    }
+  },
+  "automationSettings": {
+    "title": "Mga Setting ng Awtomasyon",
+    "startType": "Mode ng Pagtakbo",
+    "hotkey": "Hotkey",
+    "auto": "Awtomatiko",
+    "autoHint": "<b>Automatic</b> — tumatakbo nang mag-isa sa tuwing naglo-load ang pahina. Hindi mo kailangan ng aksyon.",
+    "manual": "Manwal (Hotkey)",
+    "manualHint": "<b>Manual</b> — tatakbo lamang kapag pinindot mo ang iyong tinukoy na shortcut sa keyboard.",
+    "loadType": "Oras ng Pag-load ng Pahina",
+    "window": "Pagkatapos ng Buong Karga",
+    "windowHint": "<b>Pagkatapos ng Punong Pagkarga</b> (Rekomendado) — magsisimula ang automation pagkatapos ma-load ang buong pahina kabilang ang mga imahe at script.",
+    "document": "Habang Naglo-load ang Pahina",
+    "documentHint": "<b>As Page Loads</b> — magsisimula ang automation sa sandaling handa na ang istruktura ng pahina, bago matapos ang paglo-load ng mga imahe at script. Mas mabilis ngunit maaaring hindi matatag sa ilang pahina.",
+    "triggerUrlChange": "Patakbuhin ang Nabigasyon sa Pahina",
+    "triggerUrlChangeHint": "<b>Run on Page Navigation</b> — muling pinapatakbo ang automation kapag nagbago ang address ng pahina nang walang ganap na pag-reload. Kapaki-pakinabang para sa Gmail, Twitter, at iba pang modernong app.",
+    "urlMatch": "Uri ng Pagtutugma ng URL",
+    "regex": "Pagtutugma ng Pattern",
+    "exact": "Eksaktong URL",
+    "startTime": "Oras ng Pagsisimula (Para sa mga Awtomasyon)",
+    "googleSheetsId": "ID ng Google Sheets",
+    "bypass": {
+      "title": "Laktawan ang Default na Pag-uugali ng Browser para sa mga Hotkey",
+      "alert": "Alerto",
+      "confirm": "Kumpirmahin",
+      "prompt": "Prompt"
+    }
+  },
+  "loop": {
+    "title": "Loop",
+    "repeat": "Ulitin",
+    "repeatHint": "Muling tatakbo ang <b>Repeat</b> sa lahat ng hakbang nang hindi nire-reload ang pahina gamit ang ibinigay na pagitan.",
+    "repeatInterval": "Pagitan sa Pagitan ng mga Loop",
+    "repeatIntervalRange": "Pagitan sa Pagitan ng mga Loop",
+    "refresh": "I-refresh",
+    "refreshHint": "Ire-reload ng <b>Refresh</b> ang pahina kapag nakumpleto na ang lahat ng hakbang.",
+    "toast": {
+      "header": "Mga Setting ng Pag-ikot",
+      "body": "Matagumpay na na-save ang mga setting ng loop!"
+    }
+  },
+  "error": {
+    "required": "Kinakailangan ang patlang na ito",
+    "number": "Mangyaring maglagay ng wastong numero",
+    "integer": "Mangyaring maglagay ng wastong integer",
+    "positive": "Dapat ay isang positibong numero",
+    "min": "Mangyaring maglagay ng halagang mas malaki o katumbas ng {{min}}",
+    "max": "Mangyaring maglagay ng halagang mas mababa sa o katumbas ng {{max}}",
+    "url": "Mangyaring maglagay ng URL ng website upang magpatuloy",
+    "initWait": "Mangyaring maglagay ng wastong numero",
+    "scheduleDate": "Mangyaring maglagay ng wastong petsa sa ganitong format: 2025-12-01",
+    "scheduleTime": "Mangyaring maglagay ng wastong oras sa format na ito: 23:59:59.000",
+    "scheduleRepeat": "Mangyaring maglagay ng wastong numero kung ilang beses dapat uulitin",
+    "startTime": "Mangyaring maglagay ng wastong oras ng pagsisimula sa format na ito: 12:12:12.000",
+    "json": "Ang napiling file ay hindi isang wastong JSON — pakisuri at subukang muli",
+    "hotKey": "Gumamit ng letrang pinagsama sa Ctrl, Alt, o Shift (hal. Ctrl + A)",
+    "valueExtractor": "Hindi wasto ang pattern na iyong inilagay — pakisuri at subukang muli",
+    "value": "Mangyaring maglagay ng halaga upang magpatuloy",
+    "condition": "Pumili ng kundisyon para magpatuloy",
+    "elementFinder": "Pakilagay kung paano hanapin ang item sa pahina",
+    "spreadsheetId": "Mangyaring maglagay ng wastong Google Sheets ID (44 na karakter, hal. 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
+    "roleLock": {
+      "header": "Kinakailangan ang Plano ng {{plan}}",
+      "body": "Ang feature na ito ay nangangailangan ng {{plan}} plan. Mangyaring mag-upgrade upang magpatuloy."
+    }
+  },
+  "step": {
+    "title": "Hakbang",
+    "plural": "Mga Hakbang",
+    "step_one": "1 Hakbang",
+    "step_other": "{{count}} Mga Hakbang",
+    "add": "Magdagdag ng Hakbang",
+    "addBefore": "Magdagdag ng Hakbang sa Itaas",
+    "addAfter": "Magdagdag ng Hakbang sa Ibaba",
+    "remove": "Alisin ang Hakbang",
+    "disable": "Huwag paganahin ang Hakbang",
+    "enable": "Paganahin ang Hakbang",
+    "initWait": "Pagkaantala",
+    "name": "Pangalan",
+    "elementFinder": "Target",
+    "value": "Value",
+    "repeat": "Ulitin",
+    "repeatInterval": "Pagitan",
+    "defaultName": "Aksyon o Userscript",
+    "confirm": {
+      "remove": {
+        "title": "Alisin ang Hakbang",
+        "message": "Sigurado ka bang gusto mong alisin ang hakbang na [{{name}}]?"
+      }
+    },
+    "toast": {
+      "header": "Hakbang",
+      "body": "Matagumpay na na-save ang hakbang!",
+      "remove": "Matagumpay na natanggal ang hakbang!",
+      "reorder": "Matagumpay na naayos muli ang mga hakbang!"
+    }
+  },
+  "userscript": {
+    "add": "Magdagdag ng Script ng Gumagamit",
+    "confirm": {
+      "remove": {
+        "title": "Alisin ang Script ng Gumagamit",
+        "message": "Sigurado ka bang gusto mong alisin ang [{{name}}] User Script?"
+      }
+    }
+  },
+  "popover": {
+    "valueExtractor": {
+      "title": "Mga Halimbawa",
+      "attributeSelector": "Tagapili ng Katangian",
+      "regex": "Regex"
+    },
+    "elementFinder": {
+      "getElementBy": "getElementBy",
+      "elementFinder": "Tagahanap ng Elemento",
+      "count": "# ng mga elemento"
+    },
+    "value": {
+      "plainText": "Simpleng teksto",
+      "more": "higit pa"
+    },
+    "flags": {
+      "title": "mga bandila",
+      "global": "Huwag nang bumalik pagkatapos ng unang laban",
+      "multiLine": "^ at $ tugma simula/katapusan ng linya",
+      "insensitive": "Balewalain ang malalaking titik",
+      "extended": "Balewalain ang whitespace",
+      "singleLine": "Tugma ang tuldok sa bagong linya"
+    },
+    "hotkey": {
+      "title": "Hotkey",
+      "content": "Pindutin ang hotkey sa keyboard para awtomatikong mag-type sa field",
+      "hint": "Hindi wasto ang isang letra na walang <kbd>Ctrl</kbd>, <kbd>Alt</kbd> o <kbd>Shift</kbd>"
+    }
+  },
+  "common": {
+    "appName": "Awtomatikong Pag-click - Awtomatikong Pagpuno",
+    "file": "File",
+    "error": "Mali",
+    "save": "I-save",
+    "clear": "I-clear",
+    "cancel": "Kanselahin",
+    "close": "Isara",
+    "download": "I-download",
+    "loading": "Naglo-load...",
+    "disabled": "Naka-disable",
+    "remove": "Alisin",
+    "edit": "I-edit",
+    "enable": "Paganahin",
+    "disable": "Huwag paganahin",
+    "duplicate": "Duplikado",
+    "sec": "segundo",
+    "min": "minuto",
+    "no": "Hindi",
+    "yes": "Oo",
+    "local": "LOKAL",
+    "dev": "DEV",
+    "stable": "Matatag",
+    "examples": "Mga Halimbawa",
+    "add": "Idagdag",
+    "confirm": "Kumpirmahin"
+  },
+  "languages": {
+    "title": "Wika",
+    "en": "Ingles",
+    "fr": "Pranses",
+    "ko": "Koreano",
+    "ca": "Katalan",
+    "hi": "Hindi",
+    "zh_CN": "Tsino (Pinasimple)",
+    "zh_TW": "Tsino (Tradisyonal)",
+    "sv": "Suweko",
+    "pt": "Portuges",
+    "ja": "Hapon",
+    "nl": "Olandes",
+    "de": "Aleman",
+    "es": "Espanyol",
+    "vi": "Vietnamese",
+    "fi": "Pinlandes",
+    "ar": "Arabe",
+    "it": "Italyano",
+    "ru": "Ruso",
+    "id": "Indones"
+  },
+  "monitor": {
+    "title": "Monitoring",
+    "enabled": "Paganahin ang Pagsubaybay",
+    "enabledHint": "Awtomatikong muling patakbuhin ang mga aksyon kapag may mga bagong tumutugmang elemento na idinagdag sa pahina (hal., para sa walang katapusang pag-scroll, async na nilalaman)",
+    "rootSelector": "Subaybayan ang Ugat",
+    "rootSelectorPlaceholder": "body",
+    "rootSelectorHint": "CSS selector para sa container na obserbahan",
+    "watchAttributes": "Mga Katangian ng Monitor",
+    "attributesPlaceholder": "style, class, hidden",
+    "attributesHint": "Listahan ng mga katangiang pinaghihiwalay ng kuwit na dapat obserbahan para sa mga pagbabago",
+    "debounce": "Debounce",
+    "debounceHint": "Pagkaantala bago iproseso ang mga bagong elemento (1-5 segundo)",
+    "timeout": "Timeout",
+    "timeoutHint": "Awtomatikong hihinto pagkatapos ng N minuto (1-180)",
+    "urlChange": "Itigil sa Pagbabago ng URL",
+    "urlChangeHint": "Awtomatikong humihinto sa panonood kapag nagbago ang URL ng pahina",
+    "toast": {
+      "header": "Monitoring",
+      "body": "Matagumpay na na-save ang monitor!"
+    }
+  },
+  "home": {
+    "title": "Maligayang pagdating sa Auto Clicker - AutoFill",
+    "subtitle": "I-automate ang mga pag-click at pagpuno ng form sa anumang website sa pamamagitan ng pagtukoy ng mga target at aksyon.",
+    "quickStart": {
+      "title": "Gabay sa Mabilisang Pagsisimula",
+      "step1": {
+        "title": "1. I-install ang Extension",
+        "desc": "I-download at i-install ang extension mula sa Chrome Web Store o Edge Add-ons."
+      },
+      "step2": {
+        "title": "2. I-configure ang isang Target na Pahina",
+        "desc": "Magbukas ng web page, i-right-click ang anumang elemento at piliin ang Auto Clicker - AutoFill → Configure for this Field."
+      },
+      "step3": {
+        "title": "3. I-save at Patakbuhin",
+        "desc": "I-save ang iyong configuration at i-reload ang target na pahina. Awtomatikong tatakbo ang automation."
+      }
+    },
+    "tips": {
+      "title": "Mga Nakatutulong na Tip",
+      "tip1": {
+        "title": "Subukan sa Pahina ng Pagsubok",
+        "desc": "Buksan ang test.getautoclicker.com, magdagdag ng dalawang aksyon — isa para punan ang field ng username at isa para mag-click ng button — pagkatapos ay i-save at patakbuhin."
+      },
+      "tip2": {
+        "title": "I-target ang mga Aytem Nang Tumpak",
+        "desc": "Gumamit ng mga element path para i-target ang mga partikular na item sa isang page, tulad ng //input[@name=\"username\"], para sa mas maaasahang automation."
+      },
+      "tip3": {
+        "title": "Pangasiwaan ang Mabagal na Pag-load ng Pahina",
+        "desc": "Magtakda ng Wait Before Start sa iyong automation kung mabagal mag-load ang page bago pa man tumakbo ang mga hakbang mo."
+      },
+      "tip4": {
+        "title": "Mga Pandaigdigang Setting at Hotkey",
+        "desc": "I-configure ang start mode, magtakda ng keyboard shortcut, at isaayos ang posisyon ng status bar sa Mga Pandaigdigang Setting."
+      },
+      "tip5": {
+        "title": "Mag-right-click para sa Auto-Capture",
+        "desc": "I-right-click ang anumang input o button sa isang pahina at piliin ang Configure for this Field para awtomatikong punan ang URL at Element Finder."
+      }
+    },
+    "videos": {
+      "title": "Mga Gabay sa Video",
+      "video1": {
+        "title": "Auto Clicker AutoFill - Kumpletong Pangkalahatang-ideya"
+      },
+      "video2": {
+        "title": "Pagsisimula sa Auto Clicker AutoFill"
+      },
+      "video3": {
+        "title": "Awtomatikong Pinupuno ang mga Form"
+      },
+      "video4": {
+        "title": "Awtomatikong I-click ang mga Button"
+      },
+      "video5": {
+        "title": "Mga Tip sa Advanced na Pag-configure"
+      }
+    }
+  },
+  "conflictModal": {
+    "title": "Salungatan sa Konfigurasyon",
+    "conflicts": "mga tunggalian",
+    "of": "ng",
+    "description": "Mangyaring piliin kung paano lulutasin ang tunggalian na ito.",
+    "existing": "Umiiral (Bago)",
+    "incoming": "Papasok (Pagkatapos)",
+    "skip": "Laktawan",
+    "createNew": "Gumawa ng Bago",
+    "overwrite": "I-overwrite"
+  }
+}

@@ -25,6 +25,7 @@ const readJson = async (filePath) => {
 
 const clean = async () => {
   let cleanedCount = 0;
+  let failedCount = 0;
 
   for (const fileName of FILES) {
     const sourcePath = path.join(LOCALES_ROOT, SOURCE_LOCALE, fileName);
@@ -36,8 +37,13 @@ const clean = async () => {
       let targetJson;
       try {
         targetJson = await readJson(targetPath);
-      } catch {
-        console.warn(`Skipping ${targetPath}: not found or invalid JSON`);
+      } catch (error) {
+        // A read failure here isn't "nothing to clean" - it's a locale file
+        // that's missing or broken, which is worse. Reporting it the same
+        // way as a clean pass ("no extra properties found") let this
+        // command claim success while a locale file silently went missing.
+        console.error(`Failed to read ${targetPath}: ${error instanceof Error ? error.message : String(error)}`);
+        failedCount++;
         continue;
       }
 
@@ -53,10 +59,14 @@ const clean = async () => {
     }
   }
 
-  if (cleanedCount === 0) {
+  if (cleanedCount === 0 && failedCount === 0) {
     console.log('No extra properties found. All locale files are clean.');
-  } else {
+  } else if (cleanedCount > 0) {
     console.log(`\nCleaned ${cleanedCount} file(s).`);
+  }
+  if (failedCount > 0) {
+    console.error(`\n${failedCount} file(s) could not be read - fix these before trusting the result above.`);
+    process.exitCode = 1;
   }
 };
 

@@ -6,28 +6,28 @@
     "message": "Clic automatique - Remplissage automatique [DEV]"
   },
   "EXT_NAME_BETA": {
-    "message": "Clic automatique – Remplissage automatique [BÊTA]"
+    "message": "Clic automatique - Remplissage automatique [BÊTA]"
   },
   "EXT_NAME_LOCAL": {
     "message": "Clic automatique - Remplissage automatique [LOCAL]"
   },
   "EXT_SHORT_NAME": {
-    "message": "Remplissage automatique"
+    "message": "Clic automatique - Remplissage automatique"
   },
   "EXT_DESCRIPTION": {
-    "message": "Champ de saisie automatique ou bouton de clic automatique ou de lien n'importe quoi n'importe où. Vous pouvez configurer et vérifier le test de vitesse de clic"
+    "message": "Remplissez automatiquement les champs de saisie, cliquez automatiquement sur les boutons ou créez des liens n'importe où. Vous pouvez configurer et tester la vitesse de clic."
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
     "message": "Sauvegarde ACF"
   },
   "@ACF_BACKUP__NOTIFICATION_BACKUP": {
-    "message": "Les configurations sont sauvegardées sur Google Drive à $1"
+    "message": "Les configurations sont sauvegardées sur Google Drive à l'adresse $1"
   },
   "@ACF_BACKUP__NOTIFICATION_RESTORE": {
-    "message": "Les configurations sont restaurées à partir de Google Drive. Actualisez la page des configurations pour charger le contenu."
+    "message": "Les configurations sont restaurées depuis Google Drive. Actualisez la page des configurations pour charger le contenu."
   },
   "@ACF_BACKUP__ERROR_NO_CONFIG": {
-    "message": "Aucune configuration trouvée pour sauvegarder"
+    "message": "Aucune configuration à sauvegarder trouvée"
   },
   "@ACF_BACKUP__ERROR_NO_CONTENT": {
     "message": "Aucun contenu trouvé dans le fichier"
@@ -36,16 +36,16 @@
     "message": "n'est pas configuré"
   },
   "@PORT__METHOD_NOT_FOUND": {
-    "message": "La méthode de processus n'est pas trouvée"
+    "message": "La méthode de traitement est introuvable."
   },
   "@CONTEXT_MENU__FIELD": {
-    "message": "★ Configurer pour ce champ"
+    "message": "⊕ Configurer ce champ"
   },
   "@CONTEXT_MENU__FIELD_POSITION": {
     "message": "⌖ Configurer par position"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Panneau latéral/☉ Disque"
+    "message": "▤ Panneau latéral / ☉ Enregistrement"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Demandez à l'IA"
@@ -78,13 +78,13 @@
     "message": "Impossible d'obtenir une réponse. Veuillez réessayer."
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
-    "message": "Sélectionner un ou plusieurs éléments"
+    "message": "Sélectionner les éléments"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
     "message": "Sélectionnez un autre élément"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
-    "message": "Cliquez sur les éléments de la page… (cliquez pour arrêter)"
+    "message": "Cliquez sur les éléments de la page... (cliquez pour arrêter)"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
     "message": "Retirer"
@@ -120,13 +120,13 @@
     "message": "Automatisation de la modification"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
-    "message": "↗ Page de configuration ouvrir"
+    "message": "↗ Ouvrir la page de configuration"
   },
   "@TABS__TITLE": {
     "message": "Onglets"
   },
   "@TABS__ERROR": {
-    "message": "Impossible de localiser l'onglet ou l'id d'onglet spécifié."
+    "message": "Impossible de localiser l'onglet spécifié ou son identifiant."
   },
   "@ACTION__TITLE": {
     "message": "Étape"
@@ -150,40 +150,40 @@
     "message": "Automatisation"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
-    "message": "Le chercheur d'élément est vide"
+    "message": "L'élément Finder est vide."
   },
   "@ERROR__NO_MATCH": {
-    "message": "l'état ne correspondait pas."
+    "message": "La condition ne correspondait pas."
   },
   "@ERROR__WRONG_TITLE": {
     "message": "Comparaison incorrecte"
   },
   "@ERROR__WRONG_DESCRIPTION": {
-    "message": "Supérieur ou inférieur aux opérateurs ne peut comparer que les nombres"
+    "message": "Les opérateurs « supérieur à » et « inférieur à » ne peuvent comparer que des nombres."
   },
   "@ERROR__ELEMENT_FINDER_TITLE": {
-    "message": "Finder d'élément incorrect ou condition addon"
+    "message": "condition de recherche d'éléments ou d'extension incorrecte"
   },
   "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
-    "message": "Element Finder doit cibler une case à cocher"
+    "message": "L'outil de recherche d'éléments doit cibler une case à cocher."
   },
   "@ERROR__INVALID_ELEMENT_FINDER": {
-    "message": "Finder d'élément non valide"
+    "message": "Détecteur d'éléments invalides"
   },
   "@ERROR__NOT_FOUND_STOP": {
-    "message": "Non trouvé - Arrêtez"
+    "message": "Introuvable - STOP"
   },
   "@ERROR__NOT_FOUND_RELOAD": {
-    "message": "Non trouvé - Reload"
+    "message": "Introuvable - RECHARGER"
   },
   "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
-    "message": "Action non trouvée pour Goto"
+    "message": "Action introuvable pour Aller à"
   },
   "@ERROR__NO_ELEMENT_FOUND": {
-    "message": "Aucun élément trouvé avec le sélecteur donné"
+    "message": "Aucun élément trouvé avec le sélecteur donné."
   },
   "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
-    "message": "Veuillez visiter la page de configuration pour vérifier et mettre à jour la condition d'action afin de vous assurer que la configuration est correctement mise à jour."
+    "message": "Veuillez consulter la page de configuration pour examiner et mettre à jour la condition d'action afin de garantir que la configuration est correctement mise à jour."
   },
   "@CONDITION_SATISFIED": {
     "message": "Condition satisfaite"
@@ -225,7 +225,7 @@
     "message": "Comparer"
   },
   "@RECHECK_OPTION": {
-    "message": "Recentrique"
+    "message": "Option de revérification"
   },
   "@DOCS": {
     "message": "Documents"

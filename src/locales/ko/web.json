@@ -34,7 +34,7 @@
   },
   "loading": "로딩 중...",
   "loader": {
-    "subtitle": "자동화를 불러오는 중..."
+    "subtitle": "자동화 기능을 불러오는 중..."
   },
   "loginModal": {
     "title": "로그인해 주세요",
@@ -56,7 +56,7 @@
   },
   "notification": {
     "title": "알림 표시",
-    "error": "오류가 발생했습니다",
+    "error": "오류 발생 시",
     "step": "단계 완료 시",
     "loop": "루프 완료 시",
     "automation": "자동화 완료 시",
@@ -112,7 +112,7 @@
     "off": "끄다",
     "loginRequired": "Google Drive에 연결하기 전에 계정에 <1>로그인</1>하십시오.",
     "checkingAccess": "구글 드라이브 접근 권한을 확인하는 중...",
-    "connect": "Google Drive에 연결하세요",
+    "connect": "Google Drive에 연결",
     "connected": "Google 드라이브 백업",
     "loadingFiles": "파일을 불러오는 중...",
     "restoreAction": "복원하다",
@@ -167,7 +167,7 @@
   },
   "extensionNotFound": {
     "title": "확장 프로그램이 설치되지 않았습니다",
-    "subTitle": "이 페이지는 Chrome 및 Edge용 <b>Auto Clicker - AutoFill</b> 확장 프로그램과 연동됩니다.",
+    "subTitle": "이 페이지는 Chrome 및 Edge용 <b>Auto Clicker - AutoFill</b> 확장 프로그램과 함께 작동합니다.",
     "hint": "먼저 확장 프로그램을 설치해 주세요.",
     "download": "다운로드"
   },
@@ -190,7 +190,7 @@
   "stateGuard": {
     "action": "이전 단계",
     "status": "결과",
-    "title": "주 방위군",
+    "title": "조건 가드",
     "add": "조건 추가",
     "info": "이전 단계에서 발생한 상황에 따라 이 단계를 실행할지 여부를 제어하는 규칙을 설정하세요.",
     "stop": "자동화 중지",
@@ -200,8 +200,8 @@
     "proceed": "그래도 이 단계를 실행하세요",
     "hint": "규칙이 지켜지지 않으면 어떻게 되어야 할까요?",
     "toast": {
-      "header": "주 방위군",
-      "body": "주 방위군을 성공적으로 구출했습니다!"
+      "header": "조건 가드",
+      "body": "상태 가드가 성공적으로 저장되었습니다!"
     }
   },
   "pageGuard": {
@@ -229,7 +229,7 @@
   },
   "schedule": {
     "title": "일정 자동화",
-    "info": "이 자동화 기능을 특정 날짜와 시간에 실행합니다.",
+    "info": "이 자동화 기능을 특정 날짜와 시간에 실행하세요.",
     "date": "날짜",
     "time": "시간",
     "repeat": "몇 분 안에 반복됩니다",
@@ -259,12 +259,12 @@
     "downgrade": "다운그레이드",
     "comingSoon": "곧 출시 예정",
     "cadence": {
-      "monthly": "월간",
+      "monthly": "월간 간행물",
       "yearly": "매년",
-      "savingsBadge": "10% 할인"
+      "savingsBadge": "2개월 무료"
     },
     "free": {
-      "name": "🆓 무료",
+      "name": "🆓 FREE",
       "tagline": "누구나 사용할 수 있는 강력한 자동화 기능 - 계정 필요 없음",
       "perMonth": "영원히",
       "cta": "현재 계획",
@@ -273,12 +273,12 @@
         "unlimitedAutomations": "무제한 자동화",
         "unlimitedSteps": "자동화당 단계 수 제한 없음",
         "loopSteps": "단계를 반복합니다.",
-        "recording": "시각적 걸음 수 기록기",
+        "recording": "시각적 단계 기록기",
         "allValues": "모든 값 유형 - API 필요 없음"
       }
     },
     "plus": {
-      "name": "🚀 플러스",
+      "name": "🚀 PLUS",
       "tagline": "모든 필수 기능은 물론, 단계별 사전 점검 및 설정에 대한 더욱 심층적인 제어 기능까지 제공합니다.",
       "perMonth": "월",
       "perYear": "연간",
@@ -295,7 +295,7 @@
       }
     },
     "pro": {
-      "name": "🔹 프로",
+      "name": "🔹 PRO",
       "tagline": "통합 기능, AI, 우선 지원 등 자동화의 모든 기능을 활용하세요.",
       "perMonth": "월",
       "perYear": "연간",
@@ -303,14 +303,14 @@
       "includes": "플러스의 모든 기능에 더해 다음이 추가됩니다:",
       "features": {
         "sheets": "Google Sheets 연동",
-        "discord": "디스코드 알림",
+        "discord": "디스코드 연동",
         "captcha": "캡차 해결사",
         "openai": "OpenAI 통합",
         "prioritySupport": "디스코드를 통한 우선 지원",
         "gmail": "Gmail 연동"
       }
     },
-    "lockBadgeTooltip": "{{plan}} 플랜이 필요합니다. 구독하려면 클릭하세요.",
+    "lockBadgeTooltip": "{{plan}} 요금제가 필요합니다. 구독하려면 클릭하세요.",
     "alternativePayment": {
       "title": "Dodo Payments를 사용할 수 없으신가요?",
       "description": "Dodo Payments는 모든 국가에서 이용 가능한 것은 아니며, 일부 지역에서는 신용카드만 지원합니다. 거주 국가에서 Dodo Payments를 사용할 수 없거나 카드 이외의 결제 수단이 필요한 경우, 다음 결제 방법을 이용하실 수 있습니다.",
@@ -338,7 +338,7 @@
     "hint": "Google Sheets 계정을 연결하면 자동화 및 로그를 간편하게 내보내고 자동화 기록을 한 곳에서 관리할 수 있습니다.",
     "useStable": {
       "title": "Google Sheets 기능을 사용하려면 안정적인 버전을 사용하세요.",
-      "message": "Google Sheets에서 최적의 성능과 안정성을 확보하려면 <1>안정 버전</1>을 사용하는 것이 좋습니다. 이러한 버전은 철저한 테스트를 거쳐 원활한 기능을 보장하며, 작업에 필요한 안정적인 플랫폼을 제공합니다. 안정성을 우선시함으로써 생산성을 향상하고 예상치 못한 문제 발생 위험을 최소화할 수 있습니다. Google Sheets를 효과적으로 활용하는 데 도움이 필요하시면 언제든지 지원팀에 문의해 주세요!"
+      "message": "최상의 결과를 얻으려면 Google Sheets 기능의 안정 버전(<1>Stable</1>)을 사용하세요. 안정 버전은 철저한 테스트를 거쳐 안정적인 성능을 보장하므로 예상치 못한 문제를 방지할 수 있습니다. 도움이 필요하시면 언제든지 지원팀에 문의하세요."
     },
     "loginRequired": "Google Sheets에 연결하기 전에 계정에 <1>로그인</1>하십시오.",
     "connect": "Google Sheets와 연결하세요",
@@ -360,11 +360,11 @@
     "count": "자동화({{count}})",
     "search": "자동화 기능을 검색하세요...",
     "add": "새로운",
-    "reorder": "재주문",
+    "reorder": "순서 변경",
     "reorderByName": "이름으로 재정렬",
     "selected": "선택된",
     "selected_one": "자동화 1개가 선택되었습니다.",
-    "selected_other": "{{count}}개의 자동화가 선택되었습니다",
+    "selected_other": "{{count}} 자동화 선택됨",
     "selectAll": "모두 선택하세요",
     "exportSelected": "선택한 내보내기",
     "deleteSelected": "선택한 항목 삭제",
@@ -376,38 +376,38 @@
     "filter": {
       "all": "모두",
       "enabled": "활성화됨",
-      "disabled": "장애가 있는"
+      "disabled": "비활성화됨"
     },
     "confirm": {
       "delete": {
         "title": "자동화 삭제",
         "message": "선택한 자동화를 모두 삭제하시겠습니까?",
         "message_one": "선택한 자동화를 삭제하시겠습니까?",
-        "message_other": "선택한 {{count}}개의 자동화를 모두 삭제하시겠습니까?"
+        "message_other": "선택한 {{count}} 자동화를 삭제하시겠습니까?"
       }
     },
     "toast": {
       "header": "자동화",
       "remove": "자동화 기능이 성공적으로 제거되었습니다.",
       "remove_one": "자동화 기능이 성공적으로 제거되었습니다.",
-      "remove_other": "{{count}}개의 자동화 항목이 성공적으로 제거되었습니다.",
+      "remove_other": "{{count}} 자동화가 성공적으로 제거되었습니다.",
       "export": "자동화 기능이 성공적으로 내보내졌습니다.",
       "export_one": "자동화 1건이 성공적으로 내보내졌습니다.",
-      "export_other": "{{count}}개의 자동화가 성공적으로 내보내졌습니다.",
+      "export_other": "{{count}} 자동화가 성공적으로 내보내졌습니다.",
       "import": "자동화 기능이 성공적으로 가져와졌습니다.",
       "import_one": "자동화 1개를 성공적으로 가져왔습니다.",
-      "import_other": "{{count}}개의 자동화 항목이 성공적으로 가져와졌습니다.",
+      "import_other": "{{count}} 자동화가 성공적으로 가져와졌습니다.",
       "reorder": "자동화 재정렬이 성공적으로 완료되었습니다.",
       "alreadyExists": "모든 자동화 기능은 이미 동일한 콘텐츠로 존재합니다."
     }
   },
   "automation": {
-    "title": "오토메이션",
+    "title": "자동화",
     "remove": "제거하다",
     "duplicate": "복제하다",
-    "enable": "할 수 있게 하다",
-    "disable": "장애를 입히다",
-    "disabled": "장애가 있는",
+    "enable": "활성화",
+    "disable": "비활성화",
+    "disabled": "비활성화됨",
     "edit": "편집하다",
     "export": "내보내다",
     "import": "수입",
@@ -418,13 +418,13 @@
     "name": "이름",
     "initWait": "시작하기 전에 기다리세요",
     "startTime": "예정된 시작 시간",
-    "noConfig": "자동화된 검색 결과가 없습니다. 검색 조건을 구체화해 주세요.",
+    "noConfig": "자동화된 검색 결과가 없습니다. 검색어를 구체화해 주세요.",
     "publish": "게시",
     "unpublish": "게시 취소",
     "published": "게시됨",
     "publishedToCloud": "클라우드에 게시됨",
     "importing": "가져오는 중...",
-    "publishing": "게시 중...",
+    "publishing": "출판...",
     "publish-loginRequired": "이 자동화 기능을 게시하려면 로그인하십시오.",
     "publish-ownedByOther": "이 자동화는 [{{name}}] 사용자가 게시했습니다. 본인 계정으로 복제하여 변경 사항을 게시할 수 있습니다.",
     "confirm": {
@@ -438,12 +438,12 @@
       }
     },
     "toast": {
-      "header": "오토메이션",
+      "header": "자동화",
       "body": "자동화가 성공적으로 저장되었습니다!",
       "published": "자동화 기능이 성공적으로 게시되었습니다!",
       "unpublished": "자동화 기능이 성공적으로 게시 취소되었습니다!",
       "notPublished": "자동화 기능은 공개되지 않았습니다.",
-      "imported": "'{{title}}'을 성공적으로 가져왔습니다.",
+      "imported": "'{{title}}'를 성공적으로 가져왔습니다.",
       "schedule": "자동화 일정이 성공적으로 저장되었습니다!",
       "settings": "자동화 설정이 성공적으로 저장되었습니다!",
       "add": "자동화 기능이 성공적으로 추가되었습니다.",
@@ -457,14 +457,14 @@
     "description": "설명",
     "tags": "태그",
     "tags-help": "다른 사용자가 자동화 기능을 쉽게 찾을 수 있도록 태그를 추가하세요(쉼표로 구분).",
-    "visibility": "공개 범위",
+    "visibility": "공개 설정",
     "commaSeparated": "쉼표로 구분된 값을 입력하세요"
   },
   "explore": {
     "title": "자동화 살펴보기",
     "search": "검색 자동화...",
     "loadMore": "더 보기",
-    "loginToExplore": "게시된 자동화 기능을 살펴보려면 <1>로그인</1>하세요.",
+    "loginToExplore": "<1>Login</1>를 눌러 게시된 자동화를 살펴보세요.",
     "no-published": "자동화 기능을 찾을 수 없습니다. 첫 번째로 자동화 기능을 게시해 보세요!",
     "downloads_zero": "다운로드 없음",
     "downloads_one": "1 다운로드",
@@ -484,16 +484,16 @@
     "startType": "실행 모드",
     "hotkey": "단축키",
     "auto": "오토매틱",
-    "autoHint": "<b>자동 실행</b> — 페이지가 로드될 때마다 자동으로 실행됩니다. 사용자의 별도 조치는 필요하지 않습니다.",
+    "autoHint": "<b>Automatic</b> — 페이지가 로드될 때마다 자동으로 실행됩니다. 사용자의 별도 조치는 필요하지 않습니다.",
     "manual": "수동(단축키)",
-    "manualHint": "<b>수동 모드</b> — 사용자가 지정한 키보드 단축키를 눌렀을 때만 실행됩니다.",
+    "manualHint": "<b>Manual</b> — 사용자가 정의한 키보드 단축키를 누를 때만 실행됩니다.",
     "loadType": "페이지 로딩 시간",
     "window": "최대 부하 후",
-    "windowHint": "페이지 <b>전체 로딩 완료 후</b> (권장) — 이미지와 스크립트를 포함한 페이지 전체 로딩이 완료된 후 자동화가 시작됩니다.",
+    "windowHint": "<b>전체 로딩 후</b> (권장) — 이미지와 스크립트를 포함한 전체 페이지 로딩이 완료된 후 자동화가 시작됩니다.",
     "document": "페이지 로딩 중",
-    "documentHint": "<b>페이지 로딩 중</b> - 페이지 구조가 준비되는 즉시, 이미지와 스크립트 로딩이 완료되기 전에 자동화가 시작됩니다. 더 빠르지만 일부 페이지에서는 불안정할 수 있습니다.",
+    "documentHint": "<b>페이지 로드 시 </b> — 페이지 구조가 준비되는 즉시, 이미지와 스크립트 로딩이 완료되기 전에 자동화가 시작됩니다. 더 빠르지만 일부 페이지에서는 불안정할 수 있습니다.",
     "triggerUrlChange": "페이지 탐색 시 실행",
-    "triggerUrlChangeHint": "<b>페이지 이동 시 실행</b> — 페이지 주소가 변경될 때 전체 새로 고침 없이 자동화를 다시 실행합니다. Gmail, Twitter 및 기타 최신 앱에 유용합니다.",
+    "triggerUrlChangeHint": "<b>페이지 탐색 시 실행 </b> — 페이지 주소가 변경될 때 전체 새로 고침 없이 자동화를 다시 실행합니다. Gmail, Twitter 및 기타 최신 앱에 유용합니다.",
     "urlMatch": "URL 일치 유형",
     "regex": "패턴 일치",
     "exact": "정확한 URL",
@@ -503,17 +503,17 @@
       "title": "브라우저 기본 단축키 동작 우회",
       "alert": "알리다",
       "confirm": "확인하다",
-      "prompt": "즉각적인"
+      "prompt": "Prompt"
     }
   },
   "loop": {
-    "title": "고리",
+    "title": "루프",
     "repeat": "반복하다",
-    "repeatHint": "<b>반복 기능을 사용하면</b> 지정된 간격으로 페이지를 새로 고침하지 않고 모든 단계를 다시 실행합니다.",
+    "repeatHint": "<b>Repeat</b>는 지정된 간격으로 페이지를 새로 고침하지 않고 모든 단계를 다시 실행합니다.",
     "repeatInterval": "루프 간 간격",
     "repeatIntervalRange": "루프 간 간격",
     "refresh": "새로 고치다",
-    "refreshHint": "모든 단계가 완료되면 <b>새로 고침을 클릭하여</b> 페이지를 다시 로드합니다.",
+    "refreshHint": "<b>Refresh</b>를 누르면 모든 단계가 완료된 후 페이지가 새로 고쳐집니다.",
     "toast": {
       "header": "루프 설정",
       "body": "반복 설정이 성공적으로 저장되었습니다!"
@@ -524,14 +524,14 @@
     "number": "유효한 숫자를 입력하세요",
     "integer": "유효한 정수를 입력하세요.",
     "positive": "양수여야 합니다",
-    "min": "{{min}} 이상 또는 같은 값을 입력해 주세요.",
+    "min": "{{min}} 이상의 값을 입력해 주세요.",
     "max": "{{max}} 이하의 값을 입력해 주세요.",
     "url": "계속하려면 웹사이트 URL을 입력하세요.",
     "initWait": "유효한 숫자를 입력하세요",
     "scheduleDate": "다음 형식으로 유효한 날짜를 입력해 주세요: 2025-12-01",
     "scheduleTime": "다음 형식으로 유효한 시간을 입력해 주세요: 23:59:59.000",
     "scheduleRepeat": "반복 횟수를 입력하세요.",
-    "startTime": "시작 시간을 12:12:12:000 형식으로 입력해 주세요.",
+    "startTime": "시작 시간을 12:12:12.000 형식으로 입력해 주세요.",
     "json": "선택한 파일이 유효한 JSON 형식이 아닙니다. 확인 후 다시 시도해 주세요.",
     "hotKey": "Ctrl, Alt 또는 Shift 키와 함께 문자를 입력하세요(예: Ctrl + A).",
     "valueExtractor": "입력하신 패턴이 유효하지 않습니다. 확인 후 다시 시도해 주세요.",
@@ -540,8 +540,8 @@
     "elementFinder": "페이지에서 해당 항목을 찾는 방법을 입력해 주세요.",
     "spreadsheetId": "유효한 Google Sheets ID(44자, 예: 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)를 입력해 주세요.",
     "roleLock": {
-      "header": "{{plan}} 계획 필요",
-      "body": "이 기능을 사용하려면 {{plan}} 플랜이 필요합니다. 계속하려면 플랜을 업그레이드하세요."
+      "header": "{{plan}} 플랜 필요",
+      "body": "이 기능을 사용하려면 {{plan}} 요금제가 필요합니다. 계속하려면 요금제를 업그레이드하세요."
     }
   },
   "step": {
@@ -565,7 +565,7 @@
     "confirm": {
       "remove": {
         "title": "제거 단계",
-        "message": "[{{name}}] 단계를 확실히 삭제하셨나요?"
+        "message": "[{{name}}] 단계를 삭제하시겠습니까?"
       }
     },
     "toast": {
@@ -591,7 +591,7 @@
       "regex": "정규 표현식"
     },
     "elementFinder": {
-      "getElementBy": "요소 가져오기",
+      "getElementBy": "getElementBy",
       "elementFinder": "요소 찾기",
       "count": "요소 수"
     },
@@ -603,31 +603,31 @@
       "title": "깃발",
       "global": "첫 경기 후에는 돌아오지 마세요",
       "multiLine": "^와 $는 줄의 시작/끝을 나타냅니다.",
-      "insensitive": "대소문자 구분 없이 일치",
+      "insensitive": "대소문자를 무시하세요",
       "extended": "공백은 무시하세요",
       "singleLine": "점은 줄바꿈과 일치합니다."
     },
     "hotkey": {
       "title": "단축키",
       "content": "키보드 단축키를 눌러 입력란을 자동으로 채우세요.",
-      "hint": "<kbd>Ctrl</kbd> , <kbd>Alt</kbd> 또는 <kbd>Shift 키</kbd> 없이 한 글자만 입력하면 유효하지 않습니다."
+      "hint": "<kbd>Ctrl</kbd>, <kbd>Alt</kbd> 또는 <kbd>Shift</kbd>가 포함되지 않은 단일 문자는 유효하지 않습니다."
     }
   },
   "common": {
     "appName": "자동 클릭 - 자동 채우기",
     "file": "파일",
     "error": "오류",
-    "save": "구하다",
-    "clear": "분명한",
+    "save": "저장",
+    "clear": "지우기",
     "cancel": "취소",
     "close": "닫다",
     "download": "다운로드",
     "loading": "로딩 중...",
-    "disabled": "장애가 있는",
+    "disabled": "비활성화됨",
     "remove": "제거하다",
     "edit": "편집하다",
-    "enable": "할 수 있게 하다",
-    "disable": "장애를 입히다",
+    "enable": "활성화",
+    "disable": "비활성화",
     "duplicate": "복제하다",
     "sec": "비서",
     "min": "최소",
@@ -635,7 +635,7 @@
     "yes": "예",
     "local": "현지의",
     "dev": "개발",
-    "stable": "안정적인",
+    "stable": "안정 버전",
     "examples": "예시",
     "add": "추가하다",
     "confirm": "확인하다"
@@ -645,7 +645,7 @@
     "en": "영어",
     "fr": "프랑스 국민",
     "ko": "한국인",
-    "ca": "캐나다",
+    "ca": "카탈로니아 사람",
     "hi": "힌디 어",
     "zh_CN": "중국어(간체)",
     "zh_TW": "중국어(번체)",
@@ -663,23 +663,23 @@
     "id": "인도네시아 인"
   },
   "monitor": {
-    "title": "감시 장치",
+    "title": "모니터링",
     "enabled": "모니터링 활성화",
     "enabledHint": "페이지에 일치하는 새로운 요소가 추가될 때 작업을 자동으로 다시 실행합니다(예: 무한 스크롤, 비동기 콘텐츠).",
     "rootSelector": "모니터 루트",
-    "rootSelectorPlaceholder": "몸",
+    "rootSelectorPlaceholder": "body",
     "rootSelectorHint": "관찰할 컨테이너에 대한 CSS 선택자",
     "watchAttributes": "모니터 속성",
-    "attributesPlaceholder": "스타일, 품격, 숨겨진",
+    "attributesPlaceholder": "style, class, hidden",
     "attributesHint": "변화를 관찰할 속성 목록을 쉼표로 구분하여 입력하십시오.",
-    "debounce": "디바운스",
+    "debounce": "Debounce",
     "debounceHint": "새로운 요소를 처리하기 전 지연 시간(1~5초)",
     "timeout": "타임아웃",
     "timeoutHint": "N분 후 자동 정지 (1-180분)",
     "urlChange": "URL 변경 시 중지",
     "urlChangeHint": "페이지 URL이 변경되면 자동으로 감시를 중지합니다.",
     "toast": {
-      "header": "감시 장치",
+      "header": "모니터링",
       "body": "모니터가 성공적으로 저장되었습니다!"
     }
   },
@@ -705,11 +705,11 @@
       "title": "유용한 팁",
       "tip1": {
         "title": "테스트 페이지에서 시도해 보세요",
-        "desc": "test.getautoclicker.com을 열고, 사용자 이름 필드를 채우는 동작과 버튼을 클릭하는 동작, 이렇게 두 가지 동작을 추가한 다음 저장하고 실행하세요."
+        "desc": "test.getautoclicker.com을 열고, 사용자 이름 필드를 채우는 작업과 버튼을 클릭하는 작업, 이렇게 두 가지 작업을 추가한 다음 저장하고 실행하세요."
       },
       "tip2": {
         "title": "목표 항목을 정확하게",
-        "desc": "자동화를 더욱 안정적으로 실행하려면 //input[@name=\"username\"]과 같이 페이지의 특정 항목을 대상으로 하는 요소 경로를 사용하세요."
+        "desc": "자동화의 안정성을 높이려면 //input[@name=\"username\"]와 같이 페이지 내 특정 항목을 대상으로 하는 요소 경로를 사용하세요."
       },
       "tip3": {
         "title": "페이지 로딩 속도가 느린 문제를 해결합니다.",
@@ -727,7 +727,7 @@
     "videos": {
       "title": "비디오 가이드",
       "video1": {
-        "title": "Auto Clicker AutoFill - Complete Overview"
+        "title": "자동 클릭 자동 채우기 - 전체 개요"
       },
       "video2": {
         "title": "Auto Clicker AutoFill 시작하기"

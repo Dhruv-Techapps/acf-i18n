@@ -4,7 +4,7 @@ const LANGUAGES = [
   { lang: 'fr', folder: 'fr' },
   { lang: 'ko', folder: 'ko' },
   { lang: 'sv', folder: 'sv' },
-  { lang: 'pt', folder: 'pt' },
+  { lang: 'pt', folder: 'pt_PT' },
   { lang: 'ja', folder: 'ja' },
   { lang: 'nl', folder: 'nl' },
   { lang: 'de', folder: 'de' },
@@ -14,7 +14,13 @@ const LANGUAGES = [
   { lang: 'ar', folder: 'ar' },
   { lang: 'it', folder: 'it' },
   { lang: 'ru', folder: 'ru' },
-  { lang: 'id', folder: 'id' }
+  { lang: 'id', folder: 'id' },
+  { lang: 'hi', folder: 'hi' },
+  { lang: 'bg', folder: 'bg' },
+  { lang: 'pl', folder: 'pl' },
+  { lang: 'th', folder: 'th' },
+  { lang: 'sw', folder: 'sw' },
+  { lang: 'fil', folder: 'fil' }
 ];
 
 export { LANGUAGES };

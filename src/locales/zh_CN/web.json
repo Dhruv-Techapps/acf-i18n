@@ -30,11 +30,11 @@
     "switchDark": "切换到深色主题",
     "light": "光",
     "dark": "黑暗的",
-    "auto": "汽车"
+    "auto": "自动"
   },
   "loading": "加载中...",
   "loader": {
-    "subtitle": "正在加载您的自动化..."
+    "subtitle": "正在加载您的自动化流程……"
   },
   "loginModal": {
     "title": "请登录",
@@ -56,7 +56,7 @@
   },
   "notification": {
     "title": "显示通知",
-    "error": "发生错误",
+    "error": "出错时",
     "step": "步骤完成后",
     "loop": "循环完成时",
     "automation": "自动化完成",
@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Discord 通知",
-    "loginRequired": "请先<1>登录</1>您的帐户，然后再连接到Discord。"
+    "loginRequired": "在连接 Discord 之前，请先<1>登录</1>您的帐户。"
   },
   "checkIFrames": {
     "title": "在嵌入式页面内搜索",
@@ -110,7 +110,7 @@
     "weekly": "每周",
     "monthly": "月度",
     "off": "离开",
-    "loginRequired": "请先<1>登录</1>您的帐户，然后再连接到 Google 云端硬盘。",
+    "loginRequired": "在连接 Google 云端硬盘之前，请先<1>登录</1>您的帐户。",
     "checkingAccess": "正在检查 Google 云端硬盘访问权限……",
     "connect": "连接到 Google 云端硬盘",
     "connected": "Google 云端硬盘备份",
@@ -167,13 +167,13 @@
   },
   "extensionNotFound": {
     "title": "扩展程序未安装。",
-    "subTitle": "此页面可与 Chrome 和 Edge 浏览器的<b>Auto Clicker - AutoFill</b>扩展程序配合使用。",
+    "subTitle": "此页面与适用于 Chrome 和 Edge 的 <b>Auto Clicker - AutoFill</b> 扩展程序配合使用。",
     "hint": "请先安装扩展程序才能开始使用。",
     "download": "下载"
   },
   "versionAlert": {
     "securityUpdate": "需要安全更新：",
-    "message": "<1>自动点击器和自动填充器</1> 的新版本已发布，并修复了最近发现的安全漏洞。",
+    "message": "<1>Auto Clicker & Auto Fill</1> 的新版本已发布，并修复了最近发现的安全漏洞。",
     "learnMore": "了解更多",
     "update": "请更新至最新版本以确保安全。"
   },
@@ -190,7 +190,7 @@
   "stateGuard": {
     "action": "上一步",
     "status": "结果",
-    "title": "州卫队",
+    "title": "状态守卫",
     "add": "添加条件",
     "info": "根据前面步骤中发生的情况，设定一条规则来控制是否运行此步骤。",
     "stop": "停止自动化",
@@ -200,8 +200,8 @@
     "proceed": "仍然运行此步骤",
     "hint": "如果规则不成立，应该怎么办？",
     "toast": {
-      "header": "州卫队",
-      "body": "国家卫队成功解救！"
+      "header": "状态守卫",
+      "body": "条件保护保存成功！"
     }
   },
   "pageGuard": {
@@ -229,7 +229,7 @@
   },
   "schedule": {
     "title": "日程自动化",
-    "info": "在指定日期和时间运行此自动化程序",
+    "info": "在指定日期和时间运行此自动化流程。",
     "date": "日期",
     "time": "时间",
     "repeat": "几分钟后重复。",
@@ -245,7 +245,7 @@
     "upgrading": "正在升级……",
     "cancelling": "正在取消……",
     "cancelPlan": "取消计划",
-    "cancelConfirm": "您确定要在当前计费周期结束时取消订阅吗？",
+    "cancelConfirm": "您确定要在当前账单周期结束时取消订阅吗？",
     "cancelError": "订阅取消失败，请稍后再试。",
     "cancellationScheduled": "已安排取消",
     "cancellationDetails": "您的订阅将持续有效至下一个账单日。在此之前，您仍可继续完全使用所有功能。",
@@ -261,10 +261,10 @@
     "cadence": {
       "monthly": "月度",
       "yearly": "每年",
-      "savingsBadge": "节省 10%"
+      "savingsBadge": "免费试用 2 个月"
     },
     "free": {
-      "name": "🆓 免费",
+      "name": "🆓 FREE",
       "tagline": "强大的自动化功能，人人可用——无需注册账号。",
       "perMonth": "永远",
       "cta": "当前计划",
@@ -278,7 +278,7 @@
       }
     },
     "plus": {
-      "name": "🚀 加",
+      "name": "🚀 PLUS",
       "tagline": "所有基本功能，外加对预检和分步设置的更深层次控制。",
       "perMonth": "每月",
       "perYear": "每年",
@@ -295,7 +295,7 @@
       }
     },
     "pro": {
-      "name": "🔹 专业版",
+      "name": "🔹 PRO",
       "tagline": "充分发挥自动化的强大功能——集成、人工智能和优先支持。",
       "perMonth": "每月",
       "perYear": "每年",
@@ -303,7 +303,7 @@
       "includes": "Plus 中的所有产品，以及：",
       "features": {
         "sheets": "Google Sheets 集成",
-        "discord": "Discord 通知",
+        "discord": "Discord 集成",
         "captcha": "验证码破解器",
         "openai": "OpenAI 集成",
         "prioritySupport": "通过 Discord 获得优先支持",
@@ -338,9 +338,9 @@
     "hint": "连接您的 Google Sheets 帐户，即可轻松导出您的自动化操作和日志，并在一个地方跟踪您的自动化操作历史记录。",
     "useStable": {
       "title": "使用稳定版本以获得最佳的 Google Sheets 功能。",
-      "message": "为了获得最佳的 Google 表格性能和可靠性，建议您使用其功能的<1>稳定版</1>。这些版本经过全面测试，确保功能流畅，为您提供可靠的平台来完成各项任务。优先考虑稳定性，可以提高您的工作效率，并将遇到意外问题的风险降至最低。如果您在使用 Google 表格时需要任何帮助或指导，欢迎随时联系我们寻求支持！"
+      "message": "为了获得最佳效果，请使用 Google Sheets 的 <1>Stable</1> 版本。稳定版本经过全面测试，确保性能可靠，帮助您避免意外问题。如果您需要帮助，请随时联系我们获取支持。"
     },
-    "loginRequired": "请先<1>登录</1>您的帐户，然后再连接到 Google Sheets。",
+    "loginRequired": "在连接 Google Sheets 之前，请先<1>登录</1>您的帐户。",
     "connect": "连接到 Google 表格",
     "connected": "已连接到 Google Sheets"
   },
@@ -358,13 +358,13 @@
   "automations": {
     "title": "我的自动化",
     "count": "自动化（{{count}}）",
-    "search": "搜索您的自动化设置……",
+    "search": "搜索您的自动化操作……",
     "add": "新的",
-    "reorder": "重新订购",
+    "reorder": "重新排序",
     "reorderByName": "按名称重新排序",
-    "selected": "选定",
+    "selected": "已选",
     "selected_one": "已选择 1 项自动化操作",
-    "selected_other": "已选择 {{count}} 个自动化",
+    "selected_other": "{{count}} 自动化已选择",
     "selectAll": "全选",
     "exportSelected": "导出所选内容",
     "deleteSelected": "删除所选内容",
@@ -383,20 +383,20 @@
         "title": "删除自动化",
         "message": "您确定要删除选定的自动化流程吗？",
         "message_one": "您确定要删除选定的自动化流程吗？",
-        "message_other": "您确定要删除选定的 {{count}} 个自动化流程吗？"
+        "message_other": "您确定要删除选定的 {{count}} 自动化吗？"
       }
     },
     "toast": {
       "header": "自动化",
       "remove": "自动化操作已成功移除。",
       "remove_one": "自动化操作已成功移除",
-      "remove_other": "{{count}} 自动化操作已成功移除",
+      "remove_other": "{{count}} 自动化已成功移除",
       "export": "自动化流程已成功导出。",
       "export_one": "1 个自动化流程已成功导出",
-      "export_other": "{{count}} 个自动化流程已成功导出",
+      "export_other": "{{count}} 自动化导出成功",
       "import": "自动化流程已成功导入。",
       "import_one": "1 个自动化流程已成功导入。",
-      "import_other": "{{count}} 个自动化流程已成功导入",
+      "import_other": "{{count}} 自动化流程已成功导入",
       "reorder": "自动化流程已成功重新排序",
       "alreadyExists": "所有自动化流程均已存在，且内容完全相同。"
     }
@@ -405,11 +405,11 @@
     "title": "自动化",
     "remove": "消除",
     "duplicate": "复制",
-    "enable": "使能够",
+    "enable": "启用",
     "disable": "禁用",
     "disabled": "已禁用",
     "edit": "编辑",
-    "export": "出口",
+    "export": "导出",
     "import": "导入",
     "schedule": "日程",
     "batch": "循环设置",
@@ -418,22 +418,22 @@
     "name": "姓名",
     "initWait": "请稍候再开始",
     "startTime": "预定开始时间",
-    "noConfig": "未找到自动化程序，请优化您的搜索。",
+    "noConfig": "未找到自动化搜索结果。请优化您的搜索。",
     "publish": "发布",
     "unpublish": "取消发布",
     "published": "已发布",
-    "publishedToCloud": "已发布到云端",
-    "importing": "导入中...",
-    "publishing": "发布中...",
+    "publishedToCloud": "发布到云端",
+    "importing": "输入...",
+    "publishing": "出版...",
     "publish-loginRequired": "请登录以发布此自动化流程。",
     "publish-ownedByOther": "此自动化脚本由用户 [{{name}}] 发布。您可以将其复制到您的帐户并发布您的更改。",
     "confirm": {
       "remove": {
         "title": "移除自动化",
-        "message": "您确定要移除 [{{name}}] 自动化流程吗？"
+        "message": "您确定要移除 [{{name}}] 自动化功能吗？"
       },
       "import": {
-        "title": "导入自动化",
+        "title": "进口自动化",
         "message": "导入操作将覆盖您当前的自动化流程（如果已存在）。是否继续？"
       }
     },
@@ -457,21 +457,21 @@
     "description": "描述",
     "tags": "标签",
     "tags-help": "添加标签，帮助其他人发现您的自动化流程（逗号分隔）。",
-    "visibility": "能见度",
+    "visibility": "可见性",
     "commaSeparated": "请输入以逗号分隔的值"
   },
   "explore": {
     "title": "探索自动化",
     "search": "搜索自动化……",
     "loadMore": "加载更多",
-    "loginToExplore": "请<1>登录</1>以浏览已发布的自动化流程。",
-    "no-published": "未找到自动化脚本。快来发布一个吧！",
+    "loginToExplore": "<1>登录</1>以探索已发布的自动化流程。",
+    "no-published": "未找到自动化脚本。快来发布第一个吧！",
     "downloads_zero": "无需下载",
     "downloads_one": "1 下载",
-    "downloads_other": "{{count}} 次下载",
+    "downloads_other": "{{count}} 下载",
     "filter": {
       "all": "全部",
-      "mine": "我的",
+      "mine": "矿",
       "published": "已发布"
     },
     "toast": {
@@ -484,16 +484,16 @@
     "startType": "运行模式",
     "hotkey": "快捷键",
     "auto": "自动的",
-    "autoHint": "<b>自动</b>运行——每次页面加载时自动运行。无需您进行任何操作。",
+    "autoHint": "<b>Automatic</b> — 每次页面加载时自动运行。无需您进行任何操作。",
     "manual": "手动（快捷键）",
-    "manualHint": "<b>手动模式</b>——仅在按下您定义的键盘快捷键时运行。",
+    "manualHint": "<b>Manual</b> — 仅在按下您定义的键盘快捷键时运行。",
     "loadType": "页面加载时间",
     "window": "满载后",
-    "windowHint": "<b>完全加载后</b>（推荐）——自动化操作在包括图像和脚本在内的整个页面加载完成后开始。",
+    "windowHint": "<b>After Full Load</b>（推荐）——整个页面（包括图像和脚本）加载完毕后，自动化才会开始。",
     "document": "页面加载时",
-    "documentHint": "<b>页面加载完毕后</b>——自动化流程会在页面结构准备就绪后立即启动，甚至在图片和脚本加载完成之前就开始。速度更快，但在某些页面上可能不稳定。",
+    "documentHint": "<b>As Page Loads</b> — 自动化流程在页面结构准备就绪后立即启动，在图片和脚本加载完成之前。速度更快，但在某些页面上可能不稳定。",
     "triggerUrlChange": "在页面导航上运行",
-    "triggerUrlChangeHint": "<b>页面导航时运行</b>— 当页面地址更改时，无需完全重新加载页面即可重新运行自动化流程。适用于 Gmail、Twitter 和其他现代应用程序。",
+    "triggerUrlChangeHint": "<b>页面导航时运行</b> — 当页面地址更改时，无需完全重新加载页面即可重新运行自动化流程。适用于 Gmail、Twitter 和其他现代应用程序。",
     "urlMatch": "URL 匹配类型",
     "regex": "图案匹配",
     "exact": "确切网址",
@@ -503,17 +503,17 @@
       "title": "绕过浏览器热键默认行为",
       "alert": "警报",
       "confirm": "确认",
-      "prompt": "迅速的"
+      "prompt": "Prompt"
     }
   },
   "loop": {
-    "title": "环形",
+    "title": "循环",
     "repeat": "重复",
-    "repeatHint": "<b>重复操作</b>将按照给定的时间间隔重新运行所有步骤，而无需重新加载页面。",
+    "repeatHint": "<b>Repeat</b> 将按给定的时间间隔重新运行所有步骤，而无需重新加载页面。",
     "repeatInterval": "循环间隔",
     "repeatIntervalRange": "循环间隔",
     "refresh": "刷新",
-    "refreshHint": "所有步骤完成后，<b>刷新</b>页面即可重新加载。",
+    "refreshHint": "<b>Refresh</b> 将在所有步骤完成后重新加载页面。",
     "toast": {
       "header": "循环设置",
       "body": "循环设置已成功保存！"
@@ -531,12 +531,12 @@
     "scheduleDate": "请按以下格式输入有效日期：2025-12-01",
     "scheduleTime": "请按以下格式输入有效时间：23:59:59.000",
     "scheduleRepeat": "请输入一个有效的数字，表示重复次数。",
-    "startTime": "请按以下格式输入有效的开始时间：12:12:12:000",
+    "startTime": "请按以下格式输入有效的开始时间：12:12:12.000",
     "json": "所选文件不是有效的 JSON 文件——请检查并重试。",
     "hotKey": "请使用字母与 Ctrl、Alt 或 Shift 键组合输入（例如 Ctrl + A）。",
     "valueExtractor": "您输入的图案无效——请检查并重试。",
     "value": "请输入数值以继续",
-    "condition": "请选择一种条件以继续",
+    "condition": "请选择一个条件以继续",
     "elementFinder": "请说明如何在页面上找到该物品。",
     "spreadsheetId": "请输入有效的 Google Sheets ID（44 个字符，例如 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA）",
     "roleLock": {
@@ -545,10 +545,10 @@
     }
   },
   "step": {
-    "title": "步",
+    "title": "步骤",
     "plural": "步骤",
     "step_one": "第一步",
-    "step_other": "{{count}} 步",
+    "step_other": "{{count}} 步骤",
     "add": "添加步骤",
     "addBefore": "添加上一步",
     "addAfter": "添加下方步骤",
@@ -558,18 +558,18 @@
     "initWait": "延迟",
     "name": "姓名",
     "elementFinder": "目标",
-    "value": "价值",
+    "value": "值",
     "repeat": "重复",
     "repeatInterval": "间隔",
     "defaultName": "操作或用户脚本",
     "confirm": {
       "remove": {
         "title": "移除步骤",
-        "message": "您确定要移除 [{{name}}] 步骤吗？"
+        "message": "您确定要删除 [{{name}}] 步骤吗？"
       }
     },
     "toast": {
-      "header": "步",
+      "header": "步骤",
       "body": "步骤保存成功！",
       "remove": "步骤已成功移除！",
       "reorder": "步骤重新排序成功！"
@@ -591,7 +591,7 @@
       "regex": "正则表达式"
     },
     "elementFinder": {
-      "getElementBy": "获取元素",
+      "getElementBy": "getElementBy",
       "elementFinder": "元素查找器",
       "count": "元素数量"
     },
@@ -603,21 +603,21 @@
       "title": "旗帜",
       "global": "第一场比赛后不要再回来了",
       "multiLine": "^ 和 $ 分别匹配行的开头和结尾",
-      "insensitive": "不区分大小写的匹配",
+      "insensitive": "忽略字母大小写",
       "extended": "忽略空格",
       "singleLine": "点匹配换行符"
     },
     "hotkey": {
       "title": "快捷键",
-      "content": "按下键盘上的快捷键即可在字段中自动输入内容",
-      "hint": "单个字母（不带<kbd>Ctrl</kbd> 、 <kbd>Alt</kbd>或<kbd>Shift 键）</kbd>无效"
+      "content": "按下键盘上的快捷键即可自动在字段中输入内容",
+      "hint": "缺少 <kbd>Ctrl</kbd>、<kbd>Alt</kbd> 或 <kbd>Shift</kbd> 的单个字母无效"
     }
   },
   "common": {
     "appName": "自动点击器 - 自动填充",
     "file": "文件",
     "error": "错误",
-    "save": "节省",
+    "save": "保存",
     "clear": "清除",
     "cancel": "取消",
     "close": "关闭",
@@ -626,16 +626,16 @@
     "disabled": "已禁用",
     "remove": "消除",
     "edit": "编辑",
-    "enable": "使能够",
+    "enable": "启用",
     "disable": "禁用",
     "duplicate": "复制",
     "sec": "秒",
-    "min": "最小",
+    "min": "分",
     "no": "不",
     "yes": "是的",
     "local": "当地的",
     "dev": "开发",
-    "stable": "稳定的",
+    "stable": "稳定版",
     "examples": "示例",
     "add": "添加",
     "confirm": "确认"
@@ -645,7 +645,7 @@
     "en": "英语",
     "fr": "法语",
     "ko": "韩国人",
-    "ca": "加拿大",
+    "ca": "加泰罗尼亚语",
     "hi": "印地语",
     "zh_CN": "中文（简体）",
     "zh_TW": "中文（繁体）",
@@ -663,23 +663,23 @@
     "id": "印度尼西亚"
   },
   "monitor": {
-    "title": "监视器",
+    "title": "监控",
     "enabled": "启用监控",
     "enabledHint": "当页面中添加新的匹配元素时，自动重新运行操作（例如，用于无限滚动、异步内容）。",
     "rootSelector": "监控根目录",
-    "rootSelectorPlaceholder": "身体",
+    "rootSelectorPlaceholder": "body",
     "rootSelectorHint": "要观察的容器的 CSS 选择器",
     "watchAttributes": "监控属性",
-    "attributesPlaceholder": "风格、阶级、隐藏",
+    "attributesPlaceholder": "style, class, hidden",
     "attributesHint": "以逗号分隔的待观察属性列表，用于列出变化情况。",
-    "debounce": "防抖",
+    "debounce": "Debounce",
     "debounceHint": "处理新元素前的延迟（1-5秒）",
-    "timeout": "暂停",
+    "timeout": "超时",
     "timeoutHint": "N 分钟后自动停止（1-180）",
     "urlChange": "URL 更改时停止",
     "urlChangeHint": "页面 URL 更改时自动停止监视",
     "toast": {
-      "header": "监视器",
+      "header": "监控",
       "body": "监控保存成功！"
     }
   },
@@ -727,7 +727,7 @@
     "videos": {
       "title": "视频指南",
       "video1": {
-        "title": "Auto Clicker AutoFill - Complete Overview"
+        "title": "自动点击器自动填充 - 完整概述"
       },
       "video2": {
         "title": "自动点击器自动填充入门指南"

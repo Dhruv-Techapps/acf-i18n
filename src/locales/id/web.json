@@ -30,11 +30,11 @@
     "switchDark": "Beralih ke tema gelap",
     "light": "Lampu",
     "dark": "Gelap",
-    "auto": "Mobil"
+    "auto": "Otomatis"
   },
   "loading": "Memuat...",
   "loader": {
-    "subtitle": "Memuat otomasi Anda..."
+    "subtitle": "Memuat otomatisasi Anda..."
   },
   "loginModal": {
     "title": "Silakan masuk",
@@ -56,7 +56,7 @@
   },
   "notification": {
     "title": "Tampilkan Notifikasi",
-    "error": "Terjadi kesalahan",
+    "error": "Saat Terjadi Kesalahan",
     "step": "Setelah penyelesaian langkah",
     "loop": "Saat perulangan selesai",
     "automation": "Setelah otomatisasi selesai",
@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Pemberitahuan di Discord",
-    "loginRequired": "Silakan <1>Masuk</1> ke akun Anda sebelum terhubung dengan Discord."
+    "loginRequired": "<1>Login</1> ke akun Anda sebelum terhubung dengan Discord."
   },
   "checkIFrames": {
     "title": "Cari di Dalam Halaman Tertanam",
@@ -110,7 +110,7 @@
     "weekly": "Mingguan",
     "monthly": "Bulanan",
     "off": "Mati",
-    "loginRequired": "Silakan <1>Masuk</1> ke akun Anda sebelum terhubung dengan Google Drive.",
+    "loginRequired": "<1>Login</1> ke akun Anda sebelum terhubung dengan Google Drive.",
     "checkingAccess": "Memeriksa akses Google Drive...",
     "connect": "Terhubung dengan Google Drive",
     "connected": "Cadangan Google Drive",
@@ -120,7 +120,7 @@
     "noBackup": "Tidak ditemukan cadangan.",
     "confirm": {
       "restore": {
-        "title": "Pulihkan Otomatisasi dari cloud",
+        "title": "Pulihkan Otomatisasi dari Cloud",
         "message": "Apakah Anda yakin ingin memulihkan otomatisasi dari cloud? Ini akan mengganti semua otomatisasi Anda dan tidak dapat dibatalkan."
       }
     },
@@ -167,13 +167,13 @@
   },
   "extensionNotFound": {
     "title": "Ekstensi Belum Terinstal",
-    "subTitle": "Halaman ini berfungsi dengan ekstensi <b>Auto Clicker - AutoFill</b> untuk Chrome &amp; Edge.",
+    "subTitle": "Halaman ini berfungsi dengan ekstensi <b>Auto Clicker - AutoFill</b> untuk Chrome & Edge.",
     "hint": "Silakan instal ekstensi terlebih dahulu untuk memulai.",
     "download": "unduh"
   },
   "versionAlert": {
     "securityUpdate": "Pembaruan Keamanan Diperlukan:",
-    "message": "Versi terbaru dari <1>Auto Clicker & Auto Fill</1> tersedia dan menyertakan perbaikan untuk kerentanan keamanan yang baru-baru ini teridentifikasi.",
+    "message": "Versi terbaru dari <1>Auto Clicker & Auto Fill</1> tersedia dan mencakup perbaikan untuk kerentanan keamanan yang baru-baru ini diidentifikasi.",
     "learnMore": "Pelajari selengkapnya",
     "update": "Harap perbarui ke versi terbaru agar tetap terlindungi."
   },
@@ -190,7 +190,7 @@
   "stateGuard": {
     "action": "Langkah Sebelumnya",
     "status": "Hasil",
-    "title": "Garda Negara",
+    "title": "Penjaga Kondisi",
     "add": "Tambahkan Kondisi",
     "info": "Tetapkan aturan untuk mengontrol apakah langkah ini harus dijalankan, berdasarkan apa yang terjadi pada langkah-langkah sebelumnya.",
     "stop": "Hentikan Otomatisasi",
@@ -200,8 +200,8 @@
     "proceed": "Tetap Lakukan Langkah Ini",
     "hint": "Apa yang akan terjadi jika aturan tersebut tidak dipenuhi?",
     "toast": {
-      "header": "Garda Negara",
-      "body": "Pasukan pengawal negara berhasil menyelamatkan!"
+      "header": "Penjaga Kondisi",
+      "body": "Kondisi pengamanan berhasil disimpan!"
     }
   },
   "pageGuard": {
@@ -211,7 +211,7 @@
     "condition": "Membandingkan",
     "value": "Bandingkan Dengan",
     "valueExtractor": "Ekstrak Nomor atau Teks",
-    "valueExtractorHint": "Gunakan pola untuk mengambil bagian nilai tertentu. Misalnya, ekstrak 24,00 dari $24,00, atau 10 dari 10 otomatisasi.",
+    "valueExtractorHint": "Gunakan pola untuk mengambil bagian tertentu dari nilai tersebut. Misalnya, ekstrak 24,00 dari $24.00, atau 10 dari 10 otomatisasi.",
     "recheck": {
       "title": "Jika Syarat Tidak Terpenuhi",
       "hint": "Pilih apa yang harus terjadi jika kondisi filter tidak terpenuhi.",
@@ -256,15 +256,15 @@
     "subscriptionStatus": "Status: {{status}}",
     "processing": "Memproses pembayaran dan memperbarui langganan Anda...",
     "upgrade": "Meningkatkan",
-    "downgrade": "Penurunan peringkat",
+    "downgrade": "Turunkan",
     "comingSoon": "Segera hadir",
     "cadence": {
       "monthly": "Bulanan",
       "yearly": "Tahunan",
-      "savingsBadge": "Hemat 10%"
+      "savingsBadge": "Gratis 2 bulan"
     },
     "free": {
-      "name": "🆓 GRATIS",
+      "name": "🆓 FREE",
       "tagline": "Otomatisasi canggih untuk semua orang — tanpa perlu akun.",
       "perMonth": "selamanya",
       "cta": "Rencana Saat Ini",
@@ -303,7 +303,7 @@
       "includes": "Semua yang ada di Plus, plus:",
       "features": {
         "sheets": "Integrasi Google Sheets",
-        "discord": "Notifikasi Discord",
+        "discord": "Integrasi Discord",
         "captcha": "Pemecah Captcha",
         "openai": "Integrasi OpenAI",
         "prioritySupport": "Dukungan prioritas melalui Discord",
@@ -317,7 +317,7 @@
       "githubSponsors": "Sponsor GitHub",
       "paypal": "PayPal",
       "instructionsTitle": "Instruksi",
-      "step1": "Bayar sesuai jumlah bulan yang Anda inginkan untuk berlangganan, menggunakan harga bulanan paket tersebut. Misalnya, enam bulan harganya (harga bulanan) × 6.",
+      "step1": "Bayar sesuai jumlah bulan yang Anda inginkan untuk berlangganan, menggunakan harga bulanan paket tersebut. Misalnya, biaya enam bulan adalah (harga bulanan) × 6.",
       "emailUs": "Kirim email kepada kami",
       "step2": "Alamat email akun Anda, paket dan jumlah bulan, serta bukti pembayaran — tanda terima GitHub Sponsors Anda, atau alamat email PayPal/ID transaksi Anda jika Anda membayar melalui PayPal.",
       "step3": "Kami akan mengaktifkan paket Anda secara manual dari sistem backend kami untuk jumlah bulan yang telah Anda bayar, dan paket tersebut akan otomatis berakhir setelah periode tersebut.",
@@ -338,9 +338,9 @@
     "hint": "Hubungkan akun Google Sheets Anda untuk mengekspor otomatisasi dan log dengan mudah, serta melacak riwayat otomatisasi Anda di satu tempat.",
     "useStable": {
       "title": "Gunakan Versi Stabil untuk Fitur Google Sheets.",
-      "message": "Untuk performa dan keandalan optimal di Google Sheets, disarankan untuk menggunakan versi <1>stabil</1> dari fitur-fiturnya. Versi-versi ini menjalani pengujian menyeluruh untuk memastikan fungsionalitas yang lancar, sehingga Anda mendapatkan platform yang dapat diandalkan untuk tugas-tugas Anda. Dengan memprioritaskan stabilitas, Anda dapat meningkatkan produktivitas dan meminimalkan risiko menghadapi masalah yang tidak terduga. Jika Anda membutuhkan bantuan atau panduan tentang cara memanfaatkan Google Sheets secara efektif, jangan ragu untuk menghubungi dukungan kami!"
+      "message": "Untuk hasil terbaik, gunakan versi <1>Stable</1> dari fitur Google Sheets. Versi stabil telah diuji secara menyeluruh untuk memastikan kinerja yang andal, membantu Anda menghindari masalah yang tidak terduga. Jika Anda membutuhkan bantuan, jangan ragu untuk menghubungi dukungan."
     },
-    "loginRequired": "Silakan <1>Masuk</1> ke akun Anda sebelum terhubung dengan Google Sheets.",
+    "loginRequired": "<1>Login</1> ke akun Anda sebelum terhubung dengan Google Sheets.",
     "connect": "Terhubung dengan Google Sheets",
     "connected": "Terhubung dengan Google Sheets"
   },
@@ -360,11 +360,11 @@
     "count": "Otomatisasi ({{count}})",
     "search": "Cari otomatisasi Anda...",
     "add": "Baru",
-    "reorder": "Susun ulang",
+    "reorder": "Atur ulang urutan",
     "reorderByName": "Urutkan berdasarkan Nama",
     "selected": "terpilih",
     "selected_one": "1 otomatisasi dipilih",
-    "selected_other": "{{count}} otomatisasi dipilih",
+    "selected_other": "Otomatisasi {{count}} dipilih",
     "selectAll": "Pilih semua",
     "exportSelected": "Ekspor yang dipilih",
     "deleteSelected": "Hapus yang dipilih",
@@ -376,27 +376,27 @@
     "filter": {
       "all": "Semua",
       "enabled": "Diaktifkan",
-      "disabled": "Dengan disabilitas"
+      "disabled": "Dinonaktifkan"
     },
     "confirm": {
       "delete": {
         "title": "Hapus Otomatisasi",
         "message": "Apakah Anda yakin ingin menghapus otomatisasi yang dipilih?",
         "message_one": "Apakah Anda yakin ingin menghapus otomatisasi yang dipilih?",
-        "message_other": "Apakah Anda yakin ingin menghapus {{count}} otomatisasi yang dipilih?"
+        "message_other": "Apakah Anda yakin ingin menghapus otomatisasi {{count}} yang dipilih?"
       }
     },
     "toast": {
       "header": "Otomatisasi",
       "remove": "Otomatisasi berhasil dihapus.",
       "remove_one": "Otomatisasi berhasil dihapus.",
-      "remove_other": "{{count}} Otomatisasi berhasil dihapus",
+      "remove_other": "Otomatisasi {{count}} berhasil dihapus",
       "export": "Otomatisasi berhasil diekspor.",
       "export_one": "1 otomatisasi berhasil diekspor",
-      "export_other": "{{count}} otomatisasi berhasil diekspor",
+      "export_other": "Otomatisasi {{count}} berhasil diekspor",
       "import": "Otomatisasi berhasil diimpor.",
       "import_one": "1 otomatisasi berhasil diimpor",
-      "import_other": "{{count}} otomatisasi berhasil diimpor",
+      "import_other": "Otomatisasi {{count}} berhasil diimpor",
       "reorder": "Otomatisasi berhasil diurutkan ulang.",
       "alreadyExists": "Semua otomatisasi sudah ada dengan konten yang identik."
     }
@@ -405,9 +405,9 @@
     "title": "Otomatisasi",
     "remove": "Menghapus",
     "duplicate": "Duplikat",
-    "enable": "Memungkinkan",
-    "disable": "Cacat",
-    "disabled": "Dengan disabilitas",
+    "enable": "Aktifkan",
+    "disable": "Nonaktifkan",
+    "disabled": "Dinonaktifkan",
     "edit": "Edit",
     "export": "Ekspor",
     "import": "Impor",
@@ -418,8 +418,8 @@
     "name": "Nama",
     "initWait": "Tunggu Sebelum Memulai",
     "startTime": "Waktu Mulai yang Dijadwalkan",
-    "noConfig": "Tidak ditemukan otomatisasi, harap perbaiki pencarian Anda.",
-    "publish": "Menerbitkan",
+    "noConfig": "Tidak ditemukan otomatisasi. Harap perbaiki pencarian Anda.",
+    "publish": "Publikasikan",
     "unpublish": "Batalkan publikasi",
     "published": "Diterbitkan",
     "publishedToCloud": "Diterbitkan ke cloud",
@@ -464,11 +464,11 @@
     "title": "Jelajahi Otomatisasi",
     "search": "Otomatisasi pencarian...",
     "loadMore": "Muat Lebih Banyak",
-    "loginToExplore": "Silakan <1>Masuk</1> untuk menjelajahi otomatisasi yang telah dipublikasikan.",
+    "loginToExplore": "<1>Login</1> untuk menjelajahi otomatisasi yang telah dipublikasikan.",
     "no-published": "Tidak ditemukan otomatisasi. Jadilah yang pertama menerbitkan otomatisasi!",
     "downloads_zero": "Tidak ada unduhan",
     "downloads_one": "1 Unduhan",
-    "downloads_other": "{{count}} Unduhan",
+    "downloads_other": "Unduhan {{count}}",
     "filter": {
       "all": "Semua",
       "mine": "Milikku",
@@ -484,16 +484,16 @@
     "startType": "Mode Operasi",
     "hotkey": "Tombol pintas",
     "auto": "Otomatis",
-    "autoHint": "<b>Otomatis</b> — berjalan dengan sendirinya setiap kali halaman dimuat. Anda tidak perlu melakukan tindakan apa pun.",
+    "autoHint": "<b>Automatic</b> — berjalan sendiri setiap kali halaman dimuat. Tidak perlu tindakan apa pun dari Anda.",
     "manual": "Manual (Tombol Pintas)",
     "manualHint": "<b>Manual</b> — hanya berjalan saat Anda menekan pintasan keyboard yang telah Anda tentukan.",
     "loadType": "Waktu Pemuatan Halaman",
     "window": "Setelah Beban Penuh",
-    "windowHint": "<b>Setelah Pemuatan Penuh</b> (Disarankan) — otomatisasi dimulai setelah seluruh halaman termasuk gambar dan skrip selesai dimuat.",
+    "windowHint": "<b>Setelah Pemuatan Penuh</b> (Direkomendasikan) — otomatisasi dimulai setelah seluruh halaman termasuk gambar dan skrip selesai dimuat.",
     "document": "Saat Halaman Dimuat",
     "documentHint": "<b>Saat Halaman Dimuat</b> — otomatisasi dimulai segera setelah struktur halaman siap, sebelum gambar dan skrip selesai dimuat. Lebih cepat tetapi mungkin tidak stabil di beberapa halaman.",
     "triggerUrlChange": "Jalankan Navigasi Halaman",
-    "triggerUrlChangeHint": "<b>Jalankan Saat Navigasi Halaman</b> — menjalankan ulang otomatisasi saat alamat halaman berubah tanpa memuat ulang sepenuhnya. Berguna untuk Gmail, Twitter, dan aplikasi modern lainnya.",
+    "triggerUrlChangeHint": "<b>Jalankan saat Navigasi Halaman</b> — menjalankan kembali otomatisasi saat alamat halaman berubah tanpa memuat ulang sepenuhnya. Berguna untuk Gmail, Twitter, dan aplikasi modern lainnya.",
     "urlMatch": "Jenis Pencocokan URL",
     "regex": "Pencocokan Pola",
     "exact": "URL Tepat",
@@ -503,13 +503,13 @@
       "title": "Melewati Perilaku Default Browser untuk Tombol Pintas",
       "alert": "Peringatan",
       "confirm": "Mengonfirmasi",
-      "prompt": "Mengingatkan"
+      "prompt": "Prompt"
     }
   },
   "loop": {
-    "title": "Lingkaran",
+    "title": "Perulangan",
     "repeat": "Mengulang",
-    "repeatHint": "<b>Fungsi Repeat</b> akan menjalankan kembali semua langkah tanpa memuat ulang halaman dengan interval yang diberikan.",
+    "repeatHint": "<b>Repeat</b> akan menjalankan kembali semua langkah tanpa memuat ulang halaman dengan interval yang diberikan.",
     "repeatInterval": "Interval Antar Putaran",
     "repeatIntervalRange": "Interval Antar Putaran",
     "refresh": "Menyegarkan",
@@ -531,7 +531,7 @@
     "scheduleDate": "Silakan masukkan tanggal yang valid dalam format ini: 2025-12-01",
     "scheduleTime": "Silakan masukkan waktu yang valid dalam format ini: 23:59:59.000",
     "scheduleRepeat": "Silakan masukkan angka yang valid untuk menentukan berapa kali pengulangan yang diinginkan.",
-    "startTime": "Silakan masukkan waktu mulai yang valid dalam format ini: 12:12:12:000",
+    "startTime": "Silakan masukkan waktu mulai yang valid dalam format ini: 12:12:12.000",
     "json": "File yang dipilih bukan JSON yang valid — harap periksa dan coba lagi.",
     "hotKey": "Silakan gunakan kombinasi huruf dengan Ctrl, Alt, atau Shift (misalnya Ctrl + A).",
     "valueExtractor": "Pola yang Anda masukkan tidak valid — harap periksa dan coba lagi.",
@@ -540,15 +540,15 @@
     "elementFinder": "Silakan masukkan cara menemukan item tersebut di halaman ini.",
     "spreadsheetId": "Silakan masukkan ID Google Sheets yang valid (44 karakter, contoh: 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
     "roleLock": {
-      "header": "{{plan}} Rencana Diperlukan",
+      "header": "Paket {{plan}} Diperlukan",
       "body": "Fitur ini memerlukan paket {{plan}}. Silakan tingkatkan paket Anda untuk melanjutkan."
     }
   },
   "step": {
-    "title": "Melangkah",
+    "title": "Langkah",
     "plural": "Tangga",
     "step_one": "Langkah 1",
-    "step_other": "{{count}} Langkah",
+    "step_other": "Langkah {{count}}",
     "add": "Tambahkan Langkah",
     "addBefore": "Tambahkan Langkah di Atas",
     "addAfter": "Tambahkan Langkah di Bawah Ini",
@@ -565,11 +565,11 @@
     "confirm": {
       "remove": {
         "title": "Hapus Langkah",
-        "message": "Apakah Anda yakin ingin menghapus Langkah [{{name}}]?"
+        "message": "Apakah Anda yakin ingin menghapus langkah [{{name}}]?"
       }
     },
     "toast": {
-      "header": "Melangkah",
+      "header": "Langkah",
       "body": "Langkah berhasil disimpan!",
       "remove": "Langkah berhasil dihilangkan!",
       "reorder": "Langkah-langkah berhasil diurutkan ulang!"
@@ -591,7 +591,7 @@
       "regex": "Ekspresi reguler"
     },
     "elementFinder": {
-      "getElementBy": "mendapatkanElemenOleh",
+      "getElementBy": "getElementBy",
       "elementFinder": "Pencari Elemen",
       "count": "jumlah elemen"
     },
@@ -603,31 +603,31 @@
       "title": "bendera",
       "global": "Jangan kembali setelah pertandingan pertama",
       "multiLine": "^ dan $ cocok dengan awal/akhir baris",
-      "insensitive": "Pencocokan tanpa memperhatikan huruf besar/kecil",
+      "insensitive": "Abaikan perbedaan huruf besar dan kecil.",
       "extended": "Abaikan spasi kosong",
       "singleLine": "Titik cocok dengan baris baru"
     },
     "hotkey": {
       "title": "Tombol pintas",
       "content": "Tekan tombol pintas pada keyboard untuk mengetik otomatis di kolom.",
-      "hint": "Huruf tunggal tanpa <kbd>Ctrl</kbd> , <kbd>Alt</kbd> , atau <kbd>Shift</kbd> tidak valid."
+      "hint": "Huruf tunggal tanpa <kbd>Ctrl</kbd>, <kbd>Alt</kbd> atau <kbd>Shift</kbd> tidak valid"
     }
   },
   "common": {
-    "appName": "Klik Otomatis - Isi Otomatis",
+    "appName": "Pengklik Otomatis - Isi Otomatis",
     "file": "Mengajukan",
     "error": "Kesalahan",
-    "save": "Menyimpan",
-    "clear": "Jernih",
+    "save": "Simpan",
+    "clear": "Hapus",
     "cancel": "Membatalkan",
     "close": "Menutup",
     "download": "Unduh",
     "loading": "Memuat...",
-    "disabled": "Dengan disabilitas",
+    "disabled": "Dinonaktifkan",
     "remove": "Menghapus",
     "edit": "Edit",
-    "enable": "Memungkinkan",
-    "disable": "Cacat",
+    "enable": "Aktifkan",
+    "disable": "Nonaktifkan",
     "duplicate": "Duplikat",
     "sec": "detik",
     "min": "menit",
@@ -635,7 +635,7 @@
     "yes": "Ya",
     "local": "LOKAL",
     "dev": "PENGEMBANG",
-    "stable": "STABIL",
+    "stable": "Stabil",
     "examples": "Contoh",
     "add": "Menambahkan",
     "confirm": "Mengonfirmasi"
@@ -645,7 +645,7 @@
     "en": "Bahasa inggris",
     "fr": "Perancis",
     "ko": "Korea",
-    "ca": "Kanada",
+    "ca": "Catalan",
     "hi": "Hindi",
     "zh_CN": "Bahasa Mandarin (Sederhana)",
     "zh_TW": "Bahasa Mandarin (Tradisional)",
@@ -663,14 +663,14 @@
     "id": "Indonesia"
   },
   "monitor": {
-    "title": "Monitor",
+    "title": "Pemantauan",
     "enabled": "Aktifkan Pemantauan",
     "enabledHint": "Secara otomatis menjalankan kembali tindakan ketika elemen yang cocok baru ditambahkan ke halaman (misalnya, untuk pengguliran tak terbatas, konten asinkron).",
     "rootSelector": "Monitor Akar",
-    "rootSelectorPlaceholder": "tubuh",
+    "rootSelectorPlaceholder": "body",
     "rootSelectorHint": "Selektor CSS untuk kontainer yang akan diamati",
     "watchAttributes": "Atribut Monitor",
-    "attributesPlaceholder": "gaya, kelas, tersembunyi",
+    "attributesPlaceholder": "style, class, hidden",
     "attributesHint": "Daftar atribut yang dipisahkan koma untuk diamati perubahannya.",
     "debounce": "Debounce",
     "debounceHint": "Penundaan sebelum memproses elemen baru (1-5 detik)",
@@ -679,7 +679,7 @@
     "urlChange": "Berhenti pada Perubahan URL",
     "urlChangeHint": "Berhenti memantau secara otomatis saat URL halaman berubah.",
     "toast": {
-      "header": "Monitor",
+      "header": "Pemantauan",
       "body": "Monitor berhasil disimpan!"
     }
   },
@@ -727,7 +727,7 @@
     "videos": {
       "title": "Panduan Video",
       "video1": {
-        "title": "Auto Clicker AutoFill - Complete Overview"
+        "title": "Auto Clicker AutoFill - Gambaran Umum Lengkap"
       },
       "video2": {
         "title": "Memulai Menggunakan Auto Clicker AutoFill"

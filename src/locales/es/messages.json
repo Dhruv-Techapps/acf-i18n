@@ -1,30 +1,30 @@
 {
   "EXT_NAME": {
-    "message": "Clicker automático - Autocompletar"
+    "message": "Auto Clicker - Autocompletar"
   },
   "EXT_NAME_DEV": {
-    "message": "Clicker automático - Autocompletar [DEV]"
+    "message": "Auto Clicker - Autocompletar [DESARROLLADOR]"
   },
   "EXT_NAME_BETA": {
-    "message": "Clicker automático - Autocompletar [BETA]"
+    "message": "Auto Clicker - Autocompletar [BETA]"
   },
   "EXT_NAME_LOCAL": {
-    "message": "Clicker automático - Autocompletar [LOCAL]"
+    "message": "Auto Clicker - Autocompletar [LOCAL]"
   },
   "EXT_SHORT_NAME": {
-    "message": "Autocompletar"
+    "message": "Auto Clicker - Autocompletar"
   },
   "EXT_DESCRIPTION": {
-    "message": "Campo de entrada de autocompletar o botón de clic automático o vincular cualquier cosa en cualquier lugar. Puede configurar y verificar la prueba de velocidad de clic"
+    "message": "Autocompletar campos de entrada, hacer clic automáticamente en botones o enlaces en cualquier lugar. Puede configurar y comprobar la velocidad de clic."
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
     "message": "Copia de seguridad ACF"
   },
   "@ACF_BACKUP__NOTIFICATION_BACKUP": {
-    "message": "Las configuraciones están respaldadas en Google Drive en $1"
+    "message": "Las configuraciones se guardan en Google Drive en $1"
   },
   "@ACF_BACKUP__NOTIFICATION_RESTORE": {
-    "message": "Las configuraciones se restauran desde Google Drive. Actualice la página de configuraciones para cargar contenido."
+    "message": "Las configuraciones se restauran desde Google Drive. Actualiza la página de configuraciones para cargar el contenido."
   },
   "@ACF_BACKUP__ERROR_NO_CONFIG": {
     "message": "No se encontraron configuraciones para respaldar"
@@ -36,16 +36,16 @@
     "message": "no está configurado"
   },
   "@PORT__METHOD_NOT_FOUND": {
-    "message": "no se encuentra el método de proceso"
+    "message": "No se encuentra el método de proceso."
   },
   "@CONTEXT_MENU__FIELD": {
-    "message": "★ Configurar para este campo"
+    "message": "⊕ Configurar para este campo"
   },
   "@CONTEXT_MENU__FIELD_POSITION": {
     "message": "⌖ Configurar por posición"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Panel lateral/☉ Registro"
+    "message": "▤ Panel lateral / ☉ Grabación"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Pregúntale a la IA"
@@ -78,13 +78,13 @@
     "message": "No se pudo obtener respuesta. Por favor, inténtelo de nuevo."
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
-    "message": "Seleccione elemento(s)"
+    "message": "Seleccionar elementos"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
     "message": "Seleccione otro elemento"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
-    "message": "Haz clic en los elementos de la página… (haz clic para detenerte)"
+    "message": "Haz clic en los elementos de la página... (haz clic para detenerte)"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
     "message": "Eliminar"
@@ -123,10 +123,10 @@
     "message": "↗ Abrir página de configuración"
   },
   "@TABS__TITLE": {
-    "message": "Pestañas"
+    "message": "Cortina a la italiana"
   },
   "@TABS__ERROR": {
-    "message": "No se puede localizar la pestaña especificada o el ID de pestaña."
+    "message": "No se pudo encontrar la pestaña o el ID de pestaña especificado."
   },
   "@ACTION__TITLE": {
     "message": "Paso"
@@ -150,7 +150,7 @@
     "message": "Automatización"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
-    "message": "El buscador de elementos está en blanco"
+    "message": "El buscador de elementos está vacío"
   },
   "@ERROR__NO_MATCH": {
     "message": "La condición no coincidía."
@@ -159,13 +159,13 @@
     "message": "Comparación incorrecta"
   },
   "@ERROR__WRONG_DESCRIPTION": {
-    "message": "Los operadores mayores o menores que solo pueden comparar números"
+    "message": "Los operadores de mayor o menor que solo pueden comparar números."
   },
   "@ERROR__ELEMENT_FINDER_TITLE": {
-    "message": "Buscador de elementos o condición de complemento incorrectos"
+    "message": "Buscador de elementos incorrecto o condición de complemento"
   },
   "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
-    "message": "El Buscador de elementos debe apuntar a una casilla de verificación"
+    "message": "El buscador de elementos debe apuntar a una casilla de verificación."
   },
   "@ERROR__INVALID_ELEMENT_FINDER": {
     "message": "Buscador de elementos no válidos"
@@ -177,13 +177,13 @@
     "message": "No encontrado - RECARGAR"
   },
   "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
-    "message": "Acción no encontrada para Goto"
+    "message": "No se encontró ninguna acción para Ir a"
   },
   "@ERROR__NO_ELEMENT_FOUND": {
-    "message": "No se encontró ningún elemento con el selector indicado"
+    "message": "No se encontró ningún elemento con el selector dado."
   },
   "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
-    "message": "Visite la página de configuración para revisar y actualizar la condición de acción para asegurarse de que la configuración esté actualizada correctamente."
+    "message": "Visite la página de configuración para revisar y actualizar la condición de acción y asegurarse de que la configuración se actualice correctamente."
   },
   "@CONDITION_SATISFIED": {
     "message": "Condición satisfecha"
@@ -210,7 +210,7 @@
     "message": "esperar"
   },
   "@DISABLED": {
-    "message": "Desactivado"
+    "message": "Deshabilitado"
   },
   "@RESULT": {
     "message": "Resultado"
@@ -225,7 +225,7 @@
     "message": "Comparar"
   },
   "@RECHECK_OPTION": {
-    "message": "Volver a comprobar la opción"
+    "message": "RecheckOption"
   },
   "@DOCS": {
     "message": "Documentos"
@@ -243,6 +243,6 @@
     "message": "Se requiere suscripción."
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "Necesitas una suscripción $1 para acceder a la función $2."
+    "message": "Necesitas tener una suscripción $1 para acceder a la función $2."
   }
 }

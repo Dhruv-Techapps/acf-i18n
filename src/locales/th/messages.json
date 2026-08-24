@@ -1,0 +1,248 @@
+{
+  "EXT_NAME": {
+    "message": "โปรแกรมคลิกอัตโนมัติ - กรอกข้อมูลอัตโนมัติ"
+  },
+  "EXT_NAME_DEV": {
+    "message": "โปรแกรมคลิกอัตโนมัติ - กรอกข้อมูลอัตโนมัติ [เวอร์ชันพัฒนา]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "โปรแกรมคลิกอัตโนมัติ - กรอกข้อมูลอัตโนมัติ [รุ่นเบต้า]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "โปรแกรมคลิกอัตโนมัติ - กรอกข้อมูลอัตโนมัติ [เวอร์ชันท้องถิ่น]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "โปรแกรมคลิกอัตโนมัติ - กรอกข้อมูลอัตโนมัติ"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "กรอกข้อมูลอัตโนมัติในช่องป้อนข้อมูลหรือคลิกปุ่มอัตโนมัติหรือสร้างลิงก์ไปยังสิ่งใดก็ได้ทุกที่คุณสามารถตั้งค่าและตรวจสอบความเร็วในการคลิกได้"
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "การสำรองข้อมูล ACF"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "ไฟล์การตั้งค่าได้รับการสำรองข้อมูลไว้ใน Google Drive ที่ $1"
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "การตั้งค่าต่างๆจะถูกกู้คืนจาก Google Drive โปรดรีเฟรชหน้าการตั้งค่าเพื่อโหลดเนื้อหา"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "ไม่พบการตั้งค่าใดๆที่จะสำรองข้อมูล"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "ไม่พบเนื้อหาในไฟล์"
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "ไม่ได้กำหนดค่า"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "ไม่พบวิธีการประมวลผล"
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "⊕ กำหนดค่าสำหรับช่องนี้"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ กำหนดค่าตามตำแหน่ง"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ แผงด้านข้าง / ☉ การบันทึก"
+  },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ ถาม AI"
+  },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "ระบบอัตโนมัติ"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "การบันทึก"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "ถาม"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "ตั้งคำถามเช่น \"ลูปคืออะไร?\""
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "ส่ง"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "แหล่งที่มา"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "ลงชื่อเข้าใช้เพื่อถามคำถาม"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "เข้าสู่ระบบ"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "ไม่สามารถรับคำตอบได้โปรดลองใหม่อีกครั้ง"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
+    "message": "เลือกองค์ประกอบ"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
+    "message": "เลือกองค์ประกอบอื่น"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
+    "message": "คลิกองค์ประกอบต่างๆบนหน้าเว็บ... (คลิกเพื่อหยุด)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
+    "message": "ลบ"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "ค้นหา"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "ตรงกัน"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "อื่น"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "เริ่มบันทึก"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "หยุดบันทึก"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "เริ่มกรอกแบบฟอร์ม..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "หากคุณได้กรอกแบบฟอร์มเรียบร้อยแล้ว"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "กรอกข้อมูลเรียบร้อยแล้วใช่ไหม?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "คลิก"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "แก้ไขอัตโนมัติ"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ เปิดหน้าการตั้งค่า"
+  },
+  "@TABS__TITLE": {
+    "message": "แท็บ"
+  },
+  "@TABS__ERROR": {
+    "message": "ไม่สามารถค้นหาแท็บหรือรหัสแท็บที่ระบุได้"
+  },
+  "@ACTION__TITLE": {
+    "message": "ขั้นตอน"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "สคริปต์ผู้ใช้"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "ไม่มีชื่อ"
+  },
+  "@ADDON__TITLE": {
+    "message": "ส่วนเสริม"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "เงื่อนไขการดำเนินการ"
+  },
+  "@BATCH__TITLE": {
+    "message": "การวนซ้ำ"
+  },
+  "@CONFIG__TITLE": {
+    "message": "ระบบอัตโนมัติ"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "ตัวค้นหาองค์ประกอบว่างเปล่า"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "เงื่อนไขไม่ตรงกัน"
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "การเปรียบเทียบที่ไม่ถูกต้อง"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "ตัวดำเนินการมากกว่าหรือน้อยกว่าสามารถใช้เปรียบเทียบตัวเลขได้เท่านั้น"
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "ตัวค้นหาองค์ประกอบหรือเงื่อนไขส่วนเสริมไม่ถูกต้อง"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "Element Finder ควรเลือกช่องทำเครื่องหมายเป็นเป้าหมาย"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "ตัวค้นหาองค์ประกอบไม่ถูกต้อง"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "ไม่พบ - หยุด"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "ไม่พบ - โปรดโหลดใหม่"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "ไม่พบการดำเนินการสำหรับ Goto"
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "ไม่พบองค์ประกอบใดๆที่ตรงกับตัวเลือกที่กำหนด"
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "โปรดไปที่หน้าการตั้งค่าเพื่อตรวจสอบและอัปเดตเงื่อนไขการดำเนินการเพื่อให้แน่ใจว่าการตั้งค่าได้รับการอัปเดตอย่างถูกต้อง"
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "ตรงตามเงื่อนไข"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "เงื่อนไขไม่เป็นไปตามที่ตกลงกัน"
+  },
+  "@ERROR": {
+    "message": "ข้อผิดพลาด"
+  },
+  "@SCHEDULE": {
+    "message": "กำหนดการ"
+  },
+  "@REPEAT": {
+    "message": "ทำซ้ำ"
+  },
+  "@COMPLETED": {
+    "message": "สมบูรณ์"
+  },
+  "@DEFAULT": {
+    "message": "ค่าเริ่มต้น"
+  },
+  "@WAIT": {
+    "message": "รอ"
+  },
+  "@DISABLED": {
+    "message": "ปิดใช้งานแล้ว"
+  },
+  "@RESULT": {
+    "message": "ผลลัพธ์"
+  },
+  "@GOTO": {
+    "message": "ไปที่"
+  },
+  "@RECHECK": {
+    "message": "ตรวจสอบอีกครั้ง"
+  },
+  "@COMPARE": {
+    "message": "เปรียบเทียบ"
+  },
+  "@RECHECK_OPTION": {
+    "message": "ตัวเลือกตรวจสอบซ้ำ"
+  },
+  "@DOCS": {
+    "message": "เอกสาร"
+  },
+  "@CHAT": {
+    "message": "แชท"
+  },
+  "@ADVANCE": {
+    "message": "ก้าวหน้า"
+  },
+  "@SPONSOR": {
+    "message": "ผู้สนับสนุน"
+  },
+  "@SUBSCRIPTION__REQUIRED": {
+    "message": "ต้องสมัครสมาชิกก่อนจึงจะใช้งานได้"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "คุณต้องสมัครสมาชิก $1 เพื่อเข้าถึงฟีเจอร์ $2"
+  }
+}
