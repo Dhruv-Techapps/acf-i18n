@@ -340,7 +340,7 @@
       "title": "Użyj stabilnych wersji funkcji Arkuszy Google.",
       "message": "Aby uzyskać najlepsze rezultaty, skorzystaj z funkcji Arkuszy Google w wersji <1>Stable</1>. Wersje stabilne są dokładnie testowane, aby zapewnić niezawodną wydajność i uniknąć nieoczekiwanych problemów. Jeśli potrzebujesz pomocy, skontaktuj się z nami."
     },
-    "loginRequired": "Proszę <1>Login</1> do swojego konta przed połączeniem z Arkuszami Google.",
+    "loginRequired": "<1>Zaloguj się</1> na swoje konto przed połączeniem z Arkuszami Google.",
     "connect": "Połącz się z Arkuszami Google",
     "connected": "Połączono z Arkuszami Google"
   },
@@ -464,7 +464,7 @@
     "title": "Poznaj automatyzacje",
     "search": "Automatyzacja wyszukiwania...",
     "loadMore": "Załaduj więcej",
-    "loginToExplore": "Proszę <1>Login</1> aby zapoznać się z opublikowanymi automatyzacjami.",
+    "loginToExplore": "<1>Zaloguj się</1>, aby przeglądać opublikowane automatyzacje.",
     "no-published": "Nie znaleziono automatyzacji. Bądź pierwszy, który opublikuje automatyzację!",
     "downloads_zero": "Brak pobrań",
     "downloads_one": "1 Pobierz",
@@ -650,7 +650,7 @@
     "zh_CN": "chiński (uproszczony)",
     "zh_TW": "chiński (tradycyjny)",
     "sv": "szwedzki",
-    "pt": "portugalski",
+    "pt_PT": "portugalski",
     "ja": "japoński",
     "nl": "Holenderski",
     "de": "niemiecki",
@@ -660,7 +660,12 @@
     "ar": "arabski",
     "it": "włoski",
     "ru": "rosyjski",
-    "id": "indonezyjski"
+    "id": "indonezyjski",
+    "bg": "bułgarski",
+    "fil": "Filipiński",
+    "pl": "Polski",
+    "sw": "suahili",
+    "th": "tajski"
   },
   "monitor": {
     "title": "Monitorowanie",

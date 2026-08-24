@@ -464,7 +464,7 @@
     "title": "Khám phá Tự động hóa",
     "search": "Tự động hóa tìm kiếm...",
     "loadMore": "Tải thêm",
-    "loginToExplore": "<1>Login</1> để khám phá các quy trình tự động hóa đã được công bố.",
+    "loginToExplore": "Đăng nhập <1>Log in</1> để khám phá các quy trình tự động hóa đã được công bố.",
     "no-published": "Không tìm thấy quy trình tự động hóa nào. Hãy là người đầu tiên đăng tải một quy trình!",
     "downloads_zero": "Không có tệp tải xuống",
     "downloads_one": "1 Tải xuống",
@@ -650,7 +650,7 @@
     "zh_CN": "Tiếng Trung (Giản thể)",
     "zh_TW": "Tiếng Trung (Truyền thống)",
     "sv": "Thụy Điển",
-    "pt": "tiếng Bồ Đào Nha",
+    "pt_PT": "tiếng Bồ Đào Nha",
     "ja": "Tiếng Nhật",
     "nl": "Tiếng Hà Lan",
     "de": "tiếng Đức",
@@ -660,7 +660,12 @@
     "ar": "tiếng Ả Rập",
     "it": "Ý",
     "ru": "Tiếng Nga",
-    "id": "Tiếng Indonesia"
+    "id": "Tiếng Indonesia",
+    "bg": "tiếng Bulgaria",
+    "fil": "người Philippines",
+    "pl": "tiếng Ba Lan",
+    "sw": "Tiếng Swahili",
+    "th": "Thái Lan"
   },
   "monitor": {
     "title": "Giám sát",

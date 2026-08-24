@@ -464,7 +464,7 @@
     "title": "Utforska automatiseringar",
     "search": "Sökautomatiseringar...",
     "loadMore": "Ladda mer",
-    "loginToExplore": "Vänligen <1>Logga in</1> för att utforska publicerade automatiseringar.",
+    "loginToExplore": "<1>Logga in</1> för att utforska publicerade automatiseringar.",
     "no-published": "Inga automatiseringar hittades. Bli först med att publicera en!",
     "downloads_zero": "Inga nedladdningar",
     "downloads_one": "1 nedladdning",
@@ -650,7 +650,7 @@
     "zh_CN": "Kinesiska (förenklad)",
     "zh_TW": "Kinesiska (traditionell)",
     "sv": "Svenska",
-    "pt": "Portugisiska",
+    "pt_PT": "Portugisiska",
     "ja": "japanska",
     "nl": "holländska",
     "de": "Tyska",
@@ -660,7 +660,12 @@
     "ar": "Arabiska",
     "it": "Italienska",
     "ru": "Ryska",
-    "id": "Indonesiska"
+    "id": "Indonesiska",
+    "bg": "Bulgariska",
+    "fil": "Filippinare",
+    "pl": "Polska",
+    "sw": "Swahili",
+    "th": "Thailändsk"
   },
   "monitor": {
     "title": "Övervakning",

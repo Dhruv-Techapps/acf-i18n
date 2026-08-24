@@ -464,7 +464,7 @@
     "title": "Explorez les automatisations",
     "search": "Automatisation de la recherche...",
     "loadMore": "Charger plus",
-    "loginToExplore": "Veuillez <1>vous connecter</1> pour explorer les automatisations publiées.",
+    "loginToExplore": "<1>Connectez-vous à </1> pour explorer les automatisations publiées.",
     "no-published": "Aucune automatisation trouvée. Soyez le premier à en publier une !",
     "downloads_zero": "Aucun téléchargement",
     "downloads_one": "1 téléchargement",
@@ -650,7 +650,7 @@
     "zh_CN": "Chinois (simplifié)",
     "zh_TW": "Chinois (traditionnel)",
     "sv": "suédois",
-    "pt": "portugais",
+    "pt_PT": "portugais",
     "ja": "japonais",
     "nl": "Néerlandais",
     "de": "Allemand",
@@ -660,7 +660,12 @@
     "ar": "arabe",
     "it": "italien",
     "ru": "russe",
-    "id": "indonésien"
+    "id": "indonésien",
+    "bg": "bulgare",
+    "fil": "Philippin",
+    "pl": "polonais",
+    "sw": "Swahili",
+    "th": "thaïlandais"
   },
   "monitor": {
     "title": "Surveillance",

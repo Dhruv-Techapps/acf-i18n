@@ -650,7 +650,7 @@
     "zh_CN": "Chinês (Simplificado)",
     "zh_TW": "Chinês (Tradicional)",
     "sv": "sueco",
-    "pt": "Português",
+    "pt_PT": "Português",
     "ja": "japonês",
     "nl": "Holandês",
     "de": "Alemão",
@@ -660,7 +660,12 @@
     "ar": "árabe",
     "it": "italiano",
     "ru": "russo",
-    "id": "indonésio"
+    "id": "indonésio",
+    "bg": "búlgaro",
+    "fil": "Filipino",
+    "pl": "polonês",
+    "sw": "suaíli",
+    "th": "Tailandês"
   },
   "monitor": {
     "title": "Monitoramento",

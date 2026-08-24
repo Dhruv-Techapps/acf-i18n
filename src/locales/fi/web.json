@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Ilmoitus Discordissa",
-    "loginRequired": "<1>Kirjaudu</1> tilillesi ennen kuin muodostat yhteyden Discordilla."
+    "loginRequired": "<1>Kirjaudu sisään </1>-tilillesi ennen kuin muodostat yhteyden Discordin kanssa."
   },
   "checkIFrames": {
     "title": "Hae upotettujen sivujen sisältä",
@@ -110,7 +110,7 @@
     "weekly": "Viikoittain",
     "monthly": "Kuukausittain",
     "off": "Pois",
-    "loginRequired": "<1>Kirjaudu</1> tilillesi ennen kuin muodostat yhteyden Google Driveen.",
+    "loginRequired": "<1>Kirjaudu sisään</1> tilillesi ennen kuin yhdistät Google Driveen.",
     "checkingAccess": "Tarkistetaan Google Driven käyttöoikeuksia...",
     "connect": "Yhdistä Google Driveen",
     "connected": "Google Driven varmuuskopiointi",
@@ -464,7 +464,7 @@
     "title": "Tutustu automaatioihin",
     "search": "Hakuautomaatiot...",
     "loadMore": "Lataa lisää",
-    "loginToExplore": "<1>Kirjaudu sisään </1> tutustuaksesi julkaistuihin automaatioihin.",
+    "loginToExplore": "<1>Kirjaudu sisään</1> tutustuaksesi julkaistuihin automaatioihin.",
     "no-published": "Ei automaatioita. Ole ensimmäinen, joka julkaisee sellaisen!",
     "downloads_zero": "Ei latauksia",
     "downloads_one": "1 lataus",
@@ -650,7 +650,7 @@
     "zh_CN": "Kiina (yksinkertaistettu)",
     "zh_TW": "Kiina (perinteinen)",
     "sv": "Ruotsin",
-    "pt": "portugali",
+    "pt_PT": "portugali",
     "ja": "Japani",
     "nl": "hollantilainen",
     "de": "saksa",
@@ -660,7 +660,12 @@
     "ar": "arabia",
     "it": "italialainen",
     "ru": "venäjä",
-    "id": "Indonesia"
+    "id": "Indonesia",
+    "bg": "Bulgaria",
+    "fil": "Filippiiniläinen",
+    "pl": "puola",
+    "sw": "swahili",
+    "th": "thaimaalainen"
   },
   "monitor": {
     "title": "Valvonta",

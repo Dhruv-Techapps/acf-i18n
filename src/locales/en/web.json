@@ -650,7 +650,7 @@
     "zh_CN": "Chinese (Simplified)",
     "zh_TW": "Chinese (Traditional)",
     "sv": "Swedish",
-    "pt": "Portuguese",
+    "pt_PT": "Portuguese",
     "ja": "Japanese",
     "nl": "Dutch",
     "de": "German",
@@ -660,7 +660,12 @@
     "ar": "Arabic",
     "it": "Italian",
     "ru": "Russian",
-    "id": "Indonesian"
+    "id": "Indonesian",
+    "bg": "Bulgarian",
+    "fil": "Filipino",
+    "pl": "Polish",
+    "sw": "Swahili",
+    "th": "Thai"
   },
   "monitor": {
     "title": "Monitor",

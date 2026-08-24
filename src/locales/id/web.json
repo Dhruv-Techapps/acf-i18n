@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Pemberitahuan di Discord",
-    "loginRequired": "<1>Login</1> ke akun Anda sebelum terhubung dengan Discord."
+    "loginRequired": "<1>Masuk</1> ke akun Anda sebelum terhubung dengan Discord."
   },
   "checkIFrames": {
     "title": "Cari di Dalam Halaman Tertanam",
@@ -110,7 +110,7 @@
     "weekly": "Mingguan",
     "monthly": "Bulanan",
     "off": "Mati",
-    "loginRequired": "<1>Login</1> ke akun Anda sebelum terhubung dengan Google Drive.",
+    "loginRequired": "<1>Masuk</1> ke akun Anda sebelum terhubung dengan Google Drive.",
     "checkingAccess": "Memeriksa akses Google Drive...",
     "connect": "Terhubung dengan Google Drive",
     "connected": "Cadangan Google Drive",
@@ -340,7 +340,7 @@
       "title": "Gunakan Versi Stabil untuk Fitur Google Sheets.",
       "message": "Untuk hasil terbaik, gunakan versi <1>Stable</1> dari fitur Google Sheets. Versi stabil telah diuji secara menyeluruh untuk memastikan kinerja yang andal, membantu Anda menghindari masalah yang tidak terduga. Jika Anda membutuhkan bantuan, jangan ragu untuk menghubungi dukungan."
     },
-    "loginRequired": "<1>Login</1> ke akun Anda sebelum terhubung dengan Google Sheets.",
+    "loginRequired": "<1>Masuk</1> ke akun Anda sebelum terhubung dengan Google Sheets.",
     "connect": "Terhubung dengan Google Sheets",
     "connected": "Terhubung dengan Google Sheets"
   },
@@ -464,7 +464,7 @@
     "title": "Jelajahi Otomatisasi",
     "search": "Otomatisasi pencarian...",
     "loadMore": "Muat Lebih Banyak",
-    "loginToExplore": "<1>Login</1> untuk menjelajahi otomatisasi yang telah dipublikasikan.",
+    "loginToExplore": "<1>Log in</1> untuk menjelajahi otomatisasi yang dipublikasikan.",
     "no-published": "Tidak ditemukan otomatisasi. Jadilah yang pertama menerbitkan otomatisasi!",
     "downloads_zero": "Tidak ada unduhan",
     "downloads_one": "1 Unduhan",
@@ -650,7 +650,7 @@
     "zh_CN": "Bahasa Mandarin (Sederhana)",
     "zh_TW": "Bahasa Mandarin (Tradisional)",
     "sv": "Swedia",
-    "pt": "Portugis",
+    "pt_PT": "Portugis",
     "ja": "Jepang",
     "nl": "Belanda",
     "de": "Jerman",
@@ -660,7 +660,12 @@
     "ar": "Arab",
     "it": "Italia",
     "ru": "Rusia",
-    "id": "Indonesia"
+    "id": "Indonesia",
+    "bg": "Bulgaria",
+    "fil": "Orang Filipina",
+    "pl": "Polandia",
+    "sw": "Bahasa Swahili",
+    "th": "Thai"
   },
   "monitor": {
     "title": "Pemantauan",
