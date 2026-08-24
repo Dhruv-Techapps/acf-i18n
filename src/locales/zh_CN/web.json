@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Discord 通知",
-    "loginRequired": "在连接 Discord 之前，请先<1>登录</1>您的帐户。"
+    "loginRequired": "<1>登录</1>到您的帐户后再连接到Discord。"
   },
   "checkIFrames": {
     "title": "在嵌入式页面内搜索",
@@ -110,7 +110,7 @@
     "weekly": "每周",
     "monthly": "月度",
     "off": "离开",
-    "loginRequired": "在连接 Google 云端硬盘之前，请先<1>登录</1>您的帐户。",
+    "loginRequired": "<1>登录</1>到您的帐户，然后再连接到Google云端硬盘。",
     "checkingAccess": "正在检查 Google 云端硬盘访问权限……",
     "connect": "连接到 Google 云端硬盘",
     "connected": "Google 云端硬盘备份",
@@ -340,7 +340,7 @@
       "title": "使用稳定版本以获得最佳的 Google Sheets 功能。",
       "message": "为了获得最佳效果，请使用 Google Sheets 的 <1>Stable</1> 版本。稳定版本经过全面测试，确保性能可靠，帮助您避免意外问题。如果您需要帮助，请随时联系我们获取支持。"
     },
-    "loginRequired": "在连接 Google Sheets 之前，请先<1>登录</1>您的帐户。",
+    "loginRequired": "<1>登录</1>到您的帐户，然后再连接到Google Sheets。",
     "connect": "连接到 Google 表格",
     "connected": "已连接到 Google Sheets"
   },
@@ -464,7 +464,7 @@
     "title": "探索自动化",
     "search": "搜索自动化……",
     "loadMore": "加载更多",
-    "loginToExplore": "<1>登录</1>以探索已发布的自动化流程。",
+    "loginToExplore": "<1>登录</1>以浏览已发布的自动化流程。",
     "no-published": "未找到自动化脚本。快来发布第一个吧！",
     "downloads_zero": "无需下载",
     "downloads_one": "1 下载",
@@ -650,7 +650,7 @@
     "zh_CN": "中文（简体）",
     "zh_TW": "中文（繁体）",
     "sv": "瑞典",
-    "pt": "葡萄牙语",
+    "pt_PT": "葡萄牙语",
     "ja": "日本人",
     "nl": "荷兰语",
     "de": "德语",
@@ -660,7 +660,12 @@
     "ar": "阿拉伯",
     "it": "意大利语",
     "ru": "俄语",
-    "id": "印度尼西亚"
+    "id": "印度尼西亚",
+    "bg": "保加利亚语",
+    "fil": "菲律宾人",
+    "pl": "波兰语",
+    "sw": "斯瓦希里语",
+    "th": "泰国"
   },
   "monitor": {
     "title": "监控",

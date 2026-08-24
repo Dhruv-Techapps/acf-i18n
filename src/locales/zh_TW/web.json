@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Discord 通知",
-    "loginRequired": "請先<1>登入</1>您的帳戶，然後再連接到Discord。"
+    "loginRequired": "<1>登入</1>到您的帳戶後再連接到Discord。"
   },
   "checkIFrames": {
     "title": "在嵌入式頁面內搜尋",
@@ -110,7 +110,7 @@
     "weekly": "每週",
     "monthly": "每月",
     "off": "離開",
-    "loginRequired": "請先<1>登入</1>您的帳戶，然後再連接到 Google 雲端硬碟。",
+    "loginRequired": "<1>登入</1>到您的帳戶，然後再連接到Google雲端硬碟。",
     "checkingAccess": "正在檢查 Google 雲端硬碟存取權限…",
     "connect": "連接到 Google 雲端硬碟",
     "connected": "Google 雲端硬碟備份",
@@ -340,7 +340,7 @@
       "title": "使用穩定版本以獲得最佳的 Google Sheets 功能。",
       "message": "為了獲得最佳效果，請使用 Google Sheets 的 <1>Stable</1> 版本。穩定版本經過全面測試，確保效能可靠，幫助您避免意外問題。如果您需要協助，請隨時聯絡我們以取得支援。"
     },
-    "loginRequired": "請先<1>登入</1>您的帳戶，然後再連接到 Google Sheets。",
+    "loginRequired": "<1>登入</1>到您的帳戶，然後再連接到Google Sheets。",
     "connect": "連接到 Google 表格",
     "connected": "已連接到 Google Sheets"
   },
@@ -650,7 +650,7 @@
     "zh_CN": "中文（簡體）",
     "zh_TW": "中文（繁體）",
     "sv": "瑞典",
-    "pt": "葡萄牙語",
+    "pt_PT": "葡萄牙語",
     "ja": "日本人",
     "nl": "荷蘭語",
     "de": "德文",
@@ -660,7 +660,12 @@
     "ar": "阿拉伯",
     "it": "義大利語",
     "ru": "俄文",
-    "id": "印尼"
+    "id": "印尼",
+    "bg": "保加利亞語",
+    "fil": "菲律賓人",
+    "pl": "波蘭語",
+    "sw": "斯瓦希里語",
+    "th": "泰國"
   },
   "monitor": {
     "title": "監控",

@@ -464,7 +464,7 @@
     "title": "Gundua Otomatiki",
     "search": "Tafuta otomatiki...",
     "loadMore": "Pakia Zaidi",
-    "loginToExplore": "<1>Login</1> ili kuchunguza otomatiki zilizochapishwa.",
+    "loginToExplore": "<1>Ingia kwenye </1> ili kuchunguza otomatiki zilizochapishwa.",
     "no-published": "Hakuna otomatiki zilizopatikana. Kuwa wa kwanza kuchapisha moja!",
     "downloads_zero": "Hakuna vipakuliwa",
     "downloads_one": "Pakua 1",
@@ -650,7 +650,7 @@
     "zh_CN": "Kichina (Kilichorahisishwa)",
     "zh_TW": "Kichina (Cha Jadi)",
     "sv": "Kiswidi",
-    "pt": "Kireno",
+    "pt_PT": "Kireno",
     "ja": "Kijapani",
     "nl": "Kiholanzi",
     "de": "Kijerumani",
@@ -660,7 +660,12 @@
     "ar": "Kiarabu",
     "it": "Kiitaliano",
     "ru": "Kirusi",
-    "id": "Kiindonesia"
+    "id": "Kiindonesia",
+    "bg": "Kibulgaria",
+    "fil": "Kifilipino",
+    "pl": "Kipolandi",
+    "sw": "Kiswahili",
+    "th": "Kithai"
   },
   "monitor": {
     "title": "Ufuatiliaji",

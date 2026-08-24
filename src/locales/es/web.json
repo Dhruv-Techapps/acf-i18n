@@ -464,7 +464,7 @@
     "title": "Explorar las automatizaciones",
     "search": "Automatizaciones de búsqueda...",
     "loadMore": "Cargar más",
-    "loginToExplore": "<1>Login</1> para explorar las automatizaciones publicadas.",
+    "loginToExplore": "<1>Inicia sesión en </1> para explorar las automatizaciones publicadas.",
     "no-published": "No se encontraron automatizaciones. ¡Sé el primero en publicar una!",
     "downloads_zero": "No se permiten descargas",
     "downloads_one": "1 Descargar",
@@ -650,7 +650,7 @@
     "zh_CN": "Chino (simplificado)",
     "zh_TW": "Chino (tradicional)",
     "sv": "sueco",
-    "pt": "portugués",
+    "pt_PT": "portugués",
     "ja": "japonés",
     "nl": "Holandés",
     "de": "Alemán",
@@ -660,7 +660,12 @@
     "ar": "árabe",
     "it": "italiano",
     "ru": "ruso",
-    "id": "indonesio"
+    "id": "indonesio",
+    "bg": "búlgaro",
+    "fil": "Filipino",
+    "pl": "Polaco",
+    "sw": "swahili",
+    "th": "tailandés"
   },
   "monitor": {
     "title": "Monitorización",

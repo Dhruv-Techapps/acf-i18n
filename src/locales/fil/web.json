@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Abiso sa Discord",
-    "loginRequired": "<1>Login</1> sa iyong account bago kumonekta sa Discord."
+    "loginRequired": "<1>Mag-log in</1> sa iyong account bago kumonekta sa Discord."
   },
   "checkIFrames": {
     "title": "Maghanap sa Loob ng Mga Naka-embed na Pahina",
@@ -110,7 +110,7 @@
     "weekly": "Lingguhan",
     "monthly": "Buwan-buwan",
     "off": "Patay",
-    "loginRequired": "<1>Login</1> sa iyong account bago kumonekta sa Google Drive.",
+    "loginRequired": "<1>Mag-log in</1> sa iyong account bago kumonekta sa Google Drive.",
     "checkingAccess": "Sinusuri ang access sa Google Drive...",
     "connect": "Kumonekta gamit ang Google Drive",
     "connected": "Pag-backup ng Google Drive",
@@ -340,7 +340,7 @@
       "title": "Gumamit ng mga Stable na Bersyon para sa mga Feature ng Google Sheets.",
       "message": "Para sa pinakamahusay na resulta, gamitin ang <1>Stable</1> na bersyon ng mga feature ng Google Sheets. Ang mga stable na bersyon ay lubusang sinubukan upang matiyak ang maaasahang pagganap, na tumutulong sa iyong maiwasan ang mga hindi inaasahang isyu. Kung kailangan mo ng tulong, huwag mag-atubiling humingi ng suporta."
     },
-    "loginRequired": "<1>Login</1> sa iyong account bago kumonekta sa Google Sheets.",
+    "loginRequired": "<1>Mag-log in</1> sa iyong account bago kumonekta sa Google Sheets.",
     "connect": "Kumonekta gamit ang Google Sheets",
     "connected": "Nakakonekta sa Google Sheets"
   },
@@ -464,7 +464,7 @@
     "title": "Galugarin ang mga Awtomasyon",
     "search": "Mga automation sa paghahanap...",
     "loadMore": "Magkarga Pa",
-    "loginToExplore": "<1>Login</1> para galugarin ang mga nailathalang automation.",
+    "loginToExplore": "<1>Mag-log in</1> para galugarin ang mga nailathalang automation.",
     "no-published": "Walang nakitang mga automation. Maging una na mag-publish nito!",
     "downloads_zero": "Walang mga download",
     "downloads_one": "1 Pag-download",
@@ -650,7 +650,7 @@
     "zh_CN": "Tsino (Pinasimple)",
     "zh_TW": "Tsino (Tradisyonal)",
     "sv": "Suweko",
-    "pt": "Portuges",
+    "pt_PT": "Portuges",
     "ja": "Hapon",
     "nl": "Olandes",
     "de": "Aleman",
@@ -660,7 +660,12 @@
     "ar": "Arabe",
     "it": "Italyano",
     "ru": "Ruso",
-    "id": "Indones"
+    "id": "Indones",
+    "bg": "Bulgaro",
+    "fil": "Pilipino",
+    "pl": "Polish",
+    "sw": "Swahili",
+    "th": "Thai"
   },
   "monitor": {
     "title": "Monitoring",
