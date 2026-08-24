@@ -56,7 +56,7 @@
   },
   "notification": {
     "title": "Benachrichtigung anzeigen",
-    "error": "Bei einem Fehler trat ein Fehler auf",
+    "error": "Im Fehler",
     "step": "Nach Abschluss des Schritts",
     "loop": "Nach Abschluss der Schleife",
     "automation": "Nach Abschluss der Automatisierung",
@@ -110,8 +110,8 @@
     "weekly": "Wöchentlich",
     "monthly": "Monatlich",
     "off": "Aus",
-    "loginRequired": "Bitte melden Sie sich <1>in Ihrem Konto an</1>, bevor Sie eine Verbindung zu Google Drive herstellen.",
-    "checkingAccess": "Google Drive-Zugriff wird überprüft...",
+    "loginRequired": "Melden Sie sich mit <1>Login</1> in Ihrem Konto an, bevor Sie eine Verbindung zu Google Drive herstellen.",
+    "checkingAccess": "Überprüfung des Google Drive-Zugriffs...",
     "connect": "Mit Google Drive verbinden",
     "connected": "Google Drive-Backup",
     "loadingFiles": "Ihre Dateien werden geladen...",
@@ -120,7 +120,7 @@
     "noBackup": "Kein Backup gefunden",
     "confirm": {
       "restore": {
-        "title": "Automatisierungen aus der Cloud wiederherstellen",
+        "title": "Automatisierte Funktionen aus der Cloud wiederherstellen",
         "message": "Sind Sie sicher, dass Sie die Automatisierungen aus der Cloud wiederherstellen möchten? Dadurch werden alle Ihre Automatisierungen ersetzt und dieser Vorgang kann nicht rückgängig gemacht werden."
       }
     },
@@ -131,7 +131,7 @@
   },
   "migrationBackup": {
     "title": "Migrationssicherung",
-    "description": "Diese Momentaufnahmen werden automatisch vor Schema-Migrationen erstellt und ermöglichen es Ihnen, Ihre alten Daten zu überprüfen oder zu exportieren.",
+    "description": "Diese Snapshots werden automatisch vor Schema-Migrationen erstellt und ermöglichen es Ihnen, Ihre alten Daten zu überprüfen oder zu exportieren.",
     "loading": "Migrationssicherungen werden geladen...",
     "empty": "Es wurden keine Migrationssicherungen gefunden.",
     "download": "Herunterladen",
@@ -155,7 +155,7 @@
   },
   "errorPage": {
     "title": "Diese Seite konnte nicht geöffnet werden.",
-    "subtitle": "Die angeforderte Seite konnte nicht geladen werden. Weitere Informationen finden Sie unten.",
+    "subtitle": "Die angeforderte Seite konnte nicht geladen werden. Weitere Details finden Sie unten.",
     "routeLabel": "Route",
     "detailsLabel": "Fehlerdetails",
     "goToAutomations": "Gehe zu Automatisierungen",
@@ -167,7 +167,7 @@
   },
   "extensionNotFound": {
     "title": "Erweiterung nicht installiert",
-    "subTitle": "Diese Seite funktioniert mit der <b>Auto Clicker - AutoFill-</b> Erweiterung für Chrome &amp; Edge.",
+    "subTitle": "Diese Seite funktioniert mit der Erweiterung <b>Auto Clicker - AutoFill</b> für Chrome & Edge.",
     "hint": "Bitte installieren Sie zuerst die Erweiterung, um loszulegen.",
     "download": "herunterladen"
   },
@@ -190,7 +190,7 @@
   "stateGuard": {
     "action": "Vorheriger Schritt",
     "status": "Ergebnis",
-    "title": "Staatsgarde",
+    "title": "Zustandswächter",
     "add": "Bedingung hinzufügen",
     "info": "Legen Sie eine Regel fest, die anhand der Ergebnisse der vorherigen Schritte steuert, ob dieser Schritt ausgeführt werden soll.",
     "stop": "Automatisierung stoppen",
@@ -200,8 +200,8 @@
     "proceed": "Führe diesen Schritt trotzdem aus",
     "hint": "Was soll geschehen, wenn die Regel nicht eingehalten wird?",
     "toast": {
-      "header": "Staatsgarde",
-      "body": "Staatswache erfolgreich gerettet!"
+      "header": "Zustandswächter",
+      "body": "Zustandsschutz erfolgreich gespeichert!"
     }
   },
   "pageGuard": {
@@ -211,7 +211,7 @@
     "condition": "Vergleichen",
     "value": "Vergleichen Sie mit",
     "valueExtractor": "Nummer oder Text extrahieren",
-    "valueExtractorHint": "Verwenden Sie ein Muster, um einen bestimmten Teil des Wertes zu extrahieren. Extrahieren Sie beispielsweise 24,00 aus $24,00 oder 10 aus 10 Automatisierungen.",
+    "valueExtractorHint": "Verwenden Sie ein Muster, um einen bestimmten Teil des Wertes zu extrahieren. Extrahieren Sie beispielsweise 24,00 aus $24.00 oder 10 aus 10 Automatisierungen.",
     "recheck": {
       "title": "Wenn die Bedingung nicht erfüllt ist",
       "hint": "Wählen Sie aus, was geschehen soll, wenn die Filterbedingung nicht erfüllt ist.",
@@ -229,7 +229,7 @@
   },
   "schedule": {
     "title": "Automatisierung von Zeitplänen",
-    "info": "Führen Sie diese Automatisierung an einem bestimmten Datum und zu einer bestimmten Uhrzeit aus.",
+    "info": "Führen Sie diese Automatisierung zu einem bestimmten Datum und einer bestimmten Uhrzeit aus.",
     "date": "Datum",
     "time": "Zeit",
     "repeat": "In wenigen Minuten wiederholen",
@@ -256,15 +256,15 @@
     "subscriptionStatus": "Status: {{status}}",
     "processing": "Zahlungsabwicklung und Aktualisierung Ihres Abonnements...",
     "upgrade": "Upgrade",
-    "downgrade": "Herabstufung",
+    "downgrade": "Herabstufen",
     "comingSoon": "Demnächst verfügbar",
     "cadence": {
       "monthly": "Monatlich",
       "yearly": "Jährlich",
-      "savingsBadge": "Sparen Sie 10 %"
+      "savingsBadge": "2 Monate gratis"
     },
     "free": {
-      "name": "🆓 GRATIS",
+      "name": "🆓 FREE",
       "tagline": "Leistungsstarke Automatisierung für alle – kein Konto erforderlich.",
       "perMonth": "für immer",
       "cta": "Aktueller Plan",
@@ -273,7 +273,7 @@
         "unlimitedAutomations": "Unbegrenzte Automatisierungen",
         "unlimitedSteps": "Unbegrenzte Schritte pro Automatisierung",
         "loopSteps": "Wiederhole die Schritte in einer Schleife",
-        "recording": "Visueller Schrittzähler",
+        "recording": "Visueller Schrittrekorder",
         "allValues": "Alle Werttypen – keine API erforderlich"
       }
     },
@@ -303,7 +303,7 @@
       "includes": "Alles in Plus, plus:",
       "features": {
         "sheets": "Google Sheets-Integration",
-        "discord": "Discord-Benachrichtigungen",
+        "discord": "Discord-Integration",
         "captcha": "Captcha-Löser",
         "openai": "OpenAI-Integration",
         "prioritySupport": "Priorisierter Support über Discord",
@@ -317,7 +317,7 @@
       "githubSponsors": "GitHub-Sponsoren",
       "paypal": "PayPal",
       "instructionsTitle": "Anweisungen",
-      "step1": "Bezahlen Sie die gewünschte Anzahl an Monaten zum monatlichen Preis des jeweiligen Tarifs. Beispielsweise kostet ein sechsmonatiges Abonnement (monatlicher Preis) × 6.",
+      "step1": "Bezahlen Sie die gewünschte Anzahl an Monaten zum monatlichen Preis des jeweiligen Tarifs. Beispiel: Sechs Monate kosten (monatlicher Preis) × 6.",
       "emailUs": "Schreiben Sie uns eine E-Mail",
       "step2": "Ihre E-Mail-Adresse für das Konto, der gewählte Tarif und die Anzahl der Monate sowie ein Zahlungsnachweis – Ihre GitHub Sponsors-Quittung oder Ihre PayPal-E-Mail-Adresse/Transaktions-ID, falls Sie über PayPal bezahlt haben.",
       "step3": "Wir werden Ihren Tarif manuell von unserem Backend aus für die Anzahl der Monate aktivieren, für die Sie bezahlt haben. Nach Ablauf dieser Frist läuft er automatisch ab.",
@@ -338,9 +338,9 @@
     "hint": "Verbinden Sie Ihr Google Sheets-Konto, um Ihre Automatisierungen und Protokolle einfach zu exportieren und Ihre Automatisierungshistorie an einem Ort zu verwalten.",
     "useStable": {
       "title": "Verwenden Sie stabile Versionen für Google Sheets-Funktionen.",
-      "message": "Für optimale Leistung und Zuverlässigkeit in Google Tabellen empfiehlt es sich, stabile Versionen der Funktionen zu verwenden. Diese Versionen werden gründlich getestet, um eine reibungslose Funktionalität zu gewährleisten und Ihnen eine verlässliche Plattform für Ihre Aufgaben zu bieten. Durch die Priorisierung von Stabilität können Sie Ihre Produktivität steigern und das Risiko unerwarteter Probleme minimieren. Benötigen Sie Hilfe oder Unterstützung bei der effektiven Nutzung von Google Tabellen? Dann wenden Sie sich gerne an unseren Support!"
+      "message": "Für optimale Ergebnisse verwenden Sie die stabile Version <1>Stable</1> der Google Tabellen-Funktionen. Stabile Versionen werden gründlich getestet, um eine zuverlässige Leistung zu gewährleisten und unerwartete Probleme zu vermeiden. Bei Fragen wenden Sie sich bitte an den Support."
     },
-    "loginRequired": "Bitte melden Sie sich <1>in Ihrem Konto an</1>, bevor Sie eine Verbindung zu Google Sheets herstellen.",
+    "loginRequired": "Melden Sie sich mit <1>Login</1> in Ihrem Konto an, bevor Sie eine Verbindung zu Google Sheets herstellen.",
     "connect": "Mit Google Sheets verbinden",
     "connected": "Mit Google Sheets verbunden"
   },
@@ -358,13 +358,13 @@
   "automations": {
     "title": "Meine Automatisierungen",
     "count": "Automatisierungen ({{count}})",
-    "search": "Durchsuchen Sie Ihre Automatisierung...",
+    "search": "Durchsuchen Sie Ihre Automatisierungen...",
     "add": "Neu",
-    "reorder": "Neu bestellen",
+    "reorder": "Neu anordnen",
     "reorderByName": "Nach Namen sortieren",
     "selected": "ausgewählt",
     "selected_one": "1 Automatisierung ausgewählt",
-    "selected_other": "{{count}} Automatisierungen ausgewählt",
+    "selected_other": "{{count}}-Automatisierungen ausgewählt",
     "selectAll": "Alle auswählen",
     "exportSelected": "Exportieren ausgewählt",
     "deleteSelected": "Ausgewählte löschen",
@@ -383,20 +383,20 @@
         "title": "Automatisierungen löschen",
         "message": "Möchten Sie die ausgewählten Automatisierungen wirklich löschen?",
         "message_one": "Möchten Sie die ausgewählte Automatisierung wirklich löschen?",
-        "message_other": "Möchten Sie wirklich die ausgewählten {{count}} Automatisierungen löschen?"
+        "message_other": "Möchten Sie die ausgewählten {{count}}-Automatisierungen wirklich löschen?"
       }
     },
     "toast": {
       "header": "Automatisierungen",
       "remove": "Automatisierungen erfolgreich entfernt",
       "remove_one": "Automatisierung erfolgreich entfernt",
-      "remove_other": "{{count}} Automatisierungen erfolgreich entfernt",
+      "remove_other": "Die Automatisierungen {{count}} wurden erfolgreich entfernt.",
       "export": "Automatisierungen erfolgreich exportiert",
       "export_one": "1 Automatisierung erfolgreich exportiert",
-      "export_other": "{{count}} Automatisierungen erfolgreich exportiert",
+      "export_other": "Die Automatisierungen {{count}} wurden erfolgreich exportiert.",
       "import": "Automatisierungen erfolgreich importiert",
       "import_one": "1 Automatisierung erfolgreich importiert",
-      "import_other": "{{count}} Automatisierungen erfolgreich importiert",
+      "import_other": "{{count}}-Automatisierungen erfolgreich importiert",
       "reorder": "Automatisierungen erfolgreich neu angeordnet",
       "alreadyExists": "Alle Automatisierungen existieren bereits mit identischem Inhalt"
     }
@@ -424,9 +424,9 @@
     "published": "Veröffentlicht",
     "publishedToCloud": "In der Cloud veröffentlicht",
     "importing": "Importiert...",
-    "publishing": "Wird veröffentlicht...",
+    "publishing": "Veröffentlichung...",
     "publish-loginRequired": "Bitte melden Sie sich an, um diese Automatisierung zu veröffentlichen.",
-    "publish-ownedByOther": "Diese Automatisierung wurde von Benutzer [{{name}}] veröffentlicht. Sie können sie in Ihr Konto kopieren und Ihre Änderungen veröffentlichen.",
+    "publish-ownedByOther": "Diese Automatisierung wurde vom Benutzer [{{name}}] veröffentlicht. Sie können sie in Ihr Konto kopieren und Ihre Änderungen veröffentlichen.",
     "confirm": {
       "remove": {
         "title": "Automatisierung entfernen",
@@ -441,7 +441,7 @@
       "header": "Automatisierung",
       "body": "Automatisierung erfolgreich gespeichert!",
       "published": "Automatisierung erfolgreich veröffentlicht!",
-      "unpublished": "Veröffentlichung der Automatisierung erfolgreich aufgehoben!",
+      "unpublished": "Automatisierung erfolgreich deinstalliert!",
       "notPublished": "Die Automatisierung wird nicht veröffentlicht.",
       "imported": "'{{title}}' erfolgreich importiert",
       "schedule": "Automatisierungsplan erfolgreich gespeichert!",
@@ -464,7 +464,7 @@
     "title": "Automatisierungen erkunden",
     "search": "Suchautomatisierungen...",
     "loadMore": "Mehr laden",
-    "loginToExplore": "Bitte <1>login</1> ein, um die veröffentlichten Automatisierungen zu erkunden.",
+    "loginToExplore": "<1>Login</1>, um veröffentlichte Automatisierungen zu erkunden.",
     "no-published": "Keine Automatisierungen gefunden. Sei der Erste, der eine veröffentlicht!",
     "downloads_zero": "Keine Downloads",
     "downloads_one": "1 Download",
@@ -484,16 +484,16 @@
     "startType": "Laufmodus",
     "hotkey": "Tastenkombination",
     "auto": "Automatisch",
-    "autoHint": "<b>Automatisch</b> – wird bei jedem Seitenaufruf selbstständig ausgeführt. Sie müssen nichts tun.",
+    "autoHint": "<b>Automatic</b> – wird bei jedem Seitenaufruf automatisch ausgeführt. Sie müssen nichts unternehmen.",
     "manual": "Manuelle (Hotkey-)",
-    "manualHint": "<b>Manuell</b> – wird nur ausgeführt, wenn Sie die von Ihnen festgelegte Tastenkombination drücken.",
+    "manualHint": "<b>Manual</b> — wird nur ausgeführt, wenn Sie Ihre definierte Tastenkombination drücken.",
     "loadType": "Seitenladezeit",
     "window": "Nach Volllast",
-    "windowHint": "<b>Nach vollständigem Laden</b> (Empfohlen) — Die Automatisierung beginnt, nachdem die gesamte Seite einschließlich Bilder und Skripte vollständig geladen wurde.",
+    "windowHint": "<b>After Full Load</b> (Empfohlen) — Die Automatisierung beginnt, nachdem die gesamte Seite einschließlich Bilder und Skripte vollständig geladen wurde.",
     "document": "Beim Laden der Seite",
-    "documentHint": "Die Automatisierung startet, sobald die Seitenstruktur bereit ist, noch bevor Bilder und Skripte vollständig geladen sind. <b>Dies</b> ist schneller, kann aber auf manchen Seiten instabil sein.",
+    "documentHint": "<b>As Page Loads</b> – Die Automatisierung startet, sobald die Seitenstruktur bereit ist, noch bevor Bilder und Skripte vollständig geladen sind. Schneller, aber auf manchen Seiten möglicherweise instabil.",
     "triggerUrlChange": "Seitennavigation ausführen",
-    "triggerUrlChangeHint": "<b>Bei Seitennavigation ausführen</b> – führt die Automatisierung erneut aus, wenn sich die Seitenadresse ändert, ohne dass die Seite vollständig neu geladen werden muss. Nützlich für Gmail, Twitter und andere moderne Apps.",
+    "triggerUrlChangeHint": "<b>Run on Page Navigation</b> – führt die Automatisierung erneut aus, wenn sich die Seitenadresse ändert, ohne die Seite vollständig neu zu laden. Nützlich für Gmail, Twitter und andere moderne Apps.",
     "urlMatch": "URL-Übereinstimmungstyp",
     "regex": "Musterübereinstimmung",
     "exact": "Exakte URL",
@@ -509,11 +509,11 @@
   "loop": {
     "title": "Schleife",
     "repeat": "Wiederholen",
-    "repeatHint": "<b>Die Wiederholungsfunktion</b> führt alle Schritte im angegebenen Intervall erneut aus, ohne die Seite neu zu laden.",
-    "repeatInterval": "Intervall zwischen den Schleifen",
-    "repeatIntervalRange": "Intervall zwischen den Schleifen",
+    "repeatHint": "<b>Repeat</b> wird alle Schritte ohne Neuladen der Seite im angegebenen Intervall wiederholen.",
+    "repeatInterval": "Intervall zwischen Schleifen",
+    "repeatIntervalRange": "Intervall zwischen Schleifen",
     "refresh": "Aktualisieren",
-    "refreshHint": "<b>Durch Klicken auf „Aktualisieren“</b> wird die Seite neu geladen, sobald alle Schritte abgeschlossen sind.",
+    "refreshHint": "<b>Refresh</b> lädt die Seite neu, sobald alle Schritte abgeschlossen sind.",
     "toast": {
       "header": "Schleifeneinstellungen",
       "body": "Schleifeneinstellungen erfolgreich gespeichert!"
@@ -525,7 +525,7 @@
     "integer": "Bitte geben Sie eine gültige ganze Zahl ein.",
     "positive": "Muss eine positive Zahl sein",
     "min": "Bitte geben Sie einen Wert größer oder gleich {{min}} ein.",
-    "max": "Bitte geben Sie einen Wert ein, der kleiner oder gleich {{max}} ist.",
+    "max": "Bitte geben Sie einen Wert kleiner oder gleich {{max}} ein.",
     "url": "Bitte geben Sie eine Website-URL ein, um fortzufahren.",
     "initWait": "Bitte geben Sie eine gültige Nummer ein.",
     "scheduleDate": "Bitte geben Sie ein gültiges Datum in diesem Format ein: 2025-12-01",
@@ -541,7 +541,7 @@
     "spreadsheetId": "Bitte geben Sie eine gültige Google Sheets-ID ein (44 Zeichen, z. B. 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
     "roleLock": {
       "header": "{{plan}} Plan erforderlich",
-      "body": "Für diese Funktion ist ein {{plan}}-Abonnement erforderlich. Bitte aktualisieren Sie Ihr Abonnement, um fortzufahren."
+      "body": "Diese Funktion erfordert einen {{plan}}-Tarif. Bitte führen Sie ein Upgrade durch, um fortzufahren."
     }
   },
   "step": {
@@ -565,7 +565,7 @@
     "confirm": {
       "remove": {
         "title": "Schritt entfernen",
-        "message": "Sind Sie sicher, dass Sie den Schritt [{{name}}] entfernen möchten?"
+        "message": "Möchten Sie den Schritt [{{name}}] wirklich entfernen?"
       }
     },
     "toast": {
@@ -580,7 +580,7 @@
     "confirm": {
       "remove": {
         "title": "Benutzerskript entfernen",
-        "message": "Sind Sie sicher, dass Sie das Benutzerskript [{{name}}] entfernen möchten?"
+        "message": "Möchten Sie das Benutzerskript [{{name}}] wirklich entfernen?"
       }
     }
   },
@@ -603,14 +603,14 @@
       "title": "Flaggen",
       "global": "Kehre nach dem ersten Spiel nicht zurück.",
       "multiLine": "^ und $ markieren den Zeilenanfang bzw. das Zeilenende.",
-      "insensitive": "Groß-/Kleinschreibung ignorierende Übereinstimmung",
+      "insensitive": "Groß-/Kleinschreibung ignorieren",
       "extended": "Leerzeichen ignorieren",
       "singleLine": "Punkt entspricht Zeilenumbruch"
     },
     "hotkey": {
       "title": "Tastenkombination",
       "content": "Drücken Sie die Tastenkombination auf der Tastatur, um den Text automatisch in das Feld einzugeben.",
-      "hint": "Ein einzelner Buchstabe ohne <kbd>Strg</kbd> , <kbd>Alt</kbd> oder <kbd>Umschalt</kbd> ist ungültig."
+      "hint": "Einzelne Buchstaben ohne <kbd>Ctrl</kbd>, <kbd>Alt</kbd> oder <kbd>Shift</kbd> sind ungültig."
     }
   },
   "common": {
@@ -618,7 +618,7 @@
     "file": "Datei",
     "error": "Fehler",
     "save": "Speichern",
-    "clear": "Klar",
+    "clear": "Löschen",
     "cancel": "Stornieren",
     "close": "Schließen",
     "download": "Herunterladen",
@@ -635,7 +635,7 @@
     "yes": "Ja",
     "local": "LOKAL",
     "dev": "DEV",
-    "stable": "STABIL",
+    "stable": "Stabil",
     "examples": "Beispiele",
     "add": "Hinzufügen",
     "confirm": "Bestätigen"
@@ -645,7 +645,7 @@
     "en": "Englisch",
     "fr": "Französisch",
     "ko": "Koreanisch",
-    "ca": "Kanada",
+    "ca": "katalanisch",
     "hi": "Hindi",
     "zh_CN": "Chinesisch (vereinfacht)",
     "zh_TW": "Chinesisch (Traditionell)",
@@ -663,23 +663,23 @@
     "id": "Indonesisch"
   },
   "monitor": {
-    "title": "Monitor",
+    "title": "Überwachung",
     "enabled": "Überwachung aktivieren",
     "enabledHint": "Aktionen automatisch erneut ausführen, wenn neue passende Elemente zur Seite hinzugefügt werden (z. B. für unendliches Scrollen, asynchrone Inhalte).",
     "rootSelector": "Monitor Root",
-    "rootSelectorPlaceholder": "Körper",
+    "rootSelectorPlaceholder": "body",
     "rootSelectorHint": "CSS-Selektor für den zu beobachtenden Container",
     "watchAttributes": "Monitorattribute",
-    "attributesPlaceholder": "Stil, Klasse, versteckt",
+    "attributesPlaceholder": "style, class, hidden",
     "attributesHint": "Durch Kommas getrennte Liste der Attribute, die auf Änderungen überwacht werden sollen",
     "debounce": "Debounce",
     "debounceHint": "Verzögerung vor der Verarbeitung neuer Elemente (1-5 Sekunden)",
-    "timeout": "Time-out",
+    "timeout": "Zeitüberschreitung",
     "timeoutHint": "Automatischer Stopp nach N Minuten (1-180)",
     "urlChange": "Stopp bei URL-Änderung",
     "urlChangeHint": "Die Überwachung wird automatisch gestoppt, wenn sich die Seiten-URL ändert.",
     "toast": {
-      "header": "Monitor",
+      "header": "Überwachung",
       "body": "Monitor erfolgreich gespeichert!"
     }
   },
@@ -705,11 +705,11 @@
       "title": "Hilfreiche Tipps",
       "tip1": {
         "title": "Probieren Sie es auf der Testseite aus.",
-        "desc": "Öffnen Sie test.getautoclicker.com, fügen Sie zwei Aktionen hinzu – eine zum Ausfüllen eines Benutzernamenfelds und eine zum Klicken auf eine Schaltfläche – und speichern und starten Sie das Programm."
+        "desc": "Öffnen Sie test.getautoclicker.com, fügen Sie zwei Aktionen hinzu – eine zum Ausfüllen eines Benutzernamenfelds und eine zum Klicken einer Schaltfläche – und speichern und starten Sie das Programm."
       },
       "tip2": {
         "title": "Zielartikel genau",
-        "desc": "Verwenden Sie Elementpfade, um gezielt bestimmte Elemente auf einer Seite anzusprechen, z. B. //input[@name=\"username\"], um eine zuverlässigere Automatisierung zu erreichen."
+        "desc": "Verwenden Sie Elementpfade, um bestimmte Elemente auf einer Seite anzusprechen, z. B. //input[@name=\"username\"], um eine zuverlässigere Automatisierung zu erreichen."
       },
       "tip3": {
         "title": "Langsame Seitenladezeiten bewältigen",
@@ -720,14 +720,14 @@
         "desc": "Konfigurieren Sie den Startmodus, definieren Sie eine Tastenkombination und passen Sie die Position der Statusleiste in den globalen Einstellungen an."
       },
       "tip5": {
-        "title": "Rechtsklick zum automatischen Aufnehmen",
+        "title": "Rechtsklicken zum automatischen Aufnehmen",
         "desc": "Klicken Sie mit der rechten Maustaste auf ein beliebiges Eingabefeld oder eine Schaltfläche auf einer Seite und wählen Sie „Für dieses Feld konfigurieren“, um die URL und den Elementfinder automatisch auszufüllen."
       }
     },
     "videos": {
       "title": "Videoanleitungen",
       "video1": {
-        "title": "Auto Clicker AutoFill - Complete Overview"
+        "title": "Auto Clicker AutoFill – Vollständige Übersicht"
       },
       "video2": {
         "title": "Erste Schritte mit Auto Clicker AutoFill"

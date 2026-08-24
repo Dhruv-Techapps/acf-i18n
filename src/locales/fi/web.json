@@ -34,7 +34,7 @@
   },
   "loading": "Ladataan...",
   "loader": {
-    "subtitle": "Ladataan automaatioita..."
+    "subtitle": "Ladataan automaatioitasi..."
   },
   "loginModal": {
     "title": "Kirjaudu sisään",
@@ -56,7 +56,7 @@
   },
   "notification": {
     "title": "Näytä ilmoitus",
-    "error": "Virhe tapahtui",
+    "error": "Virheestä",
     "step": "Vaiheen valmistuttua",
     "loop": "Silmukan valmistuttua",
     "automation": "Automaation valmistuttua",
@@ -131,7 +131,7 @@
   },
   "migrationBackup": {
     "title": "Siirron varmuuskopiointi",
-    "description": "Nämä tilannevedokset tallennetaan automaattisesti ennen skeemien migraatioita, ja niiden avulla voit tarkastella tai viedä vanhoja tietojasi.",
+    "description": "Nämä tilannevedokset tallennetaan automaattisesti ennen skeeman migraatioita, ja niiden avulla voit tarkastella tai viedä vanhoja tietojasi.",
     "loading": "Ladataan siirtovarmuuskopioita...",
     "empty": "Siirron varmuuskopioita ei löytynyt",
     "download": "Lataa",
@@ -173,7 +173,7 @@
   },
   "versionAlert": {
     "securityUpdate": "Vaadittu tietoturvapäivitys:",
-    "message": "Uudempi versio <1>Auto Clicker & Auto Fill</1> -sovelluksesta on saatavilla ja se sisältää korjauksia äskettäin havaittuihin tietoturva-aukkoihin.",
+    "message": "Uudempi versio <1>Auto Clickeristä ja Auto Fill</1>istä on saatavilla, ja se sisältää korjauksia äskettäin havaittuihin tietoturva-aukkoihin.",
     "learnMore": "Lue lisää",
     "update": "Päivitä uusimpaan versioon suojauksen säilyttämiseksi."
   },
@@ -190,7 +190,7 @@
   "stateGuard": {
     "action": "Edellinen vaihe",
     "status": "Tulos",
-    "title": "Valtion kaarti",
+    "title": "Kuntovahti",
     "add": "Lisää ehto",
     "info": "Aseta sääntö, joka hallitsee tämän vaiheen suorittamista edellisten vaiheiden tapahtumien perusteella.",
     "stop": "Lopeta automaatio",
@@ -200,8 +200,8 @@
     "proceed": "Suorita tämä vaihe joka tapauksessa",
     "hint": "Mitä pitäisi tapahtua, jos sääntöä ei noudateta?",
     "toast": {
-      "header": "Valtion kaarti",
-      "body": "Valtion vartija pelastettu onnistuneesti!"
+      "header": "Kuntovahti",
+      "body": "Kuntovalvoja tallennettu onnistuneesti!"
     }
   },
   "pageGuard": {
@@ -211,7 +211,7 @@
     "condition": "Vertaa",
     "value": "Vertaa",
     "valueExtractor": "Poimi numero tai teksti",
-    "valueExtractorHint": "Käytä kuviota hakeaksesi tietyn osan arvosta. Poimi esimerkiksi 24,00 joukosta $24.00 tai 10 kymmenestä automaatiosta.",
+    "valueExtractorHint": "Käytä kuviota hakeaksesi tietyn osan arvosta. Poimi esimerkiksi 24.00 joukosta $24.00 tai 10 kymmenestä automaatiosta.",
     "recheck": {
       "title": "Jos ehtoa ei täytetä",
       "hint": "Valitse, mitä tapahtuu, jos suodatusehto ei täyty.",
@@ -229,7 +229,7 @@
   },
   "schedule": {
     "title": "Aikatauluautomaatio",
-    "info": "Suorita tämä automaatio tiettynä päivänä ja kellonaikana",
+    "info": "Suorita tämä automaatio tiettynä päivänä ja kellonaikana.",
     "date": "Päivämäärä",
     "time": "Aika",
     "repeat": "Toista minuuteissa",
@@ -256,15 +256,15 @@
     "subscriptionStatus": "Tila: {{status}}",
     "processing": "Maksua käsitellään ja tilaustasi päivitetään...",
     "upgrade": "Päivitä",
-    "downgrade": "Alentaa",
+    "downgrade": "Alenna",
     "comingSoon": "Tulossa pian",
     "cadence": {
       "monthly": "Kuukausittain",
       "yearly": "Vuosittain",
-      "savingsBadge": "Säästä 10 %"
+      "savingsBadge": "2 kuukautta ilmaiseksi"
     },
     "free": {
-      "name": "🆓 ILMAINEN",
+      "name": "🆓 FREE",
       "tagline": "Tehokasta automaatiota kaikille – ei vaadi tiliä.",
       "perMonth": "ikuisesti",
       "cta": "Nykyinen suunnitelma",
@@ -278,7 +278,7 @@
       }
     },
     "plus": {
-      "name": "🚀 LISÄÄ",
+      "name": "🚀 PLUS",
       "tagline": "Kaikki olennaiset ominaisuudet sekä tarkempi hallinta esitarkistuksessa ja asetuksissa vaihe vaiheelta.",
       "perMonth": "kuukaudessa",
       "perYear": "vuodessa",
@@ -295,22 +295,22 @@
       }
     },
     "pro": {
-      "name": "🔹 AMMATTILAINEN",
+      "name": "🔹 PRO",
       "tagline": "Automaation täysi teho – integraatioilla, tekoälyllä ja priorisoidulla tuella.",
       "perMonth": "kuukaudessa",
       "perYear": "vuodessa",
       "cta": "Päivitä Pro-tasolle",
       "includes": "Kaikki Plus-palvelussa, plus:",
       "features": {
-        "sheets": "Google Sheetsin integrointi",
-        "discord": "Discord-ilmoitukset",
+        "sheets": "Google Sheets -integraatio",
+        "discord": "Discord-integraatio",
         "captcha": "Captcha-ratkaisija",
         "openai": "OpenAI-integraatio",
         "prioritySupport": "Prioriteettituki Discordin kautta",
         "gmail": "Gmail-integraatio"
       }
     },
-    "lockBadgeTooltip": "Edellyttää {{plan}} -liittymää. Klikkaa tilataksesi.",
+    "lockBadgeTooltip": "Vaatii {{plan}}-liittymän. Klikkaa tilataksesi.",
     "alternativePayment": {
       "title": "Etkö voi käyttää Dodo Paymentsia?",
       "description": "Dodo Payments ei ole saatavilla kaikissa maissa, ja joillakin alueilla se tukee vain luottokortteja. Jos et voi käyttää Dodo Paymentsia maassasi (tai tarvitset maksuvälineen, joka ei ole kortti), voit maksaa jollakin näistä:",
@@ -338,7 +338,7 @@
     "hint": "Yhdistä Google Sheets -tilisi viedäksesi automaatiosi ja lokisi helposti ja seurataksesi automaatiohistoriaasi yhdessä paikassa.",
     "useStable": {
       "title": "Käytä Google Sheetsin ominaisuuksille vakaita versioita.",
-      "message": "Google Sheetsin optimaalisen suorituskyvyn ja luotettavuuden takaamiseksi on suositeltavaa käyttää sen ominaisuuksien <1>vakaita</1> versioita. Nämä versiot testataan perusteellisesti saumattoman toimivuuden varmistamiseksi, mikä tarjoaa sinulle luotettavan alustan tehtävillesi. Priorisoimalla vakautta voit parantaa tuottavuuttasi ja minimoida odottamattomien ongelmien riskin. Jos tarvitset apua tai ohjausta Google Sheetsin tehokkaaseen hyödyntämiseen, ota rohkeasti yhteyttä tukeen!"
+      "message": "Parhaan tuloksen saavuttamiseksi käytä Google Sheetsin ominaisuuksien <1>Stable</1>-versiota. Vakaat versiot testataan perusteellisesti luotettavan suorituskyvyn varmistamiseksi, mikä auttaa välttämään odottamattomia ongelmia. Jos tarvitset apua, ota rohkeasti yhteyttä tukeen."
     },
     "loginRequired": "<1>Kirjaudu</1> tilillesi ennen kuin muodostat yhteyden Google Sheetsiin.",
     "connect": "Yhdistä Google Sheetsin avulla",
@@ -358,13 +358,13 @@
   "automations": {
     "title": "Omat automaatiot",
     "count": "Automaatiot ({{count}})",
-    "search": "Hae automaatiotasi...",
+    "search": "Hae automaatioitasi...",
     "add": "Uusi",
     "reorder": "Järjestä uudelleen",
     "reorderByName": "Järjestä uudelleen nimen mukaan",
     "selected": "valittu",
     "selected_one": "1 automaatio valittu",
-    "selected_other": "{{count}} automaatiota valittu",
+    "selected_other": "{{count}}-automaatiot valittu",
     "selectAll": "Valitse kaikki",
     "exportSelected": "Vie valitut",
     "deleteSelected": "Poista valitut",
@@ -376,27 +376,27 @@
     "filter": {
       "all": "Kaikki",
       "enabled": "Käytössä",
-      "disabled": "Liikuntarajoitteinen"
+      "disabled": "Poistettu käytöstä"
     },
     "confirm": {
       "delete": {
         "title": "Poista automaatiot",
         "message": "Haluatko varmasti poistaa valitut automaatiot?",
         "message_one": "Haluatko varmasti poistaa valitun automaation?",
-        "message_other": "Haluatko varmasti poistaa valitut {{count}} automaatiota?"
+        "message_other": "Haluatko varmasti poistaa valitut {{count}}-automaatiot?"
       }
     },
     "toast": {
       "header": "Automaatiot",
       "remove": "Automaatiot poistettu onnistuneesti",
       "remove_one": "Automaatio poistettu onnistuneesti",
-      "remove_other": "{{count}} automaatiota poistettu onnistuneesti",
+      "remove_other": "{{count}}-automaatiot poistettu onnistuneesti",
       "export": "Automaatioiden vienti onnistui",
       "export_one": "1 automaatio viety onnistuneesti",
-      "export_other": "{{count}} automaatiota viety onnistuneesti",
+      "export_other": "{{count}}-automaatiot vietiin onnistuneesti",
       "import": "Automaatioiden tuonti onnistui",
       "import_one": "1 automaatio tuotu onnistuneesti",
-      "import_other": "{{count}} automaatiota tuotu onnistuneesti",
+      "import_other": "{{count}}-automaatiot tuotu onnistuneesti",
       "reorder": "Automaatioiden uudelleenjärjestely onnistui",
       "alreadyExists": "Kaikki automaatiot ovat jo olemassa identtisillä sisällöillä"
     }
@@ -407,7 +407,7 @@
     "duplicate": "Kopio",
     "enable": "Ota käyttöön",
     "disable": "Poista käytöstä",
-    "disabled": "Liikuntarajoitteinen",
+    "disabled": "Poistettu käytöstä",
     "edit": "Muokata",
     "export": "Viedä",
     "import": "Tuoda",
@@ -418,8 +418,8 @@
     "name": "Nimi",
     "initWait": "Odota ennen aloitusta",
     "startTime": "Aikataulutettu aloitusaika",
-    "noConfig": "Automaatiota ei löytynyt, ole hyvä ja tarkenna hakuasi.",
-    "publish": "Julkaista",
+    "noConfig": "Automaatiota ei löytynyt. Tarkenna hakuasi.",
+    "publish": "Julkaise",
     "unpublish": "Peruuta julkaisu",
     "published": "Julkaistu",
     "publishedToCloud": "Julkaistu pilveen",
@@ -430,7 +430,7 @@
     "confirm": {
       "remove": {
         "title": "Poista automaatio",
-        "message": "Haluatko varmasti poistaa [{{name}}] -automaation?"
+        "message": "Haluatko varmasti poistaa [{{name}}]-automaation?"
       },
       "import": {
         "title": "Tuontiautomaatio",
@@ -443,7 +443,7 @@
       "published": "Automaatio julkaistu onnistuneesti!",
       "unpublished": "Automaation julkaisun peruutus onnistui!",
       "notPublished": "Automaatiota ei ole julkaistu.",
-      "imported": "Tiedosto '{{title}}' tuotu onnistuneesti",
+      "imported": "'{{title}}' tuotu onnistuneesti",
       "schedule": "Automaatioaikataulu tallennettu onnistuneesti!",
       "settings": "Automaatioasetukset tallennettu onnistuneesti!",
       "add": "Automaatio lisätty onnistuneesti",
@@ -458,13 +458,13 @@
     "tags": "Tunnisteet",
     "tags-help": "Lisää tunnisteita, joiden avulla muut löytävät automaatiosi (pilkuilla erotettuna).",
     "visibility": "Näkyvyys",
-    "commaSeparated": "Syötä pilkulla erotetut arvot"
+    "commaSeparated": "Anna pilkulla erotetut arvot"
   },
   "explore": {
     "title": "Tutustu automaatioihin",
     "search": "Hakuautomaatiot...",
     "loadMore": "Lataa lisää",
-    "loginToExplore": "<1>Kirjaudu sisään</1> tutustuaksesi julkaistuihin automaatioihin.",
+    "loginToExplore": "<1>Kirjaudu sisään </1> tutustuaksesi julkaistuihin automaatioihin.",
     "no-published": "Ei automaatioita. Ole ensimmäinen, joka julkaisee sellaisen!",
     "downloads_zero": "Ei latauksia",
     "downloads_one": "1 lataus",
@@ -484,12 +484,12 @@
     "startType": "Suoritustila",
     "hotkey": "Pikanäppäin",
     "auto": "Automaattinen",
-    "autoHint": "<b>Automaattinen</b> — toimii itsestään aina sivun latautuessa. Sinulta ei vaadita toimia.",
+    "autoHint": "<b>Automatic</b> — toimii itsestään aina sivun latautuessa. Sinulta ei vaadita toimia.",
     "manual": "Manuaalinen (pikanäppäin)",
-    "manualHint": "<b>Manuaalinen</b> — käynnistyy vain, kun painat määritettyä pikanäppäintä.",
+    "manualHint": "<b>Manual</b> — toimii vain, kun painat määritettyä pikanäppäintä.",
     "loadType": "Sivun latausaika",
     "window": "Täyden kuorman jälkeen",
-    "windowHint": "<b>Täyden latauksen jälkeen</b> (suositus) — automaatio alkaa, kun koko sivu, kuvat ja skriptit mukaan lukien, on latautunut.",
+    "windowHint": "<b>Täyden latauksen jälkeen</b> (Suositeltu) — automaatio alkaa, kun koko sivu, kuvat ja skriptit mukaan lukien, on latautunut.",
     "document": "Sivun latautuessa",
     "documentHint": "<b>Sivun latautuessa</b> — automaatio alkaa heti, kun sivun rakenne on valmis, ennen kuin kuvat ja skriptit ovat latautuneet. Nopeampi, mutta voi olla epävakaa joillakin sivuilla.",
     "triggerUrlChange": "Suorita sivun navigoinnissa",
@@ -503,17 +503,17 @@
       "title": "Ohita selaimen oletustoiminta pikanäppäimillä",
       "alert": "Hälytys",
       "confirm": "Vahvistaa",
-      "prompt": "Kehote"
+      "prompt": "Prompt"
     }
   },
   "loop": {
     "title": "Silmukka",
     "repeat": "Toistaa",
-    "repeatHint": "<b>Toista</b> suorittaa kaikki vaiheet uudelleen lataamatta sivua uudelleen annetulla aikavälillä.",
+    "repeatHint": "<b>Repeat</b> suorittaa kaikki vaiheet uudelleen lataamatta sivua uudelleen annetulla aikavälillä.",
     "repeatInterval": "Silmukoiden välinen aika",
     "repeatIntervalRange": "Silmukoiden välinen aika",
     "refresh": "Päivitä",
-    "refreshHint": "<b>Päivitä-painike</b> lataa sivun uudelleen, kun kaikki vaiheet on suoritettu.",
+    "refreshHint": "<b>Refresh</b> lataa sivun uudelleen, kun kaikki vaiheet on suoritettu.",
     "toast": {
       "header": "Silmukka-asetukset",
       "body": "Silmukan asetukset tallennettu onnistuneesti!"
@@ -531,7 +531,7 @@
     "scheduleDate": "Anna kelvollinen päivämäärä tässä muodossa: 2025-12-01",
     "scheduleTime": "Anna kelvollinen aika tässä muodossa: 23:59:59.000",
     "scheduleRepeat": "Anna kelvollinen numero toistokertojen määräksi",
-    "startTime": "Anna kelvollinen aloitusaika tässä muodossa: 12:12:12:000",
+    "startTime": "Anna kelvollinen aloitusaika tässä muodossa: 12:12:12.000",
     "json": "Valittu tiedosto ei ole kelvollinen JSON — tarkista ja yritä uudelleen",
     "hotKey": "Käytä kirjainta yhdistettynä Ctrl-, Alt- tai Shift-näppäimeen (esim. Ctrl + A)",
     "valueExtractor": "Antamasi kuvio ei ole kelvollinen — tarkista ja yritä uudelleen",
@@ -540,7 +540,7 @@
     "elementFinder": "Anna, miten löydät kohteen sivulta",
     "spreadsheetId": "Anna kelvollinen Google Sheets -tunnus (44 merkkiä, esim. 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
     "roleLock": {
-      "header": "{{plan}} Vaadittu suunnitelma",
+      "header": "{{plan}} Sopimus vaaditaan",
       "body": "Tämä ominaisuus vaatii {{plan}}-sopimuksen. Päivitä jatkaaksesi."
     }
   },
@@ -548,7 +548,7 @@
     "title": "Vaihe",
     "plural": "Askeleet",
     "step_one": "1 askel",
-    "step_other": "{{count}} askelta",
+    "step_other": "{{count}} Askeleet",
     "add": "Lisää vaihe",
     "addBefore": "Lisää vaihe yläpuolelle",
     "addAfter": "Lisää vaihe alla",
@@ -565,7 +565,7 @@
     "confirm": {
       "remove": {
         "title": "Poista vaihe",
-        "message": "Oletko varma, että haluat poistaa [{{name}}] -vaiheen?"
+        "message": "Haluatko varmasti poistaa vaiheen [{{name}}]?"
       }
     },
     "toast": {
@@ -580,7 +580,7 @@
     "confirm": {
       "remove": {
         "title": "Poista käyttäjäskripti",
-        "message": "Haluatko varmasti poistaa [{{name}}] käyttäjäskriptin?"
+        "message": "Oletko varma, että haluat poistaa [{{name}}]-käyttäjäskriptin?"
       }
     }
   },
@@ -603,27 +603,27 @@
       "title": "liput",
       "global": "Älä palaa ensimmäisen ottelun jälkeen",
       "multiLine": "^ ja $ vastaavat rivin alkua/loppua",
-      "insensitive": "Kirjainkoosta riippumaton osuma",
+      "insensitive": "Älä käytä kirjainkokoa",
       "extended": "Älä välilyöntejä",
       "singleLine": "Piste vastaa rivinvaihtoa"
     },
     "hotkey": {
       "title": "Pikanäppäin",
       "content": "Paina näppäimistön pikanäppäintä kirjoittaaksesi kenttään automaattisesti",
-      "hint": "Yksi kirjain ilman <kbd>Ctrl-</kbd> , <kbd>Alt-</kbd> tai <kbd>Shift-näppäimiä</kbd> ei kelpaa"
+      "hint": "Yksi kirjain ilman <kbd>Ctrl</kbd>, <kbd>Alt</kbd> tai <kbd>Shift</kbd> ei ole kelvollinen."
     }
   },
   "common": {
     "appName": "Automaattinen napsauttaja - Automaattinen täyttö",
     "file": "Tiedosto",
     "error": "Virhe",
-    "save": "Tallentaa",
+    "save": "Tallenna",
     "clear": "Tyhjennä",
     "cancel": "Peruuttaa",
     "close": "Lähellä",
     "download": "Lataa",
     "loading": "Ladataan...",
-    "disabled": "Liikuntarajoitteinen",
+    "disabled": "Poistettu käytöstä",
     "remove": "Poistaa",
     "edit": "Muokata",
     "enable": "Ota käyttöön",
@@ -635,7 +635,7 @@
     "yes": "Kyllä",
     "local": "PAIKALLINEN",
     "dev": "KEHITTÄÄ",
-    "stable": "VAKAA",
+    "stable": "Vakaa",
     "examples": "Esimerkkejä",
     "add": "Lisätä",
     "confirm": "Vahvistaa"
@@ -645,7 +645,7 @@
     "en": "englanti",
     "fr": "ranskalainen",
     "ko": "Korealainen",
-    "ca": "Kanada",
+    "ca": "katalaani",
     "hi": "Hindi",
     "zh_CN": "Kiina (yksinkertaistettu)",
     "zh_TW": "Kiina (perinteinen)",
@@ -663,14 +663,14 @@
     "id": "Indonesia"
   },
   "monitor": {
-    "title": "Näyttö",
+    "title": "Valvonta",
     "enabled": "Ota valvonta käyttöön",
     "enabledHint": "Suorita toiminnot automaattisesti uudelleen, kun sivulle lisätään uusia vastaavia elementtejä (esim. ääretön vieritys, asynkroninen sisältö)",
     "rootSelector": "Näytön juuri",
-    "rootSelectorPlaceholder": "ruumis",
+    "rootSelectorPlaceholder": "body",
     "rootSelectorHint": "CSS-valitsin tarkkailtavalle säilölle",
     "watchAttributes": "Näytön ominaisuudet",
-    "attributesPlaceholder": "tyyli, luokka, piilotettu",
+    "attributesPlaceholder": "style, class, hidden",
     "attributesHint": "Pilkuilla erotettu luettelo muutoksista, joita seurataan",
     "debounce": "Debounce",
     "debounceHint": "Viive ennen uusien elementtien käsittelyä (1–5 sekuntia)",
@@ -679,7 +679,7 @@
     "urlChange": "Pysäytä URL-osoitteen muuttuessa",
     "urlChangeHint": "Lopeta katselu automaattisesti, kun sivun URL-osoite muuttuu",
     "toast": {
-      "header": "Näyttö",
+      "header": "Valvonta",
       "body": "Monitori tallennettu onnistuneesti!"
     }
   },
@@ -705,11 +705,11 @@
       "title": "Hyödyllisiä vinkkejä",
       "tip1": {
         "title": "Kokeile testisivulla",
-        "desc": "Avaa test.getautoclicker.com, lisää kaksi toimintoa – yksi käyttäjätunnuskentän täyttämiseen ja yksi painikkeen napsauttamiseen – ja tallenna ja suorita."
+        "desc": "Avaa test.getautoclicker.com, lisää kaksi toimintoa – yksi käyttäjätunnuskentän täyttämiseen ja toinen painikkeen napsauttamiseen – ja tallenna ja suorita."
       },
       "tip2": {
         "title": "Kohdista kohteet tarkasti",
-        "desc": "Käytä elementtipolkuja kohdistaaksesi tiettyihin sivun kohteisiin, kuten //input[@nimi=\"käyttäjänimi\"], luotettavamman automaation saavuttamiseksi."
+        "desc": "Käytä elementtipolkuja kohdistaaksesi tiettyihin sivun kohteisiin, kuten //input[@name=\"username\"], luotettavamman automaation saavuttamiseksi."
       },
       "tip3": {
         "title": "Hitaiden sivujen latausten käsittely",
@@ -727,7 +727,7 @@
     "videos": {
       "title": "Videooppaat",
       "video1": {
-        "title": "Auto Clicker AutoFill - Complete Overview"
+        "title": "Auto Clicker AutoFill - Täydellinen yleiskatsaus"
       },
       "video2": {
         "title": "Automaattisen napsauttajan automaattisen täytön aloittaminen"

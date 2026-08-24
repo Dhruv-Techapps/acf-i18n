@@ -1,51 +1,51 @@
 {
   "EXT_NAME": {
-    "message": "Trình nhấp chuột tự động - Tự động điền"
+    "message": "Phần mềm tự động nhấp chuột - Tự động điền"
   },
   "EXT_NAME_DEV": {
-    "message": "Trình nhấp chuột tự động - Tự động điền [DEV]"
+    "message": "Auto Clicker - AutoFill [DEV]"
   },
   "EXT_NAME_BETA": {
-    "message": "Trình nhấp chuột tự động - Tự động điền [BETA]"
+    "message": "Phần mềm tự động nhấp chuột - Tự động điền [BETA]"
   },
   "EXT_NAME_LOCAL": {
-    "message": "Trình nhấp chuột tự động - Tự động điền [LOCAL]"
+    "message": "Phần mềm tự động nhấp chuột - Tự động điền [PHIÊN BẢN ĐỊA PHƯƠNG]"
   },
   "EXT_SHORT_NAME": {
-    "message": "Tự động điền"
+    "message": "Phần mềm tự động nhấp chuột - Tự động điền"
   },
   "EXT_DESCRIPTION": {
-    "message": "Trường nhập Tự động điền hoặc nút tự động nhấp hoặc liên kết bất kỳ thứ gì ở bất kỳ đâu. Bạn có thể định cấu hình và kiểm tra kiểm tra tốc độ nhấp chuột"
+    "message": "Tự động điền vào trường nhập liệu, tự động nhấp chuột vào nút hoặc liên kết, bất cứ thứ gì ở bất cứ đâu. Bạn có thể cấu hình và kiểm tra tốc độ nhấp chuột."
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
     "message": "Sao lưu ACF"
   },
   "@ACF_BACKUP__NOTIFICATION_BACKUP": {
-    "message": "Cấu hình được sao lưu trên Google Drive với giá $1"
+    "message": "Các cấu hình đã được sao lưu trên Google Drive tại địa chỉ $1."
   },
   "@ACF_BACKUP__NOTIFICATION_RESTORE": {
-    "message": "Cấu hình được khôi phục từ Google Drive. Làm mới trang cấu hình để tải nội dung."
+    "message": "Các cấu hình đã được khôi phục từ Google Drive. Vui lòng làm mới trang cấu hình để tải nội dung."
   },
   "@ACF_BACKUP__ERROR_NO_CONFIG": {
-    "message": "Không tìm thấy cấu hình nào để sao lưu"
+    "message": "Không tìm thấy cấu hình nào để sao lưu."
   },
   "@ACF_BACKUP__ERROR_NO_CONTENT": {
-    "message": "Không tìm thấy nội dung trong tập tin"
+    "message": "Không tìm thấy nội dung nào trong tệp tin."
   },
   "@PORT__ACTION_NOT_FOUND": {
-    "message": "không được cấu hình"
+    "message": "chưa được cấu hình"
   },
   "@PORT__METHOD_NOT_FOUND": {
-    "message": "phương pháp xử lý không được tìm thấy"
+    "message": "Không tìm thấy phương pháp xử lý"
   },
   "@CONTEXT_MENU__FIELD": {
-    "message": "★ Cấu hình cho trường này"
+    "message": "⊕ Cấu hình cho trường này"
   },
   "@CONTEXT_MENU__FIELD_POSITION": {
     "message": "⌖ Cấu hình theo vị trí"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Bảng điều khiển bên/☉ Ghi âm"
+    "message": "▤ Bảng điều khiển bên / ☉ Ghi âm"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Hỏi AI"
@@ -78,13 +78,13 @@
     "message": "Không nhận được câu trả lời. Vui lòng thử lại."
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
-    "message": "Chọn (các) phần tử"
+    "message": "Chọn các phần tử"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
     "message": "Chọn một phần tử khác"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
-    "message": "Nhấp chuột vào các phần tử trên trang… (nhấp chuột để dừng)"
+    "message": "Nhấp chuột vào các phần tử trên trang... (nhấp chuột để dừng)"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
     "message": "Di dời"
@@ -117,13 +117,13 @@
     "message": "nhấp chuột"
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
-    "message": "Chỉnh sửa tự động hóa"
+    "message": "Tự động chỉnh sửa"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Mở trang cấu hình"
   },
   "@TABS__TITLE": {
-    "message": "Tab"
+    "message": "Các tab"
   },
   "@TABS__ERROR": {
     "message": "Không thể tìm thấy tab hoặc ID tab được chỉ định."
@@ -138,10 +138,10 @@
     "message": "không tên"
   },
   "@ADDON__TITLE": {
-    "message": "Thêm vào"
+    "message": "Tiện ích bổ sung"
   },
   "@ACTION_CONDITION__TITLE": {
-    "message": "Hành động Điều kiện"
+    "message": "Điều kiện hành động"
   },
   "@BATCH__TITLE": {
     "message": "Vòng lặp"
@@ -150,46 +150,46 @@
     "message": "Tự động hóa"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
-    "message": "Trình tìm kiếm phần tử trống"
+    "message": "Công cụ tìm kiếm phần tử trống"
   },
   "@ERROR__NO_MATCH": {
-    "message": "tình trạng không khớp."
+    "message": "Điều kiện không phù hợp."
   },
   "@ERROR__WRONG_TITLE": {
     "message": "So sánh không chính xác"
   },
   "@ERROR__WRONG_DESCRIPTION": {
-    "message": "Toán tử lớn hơn hoặc nhỏ hơn chỉ có thể so sánh các số"
+    "message": "Toán tử so sánh lớn hơn hoặc nhỏ hơn chỉ có thể so sánh các con số."
   },
   "@ERROR__ELEMENT_FINDER_TITLE": {
-    "message": "Công cụ tìm phần tử hoặc điều kiện bổ sung không chính xác"
+    "message": "Trình tìm phần tử hoặc điều kiện bổ sung không chính xác"
   },
   "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
-    "message": "Trình tìm kiếm phần tử nên nhắm mục tiêu vào hộp kiểm"
+    "message": "Công cụ tìm phần tử nên nhắm mục tiêu vào hộp kiểm"
   },
   "@ERROR__INVALID_ELEMENT_FINDER": {
-    "message": "Công cụ tìm phần tử không hợp lệ"
+    "message": "Trình tìm phần tử không hợp lệ"
   },
   "@ERROR__NOT_FOUND_STOP": {
-    "message": "Không tìm thấy - DỪNG"
+    "message": "Không tìm thấy - DỪNG LẠI"
   },
   "@ERROR__NOT_FOUND_RELOAD": {
     "message": "Không tìm thấy - TẢI LẠI"
   },
   "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
-    "message": "Không tìm thấy hành động nào cho Goto"
+    "message": "Không tìm thấy thao tác cho Goto"
   },
   "@ERROR__NO_ELEMENT_FOUND": {
-    "message": "Không tìm thấy phần tử nào có bộ chọn đã cho"
+    "message": "Không tìm thấy phần tử nào với bộ chọn đã cho."
   },
   "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
-    "message": "Vui lòng truy cập trang cấu hình để xem lại và cập nhật Điều kiện hành động để đảm bảo cấu hình được cập nhật đúng cách."
+    "message": "Vui lòng truy cập trang cấu hình để xem xét và cập nhật Điều kiện Hành động nhằm đảm bảo cấu hình được cập nhật đúng cách."
   },
   "@CONDITION_SATISFIED": {
-    "message": "Điều kiện thỏa mãn"
+    "message": "Điều kiện đã được đáp ứng"
   },
   "@CONDITION_NOT_SATISFIED": {
-    "message": "Điều kiện không thỏa mãn"
+    "message": "Điều kiện không được đáp ứng"
   },
   "@ERROR": {
     "message": "Lỗi"
@@ -210,7 +210,7 @@
     "message": "Chờ đợi"
   },
   "@DISABLED": {
-    "message": "Tàn tật"
+    "message": "Đã tắt"
   },
   "@RESULT": {
     "message": "Kết quả"
@@ -225,7 +225,7 @@
     "message": "So sánh"
   },
   "@RECHECK_OPTION": {
-    "message": "Kiểm tra lạiTùy chọn"
+    "message": "Tùy chọn kiểm tra lại"
   },
   "@DOCS": {
     "message": "Tài liệu"

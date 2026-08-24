@@ -1,0 +1,757 @@
+{
+  "meta": {
+    "appName": "Kibofya Kiotomatiki - Kujaza Kiotomatiki",
+    "logoAlt": "Nembo ya Kujaza Kiotomatiki ya Kubofya Kiotomatiki"
+  },
+  "askAi": {
+    "floatingButton": "Uliza AI"
+  },
+  "status": {
+    "connecting": "Inaunganisha..."
+  },
+  "links": {
+    "docs": "Hati",
+    "blog": "Blogu",
+    "configuration": "Usanidi",
+    "issues": "Masuala",
+    "discussion": "Majadiliano",
+    "test": "Fomu ya Mazoezi",
+    "contact": "Mawasiliano",
+    "chat": "Gumzo",
+    "connect": "Unganisha",
+    "privacy": "Faragha na Sera",
+    "googleGroup": "Kundi la Google"
+  },
+  "about": "Kuhusu",
+  "social": "Kijamii",
+  "theme": {
+    "title": "Mandhari",
+    "switchLight": "Badilisha hadi kwenye mandhari nyepesi",
+    "switchDark": "Badilisha hadi kwenye mandhari nyeusi",
+    "light": "Mwanga",
+    "dark": "Nyeusi",
+    "auto": "Otomatiki"
+  },
+  "loading": "Inapakia...",
+  "loader": {
+    "subtitle": "Inapakia otomatiki zako..."
+  },
+  "loginModal": {
+    "title": "Tafadhali ingia",
+    "signingIn": "Ingia..."
+  },
+  "learnMore": "Jifunze Zaidi",
+  "login": "Ingia",
+  "logout": "Toka",
+  "connect": "Unganisha",
+  "disconnect": "Tenganisha",
+  "resources": "Rasilimali",
+  "settings": {
+    "title": "Mipangilio ya Kimataifa",
+    "additional": "Mipangilio ya Ziada",
+    "toast": {
+      "header": "Mipangilio",
+      "body": "Mipangilio imehifadhiwa kwa mafanikio!"
+    }
+  },
+  "notification": {
+    "title": "Onyesha Arifa",
+    "error": "Kwenye Hitilafu",
+    "step": "Kukamilika kwa Hatua",
+    "loop": "Wakati wa kukamilisha mzunguko",
+    "automation": "Wakati wa kukamilisha otomatiki",
+    "sound": "Sauti ya Arifa"
+  },
+  "discord": {
+    "title": "Arifa kwenye Discord",
+    "loginRequired": "Tafadhali <1>Ingia</1> kwenye akaunti yako kabla ya kuunganisha na Discord."
+  },
+  "checkIFrames": {
+    "title": "Tafuta Ndani ya Kurasa Zilizopachikwa",
+    "hint": "Pia tafuta vipengee vilivyo ndani ya sehemu zilizopachikwa kwenye ukurasa"
+  },
+  "reloadOnError": {
+    "title": "Onyesha Ukurasa Upya kwenye Hitilafu",
+    "hint": "Pakia upya ukurasa kiotomatiki ikiwa kuna kitu kitaenda vibaya",
+    "contextInvalidated": "Muktadha wa kiendelezi umebatilishwa."
+  },
+  "statusBar": {
+    "title": "Upau wa Hali",
+    "hint": "Onyesha upau wa hali chini ya ukurasa",
+    "positions": {
+      "hide": "Ficha",
+      "top-left": "Juu Kushoto",
+      "top-right": "Juu Kulia",
+      "bottom-left": "Chini Kushoto",
+      "bottom-right": "Chini Kulia"
+    }
+  },
+  "retry": {
+    "title": "Jaribu tena majaribio",
+    "interval": "Subiri Kati ya Majaribio Mengine",
+    "intervalRange": "Subiri Kati ya Majaribio Mengine",
+    "to": "kwa",
+    "stop": "Acha Otomatiki",
+    "skip": "Ruka Hatua Hii",
+    "refresh": "Onyesha upya na Ujaribu Tena",
+    "goto": "Nenda kwenye Hatua",
+    "hint": "Nini kifanyike ikiwa kipengee hakipatikani kwenye ukurasa?",
+    "unlimited-tooltip": "Weka kwenye ukomo ili uendelee kujaribu tena kwa muda usiojulikana hadi kipengee kitakapopatikana. Tumia kwa tahadhari, kwani hii inaweza kusababisha kivinjari chako kutojibu ikiwa kipengee hakitaonekana kamwe.",
+    "range-tooltip": "Weka masafa ili kuongeza nasibu ya vipindi vya kujaribu tena na kuepuka kugundua. Kwa mfano, kuweka sekunde 5 hadi 10 kutachagua nasibu muda kati ya sekunde 5 na 10 kwa kila jaribio la kujaribu tena."
+  },
+  "backup": {
+    "title": "Hifadhi nakala rudufu",
+    "lastBackup": "Hifadhi Nakala ya Mwisho:",
+    "backup": "Hifadhi nakala rudufu kwenye Wingu",
+    "restore": "Rejesha kutoka Wingu",
+    "now": "Hifadhi Nakala Sasa",
+    "autoBackup": "Hifadhi Nakala Kiotomatiki",
+    "daily": "Kila siku",
+    "weekly": "Kila wiki",
+    "monthly": "Kila mwezi",
+    "off": "Imezimwa",
+    "loginRequired": "Tafadhali <1>Ingia</1> kwenye akaunti yako kabla ya kuunganisha na Hifadhi ya Google.",
+    "checkingAccess": "Inakagua ufikiaji wa Hifadhi ya Google...",
+    "connect": "Unganisha na Hifadhi ya Google",
+    "connected": "Hifadhi Nakala ya Google Drive",
+    "loadingFiles": "Inapakia faili zako...",
+    "restoreAction": "Rejesha",
+    "delete": "Futa",
+    "noBackup": "Hakuna Hifadhi Nakala Iliyopatikana",
+    "confirm": {
+      "restore": {
+        "title": "Rejesha Otomatiki kutoka Wingu",
+        "message": "Una uhakika unataka kurejesha otomatiki kutoka kwa wingu? Hii itachukua nafasi ya otomatiki zako zote na haiwezi kutenduliwa."
+      }
+    },
+    "toast": {
+      "header": "Hifadhi nakala rudufu",
+      "body": "Hifadhi nakala imehifadhiwa kwa mafanikio!"
+    }
+  },
+  "migrationBackup": {
+    "title": "Hifadhi Nakala ya Uhamiaji",
+    "description": "Picha hizi hupigwa picha kiotomatiki kabla ya uhamishaji wa schema na hukuruhusu kukagua au kusafirisha data yako ya zamani.",
+    "loading": "Inapakia nakala rudufu za uhamishaji...",
+    "empty": "Hakuna nakala rudufu za uhamiaji zilizopatikana",
+    "download": "Pakua",
+    "replaceLocalData": "Rejesha nakala rudufu",
+    "delete": "Futa",
+    "version": "Toleo",
+    "unknownVersion": "Haijulikani",
+    "errorLoading": "Imeshindwa kupakia nakala rudufu za uhamishaji",
+    "errorRestore": "Imeshindwa kurejesha nakala rudufu ya uhamishaji",
+    "errorDelete": "Imeshindwa kufuta nakala rudufu ya uhamishaji",
+    "confirm": {
+      "restore": {
+        "title": "Rejesha nakala rudufu hii",
+        "message": "Una uhakika unataka kurejesha nakala rudufu hii? Otomatiki na mipangilio yako ya sasa itabadilishwa."
+      },
+      "delete": {
+        "title": "Futa nakala rudufu ya uhamishaji",
+        "message": "Una uhakika unataka kufuta nakala rudufu hii ya uhamishaji?"
+      }
+    }
+  },
+  "errorPage": {
+    "title": "Haiwezi kufungua ukurasa huu",
+    "subtitle": "Ukurasa ulioombwa haukuweza kupakiwa. Angalia maelezo yaliyo hapa chini.",
+    "routeLabel": "Njia",
+    "detailsLabel": "Maelezo ya hitilafu",
+    "goToAutomations": "Nenda kwenye otomatiki",
+    "goToHome": "Nenda nyumbani"
+  },
+  "reorder": {
+    "title": "Panga Upya Otomatiki",
+    "hint": "Tafadhali hifadhi otomatiki zote kabla ya kuagiza upya"
+  },
+  "extensionNotFound": {
+    "title": "Kiendelezi Hakijasakinishwa",
+    "subTitle": "Ukurasa huu unafanya kazi na kiendelezi cha <b>Auto Clicker - AutoFill</b> cha Chrome & Edge.",
+    "hint": "Tafadhali sakinisha kiendelezi kwanza ili kuanza.",
+    "download": "pakua"
+  },
+  "versionAlert": {
+    "securityUpdate": "Sasisho la Usalama Linahitajika:",
+    "message": "Toleo jipya la <1>Auto Clicker & Auto Fill</1> linapatikana na linajumuisha marekebisho ya udhaifu wa usalama uliotambuliwa hivi karibuni.",
+    "learnMore": "Pata maelezo zaidi",
+    "update": "Tafadhali sasisha hadi toleo jipya zaidi ili uendelee kulindwa."
+  },
+  "stepSettings": {
+    "title": "Mipangilio ya Hatua",
+    "info": "Mipangilio hii inatumika tu kwa hatua hii na ukaguzi wake wa awali, na itachukua kipaumbele kuliko Mipangilio yako ya Jumla.",
+    "iframeFirst": "Tafuta Kurasa Zilizopachikwa Kwanza",
+    "iframeFirstHint": "Angalia ndani ya maudhui yoyote yaliyopachikwa kwenye ukurasa kabla ya kutafuta ukurasa mkuu",
+    "toast": {
+      "header": "Mipangilio ya Hatua",
+      "body": "Mipangilio ya hatua imehifadhiwa kwa mafanikio!"
+    }
+  },
+  "stateGuard": {
+    "action": "Hatua Iliyotangulia",
+    "status": "Matokeo",
+    "title": "Mlinzi wa Hali",
+    "add": "Ongeza Hali",
+    "info": "Weka sheria ya kudhibiti kama hatua hii inapaswa kutekelezwa, kulingana na kile kilichotokea katika hatua zilizopita.",
+    "stop": "Acha Otomatiki",
+    "skip": "Ruka Hatua Hii",
+    "refresh": "Onyesha upya na Ujaribu Tena",
+    "goto": "Nenda kwenye Hatua",
+    "proceed": "Kimbia Hatua Hii Hata Hivyo",
+    "hint": "Nini kifanyike ikiwa sheria haitafuatwa?",
+    "toast": {
+      "header": "Mlinzi wa Hali",
+      "body": "Kinga ya hali ya hewa imehifadhiwa kwa mafanikio!"
+    }
+  },
+  "pageGuard": {
+    "title": "Kinga ya Ukurasa",
+    "info": "Endesha hatua hii tu ikiwa thamani kwenye ukurasa inakidhi sharti lako.",
+    "elementFinder": "Tafuta Kipengee kwenye Ukurasa",
+    "condition": "Linganisha",
+    "value": "Linganisha na",
+    "valueExtractor": "Nambari ya Dondoo au Maandishi",
+    "valueExtractorHint": "Tumia muundo kutoa sehemu maalum ya thamani. Kwa mfano, toa 24.00 kutoka $24.00, au 10 kutoka kwa otomatiki 10.",
+    "recheck": {
+      "title": "Ikiwa Hali Haijatimizwa",
+      "hint": "Chagua kinachopaswa kutokea ikiwa sharti la kichujio halitatimizwa.",
+      "recheck": "Angalia Tena",
+      "interval": "Subiri Kabla ya Kuangalia Tena",
+      "stop": "Acha Otomatiki",
+      "skip": "Ruka Hatua Hii",
+      "refresh": "Onyesha upya na Ujaribu Tena",
+      "goto": "Nenda kwenye Hatua"
+    },
+    "toast": {
+      "header": "Kilinda Ukurasa",
+      "body": "Kilinda ukurasa kimehifadhiwa kwa mafanikio!"
+    }
+  },
+  "schedule": {
+    "title": "Ratiba Otomatiki",
+    "info": "Endesha otomatiki hii kwa tarehe na saa maalum.",
+    "date": "Tarehe",
+    "time": "Muda",
+    "repeat": "Rudia kwa dakika",
+    "toast": {
+      "header": "Ratiba",
+      "body": "Ratiba imehifadhiwa kwa mafanikio!"
+    }
+  },
+  "upgradePlan": {
+    "title": "Mpango wa Uboreshaji",
+    "subtitle": "Fungua vipengele vya hali ya juu na upate manufaa zaidi kutokana na Auto Clicker AutoFill.",
+    "currentPlan": "Mpango Wako wa Sasa",
+    "upgrading": "Inasasisha...",
+    "cancelling": "Inaghairi...",
+    "cancelPlan": "Ghairi Mpango",
+    "cancelConfirm": "Una uhakika unataka kughairi usajili wako mwishoni mwa mzunguko wa sasa wa bili?",
+    "cancelError": "Imeshindwa kughairi usajili. Tafadhali jaribu tena baadaye.",
+    "cancellationScheduled": "Kughairi Kumepangwa",
+    "cancellationDetails": "Usajili wako utaendelea kutumika hadi tarehe inayofuata ya bili. Utaendelea kuwa na ufikiaji kamili wa vipengele vyote hadi wakati huo.",
+    "scheduledCancelDate": "Tarehe Iliyopangwa ya Kughairi",
+    "loginRequired": "Tafadhali ingia ili kuboresha mpango wako.",
+    "loginLink": "Ingia",
+    "activeSubscription": "Usajili Unaoendelea:",
+    "subscriptionStatus": "Hali: {{status}}",
+    "processing": "Inachakata malipo na kusasisha usajili wako...",
+    "upgrade": "Boresha",
+    "downgrade": "Punguza",
+    "comingSoon": "Inakuja hivi karibuni",
+    "cadence": {
+      "monthly": "Kila mwezi",
+      "yearly": "Kila mwaka",
+      "savingsBadge": "Miezi 2 bila malipo"
+    },
+    "free": {
+      "name": "🆓 FREE",
+      "tagline": "Otomatiki yenye nguvu kwa kila mtu — hakuna akaunti inayohitajika.",
+      "perMonth": "milele",
+      "cta": "Mpango wa Sasa",
+      "includes": "Kinachojumuishwa:",
+      "features": {
+        "unlimitedAutomations": "Otomatiki zisizo na kikomo",
+        "unlimitedSteps": "Hatua zisizo na kikomo kwa kila otomatiki",
+        "loopSteps": "Rudia hatua kwa mzunguko",
+        "recording": "Kinasa cha hatua kwa kuona",
+        "allValues": "Aina zote za thamani — hakuna API inayohitajika"
+      }
+    },
+    "plus": {
+      "name": "🚀 PLUS",
+      "tagline": "Mambo yote muhimu, pamoja na udhibiti wa kina wa ukaguzi wa awali na mipangilio ndani ya hatua.",
+      "perMonth": "kwa mwezi",
+      "perYear": "kwa mwaka",
+      "cta": "Boresha hadi Plus",
+      "includes": "Kila kitu katika Bure, pamoja na:",
+      "features": {
+        "noAds": "Uzoefu usio na matangazo",
+        "automationLoop": "Kitanzi cha otomatiki (kurudia otomatiki)",
+        "automationMonitor": "Kifuatiliaji otomatiki (tazama na ujibu)",
+        "automationSchedule": "Mratibu wa kiotomatiki",
+        "pageGuard": "Kinga ya ukurasa (geti inayotegemea vipengele)",
+        "stepSettings": "Mipangilio na ubatilishaji wa kiwango cha hatua",
+        "stepGuard": "Mlinzi wa hatua (ukaguzi wa hali ya masharti)"
+      }
+    },
+    "pro": {
+      "name": "🔹 PRO",
+      "tagline": "Nguvu kamili ya otomatiki — pamoja na ujumuishaji, AI, na usaidizi wa kipaumbele.",
+      "perMonth": "kwa mwezi",
+      "perYear": "kwa mwaka",
+      "cta": "Boresha hadi Pro",
+      "includes": "Kila kitu katika Plus, pamoja na:",
+      "features": {
+        "sheets": "Muunganisho wa Majedwali ya Google",
+        "discord": "Muunganisho wa Discord",
+        "captcha": "Kitatuzi cha Captcha",
+        "openai": "Muunganisho wa OpenAI",
+        "prioritySupport": "Usaidizi wa kipaumbele kupitia Discord",
+        "gmail": "Muunganisho wa Gmail"
+      }
+    },
+    "lockBadgeTooltip": "Inahitaji mpango wa {{plan}}. Bofya ili kujisajili.",
+    "alternativePayment": {
+      "title": "Huwezi kutumia Dodo Payments?",
+      "description": "Dodo Payments haipatikani katika kila nchi, na katika baadhi ya maeneo inasaidia kadi za mkopo pekee. Ikiwa huwezi kutumia Dodo Payments katika nchi yako (au unahitaji chaguo lisilo la kadi), unaweza kulipa kupitia mojawapo ya hizi badala yake:",
+      "githubSponsors": "Wadhamini wa GitHub",
+      "paypal": "PayPal",
+      "instructionsTitle": "Maelekezo",
+      "step1": "Lipa kwa idadi ya miezi unayotaka kujisajili, kwa kutumia bei ya kila mwezi ya mpango. Kwa mfano, gharama ya miezi sita (bei ya kila mwezi) × 6.",
+      "emailUs": "Tutumie barua pepe",
+      "step2": "barua pepe ya akaunti yako, mpango na idadi ya miezi, na uthibitisho wa malipo — risiti yako ya Wadhamini wa GitHub, au anwani yako ya barua pepe ya PayPal / kitambulisho cha muamala ikiwa ulilipa kupitia PayPal.",
+      "step3": "Tutawezesha mpango wako mwenyewe kutoka sehemu yetu ya nyuma kwa idadi ya miezi uliyolipa, na utaisha kiotomatiki baada ya kipindi hicho.",
+      "noteLabel": "Kumbuka:",
+      "note": "Kwa kuwa malipo haya hayashughulikiwi kupitia malipo yetu ya kiotomatiki, tunawezesha mipango kwa mikono na inaweza kuchukua hadi saa 72. Ili kuepuka pengo katika huduma, tunapendekeza ulipe mapema angalau miezi 3-6 kwa wakati mmoja.",
+      "contactPrompt": "Una swali tofauti, au unataka tu kuwasiliana?",
+      "contactUs": "Wasiliana Nasi"
+    }
+  },
+  "subscription": {
+    "title": "Usajili",
+    "changePlan": "Mpango wa Mabadiliko",
+    "status": "Hali",
+    "nextBillingDate": "Tarehe Inayofuata ya Kulipa"
+  },
+  "googleSheets": {
+    "title": "Majedwali ya Google",
+    "hint": "Unganisha akaunti yako ya Majedwali ya Google ili kusafirisha otomatiki na kumbukumbu zako kwa urahisi, na ufuatilie historia yako ya otomatiki katika sehemu moja.",
+    "useStable": {
+      "title": "Tumia Matoleo Imara kwa Vipengele vya Majedwali ya Google.",
+      "message": "Kwa matokeo bora zaidi, tumia toleo la <1>Stable</1> la vipengele vya Google Sheets. Matoleo thabiti yanajaribiwa kikamilifu ili kuhakikisha utendaji wa kuaminika, na kukusaidia kuepuka matatizo yasiyotarajiwa. Ukihitaji msaada, jisikie huru kuwasiliana nasi kwa usaidizi."
+    },
+    "loginRequired": "Tafadhali <1>Login</1> kwenye akaunti yako kabla ya kuunganisha na Google Sheets.",
+    "connect": "Ungana na Majedwali ya Google",
+    "connected": "Imeunganishwa na Majedwali ya Google"
+  },
+  "sidebar": {
+    "search": "Tafuta",
+    "upgradePlan": "Mpango wa Uboreshaji",
+    "login": "Ingia",
+    "logout": "Toka",
+    "language": "Lugha",
+    "learnMore": "Jifunze Zaidi",
+    "guestInitial": "E",
+    "guestName": "Kichunguzi",
+    "freePlan": "BURE"
+  },
+  "automations": {
+    "title": "Otomatiki Zangu",
+    "count": "Otomatiki ({{count}})",
+    "search": "Tafuta otomatiki zako...",
+    "add": "Mpya",
+    "reorder": "Panga upya",
+    "reorderByName": "Panga upya kwa Jina",
+    "selected": "iliyochaguliwa",
+    "selected_one": "Otomatiki 1 imechaguliwa",
+    "selected_other": "otomatiki za {{count}} zimechaguliwa",
+    "selectAll": "Chagua zote",
+    "exportSelected": "Hamisha imechaguliwa",
+    "deleteSelected": "Futa iliyochaguliwa",
+    "cancelSelection": "Ghairi uteuzi",
+    "automationsWithinExtension": "otomatiki ndani ya kiendelezi",
+    "selectAutomations": "Chagua otomatiki ili kuhamisha au kufuta",
+    "select": "Chagua",
+    "import": "Ingiza",
+    "filter": {
+      "all": "Zote",
+      "enabled": "Imewezeshwa",
+      "disabled": "Imezimwa"
+    },
+    "confirm": {
+      "delete": {
+        "title": "Futa Otomatiki",
+        "message": "Una uhakika unataka kufuta otomatiki zilizochaguliwa?",
+        "message_one": "Una uhakika unataka kufuta otomatiki iliyochaguliwa?",
+        "message_other": "Una uhakika unataka kufuta otomatiki za {{count}} zilizochaguliwa?"
+      }
+    },
+    "toast": {
+      "header": "Otomatiki",
+      "remove": "Otomatiki imeondolewa kwa mafanikio",
+      "remove_one": "Otomatiki imeondolewa kwa mafanikio",
+      "remove_other": "otomatiki za {{count}} zimeondolewa kwa mafanikio",
+      "export": "Otomatiki zimesafirishwa kwa mafanikio",
+      "export_one": "Otomatiki 1 imetumwa kwa ufanisi",
+      "export_other": "otomatiki za {{count}} zimesafirishwa kwa mafanikio",
+      "import": "Otomatiki imeingizwa kwa mafanikio",
+      "import_one": "Otomatiki 1 imeingizwa kwa ufanisi",
+      "import_other": "otomatiki za {{count}} zimeingizwa kwa mafanikio",
+      "reorder": "Otomatiki imepangwa upya kwa mafanikio",
+      "alreadyExists": "Otomatiki zote tayari zipo zenye maudhui yanayofanana"
+    }
+  },
+  "automation": {
+    "title": "Otomatiki",
+    "remove": "Ondoa",
+    "duplicate": "Nakala",
+    "enable": "Washa",
+    "disable": "Zima",
+    "disabled": "Imezimwa",
+    "edit": "Hariri",
+    "export": "Hamisha",
+    "import": "Ingiza",
+    "schedule": "Ratiba",
+    "batch": "Mipangilio ya Kitanzi",
+    "watch": "Mipangilio ya Kifuatiliaji",
+    "url": "URL",
+    "name": "Jina",
+    "initWait": "Subiri Kabla ya Kuanza",
+    "startTime": "Muda wa Kuanza Uliopangwa",
+    "noConfig": "Hakuna otomatiki iliyopatikana. Tafadhali boresha utafutaji wako.",
+    "publish": "Chapisha",
+    "unpublish": "Ondoa uchapishaji",
+    "published": "Imechapishwa",
+    "publishedToCloud": "Imechapishwa kwenye wingu",
+    "importing": "Inaingiza...",
+    "publishing": "Kuchapisha...",
+    "publish-loginRequired": "Tafadhali ingia ili kuchapisha otomatiki hii.",
+    "publish-ownedByOther": "Otomatiki hii imechapishwa na mtumiaji wa [{{name}}]. Unaweza kuirudia kwenye akaunti yako na kuchapisha mabadiliko yako.",
+    "confirm": {
+      "remove": {
+        "title": "Ondoa Otomatiki",
+        "message": "Una uhakika unataka kuondoa otomatiki ya [{{name}}]?"
+      },
+      "import": {
+        "title": "Ingiza Otomatiki",
+        "message": "Kuingiza kutachukua nafasi ya otomatiki yako ya sasa ikiwa ipo. Endelea?"
+      }
+    },
+    "toast": {
+      "header": "Otomatiki",
+      "body": "Otomatiki imehifadhiwa kwa mafanikio!",
+      "published": "Otomatiki imechapishwa kwa mafanikio!",
+      "unpublished": "Otomatiki imeondolewa kwenye uchapishaji kwa mafanikio!",
+      "notPublished": "Otomatiki haijachapishwa.",
+      "imported": "Imefanikiwa kuingiza '{{title}}'",
+      "schedule": "Ratiba ya otomatiki imehifadhiwa kwa mafanikio!",
+      "settings": "Mipangilio ya kiotomatiki imehifadhiwa kwa mafanikio!",
+      "add": "Otomatiki imeongezwa kwa mafanikio",
+      "duplicate": "Imefanikiwa kunakili otomatiki"
+    },
+    "disable-tooltip": "Zima otomatiki hii ili kuizuia kufanya kazi bila kuifuta. Unaweza kuiwasha tena baadaye unapoihitaji.",
+    "enable-tooltip": "Washa otomatiki hii ili kuiruhusu ifanye kazi. Unaweza kuizima tena baadaye ikiwa unataka kuisimamisha bila kuifuta."
+  },
+  "metadata": {
+    "title": "Kichwa",
+    "description": "Maelezo",
+    "tags": "Lebo",
+    "tags-help": "Ongeza lebo ili kuwasaidia wengine kugundua otomatiki yako (imetenganishwa kwa koma).",
+    "visibility": "Mwonekano",
+    "commaSeparated": "Ingiza thamani zilizotenganishwa na koma"
+  },
+  "explore": {
+    "title": "Gundua Otomatiki",
+    "search": "Tafuta otomatiki...",
+    "loadMore": "Pakia Zaidi",
+    "loginToExplore": "<1>Login</1> ili kuchunguza otomatiki zilizochapishwa.",
+    "no-published": "Hakuna otomatiki zilizopatikana. Kuwa wa kwanza kuchapisha moja!",
+    "downloads_zero": "Hakuna vipakuliwa",
+    "downloads_one": "Pakua 1",
+    "downloads_other": "Vipakuliwa vya {{count}}",
+    "filter": {
+      "all": "Zote",
+      "mine": "Yangu",
+      "published": "Imechapishwa"
+    },
+    "toast": {
+      "header": "Gundua",
+      "import": "Otomatiki imeingizwa kwa mafanikio!"
+    }
+  },
+  "automationSettings": {
+    "title": "Mipangilio ya Otomatiki",
+    "startType": "Hali ya Kukimbia",
+    "hotkey": "Hotkey",
+    "auto": "Otomatiki",
+    "autoHint": "<b>Automatic</b> — hujiendesha yenyewe kila wakati ukurasa unapopakia. Hakuna hatua inayohitajika kutoka kwako.",
+    "manual": "Mwongozo (Hotkey)",
+    "manualHint": "<b>Manual</b> — inafanya kazi tu unapobonyeza njia ya mkato ya kibodi yako iliyobainishwa.",
+    "loadType": "Muda wa Kupakia Ukurasa",
+    "window": "Baada ya Mzigo Kamili",
+    "windowHint": "<b>Baada ya Mzigo Kamili</b> (Inapendekezwa) — otomatiki huanza baada ya ukurasa mzima ikiwa ni pamoja na picha na hati kumaliza kupakia.",
+    "document": "Kama Ukurasa Unavyopakia",
+    "documentHint": "<b>As Page Loads</b> — otomatiki huanza mara tu muundo wa ukurasa unapokuwa tayari, kabla ya picha na hati kumaliza kupakia. Haraka lakini inaweza kuwa isiyo thabiti kwenye baadhi ya kurasa.",
+    "triggerUrlChange": "Endesha kwenye Usogezaji wa Ukurasa",
+    "triggerUrlChangeHint": "<b>Run kwenye Urambazaji wa Ukurasa</b> — huendesha upya otomatiki wakati anwani ya ukurasa inabadilika bila kupakia upya kamili. Inatumika kwa Gmail, Twitter, na programu zingine za kisasa.",
+    "urlMatch": "Aina ya Ulinganishaji wa URL",
+    "regex": "Ulinganisho wa Mifumo",
+    "exact": "URL halisi",
+    "startTime": "Muda wa Kuanza (Kwa Otomatiki)",
+    "googleSheetsId": "Kitambulisho cha Majedwali ya Google",
+    "bypass": {
+      "title": "Kitendaji Chaguo-msingi cha Kivinjari cha Kupita kwa Hotfunguo",
+      "alert": "Tahadhari",
+      "confirm": "Thibitisha",
+      "prompt": "Prompt"
+    }
+  },
+  "loop": {
+    "title": "Kitanzi",
+    "repeat": "Rudia",
+    "repeatHint": "<b>Repeat</b> itaendesha tena hatua zote bila kupakia upya ukurasa kwa muda uliotolewa.",
+    "repeatInterval": "Muda Kati ya Mizunguko",
+    "repeatIntervalRange": "Muda Kati ya Mizunguko",
+    "refresh": "Onyesha upya",
+    "refreshHint": "<b>Refresh</b> itapakia upya ukurasa mara tu hatua zote zitakapokamilika.",
+    "toast": {
+      "header": "Mipangilio ya Kitanzi",
+      "body": "Mipangilio ya kitanzi imehifadhiwa kwa mafanikio!"
+    }
+  },
+  "error": {
+    "required": "Sehemu hii inahitajika",
+    "number": "Tafadhali weka nambari halali",
+    "integer": "Tafadhali weka nambari halali ya nambari",
+    "positive": "Lazima iwe nambari chanya",
+    "min": "Tafadhali ingiza thamani kubwa kuliko au sawa na {{min}}",
+    "max": "Tafadhali ingiza thamani iliyo chini ya au sawa na {{max}}",
+    "url": "Tafadhali weka URL ya tovuti ili uendelee",
+    "initWait": "Tafadhali weka nambari halali",
+    "scheduleDate": "Tafadhali weka tarehe halali katika muundo huu: 2025-12-01",
+    "scheduleTime": "Tafadhali weka muda halali katika muundo huu: 23:59:59.000",
+    "scheduleRepeat": "Tafadhali weka nambari halali ya mara ngapi ya kurudia",
+    "startTime": "Tafadhali weka muda halali wa kuanza katika muundo huu: 12:12:12.000",
+    "json": "Faili iliyochaguliwa si JSON halali — tafadhali angalia na ujaribu tena",
+    "hotKey": "Tafadhali tumia herufi iliyounganishwa na Ctrl, Alt, au Shift (k.m. Ctrl + A)",
+    "valueExtractor": "Muundo ulioingiza si sahihi — tafadhali angalia na ujaribu tena",
+    "value": "Tafadhali weka thamani ili kuendelea",
+    "condition": "Tafadhali chagua sharti ili uendelee",
+    "elementFinder": "Tafadhali ingiza jinsi ya kupata kipengee kwenye ukurasa",
+    "spreadsheetId": "Tafadhali ingiza Kitambulisho halali cha Majedwali ya Google (herufi 44, k.m. 1J2OcSNJsnYQCcQmA4K9Fhtv8yqvg0NouB--H4B0jsZA)",
+    "roleLock": {
+      "header": "Mpango wa {{plan}} Unahitajika",
+      "body": "Kipengele hiki kinahitaji mpango wa {{plan}}. Tafadhali sasisha ili uendelee."
+    }
+  },
+  "step": {
+    "title": "Hatua",
+    "plural": "Hatua",
+    "step_one": "Hatua 1",
+    "step_other": "Hatua za {{count}}",
+    "add": "Ongeza Hatua",
+    "addBefore": "Ongeza Hatua Juu",
+    "addAfter": "Ongeza Hatua Hapa Chini",
+    "remove": "Ondoa Hatua",
+    "disable": "Zima Hatua",
+    "enable": "Washa Hatua",
+    "initWait": "Kuchelewa",
+    "name": "Jina",
+    "elementFinder": "Lengo",
+    "value": "Thamani",
+    "repeat": "Rudia",
+    "repeatInterval": "Muda",
+    "defaultName": "Kitendo au Hati ya Mtumiaji",
+    "confirm": {
+      "remove": {
+        "title": "Ondoa Hatua",
+        "message": "Una uhakika unataka kuondoa hatua ya [{{name}}]?"
+      }
+    },
+    "toast": {
+      "header": "Hatua",
+      "body": "Hatua imehifadhiwa kwa mafanikio!",
+      "remove": "Hatua imeondolewa kwa mafanikio!",
+      "reorder": "Hatua zimepangwa upya kwa mafanikio!"
+    }
+  },
+  "userscript": {
+    "add": "Ongeza Hati ya Mtumiaji",
+    "confirm": {
+      "remove": {
+        "title": "Ondoa Hati ya Mtumiaji",
+        "message": "Una uhakika unataka kuondoa Hati ya Mtumiaji ya [{{name}}]?"
+      }
+    }
+  },
+  "popover": {
+    "valueExtractor": {
+      "title": "Mifano",
+      "attributeSelector": "Kiteuzi cha Sifa",
+      "regex": "Regex"
+    },
+    "elementFinder": {
+      "getElementBy": "getElementBy",
+      "elementFinder": "Kitafutaji cha Vipengele",
+      "count": "# ya vipengele"
+    },
+    "value": {
+      "plainText": "Maandishi rahisi",
+      "more": "zaidi"
+    },
+    "flags": {
+      "title": "bendera",
+      "global": "Usirudi baada ya mechi ya kwanza",
+      "multiLine": "^ na $ ilingane na mwanzo/mwisho wa mstari",
+      "insensitive": "Puuza herufi",
+      "extended": "Puuza nafasi nyeupe",
+      "singleLine": "Nukta inalingana na mstari mpya"
+    },
+    "hotkey": {
+      "title": "Hotkey",
+      "content": "Bonyeza kitufe cha moto kwenye kibodi ili kuandika kiotomatiki kwenye sehemu",
+      "hint": "Herufi moja bila <kbd>Ctrl</kbd> , <kbd>Alt</kbd> au <kbd>Shift</kbd> si halali"
+    }
+  },
+  "common": {
+    "appName": "Kibofya Kiotomatiki - Kujaza Kiotomatiki",
+    "file": "Faili",
+    "error": "Hitilafu",
+    "save": "Hifadhi",
+    "clear": "Futa",
+    "cancel": "Ghairi",
+    "close": "Funga",
+    "download": "Pakua",
+    "loading": "Inapakia...",
+    "disabled": "Imezimwa",
+    "remove": "Ondoa",
+    "edit": "Hariri",
+    "enable": "Washa",
+    "disable": "Zima",
+    "duplicate": "Nakala",
+    "sec": "sekunde",
+    "min": "dakika",
+    "no": "Hapana",
+    "yes": "Ndiyo",
+    "local": "MTAA",
+    "dev": "DEV",
+    "stable": "Imara",
+    "examples": "Mifano",
+    "add": "Ongeza",
+    "confirm": "Thibitisha"
+  },
+  "languages": {
+    "title": "Lugha",
+    "en": "Kiingereza",
+    "fr": "Kifaransa",
+    "ko": "Kikorea",
+    "ca": "Kikatalani",
+    "hi": "Kihindi",
+    "zh_CN": "Kichina (Kilichorahisishwa)",
+    "zh_TW": "Kichina (Cha Jadi)",
+    "sv": "Kiswidi",
+    "pt": "Kireno",
+    "ja": "Kijapani",
+    "nl": "Kiholanzi",
+    "de": "Kijerumani",
+    "es": "Kihispania",
+    "vi": "Kivietnam",
+    "fi": "Kifini",
+    "ar": "Kiarabu",
+    "it": "Kiitaliano",
+    "ru": "Kirusi",
+    "id": "Kiindonesia"
+  },
+  "monitor": {
+    "title": "Ufuatiliaji",
+    "enabled": "Washa Ufuatiliaji",
+    "enabledHint": "Endesha vitendo kiotomatiki wakati vipengele vipya vinavyolingana vinaongezwa kwenye ukurasa (k.m., kwa ajili ya kusogeza bila kikomo, maudhui yasiyosawazishwa)",
+    "rootSelector": "Kifuatiliaji cha Mizizi",
+    "rootSelectorPlaceholder": "body",
+    "rootSelectorHint": "Kiteuzi cha CSS cha chombo cha kutazama",
+    "watchAttributes": "Sifa za Kifuatiliaji",
+    "attributesPlaceholder": "style, class, hidden",
+    "attributesHint": "Orodha ya sifa za kuchunguza kwa mabadiliko zilizotenganishwa kwa koma",
+    "debounce": "Debounce",
+    "debounceHint": "Chelewesha kabla ya kusindika vipengele vipya (sekunde 1-5)",
+    "timeout": "Muda kuisha",
+    "timeoutHint": "Zima kiotomatiki baada ya dakika N (1-180)",
+    "urlChange": "Acha wakati wa Kubadilisha URL",
+    "urlChangeHint": "Acha kutazama kiotomatiki URL ya ukurasa inapobadilika",
+    "toast": {
+      "header": "Ufuatiliaji",
+      "body": "Kifuatiliaji kimehifadhiwa kwa mafanikio!"
+    }
+  },
+  "home": {
+    "title": "Karibu kwenye Auto Clicker - AutoFill",
+    "subtitle": "Boresha mibofyo na ujazaji wa fomu kiotomatiki kwenye tovuti yoyote kwa kufafanua malengo na vitendo.",
+    "quickStart": {
+      "title": "Mwongozo wa Kuanza Haraka",
+      "step1": {
+        "title": "1. Sakinisha Kiendelezi",
+        "desc": "Pakua na usakinishe kiendelezi kutoka Duka la Wavuti la Chrome au Viongezeo vya Edge."
+      },
+      "step2": {
+        "title": "2. Sanidi Ukurasa Lengwa",
+        "desc": "Fungua ukurasa wa wavuti, bofya kulia kwenye kipengele chochote na uchague Kibofya Kiotomatiki - Kiotomatiki → Sanidi kwa Sehemu hii."
+      },
+      "step3": {
+        "title": "3. Hifadhi na Uendeshe",
+        "desc": "Hifadhi usanidi wako na upakie upya ukurasa lengwa. Otomatiki huendesha kiotomatiki."
+      }
+    },
+    "tips": {
+      "title": "Vidokezo Muhimu",
+      "tip1": {
+        "title": "Jaribu kwenye Ukurasa wa Jaribio",
+        "desc": "Fungua test.getautoclicker.com, ongeza vitendo viwili — kimoja kujaza sehemu ya jina la mtumiaji na kimoja kubofya kitufe — kisha hifadhi na uiendeshe."
+      },
+      "tip2": {
+        "title": "Lenga Vitu kwa Usahihi",
+        "desc": "Tumia njia za vipengele kulenga vipengee maalum kwenye ukurasa, kama vile //input[@name=\"username\"], kwa otomatiki inayoaminika zaidi."
+      },
+      "tip3": {
+        "title": "Shughulikia Upakiaji wa Ukurasa Polepole",
+        "desc": "Weka \"Subiri Kabla ya Kuanza\" kwenye otomatiki yako ikiwa ukurasa utapakia polepole kabla ya hatua zako kuanza."
+      },
+      "tip4": {
+        "title": "Mipangilio ya Kimataifa na Vitufe vya Moto",
+        "desc": "Sanidi hali ya kuanza, fafanua njia ya mkato ya kibodi, na urekebishe nafasi ya upau wa hali katika Mipangilio ya Jumla."
+      },
+      "tip5": {
+        "title": "Bonyeza kulia ili Kukamata Kiotomatiki",
+        "desc": "Bofya kulia kitufe chochote cha kuingiza data au kitufe kwenye ukurasa na uchague Sanidi kwa Sehemu hii ili kujaza kiotomatiki URL na Kitafuta Vipengele."
+      }
+    },
+    "videos": {
+      "title": "Miongozo ya Video",
+      "video1": {
+        "title": "Kibofya Kiotomatiki Kijaza Kiotomatiki - Muhtasari Kamili"
+      },
+      "video2": {
+        "title": "Kuanza na Kibofya Kiotomatiki Kinachojaza Kiotomatiki"
+      },
+      "video3": {
+        "title": "Jaza Fomu Kiotomatiki"
+      },
+      "video4": {
+        "title": "Vitufe vya Kubofya Kiotomatiki"
+      },
+      "video5": {
+        "title": "Vidokezo vya Usanidi wa Kina"
+      }
+    }
+  },
+  "conflictModal": {
+    "title": "Mgogoro wa Usanidi",
+    "conflicts": "migogoro",
+    "of": "ya",
+    "description": "Tafadhali chagua jinsi ya kutatua mgogoro huu.",
+    "existing": "Zilizopo (Kabla)",
+    "incoming": "Inayoingia (Baada)",
+    "skip": "Ruka",
+    "createNew": "Unda Mpya",
+    "overwrite": "Andika zaidi"
+  }
+}

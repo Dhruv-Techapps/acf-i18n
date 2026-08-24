@@ -15,37 +15,37 @@
     "message": "自動點擊器 - 自動填充"
   },
   "EXT_DESCRIPTION": {
-    "message": "自動填寫輸入欄位或自動點擊按鈕或連結任何地方。您可以設定並檢查點擊速度測試"
+    "message": "自動填入輸入欄位、自動點擊按鈕或連結到任何位置的任何內容。您可以設定並檢查點擊速度測試。"
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
-    "message": "ACF 備份"
+    "message": "ACF備份"
   },
   "@ACF_BACKUP__NOTIFICATION_BACKUP": {
-    "message": "設定已備份至 Google Drive ($1)"
+    "message": "設定資訊備份在 Google 雲端硬碟 $1 上。"
   },
   "@ACF_BACKUP__NOTIFICATION_RESTORE": {
-    "message": "設定已從 Google Drive 還原。請重新整理設定頁面以載入內容。"
+    "message": "配置已從 Google 雲端硬碟恢復。請刷新配置頁面以載入內容。"
   },
   "@ACF_BACKUP__ERROR_NO_CONFIG": {
-    "message": "沒有找到可備份的設定"
+    "message": "未找到要備份的配置"
   },
   "@ACF_BACKUP__ERROR_NO_CONTENT": {
-    "message": "檔案中沒有任何內容"
+    "message": "文件中未找到內容"
   },
   "@PORT__ACTION_NOT_FOUND": {
-    "message": "未設定"
+    "message": "未配置"
   },
   "@PORT__METHOD_NOT_FOUND": {
-    "message": "未找到指定的方法"
+    "message": "未找到處理方法"
   },
   "@CONTEXT_MENU__FIELD": {
-    "message": "★ 為此欄位設定"
+    "message": "⊕ 為此字段配置"
   },
   "@CONTEXT_MENU__FIELD_POSITION": {
     "message": "⌖ 按位置配置"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ 側板/☉ 記錄"
+    "message": "▤ 側面板 / ☉ 錄製"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ 問問人工智慧"
@@ -123,10 +123,10 @@
     "message": "↗ 開啟設定頁面"
   },
   "@TABS__TITLE": {
-    "message": "分頁"
+    "message": "標籤頁"
   },
   "@TABS__ERROR": {
-    "message": "無法找到指定的分頁或分頁 ID。"
+    "message": "無法找到指定的標籤頁或標籤頁 ID。"
   },
   "@ACTION__TITLE": {
     "message": "步驟"
@@ -135,10 +135,10 @@
     "message": "使用者腳本"
   },
   "@ACTION__NO_NAME": {
-    "message": "動作名稱不存在"
+    "message": "無名氏"
   },
   "@ADDON__TITLE": {
-    "message": "附加元件"
+    "message": "添加在"
   },
   "@ACTION_CONDITION__TITLE": {
     "message": "動作條件"
@@ -150,58 +150,58 @@
     "message": "自動化"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
-    "message": "元素查找器是空白的"
+    "message": "元素查找器為空"
   },
   "@ERROR__NO_MATCH": {
-    "message": "條件不匹配。"
+    "message": "條件不符。"
   },
   "@ERROR__WRONG_TITLE": {
-    "message": "不正確的比較"
+    "message": "比較錯誤"
   },
   "@ERROR__WRONG_DESCRIPTION": {
-    "message": "大於或少於運算子只能比較數字"
+    "message": "大於或小於運算子只能比較數字"
   },
   "@ERROR__ELEMENT_FINDER_TITLE": {
-    "message": "錯誤的元素查找器或外掛條件"
+    "message": "元素查找器或外掛條件不正確"
   },
   "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
-    "message": "元素查找器應針對核取方塊"
+    "message": "元素查找器應該定位到複選框"
   },
   "@ERROR__INVALID_ELEMENT_FINDER": {
     "message": "無效元素查找器"
   },
   "@ERROR__NOT_FOUND_STOP": {
-    "message": "找不到 - 停止"
+    "message": "未找到 - 停止"
   },
   "@ERROR__NOT_FOUND_RELOAD": {
-    "message": "找不到 - 重新載入"
+    "message": "未找到 - 重新加載"
   },
   "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
-    "message": "未找到 Goto 的動作"
+    "message": "未找到“轉到”操作"
   },
   "@ERROR__NO_ELEMENT_FOUND": {
-    "message": "使用給定的選擇器未找到元素"
+    "message": "未找到具有給定選擇器的元素"
   },
   "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
-    "message": "請造訪設定頁面來審查和更新動作條件，以確保設定正確更新。"
+    "message": "請造訪設定頁面，查看並更新操作條件，以確保設定已正確更新。"
   },
   "@CONDITION_SATISFIED": {
     "message": "條件滿足"
   },
   "@CONDITION_NOT_SATISFIED": {
-    "message": "條件不滿足"
+    "message": "條件未滿足"
   },
   "@ERROR": {
     "message": "錯誤"
   },
   "@SCHEDULE": {
-    "message": "排程"
+    "message": "行程"
   },
   "@REPEAT": {
     "message": "重複"
   },
   "@COMPLETED": {
-    "message": "完成"
+    "message": "完全的"
   },
   "@DEFAULT": {
     "message": "預設"
@@ -210,7 +210,7 @@
     "message": "等待"
   },
   "@DISABLED": {
-    "message": "停用"
+    "message": "已停用"
   },
   "@RESULT": {
     "message": "結果"
@@ -234,7 +234,7 @@
     "message": "聊天"
   },
   "@ADVANCE": {
-    "message": "進階"
+    "message": "進步"
   },
   "@SPONSOR": {
     "message": "贊助"
@@ -243,6 +243,6 @@
     "message": "需要訂閱"
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "您需要訂閱$1會員才能使用$2功能。"
+    "message": "您需要訂閱 $1 才能使用 $2 功能。"
   }
 }

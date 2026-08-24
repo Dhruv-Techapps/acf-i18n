@@ -1,33 +1,33 @@
 {
   "EXT_NAME": {
-    "message": "Clicker automatico: riempimento automatico"
+    "message": "Auto Clicker - AutoFill"
   },
   "EXT_NAME_DEV": {
-    "message": "Clicker automatico - Compilazione automatica [DEV]"
+    "message": "Auto Clicker - AutoFill [DEV]"
   },
   "EXT_NAME_BETA": {
-    "message": "Clicker automatico - Compilazione automatica [BETA]"
+    "message": "Auto Clicker - AutoFill [BETA]"
   },
   "EXT_NAME_LOCAL": {
-    "message": "Clicker automatico - Compilazione automatica [LOCALE]"
+    "message": "Auto Clicker - AutoFill [LOCAL]"
   },
   "EXT_SHORT_NAME": {
-    "message": "Compilazione automatica"
+    "message": "Auto Clicker - AutoFill"
   },
   "EXT_DESCRIPTION": {
-    "message": "Compila automaticamente il campo di input o il pulsante di clic automatico o collega qualsiasi cosa ovunque. Puoi configurare e controllare il test della velocità di clic"
+    "message": "Riempimento automatico del campo di input, clic automatico su un pulsante o un collegamento, qualsiasi elemento ovunque. È possibile configurare e verificare la velocità di clic."
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
     "message": "Backup ACF"
   },
   "@ACF_BACKUP__NOTIFICATION_BACKUP": {
-    "message": "Le configurazioni vengono salvate su Google Drive all'indirizzo $1"
+    "message": "Le configurazioni sono salvate su Google Drive all'indirizzo $1"
   },
   "@ACF_BACKUP__NOTIFICATION_RESTORE": {
     "message": "Le configurazioni vengono ripristinate da Google Drive. Aggiorna la pagina delle configurazioni per caricare il contenuto."
   },
   "@ACF_BACKUP__ERROR_NO_CONFIG": {
-    "message": "Nessuna configurazione trovata per il backup"
+    "message": "Nessuna configurazione trovata da sottoporre a backup"
   },
   "@ACF_BACKUP__ERROR_NO_CONTENT": {
     "message": "Nessun contenuto trovato nel file"
@@ -36,16 +36,16 @@
     "message": "non è configurato"
   },
   "@PORT__METHOD_NOT_FOUND": {
-    "message": "il metodo di elaborazione non è stato trovato"
+    "message": "Il metodo di processo non è stato trovato"
   },
   "@CONTEXT_MENU__FIELD": {
-    "message": "★ Configura per questo campo"
+    "message": "⊕ Configura per questo campo"
   },
   "@CONTEXT_MENU__FIELD_POSITION": {
     "message": "⌖ Configura per posizione"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Pannello laterale/☉ Record"
+    "message": "▤ Pannello laterale / ☉ Registrazione"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Chiedi all'IA"
@@ -72,19 +72,19 @@
     "message": "Accedi per fare una domanda."
   },
   "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
-    "message": "Registrazione"
+    "message": "Accedi"
   },
   "@SIDE_PANEL__ASK_ERROR": {
     "message": "Impossibile ottenere una risposta. Riprova."
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
-    "message": "Seleziona l'elemento o gli elementi"
+    "message": "Selezionare gli elementi"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
     "message": "Seleziona un altro elemento"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
-    "message": "Fai clic sugli elementi della pagina… (fai clic per interrompere)"
+    "message": "Fai clic sugli elementi della pagina... (fai clic per interrompere)"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
     "message": "Rimuovere"
@@ -126,7 +126,7 @@
     "message": "Schede"
   },
   "@TABS__ERROR": {
-    "message": "Impossibile individuare la scheda o l'ID scheda specificata."
+    "message": "Impossibile individuare la scheda o l'ID della scheda specificati."
   },
   "@ACTION__TITLE": {
     "message": "Passaggio"
@@ -150,7 +150,7 @@
     "message": "Automazione"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
-    "message": "Trova elemento è vuoto"
+    "message": "Il Cerca-elementi è vuoto"
   },
   "@ERROR__NO_MATCH": {
     "message": "la condizione non corrispondeva."
@@ -159,16 +159,16 @@
     "message": "Confronto errato"
   },
   "@ERROR__WRONG_DESCRIPTION": {
-    "message": "Maggiore o minore di gli operatori possono confrontare solo numeri"
+    "message": "Gli operatori maggiore o minore possono confrontare solo i numeri"
   },
   "@ERROR__ELEMENT_FINDER_TITLE": {
-    "message": "Ricerca elemento o condizione aggiuntiva errata"
+    "message": "Condizione errata del cercatore di elementi o del componente aggiuntivo"
   },
   "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
-    "message": "Element Finder dovrebbe indirizzare una casella di controllo"
+    "message": "Il cercatore di elementi dovrebbe puntare a una casella di controllo"
   },
   "@ERROR__INVALID_ELEMENT_FINDER": {
-    "message": "Ricerca elementi non valida"
+    "message": "Rilevatore di elementi non valido"
   },
   "@ERROR__NOT_FOUND_STOP": {
     "message": "Non trovato - STOP"
@@ -177,16 +177,16 @@
     "message": "Non trovato - RICARICA"
   },
   "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
-    "message": "Azione non trovata per Goto"
+    "message": "Azione non trovata per Vai a"
   },
   "@ERROR__NO_ELEMENT_FOUND": {
     "message": "Nessun elemento trovato con il selettore specificato"
   },
   "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
-    "message": "Visitare la pagina di configurazione per rivedere e aggiornare la Condizione azione per garantire che la configurazione sia aggiornata correttamente."
+    "message": "Si prega di visitare la pagina di configurazione per rivedere e aggiornare la Condizione di azione, in modo da garantire che la configurazione sia aggiornata correttamente."
   },
   "@CONDITION_SATISFIED": {
-    "message": "Condizione Soddisfatta"
+    "message": "Condizione soddisfatta"
   },
   "@CONDITION_NOT_SATISFIED": {
     "message": "Condizione non soddisfatta"
@@ -225,7 +225,7 @@
     "message": "Confrontare"
   },
   "@RECHECK_OPTION": {
-    "message": "RicontrollaOpzione"
+    "message": "Opzione di ricontrollo"
   },
   "@DOCS": {
     "message": "Documenti"
@@ -234,7 +234,7 @@
     "message": "Chiacchierata"
   },
   "@ADVANCE": {
-    "message": "Avanzare"
+    "message": "Anticipo"
   },
   "@SPONSOR": {
     "message": "Sponsor"

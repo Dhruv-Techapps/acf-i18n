@@ -1,51 +1,51 @@
 {
   "EXT_NAME": {
-    "message": "Auto Clicker - Automaattinen täyttö"
+    "message": "Automaattinen napsauttaja - Automaattinen täyttö"
   },
   "EXT_NAME_DEV": {
-    "message": "Auto Clicker - Automaattinen täyttö [DEV]"
+    "message": "Automaattinen napsauttaja - Automaattinen täyttö [DEV]"
   },
   "EXT_NAME_BETA": {
-    "message": "Automaattinen napsautuslaite – automaattinen täyttö [BETA]"
+    "message": "Automaattinen napsauttaja - Automaattinen täyttö [BETA]"
   },
   "EXT_NAME_LOCAL": {
-    "message": "Auto Clicker – automaattinen täyttö [PAIKALLINEN]"
+    "message": "Automaattinen napsauttaja - Automaattinen täyttö [PAIKALLINEN]"
   },
   "EXT_SHORT_NAME": {
-    "message": "Automaattinen täyttö"
+    "message": "Automaattinen napsauttaja - Automaattinen täyttö"
   },
   "EXT_DESCRIPTION": {
-    "message": "Automaattisen täytön syöttökenttä tai automaattinen napsautuspainike tai linkitä mihin tahansa. Voit määrittää ja tarkistaa napsautusnopeustestin"
+    "message": "Täytä syöttökenttä automaattisesti tai napsauta painiketta tai linkitä mitä tahansa missä tahansa. Voit määrittää ja tarkistaa napsautusnopeustestin"
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
     "message": "ACF-varmuuskopio"
   },
   "@ACF_BACKUP__NOTIFICATION_BACKUP": {
-    "message": "Määritykset varmuuskopioidaan Google Driveen osoitteessa $1"
+    "message": "Määritykset ovat varmuuskopioituina Google Drivessa osoitteessa $1"
   },
   "@ACF_BACKUP__NOTIFICATION_RESTORE": {
-    "message": "Määritykset palautetaan Google Drivesta. Päivitä asetussivu ladataksesi sisältöä."
+    "message": "Määritykset on palautettu Google Drivesta. Päivitä määrityssivu ladataksesi sisällön."
   },
   "@ACF_BACKUP__ERROR_NO_CONFIG": {
-    "message": "Varmuuskopioitavia määrityksiä ei löytynyt"
+    "message": "Varmuuskopioitavia asetuksia ei löytynyt"
   },
   "@ACF_BACKUP__ERROR_NO_CONTENT": {
-    "message": "Tiedostosta ei löydy sisältöä"
+    "message": "Tiedostosta ei löytynyt sisältöä"
   },
   "@PORT__ACTION_NOT_FOUND": {
-    "message": "ei ole määritetty"
+    "message": "ei ole konfiguroitu"
   },
   "@PORT__METHOD_NOT_FOUND": {
     "message": "prosessimenetelmää ei löydy"
   },
   "@CONTEXT_MENU__FIELD": {
-    "message": "★ Määritä tälle kentälle"
+    "message": "⊕ Määritä tälle kentälle"
   },
   "@CONTEXT_MENU__FIELD_POSITION": {
     "message": "⌖ Määritä sijainnin mukaan"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Sivupaneeli/☉ Äänitys"
+    "message": "▤ Sivupaneeli / ☉ Tallennus"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Kysy tekoälältä"
@@ -78,13 +78,13 @@
     "message": "Ei vastausta. Yritä uudelleen."
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
-    "message": "Valitse elementti(t)"
+    "message": "Valitse elementit"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
     "message": "Valitse toinen elementti"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
-    "message": "Napsauta sivun elementtejä… (napsauta pysäyttääksesi)"
+    "message": "Napsauta sivun elementtejä... (napsauta pysäyttääksesi)"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
     "message": "Poistaa"
@@ -120,7 +120,7 @@
     "message": "Muokkaa automatisointia"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
-    "message": "↗ Avaa määrityssivu"
+    "message": "↗ Avaa asetussivu"
   },
   "@TABS__TITLE": {
     "message": "Välilehdet"
@@ -135,13 +135,13 @@
     "message": "Käyttäjän skripti"
   },
   "@ACTION__NO_NAME": {
-    "message": "ei nimeä"
+    "message": "nimetön"
   },
   "@ADDON__TITLE": {
     "message": "Lisäosa"
   },
   "@ACTION_CONDITION__TITLE": {
-    "message": "Toiminto kunto"
+    "message": "Toimintoehto"
   },
   "@BATCH__TITLE": {
     "message": "Silmukka"
@@ -150,46 +150,46 @@
     "message": "Automaatio"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
-    "message": "Element Finder on tyhjä"
+    "message": "Elementtien etsintä on tyhjä"
   },
   "@ERROR__NO_MATCH": {
-    "message": "kunto ei vastannut."
+    "message": "ehto ei vastannut."
   },
   "@ERROR__WRONG_TITLE": {
-    "message": "Väärä vertailu"
+    "message": "Virheellinen vertailu"
   },
   "@ERROR__WRONG_DESCRIPTION": {
-    "message": "Suurempi tai pienempi kuin operaattorit voivat verrata vain numeroita"
+    "message": "Suurempi kuin- tai pienempi kuin -operaattorit voivat vertailla vain lukuja"
   },
   "@ERROR__ELEMENT_FINDER_TITLE": {
-    "message": "Väärä elementtietsin tai lisäosan kunto"
+    "message": "Virheellinen elementtien etsintä tai lisäosan ehto"
   },
   "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
-    "message": "Element Finderin tulisi kohdistaa valintaruutuun"
+    "message": "Elementtihaun tulisi kohdistua valintaruutuun"
   },
   "@ERROR__INVALID_ELEMENT_FINDER": {
-    "message": "Virheellinen elementtihaku"
+    "message": "Virheellisten elementtien etsintä"
   },
   "@ERROR__NOT_FOUND_STOP": {
-    "message": "Ei löydy - STOP"
+    "message": "Ei löytynyt - STOP"
   },
   "@ERROR__NOT_FOUND_RELOAD": {
-    "message": "Ei löydy - LATAA UUDELLEEN"
+    "message": "Ei löytynyt - LATAA UUDESTAAN"
   },
   "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
-    "message": "Toimintoa ei löytynyt Gotolle"
+    "message": "Goto-toiminnolle ei löytynyt toimintoa"
   },
   "@ERROR__NO_ELEMENT_FOUND": {
     "message": "Annetulla valitsimella ei löytynyt elementtiä"
   },
   "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
-    "message": "Käy määrityssivulla tarkistaaksesi ja päivittääksesi Action Condition varmistaaksesi, että kokoonpano on päivitetty oikein."
+    "message": "Käy määrityssivulla tarkistaaksesi ja päivittääksesi toimintoehdon varmistaaksesi, että määritys on päivitetty oikein."
   },
   "@CONDITION_SATISFIED": {
-    "message": "Kunto Tyytyväinen"
+    "message": "Kunto Tyydyttävä"
   },
   "@CONDITION_NOT_SATISFIED": {
-    "message": "Kunto Ei tyytyväinen"
+    "message": "Kunto ei tyydyttävä"
   },
   "@ERROR": {
     "message": "Virhe"
@@ -204,31 +204,31 @@
     "message": "Valmis"
   },
   "@DEFAULT": {
-    "message": "oletuksena"
+    "message": "oletusarvo"
   },
   "@WAIT": {
-    "message": "odota"
+    "message": "Odota"
   },
   "@DISABLED": {
-    "message": "Liikuntarajoitteinen"
+    "message": "Poistettu käytöstä"
   },
   "@RESULT": {
     "message": "Tulos"
   },
   "@GOTO": {
-    "message": "Mene"
+    "message": "Siirry"
   },
   "@RECHECK": {
     "message": "tarkista uudelleen"
   },
   "@COMPARE": {
-    "message": "Vertailla"
+    "message": "Vertaa"
   },
   "@RECHECK_OPTION": {
-    "message": "Tarkista vaihtoehto uudelleen"
+    "message": "Tarkista uudelleen -vaihtoehto"
   },
   "@DOCS": {
-    "message": "Asiakirjat"
+    "message": "Dokumentit"
   },
   "@CHAT": {
     "message": "Chat"

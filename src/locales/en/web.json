@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Notification on Discord",
-    "loginRequired": "Please <1>Login</1> to your account before connecting with Discord."
+    "loginRequired": "<1>Log in</1> to your account before connecting with Discord."
   },
   "checkIFrames": {
     "title": "Search Inside Embedded Pages",
@@ -110,7 +110,7 @@
     "weekly": "Weekly",
     "monthly": "Monthly",
     "off": "Off",
-    "loginRequired": "Please <1>Login</1> to your account before connecting with Google Drive.",
+    "loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
     "checkingAccess": "Checking Google Drive access...",
     "connect": "Connect with Google Drive",
     "connected": "Google Drive Backup",
@@ -190,7 +190,7 @@
   "stateGuard": {
     "action": "Previous Step",
     "status": "Result",
-    "title": "State Guard",
+    "title": "Condition Guard",
     "add": "Add Condition",
     "info": "Set a rule to control whether this step should run, based on what happened in the previous steps.",
     "stop": "Stop Automation",
@@ -200,8 +200,8 @@
     "proceed": "Run This Step Anyway",
     "hint": "What should happen if the rule is not met?",
     "toast": {
-      "header": "State Guard",
-      "body": "State guard saved successfully!"
+      "header": "Condition Guard",
+      "body": "Condition guard saved successfully!"
     }
   },
   "pageGuard": {
@@ -261,7 +261,7 @@
     "cadence": {
       "monthly": "Monthly",
       "yearly": "Yearly",
-      "savingsBadge": "Save 10%"
+      "savingsBadge": "2 months free"
     },
     "free": {
       "name": "🆓 FREE",
@@ -340,7 +340,7 @@
       "title": "Use Stable Versions for Google Sheets Features.",
       "message": "For best results, use the <1>Stable</1> version of Google Sheets features. Stable versions are thoroughly tested to ensure reliable performance, helping you avoid unexpected issues. If you need help, feel free to reach out for support."
     },
-    "loginRequired": "Please <1>Login</1> to your account before connecting with Google Sheets.",
+    "loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "connect": "Connect with Google Sheets",
     "connected": "Connected with Google Sheets"
   },
@@ -464,7 +464,7 @@
     "title": "Explore Automations",
     "search": "Search automations...",
     "loadMore": "Load More",
-    "loginToExplore": "Please <1>Login</1> to explore published automations.",
+    "loginToExplore": "<1>Log in</1> to explore published automations.",
     "no-published": "No automations found. Be the first to publish one!",
     "downloads_zero": "No downloads",
     "downloads_one": "1 Download",
@@ -603,7 +603,7 @@
       "title": "flags",
       "global": "Don't return after first match",
       "multiLine": "^ and $ match start/end of line",
-      "insensitive": "Case insensitive match",
+      "insensitive": "Ignore letter case",
       "extended": "Ignore whitespace",
       "singleLine": "Dot matches newline"
     },

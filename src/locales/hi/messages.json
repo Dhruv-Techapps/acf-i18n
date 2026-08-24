@@ -1,0 +1,248 @@
+{
+  "EXT_NAME": {
+    "message": "ऑटो क्लिकर - ऑटोफिल"
+  },
+  "EXT_NAME_DEV": {
+    "message": "ऑटो क्लिकर - ऑटोफिल [डेवलपर]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "ऑटो क्लिकर - ऑटोफिल [बीटा]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "ऑटो क्लिकर - ऑटोफिल [स्थानीय]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "ऑटो क्लिकर - ऑटोफिल"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "इनपुट फ़ील्ड को ऑटोफ़िल करें, बटन पर ऑटो क्लिक करें या लिंक पर क्लिक करें, कहीं भी। आप क्लिक स्पीड टेस्ट को कॉन्फ़िगर और चेक कर सकते हैं।"
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "एसीएफ बैकअप"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "कॉन्फ़िगरेशन का बैकअप Google ड्राइव पर $1 पर उपलब्ध है।"
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "कॉन्फ़िगरेशन Google ड्राइव से पुनर्स्थापित किए जाते हैं। सामग्री लोड करने के लिए कॉन्फ़िगरेशन पृष्ठ को रीफ़्रेश करें।"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "बैकअप लेने के लिए कोई कॉन्फ़िगरेशन नहीं मिला"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "फ़ाइल में कोई सामग्री नहीं मिली"
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "कॉन्फ़िगर नहीं किया गया है"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "प्रक्रिया विधि नहीं मिली"
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "⊕ इस फ़ील्ड के लिए कॉन्फ़िगर करें"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ स्थिति के अनुसार कॉन्फ़िगर करें"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ साइड पैनल / ☉ रिकॉर्डिंग"
+  },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ एआई से पूछें"
+  },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "स्वचालन"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "रिकॉर्डिंग"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "पूछना"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "एक प्रश्न पूछें, उदाहरण के लिए, \"लूप क्या है?\""
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "भेजना"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "सूत्रों का कहना है"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "प्रश्न पूछने के लिए लॉग इन करें।"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "दाखिल करना"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "कोई जवाब नहीं मिला। कृपया दोबारा कोशिश करें।"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
+    "message": "तत्वों का चयन करें"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
+    "message": "कोई दूसरा तत्व चुनें"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
+    "message": "पेज पर मौजूद तत्वों पर क्लिक करें... (रोकने के लिए क्लिक करें)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
+    "message": "निकालना"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "खोज"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "मेल खाने वाले"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "अन्य"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "रिकॉर्डिंग शुरू करें"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "रिकॉर्डिंग बंद करें"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "फॉर्म भरना शुरू करें..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "यदि आपने पहले ही फॉर्म भर दिया है"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "पहले से भरा हुआ है?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "क्लिक"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "संपादन स्वचालन"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ कॉन्फ़िगरेशन पृष्ठ खोलें"
+  },
+  "@TABS__TITLE": {
+    "message": "टैब"
+  },
+  "@TABS__ERROR": {
+    "message": "निर्दिष्ट टैब या टैब आईडी का पता लगाने में असमर्थ।"
+  },
+  "@ACTION__TITLE": {
+    "message": "चरण"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "उपयोगकर्ता स्क्रिप्ट"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "कोई नाम नहीं"
+  },
+  "@ADDON__TITLE": {
+    "message": "ऐड ऑन"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "क्रिया की स्थिति"
+  },
+  "@BATCH__TITLE": {
+    "message": "लूप"
+  },
+  "@CONFIG__TITLE": {
+    "message": "स्वचालन"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "एलिमेंट फाइंडर खाली है"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "स्थिति मेल नहीं खाती।"
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "गलत तुलना"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "ग्रेटर दैन या लेस दैन ऑपरेटर केवल संख्याओं की तुलना कर सकते हैं।"
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "गलत एलिमेंट फाइंडर या ऐडऑन कंडीशन"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "एलिमेंट फाइंडर को एक चेकबॉक्स को लक्षित करना चाहिए।"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "अमान्य तत्व खोजक"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "नहीं मिला - रुकें"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "नहीं मिला - पुनः लोड करें"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "Goto के लिए कोई कार्रवाई नहीं मिली"
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "दिए गए चयनकर्ता के साथ कोई तत्व नहीं मिला"
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "कृपया कॉन्फ़िगरेशन पृष्ठ पर जाकर एक्शन कंडीशन की समीक्षा करें और उसे अपडेट करें ताकि यह सुनिश्चित हो सके कि कॉन्फ़िगरेशन सही ढंग से अपडेट हो गया है।"
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "शर्तें पूरी हुईं"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "शर्त पूरी नहीं हुई"
+  },
+  "@ERROR": {
+    "message": "गलती"
+  },
+  "@SCHEDULE": {
+    "message": "अनुसूची"
+  },
+  "@REPEAT": {
+    "message": "दोहराना"
+  },
+  "@COMPLETED": {
+    "message": "पुरा होना।"
+  },
+  "@DEFAULT": {
+    "message": "डिफ़ॉल्ट"
+  },
+  "@WAIT": {
+    "message": "इंतज़ार"
+  },
+  "@DISABLED": {
+    "message": "अक्षम"
+  },
+  "@RESULT": {
+    "message": "परिणाम"
+  },
+  "@GOTO": {
+    "message": "जाओ"
+  },
+  "@RECHECK": {
+    "message": "पुनः जांच करें"
+  },
+  "@COMPARE": {
+    "message": "तुलना करना"
+  },
+  "@RECHECK_OPTION": {
+    "message": "पुनःजांचविकल्प"
+  },
+  "@DOCS": {
+    "message": "डॉक्स"
+  },
+  "@CHAT": {
+    "message": "बात करना"
+  },
+  "@ADVANCE": {
+    "message": "अग्रिम"
+  },
+  "@SPONSOR": {
+    "message": "प्रायोजक"
+  },
+  "@SUBSCRIPTION__REQUIRED": {
+    "message": "सदस्यता आवश्यक है"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "$2 फ़ीचर का उपयोग करने के लिए आपके पास $1 की सदस्यता होनी चाहिए।"
+  }
+}

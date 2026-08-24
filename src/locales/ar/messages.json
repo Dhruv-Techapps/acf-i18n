@@ -1,51 +1,51 @@
 {
   "EXT_NAME": {
-    "message": "الفرس التلقائي - الملء التلقائي"
+    "message": "النقر التلقائي - التعبئة التلقائية"
   },
   "EXT_NAME_DEV": {
-    "message": "أداة النقر التلقائي - الملء التلقائي [DEV]"
+    "message": "برنامج النقر التلقائي - التعبئة التلقائية [للمطورين]"
   },
   "EXT_NAME_BETA": {
-    "message": "أداة النقر التلقائي - الملء التلقائي [تجريبي]"
+    "message": "برنامج النقر التلقائي - التعبئة التلقائية [تجريبي]"
   },
   "EXT_NAME_LOCAL": {
-    "message": "أداة النقر التلقائي - الملء التلقائي [محلي]"
+    "message": "برنامج النقر التلقائي - التعبئة التلقائية [محلي]"
   },
   "EXT_SHORT_NAME": {
-    "message": "التعبئة التلقائية"
+    "message": "النقر التلقائي - التعبئة التلقائية"
   },
   "EXT_DESCRIPTION": {
-    "message": "حقل إدخال الملء التلقائي أو زر النقر التلقائي أو ربط أي شيء في أي مكان. يمكنك تكوين اختبار سرعة النقر والتحقق منه"
+    "message": "يمكنك ملء حقول الإدخال تلقائيًا أو النقر على الأزرار أو الروابط تلقائيًا في أي مكان. كما يمكنك ضبط سرعة النقر والتحقق منها."
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
-    "message": "النسخ الاحتياطي ACF"
+    "message": "نسخة احتياطية من ACF"
   },
   "@ACF_BACKUP__NOTIFICATION_BACKUP": {
-    "message": "يتم الاحتفاظ بنسخة احتياطية من التكوينات على Google Drive بسعر $1"
+    "message": "توجد نسخ احتياطية من الإعدادات على Google Drive في $1"
   },
   "@ACF_BACKUP__NOTIFICATION_RESTORE": {
-    "message": "تتم استعادة التكوينات من Google Drive. قم بتحديث صفحة التكوينات لتحميل المحتوى."
+    "message": "يتم استعادة الإعدادات من جوجل درايف. قم بتحديث صفحة الإعدادات لتحميل المحتوى."
   },
   "@ACF_BACKUP__ERROR_NO_CONFIG": {
-    "message": "لم يتم العثور على تكوينات للنسخ الاحتياطي"
+    "message": "لم يتم العثور على أي إعدادات للنسخ الاحتياطي"
   },
   "@ACF_BACKUP__ERROR_NO_CONTENT": {
-    "message": "لم يتم العثور على محتوى في الملف"
+    "message": "لم يتم العثور على أي محتوى في الملف"
   },
   "@PORT__ACTION_NOT_FOUND": {
-    "message": "لم يتم تكوينه"
+    "message": "غير مهيأ"
   },
   "@PORT__METHOD_NOT_FOUND": {
-    "message": "لم يتم العثور على طريقة العملية"
+    "message": "لم يتم العثور على طريقة المعالجة"
   },
   "@CONTEXT_MENU__FIELD": {
-    "message": "★ تكوين لهذا الحقل"
+    "message": "⊕ تكوين لهذا الحقل"
   },
   "@CONTEXT_MENU__FIELD_POSITION": {
     "message": "⌖ التكوين حسب الموضع"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ اللوحة الجانبية/☉ التسجيل"
+    "message": "▤ اللوحة الجانبية / ☉ التسجيل"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ اسأل الذكاء الاصطناعي"
@@ -78,7 +78,7 @@
     "message": "لم نتمكن من الحصول على إجابة. يرجى المحاولة مرة أخرى."
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
-    "message": "حدد العنصر (العناصر)"
+    "message": "حدد العناصر"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
     "message": "حدد عنصرًا آخر"
@@ -120,13 +120,13 @@
     "message": "أتمتة التحرير"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
-    "message": "↗ افتح صفحة التكوين"
+    "message": "↗ فتح صفحة الإعدادات"
   },
   "@TABS__TITLE": {
-    "message": "نوافذ التبويب"
+    "message": "علامات التبويب"
   },
   "@TABS__ERROR": {
-    "message": "غير قادر على تحديد موقع علامة التبويب أو معرف علامة التبويب المحدد."
+    "message": "تعذر تحديد موقع علامة التبويب أو معرف علامة التبويب المحدد."
   },
   "@ACTION__TITLE": {
     "message": "خطوة"
@@ -138,58 +138,58 @@
     "message": "بلا اسم"
   },
   "@ADDON__TITLE": {
-    "message": "اضافه"
+    "message": "إضافة"
   },
   "@ACTION_CONDITION__TITLE": {
-    "message": "حالة العمل"
+    "message": "شرط العمل"
   },
   "@BATCH__TITLE": {
-    "message": "حلقة"
+    "message": "حلقة تكرار"
   },
   "@CONFIG__TITLE": {
-    "message": "الأتمتة"
+    "message": "أتمتة"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
-    "message": "الباحث عن العناصر فارغ"
+    "message": "أداة البحث عن العناصر فارغة"
   },
   "@ERROR__NO_MATCH": {
-    "message": "الحالة لم تتطابق."
+    "message": "لم تتطابق الشروط."
   },
   "@ERROR__WRONG_TITLE": {
     "message": "مقارنة غير صحيحة"
   },
   "@ERROR__WRONG_DESCRIPTION": {
-    "message": "أكبر من أو أقل من يمكن لعوامل التشغيل مقارنة الأرقام فقط"
+    "message": "لا يمكن استخدام عاملي المقارنة \"أكبر من\" أو \"أصغر من\" إلا لمقارنة الأرقام."
   },
   "@ERROR__ELEMENT_FINDER_TITLE": {
-    "message": "مكتشف العنصر أو الشرط الإضافي غير صحيح"
+    "message": "أداة البحث عن العناصر أو شرط الإضافة غير صحيح"
   },
   "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
-    "message": "يجب أن يستهدف Element Finder مربع اختيار"
+    "message": "يجب أن يستهدف برنامج البحث عن العناصر خانة اختيار"
   },
   "@ERROR__INVALID_ELEMENT_FINDER": {
-    "message": "مكتشف العناصر غير صالح"
+    "message": "أداة البحث عن العناصر غير صالحة"
   },
   "@ERROR__NOT_FOUND_STOP": {
-    "message": "لم يتم العثور عليه - توقف"
+    "message": "غير موجود - توقف"
   },
   "@ERROR__NOT_FOUND_RELOAD": {
-    "message": "لم يتم العثور عليه - أعد التحميل"
+    "message": "غير موجود - إعادة تحميل الصفحة"
   },
   "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
-    "message": "لم يتم العثور على إجراء للانتقال إلى"
+    "message": "لم يتم العثور على إجراء \"انتقال إلى\""
   },
   "@ERROR__NO_ELEMENT_FOUND": {
-    "message": "لم يتم العثور على أي عنصر مع المحدد المحدد"
+    "message": "لم يتم العثور على أي عنصر باستخدام المحدد المحدد."
   },
   "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
-    "message": "يرجى زيارة صفحة التكوين لمراجعة وتحديث شرط الإجراء للتأكد من تحديث التكوين بشكل صحيح."
+    "message": "يرجى زيارة صفحة الإعدادات لمراجعة وتحديث شرط الإجراء لضمان تحديث الإعدادات بشكل صحيح."
   },
   "@CONDITION_SATISFIED": {
-    "message": "الحالة مرضية"
+    "message": "تم استيفاء الشروط"
   },
   "@CONDITION_NOT_SATISFIED": {
-    "message": "الحالة غير مرضية"
+    "message": "لم يتم استيفاء الشروط"
   },
   "@ERROR": {
     "message": "خطأ"
@@ -210,13 +210,13 @@
     "message": "انتظر"
   },
   "@DISABLED": {
-    "message": "عاجز"
+    "message": "معطّل"
   },
   "@RESULT": {
     "message": "نتيجة"
   },
   "@GOTO": {
-    "message": "اذهب إلى"
+    "message": "انتقل إلى"
   },
   "@RECHECK": {
     "message": "إعادة الفحص"
@@ -225,7 +225,7 @@
     "message": "يقارن"
   },
   "@RECHECK_OPTION": {
-    "message": "إعادة فحص الخيار"
+    "message": "خيار إعادة الفحص"
   },
   "@DOCS": {
     "message": "المستندات"

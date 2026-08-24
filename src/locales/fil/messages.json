@@ -1,0 +1,248 @@
+{
+  "EXT_NAME": {
+    "message": "Awtomatikong Pag-click - Awtomatikong Pagpuno"
+  },
+  "EXT_NAME_DEV": {
+    "message": "Awtomatikong Pag-click - Awtomatikong Pagpuno [DEV]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "Awtomatikong Pag-click - Awtomatikong Pagpuno [BETA]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "Awtomatikong Pag-click - Awtomatikong Pagpuno [LOKAL]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "Awtomatikong Pag-click - Awtomatikong Pagpuno"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "AutoFill input field o auto click button o link kahit saan. Maaari mong i-configure at suriin ang click speed test"
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "Pag-backup ng ACF"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "Ang mga configuration ay naka-backup sa Google Drive sa $1"
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "Naibalik na ang mga configuration mula sa Google Drive. I-refresh ang pahina ng mga configuration para mag-load ng content."
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "Walang nakitang mga configuration para sa backup"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "Walang nakitang nilalaman sa file"
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "hindi na-configure"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "hindi natagpuan ang paraan ng proseso"
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "⊕ I-configure para sa Patlang na ito"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ I-configure ayon sa Posisyon"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ Panel sa Gilid / ☉ Pagre-record"
+  },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ Magtanong sa AI"
+  },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "Mga Awtomasyon"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "Pagre-record"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "Magtanong"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "Magtanong, hal. \"Ano ang isang loop?\""
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "Ipadala"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "Mga Pinagmumulan"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "Mag-sign in para magtanong."
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "Mag-sign In"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "Hindi makakuha ng sagot. Pakisubukang muli."
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
+    "message": "Pumili ng mga elemento"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
+    "message": "Pumili ng ibang elemento"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
+    "message": "I-click ang mga elemento sa pahina... (i-click para huminto)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
+    "message": "Alisin"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "Maghanap"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "Naitugma"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "Iba pa"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "Simulan ang Pagre-record"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "Itigil ang Pagre-record"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "Simulan ang pagpuno ng form..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "Kung napunan mo na ang form"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "Napunan na?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "i-click"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "Pag-edit ng Awtomasyon"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ Buksan ang Pahina ng Pag-configure"
+  },
+  "@TABS__TITLE": {
+    "message": "Mga Tab"
+  },
+  "@TABS__ERROR": {
+    "message": "Hindi mahanap ang tinukoy na tab o tab ID."
+  },
+  "@ACTION__TITLE": {
+    "message": "Hakbang"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "Iskrip ng Gumagamit"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "walang pangalan"
+  },
+  "@ADDON__TITLE": {
+    "message": "Addon"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "Kondisyon ng Aksyon"
+  },
+  "@BATCH__TITLE": {
+    "message": "Loop"
+  },
+  "@CONFIG__TITLE": {
+    "message": "Awtomasyon"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "Blangko ang Element Finder"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "hindi tugma ang kondisyon."
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "Maling paghahambing"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "Ang mga operator na mas malaki o mas mababa sa ay maaari lamang maghambing ng mga numero"
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "Maling tagahanap ng elemento o kundisyon ng addon"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "Dapat mag-target ng checkbox ang Element Finder"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "Hindi wastong tagahanap ng elemento"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "Hindi Natagpuan - TIGIL"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "Hindi Natagpuan - I-RELOAD"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "Walang nakitang aksyon para sa Goto"
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "Walang nakitang elemento gamit ang ibinigay na selector"
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "Pakibisita ang pahina ng configuration upang suriin at i-update ang Kondisyon ng Aksyon upang matiyak na maayos na na-update ang configuration."
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "Nasiyahan ang Kondisyon"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "Hindi Nasiyahan ang Kondisyon"
+  },
+  "@ERROR": {
+    "message": "Mali"
+  },
+  "@SCHEDULE": {
+    "message": "Iskedyul"
+  },
+  "@REPEAT": {
+    "message": "ulitin"
+  },
+  "@COMPLETED": {
+    "message": "Nakumpleto"
+  },
+  "@DEFAULT": {
+    "message": "paunang"
+  },
+  "@WAIT": {
+    "message": "maghintay"
+  },
+  "@DISABLED": {
+    "message": "Naka-disable"
+  },
+  "@RESULT": {
+    "message": "Resulta"
+  },
+  "@GOTO": {
+    "message": "Pumunta"
+  },
+  "@RECHECK": {
+    "message": "muling suriin"
+  },
+  "@COMPARE": {
+    "message": "Paghambingin"
+  },
+  "@RECHECK_OPTION": {
+    "message": "Opsyon sa Pagsusuri Muli"
+  },
+  "@DOCS": {
+    "message": "Mga Dokumento"
+  },
+  "@CHAT": {
+    "message": "Makipag-chat"
+  },
+  "@ADVANCE": {
+    "message": "Pagsulong"
+  },
+  "@SPONSOR": {
+    "message": "Isponsor"
+  },
+  "@SUBSCRIPTION__REQUIRED": {
+    "message": "Kinakailangan ang Subscription"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "Kailangan mo ng subscription sa $1 para ma-access ang feature na $2."
+  }
+}

@@ -3,7 +3,7 @@
     "message": "オートクリッカー - オートフィル"
   },
   "EXT_NAME_DEV": {
-    "message": "オートクリッカー - オートフィル [DEV]"
+    "message": "オートクリッカー - オートフィル [開発者向け]"
   },
   "EXT_NAME_BETA": {
     "message": "オートクリッカー - オートフィル [ベータ版]"
@@ -12,40 +12,40 @@
     "message": "オートクリッカー - オートフィル [ローカル]"
   },
   "EXT_SHORT_NAME": {
-    "message": "自動入力"
+    "message": "オートクリッカー - オートフィル"
   },
   "EXT_DESCRIPTION": {
-    "message": "入力フィールドの自動入力やボタンの自動クリック、または任意の場所へのリンク。クリック速度テストを設定して確認できます。"
+    "message": "入力フィールドの自動入力、ボタンの自動クリック、リンクの自動クリックなど、あらゆる場所の自動入力が可能です。クリック速度テストの設定と確認もできます。"
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
-    "message": "ACF バックアップ"
+    "message": "ACFバックアップ"
   },
   "@ACF_BACKUP__NOTIFICATION_BACKUP": {
-    "message": "設定は Google ドライブに $1 でバックアップされています"
+    "message": "設定ファイルはGoogleドライブの$1にバックアップされています。"
   },
   "@ACF_BACKUP__NOTIFICATION_RESTORE": {
-    "message": "設定は Google ドライブから復元されます。コンテンツを読み込むには、設定ページを更新してください。"
+    "message": "設定はGoogleドライブから復元されます。設定ページを更新してコンテンツを読み込みます。"
   },
   "@ACF_BACKUP__ERROR_NO_CONFIG": {
-    "message": "バックアップする構成が見つかりません"
+    "message": "バックアップする構成が見つかりませんでした"
   },
   "@ACF_BACKUP__ERROR_NO_CONTENT": {
-    "message": "ファイル内にコンテンツが見つかりません"
+    "message": "ファイル内にコンテンツが見つかりませんでした"
   },
   "@PORT__ACTION_NOT_FOUND": {
     "message": "設定されていません"
   },
   "@PORT__METHOD_NOT_FOUND": {
-    "message": "プロセスメソッドが見つかりません"
+    "message": "処理方法が見つかりません"
   },
   "@CONTEXT_MENU__FIELD": {
-    "message": "★ このフィールドの設定"
+    "message": "⊕ このフィールドの設定"
   },
   "@CONTEXT_MENU__FIELD_POSITION": {
     "message": "⌖ 位置で設定"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ サイドパネル/☉ 記録"
+    "message": "▤ サイドパネル / ☉ 録画"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ AIに質問する"
@@ -54,7 +54,7 @@
     "message": "自動化"
   },
   "@SIDE_PANEL__RECORDING_TAB": {
-    "message": "録音"
+    "message": "記録"
   },
   "@SIDE_PANEL__ASK_TAB": {
     "message": "聞く"
@@ -78,7 +78,7 @@
     "message": "回答が得られませんでした。もう一度お試しください。"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
-    "message": "要素を選択してください"
+    "message": "要素を選択"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
     "message": "別の要素を選択してください"
@@ -126,7 +126,7 @@
     "message": "タブ"
   },
   "@TABS__ERROR": {
-    "message": "指定されたタブまたはタブ ID が見つかりません。"
+    "message": "指定されたタブまたはタブIDが見つかりません。"
   },
   "@ACTION__TITLE": {
     "message": "ステップ"
@@ -141,7 +141,7 @@
     "message": "アドオン"
   },
   "@ACTION_CONDITION__TITLE": {
-    "message": "アクション条件"
+    "message": "動作条件"
   },
   "@BATCH__TITLE": {
     "message": "ループ"
@@ -150,22 +150,22 @@
     "message": "自動化"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
-    "message": "要素ファインダーが空白です"
+    "message": "要素ファインダーは空白です"
   },
   "@ERROR__NO_MATCH": {
     "message": "条件が一致しませんでした。"
   },
   "@ERROR__WRONG_TITLE": {
-    "message": "誤った比較"
+    "message": "不適切な比較"
   },
   "@ERROR__WRONG_DESCRIPTION": {
-    "message": "より大きいまたはより小さい演算子は数値のみを比較できます"
+    "message": "大なり小なり演算子は数値のみを比較できます"
   },
   "@ERROR__ELEMENT_FINDER_TITLE": {
     "message": "要素ファインダーまたはアドオン条件が正しくありません"
   },
   "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
-    "message": "要素ファインダーはチェックボックスをターゲットにする必要があります"
+    "message": "要素ファインダーはチェックボックスを対象とするべきです"
   },
   "@ERROR__INVALID_ELEMENT_FINDER": {
     "message": "無効な要素ファインダー"
@@ -180,16 +180,16 @@
     "message": "Goto のアクションが見つかりません"
   },
   "@ERROR__NO_ELEMENT_FOUND": {
-    "message": "指定されたセレクターで要素が見つかりません"
+    "message": "指定されたセレクターに一致する要素が見つかりませんでした"
   },
   "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
-    "message": "構成が適切に更新されるように、構成ページにアクセスしてアクション条件を確認して更新してください。"
+    "message": "設定が正しく更新されるように、設定ページにアクセスしてアクション条件を確認および更新してください。"
   },
   "@CONDITION_SATISFIED": {
     "message": "条件を満たしました"
   },
   "@CONDITION_NOT_SATISFIED": {
-    "message": "条件が満たされていない"
+    "message": "条件を満たしていません"
   },
   "@ERROR": {
     "message": "エラー"
@@ -216,7 +216,7 @@
     "message": "結果"
   },
   "@GOTO": {
-    "message": "後藤"
+    "message": "移動"
   },
   "@RECHECK": {
     "message": "再確認"
@@ -225,7 +225,7 @@
     "message": "比較する"
   },
   "@RECHECK_OPTION": {
-    "message": "再チェックオプション"
+    "message": "再確認オプション"
   },
   "@DOCS": {
     "message": "ドキュメント"
@@ -243,6 +243,6 @@
     "message": "購読が必要です"
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
-    "message": "$2機能を利用するには、$1プランへの加入が必要です。"
+    "message": "$2機能にアクセスするには、$1のサブスクリプションが必要です。"
   }
 }

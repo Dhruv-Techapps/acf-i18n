@@ -1,0 +1,248 @@
+{
+  "EXT_NAME": {
+    "message": "Kibofya Kiotomatiki - Kujaza Kiotomatiki"
+  },
+  "EXT_NAME_DEV": {
+    "message": "Kibofya Kiotomatiki - Kujaza Kiotomatiki [DEV]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "Kibofya Kiotomatiki - Kujaza Kiotomatiki [BETA]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "Kibofya Kiotomatiki - Kijaza Kiotomatiki [KIJAZO]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "Kibofya Kiotomatiki - Kujaza Kiotomatiki"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "Sehemu ya kuingiza data ya kujaza kiotomatiki au kitufe cha kubofya kiotomatiki au kiungo chochote mahali popote. Unaweza kusanidi na kuangalia jaribio la kasi ya kubofya"
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "Hifadhi Nakala ya ACF"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "Mipangilio imehifadhiwa kwenye Hifadhi ya Google katika $1"
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "Mipangilio hurejeshwa kutoka Hifadhi ya Google. Onyesha upya ukurasa wa mipangilio ili kupakia maudhui."
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "Hakuna mipangilio iliyopatikana ya kuhifadhi nakala rudufu"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "Hakuna maudhui yaliyopatikana kwenye faili"
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "haijasanidiwa"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "mbinu ya mchakato haipatikani"
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "⊕ Sanidi kwa Sehemu hii"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ Sanidi kwa Nafasi"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ Paneli ya Upande / ☉ Kurekodi"
+  },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ Uliza AI"
+  },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "Otomatiki"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "Kurekodi"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "Uliza"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "Uliza swali, k.m. \"Kitanzi ni nini?\""
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "Tuma"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "Vyanzo"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "Ingia ili uulize swali."
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "Ingia"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "Sikuweza kupata jibu. Tafadhali jaribu tena."
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
+    "message": "Chagua vipengele"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
+    "message": "Chagua kipengele kingine"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
+    "message": "Bonyeza vipengele kwenye ukurasa... (bonyeza ili kusimamisha)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
+    "message": "Ondoa"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "Tafuta"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "Imelinganishwa"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "Nyingine"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "Anza Kurekodi"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "Acha Kurekodi"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "Anza kujaza fomu..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "Kama tayari umejaza fomu"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "Tayari umejaza?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "bofya"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "Hariri Otomatiki"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ Fungua Ukurasa wa Usanidi"
+  },
+  "@TABS__TITLE": {
+    "message": "Vichupo"
+  },
+  "@TABS__ERROR": {
+    "message": "Haiwezi kupata kitambulisho cha kichupo au kichupo kilichobainishwa."
+  },
+  "@ACTION__TITLE": {
+    "message": "Hatua"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "Hati ya Mtumiaji"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "bila jina"
+  },
+  "@ADDON__TITLE": {
+    "message": "Nyongeza"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "Hali ya Kitendo"
+  },
+  "@BATCH__TITLE": {
+    "message": "Kitanzi"
+  },
+  "@CONFIG__TITLE": {
+    "message": "Otomatiki"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "Kitafutaji cha Vipengele hakina kitu"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "Hali haikulingana."
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "Ulinganisho usio sahihi"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "Waendeshaji wakubwa kuliko au chini ya hapo wanaweza kulinganisha nambari pekee"
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "Kitafutaji cha elementi au hali ya nyongeza si sahihi"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "Kitafutaji cha Vipengele kinapaswa kulenga kisanduku cha kuteua"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "Kitafutaji cha elementi si sahihi"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "Haipatikani - STOP"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "Haipatikani - PAKUA TENA"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "Kitendo hakijapatikana kwa Goto"
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "Hakuna kipengele kilichopatikana na kiteuzi kilichotolewa"
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "Tafadhali tembelea ukurasa wa usanidi ili kukagua na kusasisha Hali ya Kitendo ili kuhakikisha usanidi umesasishwa ipasavyo."
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "Hali Imeridhika"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "Hali Haijaridhika"
+  },
+  "@ERROR": {
+    "message": "Hitilafu"
+  },
+  "@SCHEDULE": {
+    "message": "Ratiba"
+  },
+  "@REPEAT": {
+    "message": "kurudia"
+  },
+  "@COMPLETED": {
+    "message": "Imekamilika"
+  },
+  "@DEFAULT": {
+    "message": "chaguo-msingi"
+  },
+  "@WAIT": {
+    "message": "subiri"
+  },
+  "@DISABLED": {
+    "message": "Imezimwa"
+  },
+  "@RESULT": {
+    "message": "Matokeo"
+  },
+  "@GOTO": {
+    "message": "Nenda"
+  },
+  "@RECHECK": {
+    "message": "angalia upya"
+  },
+  "@COMPARE": {
+    "message": "Linganisha"
+  },
+  "@RECHECK_OPTION": {
+    "message": "Chaguo la Kuangalia Tena"
+  },
+  "@DOCS": {
+    "message": "Hati"
+  },
+  "@CHAT": {
+    "message": "Gumzo"
+  },
+  "@ADVANCE": {
+    "message": "Mapema"
+  },
+  "@SPONSOR": {
+    "message": "Mdhamini"
+  },
+  "@SUBSCRIPTION__REQUIRED": {
+    "message": "Usajili Unahitajika"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "Unahitaji kuwa na usajili wa $1 ili kufikia kipengele cha $2."
+  }
+}

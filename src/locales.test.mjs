@@ -85,6 +85,46 @@ const getNestedValue = (obj, dotPath) => {
   return cur;
 };
 
+// {{name}}-style interpolation vars and $1-style Chrome-i18n placeholders.
+// Order-sensitive (sorted) so a dropped or duplicated token still fails.
+const collectInterpolationTokens = (value) => [...(value.match(/\{\{[^}]+\}\}/g) || []), ...(value.match(/\$\d+/g) || [])].sort();
+
+// <1>...</1>-style react-i18next tags and named HTML tags (<kbd>, <b>...)
+// alike: which tags open and which close.
+const collectTagNumbers = (value) => ({
+  opens: (value.match(/<([a-zA-Z0-9]+)>/g) || []).map((m) => m.slice(1, -1)).sort(),
+  closes: (value.match(/<\/([a-zA-Z0-9]+)>/g) || []).map((m) => m.slice(2, -1)).sort()
+});
+
+// Comparing sorted open/close multisets (collectTagNumbers above) only
+// proves the right tags exist somewhere in the string - it can't catch an
+// orphaned open, a close with no matching open, or a close that shows up
+// before its own open. Walk the string in document order with a stack to
+// check the tags actually form valid, properly-nested markup. Word order is
+// expected to differ from English (that's a legitimate translation), so
+// this doesn't compare against the English tag sequence - only that the
+// target string's own tags are well-formed.
+const findUnbalancedTag = (value) => {
+  const stack = [];
+  for (const m of value.matchAll(/<(\/?)([a-zA-Z0-9]+)>/g)) {
+    const [, closing, name] = m;
+    if (!closing) {
+      stack.push(name);
+    } else if (stack.pop() !== name) {
+      return `unbalanced at "${m[0]}"`;
+    }
+  }
+  return stack.length > 0 ? `unclosed: [${stack.join(', ')}]` : null;
+};
+
+// Sentinels/tokens the translate scripts use internally - none should ever
+// end up in a shipped locale file if the pipeline is working correctly.
+// Fault-tolerant (case-insensitive, z{1,2} per cluster): Translate sometimes
+// recapitalizes a token that lands at the start of a sentence, or drops a
+// character from the zz doubling (zzGLzz0zz -> zGLzz0zz, seen for real in
+// Russian) instead of leaving it verbatim.
+const LEAK_PATTERNS = [/z{1,2}PHz{1,2}\d+z{1,2}/i, /z{1,2}GLz{1,2}\d+z{1,2}/i, /__FORCE_RETRANSLATE__/];
+
 // Cache source files to avoid re-reading per test
 const sourceCache = new Map();
 const getSource = async (fileName) => {
@@ -151,6 +191,68 @@ for (const fileName of FILES) {
             ratio < TRANSLATION_THRESHOLD,
             `${folder}/${fileName}: ${identical.length}/${translatable.length} (${Math.round(ratio * 100)}%) strings are identical to English — exceeds ${TRANSLATION_THRESHOLD * 100}% threshold`
           );
+        });
+      }
+    });
+
+    describe('placeholder integrity', () => {
+      for (const { folder } of LANGUAGES) {
+        test(folder, async () => {
+          const source = await getSource(fileName);
+          const target = await readJson(path.join(LOCALES_ROOT, folder, fileName));
+          const sourceLeaves = collectLeafStrings(source, '', messageOnly);
+
+          const mismatches = [];
+          for (const { path: p, value: enValue } of sourceLeaves) {
+            const enTokens = collectInterpolationTokens(enValue);
+            if (enTokens.length === 0) continue;
+            const targetValue = getNestedValue(target, p);
+            const targetTokens = typeof targetValue === 'string' ? collectInterpolationTokens(targetValue) : [];
+            if (JSON.stringify(enTokens) !== JSON.stringify(targetTokens)) {
+              mismatches.push(`${p}: expected [${enTokens.join(', ')}] got [${targetTokens.join(', ')}]`);
+            }
+          }
+
+          assert.deepEqual(mismatches, [], `Placeholder mismatch in ${folder}/${fileName}:\n${mismatches.map((m) => `  - ${m}`).join('\n')}`);
+        });
+      }
+    });
+
+    describe('tag integrity', () => {
+      for (const { folder } of LANGUAGES) {
+        test(folder, async () => {
+          const source = await getSource(fileName);
+          const target = await readJson(path.join(LOCALES_ROOT, folder, fileName));
+          const sourceLeaves = collectLeafStrings(source, '', messageOnly);
+
+          const mismatches = [];
+          for (const { path: p, value: enValue } of sourceLeaves) {
+            if (!/<\/?[a-zA-Z0-9]+>/.test(enValue)) continue;
+            const enTags = collectTagNumbers(enValue);
+            const targetValue = getNestedValue(target, p);
+            const targetTags = typeof targetValue === 'string' ? collectTagNumbers(targetValue) : { opens: [], closes: [] };
+            if (JSON.stringify(enTags) !== JSON.stringify(targetTags)) {
+              mismatches.push(`${p}: expected ${JSON.stringify(enTags)} got ${JSON.stringify(targetTags)}`);
+              continue;
+            }
+            const unbalanced = typeof targetValue === 'string' ? findUnbalancedTag(targetValue) : null;
+            if (unbalanced) {
+              mismatches.push(`${p}: ${unbalanced} in "${targetValue}"`);
+            }
+          }
+
+          assert.deepEqual(mismatches, [], `Tag mismatch in ${folder}/${fileName}:\n${mismatches.map((m) => `  - ${m}`).join('\n')}`);
+        });
+      }
+    });
+
+    describe('no leaked pipeline tokens', () => {
+      for (const { folder } of LANGUAGES) {
+        test(folder, async () => {
+          const target = await readJson(path.join(LOCALES_ROOT, folder, fileName));
+          const leaves = collectLeafStrings(target, '', messageOnly);
+          const leaked = leaves.filter(({ value }) => LEAK_PATTERNS.some((re) => re.test(value)));
+          assert.deepEqual(leaked, [], `Leaked pipeline token in ${folder}/${fileName}:\n${leaked.map((l) => `  - ${l.path}: "${l.value}"`).join('\n')}`);
         });
       }
     });

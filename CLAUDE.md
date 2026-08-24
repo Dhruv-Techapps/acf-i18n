@@ -11,7 +11,7 @@ src/locales/<folder>/messages.json   → consumed by the extension
 src/locales/<folder>/web.json        → consumed by the options page
 ```
 
-`<folder>` is the locale code: `en` (source) plus `ar de es fi fr id it ja ko nl pt ru sv vi zh_CN zh_TW` — 16 targets, 17 total. The list lives in `src/translate.constant.mjs`, which maps the Google Translate language code to the folder name (e.g. `zh-cn` → `zh_CN`).
+`<folder>` is the locale code: `en` (source) plus `ar bg de es fi fil fr hi id it ja ko nl pl pt_PT ru sv sw th vi zh_CN zh_TW` — 22 targets, 23 total. Folder names must match a locale code Chrome's extension i18n actually recognizes ([supported locales](https://developer.chrome.com/docs/extensions/reference/api/i18n)) — this is why Portuguese is `pt_PT` rather than a bare `pt`, and why Kazakh isn't in the list (`kk` isn't a Chrome-recognized locale, so `messages.json` under it would never load in the extension). The list lives in `src/translate.constant.mjs`, which maps the Google Translate language code to the folder name (e.g. `zh-cn` → `zh_CN`).
 
 `messages.json` is Chrome extension i18n format (`{ "key": { "message": "...", "description": "..." } }`); `web.json` is a plain nested object.
 
@@ -49,22 +49,25 @@ Serves `src/` at `http://0.0.0.0:3333` (`npx serve`). The options page's Vite de
 
 | Command | What it does |
 | --- | --- |
-| `npm run message` | Translates `en/messages.json` into all 16 target languages. Walks the tree, translates `message` string values, and **skips `description` and `placeholders`** (metadata, not user-visible). |
+| `npm run message` | Translates `en/messages.json` into all 22 target languages. Walks the tree, translates `message` string values, and **skips `description` and `placeholders`** (metadata, not user-visible). Only translates keys that are new or whose `en/` text changed since the last run — see caching note below. |
 | `npm run web` | Same for `web.json`. |
-| `npm test` | Validates every locale against `en` — reports **missing keys** and **extra keys** per file, with the full key paths. This is the PR gate (`validate-locales.yml`). |
+| `npm run message:force` / `npm run web:force` | Same, but ignores the cache and re-translates every key from scratch regardless of whether `en/` changed. Use this once for a full audit (e.g. after adding the cache, or if you suspect drift), then let the plain `message`/`web` scripts take over incrementally — a full force run re-translates ~600 strings × 22 languages, so it costs real Google Translate API usage. |
+| `npm test` | Validates every locale against `en` — **missing keys**, **extra keys**, strings identical to `en` (untranslated), **`{{name}}`/`$1` placeholder integrity**, **`<1>...</1>` tag integrity**, and no leaked internal pipeline tokens (`zzPHzz`/`__FORCE_RETRANSLATE__`) — all per file, with full key paths. Runs in CI (`.github/workflows/test.yml`) on every push and PR. |
 | `npm run clean` | Removes leftover/stale keys that no longer exist in the `en` source. |
 
 Translation uses `@google-cloud/translate`, so the translate scripts need GCP credentials. `npm test` does not.
 
+`npm run message`/`npm run web` track which `en/` string produced each existing translation in `src/locales/.translation-source-cache.web.json` and `src/locales/.translation-source-cache.messages.json` (one cache per translated file, so the two scripts never race on a shared file) — committed to the repo, but excluded from the Firebase Hosting deploy by the existing `**/.*` rule in `firebase.json` (it's tooling metadata, not a locale file). This is what lets them skip re-translating keys that haven't changed instead of blindly reusing anything already present in the target file — the latter used to mean an edit to an existing `en/` string silently never reached the other 22 locales.
+
 ## Rules
 
-- **Only edit `en/`.** The other 16 are machine-generated; hand-edits are overwritten the next time a translate script runs.
+- **Only edit `en/`.** The other 22 are machine-generated; hand-edits are overwritten the next time a translate script runs.
 - Adding a string: add it to `en/messages.json` or `en/web.json`, run the matching translate script, then `npm test` before committing.
-- Removing a string: delete from `en/`, then `npm run clean` — don't hand-delete from 16 files.
+- Removing a string: delete from `en/`, then `npm run clean` — don't hand-delete from 22 files.
 - Keep `messages.json` and `web.json` separate; a key only belongs in the one whose app uses it.
 
 ## CI
 
-- **PR** — `validate-locales.yml` runs `npm test` (locale completeness).
+- **Every push and PR** — `.github/workflows/test.yml` runs lint, format check, typecheck, and `npm test` (locale completeness + placeholder/tag integrity).
 - **Tag `v*`** — `deploy-cdn.yml` deploys to Firebase Hosting `channelId: live` and cuts a GitHub release. Nothing deploys on merge to main; a tag is required.
 - The monorepo's `pull-request.yml` also checks this repo out and deploys it to a **preview channel** (`pr-<N>-i18n`, 15-day expiry) so PR builds test against matching locales.

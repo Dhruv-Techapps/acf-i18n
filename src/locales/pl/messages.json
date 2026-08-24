@@ -1,0 +1,248 @@
+{
+  "EXT_NAME": {
+    "message": "Autoklikacz - automatyczne wypełnianie"
+  },
+  "EXT_NAME_DEV": {
+    "message": "Auto Clicker - Autouzupełnianie [DEV]"
+  },
+  "EXT_NAME_BETA": {
+    "message": "Autokliker – automatyczne wypełnianie [BETA]"
+  },
+  "EXT_NAME_LOCAL": {
+    "message": "Autoklikacz - automatyczne wypełnianie [LOKALNE]"
+  },
+  "EXT_SHORT_NAME": {
+    "message": "Autoklikacz - automatyczne wypełnianie"
+  },
+  "EXT_DESCRIPTION": {
+    "message": "Automatyczne wypełnianie pól wprowadzania danych, automatyczne klikanie przycisków lub linkowanie czegokolwiek w dowolnym miejscu. Możesz skonfigurować i sprawdzić test szybkości klikania"
+  },
+  "@ACF_BACKUP__NOTIFICATION_TITLE": {
+    "message": "Kopia zapasowa ACF"
+  },
+  "@ACF_BACKUP__NOTIFICATION_BACKUP": {
+    "message": "Kopie zapasowe konfiguracji znajdują się na Dysku Google pod adresem $1"
+  },
+  "@ACF_BACKUP__NOTIFICATION_RESTORE": {
+    "message": "Konfiguracje zostały przywrócone z Dysku Google. Odśwież stronę konfiguracji, aby załadować zawartość."
+  },
+  "@ACF_BACKUP__ERROR_NO_CONFIG": {
+    "message": "Nie znaleziono konfiguracji do utworzenia kopii zapasowej"
+  },
+  "@ACF_BACKUP__ERROR_NO_CONTENT": {
+    "message": "Nie znaleziono zawartości w pliku"
+  },
+  "@PORT__ACTION_NOT_FOUND": {
+    "message": "nie jest skonfigurowany"
+  },
+  "@PORT__METHOD_NOT_FOUND": {
+    "message": "nie znaleziono metody procesu"
+  },
+  "@CONTEXT_MENU__FIELD": {
+    "message": "⊕ Skonfiguruj dla tego pola"
+  },
+  "@CONTEXT_MENU__FIELD_POSITION": {
+    "message": "⌖ Konfiguruj według pozycji"
+  },
+  "@CONTEXT_MENU__SIDE_PANEL": {
+    "message": "▤ Panel boczny / ☉ Nagrywanie"
+  },
+  "@CONTEXT_MENU__ASK_AI": {
+    "message": "✨ Zapytaj AI"
+  },
+  "@SIDE_PANEL__AUTOMATIONS_TAB": {
+    "message": "Automatyzacje"
+  },
+  "@SIDE_PANEL__RECORDING_TAB": {
+    "message": "Nagranie"
+  },
+  "@SIDE_PANEL__ASK_TAB": {
+    "message": "Zapytać"
+  },
+  "@SIDE_PANEL__ASK_PLACEHOLDER": {
+    "message": "Zadaj pytanie, np. „Co to jest pętla?”"
+  },
+  "@SIDE_PANEL__ASK_SEND": {
+    "message": "Wysłać"
+  },
+  "@SIDE_PANEL__ASK_SOURCES": {
+    "message": "Źródła"
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN": {
+    "message": "Zaloguj się, aby zadać pytanie."
+  },
+  "@SIDE_PANEL__ASK_SIGN_IN_BUTTON": {
+    "message": "Zalogować się"
+  },
+  "@SIDE_PANEL__ASK_ERROR": {
+    "message": "Nie udało się uzyskać odpowiedzi. Spróbuj ponownie."
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
+    "message": "Wybierz elementy"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
+    "message": "Wybierz inny element"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
+    "message": "Kliknij elementy na stronie... (kliknij, aby zatrzymać)"
+  },
+  "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
+    "message": "Usunąć"
+  },
+  "@SIDE_PANEL__SEARCH": {
+    "message": "Szukaj"
+  },
+  "@SIDE_PANEL__MATCHED": {
+    "message": "Dopasowane"
+  },
+  "@SIDE_PANEL__OTHER": {
+    "message": "Inny"
+  },
+  "@SIDE_PANEL__START_RECORDING": {
+    "message": "Rozpocznij nagrywanie"
+  },
+  "@SIDE_PANEL__STOP_RECORDING": {
+    "message": "Zatrzymaj nagrywanie"
+  },
+  "@SIDE_PANEL__START_FILLING_FORM": {
+    "message": "Rozpocznij wypełnianie formularza..."
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_HINT": {
+    "message": "Jeśli już wypełniłeś formularz"
+  },
+  "@SIDE_PANEL__ALREADY_FILLED_BUTTON": {
+    "message": "Już wypełnione?"
+  },
+  "@SIDE_PANEL__CLICK": {
+    "message": "kliknięcie"
+  },
+  "@SIDE_PANEL__EDIT_AUTOMATION": {
+    "message": "Edytuj automatyzację"
+  },
+  "@CONTEXT_MENU__CONFIG_PAGE": {
+    "message": "↗ Otwórz stronę konfiguracji"
+  },
+  "@TABS__TITLE": {
+    "message": "Karty"
+  },
+  "@TABS__ERROR": {
+    "message": "Nie można zlokalizować określonej karty lub identyfikatora karty."
+  },
+  "@ACTION__TITLE": {
+    "message": "Krok"
+  },
+  "@USER_SCRIPT__TITLE": {
+    "message": "Skrypt użytkownika"
+  },
+  "@ACTION__NO_NAME": {
+    "message": "bezimienny"
+  },
+  "@ADDON__TITLE": {
+    "message": "Dodatek"
+  },
+  "@ACTION_CONDITION__TITLE": {
+    "message": "Warunek akcji"
+  },
+  "@BATCH__TITLE": {
+    "message": "Pętla"
+  },
+  "@CONFIG__TITLE": {
+    "message": "Automatyzacja"
+  },
+  "@ERROR__ELEMENT_FINDER_BLANK": {
+    "message": "Element Finder jest pusty"
+  },
+  "@ERROR__NO_MATCH": {
+    "message": "warunek nie został dopasowany."
+  },
+  "@ERROR__WRONG_TITLE": {
+    "message": "Nieprawidłowe porównanie"
+  },
+  "@ERROR__WRONG_DESCRIPTION": {
+    "message": "Operatory większe lub mniejsze mogą porównywać tylko liczby"
+  },
+  "@ERROR__ELEMENT_FINDER_TITLE": {
+    "message": "Nieprawidłowy element wyszukiwania lub warunek dodatku"
+  },
+  "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
+    "message": "Element Finder powinien być skierowany na pole wyboru"
+  },
+  "@ERROR__INVALID_ELEMENT_FINDER": {
+    "message": "Nieprawidłowy element wyszukiwarki"
+  },
+  "@ERROR__NOT_FOUND_STOP": {
+    "message": "Nie znaleziono - STOP"
+  },
+  "@ERROR__NOT_FOUND_RELOAD": {
+    "message": "Nie znaleziono - PRZEŁADUJ"
+  },
+  "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
+    "message": "Nie znaleziono akcji dla Goto"
+  },
+  "@ERROR__NO_ELEMENT_FOUND": {
+    "message": "Nie znaleziono elementu z podanym selektorem"
+  },
+  "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
+    "message": "Aby upewnić się, że konfiguracja została poprawnie zaktualizowana, odwiedź stronę konfiguracji, aby przejrzeć i zaktualizować warunek akcji."
+  },
+  "@CONDITION_SATISFIED": {
+    "message": "Warunek spełniony"
+  },
+  "@CONDITION_NOT_SATISFIED": {
+    "message": "Warunek niespełniony"
+  },
+  "@ERROR": {
+    "message": "Błąd"
+  },
+  "@SCHEDULE": {
+    "message": "Harmonogram"
+  },
+  "@REPEAT": {
+    "message": "powtarzać"
+  },
+  "@COMPLETED": {
+    "message": "Zakończony"
+  },
+  "@DEFAULT": {
+    "message": "domyślny"
+  },
+  "@WAIT": {
+    "message": "Czekać"
+  },
+  "@DISABLED": {
+    "message": "Wyłączone"
+  },
+  "@RESULT": {
+    "message": "Wynik"
+  },
+  "@GOTO": {
+    "message": "Idź do"
+  },
+  "@RECHECK": {
+    "message": "sprawdź ponownie"
+  },
+  "@COMPARE": {
+    "message": "Porównywać"
+  },
+  "@RECHECK_OPTION": {
+    "message": "Opcja ponownego sprawdzenia"
+  },
+  "@DOCS": {
+    "message": "Dokumenty"
+  },
+  "@CHAT": {
+    "message": "Pogawędzić"
+  },
+  "@ADVANCE": {
+    "message": "Osiągnięcie"
+  },
+  "@SPONSOR": {
+    "message": "Sponsor"
+  },
+  "@SUBSCRIPTION__REQUIRED": {
+    "message": "Wymagana subskrypcja"
+  },
+  "@SUBSCRIPTION__REQUIRED_MESSAGE": {
+    "message": "Aby uzyskać dostęp do funkcji $2, musisz posiadać subskrypcję $1."
+  }
+}

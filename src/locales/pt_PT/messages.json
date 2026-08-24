@@ -1,51 +1,51 @@
 {
   "EXT_NAME": {
-    "message": "Clicker automático - Preenchimento automático"
+    "message": "Auto Clicker - Preenchimento Automático"
   },
   "EXT_NAME_DEV": {
-    "message": "Clicker automático - Preenchimento automático [DEV]"
+    "message": "Auto Clicker - Preenchimento Automático [DEV]"
   },
   "EXT_NAME_BETA": {
-    "message": "Clicker automático - Preenchimento automático [BETA]"
+    "message": "Auto Clicker - Preenchimento Automático [BETA]"
   },
   "EXT_NAME_LOCAL": {
-    "message": "Clicker automático - Preenchimento automático [LOCAL]"
+    "message": "Auto Clicker - Preenchimento automático [LOCAL]"
   },
   "EXT_SHORT_NAME": {
-    "message": "Preenchimento automático"
+    "message": "Auto Clicker - Preenchimento Automático"
   },
   "EXT_DESCRIPTION": {
-    "message": "Campo de entrada de preenchimento automático ou botão de clique automático ou vincule qualquer coisa em qualquer lugar. Você pode configurar e verificar o teste de velocidade de clique"
+    "message": "Preencha automaticamente campos de entrada, clique automaticamente em botões ou links, qualquer coisa em qualquer lugar. Você pode configurar e verificar o teste de velocidade de cliques."
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
-    "message": "Backup ACF"
+    "message": "Backup do ACF"
   },
   "@ACF_BACKUP__NOTIFICATION_BACKUP": {
-    "message": "As configurações são salvas no Google Drive em $1"
+    "message": "Os arquivos de configuração estão salvos no Google Drive em $1"
   },
   "@ACF_BACKUP__NOTIFICATION_RESTORE": {
-    "message": "As configurações são restauradas do Google Drive. Atualize a página de configurações para carregar o conteúdo."
+    "message": "As configurações foram restauradas do Google Drive. Atualize a página de configurações para carregar o conteúdo."
   },
   "@ACF_BACKUP__ERROR_NO_CONFIG": {
-    "message": "Nenhuma configuração encontrada para backup"
+    "message": "Nenhuma configuração encontrada para backup."
   },
   "@ACF_BACKUP__ERROR_NO_CONTENT": {
-    "message": "Nenhum conteúdo encontrado no arquivo"
+    "message": "Nenhum conteúdo encontrado no arquivo."
   },
   "@PORT__ACTION_NOT_FOUND": {
     "message": "não está configurado"
   },
   "@PORT__METHOD_NOT_FOUND": {
-    "message": "método de processo não foi encontrado"
+    "message": "O método de processamento não foi encontrado."
   },
   "@CONTEXT_MENU__FIELD": {
-    "message": "★ Configurar para este campo"
+    "message": "⊕ Configurar para este campo"
   },
   "@CONTEXT_MENU__FIELD_POSITION": {
     "message": "⌖ Configurar por posição"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Painel Lateral/☉ Gravação"
+    "message": "▤ Painel lateral / ☉ Gravação"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Pergunte à IA"
@@ -78,13 +78,13 @@
     "message": "Não foi possível obter uma resposta. Por favor, tente novamente."
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ELEMENT": {
-    "message": "Selecione o(s) elemento(s)"
+    "message": "Selecionar elementos"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_SELECT_ANOTHER": {
     "message": "Selecione outro elemento"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_PICKING": {
-    "message": "Clique nos elementos da página… (clique para parar)"
+    "message": "Clique nos elementos da página... (clique para parar)"
   },
   "@SIDE_PANEL__PAGE_CONTEXT_REMOVE": {
     "message": "Remover"
@@ -123,10 +123,10 @@
     "message": "↗ Abrir página de configuração"
   },
   "@TABS__TITLE": {
-    "message": "Guias"
+    "message": "Abas"
   },
   "@TABS__ERROR": {
-    "message": "Não foi possível localizar a guia ou o ID da guia especificado."
+    "message": "Não foi possível localizar a guia ou o ID da guia especificados."
   },
   "@ACTION__TITLE": {
     "message": "Etapa"
@@ -150,22 +150,22 @@
     "message": "Automação"
   },
   "@ERROR__ELEMENT_FINDER_BLANK": {
-    "message": "O Localizador de elementos está em branco"
+    "message": "O Localizador de Elementos está em branco."
   },
   "@ERROR__NO_MATCH": {
-    "message": "condição não correspondeu."
+    "message": "A condição não correspondia."
   },
   "@ERROR__WRONG_TITLE": {
     "message": "Comparação incorreta"
   },
   "@ERROR__WRONG_DESCRIPTION": {
-    "message": "Operadores maiores ou menores que só podem comparar números"
+    "message": "Os operadores \"maior que\" ou \"menor que\" só podem comparar números."
   },
   "@ERROR__ELEMENT_FINDER_TITLE": {
-    "message": "Localizador de elemento ou condição de complemento incorreto"
+    "message": "Localizador de elemento ou condição de complemento incorretos"
   },
   "@ERROR__ELEMENT_FINDER_DESCRIPTION": {
-    "message": "O Element Finder deve ter como alvo uma caixa de seleção"
+    "message": "O Localizador de Elementos deve selecionar uma caixa de seleção."
   },
   "@ERROR__INVALID_ELEMENT_FINDER": {
     "message": "Localizador de elemento inválido"
@@ -177,13 +177,13 @@
     "message": "Não encontrado - RECARREGAR"
   },
   "@ERROR__ACTION_NOT_FOUND_FOR_GOTO": {
-    "message": "Ação não encontrada para Goto"
+    "message": "Ação não encontrada para Ir para"
   },
   "@ERROR__NO_ELEMENT_FOUND": {
-    "message": "Nenhum elemento encontrado com o seletor fornecido"
+    "message": "Nenhum elemento encontrado com o seletor fornecido."
   },
   "@ERROR__ACTION_CONDITION_CONFIG_ERROR": {
-    "message": "Acesse a página de configuração para revisar e atualizar a Condição de Ação para garantir que a configuração esteja atualizada corretamente."
+    "message": "Por favor, acesse a página de configuração para revisar e atualizar a Condição de Ação, garantindo que a configuração esteja correta."
   },
   "@CONDITION_SATISFIED": {
     "message": "Condição Satisfeita"
@@ -210,7 +210,7 @@
     "message": "espere"
   },
   "@DISABLED": {
-    "message": "Desabilitado"
+    "message": "Desativado"
   },
   "@RESULT": {
     "message": "Resultado"
@@ -225,7 +225,7 @@
     "message": "Comparar"
   },
   "@RECHECK_OPTION": {
-    "message": "Opção de verificação novamente"
+    "message": "Opção de verificação"
   },
   "@DOCS": {
     "message": "Documentos"
