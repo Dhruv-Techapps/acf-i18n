@@ -188,6 +188,7 @@
     }
   },
   "stateGuard": {
+    "operator": "Toán tử",
     "action": "Bước trước đó",
     "status": "Kết quả",
     "title": "Bảo vệ tình trạng",
@@ -358,7 +359,11 @@
   "automations": {
     "title": "Tự động hóa của tôi",
     "count": "Tự động hóa ({{count}})",
+    "sidebarCount": "Tự động hóa ({{visible}}/{{total}})",
     "search": "Tìm kiếm các quy trình tự động hóa của bạn...",
+    "noResults": "Không tìm thấy quy trình tự động hóa nào.",
+    "organize": "Tổ chức các quy trình tự động hóa",
+    "back": "Quay lại",
     "add": "Mới",
     "reorder": "Sắp xếp lại",
     "reorderByName": "Sắp xếp lại theo tên",
@@ -374,9 +379,21 @@
     "select": "Lựa chọn",
     "import": "Nhập khẩu",
     "filter": {
+      "title": "Trạng thái",
       "all": "Tất cả",
       "enabled": "Đã bật",
       "disabled": "Đã tắt"
+    },
+    "groupBy": {
+      "title": "Nhóm theo",
+      "none": "Không có",
+      "status": "Trạng thái",
+      "domain": "Miền",
+      "features": "Đặc trưng"
+    },
+    "group": {
+      "noDomain": "Không có miền",
+      "noFeatures": "Không có tính năng nào"
     },
     "confirm": {
       "delete": {
@@ -611,6 +628,189 @@
       "title": "Phím tắt",
       "content": "Nhấn phím tắt trên bàn phím để tự động nhập liệu vào trường",
       "hint": "Chữ cái đơn lẻ không có <kbd>Ctrl</kbd>, <kbd>Alt</kbd> hoặc <kbd>Shift</kbd> là không hợp lệ."
+    }
+  },
+  "glossary": {
+    "help": "{{term}} nghĩa là gì?",
+    "automationUrl": {
+      "label": "URL tự động hóa",
+      "description": "Địa chỉ trang mà quy trình tự động hóa này được phép chạy. Loại so khớp URL kiểm soát việc so sánh chính xác hay so sánh theo mẫu."
+    },
+    "waitBeforeStart": {
+      "label": "Chờ trước khi bắt đầu",
+      "description": "Khoảng thời gian mà hệ thống tự động hóa chờ sau sự kiện bắt đầu trước khi thực hiện bước đầu tiên. Một phạm vi sẽ chọn độ trễ ngẫu nhiên giữa hai giá trị này."
+    },
+    "stepDelay": {
+      "label": "Độ trễ bước",
+      "description": "Cần đợi bao lâu trước khi thực hiện bước này? Một phạm vi sẽ chọn ngẫu nhiên độ trễ giữa hai giá trị."
+    },
+    "stepName": {
+      "label": "Tên bước",
+      "description": "Tên tùy chọn giúp bạn nhận biết bước này trong trình chỉnh sửa, nhật ký, bộ bảo vệ và danh sách các bước cần thực hiện."
+    },
+    "target": {
+      "label": "Mục tiêu",
+      "description": "Mục trang mà bước này tác động lên, được xác định bằng bộ chọn CSS, XPath, ID phần tử, vị trí hoặc một công cụ tìm kiếm được hỗ trợ khác."
+    },
+    "value": {
+      "label": "Giá trị",
+      "description": "Bước này thực hiện những thao tác gì với đối tượng mục tiêu của nó, chẳng hạn như văn bản cần nhập, lệnh nhấp chuột, phần giữ chỗ hoặc lệnh giá trị được hỗ trợ khác."
+    },
+    "placeholder": {
+      "label": "chỗ giữ chỗ",
+      "description": "Một mã thông báo bên trong một Giá trị sẽ được thay thế khi quá trình tự động hóa chạy, chẳng hạn như số lô, giá trị ngẫu nhiên, văn bản từ clipboard hoặc dữ liệu từ nguồn khác."
+    },
+    "stepRepeat": {
+      "label": "Bước lặp lại",
+      "description": "Bước này sẽ được thực hiện thêm bao nhiêu lần nữa trước khi hệ thống tự động chuyển sang bước tiếp theo?"
+    },
+    "stepInterval": {
+      "label": "Khoảng thời gian bước",
+      "description": "Khoảng thời gian chờ giữa các lần lặp lại bước này. Mỗi lần sẽ chọn một khoảng thời gian chờ ngẫu nhiên."
+    },
+    "loop": {
+      "label": "Vòng lặp",
+      "description": "Chạy lại toàn bộ quy trình tự động sau khi tất cả các bước hoàn tất. Điều này khác với chức năng Lặp lại, chỉ lặp lại một bước duy nhất."
+    },
+    "batch": {
+      "label": "Lô",
+      "description": "Tên gọi cũ của một vòng lặp tự động hóa. Phần giữ chỗ batchRepeat cũ giống với loopRepeat, chứa số vòng lặp hiện tại."
+    },
+    "loopRefresh": {
+      "label": "Làm mới vòng lặp",
+      "description": "Tải lại trang sau khi tất cả các bước hoàn tất. Quá trình tự động hóa có thể bắt đầu lại sau khi trang được tải lại."
+    },
+    "loopRepeat": {
+      "label": "Lặp lại",
+      "description": "Cần thực hiện lại tất cả các bước bao nhiêu lần mà không cần tải lại trang?"
+    },
+    "loopInterval": {
+      "label": "Khoảng thời gian lặp",
+      "description": "Khoảng thời gian chờ giữa các lần chạy tự động hoàn chỉnh. Một phạm vi sẽ chọn ngẫu nhiên thời gian chờ cho mỗi vòng lặp."
+    },
+    "pageGuard": {
+      "label": "Người bảo vệ trang",
+      "description": "Kiểm tra một giá trị trên trang hiện tại trước khi một bước thực thi được chạy. Bước này chỉ được chạy khi phép so sánh đã cấu hình thành công."
+    },
+    "guardTarget": {
+      "label": "Mục tiêu bảo vệ trang",
+      "description": "Mục trên trang có văn bản, giá trị, trạng thái được chọn hoặc thuộc tính được kiểm tra trước khi bước thực thi diễn ra."
+    },
+    "guardCondition": {
+      "label": "So sánh Page Guard",
+      "description": "Quy tắc được sử dụng để so sánh giá trị tìm thấy trên trang với các phép so sánh thông thường như Bằng, Chứa hoặc Lớn hơn."
+    },
+    "guardValue": {
+      "label": "So sánh với",
+      "description": "Giá trị kỳ vọng được sử dụng bởi phép so sánh Page Guard. Bước được bảo vệ sẽ chạy khi phép so sánh thành công."
+    },
+    "valueExtractor": {
+      "label": "Công cụ trích xuất giá trị",
+      "description": "Bộ chọn thuộc tính tùy chọn hoặc biểu thức chính quy chỉ trích xuất phần giá trị trang mà bạn muốn so sánh."
+    },
+    "guardRecheck": {
+      "label": "Kiểm tra lại",
+      "description": "Page Guard sẽ kiểm tra điều kiện thêm bao nhiêu lần khi điều kiện chưa được đáp ứng? Tùy chọn \"Không giới hạn\" sẽ tiếp tục kiểm tra cho đến khi điều kiện được đáp ứng hoặc quá trình tự động hóa dừng lại."
+    },
+    "guardRecheckInterval": {
+      "label": "Khoảng thời gian kiểm tra lại của người gác",
+      "description": "Page Guard chờ bao lâu trước khi kiểm tra lại trạng thái trang? Một phạm vi sẽ chọn ngẫu nhiên thời gian chờ mỗi lần."
+    },
+    "conditionGuard": {
+      "label": "Bảo vệ tình trạng",
+      "description": "Chức năng này kiểm soát việc bước này có được thực thi dựa trên kết quả của một hoặc nhiều bước trước đó hay không. Chức năng này còn được gọi là Step Guard (Bộ điều khiển bước)."
+    },
+    "guardOperator": {
+      "label": "Toán tử điều kiện",
+      "description": "Kết hợp các quy tắc bảo vệ. VÀ yêu cầu quy tắc này và quy tắc trước đó phải khớp; HOẶC cho phép một trong hai quy tắc khớp."
+    },
+    "previousStep": {
+      "label": "Bước trước đó",
+      "description": "Bước trước đó mà kết quả hoàn thành của nó được kiểm tra bởi Điều kiện Kiểm tra này."
+    },
+    "stepResult": {
+      "label": "Kết quả bước",
+      "description": "Để quy tắc bảo vệ này khớp với kết quả mà bước trước đó đã chọn phải có, chẳng hạn như hoàn thành hoặc lỗi."
+    },
+    "stepSettings": {
+      "label": "Cài đặt bước",
+      "description": "Chỉ ghi đè hành vi thử lại và trang nhúng cho bước này, mà không thay đổi các thiết lập mặc định được sử dụng bởi các bước khác."
+    },
+    "embeddedPages": {
+      "label": "Trang nhúng",
+      "description": "Các khung được nhúng bên trong trang hiện tại, thường được gọi là iframe. Kích hoạt tùy chọn này sẽ tìm kiếm các khung đó trước trang chính."
+    },
+    "retryAttempts": {
+      "label": "Số lần thử lại",
+      "description": "Cần thực hiện thêm bao nhiêu lần tìm kiếm mục tiêu bị thiếu trước khi áp dụng hành động xử lý lỗi đã chọn?"
+    },
+    "retryInterval": {
+      "label": "Khoảng thời gian thử lại",
+      "description": "Cần đợi bao lâu trước khi tìm kiếm mục tiêu bị mất một lần nữa? Hệ thống sẽ chọn ngẫu nhiên thời gian chờ cho mỗi lần thử lại."
+    },
+    "runMode": {
+      "label": "Chế độ chạy",
+      "description": "Tùy chọn này điều khiển việc tự động hóa bắt đầu tự động từ các sự kiện trên trang hay thủ công khi bạn nhấn phím tắt của nó."
+    },
+    "hotkey": {
+      "label": "Phím tắt",
+      "description": "Phím tắt này khởi động quy trình tự động hóa khi Chế độ chạy là Thủ công."
+    },
+    "pageLoadTiming": {
+      "label": "Thời gian tải trang",
+      "description": "Chọn sự kiện trang trình duyệt nào sẽ bắt đầu quá trình tự động hóa: khi tài liệu đã sẵn sàng hoặc sau khi toàn bộ trang tải xong."
+    },
+    "pageNavigation": {
+      "label": "Điều hướng trang",
+      "description": "Chức năng này tự động thực thi khi một trang web thay đổi URL mà không cần tải lại toàn bộ trang, như nhiều ứng dụng một trang (SPA) thường làm."
+    },
+    "googleSheetsId": {
+      "label": "ID Google Sheets",
+      "description": "Phần duy nhất của URL Google Sheets dùng để xác định bảng tính được sử dụng bởi các lệnh Giá trị của Google Sheets."
+    },
+    "startTime": {
+      "label": "Thời gian bắt đầu",
+      "description": "Thời gian trong ngày theo định dạng HH:mm:ss.sss dùng để giới hạn thời điểm tự động hóa có thể bắt đầu."
+    },
+    "urlMatchType": {
+      "label": "Loại khớp URL",
+      "description": "Tùy chọn này điều khiển cách so sánh URL tự động hóa: URL chính xác yêu cầu địa chỉ giống hệt nhau, trong khi so khớp mẫu chấp nhận một mẫu biểu thức chính quy."
+    },
+    "bypassHotkeys": {
+      "label": "Vượt qua hành vi phím tắt của trình duyệt",
+      "description": "Ngăn chặn các hộp thoại cảnh báo, xác nhận hoặc nhắc nhở tương ứng chiếm quyền điều khiển phím tắt tự động hóa đã được cấu hình."
+    },
+    "schedule": {
+      "label": "Lịch trình",
+      "description": "Khởi chạy quy trình tự động vào ngày và giờ đã cấu hình thay vì chỉ dựa vào việc tải trang hoặc phím tắt thủ công."
+    },
+    "scheduleRepeat": {
+      "label": "Lịch trình lặp lại",
+      "description": "Cần đợi bao nhiêu phút trước khi khởi động lại quy trình tự động theo lịch trình?"
+    },
+    "monitor": {
+      "label": "Giám sát",
+      "description": "Chương trình sẽ theo dõi một phần của trang để tìm các mục phù hợp mới được thêm vào hoặc thay đổi và chạy lại quy trình tự động hóa khi phát hiện thấy sự thay đổi."
+    },
+    "monitorRoot": {
+      "label": "Giám sát Root",
+      "description": "Bộ chọn CSS cho vùng chứa trang cần theo dõi. Sử dụng vùng chứa hẹp sẽ tránh phản ứng với các thay đổi trang không liên quan."
+    },
+    "monitorAttributes": {
+      "label": "Thuộc tính giám sát",
+      "description": "Một danh sách các thuộc tính của phần tử được phân tách bằng dấu phẩy, mà sự thay đổi của chúng sẽ kích hoạt quá trình giám sát, chẳng hạn như class, style hoặc hidden."
+    },
+    "debounce": {
+      "label": "Debounce",
+      "description": "Chờ cho đến khi các thay đổi trang nhanh chóng ổn định trước khi xử lý, do đó, một loạt các cập nhật sẽ chỉ kích hoạt một lần chạy tự động hóa thay vì nhiều lần."
+    },
+    "monitorTimeout": {
+      "label": "Thời gian chờ giám sát",
+      "description": "Tự động dừng giám sát sau khoảng thời gian này để hệ thống tự động không theo dõi trang liên tục."
+    },
+    "monitorUrlChange": {
+      "label": "Dừng lại khi thay đổi URL",
+      "description": "Dừng trình giám sát đang hoạt động khi địa chỉ trang thay đổi, ngăn không cho nó được chuyển sang chế độ xem khác."
     }
   },
   "common": {

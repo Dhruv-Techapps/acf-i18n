@@ -188,6 +188,7 @@
     }
   },
   "stateGuard": {
+    "operator": "연산자",
     "action": "이전 단계",
     "status": "결과",
     "title": "조건 가드",
@@ -358,7 +359,11 @@
   "automations": {
     "title": "내 자동화",
     "count": "자동화({{count}})",
+    "sidebarCount": "자동화({{visible}}/{{total}})",
     "search": "자동화 기능을 검색하세요...",
+    "noResults": "자동화 기능이 발견되지 않았습니다.",
+    "organize": "자동화를 구성하세요",
+    "back": "뒤로",
     "add": "새로운",
     "reorder": "순서 변경",
     "reorderByName": "이름으로 재정렬",
@@ -374,9 +379,21 @@
     "select": "선택하다",
     "import": "수입",
     "filter": {
+      "title": "상태",
       "all": "모두",
       "enabled": "활성화됨",
       "disabled": "비활성화됨"
+    },
+    "groupBy": {
+      "title": "그룹화 기준",
+      "none": "없음",
+      "status": "상태",
+      "domain": "도메인",
+      "features": "특징"
+    },
+    "group": {
+      "noDomain": "도메인 없음",
+      "noFeatures": "특징 없음"
     },
     "confirm": {
       "delete": {
@@ -611,6 +628,189 @@
       "title": "단축키",
       "content": "키보드 단축키를 눌러 입력란을 자동으로 채우세요.",
       "hint": "<kbd>Ctrl</kbd>, <kbd>Alt</kbd> 또는 <kbd>Shift</kbd>가 포함되지 않은 단일 문자는 유효하지 않습니다."
+    }
+  },
+  "glossary": {
+    "help": "{{term}}는 무슨 뜻인가요?",
+    "automationUrl": {
+      "label": "자동화 URL",
+      "description": "이 자동화가 실행될 수 있는 페이지 주소입니다. URL 일치 유형은 정확히 비교할지 또는 패턴으로 비교할지를 제어합니다."
+    },
+    "waitBeforeStart": {
+      "label": "시작하기 전에 기다리세요",
+      "description": "자동화가 시작 이벤트 후 첫 번째 단계를 실행하기 전에 대기하는 시간입니다. 범위는 두 값 사이의 임의의 지연 시간을 선택합니다."
+    },
+    "stepDelay": {
+      "label": "스텝 딜레이",
+      "description": "이 단계를 실행하기 전에 얼마나 기다릴지 지정합니다. 범위는 두 값 사이의 임의의 지연 시간을 선택합니다."
+    },
+    "stepName": {
+      "label": "단계 이름",
+      "description": "편집기, 로그, 보호 장치 및 '단계로 이동' 목록에서 이 단계를 쉽게 알아볼 수 있도록 하는 선택적 이름입니다."
+    },
+    "target": {
+      "label": "목표",
+      "description": "이 단계가 적용되는 페이지 항목은 CSS 선택자, XPath, 요소 ID, 위치 또는 기타 지원되는 찾기를 통해 식별됩니다."
+    },
+    "value": {
+      "label": "값",
+      "description": "해당 단계가 입력할 텍스트, 클릭 명령, 자리 표시자 또는 기타 지원되는 값 명령과 같은 대상에 대해 수행하는 작업입니다."
+    },
+    "placeholder": {
+      "label": "자리 표시자",
+      "description": "자동화가 실행될 때 대체되는 값 내의 토큰으로, 배치 번호, 임의 값, 클립보드 텍스트 또는 다른 소스의 데이터 등이 포함될 수 있습니다."
+    },
+    "stepRepeat": {
+      "label": "단계 반복",
+      "description": "자동화가 다음 단계로 넘어가기 전에 이 개별 단계가 몇 번 더 실행됩니까?"
+    },
+    "stepInterval": {
+      "label": "단계 간격",
+      "description": "각 단계를 반복할 때 대기 시간은 얼마나 될까요? 범위는 매번 무작위로 대기 시간을 선택합니다."
+    },
+    "loop": {
+      "label": "루프",
+      "description": "모든 단계가 완료된 후 전체 자동화 프로세스를 다시 실행합니다. 이는 한 단계만 반복하는 '반복' 기능과는 다릅니다."
+    },
+    "batch": {
+      "label": "일괄",
+      "description": "자동화 루프의 이전 명칭입니다. 기존의 batchRepeat 자리 표시자는 현재 루프 번호를 포함하는 loopRepeat와 동일합니다."
+    },
+    "loopRefresh": {
+      "label": "루프 새로 고침",
+      "description": "모든 단계가 완료되면 페이지를 새로 고칩니다. 페이지가 새로 고쳐진 후 자동화를 다시 시작할 수 있습니다."
+    },
+    "loopRepeat": {
+      "label": "반복",
+      "description": "페이지를 새로고침하지 않고 모든 단계를 몇 번 반복 실행해야 하나요?"
+    },
+    "loopInterval": {
+      "label": "루프 간격",
+      "description": "완전 자동화 실행 간 대기 시간. 범위는 각 루프마다 임의의 대기 시간을 선택합니다."
+    },
+    "pageGuard": {
+      "label": "페이지 가드",
+      "description": "단계가 실행되기 전에 현재 페이지의 값을 확인합니다. 이 단계는 구성된 비교가 성공할 경우에만 실행됩니다."
+    },
+    "guardTarget": {
+      "label": "페이지 가드 타겟",
+      "description": "단계가 실행되기 전에 텍스트, 값, 선택 상태 또는 속성이 테스트되는 페이지 항목입니다."
+    },
+    "guardCondition": {
+      "label": "페이지 가드 비교",
+      "description": "페이지에서 찾은 값을 비교 대상(예: 같음, 포함, 보다 큼)과 비교하는 데 사용되는 규칙입니다."
+    },
+    "guardValue": {
+      "label": "~와 비교하세요",
+      "description": "페이지 가드 비교에 사용되는 예상 값입니다. 비교가 성공하면 가드 단계가 실행됩니다."
+    },
+    "valueExtractor": {
+      "label": "값 추출기",
+      "description": "비교하려는 페이지 값의 일부만 추출하는 선택적 속성 선택기 또는 정규 표현식입니다."
+    },
+    "guardRecheck": {
+      "label": "다시 확인하세요",
+      "description": "Page Guard는 조건이 충족되지 않았을 때 몇 번 더 조건을 확인합니까? 무제한으로 설정하면 조건이 충족되거나 자동화가 중지될 때까지 계속 확인합니다."
+    },
+    "guardRecheckInterval": {
+      "label": "가드 재점검 간격",
+      "description": "Page Guard가 페이지 상태를 다시 확인하기 전에 대기하는 시간입니다. 범위는 매번 임의의 대기 시간을 선택합니다."
+    },
+    "conditionGuard": {
+      "label": "조건 가드",
+      "description": "이 단계는 하나 이상의 이전 단계 결과에 따라 실행될지 여부를 제어합니다. 이를 단계 가드라고도 합니다."
+    },
+    "guardOperator": {
+      "label": "조건 연산자",
+      "description": "가드 규칙을 결합합니다. AND는 이 규칙과 이전 규칙이 일치해야 하며, OR는 두 규칙 중 하나라도 일치하면 됩니다."
+    },
+    "previousStep": {
+      "label": "이전 단계",
+      "description": "이 조건 가드는 이전 단계의 완료 결과를 확인합니다."
+    },
+    "stepResult": {
+      "label": "단계 결과",
+      "description": "선택한 이전 단계의 결과(예: 완료 또는 오류)가 이 가드 규칙과 일치해야 합니다."
+    },
+    "stepSettings": {
+      "label": "단계 설정",
+      "description": "이 단계에서만 재시도 및 임베디드 페이지 동작을 재정의하며, 다른 단계에서 사용하는 기본값은 변경하지 않습니다."
+    },
+    "embeddedPages": {
+      "label": "임베디드 페이지",
+      "description": "현재 페이지 안에 삽입된 프레임(일반적으로 iframe이라고 함)을 검색합니다. 이 기능을 활성화하면 메인 페이지보다 먼저 이러한 프레임을 검색합니다."
+    },
+    "retryAttempts": {
+      "label": "재시도 횟수",
+      "description": "선택한 실패 대응 조치를 적용하기 전에 누락된 대상을 추가로 몇 번 더 찾아야 합니까?"
+    },
+    "retryInterval": {
+      "label": "재시도 간격",
+      "description": "사라진 목표물을 다시 찾기 전에 얼마나 기다려야 할까요? 범위는 재시도할 때마다 무작위로 대기 시간을 선택합니다."
+    },
+    "runMode": {
+      "label": "실행 모드",
+      "description": "페이지 이벤트 발생 시 자동화가 자동으로 시작될지, 아니면 단축키를 눌러 수동으로 시작될지를 제어합니다."
+    },
+    "hotkey": {
+      "label": "단축키",
+      "description": "실행 모드가 수동일 때 이 자동화를 시작하는 키보드 단축키입니다."
+    },
+    "pageLoadTiming": {
+      "label": "페이지 로딩 시간",
+      "description": "문서가 준비되었을 때 또는 전체 페이지 로딩이 완료된 후 중 어떤 브라우저 페이지 이벤트에서 자동 자동화를 시작할지 선택합니다."
+    },
+    "pageNavigation": {
+      "label": "페이지 탐색",
+      "description": "이 프로그램은 많은 단일 페이지 애플리케이션처럼 페이지를 완전히 새로고침하지 않고 사이트의 URL이 변경될 때 자동화 기능을 실행합니다."
+    },
+    "googleSheetsId": {
+      "label": "구글 시트 ID",
+      "description": "Google Sheets URL에서 Google Sheets 값 명령에 사용되는 스프레드시트를 식별하는 고유한 부분입니다."
+    },
+    "startTime": {
+      "label": "시작 시간",
+      "description": "자동화가 시작될 수 있는 시간을 HH:mm:ss.sss 형식으로 지정합니다."
+    },
+    "urlMatchType": {
+      "label": "URL 일치 유형",
+      "description": "자동화 URL 비교 방식을 제어합니다. '정확한 URL'은 동일한 주소를 요구하고, '패턴 일치'는 정규 표현식 패턴을 허용합니다."
+    },
+    "bypassHotkeys": {
+      "label": "브라우저 단축키 동작 우회",
+      "description": "구성된 자동화 단축키를 일치하는 알림, 확인 또는 프롬프트 대화 상자가 점유하는 것을 방지합니다."
+    },
+    "schedule": {
+      "label": "일정",
+      "description": "페이지 로드 또는 수동 단축키에만 의존하는 대신, 설정된 날짜와 시간에 자동화를 시작합니다."
+    },
+    "scheduleRepeat": {
+      "label": "일정 반복",
+      "description": "예약된 자동화 작업을 다시 시작하기 전에 몇 분을 기다려야 합니까?"
+    },
+    "monitor": {
+      "label": "모니터링",
+      "description": "페이지의 특정 영역을 감시하여 새로 추가되거나 변경된 일치 항목을 찾고, 변경 사항이 감지되면 자동화를 다시 실행합니다."
+    },
+    "monitorRoot": {
+      "label": "모니터 루트",
+      "description": "감시할 페이지 컨테이너의 CSS 선택자입니다. 좁은 컨테이너를 사용하면 관련 없는 페이지 변경 사항에 반응하는 것을 방지할 수 있습니다."
+    },
+    "monitorAttributes": {
+      "label": "모니터 속성",
+      "description": "클래스, 스타일 또는 숨김 여부와 같이 변경 시 모니터링이 트리거되어야 하는 요소 속성 목록을 쉼표로 구분하여 지정합니다."
+    },
+    "debounce": {
+      "label": "Debounce",
+      "description": "페이지 변경이 빠르게 진행될 경우, 변경 사항이 안정될 때까지 기다린 후 처리하므로, 업데이트가 폭증하더라도 여러 번이 아닌 한 번의 자동화 실행만 발생합니다."
+    },
+    "monitorTimeout": {
+      "label": "모니터 타임아웃",
+      "description": "지정된 시간이 지나면 자동으로 모니터링을 중지하여 자동화 시스템이 페이지를 무기한 감시하지 않도록 합니다."
+    },
+    "monitorUrlChange": {
+      "label": "URL 변경 시 중지",
+      "description": "페이지 주소가 변경될 때 활성 모니터를 중지하여 다른 보기로 변경 사항이 유지되는 것을 방지합니다."
     }
   },
   "common": {

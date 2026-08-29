@@ -188,6 +188,7 @@
     }
   },
   "stateGuard": {
+    "operator": "算子",
     "action": "上一步",
     "status": "结果",
     "title": "状态守卫",
@@ -358,7 +359,11 @@
   "automations": {
     "title": "我的自动化",
     "count": "自动化（{{count}}）",
+    "sidebarCount": "自动化（{{visible}}/{{total}}）",
     "search": "搜索您的自动化操作……",
+    "noResults": "未找到自动化流程。",
+    "organize": "组织自动化",
+    "back": "后退",
     "add": "新的",
     "reorder": "重新排序",
     "reorderByName": "按名称重新排序",
@@ -374,9 +379,21 @@
     "select": "选择",
     "import": "导入",
     "filter": {
+      "title": "状态",
       "all": "全部",
       "enabled": "已启用",
       "disabled": "已禁用"
+    },
+    "groupBy": {
+      "title": "按分组",
+      "none": "没有任何",
+      "status": "状态",
+      "domain": "域名",
+      "features": "特征"
+    },
+    "group": {
+      "noDomain": "无域名",
+      "noFeatures": "无功能"
     },
     "confirm": {
       "delete": {
@@ -611,6 +628,189 @@
       "title": "快捷键",
       "content": "按下键盘上的快捷键即可自动在字段中输入内容",
       "hint": "缺少 <kbd>Ctrl</kbd>、<kbd>Alt</kbd> 或 <kbd>Shift</kbd> 的单个字母无效"
+    }
+  },
+  "glossary": {
+    "help": "{{term}} 是什么意思？",
+    "automationUrl": {
+      "label": "自动化 URL",
+      "description": "此自动化流程允许在以下页面地址上运行。URL 匹配类型控制是进行精确匹配还是模式匹配。"
+    },
+    "waitBeforeStart": {
+      "label": "请稍候再开始",
+      "description": "自动化程序在启动事件发生后等待多长时间才执行第一步。此范围值会随机选择一个介于两个值之间的延迟时间。"
+    },
+    "stepDelay": {
+      "label": "步骤延迟",
+      "description": "执行此步骤前需要等待多长时间？此范围选项会选择两个值之间的随机延迟时间。"
+    },
+    "stepName": {
+      "label": "步骤名称",
+      "description": "一个可选名称，可帮助您在编辑器、日志、守卫和“转到步骤”列表中识别此步骤。"
+    },
+    "target": {
+      "label": "目标",
+      "description": "此步骤操作的页面项，可通过 CSS 选择器、XPath、元素 ID、位置或其他受支持的查找器进行标识。"
+    },
+    "value": {
+      "label": "值",
+      "description": "该步骤对其目标执行的操作，例如要输入的文本、单击命令、占位符或其他受支持的值命令。"
+    },
+    "placeholder": {
+      "label": "占位符",
+      "description": "值中的标记，在自动化运行时会被替换，例如批次号、随机值、剪贴板文本或来自其他来源的数据。"
+    },
+    "stepRepeat": {
+      "label": "步骤重复",
+      "description": "在自动化流程进入下一步之前，此步骤还需要运行多少次？"
+    },
+    "stepInterval": {
+      "label": "步长间隔",
+      "description": "此步骤重复执行之间需要等待多长时间？每次都会随机选择一个等待时间范围。"
+    },
+    "loop": {
+      "label": "循环",
+      "description": "所有步骤完成后，再次运行整个自动化流程。这与“重复”不同，“重复”只会重复一个步骤。"
+    },
+    "batch": {
+      "label": "批",
+      "description": "自动化循环的旧名称。旧版 batchRepeat 占位符与 loopRepeat 相同，其中包含当前循环编号。"
+    },
+    "loopRefresh": {
+      "label": "循环刷新",
+      "description": "所有步骤完成后，页面将重新加载。页面刷新加载完毕后，自动化流程可以再次启动。"
+    },
+    "loopRepeat": {
+      "label": "循环重复",
+      "description": "在不重新加载页面的情况下，所有步骤要重复运行多少次？"
+    },
+    "loopInterval": {
+      "label": "循环间隔",
+      "description": "两次完整自动化运行之间需要等待多长时间？此范围会为每次循环选择一个随机等待时间。"
+    },
+    "pageGuard": {
+      "label": "页面保护",
+      "description": "在步骤运行之前检查当前页面上的值。仅当配置的比较成功时，该步骤才会运行。"
+    },
+    "guardTarget": {
+      "label": "页面保护目标",
+      "description": "在步骤运行之前，要测试其文本、值、选中状态或属性的页面项。"
+    },
+    "guardCondition": {
+      "label": "页面保护比较",
+      "description": "用于将页面上找到的值与“比较”规则进行比较的规则，例如“等于”、“包含”或“大于”。"
+    },
+    "guardValue": {
+      "label": "与……比较",
+      "description": "页面保护比较所使用的期望值。当比较成功时，受保护的步骤将运行。"
+    },
+    "valueExtractor": {
+      "label": "值提取器",
+      "description": "一个可选的属性选择器或正则表达式，用于提取页面值中要比较的部分。"
+    },
+    "guardRecheck": {
+      "label": "再次检查",
+      "description": "Page Guard 在条件未满足时会额外检查多少次？“无限次”设置会一直检查，直到条件满足或自动化流程停止为止。"
+    },
+    "guardRecheckInterval": {
+      "label": "防护复检间隔",
+      "description": "Page Guard 在再次检查页面状态之前等待多长时间。每次检查页面状态时，系统都会随机选择一个等待时间范围。"
+    },
+    "conditionGuard": {
+      "label": "状态守卫",
+      "description": "控制此步骤是否根据一个或多个先前步骤的结果运行。这也被称为步骤保护。"
+    },
+    "guardOperator": {
+      "label": "条件算子",
+      "description": "组合守卫规则。AND 要求此规则与前一条规则匹配；OR 允许任一规则匹配。"
+    },
+    "previousStep": {
+      "label": "上一步",
+      "description": "此条件守卫检查的是先前步骤的完成结果。"
+    },
+    "stepResult": {
+      "label": "步骤结果",
+      "description": "要使此守卫规则匹配，所选的前一步必须具有结果（例如已完成或错误）。"
+    },
+    "stepSettings": {
+      "label": "步骤设置",
+      "description": "仅覆盖此步骤的重试和嵌入页面行为，而不更改其他步骤使用的默认值。"
+    },
+    "embeddedPages": {
+      "label": "嵌入式页面",
+      "description": "嵌入在当前页面中的框架，通常称为 iframe。启用此功能后，系统会在主页面之前搜索这些框架。"
+    },
+    "retryAttempts": {
+      "label": "重试次数",
+      "description": "在应用选定的故障处理措施之前，还需要查找多少次缺失的目标？"
+    },
+    "retryInterval": {
+      "label": "重试间隔",
+      "description": "再次搜索丢失目标前需要等待多长时间？范围设置会为每次重试随机选择一个等待时间。"
+    },
+    "runMode": {
+      "label": "运行模式",
+      "description": "控制自动化操作是自动从页面事件启动，还是通过按下热键手动启动。"
+    },
+    "hotkey": {
+      "label": "快捷键",
+      "description": "当此自动化流程的运行模式为手动时，可以使用键盘快捷键启动该自动化流程。"
+    },
+    "pageLoadTiming": {
+      "label": "页面加载时间",
+      "description": "选择哪个浏览器页面事件启动自动自动化：当文档准备就绪时或在整个页面加载完成后。"
+    },
+    "pageNavigation": {
+      "label": "页面导航",
+      "description": "当网站更改其 URL 而无需完全重新加载页面时（许多单页应用程序都是如此），将运行自动化程序。"
+    },
+    "googleSheetsId": {
+      "label": "Google Sheets ID",
+      "description": "Google Sheets URL 中用于标识 Google Sheets 值命令所使用的电子表格的唯一部分。"
+    },
+    "startTime": {
+      "label": "开始时间",
+      "description": "以 HH:mm:ss.sss 格式指定的一天中的时间，用于限制自动化程序可以开始的时间。"
+    },
+    "urlMatchType": {
+      "label": "URL 匹配类型",
+      "description": "控制自动化 URL 的比较方式：精确 URL 要求地址完全相同，而模式匹配接受正则表达式模式。"
+    },
+    "bypassHotkeys": {
+      "label": "绕过浏览器热键行为",
+      "description": "防止匹配的警报、确认或提示对话框接管已配置的自动化热键。"
+    },
+    "schedule": {
+      "label": "日程",
+      "description": "在配置的日期和时间启动自动化操作，而不是仅仅依赖页面加载或手动热键。"
+    },
+    "scheduleRepeat": {
+      "label": "重复",
+      "description": "再次启动预定自动化程序前需要等待多少分钟？"
+    },
+    "monitor": {
+      "label": "监控",
+      "description": "监视页面的一部分，查找新添加或更改的匹配项，并在检测到更改时再次运行自动化程序。"
+    },
+    "monitorRoot": {
+      "label": "监控根目录",
+      "description": "用于监听页面容器的 CSS 选择器。使用窄容器可以避免对无关的页面更改做出反应。"
+    },
+    "monitorAttributes": {
+      "label": "监控属性",
+      "description": "以逗号分隔的元素属性列表，这些属性的更改应触发监视，例如 class、style 或 hidden。"
+    },
+    "debounce": {
+      "label": "Debounce",
+      "description": "等待页面快速变化稳定下来后再进行处理，因此，大量更新只会触发一次自动化运行，而不是多次运行。"
+    },
+    "monitorTimeout": {
+      "label": "监控超时",
+      "description": "经过此分钟数后自动停止监控，以防止自动化程序无限期地监视页面。"
+    },
+    "monitorUrlChange": {
+      "label": "URL 更改时停止",
+      "description": "当页面地址改变时，停止活动监视器，防止其转移到其他视图。"
     }
   },
   "common": {

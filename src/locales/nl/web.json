@@ -188,6 +188,7 @@
     }
   },
   "stateGuard": {
+    "operator": "Operator",
     "action": "Vorige stap",
     "status": "Resultaat",
     "title": "Condition Guard",
@@ -358,7 +359,11 @@
   "automations": {
     "title": "Mijn automatiseringen",
     "count": "Automatiseringen ({{count}})",
+    "sidebarCount": "Automatiseringen ({{visible}}/{{total}})",
     "search": "Zoek in uw automatiseringen...",
+    "noResults": "Geen automatiseringen gevonden.",
+    "organize": "Organiseer automatiseringen",
+    "back": "Terug",
     "add": "Nieuw",
     "reorder": "Herschikken",
     "reorderByName": "Sorteren op naam",
@@ -374,9 +379,21 @@
     "select": "Select",
     "import": "Importeren",
     "filter": {
+      "title": "Status",
       "all": "Alle",
       "enabled": "Ingeschakeld",
       "disabled": "Uitgeschakeld"
+    },
+    "groupBy": {
+      "title": "Groeperen op",
+      "none": "Geen",
+      "status": "Status",
+      "domain": "Domein",
+      "features": "Functies"
+    },
+    "group": {
+      "noDomain": "Geen domein",
+      "noFeatures": "Geen kenmerken"
     },
     "confirm": {
       "delete": {
@@ -611,6 +628,189 @@
       "title": "Sneltoets",
       "content": "Druk op de sneltoets op het toetsenbord om het veld automatisch in te vullen.",
       "hint": "Een enkele letter zonder <kbd>Ctrl</kbd>, <kbd>Alt</kbd> of <kbd>Shift</kbd> is niet geldig."
+    }
+  },
+  "glossary": {
+    "help": "Wat betekent {{term}}?",
+    "automationUrl": {
+      "label": "Automatisering-URL",
+      "description": "Het paginaadres waarop deze automatisering mag worden uitgevoerd. Het URL-matchtype bepaalt of er een exacte vergelijking of een patroonvergelijking plaatsvindt."
+    },
+    "waitBeforeStart": {
+      "label": "Wacht voordat je begint",
+      "description": "Hoe lang de automatisering wacht na de startgebeurtenis voordat de eerste stap wordt uitgevoerd. Een bereik kiest een willekeurige vertraging tussen de twee waarden."
+    },
+    "stepDelay": {
+      "label": "Stapvertraging",
+      "description": "Hoe lang moet er gewacht worden voordat deze stap wordt uitgevoerd? Een bereik kiest een willekeurige vertraging tussen de twee waarden."
+    },
+    "stepName": {
+      "label": "Stapnaam",
+      "description": "Een optionele naam waarmee u deze stap kunt herkennen in de editor, logboeken, beveiligingen en 'Ga naar stap'-lijsten."
+    },
+    "target": {
+      "label": "Doel",
+      "description": "Het pagina-item waarop deze stap wordt uitgevoerd, wordt geïdentificeerd met een CSS-selector, XPath, element-ID, positie of een andere ondersteunde zoekmethode."
+    },
+    "value": {
+      "label": "Waarde",
+      "description": "Wat de stap doet met het doel ervan, zoals in te voeren tekst, een klikopdracht, een placeholder of een andere ondersteunde waardeopdracht."
+    },
+    "placeholder": {
+      "label": "Plaatsaanduiding",
+      "description": "Een token binnen een waarde die wordt vervangen wanneer de automatisering wordt uitgevoerd, zoals een batchnummer, een willekeurige waarde, tekst uit het klembord of gegevens uit een andere bron."
+    },
+    "stepRepeat": {
+      "label": "Stapherhaling",
+      "description": "Hoeveel keer deze individuele stap nog wordt uitgevoerd voordat de automatisering naar de volgende stap overgaat."
+    },
+    "stepInterval": {
+      "label": "Stapinterval",
+      "description": "Hoe lang moet er gewacht worden tussen herhalingen van deze afzonderlijke stap? Een bereik kiest elke keer een willekeurige wachttijd."
+    },
+    "loop": {
+      "label": "Lus",
+      "description": "Voert de volledige automatisering opnieuw uit nadat alle stappen zijn voltooid. Dit is anders dan Herhalen, waarbij slechts één stap wordt herhaald."
+    },
+    "batch": {
+      "label": "Partij",
+      "description": "De oudere naam voor een automatiseringslus. De oude placeholder batchRepeat is hetzelfde als loopRepeat, die het huidige lusnummer bevat."
+    },
+    "loopRefresh": {
+      "label": "Loop vernieuwen",
+      "description": "De pagina wordt opnieuw geladen nadat alle stappen zijn voltooid. De automatisering kan opnieuw starten nadat de vernieuwde pagina is geladen."
+    },
+    "loopRepeat": {
+      "label": "Lusherhaling",
+      "description": "Hoe vaak moeten alle stappen opnieuw worden uitgevoerd zonder de pagina opnieuw te laden?"
+    },
+    "loopInterval": {
+      "label": "Lusinterval",
+      "description": "Hoe lang moet er gewacht worden tussen volledige automatiseringsruns? Een bereik kiest een willekeurige wachttijd voor elke lus."
+    },
+    "pageGuard": {
+      "label": "Paginabeveiliging",
+      "description": "Controleert een waarde op de huidige pagina voordat een stap wordt uitgevoerd. De stap wordt alleen uitgevoerd als de geconfigureerde vergelijking slaagt."
+    },
+    "guardTarget": {
+      "label": "Page Guard Target",
+      "description": "Het pagina-item waarvan de tekst, waarde, aangevinkte status of eigenschap wordt gecontroleerd voordat de stap wordt uitgevoerd."
+    },
+    "guardCondition": {
+      "label": "Vergelijking van paginabeschermers",
+      "description": "De regel die wordt gebruikt om de waarde op de pagina te vergelijken met 'Vergelijken met', zoals 'Gelijk aan', 'Bevat' of 'Groter dan'."
+    },
+    "guardValue": {
+      "label": "Vergelijk met",
+      "description": "De verwachte waarde die wordt gebruikt door de Page Guard-vergelijking. De beveiligde stap wordt uitgevoerd wanneer de vergelijking slaagt."
+    },
+    "valueExtractor": {
+      "label": "Waarde-extractor",
+      "description": "Een optionele attribuutselector of reguliere expressie die alleen het deel van de paginawaarde extraheert dat u wilt vergelijken."
+    },
+    "guardRecheck": {
+      "label": "Controleer het nogmaals",
+      "description": "Hoeveel extra keren controleert Page Guard de voorwaarde als deze nog niet is voldaan? Onbeperkt blijft controleren totdat de voorwaarde is voldaan of de automatisering stopt."
+    },
+    "guardRecheckInterval": {
+      "label": "Interval voor hercontrole van de bewaking",
+      "description": "Hoe lang Page Guard wacht voordat de paginastatus opnieuw wordt gecontroleerd. Een bereik kiest elke keer een willekeurige wachttijd."
+    },
+    "conditionGuard": {
+      "label": "Condition Guard",
+      "description": "Hiermee wordt bepaald of deze stap wordt uitgevoerd op basis van het resultaat van een of meer voorgaande stappen. Dit wordt ook wel een stapbeveiliging genoemd."
+    },
+    "guardOperator": {
+      "label": "Condition Operator",
+      "description": "Combineert verdedigingsregels. EN vereist dat deze regel en de vorige regel overeenkomen; OF staat toe dat een van beide regels overeenkomt."
+    },
+    "previousStep": {
+      "label": "Vorige stap",
+      "description": "De voorgaande stap waarvan het voltooiingsresultaat door deze Condition Guard wordt gecontroleerd."
+    },
+    "stepResult": {
+      "label": "Stapresultaat",
+      "description": "De uitkomst van de geselecteerde vorige stap, zoals 'voltooid' of 'fout', moet voldoen aan deze controleregel."
+    },
+    "stepSettings": {
+      "label": "Stapinstellingen",
+      "description": "Deze wijziging overschrijft het gedrag voor opnieuw proberen en ingesloten pagina's alleen voor deze stap, zonder de standaardinstellingen van andere stappen te wijzigen."
+    },
+    "embeddedPages": {
+      "label": "Ingesloten pagina's",
+      "description": "Frames die in de huidige pagina zijn ingesloten, worden vaak iframes genoemd. Door deze optie in te schakelen, worden deze frames doorzocht vóór de hoofdpagina."
+    },
+    "retryAttempts": {
+      "label": "Herhaalpogingen",
+      "description": "Hoeveel extra pogingen moeten er worden gedaan om een ontbrekend doel te vinden voordat de geselecteerde foutafhandeling wordt uitgevoerd?"
+    },
+    "retryInterval": {
+      "label": "Interval voor herpoging",
+      "description": "Hoe lang moet er gewacht worden voordat er opnieuw naar een ontbrekend doelwit gezocht wordt? Een bereik kiest een willekeurige wachttijd voor elke herhaalpoging."
+    },
+    "runMode": {
+      "label": "Uitvoeringsmodus",
+      "description": "Hiermee bepaalt u of een automatisering automatisch start bij pagina-evenementen of handmatig wanneer u de bijbehorende sneltoets indrukt."
+    },
+    "hotkey": {
+      "label": "Sneltoets",
+      "description": "Een sneltoets waarmee deze automatisering wordt gestart wanneer de uitvoeringsmodus op Handmatig staat."
+    },
+    "pageLoadTiming": {
+      "label": "Laadtijd van de pagina",
+      "description": "Hiermee kunt u kiezen welke gebeurtenis op de browserpagina een automatische automatisering start: wanneer het document gereed is of nadat de volledige pagina is geladen."
+    },
+    "pageNavigation": {
+      "label": "Paginanavigatie",
+      "description": "De automatisering wordt uitgevoerd wanneer een website zijn URL wijzigt zonder de pagina volledig opnieuw te laden, zoals veel single-page applicaties doen."
+    },
+    "googleSheetsId": {
+      "label": "Google Sheets ID",
+      "description": "Het unieke deel van een Google Sheets-URL dat de spreadsheet identificeert die wordt gebruikt door Google Sheets-waardeopdrachten."
+    },
+    "startTime": {
+      "label": "Starttijd",
+      "description": "Een tijdstip in het formaat HH:mm:ss.sss dat bepaalt wanneer de automatisering mag starten."
+    },
+    "urlMatchType": {
+      "label": "URL-overeenkomsttype",
+      "description": "Hiermee wordt bepaald hoe de automatiserings-URL wordt vergeleken: 'Exacte URL' vereist hetzelfde adres, terwijl 'Patroonovereenkomst' een reguliere expressie accepteert."
+    },
+    "bypassHotkeys": {
+      "label": "Browser-sneltoetsgedrag omzeilen",
+      "description": "Voorkomt dat overeenkomende waarschuwings-, bevestigings- of promptdialoogvensters de geconfigureerde automatiseringssneltoets overnemen."
+    },
+    "schedule": {
+      "label": "Schema",
+      "description": "Start een automatisering op de ingestelde datum en tijd, in plaats van alleen te vertrouwen op het laden van de pagina of een handmatige sneltoets."
+    },
+    "scheduleRepeat": {
+      "label": "Herhaling van het schema",
+      "description": "Hoeveel minuten moet ik wachten voordat ik de geplande automatisering opnieuw kan starten?"
+    },
+    "monitor": {
+      "label": "Monitoring",
+      "description": "Het systeem controleert een deel van een pagina op nieuw toegevoegde of gewijzigde overeenkomende items en voert de automatisering opnieuw uit wanneer er wijzigingen worden gedetecteerd."
+    },
+    "monitorRoot": {
+      "label": "Monitor Root",
+      "description": "De CSS-selector voor de paginacontainer die in de gaten gehouden moet worden. Door een smalle container te gebruiken, wordt voorkomen dat er gereageerd wordt op irrelevante paginawijzigingen."
+    },
+    "monitorAttributes": {
+      "label": "Monitorkenmerken",
+      "description": "Een door komma's gescheiden lijst van elementkenmerken waarvan de wijzigingen monitoring moeten activeren, zoals klasse, stijl of verborgen."
+    },
+    "debounce": {
+      "label": "Debounce",
+      "description": "Wacht tot snelle paginawijzigingen zijn gestabiliseerd voordat ze worden verwerkt, zodat een reeks updates slechts één automatiseringsrun activeert in plaats van meerdere."
+    },
+    "monitorTimeout": {
+      "label": "Monitor-time-out",
+      "description": "De monitoring stopt automatisch na dit aantal minuten, zodat de automatisering de pagina niet oneindig blijft bewaken."
+    },
+    "monitorUrlChange": {
+      "label": "Stop bij URL-wijziging",
+      "description": "Stopt de actieve monitor wanneer het paginaadres verandert, waardoor wordt voorkomen dat de wijziging wordt doorgevoerd naar een andere weergave."
     }
   },
   "common": {
