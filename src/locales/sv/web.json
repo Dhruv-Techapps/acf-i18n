@@ -188,6 +188,7 @@
     }
   },
   "stateGuard": {
+    "operator": "Operator",
     "action": "Föregående steg",
     "status": "Resultat",
     "title": "Tillståndsvakt",
@@ -358,7 +359,11 @@
   "automations": {
     "title": "Mina automatiseringar",
     "count": "Automatiseringar ({{count}})",
+    "sidebarCount": "Automatiseringar ({{visible}}/{{total}})",
     "search": "Sök bland dina automatiseringar...",
+    "noResults": "Inga automatiseringar hittades.",
+    "organize": "Organisera automatiseringar",
+    "back": "Tillbaka",
     "add": "Ny",
     "reorder": "Ordna om",
     "reorderByName": "Ordna om efter namn",
@@ -374,9 +379,21 @@
     "select": "Välja",
     "import": "Importera",
     "filter": {
+      "title": "Status",
       "all": "Alla",
       "enabled": "Aktiverad",
       "disabled": "Inaktiverad"
+    },
+    "groupBy": {
+      "title": "Gruppera efter",
+      "none": "Ingen",
+      "status": "Status",
+      "domain": "Domän",
+      "features": "Funktioner"
+    },
+    "group": {
+      "noDomain": "Ingen domän",
+      "noFeatures": "Inga funktioner"
     },
     "confirm": {
       "delete": {
@@ -611,6 +628,189 @@
       "title": "Snabbtangent",
       "content": "Tryck på snabbtangenten på tangentbordet för att skriva automatiskt i fältet",
       "hint": "En enskild bokstav utan <kbd>Ctrl</kbd>, <kbd>Alt</kbd> eller <kbd>Shift</kbd> är inte giltigt"
+    }
+  },
+  "glossary": {
+    "help": "Vad betyder {{term}}?",
+    "automationUrl": {
+      "label": "Automatiserings-URL",
+      "description": "Sidadressen som denna automatisering får köras på. URL-matchningstypen styr om den jämförs exakt eller som ett mönster."
+    },
+    "waitBeforeStart": {
+      "label": "Vänta innan start",
+      "description": "Hur länge automatiseringen väntar efter sin starthändelse innan den kör det första steget. Ett intervall väljer en slumpmässig fördröjning mellan de två värdena."
+    },
+    "stepDelay": {
+      "label": "Stegfördröjning",
+      "description": "Hur länge man ska vänta innan man kör det här steget. Ett intervall väljer en slumpmässig fördröjning mellan de två värdena."
+    },
+    "stepName": {
+      "label": "Stegnamn",
+      "description": "Ett valfritt namn som hjälper dig att känna igen det här steget i redigeraren, loggarna, vaktarna och Gå till steg-listorna."
+    },
+    "target": {
+      "label": "Mål",
+      "description": "Sidobjektet som detta steg påverkar, identifierat med en CSS-väljare, XPath, element-ID, position eller annan sökfunktion som stöds."
+    },
+    "value": {
+      "label": "Värde",
+      "description": "Vad steget gör med sitt mål, till exempel text att ange, ett klickkommando, en platshållare eller ett annat värdekommando som stöds."
+    },
+    "placeholder": {
+      "label": "Platshållare",
+      "description": "En token inuti ett värde som ersätts när automatiseringen körs, till exempel ett batchnummer, slumpmässigt värde, urklippstext eller data från en annan källa."
+    },
+    "stepRepeat": {
+      "label": "Stegupprepning",
+      "description": "Hur många ytterligare gånger detta enskilda steg körs innan automatiseringen går vidare till nästa steg."
+    },
+    "stepInterval": {
+      "label": "Stegintervall",
+      "description": "Hur lång tid det ska ta mellan upprepningar av detta individuella steg. Ett intervall väljer en slumpmässig väntetid varje gång."
+    },
+    "loop": {
+      "label": "Loop",
+      "description": "Kör hela automatiseringen igen efter att alla steg är slutförda. Detta skiljer sig från Repeat, som bara upprepar ett steg."
+    },
+    "batch": {
+      "label": "Sats",
+      "description": "Det äldre namnet för en automatiseringsloop. Den äldre platshållaren batchRepeat är densamma som loopRepeat, som innehåller det aktuella loopnumret."
+    },
+    "loopRefresh": {
+      "label": "Loopuppdatering",
+      "description": "Laddar om sidan efter att alla steg är klara. Automatiseringen kan starta igen efter att den uppdaterade sidan har laddats."
+    },
+    "loopRepeat": {
+      "label": "Loopupprepa",
+      "description": "Hur många gånger man ska köra alla steg igen utan att ladda om sidan."
+    },
+    "loopInterval": {
+      "label": "Loopintervall",
+      "description": "Hur lång tid det ska ta mellan fullständiga automatiseringskörningar. Ett intervall väljer en slumpmässig väntetid för varje loop."
+    },
+    "pageGuard": {
+      "label": "Sidvakt",
+      "description": "Kontrollerar ett värde på den aktuella sidan innan ett steg körs. Steget körs bara när den konfigurerade jämförelsen lyckas."
+    },
+    "guardTarget": {
+      "label": "Sidskyddsmål",
+      "description": "Det sidobjekt vars text, värde, kontrollerat tillstånd eller attribut testas innan steget körs."
+    },
+    "guardCondition": {
+      "label": "Jämförelse av Page Guard",
+      "description": "Regeln som används för att jämföra värdet på sidan med Jämför med, till exempel Lika med, Innehåller eller Större än."
+    },
+    "guardValue": {
+      "label": "Jämför med",
+      "description": "Det förväntade värdet som används av Page Guard-jämförelsen. Det skyddade steget körs när jämförelsen lyckas."
+    },
+    "valueExtractor": {
+      "label": "Värdeutdragare",
+      "description": "En valfri attributväljare eller ett reguljärt uttryck som bara extraherar den del av sidvärdet du vill jämföra."
+    },
+    "guardRecheck": {
+      "label": "Kontrollera igen",
+      "description": "Hur många ytterligare gånger Page Guard kontrollerar villkoret när det ännu inte är uppfyllt. Unlimited fortsätter att kontrollera tills det lyckas eller automatiseringen stoppas."
+    },
+    "guardRecheckInterval": {
+      "label": "Intervall för återkontroll av vakt",
+      "description": "Hur länge Page Guard väntar innan sidans skick kontrolleras igen. Ett intervall väljer en slumpmässig väntetid varje gång."
+    },
+    "conditionGuard": {
+      "label": "Tillståndsvakt",
+      "description": "Styr om det här steget körs baserat på resultatet av ett eller flera tidigare steg. Detta kallas även stegskydd."
+    },
+    "guardOperator": {
+      "label": "Villkorsoperator",
+      "description": "Kombinerar skyddsregler. OCH kräver att denna regel och den föregående regeln matchar; ELLER tillåter att endera reglerna matchar."
+    },
+    "previousStep": {
+      "label": "Föregående steg",
+      "description": "Det tidigare steget vars slutföranderesultat kontrolleras av denna Condition Guard."
+    },
+    "stepResult": {
+      "label": "Stegresultat",
+      "description": "Resultatet som det valda föregående steget måste ha, till exempel slutfört eller fel, för att denna skyddsregel ska matcha."
+    },
+    "stepSettings": {
+      "label": "Steginställningar",
+      "description": "Åsidosätter återförsök och beteendet för inbäddade sidor endast för detta steg, utan att ändra standardvärdena som används av andra steg."
+    },
+    "embeddedPages": {
+      "label": "Inbäddade sidor",
+      "description": "Ramar inbäddade på den aktuella sidan, vanligtvis kallade iframes. Om du aktiverar detta söks dessa ramar igenom före huvudsidan."
+    },
+    "retryAttempts": {
+      "label": "Återförsök",
+      "description": "Hur många ytterligare gånger som ska letas efter ett saknat mål innan den valda felåtgärden tillämpas."
+    },
+    "retryInterval": {
+      "label": "Intervall för återförsök",
+      "description": "Hur länge man ska vänta innan man letar efter ett saknat mål igen. Ett intervall väljer en slumpmässig väntetid för varje försök."
+    },
+    "runMode": {
+      "label": "Körläge",
+      "description": "Styr om en automatisering startas automatiskt från sidans händelser eller manuellt när du trycker på dess snabbtangent."
+    },
+    "hotkey": {
+      "label": "Snabbtangent",
+      "description": "En kortkommando som startar denna automatisering när dess körläge är Manuellt."
+    },
+    "pageLoadTiming": {
+      "label": "Sidladdningstid",
+      "description": "Väljer vilken webbläsarhändelse som startar en automatisk automatisering: när dokumentet är klart eller efter att hela sidan har lästs in."
+    },
+    "pageNavigation": {
+      "label": "Sidnavigering",
+      "description": "Kör automatiseringen när en webbplats ändrar sin URL utan att ladda om sidan helt, vilket många ensidiga applikationer gör."
+    },
+    "googleSheetsId": {
+      "label": "Google Sheets-ID",
+      "description": "Den unika delen av en Google Sheets-URL som identifierar kalkylarket som används av Google Sheets Value-kommandon."
+    },
+    "startTime": {
+      "label": "Starttid",
+      "description": "En tid på dagen i formatet HH:mm:ss.sss som begränsar när automatiseringen får starta."
+    },
+    "urlMatchType": {
+      "label": "URL-matchningstyp",
+      "description": "Styr hur automatiserings-URL:en jämförs: Exakt URL kräver samma adress, medan mönstermatchning accepterar ett mönster med reguljära uttryck."
+    },
+    "bypassHotkeys": {
+      "label": "Kringgå webbläsarens snabbtangentbeteende",
+      "description": "Förhindrar att matchande aviseringar, bekräftelser eller uppmaningar tar över den konfigurerade automatiseringskommandot."
+    },
+    "schedule": {
+      "label": "Schema",
+      "description": "Startar en automatisering vid det konfigurerade datumet och tiden istället för att bara förlita sig på sidinläsning eller en manuell snabbtangent."
+    },
+    "scheduleRepeat": {
+      "label": "Schemalägg upprepning",
+      "description": "Hur många minuter man ska vänta innan den schemalagda automatiseringen startar igen."
+    },
+    "monitor": {
+      "label": "Övervakning",
+      "description": "Övervakar en del av en sida för nyligen tillagda eller ändrade matchande objekt och kör automatiseringen igen när ändringar upptäcks."
+    },
+    "monitorRoot": {
+      "label": "Övervakningsrot",
+      "description": "CSS-väljaren för sidbehållaren att bevaka. Genom att använda en smal behållare undviker man att reagera på orelaterade sidändringar."
+    },
+    "monitorAttributes": {
+      "label": "Övervakningsattribut",
+      "description": "En kommaseparerad lista över elementattribut vars ändringar ska utlösa övervakning, till exempel klass, stil eller dold."
+    },
+    "debounce": {
+      "label": "Debounce",
+      "description": "Väntar på att snabba sidändringar ska stabiliseras innan de bearbetas, så att en serie uppdateringar utlöser en automatiseringskörning istället för många."
+    },
+    "monitorTimeout": {
+      "label": "Övervakningstidsgräns",
+      "description": "Avbryter automatiskt övervakningen efter så här många minuter så att automatiseringen inte övervakar sidan på obestämd tid."
+    },
+    "monitorUrlChange": {
+      "label": "Stoppa vid URL-ändring",
+      "description": "Stoppar den aktiva övervakaren när sidadressen ändras, vilket förhindrar att den överförs till en annan vy."
     }
   },
   "common": {

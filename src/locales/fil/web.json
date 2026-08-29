@@ -188,6 +188,7 @@
     }
   },
   "stateGuard": {
+    "operator": "Operator",
     "action": "Nakaraang Hakbang",
     "status": "Resulta",
     "title": "Kondisyon ng Tagapangalaga",
@@ -358,7 +359,11 @@
   "automations": {
     "title": "Aking mga Awtomasyon",
     "count": "Mga Awtomasyon ({{count}})",
+    "sidebarCount": "Mga Awtomasyon ({{visible}}/{{total}})",
     "search": "Hanapin ang iyong mga automation...",
+    "noResults": "Walang nakitang mga automation.",
+    "organize": "Ayusin ang mga automation",
+    "back": "Balik",
     "add": "Bago",
     "reorder": "Ayusing muli",
     "reorderByName": "Muling Ayusin Ayon sa Pangalan",
@@ -374,9 +379,21 @@
     "select": "Piliin",
     "import": "I-import",
     "filter": {
+      "title": "Katayuan",
       "all": "Lahat",
       "enabled": "Pinagana",
       "disabled": "Naka-disable"
+    },
+    "groupBy": {
+      "title": "Grupo ayon sa",
+      "none": "Wala",
+      "status": "Katayuan",
+      "domain": "Domain",
+      "features": "Mga Tampok"
+    },
+    "group": {
+      "noDomain": "Walang domain",
+      "noFeatures": "Walang mga tampok"
     },
     "confirm": {
       "delete": {
@@ -611,6 +628,189 @@
       "title": "Hotkey",
       "content": "Pindutin ang hotkey sa keyboard para awtomatikong mag-type sa field",
       "hint": "Hindi wasto ang isang letra na walang <kbd>Ctrl</kbd>, <kbd>Alt</kbd> o <kbd>Shift</kbd>"
+    }
+  },
+  "glossary": {
+    "help": "Ano ang ibig sabihin ng {{term}}?",
+    "automationUrl": {
+      "label": "URL ng Awtomasyon",
+      "description": "Ang page address ang pinapayagang gamitin sa automation na ito. Kinokontrol ng URL Match Type kung ito ay eksaktong inihahambing o bilang isang pattern."
+    },
+    "waitBeforeStart": {
+      "label": "Maghintay Bago Magsimula",
+      "description": "Gaano katagal naghihintay ang automation pagkatapos ng simulang kaganapan nito bago patakbuhin ang unang hakbang. Pumipili ang isang hanay ng random na pagkaantala sa pagitan ng dalawang halaga."
+    },
+    "stepDelay": {
+      "label": "Pagkaantala ng Hakbang",
+      "description": "Gaano katagal maghintay bago patakbuhin ang hakbang na ito. Pumipili ang isang hanay ng random na pagkaantala sa pagitan ng dalawang halaga."
+    },
+    "stepName": {
+      "label": "Pangalan ng Hakbang",
+      "description": "Isang opsyonal na pangalan na makakatulong sa iyong makilala ang hakbang na ito sa editor, mga log, mga guard, at mga listahan ng Go to Step."
+    },
+    "target": {
+      "label": "Target",
+      "description": "Ang item sa pahina na gagampanan ng hakbang na ito ay kinikilala gamit ang isang CSS selector, XPath, element ID, posisyon, o iba pang sinusuportahang finder."
+    },
+    "value": {
+      "label": "Value",
+      "description": "Ang ginagawa ng hakbang sa target nito, tulad ng text na ilalagay, isang click command, isang placeholder, o iba pang sinusuportahang value command."
+    },
+    "placeholder": {
+      "label": "Placeholder",
+      "description": "Isang token sa loob ng isang Halaga na pinapalitan kapag tumatakbo ang automation, tulad ng batch number, random na halaga, teksto sa clipboard, o data mula sa ibang pinagmulan."
+    },
+    "stepRepeat": {
+      "label": "Pag-uulit ng Hakbang",
+      "description": "Ilang karagdagang beses pa tatakbo ang indibidwal na hakbang na ito bago lumipat ang automation sa susunod na hakbang."
+    },
+    "stepInterval": {
+      "label": "Pagitan ng Hakbang",
+      "description": "Gaano katagal maghintay sa pagitan ng mga pag-uulit ng indibidwal na hakbang na ito. Pumipili ang isang hanay ng random na paghihintay sa bawat pagkakataon."
+    },
+    "loop": {
+      "label": "Loop",
+      "description": "Pinapatakbo muli ang buong automation pagkatapos matapos ang lahat ng mga hakbang nito. Iba ito sa Repeat, na inuulit lamang ang isang hakbang."
+    },
+    "batch": {
+      "label": "Batch",
+      "description": "Ang mas lumang pangalan para sa isang automation Loop. Ang legacy batchRepeat placeholder ay kapareho ng loopRepeat, na naglalaman ng kasalukuyang loop number."
+    },
+    "loopRefresh": {
+      "label": "Pag-refresh ng Loop",
+      "description": "Nire-reload ang pahina pagkatapos matapos ang lahat ng hakbang. Maaaring magsimulang muli ang automation pagkatapos mag-load ang na-refresh na pahina."
+    },
+    "loopRepeat": {
+      "label": "Pag-uulit ng Loop",
+      "description": "Ilang beses patakbuhin muli ang lahat ng hakbang nang hindi nire-reload ang pahina."
+    },
+    "loopInterval": {
+      "label": "Pagitan ng Pag-ikot",
+      "description": "Gaano katagal maghintay sa pagitan ng kumpletong pagpapatakbo ng automation. Pumipili ang isang range ng random na paghihintay para sa bawat loop."
+    },
+    "pageGuard": {
+      "label": "Tagapangalaga ng Pahina",
+      "description": "Sinusuri ang isang halaga sa kasalukuyang pahina bago patakbuhin ang isang hakbang. Tatakbo lamang ang hakbang kapag nagtagumpay ang na-configure na paghahambing."
+    },
+    "guardTarget": {
+      "label": "Target ng Bantay ng Pahina",
+      "description": "Ang item ng pahina na ang teksto, halaga, nasuring estado, o katangian ay sinusubok bago patakbuhin ang hakbang."
+    },
+    "guardCondition": {
+      "label": "Paghahambing ng Page Guard",
+      "description": "Ang panuntunang ginagamit upang ihambing ang halagang matatagpuan sa pahina gamit ang Compare With, tulad ng Equals, Contains, o Greater Than."
+    },
+    "guardValue": {
+      "label": "Ihambing sa",
+      "description": "Ang inaasahang halagang ginamit ng paghahambing ng Page Guard. Ang hakbang na guarded ay tatakbo kapag nagtagumpay ang paghahambing."
+    },
+    "valueExtractor": {
+      "label": "Tagakuha ng Halaga",
+      "description": "Isang opsyonal na tagapili ng katangian o regular na ekspresyon na kumukuha lamang ng bahagi ng halaga ng pahina na nais mong ihambing."
+    },
+    "guardRecheck": {
+      "label": "Suriin Muli",
+      "description": "Ilang beses pa susuriin ng Page Guard ang kondisyon kahit hindi pa ito natutugunan. Patuloy na susuriin ng Unlimited hanggang sa magtagumpay ito o huminto ang automation."
+    },
+    "guardRecheckInterval": {
+      "label": "Pagitan ng Muling Pagsusuri ng Guwardiya",
+      "description": "Gaano katagal naghihintay ang Page Guard bago muling suriin ang kondisyon ng pahina. Pumipili ang isang hanay ng random na paghihintay sa bawat pagkakataon."
+    },
+    "conditionGuard": {
+      "label": "Kondisyon ng Tagapangalaga",
+      "description": "Kinokontrol kung ang hakbang na ito ay tatakbo batay sa resulta ng isa o higit pang mga naunang hakbang. Tinatawag din itong Step Guard."
+    },
+    "guardOperator": {
+      "label": "Operator ng Kondisyon",
+      "description": "Pinagsasama ang mga tuntunin ng bantay. AT hinihiling na magkatugma ang tuntuning ito at ang naunang tuntunin; O pinapayagan ang alinmang tuntunin na magkatugma."
+    },
+    "previousStep": {
+      "label": "Nakaraang Hakbang",
+      "description": "Ang naunang hakbang na ang resulta ng pagkumpleto ay sinusuri ng Condition Guard na ito."
+    },
+    "stepResult": {
+      "label": "Resulta ng Hakbang",
+      "description": "Ang kinalabasan na dapat taglayin ng napiling nakaraang hakbang, tulad ng nakumpleto o error, para tumugma ang guard rule na ito."
+    },
+    "stepSettings": {
+      "label": "Mga Setting ng Hakbang",
+      "description": "Ino-override ang retry at embedded-page behavior para sa hakbang na ito lamang, nang hindi binabago ang mga default na ginagamit ng iba pang mga hakbang."
+    },
+    "embeddedPages": {
+      "label": "Mga Naka-embed na Pahina",
+      "description": "Mga frame na naka-embed sa loob ng kasalukuyang pahina, karaniwang tinatawag na iframes. Ang pagpapagana nito ay maghahanap sa mga frame na iyon bago ang pangunahing pahina."
+    },
+    "retryAttempts": {
+      "label": "Mga Pagsubok na Muling Subukan",
+      "description": "Ilang beses pa kailangang hanapin ang nawawalang target bago ilapat ang napiling aksyon para sa pagkabigo."
+    },
+    "retryInterval": {
+      "label": "Pagsubok Muli",
+      "description": "Gaano katagal maghintay bago muling hanapin ang nawawalang target. Pumipili ang isang hanay ng random na paghihintay para sa bawat pagsubok muli."
+    },
+    "runMode": {
+      "label": "Mode ng Pagtakbo",
+      "description": "Kinokontrol kung awtomatikong magsisimula ang isang automation mula sa mga kaganapan sa pahina o manu-mano kapag pinindot mo ang hotkey nito."
+    },
+    "hotkey": {
+      "label": "Hotkey",
+      "description": "Isang shortcut sa keyboard na nagsisimula sa automation na ito kapag ang Run Mode nito ay Manual."
+    },
+    "pageLoadTiming": {
+      "label": "Oras ng Pag-load ng Pahina",
+      "description": "Pinipili kung aling kaganapan sa pahina ng browser ang magsisimula ng awtomatikong automation: kapag handa na ang dokumento o pagkatapos ma-load ang buong pahina."
+    },
+    "pageNavigation": {
+      "label": "Nabigasyon ng Pahina",
+      "description": "Nagpapatakbo ng automation kapag binago ng isang site ang URL nito nang hindi ganap na nire-reload ang pahina, tulad ng ginagawa ng maraming single-page na application."
+    },
+    "googleSheetsId": {
+      "label": "ID ng Google Sheets",
+      "description": "Ang natatanging bahagi ng URL ng Google Sheets na tumutukoy sa spreadsheet na ginagamit ng mga utos ng Google Sheets Value."
+    },
+    "startTime": {
+      "label": "Oras ng Pagsisimula",
+      "description": "Isang oras ng araw sa format na HH:mm:ss.sss na naglilimita kung kailan maaaring magsimula ang automation."
+    },
+    "urlMatchType": {
+      "label": "Uri ng Pagtutugma ng URL",
+      "description": "Kinokontrol kung paano inihahambing ang Automation URL: Ang eksaktong URL ay nangangailangan ng parehong address, habang ang Pattern Match ay tumatanggap ng regular-expression pattern."
+    },
+    "bypassHotkeys": {
+      "label": "Pag-iwas sa Pag-uugali ng Hotkey ng Browser",
+      "description": "Pinipigilan ang pagtutugma ng mga dialog na alerto, kumpirmahin, o prompt na pumalit sa na-configure na hotkey ng automation."
+    },
+    "schedule": {
+      "label": "Iskedyul",
+      "description": "Nagsisimula ng automation sa na-configure na petsa at oras sa halip na umasa lamang sa pag-load ng pahina o isang manual na hotkey."
+    },
+    "scheduleRepeat": {
+      "label": "Iskedyul ng Pag-uulit",
+      "description": "Ilang minuto ang kailangang hintayin bago muling simulan ang naka-iskedyul na automation."
+    },
+    "monitor": {
+      "label": "Monitoring",
+      "description": "Binabantayan ang bahagi ng isang pahina para sa mga bagong idinagdag o binagong tumutugmang item at muling pinapatakbo ang automation kapag may natukoy na mga pagbabago."
+    },
+    "monitorRoot": {
+      "label": "Subaybayan ang Ugat",
+      "description": "Ang CSS selector para sa lalagyan ng pahina na babantayan. Ang paggamit ng makitid na lalagyan ay nakakaiwas sa pagtugon sa mga hindi kaugnay na pagbabago sa pahina."
+    },
+    "monitorAttributes": {
+      "label": "Mga Katangian ng Monitor",
+      "description": "Isang listahan ng mga katangian ng elemento na pinaghihiwalay ng kuwit na ang mga pagbabago ay dapat mag-trigger ng pagsubaybay, tulad ng klase, istilo, o nakatago."
+    },
+    "debounce": {
+      "label": "Debounce",
+      "description": "Naghihintay para sa mabilis na pag-aayos ng mga pagbabago sa pahina bago iproseso ang mga ito, kaya ang isang sunod-sunod na pag-update ay nagti-trigger ng isang awtomatikong pagpapatakbo sa halip na marami."
+    },
+    "monitorTimeout": {
+      "label": "Pag-timeout ng Monitor",
+      "description": "Awtomatikong humihinto sa pagsubaybay pagkalipas ng ilang minutong ito para hindi na bantayan ng automation ang pahina nang walang hanggan."
+    },
+    "monitorUrlChange": {
+      "label": "Itigil sa Pagbabago ng URL",
+      "description": "Pinapatigil ang aktibong monitor kapag nagbago ang address ng pahina, na pumipigil dito na madala sa ibang view."
     }
   },
   "common": {

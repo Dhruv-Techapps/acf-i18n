@@ -188,6 +188,7 @@
     }
   },
   "stateGuard": {
+    "operator": "Opereta",
     "action": "Hatua Iliyotangulia",
     "status": "Matokeo",
     "title": "Mlinzi wa Hali",
@@ -358,7 +359,11 @@
   "automations": {
     "title": "Otomatiki Zangu",
     "count": "Otomatiki ({{count}})",
+    "sidebarCount": "Otomatiki ({{visible}}/{{total}})",
     "search": "Tafuta otomatiki zako...",
+    "noResults": "Hakuna otomatiki iliyopatikana.",
+    "organize": "Panga otomatiki",
+    "back": "Rudi",
     "add": "Mpya",
     "reorder": "Panga upya",
     "reorderByName": "Panga upya kwa Jina",
@@ -374,9 +379,21 @@
     "select": "Chagua",
     "import": "Ingiza",
     "filter": {
+      "title": "Hali",
       "all": "Zote",
       "enabled": "Imewezeshwa",
       "disabled": "Imezimwa"
+    },
+    "groupBy": {
+      "title": "Panga kulingana na",
+      "none": "Hakuna",
+      "status": "Hali",
+      "domain": "Kikoa",
+      "features": "Vipengele"
+    },
+    "group": {
+      "noDomain": "Hakuna kikoa",
+      "noFeatures": "Hakuna vipengele"
     },
     "confirm": {
       "delete": {
@@ -611,6 +628,189 @@
       "title": "Hotkey",
       "content": "Bonyeza kitufe cha moto kwenye kibodi ili kuandika kiotomatiki kwenye sehemu",
       "hint": "Herufi moja bila <kbd>Ctrl</kbd> , <kbd>Alt</kbd> au <kbd>Shift</kbd> si halali"
+    }
+  },
+  "glossary": {
+    "help": "{{term}} inamaanisha nini?",
+    "automationUrl": {
+      "label": "URL ya kiotomatiki",
+      "description": "Anwani ya ukurasa otomatiki hii inaruhusiwa kutumika. Aina ya Ulinganisho wa URL hudhibiti ikiwa inalinganishwa haswa au kama muundo."
+    },
+    "waitBeforeStart": {
+      "label": "Subiri Kabla ya Kuanza",
+      "description": "Muda ambao otomatiki husubiri baada ya tukio lake la kuanza kabla ya kutekeleza hatua ya kwanza. Masafa huchagua ucheleweshaji nasibu kati ya thamani hizo mbili."
+    },
+    "stepDelay": {
+      "label": "Kuchelewa kwa Hatua",
+      "description": "Muda wa kusubiri kabla ya kutekeleza hatua hii. Masafa huchagua ucheleweshaji nasibu kati ya thamani hizo mbili."
+    },
+    "stepName": {
+      "label": "Jina la Hatua",
+      "description": "Jina la hiari linalokusaidia kutambua hatua hii katika kihariri, kumbukumbu, walinzi, na orodha za Nenda kwenye Hatua."
+    },
+    "target": {
+      "label": "Lengo",
+      "description": "Kipengee cha ukurasa ambacho hatua hii hutumika, kinachotambuliwa na kiteuzi cha CSS, XPath, kitambulisho cha kipengele, nafasi, au kitafutaji kingine kinachoungwa mkono."
+    },
+    "value": {
+      "label": "Thamani",
+      "description": "Hatua hii hufanya nini na lengo lake, kama vile maandishi ya kuingiza, amri ya kubofya, kishikilia nafasi, au amri nyingine ya thamani inayoungwa mkono."
+    },
+    "placeholder": {
+      "label": "Kishikilia nafasi",
+      "description": "Tokeni iliyo ndani ya Thamani ambayo hubadilishwa wakati otomatiki inapoendeshwa, kama vile nambari ya kundi, thamani nasibu, maandishi ya ubao wa kunakili, au data kutoka chanzo kingine."
+    },
+    "stepRepeat": {
+      "label": "Kurudia Hatua",
+      "description": "Ni mara ngapi za ziada ambazo hatua hii ya mtu binafsi hutekelezwa kabla ya otomatiki kuhamia hatua inayofuata."
+    },
+    "stepInterval": {
+      "label": "Kipindi cha Hatua",
+      "description": "Muda wa kusubiri kati ya marudio ya hatua hii ya mtu binafsi. Masafa huchagua kusubiri bila mpangilio kila wakati."
+    },
+    "loop": {
+      "label": "Kitanzi",
+      "description": "Huendesha otomatiki yote tena baada ya hatua zake zote kukamilika. Hii ni tofauti na Rudia, ambayo hurudia hatua moja tu."
+    },
+    "batch": {
+      "label": "Kundi",
+      "description": "Jina la zamani la Kitanzi cha otomatiki. Kishikilia nafasi cha legacy batchRepeat ni sawa na loopRepeat, ambacho kina nambari ya kitanzi cha sasa."
+    },
+    "loopRefresh": {
+      "label": "Onyesha Upya Kitanzi",
+      "description": "Hupakia upya ukurasa baada ya hatua zote kukamilika. Otomatiki inaweza kuanza tena baada ya kupakia upya ukurasa."
+    },
+    "loopRepeat": {
+      "label": "Kurudia Kitanzi",
+      "description": "Ni mara ngapi za kuendesha hatua zote tena bila kupakia ukurasa upya."
+    },
+    "loopInterval": {
+      "label": "Kipindi cha Kitanzi",
+      "description": "Muda wa kusubiri kati ya uendeshaji kamili wa kiotomatiki. Masafa huchagua kusubiri bila mpangilio kwa kila mzunguko."
+    },
+    "pageGuard": {
+      "label": "Kilinda Ukurasa",
+      "description": "Huangalia thamani kwenye ukurasa wa sasa kabla ya hatua kutekelezwa. Hatua hiyo inatekelezwa tu wakati ulinganisho uliosanidiwa unafanikiwa."
+    },
+    "guardTarget": {
+      "label": "Lengo la Kinga ya Ukurasa",
+      "description": "Kipengee cha ukurasa ambacho maandishi, thamani, hali iliyochaguliwa, au sifa yake hujaribiwa kabla ya hatua kuanza."
+    },
+    "guardCondition": {
+      "label": "Ulinganisho wa Kinga ya Ukurasa",
+      "description": "Sheria iliyotumika kulinganisha thamani inayopatikana kwenye ukurasa na Linganisha na, kama vile Sawa, Ina, au Kubwa Kuliko."
+    },
+    "guardValue": {
+      "label": "Linganisha na",
+      "description": "Thamani inayotarajiwa inayotumiwa na ulinganisho wa Page Guard. Hatua iliyolindwa inaendeshwa wakati ulinganisho unapofanikiwa."
+    },
+    "valueExtractor": {
+      "label": "Kitoa Thamani",
+      "description": "Kiteuzi cha sifa cha hiari au usemi wa kawaida unaotoa sehemu tu ya thamani ya ukurasa unayotaka kulinganisha."
+    },
+    "guardRecheck": {
+      "label": "Angalia Tena",
+      "description": "Ni mara ngapi za ziada ambazo Page Guard huangalia hali hiyo wakati haijatimizwa. Unlimited huendelea kuangalia hadi ifanikiwe au otomatiki iache."
+    },
+    "guardRecheckInterval": {
+      "label": "Muda wa Kuangalia Upya kwa Walinzi",
+      "description": "Muda ambao Page Guard husubiri kabla ya kuangalia hali ya ukurasa tena. Masafa huchagua kusubiri bila mpangilio kila wakati."
+    },
+    "conditionGuard": {
+      "label": "Mlinzi wa Hali",
+      "description": "Hudhibiti kama hatua hii inaendeshwa kulingana na matokeo ya hatua moja au zaidi zilizopita. Hii pia huitwa Kinga ya Hatua."
+    },
+    "guardOperator": {
+      "label": "Opereta wa Hali",
+      "description": "Huchanganya sheria za ulinzi. NA inahitaji sheria hii na sheria iliyotangulia zilingane; AU inaruhusu sheria yoyote ile ilingane."
+    },
+    "previousStep": {
+      "label": "Hatua Iliyotangulia",
+      "description": "Hatua ya awali ambayo matokeo yake ya kukamilika yanaangaliwa na Mlinzi huyu wa Hali."
+    },
+    "stepResult": {
+      "label": "Matokeo ya Hatua",
+      "description": "Matokeo ambayo hatua ya awali iliyochaguliwa lazima iwe nayo, kama vile kukamilika au hitilafu, ili sheria hii ya ulinzi ilingane."
+    },
+    "stepSettings": {
+      "label": "Mipangilio ya Hatua",
+      "description": "Hubatilisha tabia ya kujaribu tena na ukurasa uliopachikwa kwa hatua hii pekee, bila kubadilisha chaguo-msingi zinazotumiwa na hatua zingine."
+    },
+    "embeddedPages": {
+      "label": "Kurasa Zilizopachikwa",
+      "description": "Fremu zilizopachikwa ndani ya ukurasa wa sasa, ambazo kwa kawaida huitwa iframes. Kuwezesha hii hutafuta fremu hizo kabla ya ukurasa mkuu."
+    },
+    "retryAttempts": {
+      "label": "Majaribio ya Kujaribu Tena",
+      "description": "Ni mara ngapi za ziada za kutafuta shabaha inayokosekana kabla ya kutumia kitendo cha kushindwa kilichochaguliwa."
+    },
+    "retryInterval": {
+      "label": "Jaribu tena Muda",
+      "description": "Muda wa kusubiri kabla ya kutafuta shabaha inayokosekana tena. Masafa huchagua kusubiri bila mpangilio kwa kila jaribio jipya."
+    },
+    "runMode": {
+      "label": "Hali ya Kukimbia",
+      "description": "Hudhibiti kama otomatiki huanza kiotomatiki kutoka kwa matukio ya ukurasa au kwa mikono unapobonyeza kitufe chake cha moto."
+    },
+    "hotkey": {
+      "label": "Hotkey",
+      "description": "Njia ya mkato ya kibodi inayoanzisha otomatiki hii wakati Hali yake ya Kuendesha ni ya Manual."
+    },
+    "pageLoadTiming": {
+      "label": "Muda wa Kupakia Ukurasa",
+      "description": "Huchagua ni tukio gani la ukurasa wa kivinjari linaloanzisha otomatiki: wakati hati iko tayari au baada ya ukurasa mzima kumaliza kupakia."
+    },
+    "pageNavigation": {
+      "label": "Urambazaji wa Ukurasa",
+      "description": "Huendesha otomatiki wakati tovuti inabadilisha URL yake bila kupakia upya ukurasa kikamilifu, kama programu nyingi za ukurasa mmoja zinavyofanya."
+    },
+    "googleSheetsId": {
+      "label": "Kitambulisho cha Majedwali ya Google",
+      "description": "Sehemu ya kipekee ya URL ya Majedwali ya Google inayotambua lahajedwali inayotumiwa na amri za Thamani ya Majedwali ya Google."
+    },
+    "startTime": {
+      "label": "Muda wa Kuanza",
+      "description": "Wakati wa siku katika umbizo la HH:mm:ss.sss unaoweka kikomo wakati otomatiki inaweza kuanza."
+    },
+    "urlMatchType": {
+      "label": "Aina ya Ulinganishaji wa URL",
+      "description": "Hudhibiti jinsi URL ya Otomatiki inavyolinganishwa: URL halisi inahitaji anwani sawa, huku Pattern Match ikikubali muundo wa usemi wa kawaida."
+    },
+    "bypassHotkeys": {
+      "label": "Tabia ya Kifunguo cha Moto cha Kivinjari cha Kupita",
+      "description": "Huzuia kulinganisha tahadhari, kuthibitisha, au kuuliza visanduku vya mazungumzo dhidi ya kuchukua ufunguo wa kiotomatiki uliosanidiwa."
+    },
+    "schedule": {
+      "label": "Ratiba",
+      "description": "Huanzisha otomatiki katika tarehe na saa iliyosanidiwa badala ya kutegemea tu upakiaji wa ukurasa au kitufe cha mwongozo."
+    },
+    "scheduleRepeat": {
+      "label": "Ratiba ya Kurudia",
+      "description": "Dakika ngapi za kusubiri kabla ya kuanza tena otomatiki iliyopangwa."
+    },
+    "monitor": {
+      "label": "Ufuatiliaji",
+      "description": "Hutazama sehemu ya ukurasa kwa vipengee vipya vilivyoongezwa au vilivyobadilishwa vinavyolingana na huendesha otomatiki tena mabadiliko yanapogunduliwa."
+    },
+    "monitorRoot": {
+      "label": "Kifuatiliaji cha Mizizi",
+      "description": "Kiteuzi cha CSS cha chombo cha ukurasa cha kutazama. Kutumia chombo chembamba huepuka kuguswa na mabadiliko ya ukurasa yasiyohusiana."
+    },
+    "monitorAttributes": {
+      "label": "Sifa za Kifuatiliaji",
+      "description": "Orodha ya sifa za vipengele iliyotenganishwa kwa koma ambayo mabadiliko yake yanapaswa kusababisha ufuatiliaji, kama vile darasa, mtindo, au siri."
+    },
+    "debounce": {
+      "label": "Debounce",
+      "description": "Husubiri mabadiliko ya haraka ya ukurasa yatulie kabla ya kuyachakata, kwa hivyo masasisho mengi husababisha utendakazi wa kiotomatiki mmoja badala ya mengi."
+    },
+    "monitorTimeout": {
+      "label": "Muda wa Kifuatiliaji Umeisha",
+      "description": "Huacha ufuatiliaji kiotomatiki baada ya dakika hizi nyingi ili otomatiki isiangalie ukurasa kwa muda usiojulikana."
+    },
+    "monitorUrlChange": {
+      "label": "Acha wakati wa Kubadilisha URL",
+      "description": "Husimamisha kifuatiliaji kinachofanya kazi wakati anwani ya ukurasa inabadilika, na kuizuia kuendelea hadi kwenye mwonekano tofauti."
     }
   },
   "common": {

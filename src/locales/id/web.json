@@ -188,6 +188,7 @@
     }
   },
   "stateGuard": {
+    "operator": "Operator",
     "action": "Langkah Sebelumnya",
     "status": "Hasil",
     "title": "Penjaga Kondisi",
@@ -358,7 +359,11 @@
   "automations": {
     "title": "Otomatisasi Saya",
     "count": "Otomatisasi ({{count}})",
+    "sidebarCount": "Otomatisasi ({{visible}}/{{total}})",
     "search": "Cari otomatisasi Anda...",
+    "noResults": "Tidak ditemukan otomatisasi.",
+    "organize": "Mengatur otomatisasi",
+    "back": "Kembali",
     "add": "Baru",
     "reorder": "Atur ulang urutan",
     "reorderByName": "Urutkan berdasarkan Nama",
@@ -374,9 +379,21 @@
     "select": "Memilih",
     "import": "Impor",
     "filter": {
+      "title": "Status",
       "all": "Semua",
       "enabled": "Diaktifkan",
       "disabled": "Dinonaktifkan"
+    },
+    "groupBy": {
+      "title": "Kelompokkan berdasarkan",
+      "none": "Tidak ada",
+      "status": "Status",
+      "domain": "Domain",
+      "features": "Fitur"
+    },
+    "group": {
+      "noDomain": "Tidak ada domain",
+      "noFeatures": "Tidak ada fitur"
     },
     "confirm": {
       "delete": {
@@ -611,6 +628,189 @@
       "title": "Tombol pintas",
       "content": "Tekan tombol pintas pada keyboard untuk mengetik otomatis di kolom.",
       "hint": "Huruf tunggal tanpa <kbd>Ctrl</kbd>, <kbd>Alt</kbd> atau <kbd>Shift</kbd> tidak valid"
+    }
+  },
+  "glossary": {
+    "help": "Apa arti {{term}}?",
+    "automationUrl": {
+      "label": "URL Otomatisasi",
+      "description": "Alamat halaman tempat otomatisasi ini diizinkan untuk dijalankan. Tipe Pencocokan URL mengontrol apakah URL dibandingkan secara tepat atau sebagai pola."
+    },
+    "waitBeforeStart": {
+      "label": "Tunggu Sebelum Memulai",
+      "description": "Lamanya waktu tunggu otomatisasi setelah peristiwa dimulainya sebelum menjalankan langkah pertama. Sebuah rentang memilih penundaan acak antara kedua nilai tersebut."
+    },
+    "stepDelay": {
+      "label": "Penundaan Langkah",
+      "description": "Berapa lama waktu tunggu sebelum menjalankan langkah ini. Sebuah rentang akan memilih penundaan acak antara kedua nilai tersebut."
+    },
+    "stepName": {
+      "label": "Nama Langkah",
+      "description": "Nama opsional yang membantu Anda mengenali langkah ini di editor, log, pengaman, dan daftar \"Lanjutkan ke Langkah\"."
+    },
+    "target": {
+      "label": "Target",
+      "description": "Item halaman yang ditindaklanjuti oleh langkah ini, diidentifikasi dengan pemilih CSS, XPath, ID elemen, posisi, atau pencari lain yang didukung."
+    },
+    "value": {
+      "label": "Nilai",
+      "description": "Apa yang dilakukan langkah tersebut terhadap targetnya, seperti teks yang akan dimasukkan, perintah klik, tempat penampung, atau perintah nilai lain yang didukung."
+    },
+    "placeholder": {
+      "label": "Placeholder",
+      "description": "Token di dalam sebuah Nilai yang akan diganti saat otomatisasi dijalankan, seperti nomor batch, nilai acak, teks clipboard, atau data dari sumber lain."
+    },
+    "stepRepeat": {
+      "label": "Ulangi Langkah",
+      "description": "Berapa kali lagi langkah individual ini dijalankan sebelum otomatisasi beralih ke langkah berikutnya."
+    },
+    "stepInterval": {
+      "label": "Interval Langkah",
+      "description": "Berapa lama waktu tunggu antara pengulangan langkah individual ini. Sebuah rentang memilih waktu tunggu secara acak setiap kali."
+    },
+    "loop": {
+      "label": "Perulangan",
+      "description": "Menjalankan kembali seluruh otomatisasi setelah semua langkahnya selesai. Ini berbeda dengan Repeat, yang hanya mengulang satu langkah."
+    },
+    "batch": {
+      "label": "Kelompok",
+      "description": "Nama lama untuk Loop otomatisasi. Placeholder batchRepeat lama sama dengan loopRepeat, yang berisi nomor loop saat ini."
+    },
+    "loopRefresh": {
+      "label": "Pembaruan Berulang",
+      "description": "Memuat ulang halaman setelah semua langkah selesai. Otomatisasi dapat dimulai kembali setelah halaman yang diperbarui dimuat."
+    },
+    "loopRepeat": {
+      "label": "Ulangi Siklus",
+      "description": "Berapa kali semua langkah harus dijalankan lagi tanpa memuat ulang halaman?"
+    },
+    "loopInterval": {
+      "label": "Interval Perulangan",
+      "description": "Berapa lama waktu tunggu antara setiap proses otomatisasi yang selesai. Sebuah rentang nilai akan memilih waktu tunggu secara acak untuk setiap perulangan."
+    },
+    "pageGuard": {
+      "label": "Pelindung Halaman",
+      "description": "Memeriksa nilai pada halaman saat ini sebelum langkah dijalankan. Langkah hanya dijalankan jika perbandingan yang dikonfigurasi berhasil."
+    },
+    "guardTarget": {
+      "label": "Target Pelindung Halaman",
+      "description": "Item halaman yang teks, nilai, status centang, atau atributnya diuji sebelum langkah dijalankan."
+    },
+    "guardCondition": {
+      "label": "Perbandingan Pelindung Halaman",
+      "description": "Aturan yang digunakan untuk membandingkan nilai yang ditemukan di halaman dengan fungsi Bandingkan Dengan, seperti Sama Dengan, Mengandung, atau Lebih Besar Dari."
+    },
+    "guardValue": {
+      "label": "Bandingkan Dengan",
+      "description": "Nilai yang diharapkan yang digunakan oleh perbandingan Page Guard. Langkah yang dilindungi dijalankan ketika perbandingan berhasil."
+    },
+    "valueExtractor": {
+      "label": "Ekstraktor Nilai",
+      "description": "Pemilih atribut opsional atau ekspresi reguler yang hanya mengekstrak bagian dari nilai halaman yang ingin Anda bandingkan."
+    },
+    "guardRecheck": {
+      "label": "Periksa Lagi",
+      "description": "Berapa kali lagi Page Guard memeriksa kondisi tersebut jika belum terpenuhi. Unlimited terus memeriksa hingga berhasil atau otomatisasi berhenti."
+    },
+    "guardRecheckInterval": {
+      "label": "Interval Pemeriksaan Ulang Penjaga",
+      "description": "Berapa lama Page Guard menunggu sebelum memeriksa kondisi halaman lagi. Suatu rentang memilih waktu tunggu secara acak setiap kali."
+    },
+    "conditionGuard": {
+      "label": "Penjaga Kondisi",
+      "description": "Mengontrol apakah langkah ini dijalankan berdasarkan hasil dari satu atau lebih langkah sebelumnya. Ini juga disebut Step Guard."
+    },
+    "guardOperator": {
+      "label": "Operator Kondisi",
+      "description": "Menggabungkan aturan penjaga. DAN mengharuskan aturan ini dan aturan sebelumnya cocok; ATAU mengizinkan salah satu aturan untuk cocok."
+    },
+    "previousStep": {
+      "label": "Langkah Sebelumnya",
+      "description": "Langkah sebelumnya yang hasil penyelesaiannya diperiksa oleh Condition Guard ini."
+    },
+    "stepResult": {
+      "label": "Langkah Hasil",
+      "description": "Hasil yang harus diperoleh dari langkah sebelumnya yang dipilih, seperti selesai atau error, agar aturan pengamanan ini cocok."
+    },
+    "stepSettings": {
+      "label": "Pengaturan Langkah",
+      "description": "Mengesampingkan perilaku percobaan ulang dan halaman tersemat hanya untuk langkah ini, tanpa mengubah pengaturan default yang digunakan oleh langkah-langkah lainnya."
+    },
+    "embeddedPages": {
+      "label": "Halaman Tertanam",
+      "description": "Frame yang disematkan di dalam halaman saat ini, yang biasa disebut iframe. Mengaktifkan opsi ini akan mencari frame tersebut sebelum halaman utama."
+    },
+    "retryAttempts": {
+      "label": "Upaya Mencoba Lagi",
+      "description": "Berapa kali lagi pencarian tambahan diperlukan untuk target yang hilang sebelum menerapkan tindakan kegagalan yang dipilih."
+    },
+    "retryInterval": {
+      "label": "Interval Percobaan Ulang",
+      "description": "Berapa lama waktu tunggu sebelum mencari target yang hilang lagi. Sebuah sistem memilih waktu tunggu secara acak untuk setiap percobaan ulang."
+    },
+    "runMode": {
+      "label": "Mode Operasi",
+      "description": "Mengontrol apakah otomatisasi dimulai secara otomatis dari peristiwa halaman atau secara manual saat Anda menekan tombol pintasnya."
+    },
+    "hotkey": {
+      "label": "Tombol pintas",
+      "description": "Pintasan keyboard yang memulai otomatisasi ini ketika Mode Jalankannya adalah Manual."
+    },
+    "pageLoadTiming": {
+      "label": "Waktu Pemuatan Halaman",
+      "description": "Memilih peristiwa halaman browser mana yang memulai otomatisasi otomatis: saat dokumen siap atau setelah seluruh halaman selesai dimuat."
+    },
+    "pageNavigation": {
+      "label": "Navigasi Halaman",
+      "description": "Menjalankan otomatisasi saat situs mengubah URL-nya tanpa memuat ulang halaman sepenuhnya, seperti yang dilakukan banyak aplikasi satu halaman."
+    },
+    "googleSheetsId": {
+      "label": "ID Google Sheets",
+      "description": "Bagian unik dari URL Google Sheets yang mengidentifikasi spreadsheet yang digunakan oleh perintah Google Sheets Value."
+    },
+    "startTime": {
+      "label": "Waktu Mulai",
+      "description": "Waktu dalam format HH:mm:ss.sss yang membatasi kapan otomatisasi dapat dimulai."
+    },
+    "urlMatchType": {
+      "label": "Jenis Pencocokan URL",
+      "description": "Mengontrol bagaimana URL Otomatisasi dibandingkan: URL Tepat memerlukan alamat yang sama, sedangkan Pencocokan Pola menerima pola ekspresi reguler."
+    },
+    "bypassHotkeys": {
+      "label": "Melewati Perilaku Tombol Pintas Browser",
+      "description": "Mencegah dialog peringatan, konfirmasi, atau permintaan yang cocok mengambil alih tombol pintas otomatisasi yang telah dikonfigurasi."
+    },
+    "schedule": {
+      "label": "Jadwal",
+      "description": "Memulai otomatisasi pada tanggal dan waktu yang dikonfigurasi, bukan hanya mengandalkan pemuatan halaman atau tombol pintas manual."
+    },
+    "scheduleRepeat": {
+      "label": "Jadwalkan Pengulangan",
+      "description": "Berapa menit harus menunggu sebelum memulai otomatisasi terjadwal lagi."
+    },
+    "monitor": {
+      "label": "Pemantauan",
+      "description": "Memantau sebagian halaman untuk item yang baru ditambahkan atau diubah yang sesuai, dan menjalankan otomatisasi lagi ketika perubahan terdeteksi."
+    },
+    "monitorRoot": {
+      "label": "Monitor Akar",
+      "description": "Selektor CSS untuk kontainer halaman yang akan dipantau. Menggunakan kontainer yang sempit menghindari reaksi terhadap perubahan halaman yang tidak terkait."
+    },
+    "monitorAttributes": {
+      "label": "Atribut Monitor",
+      "description": "Daftar atribut elemen yang dipisahkan koma, yang perubahannya harus memicu pemantauan, seperti kelas, gaya, atau tersembunyi."
+    },
+    "debounce": {
+      "label": "Debounce",
+      "description": "Menunggu perubahan halaman yang cepat untuk stabil sebelum memprosesnya, sehingga serangkaian pembaruan memicu satu kali proses otomatisasi, bukan banyak."
+    },
+    "monitorTimeout": {
+      "label": "Monitor Timeout",
+      "description": "Pemantauan akan berhenti secara otomatis setelah beberapa menit agar otomatisasi tidak terus memantau halaman tanpa batas waktu."
+    },
+    "monitorUrlChange": {
+      "label": "Berhenti pada Perubahan URL",
+      "description": "Menghentikan monitor aktif ketika alamat halaman berubah, mencegahnya berpindah ke tampilan lain."
     }
   },
   "common": {

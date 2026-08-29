@@ -188,6 +188,7 @@
     }
   },
   "stateGuard": {
+    "operator": "Operator",
     "action": "Vorheriger Schritt",
     "status": "Ergebnis",
     "title": "Zustandswächter",
@@ -358,7 +359,11 @@
   "automations": {
     "title": "Meine Automatisierungen",
     "count": "Automatisierungen ({{count}})",
+    "sidebarCount": "Automatisierungen ({{visible}}/{{total}})",
     "search": "Durchsuchen Sie Ihre Automatisierungen...",
+    "noResults": "Es wurden keine Automatisierungen gefunden.",
+    "organize": "Automatisierungen organisieren",
+    "back": "Zurück",
     "add": "Neu",
     "reorder": "Neu anordnen",
     "reorderByName": "Nach Namen sortieren",
@@ -374,9 +379,21 @@
     "select": "Wählen",
     "import": "Import",
     "filter": {
+      "title": "Status",
       "all": "Alle",
       "enabled": "Ermöglicht",
       "disabled": "Deaktiviert"
+    },
+    "groupBy": {
+      "title": "Gruppieren nach",
+      "none": "Keiner",
+      "status": "Status",
+      "domain": "Domain",
+      "features": "Merkmale"
+    },
+    "group": {
+      "noDomain": "Keine Domain",
+      "noFeatures": "Keine Funktionen"
     },
     "confirm": {
       "delete": {
@@ -611,6 +628,189 @@
       "title": "Tastenkombination",
       "content": "Drücken Sie die Tastenkombination auf der Tastatur, um den Text automatisch in das Feld einzugeben.",
       "hint": "Einzelne Buchstaben ohne <kbd>Ctrl</kbd>, <kbd>Alt</kbd> oder <kbd>Shift</kbd> sind ungültig."
+    }
+  },
+  "glossary": {
+    "help": "Was bedeutet {{term}}?",
+    "automationUrl": {
+      "label": "Automatisierungs-URL",
+      "description": "Die Seitenadresse, für die diese Automatisierung ausgeführt werden darf. Der URL-Übereinstimmungstyp steuert, ob die URL exakt oder als Muster verglichen wird."
+    },
+    "waitBeforeStart": {
+      "label": "Warten Sie, bevor Sie beginnen",
+      "description": "Wie lange die Automatisierung nach dem Startereignis wartet, bevor der erste Schritt ausgeführt wird. Ein Bereich wählt eine zufällige Verzögerung zwischen den beiden Werten."
+    },
+    "stepDelay": {
+      "label": "Schrittverzögerung",
+      "description": "Wie lange soll vor diesem Schritt gewartet werden? Ein Bereich wählt eine zufällige Verzögerung zwischen den beiden Werten."
+    },
+    "stepName": {
+      "label": "Schrittname",
+      "description": "Ein optionaler Name, der Ihnen hilft, diesen Schritt im Editor, in Protokollen, Schutzmechanismen und in Gehe-zu-Schritt-Listen zu erkennen."
+    },
+    "target": {
+      "label": "Ziel",
+      "description": "Das Seitenelement, auf das dieser Schritt angewendet wird, wird durch einen CSS-Selektor, XPath, eine Element-ID, eine Position oder einen anderen unterstützten Finder identifiziert."
+    },
+    "value": {
+      "label": "Wert",
+      "description": "Was der Schritt mit seinem Ziel macht, z. B. mit einem einzugebenden Text, einem Klickbefehl, einem Platzhalter oder einem anderen unterstützten Wertbefehl."
+    },
+    "placeholder": {
+      "label": "Platzhalter",
+      "description": "Ein Token innerhalb eines Werts, das beim Ausführen der Automatisierung ersetzt wird, z. B. eine Chargennummer, ein Zufallswert, Text aus der Zwischenablage oder Daten aus einer anderen Quelle."
+    },
+    "stepRepeat": {
+      "label": "Schritt wiederholen",
+      "description": "Wie oft wird dieser einzelne Schritt zusätzlich ausgeführt, bevor die Automatisierung zum nächsten Schritt übergeht?"
+    },
+    "stepInterval": {
+      "label": "Schrittintervall",
+      "description": "Wie lange zwischen den Wiederholungen dieses einzelnen Schritts gewartet werden soll. Ein Bereich wählt jedes Mal eine zufällige Wartezeit."
+    },
+    "loop": {
+      "label": "Schleife",
+      "description": "Führt die gesamte Automatisierung erneut aus, nachdem alle ihre Schritte abgeschlossen sind. Dies unterscheidet sich von der Funktion „Wiederholen“, die nur einen Schritt wiederholt."
+    },
+    "batch": {
+      "label": "Charge",
+      "description": "Die ältere Bezeichnung für eine Automatisierungsschleife. Der Platzhalter „batchRepeat“ entspricht dem von „loopRepeat“, der die aktuelle Schleifennummer enthält."
+    },
+    "loopRefresh": {
+      "label": "Schleifenaktualisierung",
+      "description": "Die Seite wird nach Abschluss aller Schritte neu geladen. Die Automatisierung kann nach dem Neuladen der Seite erneut gestartet werden."
+    },
+    "loopRepeat": {
+      "label": "Schleife wiederholen",
+      "description": "Wie oft sollen alle Schritte wiederholt werden, ohne die Seite neu zu laden?"
+    },
+    "loopInterval": {
+      "label": "Schleifenintervall",
+      "description": "Wie lange zwischen den einzelnen Automatisierungsdurchläufen gewartet werden soll. Ein Bereich legt eine zufällige Wartezeit für jeden Schleifendurchlauf fest."
+    },
+    "pageGuard": {
+      "label": "Page Guard",
+      "description": "Prüft einen Wert auf der aktuellen Seite, bevor ein Schritt ausgeführt wird. Der Schritt wird nur ausgeführt, wenn der konfigurierte Vergleich erfolgreich ist."
+    },
+    "guardTarget": {
+      "label": "Page Guard Ziel",
+      "description": "Das Seitenelement, dessen Text, Wert, Auswahlstatus oder Attribut vor Ausführung des Schritts geprüft wird."
+    },
+    "guardCondition": {
+      "label": "Seitenschutzvergleich",
+      "description": "Die Regel, die verwendet wird, um den auf der Seite gefundenen Wert mit „Vergleichen mit“ zu vergleichen, z. B. „Gleich“, „Enthält“ oder „Größer als“."
+    },
+    "guardValue": {
+      "label": "Vergleichen Sie mit",
+      "description": "Der vom Page Guard-Vergleich verwendete Erwartungswert. Der geschützte Schritt wird ausgeführt, wenn der Vergleich erfolgreich ist."
+    },
+    "valueExtractor": {
+      "label": "Wertextraktor",
+      "description": "Ein optionaler Attributselektor oder regulärer Ausdruck, der nur den Teil des Seitenwerts extrahiert, den Sie vergleichen möchten."
+    },
+    "guardRecheck": {
+      "label": "Erneut prüfen",
+      "description": "Wie oft prüft Page Guard die Bedingung zusätzlich, wenn sie noch nicht erfüllt ist? Die Option „Unbegrenzt“ führt die Prüfung so lange durch, bis die Bedingung erfüllt ist oder die Automatisierung beendet wird."
+    },
+    "guardRecheckInterval": {
+      "label": "Wache-Überprüfungsintervall",
+      "description": "Wie lange Page Guard wartet, bevor der Seitenzustand erneut geprüft wird. Ein Bereich wählt jedes Mal eine zufällige Wartezeit."
+    },
+    "conditionGuard": {
+      "label": "Zustandswächter",
+      "description": "Steuert, ob dieser Schritt basierend auf dem Ergebnis eines oder mehrerer vorheriger Schritte ausgeführt wird. Dies wird auch als Schrittschutz bezeichnet."
+    },
+    "guardOperator": {
+      "label": "Zustandsoperator",
+      "description": "Kombiniert Schutzregeln. UND erfordert, dass diese Regel und die vorherige Regel übereinstimmen; ODER erlaubt, dass eine der beiden Regeln übereinstimmt."
+    },
+    "previousStep": {
+      "label": "Vorheriger Schritt",
+      "description": "Der vorhergehende Schritt, dessen Abschlussergebnis von dieser Bedingungsprüfung überprüft wird."
+    },
+    "stepResult": {
+      "label": "Schritt Ergebnis",
+      "description": "Das Ergebnis des ausgewählten vorherigen Schritts, z. B. abgeschlossen oder Fehler, muss vorliegen, damit diese Schutzregel greift."
+    },
+    "stepSettings": {
+      "label": "Schritteinstellungen",
+      "description": "Überschreibt das Wiederholungs- und das eingebettete Seitenverhalten nur für diesen Schritt, ohne die von anderen Schritten verwendeten Standardeinstellungen zu ändern."
+    },
+    "embeddedPages": {
+      "label": "Eingebettete Seiten",
+      "description": "In die aktuelle Seite eingebettete Frames, üblicherweise als iFrames bezeichnet. Durch Aktivieren dieser Option werden diese Frames vor der Hauptseite durchsucht."
+    },
+    "retryAttempts": {
+      "label": "Wiederholungsversuche",
+      "description": "Wie oft soll zusätzlich nach einem fehlenden Ziel gesucht werden, bevor die ausgewählte Fehlerbehandlung angewendet wird?"
+    },
+    "retryInterval": {
+      "label": "Wiederholungsintervall",
+      "description": "Wie lange soll gewartet werden, bevor erneut nach einem fehlenden Ziel gesucht wird? Der Bereich wählt für jeden Wiederholungsversuch eine zufällige Wartezeit."
+    },
+    "runMode": {
+      "label": "Laufmodus",
+      "description": "Steuert, ob eine Automatisierung automatisch durch Seitenereignisse oder manuell durch Drücken der zugehörigen Tastenkombination gestartet wird."
+    },
+    "hotkey": {
+      "label": "Tastenkombination",
+      "description": "Eine Tastenkombination, die diese Automatisierung startet, wenn der Ausführungsmodus auf „Manuell“ eingestellt ist."
+    },
+    "pageLoadTiming": {
+      "label": "Seitenladezeit",
+      "description": "Wählt aus, welches Browser-Seitenereignis eine automatische Automatisierung auslöst: wenn das Dokument bereit ist oder nachdem die gesamte Seite geladen wurde."
+    },
+    "pageNavigation": {
+      "label": "Seitennavigation",
+      "description": "Die Automatisierung wird ausgeführt, wenn eine Website ihre URL ändert, ohne die Seite vollständig neu zu laden, wie es bei vielen Single-Page-Anwendungen der Fall ist."
+    },
+    "googleSheetsId": {
+      "label": "Google Sheets ID",
+      "description": "Der eindeutige Teil einer Google Sheets-URL, der die von den Google Sheets Value-Befehlen verwendete Tabelle identifiziert."
+    },
+    "startTime": {
+      "label": "Startzeit",
+      "description": "Eine Tageszeit im Format HH:mm:ss.sss, die den Startzeitpunkt der Automatisierung einschränkt."
+    },
+    "urlMatchType": {
+      "label": "URL-Übereinstimmungstyp",
+      "description": "Steuert, wie die Automatisierungs-URL verglichen wird: Exakte URL erfordert die gleiche Adresse, während Mustervergleich ein reguläres Ausdrucksmuster akzeptiert."
+    },
+    "bypassHotkeys": {
+      "label": "Browser-Hotkey-Verhalten umgehen",
+      "description": "Verhindert, dass übereinstimmende Warn-, Bestätigungs- oder Eingabeaufforderungsdialoge die konfigurierte Automatisierungs-Hotkey-Taste übernehmen."
+    },
+    "schedule": {
+      "label": "Zeitplan",
+      "description": "Startet eine Automatisierung zum konfigurierten Datum und zur konfigurierten Uhrzeit, anstatt sich nur auf das Laden der Seite oder einen manuellen Hotkey zu verlassen."
+    },
+    "scheduleRepeat": {
+      "label": "Wiederholung des Zeitplans",
+      "description": "Wie viele Minuten soll gewartet werden, bevor die geplante Automatisierung erneut gestartet wird?"
+    },
+    "monitor": {
+      "label": "Überwachung",
+      "description": "Überwacht einen Teil der Seite auf neu hinzugefügte oder geänderte übereinstimmende Elemente und führt die Automatisierung erneut aus, wenn Änderungen festgestellt werden."
+    },
+    "monitorRoot": {
+      "label": "Monitor Root",
+      "description": "Der CSS-Selektor für den Seitencontainer, der überwacht werden soll. Durch die Verwendung eines schmalen Containers wird vermieden, auf nicht relevante Seitenänderungen zu reagieren."
+    },
+    "monitorAttributes": {
+      "label": "Monitorattribute",
+      "description": "Eine durch Kommas getrennte Liste von Elementattributen, deren Änderungen eine Überwachung auslösen sollen, wie z. B. Klasse, Stil oder versteckt."
+    },
+    "debounce": {
+      "label": "Debounce",
+      "description": "Wartet, bis sich schnelle Seitenänderungen stabilisiert haben, bevor sie verarbeitet werden, sodass eine Häufung von Aktualisierungen nur einen Automatisierungslauf anstatt vieler auslöst."
+    },
+    "monitorTimeout": {
+      "label": "Monitor-Timeout",
+      "description": "Die Überwachung wird nach dieser Anzahl von Minuten automatisch beendet, damit die Automatisierung die Seite nicht unbegrenzt überwacht."
+    },
+    "monitorUrlChange": {
+      "label": "Stopp bei URL-Änderung",
+      "description": "Stoppt den aktiven Monitor, wenn sich die Seitenadresse ändert, und verhindert so, dass die Änderung in eine andere Ansicht übernommen wird."
     }
   },
   "common": {

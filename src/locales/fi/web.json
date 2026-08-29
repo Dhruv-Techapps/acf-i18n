@@ -188,6 +188,7 @@
     }
   },
   "stateGuard": {
+    "operator": "Operaattori",
     "action": "Edellinen vaihe",
     "status": "Tulos",
     "title": "Kuntovahti",
@@ -358,7 +359,11 @@
   "automations": {
     "title": "Omat automaatiot",
     "count": "Automaatiot ({{count}})",
+    "sidebarCount": "Automaatiot ({{visible}}/{{total}})",
     "search": "Hae automaatioitasi...",
+    "noResults": "Ei löytynyt automaatioita.",
+    "organize": "Automaatioiden järjestäminen",
+    "back": "Takaisin",
     "add": "Uusi",
     "reorder": "Järjestä uudelleen",
     "reorderByName": "Järjestä uudelleen nimen mukaan",
@@ -374,9 +379,21 @@
     "select": "Valitse",
     "import": "Tuoda",
     "filter": {
+      "title": "Status",
       "all": "Kaikki",
       "enabled": "Käytössä",
       "disabled": "Poistettu käytöstä"
+    },
+    "groupBy": {
+      "title": "Ryhmittele",
+      "none": "Ei mitään",
+      "status": "Status",
+      "domain": "Verkkotunnus",
+      "features": "Ominaisuudet"
+    },
+    "group": {
+      "noDomain": "Ei verkkotunnusta",
+      "noFeatures": "Ei ominaisuuksia"
     },
     "confirm": {
       "delete": {
@@ -611,6 +628,189 @@
       "title": "Pikanäppäin",
       "content": "Paina näppäimistön pikanäppäintä kirjoittaaksesi kenttään automaattisesti",
       "hint": "Yksi kirjain ilman <kbd>Ctrl</kbd>, <kbd>Alt</kbd> tai <kbd>Shift</kbd> ei ole kelvollinen."
+    }
+  },
+  "glossary": {
+    "help": "Mitä {{term}} tarkoittaa?",
+    "automationUrl": {
+      "label": "Automaatio-URL-osoite",
+      "description": "Sivun osoite, jolla tämä automaatio saa toimia. URL-osoitteen vastaavuustyyppi määrittää, vertaillaanko sitä tarkasti vai mallina."
+    },
+    "waitBeforeStart": {
+      "label": "Odota ennen aloitusta",
+      "description": "Kuinka kauan automaatio odottaa aloitustapahtumansa jälkeen ennen ensimmäisen vaiheen suorittamista. Väli valitsee satunnaisen viiveen kahden arvon väliltä."
+    },
+    "stepDelay": {
+      "label": "Askelviive",
+      "description": "Kuinka kauan odottaa ennen tämän vaiheen suorittamista. Väli valitsee satunnaisen viiveen kahden arvon välillä."
+    },
+    "stepName": {
+      "label": "Vaiheen nimi",
+      "description": "Valinnainen nimi, jonka avulla tunnistat tämän vaiheen editorissa, lokeissa, suojissa ja Siirry vaiheeseen -luetteloissa."
+    },
+    "target": {
+      "label": "Kohde",
+      "description": "Sivun kohde, johon tämä vaihe vaikuttaa, ja joka on tunnistettu CSS-valitsimella, XPath-lausekkeella, elementtitunnuksella, sijainnilla tai muulla tuetulla hakutoiminnolla."
+    },
+    "value": {
+      "label": "Arvo",
+      "description": "Mitä vaihe tekee kohteensa kanssa, kuten syötettävä teksti, napsautuskomento, paikkamerkki tai muu tuettu arvokomento."
+    },
+    "placeholder": {
+      "label": "Paikkamerkki",
+      "description": "Arvon sisällä oleva tunnus, joka korvataan automaation suorituksen yhteydessä, kuten eränumero, satunnainen arvo, leikepöydän teksti tai data toisesta lähteestä."
+    },
+    "stepRepeat": {
+      "label": "Vaiheen toisto",
+      "description": "Kuinka monta kertaa tämä yksittäinen vaihe suoritetaan ennen kuin automaatio siirtyy seuraavaan vaiheeseen."
+    },
+    "stepInterval": {
+      "label": "Vaiheväli",
+      "description": "Kuinka kauan odotetaan tämän yksittäisen vaiheen toistojen välillä. Väli valitsee joka kerta satunnaisen odotusajan."
+    },
+    "loop": {
+      "label": "Silmukka",
+      "description": "Suorittaa koko automaation uudelleen kaikkien vaiheiden jälkeen. Tämä eroaa Toista-toiminnosta, joka toistaa vain yhden vaiheen."
+    },
+    "batch": {
+      "label": "Erä",
+      "description": "Automaatiosilmukan vanhempi nimi. Vanha batchRepeat-paikkamerkki on sama kuin loopRepeat, joka sisältää nykyisen silmukan numeron."
+    },
+    "loopRefresh": {
+      "label": "Silmukkapäivitys",
+      "description": "Lataa sivun uudelleen kaikkien vaiheiden jälkeen. Automaatio voi käynnistyä uudelleen päivitetyn sivun latautumisen jälkeen."
+    },
+    "loopRepeat": {
+      "label": "Silmukkatoisto",
+      "description": "Kuinka monta kertaa kaikki vaiheet suoritetaan uudelleen lataamatta sivua uudelleen."
+    },
+    "loopInterval": {
+      "label": "Silmukkaväli",
+      "description": "Kuinka kauan odotetaan täydellisten automaatiosuoritusten välillä. Alue valitsee satunnaisen odotusajan jokaiselle silmukalle."
+    },
+    "pageGuard": {
+      "label": "Sivun suojaus",
+      "description": "Tarkistaa arvon nykyisellä sivulla ennen vaiheen suorittamista. Vaihe suoritetaan vain, kun määritetty vertailu onnistuu."
+    },
+    "guardTarget": {
+      "label": "Sivun suojauskohde",
+      "description": "Sivun kohta, jonka tekstiä, arvoa, tarkistustilaa tai attribuuttia testataan ennen vaiheen suorittamista."
+    },
+    "guardCondition": {
+      "label": "Sivusuojan vertailu",
+      "description": "Sääntö, jota käytetään sivulla olevan arvon vertaamiseen Vertailu-funktion kanssa, kuten Yhtä suuri kuin, Sisältää tai Suurempi kuin."
+    },
+    "guardValue": {
+      "label": "Vertaa",
+      "description": "Page Guard -vertailun käyttämä odotusarvo. Suojattu vaihe suoritetaan, kun vertailu onnistuu."
+    },
+    "valueExtractor": {
+      "label": "Arvonpoimija",
+      "description": "Valinnainen attribuutin valitsin tai säännöllinen lauseke, joka poimii vain vertailtavan osan sivun arvosta."
+    },
+    "guardRecheck": {
+      "label": "Tarkista uudelleen",
+      "description": "Kuinka monta kertaa Page Guard tarkistaa ehdon, vaikka se ei vielä täyty? Rajoittamaton määrä jatkaa tarkistusta, kunnes se onnistuu tai automaatio pysähtyy."
+    },
+    "guardRecheckInterval": {
+      "label": "Suojan uudelleentarkistusväli",
+      "description": "Kuinka kauan Page Guard odottaa ennen sivun kunnon tarkistamista uudelleen. Väli valitsee joka kerta satunnaisen odotusajan."
+    },
+    "conditionGuard": {
+      "label": "Kuntovahti",
+      "description": "Ohjaa, suoritetaanko tämä vaihe yhden tai useamman edellisen vaiheen tuloksen perusteella. Tätä kutsutaan myös vaihesuojaksi."
+    },
+    "guardOperator": {
+      "label": "Ehto-operaattori",
+      "description": "Yhdistää suojaussäännöt. JA edellyttää, että tämä ja edellinen sääntö vastaavat toisiaan; TAI sallii kumman tahansa säännön vastaavan toisiaan."
+    },
+    "previousStep": {
+      "label": "Edellinen vaihe",
+      "description": "Aiempi vaihe, jonka valmistumisen tuloksen tämä ehtovartija tarkistaa."
+    },
+    "stepResult": {
+      "label": "Vaiheen tulos",
+      "description": "Valitun edellisen vaiheen tulos, kuten valmis tai virhe, jotta tämä suojaussääntö täsmää."
+    },
+    "stepSettings": {
+      "label": "Vaiheen asetukset",
+      "description": "Ohittaa uudelleenyritysten ja upotettujen sivujen toiminnan vain tässä vaiheessa muuttamatta muiden vaiheiden käyttämiä oletusarvoja."
+    },
+    "embeddedPages": {
+      "label": "Upotetut sivut",
+      "description": "Nykyisen sivun sisään upotetut kehykset, joita kutsutaan yleisesti iframeiksi. Tämän käyttöönotto hakee pääsivua edeltävistä kehyksistä."
+    },
+    "retryAttempts": {
+      "label": "Uudelleenyritykset",
+      "description": "Kuinka monta kertaa vielä etsitään puuttuvaa kohdetta ennen valitun epäonnistumistoiminnon soveltamista."
+    },
+    "retryInterval": {
+      "label": "Uudelleenyritysväli",
+      "description": "Kuinka kauan odotetaan ennen kadonneen kohteen etsimistä uudelleen. Väli valitsee satunnaisen odotusajan jokaiselle uudelleenyritykselle."
+    },
+    "runMode": {
+      "label": "Suoritustila",
+      "description": "Määrittää, käynnistyykö automaatio automaattisesti sivutapahtumista vai manuaalisesti, kun painat sen pikanäppäintä."
+    },
+    "hotkey": {
+      "label": "Pikanäppäin",
+      "description": "Pikanäppäin, joka käynnistää tämän automaation, kun sen suoritustila on Manuaalinen."
+    },
+    "pageLoadTiming": {
+      "label": "Sivun latausaika",
+      "description": "Valitsee, mikä selainsivun tapahtuma käynnistää automaattisen automaation: kun asiakirja on valmis vai kun koko sivu on latautunut."
+    },
+    "pageNavigation": {
+      "label": "Sivun navigointi",
+      "description": "Suorittaa automaation, kun sivusto muuttaa URL-osoitettaan lataamatta sivua kokonaan uudelleen, kuten monet yksisivuiset sovellukset tekevät."
+    },
+    "googleSheetsId": {
+      "label": "Google Sheetsin tunnus",
+      "description": "Google Sheetsin URL-osoitteen yksilöivä osa, joka yksilöi Google Sheetsin arvokomentojen käyttämän laskentataulukon."
+    },
+    "startTime": {
+      "label": "Aloitusaika",
+      "description": "Kellonaika muodossa HH:mm:ss.sss, joka rajoittaa automaation käynnistymisaikaa."
+    },
+    "urlMatchType": {
+      "label": "URL-osoitteen hakutyyppi",
+      "description": "Ohjaa automaatio-URL-osoitteiden vertailua: Täsmällinen URL-osoite vaatii saman osoitteen, kun taas mallin täsmäys hyväksyy säännöllisen lausekkeen mallin."
+    },
+    "bypassHotkeys": {
+      "label": "Ohita selaimen pikanäppäintoiminto",
+      "description": "Estää vastaavia hälytys-, vahvistus- tai kehoteikkunoita ottamasta haltuunsa määritettyä automaation pikanäppäintä."
+    },
+    "schedule": {
+      "label": "Ajoittaa",
+      "description": "Käynnistää automaation määritettynä päivämääränä ja kellonaikana sen sijaan, että luottaisi vain sivun latautumiseen tai manuaaliseen pikanäppäimeen."
+    },
+    "scheduleRepeat": {
+      "label": "Aikataulun toisto",
+      "description": "Kuinka monta minuuttia odotetaan ennen ajoitetun automaation käynnistämistä uudelleen."
+    },
+    "monitor": {
+      "label": "Valvonta",
+      "description": "Tarkkailee osaa sivusta äskettäin lisättyjen tai muutettujen vastaavien kohteiden varalta ja suorittaa automaation uudelleen, kun muutoksia havaitaan."
+    },
+    "monitorRoot": {
+      "label": "Näytön juuri",
+      "description": "Sivukontin CSS-valitsin seurattavaksi. Kapean kontin käyttäminen estää reagoimisen toisiinsa liittymättömiin sivumuutoksiin."
+    },
+    "monitorAttributes": {
+      "label": "Näytön ominaisuudet",
+      "description": "Pilkuilla erotettu luettelo elementin ominaisuuksista, joiden muutosten tulisi käynnistää valvonta, kuten luokka, tyyli tai piilotettu."
+    },
+    "debounce": {
+      "label": "Debounce",
+      "description": "Odottaa nopeiden sivumuutosten asettumista paikoilleen ennen niiden käsittelyä, joten päivityspurkaus käynnistää yhden automaatioajon useiden sijaan."
+    },
+    "monitorTimeout": {
+      "label": "Näytön aikakatkaisu",
+      "description": "Lopettaa automaattisesti valvonnan näin monen minuutin kuluttua, jotta automaatio ei tarkkaile sivua loputtomiin."
+    },
+    "monitorUrlChange": {
+      "label": "Pysäytä URL-osoitteen muuttuessa",
+      "description": "Pysäyttää aktiivisen monitorin, kun sivun osoite muuttuu, estäen sen siirtymisen toiseen näkymään."
     }
   },
   "common": {

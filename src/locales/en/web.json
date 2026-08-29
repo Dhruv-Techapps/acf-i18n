@@ -188,6 +188,7 @@
     }
   },
   "stateGuard": {
+    "operator": "Operator",
     "action": "Previous Step",
     "status": "Result",
     "title": "Condition Guard",
@@ -358,7 +359,11 @@
   "automations": {
     "title": "My Automations",
     "count": "Automations ({{count}})",
+    "sidebarCount": "Automations ({{visible}}/{{total}})",
     "search": "Search your automations...",
+    "noResults": "No automations found.",
+    "organize": "Organize automations",
+    "back": "Back",
     "add": "New",
     "reorder": "Reorder",
     "reorderByName": "Reorder by Name",
@@ -374,9 +379,21 @@
     "select": "Select",
     "import": "Import",
     "filter": {
+      "title": "Status",
       "all": "All",
       "enabled": "Enabled",
       "disabled": "Disabled"
+    },
+    "groupBy": {
+      "title": "Group by",
+      "none": "None",
+      "status": "Status",
+      "domain": "Domain",
+      "features": "Features"
+    },
+    "group": {
+      "noDomain": "No domain",
+      "noFeatures": "No features"
     },
     "confirm": {
       "delete": {
@@ -611,6 +628,189 @@
       "title": "Hotkey",
       "content": "Press hotkey on keyboard to auto type in field",
       "hint": "Single letter without <kbd>Ctrl</kbd>, <kbd>Alt</kbd> or <kbd>Shift</kbd> is not valid"
+    }
+  },
+  "glossary": {
+    "help": "What does {{term}} mean?",
+    "automationUrl": {
+      "label": "Automation URL",
+      "description": "The page address this automation is allowed to run on. URL Match Type controls whether it is compared exactly or as a pattern."
+    },
+    "waitBeforeStart": {
+      "label": "Wait Before Start",
+      "description": "How long the automation waits after its start event before running the first step. A range chooses a random delay between the two values."
+    },
+    "stepDelay": {
+      "label": "Step Delay",
+      "description": "How long to wait before running this step. A range chooses a random delay between the two values."
+    },
+    "stepName": {
+      "label": "Step Name",
+      "description": "An optional name that helps you recognize this step in the editor, logs, guards, and Go to Step lists."
+    },
+    "target": {
+      "label": "Target",
+      "description": "The page item this step acts on, identified with a CSS selector, XPath, element ID, position, or another supported finder."
+    },
+    "value": {
+      "label": "Value",
+      "description": "What the step does with its target, such as text to enter, a click command, a placeholder, or another supported value command."
+    },
+    "placeholder": {
+      "label": "Placeholder",
+      "description": "A token inside a Value that is replaced when the automation runs, such as a batch number, random value, clipboard text, or data from another source."
+    },
+    "stepRepeat": {
+      "label": "Step Repeat",
+      "description": "How many additional times this individual step runs before the automation moves to the next step."
+    },
+    "stepInterval": {
+      "label": "Step Interval",
+      "description": "How long to wait between repeats of this individual step. A range chooses a random wait each time."
+    },
+    "loop": {
+      "label": "Loop",
+      "description": "Runs the entire automation again after all of its steps finish. This is different from Repeat, which repeats only one step."
+    },
+    "batch": {
+      "label": "Batch",
+      "description": "The older name for an automation Loop. The legacy batchRepeat placeholder is the same as loopRepeat, which contains the current loop number."
+    },
+    "loopRefresh": {
+      "label": "Loop Refresh",
+      "description": "Reloads the page after all steps finish. The automation can start again after the refreshed page loads."
+    },
+    "loopRepeat": {
+      "label": "Loop Repeat",
+      "description": "How many times to run all steps again without reloading the page."
+    },
+    "loopInterval": {
+      "label": "Loop Interval",
+      "description": "How long to wait between complete automation runs. A range chooses a random wait for each loop."
+    },
+    "pageGuard": {
+      "label": "Page Guard",
+      "description": "Checks a value on the current page before a step runs. The step runs only when the configured comparison succeeds."
+    },
+    "guardTarget": {
+      "label": "Page Guard Target",
+      "description": "The page item whose text, value, checked state, or attribute is tested before the step runs."
+    },
+    "guardCondition": {
+      "label": "Page Guard Comparison",
+      "description": "The rule used to compare the value found on the page with Compare With, such as Equals, Contains, or Greater Than."
+    },
+    "guardValue": {
+      "label": "Compare With",
+      "description": "The expected value used by the Page Guard comparison. The guarded step runs when the comparison succeeds."
+    },
+    "valueExtractor": {
+      "label": "Value Extractor",
+      "description": "An optional attribute selector or regular expression that extracts only the part of the page value you want to compare."
+    },
+    "guardRecheck": {
+      "label": "Check Again",
+      "description": "How many additional times Page Guard checks the condition when it is not yet met. Unlimited keeps checking until it succeeds or the automation stops."
+    },
+    "guardRecheckInterval": {
+      "label": "Guard Recheck Interval",
+      "description": "How long Page Guard waits before checking the page condition again. A range chooses a random wait each time."
+    },
+    "conditionGuard": {
+      "label": "Condition Guard",
+      "description": "Controls whether this step runs based on the result of one or more previous steps. This is also called a Step Guard."
+    },
+    "guardOperator": {
+      "label": "Condition Operator",
+      "description": "Combines guard rules. AND requires this rule and the previous rule to match; OR allows either rule to match."
+    },
+    "previousStep": {
+      "label": "Previous Step",
+      "description": "The earlier step whose completion result is checked by this Condition Guard."
+    },
+    "stepResult": {
+      "label": "Step Result",
+      "description": "The outcome the selected previous step must have, such as completed or error, for this guard rule to match."
+    },
+    "stepSettings": {
+      "label": "Step Settings",
+      "description": "Overrides retry and embedded-page behavior for this step only, without changing the defaults used by other steps."
+    },
+    "embeddedPages": {
+      "label": "Embedded Pages",
+      "description": "Frames embedded inside the current page, commonly called iframes. Enabling this searches those frames before the main page."
+    },
+    "retryAttempts": {
+      "label": "Retry Attempts",
+      "description": "How many additional times to look for a missing target before applying the selected failure action."
+    },
+    "retryInterval": {
+      "label": "Retry Interval",
+      "description": "How long to wait before looking for a missing target again. A range chooses a random wait for each retry."
+    },
+    "runMode": {
+      "label": "Run Mode",
+      "description": "Controls whether an automation starts automatically from page events or manually when you press its hotkey."
+    },
+    "hotkey": {
+      "label": "Hotkey",
+      "description": "A keyboard shortcut that starts this automation when its Run Mode is Manual."
+    },
+    "pageLoadTiming": {
+      "label": "Page Load Timing",
+      "description": "Chooses which browser page event starts an automatic automation: when the document is ready or after the full page finishes loading."
+    },
+    "pageNavigation": {
+      "label": "Page Navigation",
+      "description": "Runs the automation when a site changes its URL without fully reloading the page, as many single-page applications do."
+    },
+    "googleSheetsId": {
+      "label": "Google Sheets ID",
+      "description": "The unique part of a Google Sheets URL that identifies the spreadsheet used by Google Sheets Value commands."
+    },
+    "startTime": {
+      "label": "Start Time",
+      "description": "A time of day in HH:mm:ss.sss format that limits when the automation may start."
+    },
+    "urlMatchType": {
+      "label": "URL Match Type",
+      "description": "Controls how the Automation URL is compared: Exact URL requires the same address, while Pattern Match accepts a regular-expression pattern."
+    },
+    "bypassHotkeys": {
+      "label": "Bypass Browser Hotkey Behavior",
+      "description": "Prevents matching alert, confirm, or prompt dialogs from taking over the configured automation hotkey."
+    },
+    "schedule": {
+      "label": "Schedule",
+      "description": "Starts an automation at the configured date and time instead of relying only on page load or a manual hotkey."
+    },
+    "scheduleRepeat": {
+      "label": "Schedule Repeat",
+      "description": "How many minutes to wait before starting the scheduled automation again."
+    },
+    "monitor": {
+      "label": "Monitor",
+      "description": "Watches part of a page for newly added or changed matching items and runs the automation again when changes are detected."
+    },
+    "monitorRoot": {
+      "label": "Monitor Root",
+      "description": "The CSS selector for the page container to watch. Using a narrow container avoids reacting to unrelated page changes."
+    },
+    "monitorAttributes": {
+      "label": "Monitor Attributes",
+      "description": "A comma-separated list of element attributes whose changes should trigger monitoring, such as class, style, or hidden."
+    },
+    "debounce": {
+      "label": "Debounce",
+      "description": "Waits for rapid page changes to settle before processing them, so a burst of updates triggers one automation run instead of many."
+    },
+    "monitorTimeout": {
+      "label": "Monitor Timeout",
+      "description": "Automatically stops monitoring after this many minutes so the automation does not watch the page indefinitely."
+    },
+    "monitorUrlChange": {
+      "label": "Stop on URL Change",
+      "description": "Stops the active monitor when the page address changes, preventing it from carrying over to a different view."
     }
   },
   "common": {

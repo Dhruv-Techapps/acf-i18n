@@ -188,6 +188,7 @@
     }
   },
   "stateGuard": {
+    "operator": "Operator",
     "action": "Poprzedni krok",
     "status": "Wynik",
     "title": "Strażnik stanu",
@@ -358,7 +359,11 @@
   "automations": {
     "title": "Moje automatyzacje",
     "count": "Automatyzacje ({{count}})",
+    "sidebarCount": "Automatyzacje ({{visible}}/{{total}})",
     "search": "Przeszukaj swoje automatyzacje...",
+    "noResults": "Nie znaleziono automatyzacji.",
+    "organize": "Zorganizuj automatyzacje",
+    "back": "Z powrotem",
     "add": "Nowy",
     "reorder": "Zmień kolejność",
     "reorderByName": "Zmień kolejność według nazwy",
@@ -374,9 +379,21 @@
     "select": "Wybierać",
     "import": "Import",
     "filter": {
+      "title": "Status",
       "all": "Wszystko",
       "enabled": "Włączony",
       "disabled": "Wyłączone"
+    },
+    "groupBy": {
+      "title": "Grupuj według",
+      "none": "Nic",
+      "status": "Status",
+      "domain": "Domena",
+      "features": "Cechy"
+    },
+    "group": {
+      "noDomain": "Brak domeny",
+      "noFeatures": "Brak funkcji"
     },
     "confirm": {
       "delete": {
@@ -611,6 +628,189 @@
       "title": "Klawisz skrótu",
       "content": "Naciśnij klawisz skrótu na klawiaturze, aby automatycznie wpisać dane w polu",
       "hint": "Pojedyncza litera bez <kbd>Ctrl</kbd>, <kbd>Alt</kbd> lub <kbd>Shift</kbd> jest nieprawidłowa"
+    }
+  },
+  "glossary": {
+    "help": "Co oznacza {{term}}?",
+    "automationUrl": {
+      "label": "Adres URL automatyzacji",
+      "description": "Adres strony, na której może działać ta automatyzacja. Typ dopasowania adresu URL kontroluje, czy porównywanie jest dokładne, czy według wzorca."
+    },
+    "waitBeforeStart": {
+      "label": "Poczekaj przed rozpoczęciem",
+      "description": "Czas oczekiwania automatyzacji po zdarzeniu startowym przed uruchomieniem pierwszego kroku. Zakres wybiera losowe opóźnienie między dwiema wartościami."
+    },
+    "stepDelay": {
+      "label": "Opóźnienie kroku",
+      "description": "Jak długo odczekać przed wykonaniem tego kroku. Zakres wybiera losowe opóźnienie między dwiema wartościami."
+    },
+    "stepName": {
+      "label": "Nazwa kroku",
+      "description": "Opcjonalna nazwa, która pomoże Ci rozpoznać ten krok w edytorze, dziennikach, zabezpieczeniach i listach Przejdź do kroku."
+    },
+    "target": {
+      "label": "Cel",
+      "description": "Element strony, na który działa ten krok, zidentyfikowany za pomocą selektora CSS, XPath, identyfikatora elementu, pozycji lub innej obsługiwanej funkcji wyszukiwania."
+    },
+    "value": {
+      "label": "Wartość",
+      "description": "Co krok robi ze swoim celem, na przykład tekstem do wprowadzenia, poleceniem kliknięcia, symbolem zastępczym lub innym obsługiwanym poleceniem wartości."
+    },
+    "placeholder": {
+      "label": "Symbol zastępczy",
+      "description": "Token wewnątrz Wartości, który jest zastępowany po uruchomieniu automatyzacji, np. numer partii, wartość losowa, tekst ze schowka lub dane z innego źródła."
+    },
+    "stepRepeat": {
+      "label": "Powtórz krok",
+      "description": "Ile razy dodatkowo zostanie wykonany ten pojedynczy krok, zanim automatyzacja przejdzie do następnego kroku."
+    },
+    "stepInterval": {
+      "label": "Interwał kroków",
+      "description": "Jak długo czekać między powtórzeniami tego pojedynczego kroku? Zakres wybiera losowy czas oczekiwania za każdym razem."
+    },
+    "loop": {
+      "label": "Pętla",
+      "description": "Uruchamia całą automatyzację ponownie po zakończeniu wszystkich kroków. Różni się to od opcji „Powtórz”, która powtarza tylko jeden krok."
+    },
+    "batch": {
+      "label": "Seria",
+      "description": "Starsza nazwa pętli automatyzacji. Starszy symbol zastępczy batchRepeat jest taki sam jak loopRepeat, który zawiera numer bieżącej pętli."
+    },
+    "loopRefresh": {
+      "label": "Odświeżanie pętli",
+      "description": "Ponowne załadowanie strony po zakończeniu wszystkich kroków. Automatyzacja może zostać wznowiona po załadowaniu odświeżonej strony."
+    },
+    "loopRepeat": {
+      "label": "Powtarzanie pętli",
+      "description": "Ile razy powtórzyć wszystkie kroki bez przeładowywania strony."
+    },
+    "loopInterval": {
+      "label": "Interwał pętli",
+      "description": "Jak długo czekać między pełnymi uruchomieniami automatyzacji? Zakres wybiera losowy czas oczekiwania dla każdej pętli."
+    },
+    "pageGuard": {
+      "label": "Page Guard",
+      "description": "Sprawdza wartość na bieżącej stronie przed uruchomieniem kroku. Krok jest uruchamiany tylko wtedy, gdy skonfigurowane porównanie zakończy się powodzeniem."
+    },
+    "guardTarget": {
+      "label": "Cel Page Guard",
+      "description": "Element strony, którego tekst, wartość, stan zaznaczenia lub atrybut jest sprawdzany przed uruchomieniem kroku."
+    },
+    "guardCondition": {
+      "label": "Porównanie Page Guard",
+      "description": "Reguła używana do porównywania wartości znalezionej na stronie z wartością Porównaj z, taką jak Równa się, Zawiera lub Większa niż."
+    },
+    "guardValue": {
+      "label": "Porównaj z",
+      "description": "Wartość oczekiwana używana przez porównanie Page Guard. Krok chroniony jest uruchamiany po pomyślnym porównaniu."
+    },
+    "valueExtractor": {
+      "label": "Ekstraktor wartości",
+      "description": "Opcjonalny selektor atrybutu lub wyrażenie regularne, które wyodrębnia tylko tę część wartości strony, którą chcesz porównać."
+    },
+    "guardRecheck": {
+      "label": "Sprawdź ponownie",
+      "description": "Ile razy Page Guard dodatkowo sprawdza warunek, gdy nie jest on jeszcze spełniony? Funkcja Unlimited sprawdza go, aż do momentu spełnienia warunku lub zatrzymania automatyzacji."
+    },
+    "guardRecheckInterval": {
+      "label": "Interwał ponownego sprawdzenia osłony",
+      "description": "Jak długo Page Guard czeka przed ponownym sprawdzeniem stanu strony. Zakres za każdym razem wybiera losowy czas oczekiwania."
+    },
+    "conditionGuard": {
+      "label": "Strażnik stanu",
+      "description": "Kontroluje, czy ten krok ma zostać uruchomiony na podstawie wyniku jednego lub kilku poprzednich kroków. Nazywa się to również Ochroną Kroków."
+    },
+    "guardOperator": {
+      "label": "Operator warunkowy",
+      "description": "Łączy reguły strażnicze. AND wymaga, aby ta reguła i poprzednia reguła były zgodne; OR pozwala, aby każda z nich była zgodna."
+    },
+    "previousStep": {
+      "label": "Poprzedni krok",
+      "description": "Wcześniejszy krok, którego ukończenie jest sprawdzane przez tego Warunkowego Strażnika."
+    },
+    "stepResult": {
+      "label": "Wynik kroku",
+      "description": "Aby ta reguła ochronna została zastosowana, wybrany poprzedni krok musi mieć określony wynik, np. ukończenie lub błąd."
+    },
+    "stepSettings": {
+      "label": "Ustawienia kroków",
+      "description": "Zastępuje ponawianie prób i zachowanie osadzonej strony tylko dla tego kroku, nie zmieniając ustawień domyślnych używanych w innych krokach."
+    },
+    "embeddedPages": {
+      "label": "Osadzone strony",
+      "description": "Ramki osadzone na bieżącej stronie, powszechnie nazywane ramkami iframe. Włączenie tej opcji powoduje przeszukanie ramek znajdujących się przed stroną główną."
+    },
+    "retryAttempts": {
+      "label": "Ponowne próby",
+      "description": "Ile razy dodatkowo należy szukać brakującego celu przed zastosowaniem wybranej akcji awaryjnej."
+    },
+    "retryInterval": {
+      "label": "Interwał ponawiania prób",
+      "description": "Jak długo czekać przed ponownym poszukiwaniem zaginionego celu? Zakres wybiera losowy czas oczekiwania przy każdej kolejnej próbie."
+    },
+    "runMode": {
+      "label": "Tryb pracy",
+      "description": "Określa, czy automatyzacja ma być uruchamiana automatycznie na podstawie zdarzeń na stronie, czy ręcznie po naciśnięciu klawisza skrótu."
+    },
+    "hotkey": {
+      "label": "Klawisz skrótu",
+      "description": "Skrót klawiaturowy uruchamiający tę automatyzację, gdy jej tryb działania jest ustawiony na Ręczny."
+    },
+    "pageLoadTiming": {
+      "label": "Czas ładowania strony",
+      "description": "Wybiera, które zdarzenie strony przeglądarki uruchamia automatyczną automatyzację: gdy dokument jest gotowy czy po załadowaniu całej strony."
+    },
+    "pageNavigation": {
+      "label": "Nawigacja po stronach",
+      "description": "Uruchamia automatyzację, gdy witryna zmienia swój adres URL, bez konieczności całkowitego przeładowania strony, co ma miejsce w przypadku wielu aplikacji jednostronicowych."
+    },
+    "googleSheetsId": {
+      "label": "Identyfikator Arkuszy Google",
+      "description": "Unikalna część adresu URL Arkuszy Google, która identyfikuje arkusz kalkulacyjny używany przez polecenia wartości Arkuszy Google."
+    },
+    "startTime": {
+      "label": "Czas rozpoczęcia",
+      "description": "Godzina w formacie GG:mm:ss.sss, która ogranicza czas rozpoczęcia automatyzacji."
+    },
+    "urlMatchType": {
+      "label": "Typ dopasowania adresu URL",
+      "description": "Kontroluje sposób porównywania adresów URL automatyzacji: dokładny adres URL wymaga takiego samego adresu, natomiast dopasowanie wzorca akceptuje wzorzec wyrażenia regularnego."
+    },
+    "bypassHotkeys": {
+      "label": "Omiń zachowanie skrótu klawiszowego przeglądarki",
+      "description": "Zapobiega przejmowaniu skonfigurowanego skrótu klawiszowego automatyzacji przez okna dialogowe alertów, potwierdzeń lub monitów."
+    },
+    "schedule": {
+      "label": "Harmonogram",
+      "description": "Uruchamia automatyzację w skonfigurowanym dniu i czasie zamiast polegać wyłącznie na załadowaniu strony lub ręcznym naciśnięciu klawisza skrótu."
+    },
+    "scheduleRepeat": {
+      "label": "Zaplanuj powtórzenie",
+      "description": "Ile minut należy odczekać przed ponownym uruchomieniem zaplanowanej automatyzacji."
+    },
+    "monitor": {
+      "label": "Monitorowanie",
+      "description": "Monitoruje część strony pod kątem nowo dodanych lub zmienionych pasujących elementów i ponownie uruchamia automatyzację, gdy wykryje zmiany."
+    },
+    "monitorRoot": {
+      "label": "Monitoruj root",
+      "description": "Selektor CSS dla kontenera strony, który ma być obserwowany. Użycie wąskiego kontenera pozwala uniknąć reakcji na niezwiązane z nim zmiany na stronie."
+    },
+    "monitorAttributes": {
+      "label": "Atrybuty monitora",
+      "description": "Lista atrybutów elementów, oddzielonych przecinkami, których zmiany powinny powodować monitorowanie, takich jak klasa, styl lub ukryte."
+    },
+    "debounce": {
+      "label": "Debounce",
+      "description": "Czeka na ustabilizowanie się szybkich zmian na stronie przed ich przetworzeniem, dzięki czemu seria aktualizacji uruchamia jedno automatyczne uruchomienie zamiast wielu."
+    },
+    "monitorTimeout": {
+      "label": "Przekroczenie limitu czasu monitora",
+      "description": "Automatycznie zatrzymuje monitorowanie po upływie określonej liczby minut, aby automatyzacja nie śledziła strony w nieskończoność."
+    },
+    "monitorUrlChange": {
+      "label": "Zatrzymaj przy zmianie adresu URL",
+      "description": "Zatrzymuje aktywny monitor w momencie zmiany adresu strony, zapobiegając przeniesieniu jej do innego widoku."
     }
   },
   "common": {

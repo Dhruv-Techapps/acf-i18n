@@ -188,6 +188,7 @@
     }
   },
   "stateGuard": {
+    "operator": "Operador",
     "action": "Paso anterior",
     "status": "Resultado",
     "title": "Guardián de condición",
@@ -358,7 +359,11 @@
   "automations": {
     "title": "Mis automatizaciones",
     "count": "Automatizaciones ({{count}})",
+    "sidebarCount": "Automatizaciones ({{visible}}/{{total}})",
     "search": "Busca tus automatizaciones...",
+    "noResults": "No se encontraron automatizaciones.",
+    "organize": "Organizar automatizaciones",
+    "back": "Atrás",
     "add": "Nuevo",
     "reorder": "Reordenar",
     "reorderByName": "Reordenar por nombre",
@@ -374,9 +379,21 @@
     "select": "Seleccionar",
     "import": "Importar",
     "filter": {
+      "title": "Estado",
       "all": "Todo",
       "enabled": "Activado",
       "disabled": "Deshabilitado"
+    },
+    "groupBy": {
+      "title": "Agrupar por",
+      "none": "Ninguno",
+      "status": "Estado",
+      "domain": "Dominio",
+      "features": "Características"
+    },
+    "group": {
+      "noDomain": "Sin dominio",
+      "noFeatures": "Sin características"
     },
     "confirm": {
       "delete": {
@@ -611,6 +628,189 @@
       "title": "Tecla de acceso rápido",
       "content": "Presione la tecla de acceso rápido del teclado para escribir automáticamente en el campo.",
       "hint": "Una sola letra sin <kbd>Ctrl</kbd>, <kbd>Alt</kbd> o <kbd>Shift</kbd> no es válida"
+    }
+  },
+  "glossary": {
+    "help": "¿Qué significa {{term}}?",
+    "automationUrl": {
+      "label": "URL de automatización",
+      "description": "La dirección de la página en la que se permite ejecutar esta automatización. El tipo de coincidencia de URL controla si se compara de forma exacta o como un patrón."
+    },
+    "waitBeforeStart": {
+      "label": "Espere antes de comenzar",
+      "description": "Cuánto tiempo espera la automatización después de su evento de inicio antes de ejecutar el primer paso. Un rango elige un retardo aleatorio entre los dos valores."
+    },
+    "stepDelay": {
+      "label": "Retraso de paso",
+      "description": "Cuánto tiempo esperar antes de ejecutar este paso. Un rango elige un retraso aleatorio entre los dos valores."
+    },
+    "stepName": {
+      "label": "Nombre del padrastro",
+      "description": "Un nombre opcional que le ayudará a reconocer este paso en el editor, los registros, las protecciones y las listas de \"Ir a paso\"."
+    },
+    "target": {
+      "label": "Objetivo",
+      "description": "El elemento de la página sobre el que actúa este paso, identificado mediante un selector CSS, XPath, ID de elemento, posición u otro buscador compatible."
+    },
+    "value": {
+      "label": "Valor",
+      "description": "Qué hace el paso con su objetivo, como texto para introducir, un comando de clic, un marcador de posición u otro comando de valor admitido."
+    },
+    "placeholder": {
+      "label": "Marcador de posición",
+      "description": "Un token dentro de un Valor que se reemplaza cuando se ejecuta la automatización, como un número de lote, un valor aleatorio, texto del portapapeles o datos de otra fuente."
+    },
+    "stepRepeat": {
+      "label": "Repetición de paso",
+      "description": "¿Cuántas veces más se ejecuta este paso individual antes de que la automatización pase al siguiente paso?"
+    },
+    "stepInterval": {
+      "label": "Intervalo de pasos",
+      "description": "Cuánto tiempo esperar entre cada repetición de este paso individual. Un rango elige un tiempo de espera aleatorio cada vez."
+    },
+    "loop": {
+      "label": "Bucle",
+      "description": "Vuelve a ejecutar toda la automatización una vez que finalizan todos sus pasos. Esto es diferente de Repetir, que repite solo un paso."
+    },
+    "batch": {
+      "label": "Lote",
+      "description": "El nombre anterior para un bucle de automatización. El marcador de posición heredado batchRepeat es el mismo que loopRepeat, que contiene el número de bucle actual."
+    },
+    "loopRefresh": {
+      "label": "Actualización del bucle",
+      "description": "La página se recarga una vez finalizados todos los pasos. La automatización puede reiniciarse después de que la página se haya actualizado."
+    },
+    "loopRepeat": {
+      "label": "Repetición del bucle",
+      "description": "¿Cuántas veces hay que repetir todos los pasos sin recargar la página?"
+    },
+    "loopInterval": {
+      "label": "Intervalo de bucle",
+      "description": "Cuánto tiempo esperar entre ejecuciones completas de automatización. Un rango elige un tiempo de espera aleatorio para cada bucle."
+    },
+    "pageGuard": {
+      "label": "Page Guard",
+      "description": "Comprueba un valor en la página actual antes de que se ejecute un paso. El paso se ejecuta solo cuando la comparación configurada tiene éxito."
+    },
+    "guardTarget": {
+      "label": "Page Guard Target",
+      "description": "El elemento de la página cuyo texto, valor, estado de verificación o atributo se comprueba antes de que se ejecute el paso."
+    },
+    "guardCondition": {
+      "label": "Comparación de Page Guard",
+      "description": "La regla utilizada para comparar el valor encontrado en la página con la función Comparar con, como Igual a, Contiene o Mayor que."
+    },
+    "guardValue": {
+      "label": "Comparar con",
+      "description": "El valor esperado utilizado por la comparación de Page Guard. El paso protegido se ejecuta cuando la comparación tiene éxito."
+    },
+    "valueExtractor": {
+      "label": "Extractor de valor",
+      "description": "Un selector de atributos opcional o una expresión regular que extrae solo la parte del valor de la página que se desea comparar."
+    },
+    "guardRecheck": {
+      "label": "Vuelva a comprobarlo",
+      "description": "Cuántas veces adicionales Page Guard comprueba la condición cuando aún no se ha cumplido. La opción Ilimitada continúa comprobando hasta que se cumple o la automatización se detiene."
+    },
+    "guardRecheckInterval": {
+      "label": "Intervalo de revisión del guardia",
+      "description": "Cuánto tiempo espera Page Guard antes de volver a comprobar el estado de la página. Un rango elige un tiempo de espera aleatorio cada vez."
+    },
+    "conditionGuard": {
+      "label": "Guardián de condición",
+      "description": "Controla si este paso se ejecuta en función del resultado de uno o más pasos anteriores. Esto también se conoce como protección de paso."
+    },
+    "guardOperator": {
+      "label": "Operador de condición",
+      "description": "Combina reglas de protección. AND requiere que esta regla y la anterior coincidan; OR permite que cualquiera de las dos coincida."
+    },
+    "previousStep": {
+      "label": "Paso anterior",
+      "description": "El paso anterior cuyo resultado de finalización es comprobado por este Control de Condición."
+    },
+    "stepResult": {
+      "label": "Resultado del paso",
+      "description": "El resultado que debe tener el paso anterior seleccionado, como completado o error, para que esta regla de protección coincida."
+    },
+    "stepSettings": {
+      "label": "Configuración de pasos",
+      "description": "Esta opción anula el comportamiento de reintento y de página incrustada solo para este paso, sin modificar la configuración predeterminada utilizada en los demás pasos."
+    },
+    "embeddedPages": {
+      "label": "Páginas incrustadas",
+      "description": "Marcos incrustados dentro de la página actual, comúnmente llamados iframes. Al habilitar esta opción, se buscarán esos marcos antes de la página principal."
+    },
+    "retryAttempts": {
+      "label": "Intentos de reintento",
+      "description": "¿Cuántas veces adicionales se debe buscar un objetivo faltante antes de aplicar la acción de fallo seleccionada?"
+    },
+    "retryInterval": {
+      "label": "Intervalo de reintento",
+      "description": "Cuánto tiempo esperar antes de volver a buscar un objetivo desaparecido. Un rango elige un tiempo de espera aleatorio para cada reintento."
+    },
+    "runMode": {
+      "label": "Modo de ejecución",
+      "description": "Controla si una automatización se inicia automáticamente a partir de los eventos de la página o manualmente al pulsar su tecla de acceso rápido."
+    },
+    "hotkey": {
+      "label": "Tecla de acceso rápido",
+      "description": "Un atajo de teclado que inicia esta automatización cuando su modo de ejecución es manual."
+    },
+    "pageLoadTiming": {
+      "label": "Tiempos de carga de la página",
+      "description": "Permite elegir qué evento de la página del navegador inicia una automatización automática: cuando el documento está listo o después de que la página completa haya terminado de cargarse."
+    },
+    "pageNavigation": {
+      "label": "Navegación de página",
+      "description": "Este proceso se ejecuta cuando un sitio web cambia su URL sin recargar completamente la página, como hacen muchas aplicaciones de una sola página."
+    },
+    "googleSheetsId": {
+      "label": "ID de Google Sheets",
+      "description": "La parte única de una URL de Google Sheets que identifica la hoja de cálculo utilizada por los comandos Value de Google Sheets."
+    },
+    "startTime": {
+      "label": "Hora de inicio",
+      "description": "Una hora del día en formato HH:mm:ss.sss que limita cuándo puede comenzar la automatización."
+    },
+    "urlMatchType": {
+      "label": "Tipo de coincidencia de URL",
+      "description": "Controla cómo se compara la URL de automatización: la URL exacta requiere la misma dirección, mientras que la coincidencia de patrones acepta un patrón de expresión regular."
+    },
+    "bypassHotkeys": {
+      "label": "Omitir el comportamiento de las teclas de acceso rápido del navegador",
+      "description": "Impide que los cuadros de diálogo de alerta, confirmación o solicitud coincidentes tomen el control de la tecla de acceso rápido de automatización configurada."
+    },
+    "schedule": {
+      "label": "Cronograma",
+      "description": "Inicia una automatización en la fecha y hora configuradas, en lugar de depender únicamente de la carga de la página o de una tecla de acceso rápido manual."
+    },
+    "scheduleRepeat": {
+      "label": "Repetir el programa",
+      "description": "¿Cuántos minutos hay que esperar antes de volver a iniciar la automatización programada?"
+    },
+    "monitor": {
+      "label": "Monitorización",
+      "description": "Supervisa una parte de una página en busca de elementos coincidentes recién agregados o modificados y vuelve a ejecutar la automatización cuando se detectan cambios."
+    },
+    "monitorRoot": {
+      "label": "Monitor Root",
+      "description": "Selector CSS para el contenedor de página que se va a monitorizar. Usar un contenedor estrecho evita reaccionar a cambios de página no relacionados."
+    },
+    "monitorAttributes": {
+      "label": "Atributos del monitor",
+      "description": "Una lista separada por comas de atributos de elementos cuyos cambios deberían activar la monitorización, como clase, estilo u oculto."
+    },
+    "debounce": {
+      "label": "Debounce",
+      "description": "Espera a que se estabilicen los cambios rápidos de la página antes de procesarlos, de modo que una ráfaga de actualizaciones activa una sola ejecución de automatización en lugar de varias."
+    },
+    "monitorTimeout": {
+      "label": "Tiempo de espera del monitor",
+      "description": "Tras este número de minutos, la monitorización se detiene automáticamente, por lo que la automatización no vigila la página indefinidamente."
+    },
+    "monitorUrlChange": {
+      "label": "Detener al cambiar la URL",
+      "description": "Detiene el monitor activo cuando cambia la dirección de la página, evitando que se aplique a una vista diferente."
     }
   },
   "common": {

@@ -188,6 +188,7 @@
     }
   },
   "stateGuard": {
+    "operator": "算子",
     "action": "上一步",
     "status": "結果",
     "title": "狀態守衛",
@@ -358,7 +359,11 @@
   "automations": {
     "title": "我的自動化",
     "count": "自動化（{{count}}）",
+    "sidebarCount": "自動化（{{visible}}/{{total}}）",
     "search": "搜尋您的自動化操作…",
+    "noResults": "未找到自動化流程。",
+    "organize": "組織自動化",
+    "back": "後退",
     "add": "新的",
     "reorder": "重新排序",
     "reorderByName": "按名稱重新排序",
@@ -374,9 +379,21 @@
     "select": "選擇",
     "import": "匯入",
     "filter": {
+      "title": "狀態",
       "all": "全部",
       "enabled": "已啟用",
       "disabled": "已停用"
+    },
+    "groupBy": {
+      "title": "按分組",
+      "none": "沒有任何",
+      "status": "狀態",
+      "domain": "域名",
+      "features": "特徵"
+    },
+    "group": {
+      "noDomain": "無域名",
+      "noFeatures": "無功能"
     },
     "confirm": {
       "delete": {
@@ -464,7 +481,7 @@
     "title": "探索自動化",
     "search": "搜尋自動化…",
     "loadMore": "加載更多",
-    "loginToExplore": "請<1>登入</1>以瀏覽已發佈的自動化流程。",
+    "loginToExplore": "<1>登入</1>以瀏覽已發佈的自動化流程。",
     "no-published": "未找到自動化腳本。快來發布第一個吧！",
     "downloads_zero": "無需下載",
     "downloads_one": "1 下載",
@@ -611,6 +628,189 @@
       "title": "快速鍵",
       "content": "按下鍵盤上的快捷鍵即可在欄位中自動輸入內容",
       "hint": "缺少 <kbd>Ctrl</kbd>、<kbd>Alt</kbd> 或 <kbd>Shift</kbd> 的單一字母無效"
+    }
+  },
+  "glossary": {
+    "help": "{{term}} 是什麼意思？",
+    "automationUrl": {
+      "label": "自動化 URL",
+      "description": "此自動化流程允許在以下頁面位址上運作。 URL 比對類型控制是進行精確比對還是模式比對。"
+    },
+    "waitBeforeStart": {
+      "label": "請稍候再開始",
+      "description": "自動化程序在啟動事件發生後等待多長時間才執行第一步。此範圍值會隨機選擇介於兩個值之間的延遲時間。"
+    },
+    "stepDelay": {
+      "label": "步驟延遲",
+      "description": "執行此步驟前需要等待多久？此範圍選項會選擇兩個值之間的隨機延遲時間。"
+    },
+    "stepName": {
+      "label": "步驟名稱",
+      "description": "一個可選名稱，可協助您在編輯器、日誌、守衛和「前往步驟」清單中識別此步驟。"
+    },
+    "target": {
+      "label": "目標",
+      "description": "此步驟操作的頁面項，可透過 CSS 選擇器、XPath、元素 ID、位置或其他支援的查找器進行識別。"
+    },
+    "value": {
+      "label": "值",
+      "description": "此步驟對其目標執行的操作，例如要輸入的文字、按一下命令、佔位符或其他受支援的值命令。"
+    },
+    "placeholder": {
+      "label": "佔位符",
+      "description": "值中的標記，在自動化運行時會被替換，例如批次號、隨機值、剪貼簿文字或來自其他來源的資料。"
+    },
+    "stepRepeat": {
+      "label": "步驟重複",
+      "description": "在自動化流程進入下一步之前，此步驟還需要執行多少次？"
+    },
+    "stepInterval": {
+      "label": "步長間隔",
+      "description": "此步驟重複執行之間需要等待多久？每次都會隨機選擇一個等待時間範圍。"
+    },
+    "loop": {
+      "label": "循環",
+      "description": "所有步驟完成後，再次執行整個自動化流程。這與「重複」不同，「重複」只會重複一個步驟。"
+    },
+    "batch": {
+      "label": "批次",
+      "description": "自動化循環的舊名稱。舊版 batchRepeat 佔位符與 loopRepeat 相同，其中包含目前循環編號。"
+    },
+    "loopRefresh": {
+      "label": "循環刷新",
+      "description": "所有步驟完成後，頁面將重新載入。頁面刷新載入完畢後，自動化流程可以再次啟動。"
+    },
+    "loopRepeat": {
+      "label": "循環重複",
+      "description": "在不重新載入頁面的情況下，所有步驟要重複運行多少次？"
+    },
+    "loopInterval": {
+      "label": "循環間隔",
+      "description": "兩次完整自動化運行之間需要等待多長時間？此範圍會為每次循環選擇一個隨機等待時間。"
+    },
+    "pageGuard": {
+      "label": "頁面保護",
+      "description": "在步驟運行之前檢查目前頁面上的值。僅當配置的比較成功時，該步驟才會運作。"
+    },
+    "guardTarget": {
+      "label": "頁面保護目標",
+      "description": "在步驟運行之前，要測試其文字、值、選取狀態或屬性的頁面項目。"
+    },
+    "guardCondition": {
+      "label": "頁面保護比較",
+      "description": "用於將頁面上找到的值與「比較」規則進行比較的規則，例如「等於」、「包含」或「大於」。"
+    },
+    "guardValue": {
+      "label": "與…比較",
+      "description": "頁面保護比較所使用的期望值。當比較成功時，受保護的步驟將會運作。"
+    },
+    "valueExtractor": {
+      "label": "值擷取器",
+      "description": "一個可選的屬性選擇器或正規表示式，用於提取頁面值中要比較的部分。"
+    },
+    "guardRecheck": {
+      "label": "再次檢查",
+      "description": "Page Guard 在條件未滿足時會額外檢查幾次？ 「無限次」設定會一直檢查，直到條件滿足或自動化流程停止為止。"
+    },
+    "guardRecheckInterval": {
+      "label": "防護複檢間隔",
+      "description": "Page Guard 在再次檢查頁面狀態之前等待多長時間。每次檢查前都會隨機選擇一個等待時間範圍。"
+    },
+    "conditionGuard": {
+      "label": "狀態守衛",
+      "description": "控制此步驟是否根據一個或多個先前步驟的結果運作。這也被稱為步驟保護。"
+    },
+    "guardOperator": {
+      "label": "條件算子",
+      "description": "組合守衛規則。 AND 要求此規則與前一條規則相符；OR 允許任一規則相符。"
+    },
+    "previousStep": {
+      "label": "上一步",
+      "description": "此條件守衛檢查的是先前步驟的完成結果。"
+    },
+    "stepResult": {
+      "label": "步驟結果",
+      "description": "要使此守衛規則匹配，所選的前一步必須具有結果（例如已完成或錯誤）。"
+    },
+    "stepSettings": {
+      "label": "步驟設定",
+      "description": "僅覆寫此步驟的重試和嵌入頁面行為，而不更改其他步驟使用的預設值。"
+    },
+    "embeddedPages": {
+      "label": "嵌入式頁面",
+      "description": "嵌入在當前頁面中的框架，通常稱為 iframe。啟用此功能後，系統會在主頁面之前搜尋這些框架。"
+    },
+    "retryAttempts": {
+      "label": "重試次數",
+      "description": "在應用選定的故障處理措施之前，還需要尋找多少次缺失的目標？"
+    },
+    "retryInterval": {
+      "label": "重試間隔",
+      "description": "再次搜尋丟失目標前需要等待多久？範圍設定會為每次重試隨機選擇一個等待時間。"
+    },
+    "runMode": {
+      "label": "運作模式",
+      "description": "控制自動化操作是自動從頁面事件啟動，還是透過按下熱鍵手動啟動。"
+    },
+    "hotkey": {
+      "label": "快速鍵",
+      "description": "當此自動化流程的運作模式為手動時，可以使用鍵盤快速鍵啟動此自動化流程。"
+    },
+    "pageLoadTiming": {
+      "label": "頁面載入時間",
+      "description": "選擇哪個瀏覽器頁面事件啟動自動自動化：當文件準備就緒時或在整個頁面載入完成後。"
+    },
+    "pageNavigation": {
+      "label": "頁面導航",
+      "description": "當網站更改其 URL 而無需完全重新加載頁面時（許多單頁應用程式都是如此），將運行自動化程式。"
+    },
+    "googleSheetsId": {
+      "label": "Google Sheets ID",
+      "description": "Google Sheets URL 中用來識別 Google Sheets 值指令所使用的電子表格的唯一部分。"
+    },
+    "startTime": {
+      "label": "開始時間",
+      "description": "以 HH:mm:ss.sss 格式指定的一天中的時間，用於限制自動化程序可以開始的時間。"
+    },
+    "urlMatchType": {
+      "label": "URL 比對類型",
+      "description": "控制自動化 URL 的比較方式：精確 URL 要求位址完全相同，而模式比對接受正規表示式模式。"
+    },
+    "bypassHotkeys": {
+      "label": "繞過瀏覽器熱鍵行為",
+      "description": "防止匹配的警報、確認或提示對話方塊接管已配置的自動化熱鍵。"
+    },
+    "schedule": {
+      "label": "行程",
+      "description": "在配置的日期和時間啟動自動化操作，而不是僅依賴頁面載入或手動熱鍵。"
+    },
+    "scheduleRepeat": {
+      "label": "重複",
+      "description": "再次啟動預定自動化程序前需要等待多少分鐘？"
+    },
+    "monitor": {
+      "label": "監控",
+      "description": "監視頁面的一部分，尋找新新增或變更的匹配項，並在偵測到變更時再次執行自動化程式。"
+    },
+    "monitorRoot": {
+      "label": "監控根目錄",
+      "description": "用於監聽頁面容器的 CSS 選擇器。使用窄容器可以避免對無關的頁面變更做出反應。"
+    },
+    "monitorAttributes": {
+      "label": "監控屬性",
+      "description": "以逗號分隔的元素屬性列表，這些屬性的變更應觸發監視，例如 class、style 或 hidden。"
+    },
+    "debounce": {
+      "label": "Debounce",
+      "description": "等待頁面快速變化穩定下來後再處理，因此，大量更新只會觸發一次自動化運行，而不是多次運行。"
+    },
+    "monitorTimeout": {
+      "label": "監控逾時",
+      "description": "監控會在指定分鐘數後自動停止，以防止自動化程序無限期地監視頁面。"
+    },
+    "monitorUrlChange": {
+      "label": "URL 更改時停止",
+      "description": "當頁面位址改變時，停止活動監視器，防止其轉移到其他視圖。"
     }
   },
   "common": {
