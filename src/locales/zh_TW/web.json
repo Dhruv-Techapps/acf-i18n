@@ -452,6 +452,10 @@
       "import": {
         "title": "進口自動化",
         "message": "導入操作將覆蓋您目前的自動化流程（如果已存在）。是否繼續？"
+      },
+      "unpublish": {
+        "title": "Unpublish Automation",
+        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
       }
     },
     "toast": {
@@ -489,7 +493,8 @@
     "filter": {
       "all": "全部",
       "mine": "礦",
-      "published": "已發布"
+      "published": "已發布",
+      "author": "By {{name}}"
     },
     "toast": {
       "header": "探索",

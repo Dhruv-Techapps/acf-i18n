@@ -452,6 +452,10 @@
       "import": {
         "title": "ระบบนำเข้าอัตโนมัติ",
         "message": "การนำเข้าจะแทนที่ระบบอัตโนมัติปัจจุบันของคุณหากมีอยู่ต้องการดำเนินการต่อหรือไม่?"
+      },
+      "unpublish": {
+        "title": "Unpublish Automation",
+        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
       }
     },
     "toast": {
@@ -489,7 +493,8 @@
     "filter": {
       "all": "ทั้งหมด",
       "mine": "ของฉัน",
-      "published": "ที่ตีพิมพ์"
+      "published": "ที่ตีพิมพ์",
+      "author": "By {{name}}"
     },
     "toast": {
       "header": "สำรวจ",

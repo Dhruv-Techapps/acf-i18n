@@ -452,6 +452,10 @@
       "import": {
         "title": "Automatisering van import",
         "message": "Door te importeren wordt uw huidige automatisering vervangen, indien deze bestaat. Doorgaan?"
+      },
+      "unpublish": {
+        "title": "Unpublish Automation",
+        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
       }
     },
     "toast": {
@@ -489,7 +493,8 @@
     "filter": {
       "all": "Alle",
       "mine": "De mijne",
-      "published": "Gepubliceerd"
+      "published": "Gepubliceerd",
+      "author": "By {{name}}"
     },
     "toast": {
       "header": "Ontdekken",

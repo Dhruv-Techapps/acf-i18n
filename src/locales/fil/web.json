@@ -452,6 +452,10 @@
       "import": {
         "title": "Awtomasyon sa Pag-import",
         "message": "Papalitan ng pag-import ang kasalukuyan mong automation kung mayroon man. Magpatuloy?"
+      },
+      "unpublish": {
+        "title": "Unpublish Automation",
+        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
       }
     },
     "toast": {
@@ -489,7 +493,8 @@
     "filter": {
       "all": "Lahat",
       "mine": "Akin",
-      "published": "Na-publish"
+      "published": "Na-publish",
+      "author": "By {{name}}"
     },
     "toast": {
       "header": "Galugarin",

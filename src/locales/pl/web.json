@@ -452,6 +452,10 @@
       "import": {
         "title": "Automatyzacja importu",
         "message": "Importowanie zastąpi obecną automatyzację, jeśli taka istnieje. Kontynuować?"
+      },
+      "unpublish": {
+        "title": "Unpublish Automation",
+        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
       }
     },
     "toast": {
@@ -489,7 +493,8 @@
     "filter": {
       "all": "Wszystko",
       "mine": "Kopalnia",
-      "published": "Opublikowany"
+      "published": "Opublikowany",
+      "author": "By {{name}}"
     },
     "toast": {
       "header": "Badać",

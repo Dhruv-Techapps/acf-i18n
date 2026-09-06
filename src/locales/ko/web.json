@@ -452,6 +452,10 @@
       "import": {
         "title": "가져오기 자동화",
         "message": "가져오기를 하면 기존 자동화 설정이 덮어쓰여집니다. 계속하시겠습니까?"
+      },
+      "unpublish": {
+        "title": "Unpublish Automation",
+        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
       }
     },
     "toast": {
@@ -489,7 +493,8 @@
     "filter": {
       "all": "모두",
       "mine": "내 거",
-      "published": "게시됨"
+      "published": "게시됨",
+      "author": "By {{name}}"
     },
     "toast": {
       "header": "탐구하다",

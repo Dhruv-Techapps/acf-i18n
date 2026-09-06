@@ -452,6 +452,10 @@
       "import": {
         "title": "インポート自動化",
         "message": "インポートを実行すると、既存の自動化設定があれば上書きされます。続行しますか？"
+      },
+      "unpublish": {
+        "title": "Unpublish Automation",
+        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
       }
     },
     "toast": {
@@ -489,7 +493,8 @@
     "filter": {
       "all": "全て",
       "mine": "私の",
-      "published": "公開済み"
+      "published": "公開済み",
+      "author": "By {{name}}"
     },
     "toast": {
       "header": "探検する",

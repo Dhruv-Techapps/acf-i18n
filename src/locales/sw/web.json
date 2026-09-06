@@ -452,6 +452,10 @@
       "import": {
         "title": "Ingiza Otomatiki",
         "message": "Kuingiza kutachukua nafasi ya otomatiki yako ya sasa ikiwa ipo. Endelea?"
+      },
+      "unpublish": {
+        "title": "Unpublish Automation",
+        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
       }
     },
     "toast": {
@@ -489,7 +493,8 @@
     "filter": {
       "all": "Zote",
       "mine": "Yangu",
-      "published": "Imechapishwa"
+      "published": "Imechapishwa",
+      "author": "By {{name}}"
     },
     "toast": {
       "header": "Gundua",

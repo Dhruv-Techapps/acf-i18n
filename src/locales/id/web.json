@@ -452,6 +452,10 @@
       "import": {
         "title": "Otomatisasi Impor",
         "message": "Mengimpor akan menggantikan otomatisasi Anda saat ini jika ada. Lanjutkan?"
+      },
+      "unpublish": {
+        "title": "Unpublish Automation",
+        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
       }
     },
     "toast": {
@@ -489,7 +493,8 @@
     "filter": {
       "all": "Semua",
       "mine": "Milikku",
-      "published": "Diterbitkan"
+      "published": "Diterbitkan",
+      "author": "By {{name}}"
     },
     "toast": {
       "header": "Mengeksplorasi",

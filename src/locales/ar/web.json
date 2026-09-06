@@ -452,6 +452,10 @@
       "import": {
         "title": "أتمتة الاستيراد",
         "message": "سيؤدي الاستيراد إلى استبدال نظام التشغيل الآلي الحالي لديك إن وجد. هل تريد المتابعة؟"
+      },
+      "unpublish": {
+        "title": "Unpublish Automation",
+        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
       }
     },
     "toast": {
@@ -489,7 +493,8 @@
     "filter": {
       "all": "الجميع",
       "mine": "مِلكِي",
-      "published": "نُشر"
+      "published": "نُشر",
+      "author": "By {{name}}"
     },
     "toast": {
       "header": "يستكشف",
