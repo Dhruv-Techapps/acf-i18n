@@ -452,6 +452,10 @@
       "import": {
         "title": "Tự động hóa nhập khẩu",
         "message": "Việc nhập khẩu sẽ thay thế hệ thống tự động hóa hiện tại của bạn nếu nó đang tồn tại. Tiếp tục?"
+      },
+      "unpublish": {
+        "title": "Unpublish Automation",
+        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
       }
     },
     "toast": {
@@ -489,7 +493,8 @@
     "filter": {
       "all": "Tất cả",
       "mine": "Của tôi",
-      "published": "Đã xuất bản"
+      "published": "Đã xuất bản",
+      "author": "By {{name}}"
     },
     "toast": {
       "header": "Khám phá",

@@ -452,6 +452,10 @@
       "import": {
         "title": "आयात स्वचालन",
         "message": "यदि पहले से कोई स्वचालित प्रक्रिया मौजूद है, तो आयात करने से वह बदल जाएगी। जारी रखें?"
+      },
+      "unpublish": {
+        "title": "Unpublish Automation",
+        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
       }
     },
     "toast": {
@@ -489,7 +493,8 @@
     "filter": {
       "all": "सभी",
       "mine": "मेरा",
-      "published": "प्रकाशित"
+      "published": "प्रकाशित",
+      "author": "By {{name}}"
     },
     "toast": {
       "header": "अन्वेषण करना",

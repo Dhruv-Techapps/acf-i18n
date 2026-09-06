@@ -452,6 +452,10 @@
       "import": {
         "title": "Automazione delle importazioni",
         "message": "L'importazione sostituirà l'automazione corrente, se presente. Continuare?"
+      },
+      "unpublish": {
+        "title": "Unpublish Automation",
+        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
       }
     },
     "toast": {
@@ -489,7 +493,8 @@
     "filter": {
       "all": "Tutto",
       "mine": "Mio",
-      "published": "Pubblicato"
+      "published": "Pubblicato",
+      "author": "By {{name}}"
     },
     "toast": {
       "header": "Esplorare",

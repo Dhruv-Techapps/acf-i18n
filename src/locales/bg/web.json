@@ -452,6 +452,10 @@
       "import": {
         "title": "Автоматизация на импорта",
         "message": "Импортирането ще замени текущата ви автоматизация, ако съществува такава. Искате ли да продължите?"
+      },
+      "unpublish": {
+        "title": "Unpublish Automation",
+        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
       }
     },
     "toast": {
@@ -489,7 +493,8 @@
     "filter": {
       "all": "Всички",
       "mine": "Моя",
-      "published": "Публикувано"
+      "published": "Публикувано",
+      "author": "By {{name}}"
     },
     "toast": {
       "header": "Разгледайте",

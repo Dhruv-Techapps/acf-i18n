@@ -452,6 +452,10 @@
       "import": {
         "title": "进口自动化",
         "message": "导入操作将覆盖您当前的自动化流程（如果已存在）。是否继续？"
+      },
+      "unpublish": {
+        "title": "Unpublish Automation",
+        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
       }
     },
     "toast": {
@@ -489,7 +493,8 @@
     "filter": {
       "all": "全部",
       "mine": "矿",
-      "published": "已发布"
+      "published": "已发布",
+      "author": "By {{name}}"
     },
     "toast": {
       "header": "探索",
