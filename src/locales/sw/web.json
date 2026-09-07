@@ -454,8 +454,8 @@
         "message": "Kuingiza kutachukua nafasi ya otomatiki yako ya sasa ikiwa ipo. Endelea?"
       },
       "unpublish": {
-        "title": "Unpublish Automation",
-        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
+        "title": "Ondoa Uchapishaji wa Kiotomatiki",
+        "message": "Una uhakika unataka kubatilisha uchapishaji wa [{{title}}]? Itaondolewa kwenye Gundua, lakini nakala yako ya ndani inabaki kwenye orodha yako."
       }
     },
     "toast": {
@@ -493,8 +493,8 @@
     "filter": {
       "all": "Zote",
       "mine": "Yangu",
-      "published": "Imechapishwa",
-      "author": "By {{name}}"
+      "author": "Na {{name}}",
+      "published": "Imechapishwa"
     },
     "toast": {
       "header": "Gundua",

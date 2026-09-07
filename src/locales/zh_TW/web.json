@@ -454,8 +454,8 @@
         "message": "導入操作將覆蓋您目前的自動化流程（如果已存在）。是否繼續？"
       },
       "unpublish": {
-        "title": "Unpublish Automation",
-        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
+        "title": "取消發布自動化",
+        "message": "您確定要取消發布 [{{title}}] 嗎？它將從「探索」頁面中移除，但您的本機副本仍保留在您的清單中。"
       }
     },
     "toast": {
@@ -493,8 +493,8 @@
     "filter": {
       "all": "全部",
       "mine": "礦",
-      "published": "已發布",
-      "author": "By {{name}}"
+      "author": "作者：{{name}}",
+      "published": "已發布"
     },
     "toast": {
       "header": "探索",

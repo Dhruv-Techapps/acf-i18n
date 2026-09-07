@@ -454,8 +454,8 @@
         "message": "Mengimpor akan menggantikan otomatisasi Anda saat ini jika ada. Lanjutkan?"
       },
       "unpublish": {
-        "title": "Unpublish Automation",
-        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
+        "title": "Batalkan Publikasi Otomatisasi",
+        "message": "Apakah Anda yakin ingin membatalkan publikasi [{{title}}]? Itu akan dihapus dari Jelajahi, tetapi salinan lokal Anda tetap ada dalam daftar Anda."
       }
     },
     "toast": {
@@ -493,8 +493,8 @@
     "filter": {
       "all": "Semua",
       "mine": "Milikku",
-      "published": "Diterbitkan",
-      "author": "By {{name}}"
+      "author": "Oleh {{name}}",
+      "published": "Diterbitkan"
     },
     "toast": {
       "header": "Mengeksplorasi",
