@@ -454,8 +454,8 @@
         "message": "Việc nhập khẩu sẽ thay thế hệ thống tự động hóa hiện tại của bạn nếu nó đang tồn tại. Tiếp tục?"
       },
       "unpublish": {
-        "title": "Unpublish Automation",
-        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
+        "title": "Tự động hủy xuất bản",
+        "message": "Bạn có chắc chắn muốn hủy xuất bản [{{title}}] không? Nó sẽ bị xóa khỏi Khám phá, nhưng bản sao cục bộ của bạn vẫn còn trong danh sách."
       }
     },
     "toast": {
@@ -493,8 +493,8 @@
     "filter": {
       "all": "Tất cả",
       "mine": "Của tôi",
-      "published": "Đã xuất bản",
-      "author": "By {{name}}"
+      "author": "Bởi {{name}}",
+      "published": "Đã xuất bản"
     },
     "toast": {
       "header": "Khám phá",

@@ -454,8 +454,8 @@
         "message": "インポートを実行すると、既存の自動化設定があれば上書きされます。続行しますか？"
       },
       "unpublish": {
-        "title": "Unpublish Automation",
-        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
+        "title": "自動化の公開解除",
+        "message": "[{{title}}] の公開を解除してもよろしいですか？エクスプローラーからは削除されますが、ローカルコピーはリストに残ります。"
       }
     },
     "toast": {
@@ -493,8 +493,8 @@
     "filter": {
       "all": "全て",
       "mine": "私の",
-      "published": "公開済み",
-      "author": "By {{name}}"
+      "author": "{{name}} による",
+      "published": "公開済み"
     },
     "toast": {
       "header": "探検する",

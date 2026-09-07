@@ -454,8 +454,8 @@
         "message": "Импорт заменит вашу текущую автоматизацию, если она существует. Продолжить?"
       },
       "unpublish": {
-        "title": "Unpublish Automation",
-        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
+        "title": "Отменить публикацию автоматизации",
+        "message": "Вы уверены, что хотите удалить [{{title}}] из списка публикаций? Он будет удален из раздела «Исследовать», но ваша локальная копия останется в вашем списке."
       }
     },
     "toast": {
@@ -493,8 +493,8 @@
     "filter": {
       "all": "Все",
       "mine": "Мой",
-      "published": "Опубликовано",
-      "author": "By {{name}}"
+      "author": "Автор: {{name}}",
+      "published": "Опубликовано"
     },
     "toast": {
       "header": "Исследовать",

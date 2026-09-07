@@ -454,8 +454,8 @@
         "message": "Importen kommer att ersätta din nuvarande automatisering om den finns. Vill du fortsätta?"
       },
       "unpublish": {
-        "title": "Unpublish Automation",
-        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
+        "title": "Avpublicera automatisering",
+        "message": "Är du säker på att du vill avpublicera [{{title}}]? Den kommer att tas bort från Utforska, men din lokala kopia finns kvar i din lista."
       }
     },
     "toast": {
@@ -493,8 +493,8 @@
     "filter": {
       "all": "Alla",
       "mine": "Mina",
-      "published": "Publicerad",
-      "author": "By {{name}}"
+      "author": "Av {{name}}",
+      "published": "Publicerad"
     },
     "toast": {
       "header": "Utforska",

@@ -454,8 +454,8 @@
         "message": "Importowanie zastąpi obecną automatyzację, jeśli taka istnieje. Kontynuować?"
       },
       "unpublish": {
-        "title": "Unpublish Automation",
-        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
+        "title": "Cofnij publikację automatyzacji",
+        "message": "Czy na pewno chcesz cofnąć publikację pliku [{{title}}]? Zostanie on usunięty z Eksploratora, ale Twoja lokalna kopia pozostanie na liście."
       }
     },
     "toast": {
@@ -493,8 +493,8 @@
     "filter": {
       "all": "Wszystko",
       "mine": "Kopalnia",
-      "published": "Opublikowany",
-      "author": "By {{name}}"
+      "author": "Przez {{name}}",
+      "published": "Opublikowany"
     },
     "toast": {
       "header": "Badać",

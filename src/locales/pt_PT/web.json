@@ -454,8 +454,8 @@
         "message": "A importação substituirá sua automação atual, caso exista. Continuar?"
       },
       "unpublish": {
-        "title": "Unpublish Automation",
-        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
+        "title": "Despublicar Automação",
+        "message": "Tem certeza de que deseja cancelar a publicação de [{{title}}]? Ele será removido da seção Explorar, mas sua cópia local permanecerá na sua lista."
       }
     },
     "toast": {
@@ -493,8 +493,8 @@
     "filter": {
       "all": "Todos",
       "mine": "Meu",
-      "published": "Publicado",
-      "author": "By {{name}}"
+      "author": "Por {{name}}",
+      "published": "Publicado"
     },
     "toast": {
       "header": "Explorar",

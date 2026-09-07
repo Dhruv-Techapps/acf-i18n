@@ -454,8 +454,8 @@
         "message": "การนำเข้าจะแทนที่ระบบอัตโนมัติปัจจุบันของคุณหากมีอยู่ต้องการดำเนินการต่อหรือไม่?"
       },
       "unpublish": {
-        "title": "Unpublish Automation",
-        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
+        "title": "ยกเลิกการเผยแพร่อัตโนมัติ",
+        "message": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการเผยแพร่ [{{title}}]? มันจะถูกลบออกจากหน้าสำรวจแต่สำเนาในเครื่องของคุณจะยังคงอยู่ในรายการของคุณ"
       }
     },
     "toast": {
@@ -493,8 +493,8 @@
     "filter": {
       "all": "ทั้งหมด",
       "mine": "ของฉัน",
-      "published": "ที่ตีพิมพ์",
-      "author": "By {{name}}"
+      "author": "โดย {{name}}",
+      "published": "ที่ตีพิมพ์"
     },
     "toast": {
       "header": "สำรวจ",

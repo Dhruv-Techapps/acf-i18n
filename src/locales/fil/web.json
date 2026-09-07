@@ -454,8 +454,8 @@
         "message": "Papalitan ng pag-import ang kasalukuyan mong automation kung mayroon man. Magpatuloy?"
       },
       "unpublish": {
-        "title": "Unpublish Automation",
-        "message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list."
+        "title": "I-unpublish ang Automation",
+        "message": "Sigurado ka bang gusto mong i-unpublish ang [{{title}}]? Aalisin ito sa Explore, ngunit mananatili ang iyong lokal na kopya sa iyong listahan."
       }
     },
     "toast": {
@@ -493,8 +493,8 @@
     "filter": {
       "all": "Lahat",
       "mine": "Akin",
-      "published": "Na-publish",
-      "author": "By {{name}}"
+      "author": "Ni {{name}}",
+      "published": "Na-publish"
     },
     "toast": {
       "header": "Galugarin",
