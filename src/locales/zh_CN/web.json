@@ -604,6 +604,10 @@
         "title": "移除用户脚本",
         "message": "您确定要删除 [{{name}}] 用户脚本吗？"
       }
+    },
+    "edit": {
+      "fullscreen": "Full screen",
+      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {

@@ -604,6 +604,10 @@
         "title": "Usuń skrypt użytkownika",
         "message": "Czy na pewno chcesz usunąć skrypt użytkownika [{{name}}]?"
       }
+    },
+    "edit": {
+      "fullscreen": "Full screen",
+      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {

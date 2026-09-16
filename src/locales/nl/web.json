@@ -604,6 +604,10 @@
         "title": "Gebruikersscript verwijderen",
         "message": "Weet je zeker dat je het gebruikersscript [{{name}}] wilt verwijderen?"
       }
+    },
+    "edit": {
+      "fullscreen": "Full screen",
+      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {

@@ -604,6 +604,10 @@
         "title": "사용자 스크립트 제거",
         "message": "[{{name}}] 사용자 스크립트를 정말로 삭제하시겠습니까?"
       }
+    },
+    "edit": {
+      "fullscreen": "Full screen",
+      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {

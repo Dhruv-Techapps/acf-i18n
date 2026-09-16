@@ -604,6 +604,10 @@
         "title": "Премахване на потребителски скрипт",
         "message": "Сигурни ли сте, че искате да премахнете потребителския скрипт [{{name}}]?"
       }
+    },
+    "edit": {
+      "fullscreen": "Full screen",
+      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {

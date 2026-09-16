@@ -604,6 +604,10 @@
         "title": "Ta bort användarskript",
         "message": "Är du säker på att du vill ta bort användarskriptet [{{name}}]?"
       }
+    },
+    "edit": {
+      "fullscreen": "Full screen",
+      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {

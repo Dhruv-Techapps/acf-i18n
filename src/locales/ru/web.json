@@ -604,6 +604,10 @@
         "title": "Удалить пользовательский скрипт",
         "message": "Вы уверены, что хотите удалить пользовательский скрипт [{{name}}]?"
       }
+    },
+    "edit": {
+      "fullscreen": "Full screen",
+      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {
