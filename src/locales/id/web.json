@@ -604,6 +604,10 @@
         "title": "Hapus Skrip Pengguna",
         "message": "Apakah Anda yakin ingin menghapus Skrip Pengguna [{{name}}]?"
       }
+    },
+    "edit": {
+      "fullscreen": "Layar penuh",
+      "exitFullscreen": "Keluar layar penuh"
     }
   },
   "popover": {

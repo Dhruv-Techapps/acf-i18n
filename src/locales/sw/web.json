@@ -604,6 +604,10 @@
         "title": "Ondoa Hati ya Mtumiaji",
         "message": "Una uhakika unataka kuondoa Hati ya Mtumiaji ya [{{name}}]?"
       }
+    },
+    "edit": {
+      "fullscreen": "Skrini nzima",
+      "exitFullscreen": "Ondoka kwenye skrini nzima"
     }
   },
   "popover": {

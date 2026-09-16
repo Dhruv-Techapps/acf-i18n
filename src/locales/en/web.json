@@ -604,6 +604,10 @@
         "title": "Remove User Script",
         "message": "Are you sure you want to remove [{{name}}] User Script?"
       }
+    },
+    "edit": {
+      "fullscreen": "Full screen",
+      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {

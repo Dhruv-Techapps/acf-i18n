@@ -604,6 +604,10 @@
         "title": "Alisin ang Script ng Gumagamit",
         "message": "Sigurado ka bang gusto mong alisin ang [{{name}}] User Script?"
       }
+    },
+    "edit": {
+      "fullscreen": "Buong Screen",
+      "exitFullscreen": "Lumabas sa Buong Screen"
     }
   },
   "popover": {
