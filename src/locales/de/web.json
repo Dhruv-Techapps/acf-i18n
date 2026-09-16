@@ -604,10 +604,6 @@
         "title": "Benutzerskript entfernen",
         "message": "Möchten Sie das Benutzerskript [{{name}}] wirklich entfernen?"
       }
-    },
-    "edit": {
-      "fullscreen": "Full screen",
-      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {

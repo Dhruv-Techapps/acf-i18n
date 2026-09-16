@@ -604,10 +604,6 @@
         "title": "Xóa tập lệnh người dùng",
         "message": "Bạn có chắc chắn muốn xóa tập lệnh người dùng [{{name}}] không?"
       }
-    },
-    "edit": {
-      "fullscreen": "Full screen",
-      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {

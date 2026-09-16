@@ -604,10 +604,6 @@
         "title": "移除使用者腳本",
         "message": "您確定要刪除 [{{name}}] 使用者腳本嗎？"
       }
-    },
-    "edit": {
-      "fullscreen": "Full screen",
-      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {

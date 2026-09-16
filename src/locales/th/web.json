@@ -604,10 +604,6 @@
         "title": "ลบสคริปต์ผู้ใช้",
         "message": "คุณแน่ใจหรือไม่ว่าต้องการลบสคริปต์ผู้ใช้ [{{name}}]?"
       }
-    },
-    "edit": {
-      "fullscreen": "Full screen",
-      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {

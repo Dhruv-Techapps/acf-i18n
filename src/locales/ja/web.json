@@ -604,10 +604,6 @@
         "title": "ユーザースクリプトを削除",
         "message": "[{{name}}] ユーザースクリプトを削除してもよろしいですか？"
       }
-    },
-    "edit": {
-      "fullscreen": "Full screen",
-      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {

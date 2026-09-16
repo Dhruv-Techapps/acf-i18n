@@ -604,10 +604,6 @@
         "title": "Supprimer le script utilisateur",
         "message": "Êtes-vous sûr de vouloir supprimer le script utilisateur [{{name}}] ?"
       }
-    },
-    "edit": {
-      "fullscreen": "Full screen",
-      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {

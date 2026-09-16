@@ -604,10 +604,6 @@
         "title": "إزالة برنامج المستخدم النصي",
         "message": "هل أنت متأكد من رغبتك في إزالة [{{name}}] User Script؟"
       }
-    },
-    "edit": {
-      "fullscreen": "Full screen",
-      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {

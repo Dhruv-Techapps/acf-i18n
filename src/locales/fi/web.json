@@ -604,10 +604,6 @@
         "title": "Poista käyttäjäskripti",
         "message": "Oletko varma, että haluat poistaa [{{name}}]-käyttäjäskriptin?"
       }
-    },
-    "edit": {
-      "fullscreen": "Full screen",
-      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {

@@ -604,10 +604,6 @@
         "title": "उपयोगकर्ता स्क्रिप्ट हटाएं",
         "message": "क्या आप वाकई [{{name}}] यूजर स्क्रिप्ट को हटाना चाहते हैं?"
       }
-    },
-    "edit": {
-      "fullscreen": "Full screen",
-      "exitFullscreen": "Exit full screen"
     }
   },
   "popover": {
