@@ -658,7 +658,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "zh-tw": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -1318,7 +1320,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "fr": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -1978,7 +1982,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "ko": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -2638,7 +2644,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "sv": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -3298,7 +3306,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "pt": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -3958,7 +3968,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "ja": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -4618,7 +4630,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "nl": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -5278,7 +5292,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "de": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -5938,7 +5954,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "es": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -6598,7 +6616,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "vi": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -7258,7 +7278,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "fi": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -7918,7 +7940,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "ar": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -8578,7 +8602,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "it": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -9238,7 +9264,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "ru": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -9898,7 +9926,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "id": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -10558,7 +10588,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "hi": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -11218,7 +11250,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "bg": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -11878,7 +11912,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "pl": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -12538,7 +12574,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "th": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -13198,7 +13236,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "sw": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -13858,7 +13898,9 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   },
   "fil": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -14518,6 +14560,8 @@
     "automations.sidebarCount": "Automations ({{visible}}/{{total}})",
     "automation.confirm.unpublish.title": "Unpublish Automation",
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
-    "explore.filter.author": "By {{name}}"
+    "explore.filter.author": "By {{name}}",
+    "userscript.edit.fullscreen": "Full screen",
+    "userscript.edit.exitFullscreen": "Exit full screen"
   }
 }
