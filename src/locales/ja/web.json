@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Discordでの通知",
-    "loginRequired": "Discordに接続する前に、<1>Log in</1>でアカウントにログインしてください。"
+    "loginRequired": "Discordに接続する前に、アカウントに<1>ログインしてください</1>。"
   },
   "checkIFrames": {
     "title": "埋め込みページ内を検索する",
@@ -485,7 +485,7 @@
     "title": "自動化機能を探る",
     "search": "検索の自動化...",
     "loadMore": "もっと読み込む",
-    "loginToExplore": "<1>Log in</1> で公開されている自動化機能を調べてください。",
+    "loginToExplore": "<1>ログインして</1>公開されている自動化機能をご覧ください。",
     "no-published": "自動化設定が見つかりませんでした。ぜひ最初の自動化設定を公開してください！",
     "downloads_zero": "ダウンロードなし",
     "downloads_one": "1 ダウンロード",

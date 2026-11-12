@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Benachrichtigung auf Discord",
-    "loginRequired": "Melde dich mit <1>Log in</1> in deinem Konto an, bevor du dich mit Discord verbindest."
+    "loginRequired": "<1>Melde dich in deinem Konto an</1>, bevor du dich mit Discord verbindest."
   },
   "checkIFrames": {
     "title": "Suche in eingebetteten Seiten",
@@ -485,7 +485,7 @@
     "title": "Automatisierungen erkunden",
     "search": "Suchautomatisierungen...",
     "loadMore": "Mehr laden",
-    "loginToExplore": "Melden Sie sich mit <1>Log in</1> an, um veröffentlichte Automatisierungen zu erkunden.",
+    "loginToExplore": "<1>Melden Sie sich an</1>, um veröffentlichte Automatisierungen zu entdecken.",
     "no-published": "Keine Automatisierungen gefunden. Sei der Erste, der eine veröffentlicht!",
     "downloads_zero": "Keine Downloads",
     "downloads_one": "1 Download",
