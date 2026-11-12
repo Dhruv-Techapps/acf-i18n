@@ -244,5 +244,38 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Aby uzyskać dostęp do funkcji $2, musisz posiadać subskrypcję $1."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Wybierz element ponownie"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Aby naprawić ten krok, kliknij odpowiedni element na tej stronie"
+  },
+  "@REPAIR__SKIP": {
+    "message": "Nie na tej stronie"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Pomiń ten krok, jeśli brakuje jego elementu"
+  },
+  "@REPAIR__UNDO": {
+    "message": "Cofnij zmianę"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Cofnij zmianę wprowadzoną w tym kroku"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Kliknij element dla tego kroku · Esc, aby anulować"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Selektor zaktualizowany"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Ten krok zostanie pominięty, jeśli nie zostanie znaleziony jego element"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "Zmiana została cofnięta"
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Oczekiwanie na element, ponowne ładowanie strony"
   }
 }

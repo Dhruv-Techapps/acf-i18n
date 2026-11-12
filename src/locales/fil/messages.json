@@ -244,5 +244,38 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Kailangan mo ng subscription sa $1 para ma-access ang feature na $2."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Piliin muli ang elemento"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "I-click ang tamang elemento sa pahinang ito upang ayusin ang hakbang na ito"
+  },
+  "@REPAIR__SKIP": {
+    "message": "Wala sa pahinang ito"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Laktawan ang hakbang na ito kapag nawawala ang elemento nito"
+  },
+  "@REPAIR__UNDO": {
+    "message": "I-undo ang pagbabago"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Baliktarin ang pagbabagong ginawa sa hakbang na ito"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "I-click ang elemento para sa hakbang na ito · Esc para kanselahin"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Na-update ang tagapili"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Lalaktawan ang hakbang na ito kapag hindi natagpuan ang elemento nito"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "Nabawi na ang pagbabago"
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Naghihintay para sa elemento, nire-reload ang pahina"
   }
 }

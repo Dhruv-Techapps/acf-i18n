@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Avisering på Discord",
-    "loginRequired": "Vänligen <1>Logga in</1> på ditt konto innan du ansluter till Discord."
+    "loginRequired": "<1>Logga in</1> på ditt konto innan du ansluter till Discord."
   },
   "checkIFrames": {
     "title": "Sök inuti inbäddade sidor",
@@ -110,7 +110,7 @@
     "weekly": "Varje vecka",
     "monthly": "Månatlig",
     "off": "Av",
-    "loginRequired": "Vänligen <1>Logga in</1> på ditt konto innan du ansluter till Google Drive.",
+    "loginRequired": "<1>Logga in</1> på ditt konto innan du ansluter till Google Drive.",
     "checkingAccess": "Kontrollerar åtkomst till Google Drive...",
     "connect": "Anslut med Google Drive",
     "connected": "Google Drive-säkerhetskopiering",
@@ -341,7 +341,7 @@
       "title": "Använd stabila versioner för Google Sheets-funktioner.",
       "message": "För bästa resultat, använd <1>Stable</1>-versionen av Google Sheets-funktioner. Stabila versioner testas noggrant för att säkerställa tillförlitlig prestanda, vilket hjälper dig att undvika oväntade problem. Om du behöver hjälp är du välkommen att kontakta supporten."
     },
-    "loginRequired": "Vänligen <1>Logga in</1> på ditt konto innan du ansluter till Google Sheets.",
+    "loginRequired": "<1>Logga in</1> på ditt konto innan du ansluter till Google Sheets.",
     "connect": "Anslut med Google Kalkylark",
     "connected": "Ansluten till Google Sheets"
   },
@@ -595,7 +595,12 @@
       "body": "Steget har sparats!",
       "remove": "Steget har tagits bort!",
       "reorder": "Stegen har omordnats!"
-    }
+    },
+    "finderWarning": {
+      "blank": "Det här steget har inget mål ännu. Automatiseringen kommer att stoppa här.",
+      "invalid": "Det här stegets mål är inte en giltig XPath eller väljare. Automatiseringen kommer att stoppa här."
+    },
+    "noStepsWarning": "Denna automatisering har inga steg, så den gör ingenting när den körs."
   },
   "userscript": {
     "add": "Lägg till användarskript",

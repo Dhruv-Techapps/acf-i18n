@@ -244,5 +244,38 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Vous devez disposer d'un abonnement $1 pour accéder à la fonctionnalité $2."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Sélectionnez à nouveau l'élément"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Cliquez sur l'élément approprié sur cette page pour corriger cette étape."
+  },
+  "@REPAIR__SKIP": {
+    "message": "Pas sur cette page"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Ignorez cette étape si l'élément correspondant est manquant."
+  },
+  "@REPAIR__UNDO": {
+    "message": "Annuler la modification"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Annuler la modification apportée à cette étape"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Cliquez sur l'élément correspondant à cette étape · Appuyez sur Échap pour annuler"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Sélecteur mis à jour"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Cette étape sera ignorée si l'élément recherché est introuvable."
+  },
+  "@REPAIR__UNDONE": {
+    "message": "La modification a été annulée."
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "En attente de l'élément, rechargement de la page"
   }
 }

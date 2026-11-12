@@ -244,5 +244,38 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Tarvitset $1-tilauksen käyttääksesi $2-ominaisuutta."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Valitse elementti uudelleen"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Korjaa tämä vaihe napsauttamalla oikeaa elementtiä tällä sivulla"
+  },
+  "@REPAIR__SKIP": {
+    "message": "Ei tällä sivulla"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Ohita tämä vaihe aina, kun sen elementti puuttuu"
+  },
+  "@REPAIR__UNDO": {
+    "message": "Kumoa muutos"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Peruuta tähän vaiheeseen tehty muutos"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Napsauta tämän vaiheen elementtiä · Peruuta painamalla Esc"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Valitsin päivitetty"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Tämä vaihe ohitetaan, jos sen elementtiä ei löydy"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "Muutos on peruttu"
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Odotetaan elementtiä, sivua ladataan uudelleen"
   }
 }

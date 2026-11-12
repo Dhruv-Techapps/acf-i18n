@@ -44,6 +44,91 @@ const LITERAL_PATTERN = new RegExp(`\\b(${LITERAL_TERMS.map(escapeRegExp).join('
 // protects as one whole span.
 const PROTECT_PATTERN = /\{\{[^}]+\}\}|\$\d+|<\/?[a-zA-Z0-9]+>|`[^`]+`|https?:\/\/\S+|(?<!:)\/\/[^\s,]+/g;
 
+// --- Paired tags go to Translate as real HTML -------------------------------
+//
+// An opaque token works for a standalone placeholder ({{name}}, $1), but not
+// for a tag PAIR wrapped around words: "<1>Log in</1> to your account" became
+// "zzPHzz0zzLog inzzPHzz1zz to your account", where the tokens are glued to
+// the words they wrap. Translate then treats "inzzPHzz1zz" as one garbage
+// word and regularly drops a token (the closing one for fr/sw/sv/th, both
+// for ko) - every run printed "Translate dropped 1 protected token(s) [</1>]"
+// for the same keys and kept the stale translation.
+//
+// Translate's HTML mode (format: 'html') is built for exactly this: it keeps
+// elements and moves them with the words they wrap. So a string whose tags
+// are properly paired is sent with each pair as <span id="phN">...</span> (N =
+// the opening tag's placeholder index), and the reply is turned back into the
+// same zzPHzzNzz tokens the rest of this function already restores and
+// verifies. Everything else (placeholders, code spans, URLs) stays an opaque
+// token as before. Unpaired/mismatched tags fall back to the token-only path.
+//
+// <span>, not <a>: pairs can nest (<1>Click <b>here</b></1>), and anchors
+// can't - an HTML parser closes the outer <a> as soon as the inner one opens,
+// so nested pairs would come back re-parented. Spans nest freely.
+const TAG_PARTS = /^<(\/?)([a-zA-Z0-9]+)>$/;
+const HTML_SPAN = /<span\s+id\s*=\s*["']?ph(\d+)["']?\s*>|<\/span\s*>/gi;
+const HTML_ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' };
+
+// Maps each opening tag's placeholder index to its closing tag's index.
+// Returns null when there are no tags or they don't pair up cleanly.
+const pairTags = (placeholders) => {
+  const pairs = new Map();
+  const open = [];
+  for (const [index, placeholder] of placeholders.entries()) {
+    const tag = TAG_PARTS.exec(placeholder);
+    if (!tag) continue;
+    if (!tag[1]) {
+      open.push({ name: tag[2], index });
+    } else {
+      const opener = open.pop();
+      if (opener?.name !== tag[2]) return null;
+      pairs.set(opener.index, index);
+    }
+  }
+  return open.length === 0 && pairs.size > 0 ? pairs : null;
+};
+
+const escapeHtml = (text) => text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+const decodeHtml = (text) =>
+  text.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (entity, code) => {
+    if (code[0] !== '#') return HTML_ENTITIES[code.toLowerCase()] ?? entity;
+    const point = code[1].toLowerCase() === 'x' ? parseInt(code.slice(2), 16) : parseInt(code.slice(1), 10);
+    return Number.isFinite(point) ? String.fromCodePoint(point) : entity;
+  });
+
+// `tokenized` is the string with every protected span already swapped for a
+// zzPHzzNzz token; this turns the tag tokens (only) into <span id="phN">...</span>.
+const tokensToHtml = (tokenized, pairs) => {
+  const closers = new Set(pairs.values());
+  return escapeHtml(tokenized).replace(/zzPHzz(\d+)zz/g, (token, i) => {
+    const index = Number(i);
+    if (pairs.has(index)) return `<span id="ph${index}">`;
+    return closers.has(index) ? '</span>' : token;
+  });
+};
+
+// The reverse, on Translate's reply: spans back to tag tokens, then HTML
+// entities back to plain characters. A closing </span> with nothing open
+// becomes nothing, which the caller's missing-token check then reports.
+const htmlToTokens = (html, pairs) => {
+  const open = [];
+  return decodeHtml(
+    html
+      // Translate sometimes leaves a space between a closing tag and the
+      // punctuation that followed the wrapped words ("...</span> .").
+      .replace(/<\/span\s*>\s+(?=[.,。、])/gi, '</span>')
+      .replace(HTML_SPAN, (match, i) => {
+        if (i !== undefined) {
+          open.push(Number(i));
+          return `zzPHzz${Number(i)}zz`;
+        }
+        const closer = pairs.get(open.pop());
+        return closer === undefined ? '' : `zzPHzz${closer}zz`;
+      })
+  );
+};
+
 // Fault-tolerant restore pattern for every token PROTECT_PATTERN produces:
 // z{1,2} at each zz-cluster tolerates Translate dropping one z (zzPHzz0zz ->
 // zPHzz0zz, seen for real in Russian) in addition to the case-insensitive
@@ -66,6 +151,9 @@ const FORCE = process.argv.includes('--force');
 // it changed" on its own (see start() below, and the incident that added
 // this: a glossary/tag rewrite here needed 3,174 cache entries invalidated
 // by hand because nothing forced them stale automatically).
+// Not bumped for the paired-tags-as-HTML change: it only affects strings
+// with tag pairs, the failing ones were never cached (so they retry on their
+// own), and a bump would re-translate every string in every language.
 const PIPELINE_VERSION = 'glossary-standalone-only-tag-tokens-v2';
 
 class TranslateCommon {
@@ -237,7 +325,16 @@ class TranslateCommon {
       return escaped.replace(PH_RESTORE, (_, i) => placeholders[Number(i)] ?? '');
     }
 
-    const [translatedValue] = await this.translate.translate(escaped, { from: 'en', to: targetLanguage });
+    // Paired tags travel as real HTML elements, everything else as opaque
+    // tokens - see "Paired tags go to Translate as real HTML" above.
+    const pairs = pairTags(placeholders);
+    let translatedValue;
+    if (pairs) {
+      const [html] = await this.translate.translate(tokensToHtml(escaped, pairs), { from: 'en', to: targetLanguage, format: 'html' });
+      translatedValue = htmlToTokens(html, pairs);
+    } else {
+      [translatedValue] = await this.translate.translate(escaped, { from: 'en', to: targetLanguage });
+    }
 
     const foundIndexes = new Set();
     // Fault-tolerant: Translate sometimes recapitalizes a token that lands at
@@ -315,4 +412,4 @@ class TranslateCommon {
   };
 }
 
-export { TranslateCommon };
+export { TranslateCommon, pairTags, tokensToHtml, htmlToTokens };

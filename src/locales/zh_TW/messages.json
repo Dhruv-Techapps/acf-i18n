@@ -244,5 +244,38 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "您需要訂閱 $1 才能使用 $2 功能。"
+  },
+  "@REPAIR__REPICK": {
+    "message": "再次選擇元素"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "點擊此頁面上的正確元素以完成此步驟"
+  },
+  "@REPAIR__SKIP": {
+    "message": "本頁未顯示"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "如果缺少此步驟的元素，則跳過此步驟。"
+  },
+  "@REPAIR__UNDO": {
+    "message": "撤銷更改"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "撤銷此步驟所做的更改"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "點選此步驟的元素 · 按 Esc 鍵取消"
+  },
+  "@REPAIR__SAVED": {
+    "message": "選擇器已更新"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "如果找不到該元素，則跳過此步驟。"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "這項變更已被撤銷。"
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "正在等待元素加載，重新加載頁面"
   }
 }

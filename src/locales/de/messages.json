@@ -244,5 +244,38 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Sie benötigen ein $1-Abonnement, um auf die $2-Funktion zugreifen zu können."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Element erneut auswählen"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Klicken Sie auf das richtige Element auf dieser Seite, um diesen Schritt zu beheben."
+  },
+  "@REPAIR__SKIP": {
+    "message": "Nicht auf dieser Seite"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Überspringen Sie diesen Schritt, wenn das entsprechende Element fehlt."
+  },
+  "@REPAIR__UNDO": {
+    "message": "Änderung rückgängig machen"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Die in diesem Schritt vorgenommene Änderung rückgängig machen."
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Klicken Sie auf das Element für diesen Schritt · Esc zum Abbrechen"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Selektor aktualisiert"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Dieser Schritt wird übersprungen, wenn das entsprechende Element nicht gefunden wird."
+  },
+  "@REPAIR__UNDONE": {
+    "message": "Die Änderung wurde rückgängig gemacht."
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Warten auf das Element, Seite wird neu geladen"
   }
 }

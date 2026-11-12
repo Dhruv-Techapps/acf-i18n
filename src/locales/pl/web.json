@@ -595,7 +595,12 @@
       "body": "Krok zapisany pomyślnie!",
       "remove": "Krok został pomyślnie usunięty!",
       "reorder": "Kroki uporządkowane pomyślnie!"
-    }
+    },
+    "finderWarning": {
+      "blank": "Ten krok nie ma jeszcze celu. Automatyzacja zakończy się w tym miejscu.",
+      "invalid": "Cel tego kroku nie jest prawidłowym XPath ani selektorem. Automatyzacja zakończy się w tym miejscu."
+    },
+    "noStepsWarning": "Ta automatyzacja nie ma żadnych kroków, więc po uruchomieniu nie wykonuje żadnych czynności."
   },
   "userscript": {
     "add": "Dodaj skrypt użytkownika",

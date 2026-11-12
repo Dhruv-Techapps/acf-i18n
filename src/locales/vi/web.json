@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Thông báo trên Discord",
-    "loginRequired": "Vui lòng <1>Đăng nhập</1> vào tài khoản của bạn trước khi kết nối với Discord."
+    "loginRequired": "<1>Hãy đăng nhập</1> vào tài khoản của bạn trước khi kết nối với Discord."
   },
   "checkIFrames": {
     "title": "Tìm kiếm bên trong các trang được nhúng",
@@ -110,7 +110,7 @@
     "weekly": "Hàng tuần",
     "monthly": "Hàng tháng",
     "off": "Tắt",
-    "loginRequired": "Vui lòng <1>Đăng nhập</1> vào tài khoản của bạn trước khi kết nối với Google Drive.",
+    "loginRequired": "<1>Hãy đăng nhập</1> vào tài khoản của bạn trước khi kết nối với Google Drive.",
     "checkingAccess": "Kiểm tra quyền truy cập Google Drive...",
     "connect": "Kết nối với Google Drive",
     "connected": "Sao lưu Google Drive",
@@ -341,7 +341,7 @@
       "title": "Hãy sử dụng các phiên bản ổn định để có được các tính năng tốt nhất của Google Sheets.",
       "message": "Để có kết quả tốt nhất, hãy sử dụng phiên bản <1>Stable</1> của các tính năng Google Sheets. Các phiên bản ổn định đã được kiểm tra kỹ lưỡng để đảm bảo hiệu suất đáng tin cậy, giúp bạn tránh các sự cố không mong muốn. Nếu cần trợ giúp, vui lòng liên hệ với bộ phận hỗ trợ."
     },
-    "loginRequired": "Vui lòng <1>Đăng nhập</1> vào tài khoản của bạn trước khi kết nối với Google Sheets.",
+    "loginRequired": "<1>Hãy đăng nhập</1> vào tài khoản của bạn trước khi kết nối với Google Sheets.",
     "connect": "Kết nối với Google Sheets",
     "connected": "Đã kết nối với Google Sheets"
   },
@@ -485,7 +485,7 @@
     "title": "Khám phá Tự động hóa",
     "search": "Tự động hóa tìm kiếm...",
     "loadMore": "Tải thêm",
-    "loginToExplore": "Đăng nhập <1>Log in</1> để khám phá các quy trình tự động hóa đã được công bố.",
+    "loginToExplore": "<1>Đăng nhập</1> để khám phá các quy trình tự động hóa đã được công bố.",
     "no-published": "Không tìm thấy quy trình tự động hóa nào. Hãy là người đầu tiên đăng tải một quy trình!",
     "downloads_zero": "Không có tệp tải xuống",
     "downloads_one": "1 Tải xuống",
@@ -595,7 +595,12 @@
       "body": "Bước này đã được lưu thành công!",
       "remove": "Bước này đã được loại bỏ thành công!",
       "reorder": "Các bước đã được sắp xếp lại thành công!"
-    }
+    },
+    "finderWarning": {
+      "blank": "Bước này chưa có mục tiêu. Quá trình tự động hóa sẽ dừng lại ở đây.",
+      "invalid": "Mục tiêu của bước này không phải là một XPath hoặc bộ chọn hợp lệ. Quá trình tự động hóa sẽ dừng lại ở đây."
+    },
+    "noStepsWarning": "Quá trình tự động hóa này không có bước nào, vì vậy nó không làm gì cả khi chạy."
   },
   "userscript": {
     "add": "Thêm tập lệnh người dùng",

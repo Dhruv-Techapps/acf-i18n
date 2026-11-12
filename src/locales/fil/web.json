@@ -595,7 +595,12 @@
       "body": "Matagumpay na na-save ang hakbang!",
       "remove": "Matagumpay na natanggal ang hakbang!",
       "reorder": "Matagumpay na naayos muli ang mga hakbang!"
-    }
+    },
+    "finderWarning": {
+      "blank": "Wala pang target ang hakbang na ito. Dito na titigil ang automation.",
+      "invalid": "Ang target ng hakbang na ito ay hindi isang wastong XPath o selector. Dito na hihinto ang automation."
+    },
+    "noStepsWarning": "Walang mga hakbang ang automation na ito, kaya wala itong ginagawa kapag tumatakbo ito."
   },
   "userscript": {
     "add": "Magdagdag ng Script ng Gumagamit",

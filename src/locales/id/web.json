@@ -485,7 +485,7 @@
     "title": "Jelajahi Otomatisasi",
     "search": "Otomatisasi pencarian...",
     "loadMore": "Muat Lebih Banyak",
-    "loginToExplore": "<1>Log in</1> untuk menjelajahi otomatisasi yang dipublikasikan.",
+    "loginToExplore": "<1>Masuk</1> untuk menjelajahi otomatisasi yang telah dipublikasikan.",
     "no-published": "Tidak ditemukan otomatisasi. Jadilah yang pertama menerbitkan otomatisasi!",
     "downloads_zero": "Tidak ada unduhan",
     "downloads_one": "1 Unduhan",
@@ -595,7 +595,12 @@
       "body": "Langkah berhasil disimpan!",
       "remove": "Langkah berhasil dihilangkan!",
       "reorder": "Langkah-langkah berhasil diurutkan ulang!"
-    }
+    },
+    "finderWarning": {
+      "blank": "Langkah ini belum memiliki target. Otomatisasi akan berhenti di sini.",
+      "invalid": "Target langkah ini bukan XPath atau selector yang valid. Otomatisasi akan berhenti di sini."
+    },
+    "noStepsWarning": "Otomatisasi ini tidak memiliki langkah-langkah, sehingga tidak melakukan apa pun saat dijalankan."
   },
   "userscript": {
     "add": "Tambahkan Skrip Pengguna",

@@ -244,5 +244,38 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "$2機能にアクセスするには、$1のサブスクリプションが必要です。"
+  },
+  "@REPAIR__REPICK": {
+    "message": "要素を再度選択する"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "この手順を修正するには、このページの正しい要素をクリックしてください。"
+  },
+  "@REPAIR__SKIP": {
+    "message": "このページには掲載されていません"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "要素が欠落している場合は、この手順をスキップしてください。"
+  },
+  "@REPAIR__UNDO": {
+    "message": "変更を元に戻す"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "この手順に加えられた変更を元に戻します"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "このステップの要素をクリックしてください。キャンセルするにはEscキーを押してください。"
+  },
+  "@REPAIR__SAVED": {
+    "message": "セレクターが更新されました"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "要素が見つからない場合、このステップはスキップされます。"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "変更は元に戻されました"
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "要素を待機中、ページを再読み込みします"
   }
 }

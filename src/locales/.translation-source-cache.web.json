@@ -660,7 +660,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "zh-tw": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -1322,7 +1325,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "fr": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -1866,9 +1872,9 @@
     "conflictModal.skip": "Skip",
     "conflictModal.createNew": "Create New",
     "conflictModal.overwrite": "Overwrite",
-    "discord.loginRequired": "<1>Login</1> to your account before connecting with Discord.",
-    "backup.loginRequired": "<1>Login</1> to your account before connecting with Google Drive.",
-    "googleSheets.loginRequired": "<1>Login</1> to your account before connecting with Google Sheets.",
+    "discord.loginRequired": "<1>Log in</1> to your account before connecting with Discord.",
+    "backup.loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
+    "googleSheets.loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "explore.loginToExplore": "<1>Log in</1> to explore published automations.",
     "languages.pt_PT": "Portuguese",
     "languages.bg": "Bulgarian",
@@ -1984,7 +1990,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "ko": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -2529,9 +2538,9 @@
     "conflictModal.skip": "Skip",
     "conflictModal.createNew": "Create New",
     "conflictModal.overwrite": "Overwrite",
-    "discord.loginRequired": "<1>Login</1> to your account before connecting with Discord.",
-    "backup.loginRequired": "<1>Login</1> to your account before connecting with Google Drive.",
-    "googleSheets.loginRequired": "<1>Login</1> to your account before connecting with Google Sheets.",
+    "discord.loginRequired": "<1>Log in</1> to your account before connecting with Discord.",
+    "backup.loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
+    "googleSheets.loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "languages.pt_PT": "Portuguese",
     "languages.bg": "Bulgarian",
     "languages.fil": "Filipino",
@@ -2646,7 +2655,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "sv": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -3187,9 +3199,9 @@
     "conflictModal.skip": "Skip",
     "conflictModal.createNew": "Create New",
     "conflictModal.overwrite": "Overwrite",
-    "discord.loginRequired": "<1>Login</1> to your account before connecting with Discord.",
-    "backup.loginRequired": "<1>Login</1> to your account before connecting with Google Drive.",
-    "googleSheets.loginRequired": "<1>Login</1> to your account before connecting with Google Sheets.",
+    "discord.loginRequired": "<1>Log in</1> to your account before connecting with Discord.",
+    "backup.loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
+    "googleSheets.loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "automations.toast.remove_other": "{{count}} automations removed successfully",
     "explore.loginToExplore": "<1>Log in</1> to explore published automations.",
     "explore.downloads_other": "{{count}} Downloads",
@@ -3308,7 +3320,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "pt": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -3650,7 +3665,7 @@
     "explore.title": "Explore Automations",
     "explore.search": "Search automations...",
     "explore.loadMore": "Load More",
-    "explore.loginToExplore": "<1>Login</1> to explore published automations.",
+    "explore.loginToExplore": "<1>Log in</1> to explore published automations.",
     "explore.no-published": "No automations found. Be the first to publish one!",
     "explore.downloads_zero": "No downloads",
     "explore.downloads_one": "1 Download",
@@ -3853,9 +3868,9 @@
     "conflictModal.skip": "Skip",
     "conflictModal.createNew": "Create New",
     "conflictModal.overwrite": "Overwrite",
-    "discord.loginRequired": "<1>Login</1> to your account before connecting with Discord.",
-    "backup.loginRequired": "<1>Login</1> to your account before connecting with Google Drive.",
-    "googleSheets.loginRequired": "<1>Login</1> to your account before connecting with Google Sheets.",
+    "discord.loginRequired": "<1>Log in</1> to your account before connecting with Discord.",
+    "backup.loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
+    "googleSheets.loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "languages.pt_PT": "Portuguese",
     "languages.bg": "Bulgarian",
     "languages.fil": "Filipino",
@@ -3970,7 +3985,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "ja": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -4051,7 +4069,7 @@
     "backup.weekly": "Weekly",
     "backup.monthly": "Monthly",
     "backup.off": "Off",
-    "backup.loginRequired": "<1>Login</1> to your account before connecting with Google Drive.",
+    "backup.loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
     "backup.checkingAccess": "Checking Google Drive access...",
     "backup.connect": "Connect with Google Drive",
     "backup.connected": "Google Drive Backup",
@@ -4217,7 +4235,7 @@
     "googleSheets.hint": "Connect your Google Sheets account to easily export your automations and logs, and keep track of your automation history in one place.",
     "googleSheets.useStable.title": "Use Stable Versions for Google Sheets Features.",
     "googleSheets.useStable.message": "For best results, use the <1>Stable</1> version of Google Sheets features. Stable versions are thoroughly tested to ensure reliable performance, helping you avoid unexpected issues. If you need help, feel free to reach out for support.",
-    "googleSheets.loginRequired": "<1>Login</1> to your account before connecting with Google Sheets.",
+    "googleSheets.loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "googleSheets.connect": "Connect with Google Sheets",
     "googleSheets.connected": "Connected with Google Sheets",
     "sidebar.search": "Search",
@@ -4632,7 +4650,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "nl": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -5177,8 +5198,8 @@
     "conflictModal.skip": "Skip",
     "conflictModal.createNew": "Create New",
     "conflictModal.overwrite": "Overwrite",
-    "discord.loginRequired": "<1>Login</1> to your account before connecting with Discord.",
-    "backup.loginRequired": "<1>Login</1> to your account before connecting with Google Drive.",
+    "discord.loginRequired": "<1>Log in</1> to your account before connecting with Discord.",
+    "backup.loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
     "googleSheets.loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "languages.pt_PT": "Portuguese",
     "languages.bg": "Bulgarian",
@@ -5294,7 +5315,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "de": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -5374,7 +5398,7 @@
     "backup.weekly": "Weekly",
     "backup.monthly": "Monthly",
     "backup.off": "Off",
-    "backup.loginRequired": "<1>Login</1> to your account before connecting with Google Drive.",
+    "backup.loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
     "backup.checkingAccess": "Checking Google Drive access...",
     "backup.connect": "Connect with Google Drive",
     "backup.connected": "Google Drive Backup",
@@ -5540,7 +5564,7 @@
     "googleSheets.hint": "Connect your Google Sheets account to easily export your automations and logs, and keep track of your automation history in one place.",
     "googleSheets.useStable.title": "Use Stable Versions for Google Sheets Features.",
     "googleSheets.useStable.message": "For best results, use the <1>Stable</1> version of Google Sheets features. Stable versions are thoroughly tested to ensure reliable performance, helping you avoid unexpected issues. If you need help, feel free to reach out for support.",
-    "googleSheets.loginRequired": "<1>Login</1> to your account before connecting with Google Sheets.",
+    "googleSheets.loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "googleSheets.connect": "Connect with Google Sheets",
     "googleSheets.connected": "Connected with Google Sheets",
     "sidebar.search": "Search",
@@ -5956,7 +5980,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "es": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -6501,9 +6528,9 @@
     "conflictModal.skip": "Skip",
     "conflictModal.createNew": "Create New",
     "conflictModal.overwrite": "Overwrite",
-    "discord.loginRequired": "<1>Login</1> to your account before connecting with Discord.",
-    "backup.loginRequired": "<1>Login</1> to your account before connecting with Google Drive.",
-    "googleSheets.loginRequired": "<1>Login</1> to your account before connecting with Google Sheets.",
+    "discord.loginRequired": "<1>Log in</1> to your account before connecting with Discord.",
+    "backup.loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
+    "googleSheets.loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "languages.pt_PT": "Portuguese",
     "languages.bg": "Bulgarian",
     "languages.fil": "Filipino",
@@ -6618,7 +6645,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "vi": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -6665,7 +6695,7 @@
     "notification.automation": "On Automation completion",
     "notification.sound": "Notification Sound",
     "discord.title": "Notification on Discord",
-    "discord.loginRequired": "<1>Login</1> to your account before connecting with Discord.",
+    "discord.loginRequired": "<1>Log in</1> to your account before connecting with Discord.",
     "checkIFrames.title": "Search Inside Embedded Pages",
     "checkIFrames.hint": "Also look for items inside embedded sections of the page",
     "reloadOnError.title": "Refresh Page on Error",
@@ -7164,8 +7194,8 @@
     "conflictModal.skip": "Skip",
     "conflictModal.createNew": "Create New",
     "conflictModal.overwrite": "Overwrite",
-    "backup.loginRequired": "<1>Login</1> to your account before connecting with Google Drive.",
-    "googleSheets.loginRequired": "<1>Login</1> to your account before connecting with Google Sheets.",
+    "backup.loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
+    "googleSheets.loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "languages.pt_PT": "Portuguese",
     "languages.bg": "Bulgarian",
     "languages.fil": "Filipino",
@@ -7280,7 +7310,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "fi": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -7827,7 +7860,7 @@
     "conflictModal.overwrite": "Overwrite",
     "discord.loginRequired": "<1>Log in</1> to your account before connecting with Discord.",
     "backup.loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
-    "googleSheets.loginRequired": "<1>Login</1> to your account before connecting with Google Sheets.",
+    "googleSheets.loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "languages.pt_PT": "Portuguese",
     "languages.bg": "Bulgarian",
     "languages.fil": "Filipino",
@@ -7942,7 +7975,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "ar": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -8189,7 +8225,7 @@
     "googleSheets.hint": "Connect your Google Sheets account to easily export your automations and logs, and keep track of your automation history in one place.",
     "googleSheets.useStable.title": "Use Stable Versions for Google Sheets Features.",
     "googleSheets.useStable.message": "For best results, use the <1>Stable</1> version of Google Sheets features. Stable versions are thoroughly tested to ensure reliable performance, helping you avoid unexpected issues. If you need help, feel free to reach out for support.",
-    "googleSheets.loginRequired": "<1>Login</1> to your account before connecting with Google Sheets.",
+    "googleSheets.loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "googleSheets.connect": "Connect with Google Sheets",
     "googleSheets.connected": "Connected with Google Sheets",
     "sidebar.search": "Search",
@@ -8604,7 +8640,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "it": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -9149,9 +9188,9 @@
     "conflictModal.skip": "Skip",
     "conflictModal.createNew": "Create New",
     "conflictModal.overwrite": "Overwrite",
-    "discord.loginRequired": "<1>Login</1> to your account before connecting with Discord.",
-    "backup.loginRequired": "<1>Login</1> to your account before connecting with Google Drive.",
-    "googleSheets.loginRequired": "<1>Login</1> to your account before connecting with Google Sheets.",
+    "discord.loginRequired": "<1>Log in</1> to your account before connecting with Discord.",
+    "backup.loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
+    "googleSheets.loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "languages.pt_PT": "Portuguese",
     "languages.bg": "Bulgarian",
     "languages.fil": "Filipino",
@@ -9266,7 +9305,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "ru": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -9810,9 +9852,9 @@
     "conflictModal.skip": "Skip",
     "conflictModal.createNew": "Create New",
     "conflictModal.overwrite": "Overwrite",
-    "discord.loginRequired": "<1>Login</1> to your account before connecting with Discord.",
-    "backup.loginRequired": "<1>Login</1> to your account before connecting with Google Drive.",
-    "googleSheets.loginRequired": "<1>Login</1> to your account before connecting with Google Sheets.",
+    "discord.loginRequired": "<1>Log in</1> to your account before connecting with Discord.",
+    "backup.loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
+    "googleSheets.loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "explore.loginToExplore": "<1>Log in</1> to explore published automations.",
     "languages.pt_PT": "Portuguese",
     "languages.bg": "Bulgarian",
@@ -9928,7 +9970,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "id": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -10590,7 +10635,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "hi": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -11134,9 +11182,9 @@
     "conflictModal.skip": "Skip",
     "conflictModal.createNew": "Create New",
     "conflictModal.overwrite": "Overwrite",
-    "discord.loginRequired": "<1>Login</1> to your account before connecting with Discord.",
-    "backup.loginRequired": "<1>Login</1> to your account before connecting with Google Drive.",
-    "googleSheets.loginRequired": "<1>Login</1> to your account before connecting with Google Sheets.",
+    "discord.loginRequired": "<1>Log in</1> to your account before connecting with Discord.",
+    "backup.loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
+    "googleSheets.loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "automationSettings.documentHint": "<b>As Page Loads</b> — automation starts as soon as the page structure is ready, before images and scripts finish loading. Faster but may be unstable on some pages.",
     "languages.pt_PT": "Portuguese",
     "languages.bg": "Bulgarian",
@@ -11252,7 +11300,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "bg": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -11914,7 +11965,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "pl": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -12576,7 +12630,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "th": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -12822,7 +12879,7 @@
     "googleSheets.hint": "Connect your Google Sheets account to easily export your automations and logs, and keep track of your automation history in one place.",
     "googleSheets.useStable.title": "Use Stable Versions for Google Sheets Features.",
     "googleSheets.useStable.message": "For best results, use the <1>Stable</1> version of Google Sheets features. Stable versions are thoroughly tested to ensure reliable performance, helping you avoid unexpected issues. If you need help, feel free to reach out for support.",
-    "googleSheets.loginRequired": "<1>Login</1> to your account before connecting with Google Sheets.",
+    "googleSheets.loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "googleSheets.connect": "Connect with Google Sheets",
     "googleSheets.connected": "Connected with Google Sheets",
     "sidebar.search": "Search",
@@ -13123,7 +13180,7 @@
     "conflictModal.skip": "Skip",
     "conflictModal.createNew": "Create New",
     "conflictModal.overwrite": "Overwrite",
-    "backup.loginRequired": "<1>Login</1> to your account before connecting with Google Drive.",
+    "backup.loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
     "languages.pt_PT": "Portuguese",
     "languages.bg": "Bulgarian",
     "languages.fil": "Filipino",
@@ -13238,7 +13295,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "sw": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -13483,7 +13543,7 @@
     "googleSheets.hint": "Connect your Google Sheets account to easily export your automations and logs, and keep track of your automation history in one place.",
     "googleSheets.useStable.title": "Use Stable Versions for Google Sheets Features.",
     "googleSheets.useStable.message": "For best results, use the <1>Stable</1> version of Google Sheets features. Stable versions are thoroughly tested to ensure reliable performance, helping you avoid unexpected issues. If you need help, feel free to reach out for support.",
-    "googleSheets.loginRequired": "Please <1>Login</1> to your account before connecting with Google Sheets.",
+    "googleSheets.loginRequired": "<1>Log in</1> to your account before connecting with Google Sheets.",
     "googleSheets.connect": "Connect with Google Sheets",
     "googleSheets.connected": "Connected with Google Sheets",
     "sidebar.search": "Search",
@@ -13783,8 +13843,8 @@
     "conflictModal.skip": "Skip",
     "conflictModal.createNew": "Create New",
     "conflictModal.overwrite": "Overwrite",
-    "discord.loginRequired": "<1>Login</1> to your account before connecting with Discord.",
-    "backup.loginRequired": "<1>Login</1> to your account before connecting with Google Drive.",
+    "discord.loginRequired": "<1>Log in</1> to your account before connecting with Discord.",
+    "backup.loginRequired": "<1>Log in</1> to your account before connecting with Google Drive.",
     "popover.hotkey.hint": "Single letter without <kbd>Ctrl</kbd>, <kbd>Alt</kbd> or <kbd>Shift</kbd> is not valid",
     "languages.pt_PT": "Portuguese",
     "languages.bg": "Bulgarian",
@@ -13900,7 +13960,10 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "fil": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -14562,6 +14625,9 @@
     "automation.confirm.unpublish.message": "Are you sure you want to unpublish [{{title}}]? It will be removed from Explore, but your local copy stays in your list.",
     "explore.filter.author": "By {{name}}",
     "userscript.edit.fullscreen": "Full screen",
-    "userscript.edit.exitFullscreen": "Exit full screen"
+    "userscript.edit.exitFullscreen": "Exit full screen",
+    "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
+    "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   }
 }
