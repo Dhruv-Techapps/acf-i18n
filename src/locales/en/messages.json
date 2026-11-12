@@ -244,5 +244,38 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "You need to have a $1 subscription to access $2 feature."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Select element again"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Click the correct element on this page to fix this step"
+  },
+  "@REPAIR__SKIP": {
+    "message": "Not on this page"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Skip this step whenever its element is missing"
+  },
+  "@REPAIR__UNDO": {
+    "message": "Undo change"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Reverse the change made to this step"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Click the element for this step · Esc to cancel"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Selector updated"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "This step will be skipped when its element is not found"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "The change has been undone"
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Waiting for the element, reloading the page"
   }
 }

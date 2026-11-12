@@ -225,7 +225,7 @@
     "message": "Membandingkan"
   },
   "@RECHECK_OPTION": {
-    "message": "Opsi Periksa Ulang"
+    "message": "Periksa Kembali Opsi"
   },
   "@DOCS": {
     "message": "Dokumen"
@@ -244,5 +244,38 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Anda perlu memiliki langganan $1 untuk mengakses fitur $2."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Pilih elemen lagi"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Klik elemen yang tepat di halaman ini untuk memperbaiki langkah ini."
+  },
+  "@REPAIR__SKIP": {
+    "message": "Tidak ada di halaman ini"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Lewati langkah ini jika elemennya hilang."
+  },
+  "@REPAIR__UNDO": {
+    "message": "Batalkan perubahan"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Batalkan perubahan yang dilakukan pada langkah ini"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Klik elemen untuk langkah ini · Tekan Esc untuk membatalkan"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Pemilih diperbarui"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Langkah ini akan dilewati jika elemennya tidak ditemukan."
+  },
+  "@REPAIR__UNDONE": {
+    "message": "Perubahan tersebut telah dibatalkan."
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Menunggu elemen, memuat ulang halaman"
   }
 }

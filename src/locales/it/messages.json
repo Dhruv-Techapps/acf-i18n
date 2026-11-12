@@ -225,7 +225,7 @@
     "message": "Confrontare"
   },
   "@RECHECK_OPTION": {
-    "message": "Opzione di ricontrollo"
+    "message": "Ricontrolla le opzioni"
   },
   "@DOCS": {
     "message": "Documenti"
@@ -244,5 +244,38 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Per accedere alla funzionalità $2 è necessario disporre di un abbonamento $1."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Seleziona nuovamente l'elemento"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Fai clic sull'elemento corretto in questa pagina per correggere questo passaggio"
+  },
+  "@REPAIR__SKIP": {
+    "message": "Non in questa pagina"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Saltare questo passaggio se l'elemento corrispondente è mancante"
+  },
+  "@REPAIR__UNDO": {
+    "message": "Annulla la modifica"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Annulla la modifica apportata a questo passaggio"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Fai clic sull'elemento per questo passaggio · Esc per annullare"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Selettore aggiornato"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Questo passaggio verrà saltato se l'elemento corrispondente non viene trovato."
+  },
+  "@REPAIR__UNDONE": {
+    "message": "La modifica è stata annullata"
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "In attesa dell'elemento, ricaricamento della pagina"
   }
 }

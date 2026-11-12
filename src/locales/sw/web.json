@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Arifa kwenye Discord",
-    "loginRequired": "Tafadhali <1>Ingia</1> kwenye akaunti yako kabla ya kuunganisha na Discord."
+    "loginRequired": "<1>Ingia</1> kwenye akaunti yako kabla ya kuunganisha na Discord."
   },
   "checkIFrames": {
     "title": "Tafuta Ndani ya Kurasa Zilizopachikwa",
@@ -110,7 +110,7 @@
     "weekly": "Kila wiki",
     "monthly": "Kila mwezi",
     "off": "Imezimwa",
-    "loginRequired": "Tafadhali <1>Ingia</1> kwenye akaunti yako kabla ya kuunganisha na Hifadhi ya Google.",
+    "loginRequired": "<1>Ingia</1> katika akaunti yako kabla ya kuunganisha na Hifadhi ya Google.",
     "checkingAccess": "Inakagua ufikiaji wa Hifadhi ya Google...",
     "connect": "Unganisha na Hifadhi ya Google",
     "connected": "Hifadhi Nakala ya Google Drive",
@@ -341,7 +341,7 @@
       "title": "Tumia Matoleo Imara kwa Vipengele vya Majedwali ya Google.",
       "message": "Kwa matokeo bora zaidi, tumia toleo la <1>Stable</1> la vipengele vya Google Sheets. Matoleo thabiti yanajaribiwa kikamilifu ili kuhakikisha utendaji wa kuaminika, na kukusaidia kuepuka matatizo yasiyotarajiwa. Ukihitaji msaada, jisikie huru kuwasiliana nasi kwa usaidizi."
     },
-    "loginRequired": "Tafadhali <1>Login</1> kwenye akaunti yako kabla ya kuunganisha na Google Sheets.",
+    "loginRequired": "<1>Ingia</1> katika akaunti yako kabla ya kuunganisha na Google Sheets.",
     "connect": "Ungana na Majedwali ya Google",
     "connected": "Imeunganishwa na Majedwali ya Google"
   },
@@ -595,7 +595,12 @@
       "body": "Hatua imehifadhiwa kwa mafanikio!",
       "remove": "Hatua imeondolewa kwa mafanikio!",
       "reorder": "Hatua zimepangwa upya kwa mafanikio!"
-    }
+    },
+    "finderWarning": {
+      "blank": "Hatua hii haina lengo bado. Otomatiki itaishia hapa.",
+      "invalid": "Lengo la hatua hii si XPath au kiteuzi halali. Otomatiki itaishia hapa."
+    },
+    "noStepsWarning": "Otomatiki hii haina hatua, kwa hivyo haifanyi chochote inapoendeshwa."
   },
   "userscript": {
     "add": "Ongeza Hati ya Mtumiaji",

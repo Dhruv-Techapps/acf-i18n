@@ -595,7 +595,12 @@
       "body": "Step saved successfully!",
       "remove": "Step removed successfully!",
       "reorder": "Steps reordered successfully!"
-    }
+    },
+    "finderWarning": {
+      "blank": "This step has no target yet. The automation will stop here.",
+      "invalid": "This step's target is not a valid XPath or selector. The automation will stop here."
+    },
+    "noStepsWarning": "This automation has no steps, so it does nothing when it runs."
   },
   "userscript": {
     "add": "Add User Script",

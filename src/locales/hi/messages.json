@@ -244,5 +244,38 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "$2 फ़ीचर का उपयोग करने के लिए आपके पास $1 की सदस्यता होनी चाहिए।"
+  },
+  "@REPAIR__REPICK": {
+    "message": "तत्व को पुनः चुनें"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "इस चरण को ठीक करने के लिए इस पृष्ठ पर सही तत्व पर क्लिक करें।"
+  },
+  "@REPAIR__SKIP": {
+    "message": "इस पृष्ठ पर नहीं"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "यदि इसका कोई तत्व अनुपस्थित हो तो इस चरण को छोड़ दें।"
+  },
+  "@REPAIR__UNDO": {
+    "message": "परिवर्तन को पूर्ववत करें"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "इस चरण में किए गए परिवर्तन को वापस लें"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "इस चरण के लिए एलिमेंट पर क्लिक करें · रद्द करने के लिए Esc दबाएँ"
+  },
+  "@REPAIR__SAVED": {
+    "message": "चयनकर्ता अपडेट किया गया"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "जब इसका तत्व नहीं मिलेगा तो यह चरण छोड़ दिया जाएगा।"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "यह बदलाव उलट दिया गया है।"
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "एलिमेंट का इंतज़ार हो रहा है, पेज रीलोड हो रहा है"
   }
 }

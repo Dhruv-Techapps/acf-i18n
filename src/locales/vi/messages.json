@@ -225,7 +225,7 @@
     "message": "So sánh"
   },
   "@RECHECK_OPTION": {
-    "message": "Tùy chọn kiểm tra lại"
+    "message": "Kiểm tra lại tùy chọn"
   },
   "@DOCS": {
     "message": "Tài liệu"
@@ -244,5 +244,38 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Bạn cần có gói đăng ký $1 để truy cập tính năng $2."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Chọn lại phần tử"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Nhấp vào phần tử chính xác trên trang này để sửa bước này."
+  },
+  "@REPAIR__SKIP": {
+    "message": "Không có trên trang này"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Bỏ qua bước này nếu thiếu thành phần của nó."
+  },
+  "@REPAIR__UNDO": {
+    "message": "Hoàn tác thay đổi"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Hoàn tác thay đổi đã thực hiện ở bước này."
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Nhấp chuột vào phần tử cho bước này · Nhấn Esc để hủy"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Bộ chọn đã được cập nhật"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Bước này sẽ được bỏ qua nếu không tìm thấy phần tử tương ứng."
+  },
+  "@REPAIR__UNDONE": {
+    "message": "Sự thay đổi đã bị đảo ngược."
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Đang chờ phần tử, tải lại trang."
   }
 }

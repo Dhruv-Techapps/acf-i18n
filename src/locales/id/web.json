@@ -595,7 +595,12 @@
       "body": "Langkah berhasil disimpan!",
       "remove": "Langkah berhasil dihilangkan!",
       "reorder": "Langkah-langkah berhasil diurutkan ulang!"
-    }
+    },
+    "finderWarning": {
+      "blank": "Langkah ini belum memiliki target. Otomatisasi akan berhenti di sini.",
+      "invalid": "Target langkah ini bukan XPath atau selector yang valid. Otomatisasi akan berhenti di sini."
+    },
+    "noStepsWarning": "Otomatisasi ini tidak memiliki langkah-langkah, sehingga tidak melakukan apa pun saat dijalankan."
   },
   "userscript": {
     "add": "Tambahkan Skrip Pengguna",

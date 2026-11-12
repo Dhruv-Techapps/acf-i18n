@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Melding op Discord",
-    "loginRequired": "<1>Log in</1> op je account voordat je verbinding maakt met Discord."
+    "loginRequired": "<1>Log eerst in</1> op je account voordat je verbinding maakt met Discord."
   },
   "checkIFrames": {
     "title": "Zoeken binnen ingesloten pagina's",
@@ -110,7 +110,7 @@
     "weekly": "Wekelijks",
     "monthly": "Maandelijks",
     "off": "Uit",
-    "loginRequired": "<1>Log in</1> op je account voordat je verbinding maakt met Google Drive.",
+    "loginRequired": "<1>Meld u aan</1> bij uw account voordat u verbinding maakt met Google Drive.",
     "checkingAccess": "Toegang tot Google Drive controleren...",
     "connect": "Verbinden met Google Drive",
     "connected": "Google Drive-back-up",
@@ -595,7 +595,12 @@
       "body": "Stap succesvol opgeslagen!",
       "remove": "Stap succesvol voltooid!",
       "reorder": "Stappen succesvol opnieuw geordend!"
-    }
+    },
+    "finderWarning": {
+      "blank": "Deze stap heeft nog geen doel. De automatisering stopt hier.",
+      "invalid": "Het doel van deze stap is geen geldige XPath of selector. De automatisering stopt hier."
+    },
+    "noStepsWarning": "Deze automatisering heeft geen stappen, dus er gebeurt niets wanneer deze wordt uitgevoerd."
   },
   "userscript": {
     "add": "Gebruikersscript toevoegen",

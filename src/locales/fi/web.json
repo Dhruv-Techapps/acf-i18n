@@ -595,7 +595,12 @@
       "body": "Vaihe tallennettu onnistuneesti!",
       "remove": "Vaihe poistettu onnistuneesti!",
       "reorder": "Vaiheet järjestetty uudelleen onnistuneesti!"
-    }
+    },
+    "finderWarning": {
+      "blank": "Tällä vaiheella ei ole vielä tavoitetta. Automaatio pysähtyy tähän.",
+      "invalid": "Tämän vaiheen kohde ei ole kelvollinen XPath tai valitsin. Automaatio pysähtyy tähän."
+    },
+    "noStepsWarning": "Tässä automaatiossa ei ole vaiheita, joten se ei tee mitään suorituksen aikana."
   },
   "userscript": {
     "add": "Lisää käyttäjäskripti",

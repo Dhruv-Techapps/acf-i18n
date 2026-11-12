@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Notificação no Discord",
-    "loginRequired": "Por favor, faça <1>login</1> na sua conta antes de se conectar ao Discord."
+    "loginRequired": "<1>Faça login</1> na sua conta antes de se conectar ao Discord."
   },
   "checkIFrames": {
     "title": "Pesquisar em páginas incorporadas",
@@ -110,7 +110,7 @@
     "weekly": "Semanalmente",
     "monthly": "Mensal",
     "off": "Desligado",
-    "loginRequired": "Por favor, faça <1>login</1> na sua conta antes de se conectar com o Google Drive.",
+    "loginRequired": "<1>Faça login</1> na sua conta antes de conectar-se ao Google Drive.",
     "checkingAccess": "Verificando o acesso ao Google Drive...",
     "connect": "Conecte-se ao Google Drive",
     "connected": "Backup do Google Drive",
@@ -341,7 +341,7 @@
       "title": "Use as versões estáveis para aproveitar os recursos do Google Sheets.",
       "message": "Para obter os melhores resultados, use a versão <1>Stable</1> dos recursos do Google Sheets. As versões estáveis são rigorosamente testadas para garantir um desempenho confiável, ajudando você a evitar problemas inesperados. Se precisar de ajuda, entre em contato com o suporte."
     },
-    "loginRequired": "Por favor, faça <1>login</1> na sua conta antes de se conectar com o Google Sheets.",
+    "loginRequired": "<1>Faça login</1> na sua conta antes de se conectar com o Google Sheets.",
     "connect": "Conecte-se com o Google Sheets",
     "connected": "Conectado com o Google Sheets"
   },
@@ -485,7 +485,7 @@
     "title": "Explore as Automações",
     "search": "Automações de pesquisa...",
     "loadMore": "Carregar mais",
-    "loginToExplore": "<1>Login</1> para explorar as automações publicadas.",
+    "loginToExplore": "<1>Faça login</1> para explorar as automações publicadas.",
     "no-published": "Nenhuma automação encontrada. Seja o primeiro a publicar uma!",
     "downloads_zero": "Sem downloads",
     "downloads_one": "1 Download",
@@ -595,7 +595,12 @@
       "body": "Etapa salva com sucesso!",
       "remove": "Etapa removida com sucesso!",
       "reorder": "Etapas reordenadas com sucesso!"
-    }
+    },
+    "finderWarning": {
+      "blank": "Esta etapa ainda não tem um alvo definido. A automação será interrompida aqui.",
+      "invalid": "O destino desta etapa não é um XPath ou seletor válido. A automação será interrompida aqui."
+    },
+    "noStepsWarning": "Essa automação não possui etapas, portanto não faz nada quando é executada."
   },
   "userscript": {
     "add": "Adicionar script de usuário",

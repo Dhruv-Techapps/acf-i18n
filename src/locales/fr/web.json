@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Notification sur Discord",
-    "loginRequired": "Veuillez <1>vous connecter</1> à votre compte avant de vous connecter à Discord."
+    "loginRequired": "<1>Connectez-vous</1> à votre compte avant de vous connecter à Discord."
   },
   "checkIFrames": {
     "title": "Recherche dans les pages intégrées",
@@ -110,7 +110,7 @@
     "weekly": "Hebdomadaire",
     "monthly": "Mensuel",
     "off": "Désactivé",
-    "loginRequired": "Veuillez <1>vous connecter</1> à votre compte avant de vous connecter à Google Drive.",
+    "loginRequired": "<1>Connectez-vous</1> à votre compte avant de vous connecter à Google Drive.",
     "checkingAccess": "Vérification de l'accès à Google Drive...",
     "connect": "Se connecter avec Google Drive",
     "connected": "Sauvegarde Google Drive",
@@ -341,7 +341,7 @@
       "title": "Utilisez les versions stables pour les fonctionnalités de Google Sheets.",
       "message": "Pour des performances optimales, utilisez la version stable (<1>Stable</1>) des fonctionnalités de Google Sheets. Les versions stables sont rigoureusement testées afin de garantir un fonctionnement fiable et d'éviter les problèmes inattendus. En cas de besoin, n'hésitez pas à contacter l'assistance."
     },
-    "loginRequired": "Veuillez <1>vous connecter</1> à votre compte avant de vous connecter à Google Sheets.",
+    "loginRequired": "<1>Connectez-vous</1> à votre compte avant de vous connecter à Google Sheets.",
     "connect": "Se connecter avec Google Sheets",
     "connected": "Connecté à Google Sheets"
   },
@@ -595,7 +595,12 @@
       "body": "Étape enregistrée avec succès !",
       "remove": "Étape supprimée avec succès !",
       "reorder": "Étapes réorganisées avec succès !"
-    }
+    },
+    "finderWarning": {
+      "blank": "Cette étape n'a pas encore d'objectif. L'automatisation s'arrêtera ici.",
+      "invalid": "La cible de cette étape n'est pas un XPath ou un sélecteur valide. L'automatisation s'arrêtera ici."
+    },
+    "noStepsWarning": "Cette automatisation ne comporte aucune étape, elle ne fait donc rien lorsqu'elle s'exécute."
   },
   "userscript": {
     "add": "Ajouter un script utilisateur",

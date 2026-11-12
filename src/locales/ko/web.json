@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "디스코드 알림",
-    "loginRequired": "Discord에 접속하기 전에 계정에 <1>로그인</1>하십시오."
+    "loginRequired": "Discord에 접속하기 전에 계정에 <1>로그인하세요</1>."
   },
   "checkIFrames": {
     "title": "내장 페이지 내부 검색",
@@ -110,7 +110,7 @@
     "weekly": "주간",
     "monthly": "월간 간행물",
     "off": "끄다",
-    "loginRequired": "Google Drive에 연결하기 전에 계정에 <1>로그인</1>하십시오.",
+    "loginRequired": "Google Drive에 연결하기 전에 계정에 <1>로그인하세요</1>.",
     "checkingAccess": "구글 드라이브 접근 권한을 확인하는 중...",
     "connect": "Google Drive에 연결",
     "connected": "Google 드라이브 백업",
@@ -341,7 +341,7 @@
       "title": "Google Sheets 기능을 사용하려면 안정적인 버전을 사용하세요.",
       "message": "최상의 결과를 얻으려면 Google Sheets 기능의 안정 버전(<1>Stable</1>)을 사용하세요. 안정 버전은 철저한 테스트를 거쳐 안정적인 성능을 보장하므로 예상치 못한 문제를 방지할 수 있습니다. 도움이 필요하시면 언제든지 지원팀에 문의하세요."
     },
-    "loginRequired": "Google Sheets에 연결하기 전에 계정에 <1>로그인</1>하십시오.",
+    "loginRequired": "Google Sheets에 연결하기 전에 계정에 <1>로그인하세요</1>.",
     "connect": "Google Sheets와 연결하세요",
     "connected": "Google Sheets와 연동됨"
   },
@@ -595,7 +595,12 @@
       "body": "단계가 성공적으로 저장되었습니다!",
       "remove": "단계가 성공적으로 제거되었습니다!",
       "reorder": "단계 순서가 성공적으로 재정렬되었습니다!"
-    }
+    },
+    "finderWarning": {
+      "blank": "이 단계에는 아직 목표가 없습니다. 자동화는 여기서 멈춥니다.",
+      "invalid": "이 단계의 대상은 유효한 XPath 또는 선택자가 아닙니다. 자동화가 여기서 중지됩니다."
+    },
+    "noStepsWarning": "이 자동화에는 단계가 없으므로 실행될 때 아무런 작업도 수행하지 않습니다."
   },
   "userscript": {
     "add": "사용자 스크립트 추가",

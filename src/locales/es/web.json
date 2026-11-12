@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Notificación en Discord",
-    "loginRequired": "Por favor <1>Inicia sesión</1> en tu cuenta antes de conectarte con Discord."
+    "loginRequired": "<1>Inicia sesión</1> en tu cuenta antes de conectarte con Discord."
   },
   "checkIFrames": {
     "title": "Buscar dentro de páginas incrustadas",
@@ -110,7 +110,7 @@
     "weekly": "Semanalmente",
     "monthly": "Mensual",
     "off": "Apagado",
-    "loginRequired": "Por favor <1>Inicia sesión</1> en tu cuenta antes de conectarte con Google Drive.",
+    "loginRequired": "<1>Inicia sesión</1> en tu cuenta antes de conectarte con Google Drive.",
     "checkingAccess": "Comprobando el acceso a Google Drive...",
     "connect": "Conéctate con Google Drive",
     "connected": "Copia de seguridad de Google Drive",
@@ -341,7 +341,7 @@
       "title": "Utilice las versiones estables para las funciones de Google Sheets.",
       "message": "Para obtener los mejores resultados, utilice la versión estable de las funciones de Google Sheets (<1>Stable</1>). Las versiones estables se someten a pruebas exhaustivas para garantizar un rendimiento fiable y evitar problemas inesperados. Si necesita ayuda, póngase en contacto con el servicio de asistencia."
     },
-    "loginRequired": "Por favor, <1>Inicie sesión</1> en su cuenta antes de conectarse con Google Sheets.",
+    "loginRequired": "<1>Inicia sesión</1> en tu cuenta antes de conectarte con Google Sheets.",
     "connect": "Conéctate con Google Sheets",
     "connected": "Conectado con Google Sheets"
   },
@@ -595,7 +595,12 @@
       "body": "¡Paso guardado correctamente!",
       "remove": "¡Paso eliminado con éxito!",
       "reorder": "¡Pasos reordenados correctamente!"
-    }
+    },
+    "finderWarning": {
+      "blank": "Este paso aún no tiene un objetivo. La automatización se detendrá aquí.",
+      "invalid": "El destino de este paso no es una ruta XPath o un selector válido. La automatización se detendrá aquí."
+    },
+    "noStepsWarning": "Esta automatización no tiene pasos, por lo que no hace nada cuando se ejecuta."
   },
   "userscript": {
     "add": "Agregar script de usuario",

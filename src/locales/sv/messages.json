@@ -244,5 +244,38 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Du behöver en $1-prenumeration för att få tillgång till $2-funktionen."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Välj element igen"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Klicka på rätt element på den här sidan för att åtgärda det här steget"
+  },
+  "@REPAIR__SKIP": {
+    "message": "Inte på den här sidan"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Hoppa över det här steget när dess element saknas"
+  },
+  "@REPAIR__UNDO": {
+    "message": "Ångra ändring"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Återställ ändringen som gjorts i det här steget"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Klicka på elementet för det här steget · Esc för att avbryta"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Väljaren uppdaterad"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Det här steget hoppas över om dess element inte hittas"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "Ändringen har ångrats"
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Väntar på elementet, laddar om sidan"
   }
 }

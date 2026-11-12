@@ -244,5 +244,38 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Je hebt een $1-abonnement nodig om toegang te krijgen tot de $2-functie."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Selecteer het element opnieuw"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Klik op het juiste element op deze pagina om deze stap te corrigeren."
+  },
+  "@REPAIR__SKIP": {
+    "message": "Niet op deze pagina"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Sla deze stap over als het betreffende element ontbreekt."
+  },
+  "@REPAIR__UNDO": {
+    "message": "Wijziging ongedaan maken"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Maak de wijziging die in deze stap is aangebracht ongedaan."
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Klik op het element voor deze stap · Druk op Esc om te annuleren"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Selector bijgewerkt"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Deze stap wordt overgeslagen als het betreffende element niet wordt gevonden."
+  },
+  "@REPAIR__UNDONE": {
+    "message": "De wijziging is ongedaan gemaakt."
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Het element wordt opgewacht, de pagina wordt opnieuw geladen."
   }
 }

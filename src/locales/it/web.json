@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Notifica su Discord",
-    "loginRequired": "<1>Accedi</1> al tuo account prima di connetterti con Discord."
+    "loginRequired": "<1>Accedi</1> al tuo account prima di connetterti a Discord."
   },
   "checkIFrames": {
     "title": "Ricerca all'interno di pagine incorporate",
@@ -110,7 +110,7 @@
     "weekly": "Settimanale",
     "monthly": "Mensile",
     "off": "Spento",
-    "loginRequired": "<1>Accedi</1> al tuo account prima di connetterti con Google Drive.",
+    "loginRequired": "<1>Accedi</1> al tuo account prima di connetterti a Google Drive.",
     "checkingAccess": "Verifica dell'accesso a Google Drive...",
     "connect": "Connettiti con Google Drive",
     "connected": "Backup di Google Drive",
@@ -341,7 +341,7 @@
       "title": "Utilizza le versioni stabili per le funzionalità di Fogli Google.",
       "message": "Per ottenere risultati ottimali, utilizza la versione stabile (<1>Stable</1>) delle funzionalità di Fogli Google. Le versioni stabili sono testate a fondo per garantire prestazioni affidabili ed evitare problemi imprevisti. Se hai bisogno di aiuto, non esitare a contattare l'assistenza."
     },
-    "loginRequired": "<1>Accedi</1> al tuo account prima di connetterti con Google Sheets.",
+    "loginRequired": "<1>Accedi</1> al tuo account prima di connetterti a Fogli Google.",
     "connect": "Connettiti con Fogli Google",
     "connected": "Connesso con Fogli Google"
   },
@@ -595,7 +595,12 @@
       "body": "Passaggio salvato correttamente!",
       "remove": "Passaggio rimosso con successo!",
       "reorder": "Passaggi riordinati con successo!"
-    }
+    },
+    "finderWarning": {
+      "blank": "Questo passaggio non ha ancora un obiettivo. L'automazione si interromperà qui.",
+      "invalid": "L'obiettivo di questo passaggio non è un XPath o un selettore valido. L'automazione si interromperà qui."
+    },
+    "noStepsWarning": "Questa automazione non prevede passaggi, quindi non fa nulla quando viene eseguita."
   },
   "userscript": {
     "add": "Aggiungi script utente",

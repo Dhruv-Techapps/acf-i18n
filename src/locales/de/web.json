@@ -110,7 +110,7 @@
     "weekly": "Wöchentlich",
     "monthly": "Monatlich",
     "off": "Aus",
-    "loginRequired": "Melden Sie sich mit <1>Login</1> in Ihrem Konto an, bevor Sie eine Verbindung zu Google Drive herstellen.",
+    "loginRequired": "<1>Melden Sie sich in Ihrem Konto an</1>, bevor Sie eine Verbindung zu Google Drive herstellen.",
     "checkingAccess": "Überprüfung des Google Drive-Zugriffs...",
     "connect": "Mit Google Drive verbinden",
     "connected": "Google Drive-Backup",
@@ -341,7 +341,7 @@
       "title": "Verwenden Sie stabile Versionen für Google Sheets-Funktionen.",
       "message": "Für optimale Ergebnisse verwenden Sie die stabile Version <1>Stable</1> der Google Tabellen-Funktionen. Stabile Versionen werden gründlich getestet, um eine zuverlässige Leistung zu gewährleisten und unerwartete Probleme zu vermeiden. Bei Fragen wenden Sie sich bitte an den Support."
     },
-    "loginRequired": "Melden Sie sich mit <1>Login</1> in Ihrem Konto an, bevor Sie eine Verbindung zu Google Sheets herstellen.",
+    "loginRequired": "<1>Melden Sie sich in Ihrem Konto an</1>, bevor Sie eine Verbindung zu Google Sheets herstellen.",
     "connect": "Mit Google Sheets verbinden",
     "connected": "Mit Google Sheets verbunden"
   },
@@ -595,7 +595,12 @@
       "body": "Schritt erfolgreich gespeichert!",
       "remove": "Schritt erfolgreich entfernt!",
       "reorder": "Schritte erfolgreich neu angeordnet!"
-    }
+    },
+    "finderWarning": {
+      "blank": "Dieser Schritt hat noch kein Ziel. Die Automatisierung wird hier beendet.",
+      "invalid": "Das Ziel dieses Schritts ist kein gültiger XPath oder Selektor. Die Automatisierung wird hier abgebrochen."
+    },
+    "noStepsWarning": "Diese Automatisierung hat keine Schritte, daher tut sie beim Ausführen nichts."
   },
   "userscript": {
     "add": "Benutzerskript hinzufügen",

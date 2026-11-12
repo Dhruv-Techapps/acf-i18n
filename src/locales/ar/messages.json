@@ -244,5 +244,38 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "يجب أن يكون لديك اشتراك $1 للوصول إلى ميزة $2."
+  },
+  "@REPAIR__REPICK": {
+    "message": "حدد العنصر مرة أخرى"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "انقر على العنصر الصحيح في هذه الصفحة لإصلاح هذه الخطوة"
+  },
+  "@REPAIR__SKIP": {
+    "message": "غير موجود في هذه الصفحة"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "تخطَّ هذه الخطوة إذا كان العنصر الخاص بها مفقودًا."
+  },
+  "@REPAIR__UNDO": {
+    "message": "التراجع عن التغيير"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "قم بإلغاء التغيير الذي تم إجراؤه على هذه الخطوة"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "انقر على العنصر المطلوب لهذه الخطوة · اضغط على زر Esc للإلغاء"
+  },
+  "@REPAIR__SAVED": {
+    "message": "تم تحديث المحدد"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "سيتم تخطي هذه الخطوة عندما لا يتم العثور على العنصر الخاص بها"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "تم التراجع عن التغيير"
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "في انتظار العنصر، إعادة تحميل الصفحة"
   }
 }
