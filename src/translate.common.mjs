@@ -56,13 +56,17 @@ const PROTECT_PATTERN = /\{\{[^}]+\}\}|\$\d+|<\/?[a-zA-Z0-9]+>|`[^`]+`|https?:\/
 //
 // Translate's HTML mode (format: 'html') is built for exactly this: it keeps
 // elements and moves them with the words they wrap. So a string whose tags
-// are properly paired is sent with each pair as <a id="phN">...</a> (N = the
-// opening tag's placeholder index), and the reply is turned back into the
+// are properly paired is sent with each pair as <span id="phN">...</span> (N =
+// the opening tag's placeholder index), and the reply is turned back into the
 // same zzPHzzNzz tokens the rest of this function already restores and
 // verifies. Everything else (placeholders, code spans, URLs) stays an opaque
 // token as before. Unpaired/mismatched tags fall back to the token-only path.
+//
+// <span>, not <a>: pairs can nest (<1>Click <b>here</b></1>), and anchors
+// can't - an HTML parser closes the outer <a> as soon as the inner one opens,
+// so nested pairs would come back re-parented. Spans nest freely.
 const TAG_PARTS = /^<(\/?)([a-zA-Z0-9]+)>$/;
-const HTML_ANCHOR = /<a\s+id\s*=\s*["']?ph(\d+)["']?\s*>|<\/a\s*>/gi;
+const HTML_SPAN = /<span\s+id\s*=\s*["']?ph(\d+)["']?\s*>|<\/span\s*>/gi;
 const HTML_ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' };
 
 // Maps each opening tag's placeholder index to its closing tag's index.
@@ -94,27 +98,27 @@ const decodeHtml = (text) =>
   });
 
 // `tokenized` is the string with every protected span already swapped for a
-// zzPHzzNzz token; this turns the tag tokens (only) into <a id="phN">...</a>.
+// zzPHzzNzz token; this turns the tag tokens (only) into <span id="phN">...</span>.
 const tokensToHtml = (tokenized, pairs) => {
   const closers = new Set(pairs.values());
   return escapeHtml(tokenized).replace(/zzPHzz(\d+)zz/g, (token, i) => {
     const index = Number(i);
-    if (pairs.has(index)) return `<a id="ph${index}">`;
-    return closers.has(index) ? '</a>' : token;
+    if (pairs.has(index)) return `<span id="ph${index}">`;
+    return closers.has(index) ? '</span>' : token;
   });
 };
 
-// The reverse, on Translate's reply: anchors back to tag tokens, then HTML
-// entities back to plain characters. A closing </a> with nothing open
+// The reverse, on Translate's reply: spans back to tag tokens, then HTML
+// entities back to plain characters. A closing </span> with nothing open
 // becomes nothing, which the caller's missing-token check then reports.
 const htmlToTokens = (html, pairs) => {
   const open = [];
   return decodeHtml(
     html
       // Translate sometimes leaves a space between a closing tag and the
-      // punctuation that followed the wrapped words ("...</a> .").
-      .replace(/<\/a\s*>\s+(?=[.,。、])/gi, '</a>')
-      .replace(HTML_ANCHOR, (match, i) => {
+      // punctuation that followed the wrapped words ("...</span> .").
+      .replace(/<\/span\s*>\s+(?=[.,。、])/gi, '</span>')
+      .replace(HTML_SPAN, (match, i) => {
         if (i !== undefined) {
           open.push(Number(i));
           return `zzPHzz${Number(i)}zz`;

@@ -35,22 +35,31 @@ describe('paired tags', () => {
   test('round-trips through HTML without touching other tokens', () => {
     const pairs = pairTags(['<1>', '</1>', '{{count}}']);
     const html = tokensToHtml('zzPHzz0zzA & BzzPHzz1zz has zzPHzz2zz items', pairs);
-    assert.equal(html, '<a id="ph0">A &amp; B</a> has zzPHzz2zz items');
+    assert.equal(html, '<span id="ph0">A &amp; B</span> has zzPHzz2zz items');
     assert.equal(htmlToTokens(html, pairs), 'zzPHzz0zzA & BzzPHzz1zz has zzPHzz2zz items');
+  });
+
+  test('nested pairs survive the HTML round trip', async () => {
+    // Anchors can't nest in HTML; spans can - this is why the pairs travel as <span>.
+    const { translator, calls } = translatorWith(() => '<span id="ph0">Cliquez <span id="ph1">ici</span></span> pour continuer');
+    const result = await translator.translatePlaceholdersOnly('<1>Click <b>here</b></1> to continue', 'fr');
+
+    assert.equal(calls[0].text, '<span id="ph0">Click <span id="ph1">here</span></span> to continue');
+    assert.equal(result, '<1>Cliquez <b>ici</b></1> pour continuer');
   });
 
   test('sends a tagged string as HTML and restores the tags around the moved words', async () => {
     // Korean puts the linked words at the end, and Translate leaves a space before the period.
-    const { translator, calls } = translatorWith(() => 'Discord에 접속하기 전에 계정에 <a id="ph0">로그인하세요</a> .');
+    const { translator, calls } = translatorWith(() => 'Discord에 접속하기 전에 계정에 <span id="ph0">로그인하세요</span> .');
     const result = await translator.translatePlaceholdersOnly('<1>Log in</1> to your account before connecting with Discord.', 'ko');
 
-    assert.equal(calls[0].text, '<a id="ph0">Log in</a> to your account before connecting with Discord.');
+    assert.equal(calls[0].text, '<span id="ph0">Log in</span> to your account before connecting with Discord.');
     assert.equal(calls[0].options.format, 'html');
     assert.equal(result, 'Discord에 접속하기 전에 계정에 <1>로그인하세요</1>.');
   });
 
   test('decodes the HTML entities Translate returns in HTML mode', async () => {
-    const { translator } = translatorWith(() => 'Une version de <a id="ph0">Auto Clicker &amp; Auto Fill</a> est disponible, n&#39;attendez pas');
+    const { translator } = translatorWith(() => 'Une version de <span id="ph0">Auto Clicker &amp; Auto Fill</span> est disponible, n&#39;attendez pas');
     const result = await translator.translatePlaceholdersOnly('A version of <1>Auto Clicker & Auto Fill</1> is available', 'fr');
     assert.equal(result, "Une version de <1>Auto Clicker & Auto Fill</1> est disponible, n'attendez pas");
   });
