@@ -628,7 +628,18 @@
       "plainText": "Plain text",
       "exactText": "Exact text",
       "regex": "Regular expression",
-      "newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+      "newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+      "plainTextDesc": "Contains this text. If nothing matches, it is tried as a CSS selector.",
+      "exactTextDesc": "Is exactly this text.",
+      "regexDesc": "Matches this pattern.",
+      "attributes": "The text is compared with:",
+      "labelText": "the field's label",
+      "buttonText": "the text on buttons and links",
+      "autocompleteNote": "except \"on\" and \"off\"",
+      "valueNote": "checkboxes, radio buttons and buttons only",
+      "classNote": "can match many elements, so use with care",
+      "caseNote": "Upper and lower case are ignored. Use a regular expression when case matters.",
+      "allMatchesNote": "The step runs on every match. Hidden elements are skipped when a visible one matches."
     },
     "value": {
       "plainText": "Plain text",
