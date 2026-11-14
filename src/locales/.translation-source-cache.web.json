@@ -667,7 +667,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "zh-tw": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -1336,7 +1347,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "fr": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -2005,7 +2027,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "ko": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -2674,7 +2707,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "sv": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -3343,7 +3387,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "pt": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -4012,7 +4067,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "ja": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -4681,7 +4747,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "nl": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -5350,7 +5427,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "de": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -6019,7 +6107,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "es": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -6688,7 +6787,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "vi": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -7357,7 +7467,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "fi": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -8026,7 +8147,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "ar": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -8695,7 +8827,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "it": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -9364,7 +9507,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "ru": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -10033,7 +10187,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "id": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -10702,7 +10867,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "hi": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -11371,7 +11547,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "bg": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -12040,7 +12227,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "pl": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -12709,7 +12907,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "th": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -13378,7 +13587,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "sw": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -14047,7 +14267,18 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   },
   "fil": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -14716,6 +14947,17 @@
     "popover.elementFinder.plainText": "Plain text",
     "popover.elementFinder.exactText": "Exact text",
     "popover.elementFinder.regex": "Regular expression",
-    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+    "popover.elementFinder.plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+    "popover.elementFinder.exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+    "popover.elementFinder.regexDesc": "Finds elements that match this pattern.",
+    "popover.elementFinder.attributes": "Supported HTML attributes:",
+    "popover.elementFinder.labelText": "the label of the input field",
+    "popover.elementFinder.buttonText": "the text on buttons and links",
+    "popover.elementFinder.autocompleteNote": "except {{values}}",
+    "popover.elementFinder.valueNote": "only for checkboxes, radio buttons and buttons",
+    "popover.elementFinder.classNote": "many elements can share the same class, so use with care",
+    "popover.elementFinder.caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+    "popover.elementFinder.allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
   }
 }

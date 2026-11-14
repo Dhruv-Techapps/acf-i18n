@@ -628,7 +628,18 @@
       "plainText": "纯文本",
       "exactText": "精确文本",
       "regex": "正则表达式",
-      "newStepsNote": "适用于新增步骤。之前创建的步骤会将目标读取为 XPath。"
+      "newStepsNote": "适用于新增步骤。之前创建的步骤会将目标读取为 XPath。",
+      "plainTextDesc": "查找包含此文本的元素。如果未找到，则尝试将该文本用作 CSS 选择器。",
+      "exactTextDesc": "仅查找文本与当前文本完全相同的元素。",
+      "regexDesc": "查找符合此模式的元素。",
+      "attributes": "支持的HTML属性：",
+      "labelText": "输入字段的标签",
+      "buttonText": "按钮和链接上的文字",
+      "autocompleteNote": "除了 {{values}}",
+      "valueNote": "仅适用于复选框、单选按钮和按钮",
+      "classNote": "许多元素可以共享同一个类，因此请谨慎使用。",
+      "caseNote": "大小写字母被视为相同。请使用正则表达式来区分它们。",
+      "allMatchesNote": "该步骤会对找到的每个元素执行。如果找到可见元素，则会跳过隐藏元素。"
     },
     "value": {
       "plainText": "纯文本",

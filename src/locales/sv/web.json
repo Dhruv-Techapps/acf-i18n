@@ -628,7 +628,18 @@
       "plainText": "Vanlig text",
       "exactText": "Exakt text",
       "regex": "Reguljärt uttryck",
-      "newStepsNote": "Fungerar i nyligen tillagda steg. Steg som skapats tidigare läser målet som en XPath."
+      "newStepsNote": "Fungerar i nyligen tillagda steg. Steg som skapats tidigare läser målet som en XPath.",
+      "plainTextDesc": "Hittar element som innehåller den här texten. Om inga hittas, testas texten som en CSS-väljare.",
+      "exactTextDesc": "Hittar endast element vars text är exakt densamma som denna text.",
+      "regexDesc": "Hittar element som matchar detta mönster.",
+      "attributes": "HTML-attribut som stöds:",
+      "labelText": "etiketten för inmatningsfältet",
+      "buttonText": "texten på knappar och länkar",
+      "autocompleteNote": "förutom {{values}}",
+      "valueNote": "endast för kryssrutor, radioknappar och knappar",
+      "classNote": "många element kan dela samma klass, så använd med försiktighet",
+      "caseNote": "Stora och små bokstäver behandlas som samma sak. Använd ett reguljärt uttryck för att skilja dem åt.",
+      "allMatchesNote": "Steget körs på varje element som hittas. Dolda element hoppas över när ett synligt element hittas."
     },
     "value": {
       "plainText": "Vanlig text",

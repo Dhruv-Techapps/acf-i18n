@@ -628,7 +628,18 @@
       "plainText": "Pelkkä teksti",
       "exactText": "Tarkka teksti",
       "regex": "Säännöllinen lauseke",
-      "newStepsNote": "Toimii uusissa vaiheissa. Aiemmin luodut vaiheet lukevat kohteen XPath-lausekkeena."
+      "newStepsNote": "Toimii uusissa vaiheissa. Aiemmin luodut vaiheet lukevat kohteen XPath-lausekkeena.",
+      "plainTextDesc": "Etsii elementtejä, jotka sisältävät tämän tekstin. Jos yhtäkään ei löydy, tekstiä yritetään käyttää CSS-valitsimena.",
+      "exactTextDesc": "Löytää vain elementit, joiden teksti on täsmälleen sama kuin tämä teksti.",
+      "regexDesc": "Löytää elementtejä, jotka vastaavat tätä kuviota.",
+      "attributes": "Tuetut HTML-attribuutit:",
+      "labelText": "syöttökentän otsikko",
+      "buttonText": "painikkeiden ja linkkien teksti",
+      "autocompleteNote": "paitsi {{values}}",
+      "valueNote": "vain valintaruuduille, radionapeille ja painikkeille",
+      "classNote": "monilla elementeillä voi olla sama luokka, joten käytä niitä varoen",
+      "caseNote": "Isoja ja pieniä kirjaimia käsitellään samalla tavalla. Käytä säännöllistä lauseketta erottaaksesi ne toisistaan.",
+      "allMatchesNote": "Vaihe suoritetaan jokaiselle löydetylle elementille. Piilotetut elementit ohitetaan, kun löytyy näkyvä elementti."
     },
     "value": {
       "plainText": "Pelkkä teksti",

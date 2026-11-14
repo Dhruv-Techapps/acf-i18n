@@ -628,7 +628,18 @@
       "plainText": "Klartext",
       "exactText": "Genauer Text",
       "regex": "Regulärer Ausdruck",
-      "newStepsNote": "Funktioniert in neu hinzugefügten Schritten. Zuvor erstellte Schritte lesen das Ziel als XPath."
+      "newStepsNote": "Funktioniert in neu hinzugefügten Schritten. Zuvor erstellte Schritte lesen das Ziel als XPath.",
+      "plainTextDesc": "Sucht nach Elementen, die diesen Text enthalten. Falls keine gefunden werden, wird der Text als CSS-Selektor verwendet.",
+      "exactTextDesc": "Findet nur Elemente, deren Text exakt mit diesem Text übereinstimmt.",
+      "regexDesc": "Findet Elemente, die diesem Muster entsprechen.",
+      "attributes": "Unterstützte HTML-Attribute:",
+      "labelText": "die Bezeichnung des Eingabefelds",
+      "buttonText": "der Text auf Schaltflächen und Links",
+      "autocompleteNote": "außer {{values}}",
+      "valueNote": "nur für Kontrollkästchen, Optionsfelder und Schaltflächen",
+      "classNote": "Viele Elemente können derselben Klasse angehören, daher mit Vorsicht verwenden.",
+      "caseNote": "Groß- und Kleinbuchstaben werden gleich behandelt. Verwenden Sie einen regulären Ausdruck, um sie zu unterscheiden.",
+      "allMatchesNote": "Dieser Schritt wird für jedes gefundene Element ausgeführt. Versteckte Elemente werden übersprungen, sobald ein sichtbares Element gefunden wird."
     },
     "value": {
       "plainText": "Klartext",

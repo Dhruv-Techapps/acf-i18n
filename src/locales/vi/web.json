@@ -628,7 +628,18 @@
       "plainText": "Văn bản thuần túy",
       "exactText": "Văn bản chính xác",
       "regex": "Biểu thức chính quy",
-      "newStepsNote": "Các bước mới được thêm vào sẽ hoạt động bình thường. Các bước được tạo trước đó sẽ đọc mục tiêu dưới dạng XPath."
+      "newStepsNote": "Các bước mới được thêm vào sẽ hoạt động bình thường. Các bước được tạo trước đó sẽ đọc mục tiêu dưới dạng XPath.",
+      "plainTextDesc": "Tìm các phần tử chứa đoạn văn bản này. Nếu không tìm thấy phần tử nào, đoạn văn bản sẽ được thử sử dụng như một bộ chọn CSS.",
+      "exactTextDesc": "Chỉ tìm những phần tử có nội dung giống hệt với nội dung văn bản này.",
+      "regexDesc": "Tìm các phần tử phù hợp với mẫu này.",
+      "attributes": "Các thuộc tính HTML được hỗ trợ:",
+      "labelText": "nhãn của trường nhập liệu",
+      "buttonText": "văn bản trên các nút và liên kết",
+      "autocompleteNote": "ngoại trừ {{values}}",
+      "valueNote": "Chỉ áp dụng cho hộp kiểm, nút chọn và nút bấm.",
+      "classNote": "Nhiều phần tử có thể cùng thuộc một lớp, vì vậy hãy sử dụng cẩn thận.",
+      "caseNote": "Chữ hoa và chữ thường được coi là giống nhau. Hãy sử dụng biểu thức chính quy để phân biệt chúng.",
+      "allMatchesNote": "Bước này được thực thi trên mọi phần tử được tìm thấy. Các phần tử ẩn sẽ bị bỏ qua khi tìm thấy một phần tử hiển thị."
     },
     "value": {
       "plainText": "Văn bản thuần túy",

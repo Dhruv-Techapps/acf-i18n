@@ -628,7 +628,18 @@
       "plainText": "Simpleng teksto",
       "exactText": "Eksaktong teksto",
       "regex": "Regular na ekspresyon",
-      "newStepsNote": "Gumagana sa mga bagong dagdag na hakbang. Ang mga hakbang na ginawa kanina ay nagbabasa ng target bilang isang XPath."
+      "newStepsNote": "Gumagana sa mga bagong dagdag na hakbang. Ang mga hakbang na ginawa kanina ay nagbabasa ng target bilang isang XPath.",
+      "plainTextDesc": "Hinahanap ang mga elementong naglalaman ng tekstong ito. Kung walang matagpuan, susubukan ang teksto bilang isang CSS selector.",
+      "exactTextDesc": "Hinahanap lamang ang mga elemento na ang teksto ay eksaktong kapareho ng tekstong ito.",
+      "regexDesc": "Hinahanap ang mga elementong tumutugma sa pattern na ito.",
+      "attributes": "Mga sinusuportahang katangian ng HTML:",
+      "labelText": "ang label ng input field",
+      "buttonText": "ang teksto sa mga button at link",
+      "autocompleteNote": "maliban kay {{values}}",
+      "valueNote": "para lamang sa mga checkbox, radio button at button",
+      "classNote": "maraming elemento ang maaaring magbahagi ng parehong klase, kaya gamitin nang may pag-iingat",
+      "caseNote": "Ang malaki at maliit na titik ay itinuturing na pareho. Gumamit ng regular na expression upang mapag-iba ang mga ito.",
+      "allMatchesNote": "Ang hakbang ay tumatakbo sa bawat elementong matatagpuan. Ang mga nakatagong elemento ay nilalaktawan kapag ang isang nakikitang elemento ay natagpuan."
     },
     "value": {
       "plainText": "Simpleng teksto",
