@@ -275,6 +275,9 @@
   "@REPAIR__UNDONE": {
     "message": "A alteração foi desfeita."
   },
+  "@REPAIR__PICK_FAILED": {
+    "message": "Esse elemento não pode ser usado nesta etapa. Selecione outro."
+  },
   "@STATUS__WAITING_RELOAD": {
     "message": "Aguardando o elemento, recarregando a página."
   }

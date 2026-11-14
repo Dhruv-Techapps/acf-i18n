@@ -275,6 +275,9 @@
   "@REPAIR__UNDONE": {
     "message": "Die Änderung wurde rückgängig gemacht."
   },
+  "@REPAIR__PICK_FAILED": {
+    "message": "Dieses Element kann für diesen Schritt nicht verwendet werden. Wählen Sie ein anderes aus."
+  },
   "@STATUS__WAITING_RELOAD": {
     "message": "Warten auf das Element, Seite wird neu geladen"
   }

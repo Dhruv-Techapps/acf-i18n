@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Buscador de elementos",
-      "count": "Número de elementos"
+      "count": "Número de elementos",
+      "plainText": "Texto sin formato",
+      "exactText": "Texto exacto",
+      "regex": "Expresión regular",
+      "newStepsNote": "Funciona en los pasos recién añadidos. Los pasos creados anteriormente leen el destino como una ruta XPath."
     },
     "value": {
       "plainText": "Texto sin formato",

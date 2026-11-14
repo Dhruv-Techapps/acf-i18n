@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Elementsökare",
-      "count": "# element"
+      "count": "# element",
+      "plainText": "Vanlig text",
+      "exactText": "Exakt text",
+      "regex": "Reguljärt uttryck",
+      "newStepsNote": "Fungerar i nyligen tillagda steg. Steg som skapats tidigare läser målet som en XPath."
     },
     "value": {
       "plainText": "Vanlig text",

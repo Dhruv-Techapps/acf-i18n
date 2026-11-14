@@ -275,6 +275,9 @@
   "@REPAIR__UNDONE": {
     "message": "변경 사항이 되돌려졌습니다."
   },
+  "@REPAIR__PICK_FAILED": {
+    "message": "해당 요소는 이 단계에 사용할 수 없습니다. 다른 요소를 선택하세요."
+  },
   "@STATUS__WAITING_RELOAD": {
     "message": "요소를 기다리는 중, 페이지를 새로 고침합니다"
   }

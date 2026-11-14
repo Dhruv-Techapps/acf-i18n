@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Pencari Elemen",
-      "count": "jumlah elemen"
+      "count": "jumlah elemen",
+      "plainText": "Teks biasa",
+      "exactText": "Teks persis",
+      "regex": "Ekspresi reguler",
+      "newStepsNote": "Berfungsi pada langkah-langkah yang baru ditambahkan. Langkah-langkah yang dibuat sebelumnya membaca target sebagai XPath."
     },
     "value": {
       "plainText": "Teks biasa",

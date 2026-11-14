@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "요소 찾기",
-      "count": "요소 수"
+      "count": "요소 수",
+      "plainText": "일반 텍스트",
+      "exactText": "정확한 텍스트",
+      "regex": "정규 표현식",
+      "newStepsNote": "새로 추가된 단계에서는 정상적으로 작동합니다. 이전에 생성된 단계는 대상을 XPath로 읽습니다."
     },
     "value": {
       "plainText": "일반 텍스트",

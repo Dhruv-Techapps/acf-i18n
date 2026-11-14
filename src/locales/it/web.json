@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Ricerca elementi",
-      "count": "numero di elementi"
+      "count": "numero di elementi",
+      "plainText": "Testo semplice",
+      "exactText": "Testo esatto",
+      "regex": "Espressione regolare",
+      "newStepsNote": "Funziona nei passaggi aggiunti di recente. I passaggi creati in precedenza leggevano la destinazione come un XPath."
     },
     "value": {
       "plainText": "Testo semplice",

@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Kitafutaji cha Vipengele",
-      "count": "# ya vipengele"
+      "count": "# ya vipengele",
+      "plainText": "Maandishi rahisi",
+      "exactText": "Maandishi halisi",
+      "regex": "Usemi wa kawaida",
+      "newStepsNote": "Hufanya kazi katika hatua mpya zilizoongezwa. Hatua zilizoundwa mapema husoma lengo kama XPath."
     },
     "value": {
       "plainText": "Maandishi rahisi",

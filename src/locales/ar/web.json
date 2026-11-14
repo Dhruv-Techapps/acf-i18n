@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "أداة البحث عن العناصر",
-      "count": "من العناصر"
+      "count": "من العناصر",
+      "plainText": "نص عادي",
+      "exactText": "نص مطابق تمامًا",
+      "regex": "التعبير النمطي",
+      "newStepsNote": "يعمل في الخطوات المضافة حديثًا. تقرأ الخطوات التي تم إنشاؤها سابقًا الهدف كـ XPath."
     },
     "value": {
       "plainText": "نص عادي",

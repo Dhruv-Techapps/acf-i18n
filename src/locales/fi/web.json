@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Elementtien etsijä",
-      "count": "elementtien lukumäärä"
+      "count": "elementtien lukumäärä",
+      "plainText": "Pelkkä teksti",
+      "exactText": "Tarkka teksti",
+      "regex": "Säännöllinen lauseke",
+      "newStepsNote": "Toimii uusissa vaiheissa. Aiemmin luodut vaiheet lukevat kohteen XPath-lausekkeena."
     },
     "value": {
       "plainText": "Pelkkä teksti",

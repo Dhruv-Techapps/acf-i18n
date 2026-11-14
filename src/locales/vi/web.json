@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Công cụ tìm phần tử",
-      "count": "# phần tử"
+      "count": "# phần tử",
+      "plainText": "Văn bản thuần túy",
+      "exactText": "Văn bản chính xác",
+      "regex": "Biểu thức chính quy",
+      "newStepsNote": "Các bước mới được thêm vào sẽ hoạt động bình thường. Các bước được tạo trước đó sẽ đọc mục tiêu dưới dạng XPath."
     },
     "value": {
       "plainText": "Văn bản thuần túy",

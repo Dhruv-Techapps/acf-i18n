@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Поиск элементов",
-      "count": "# элементов"
+      "count": "# элементов",
+      "plainText": "Простой текст",
+      "exactText": "Точный текст",
+      "regex": "Регулярное выражение",
+      "newStepsNote": "Работает с недавно добавленными шагами. Шаги, созданные ранее, считывают целевой объект как XPath."
     },
     "value": {
       "plainText": "Простой текст",

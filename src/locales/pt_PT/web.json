@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Localizador de Elementos",
-      "count": "número de elementos"
+      "count": "número de elementos",
+      "plainText": "Texto simples",
+      "exactText": "Texto exato",
+      "regex": "Expressão regular",
+      "newStepsNote": "Funciona em etapas recém-adicionadas. As etapas criadas anteriormente leem o destino como um XPath."
     },
     "value": {
       "plainText": "Texto simples",

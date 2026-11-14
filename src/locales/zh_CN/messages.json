@@ -275,6 +275,9 @@
   "@REPAIR__UNDONE": {
     "message": "这一改变已被撤销。"
   },
+  "@REPAIR__PICK_FAILED": {
+    "message": "该元素不能用于此步骤。请选择其他元素。"
+  },
   "@STATUS__WAITING_RELOAD": {
     "message": "正在等待元素加载，重新加载页面"
   }

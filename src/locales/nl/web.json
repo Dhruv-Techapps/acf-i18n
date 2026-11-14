@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Elementzoeker",
-      "count": "# aantal elementen"
+      "count": "# aantal elementen",
+      "plainText": "Platte tekst",
+      "exactText": "Exacte tekst",
+      "regex": "Reguliere expressie",
+      "newStepsNote": "Werkt in nieuw toegevoegde stappen. Stappen die eerder zijn gemaakt, lezen het doel als een XPath."
     },
     "value": {
       "plainText": "Platte tekst",

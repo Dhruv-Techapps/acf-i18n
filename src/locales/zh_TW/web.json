@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "元素查找器",
-      "count": "元素數量"
+      "count": "元素數量",
+      "plainText": "純文字",
+      "exactText": "精確文字",
+      "regex": "正規表示式",
+      "newStepsNote": "適用於新增步驟。先前建立的步驟會將目標讀取為 XPath。"
     },
     "value": {
       "plainText": "純文字",

@@ -275,6 +275,9 @@
   "@REPAIR__UNDONE": {
     "message": "Muutos on peruttu"
   },
+  "@REPAIR__PICK_FAILED": {
+    "message": "Tätä elementtiä ei voida käyttää tässä vaiheessa. Valitse toinen."
+  },
   "@STATUS__WAITING_RELOAD": {
     "message": "Odotetaan elementtiä, sivua ladataan uudelleen"
   }

@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Tagahanap ng Elemento",
-      "count": "# ng mga elemento"
+      "count": "# ng mga elemento",
+      "plainText": "Simpleng teksto",
+      "exactText": "Eksaktong teksto",
+      "regex": "Regular na ekspresyon",
+      "newStepsNote": "Gumagana sa mga bagong dagdag na hakbang. Ang mga hakbang na ginawa kanina ay nagbabasa ng target bilang isang XPath."
     },
     "value": {
       "plainText": "Simpleng teksto",

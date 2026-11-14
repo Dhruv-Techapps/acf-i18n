@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Търсач на елементи",
-      "count": "# елементи"
+      "count": "# елементи",
+      "plainText": "Обикновен текст",
+      "exactText": "Точен текст",
+      "regex": "Регулярен израз",
+      "newStepsNote": "Работи в новодобавени стъпки. Стъпките, създадени по-рано, четат целта като XPath."
     },
     "value": {
       "plainText": "Обикновен текст",

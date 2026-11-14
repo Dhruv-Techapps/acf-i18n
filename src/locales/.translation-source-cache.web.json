@@ -663,7 +663,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "zh-tw": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -1328,7 +1332,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "fr": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -1993,7 +2001,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "ko": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -2658,7 +2670,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "sv": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -3323,7 +3339,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "pt": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -3988,7 +4008,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "ja": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -4653,7 +4677,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "nl": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -5318,7 +5346,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "de": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -5983,7 +6015,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "es": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -6648,7 +6684,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "vi": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -7313,7 +7353,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "fi": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -7978,7 +8022,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "ar": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -8643,7 +8691,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "it": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -9308,7 +9360,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "ru": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -9973,7 +10029,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "id": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -10638,7 +10698,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "hi": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -11303,7 +11367,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "bg": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -11968,7 +12036,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "pl": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -12633,7 +12705,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "th": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -13298,7 +13374,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "sw": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -13963,7 +14043,11 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   },
   "fil": {
     "meta.appName": "Auto Clicker - AutoFill",
@@ -14628,6 +14712,10 @@
     "userscript.edit.exitFullscreen": "Exit full screen",
     "step.finderWarning.blank": "This step has no target yet. The automation will stop here.",
     "step.finderWarning.invalid": "This step's target is not a valid XPath or selector. The automation will stop here.",
-    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs."
+    "step.noStepsWarning": "This automation has no steps, so it does nothing when it runs.",
+    "popover.elementFinder.plainText": "Plain text",
+    "popover.elementFinder.exactText": "Exact text",
+    "popover.elementFinder.regex": "Regular expression",
+    "popover.elementFinder.newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath."
   }
 }

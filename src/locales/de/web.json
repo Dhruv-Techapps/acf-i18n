@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Elementfinder",
-      "count": "Anzahl der Elemente"
+      "count": "Anzahl der Elemente",
+      "plainText": "Klartext",
+      "exactText": "Genauer Text",
+      "regex": "Regulärer Ausdruck",
+      "newStepsNote": "Funktioniert in neu hinzugefügten Schritten. Zuvor erstellte Schritte lesen das Ziel als XPath."
     },
     "value": {
       "plainText": "Klartext",

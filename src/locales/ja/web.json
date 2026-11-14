@@ -624,7 +624,11 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "エレメントファインダー",
-      "count": "要素数"
+      "count": "要素数",
+      "plainText": "プレーンテキスト",
+      "exactText": "正確なテキスト",
+      "regex": "正規表現",
+      "newStepsNote": "新しく追加されたステップでは正常に動作します。以前に作成されたステップでは、ターゲットをXPathとして読み取ります。"
     },
     "value": {
       "plainText": "プレーンテキスト",
