@@ -635,7 +635,7 @@
       "attributes": "Mga sinusuportahang katangian ng HTML:",
       "labelText": "ang label ng input field",
       "buttonText": "ang teksto sa mga button at link",
-      "autocompleteNote": "maliban kay {{values}}",
+      "autocompleteNote": "maliban sa {{values}}",
       "valueNote": "para lamang sa mga checkbox, radio button at button",
       "classNote": "maraming elemento ang maaaring magbahagi ng parehong klase, kaya gamitin nang may pag-iingat",
       "caseNote": "Ang malaki at maliit na titik ay itinuturing na pareho. Gumamit ng regular na expression upang mapag-iba ang mga ito.",
