@@ -624,7 +624,22 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Kitafutaji cha Vipengele",
-      "count": "# ya vipengele"
+      "count": "# ya vipengele",
+      "plainText": "Maandishi rahisi",
+      "exactText": "Maandishi halisi",
+      "regex": "Usemi wa kawaida",
+      "newStepsNote": "Hufanya kazi katika hatua mpya zilizoongezwa. Hatua zilizoundwa mapema husoma lengo kama XPath.",
+      "plainTextDesc": "Hupata vipengele vilivyo na maandishi haya. Ikiwa havipatikani, maandishi hujaribiwa kama kiteuzi cha CSS.",
+      "exactTextDesc": "Hupata vipengele tu ambavyo maandishi yake ni sawa kabisa na maandishi haya.",
+      "regexDesc": "Hupata vipengele vinavyolingana na muundo huu.",
+      "attributes": "Sifa za HTML zinazoungwa mkono:",
+      "labelText": "lebo ya sehemu ya kuingiza data",
+      "buttonText": "maandishi kwenye vifungo na viungo",
+      "autocompleteNote": "isipokuwa {{values}}",
+      "valueNote": "kwa visanduku vya kuteua, vitufe vya redio na vitufe pekee",
+      "classNote": "vipengele vingi vinaweza kushiriki darasa moja, kwa hivyo tumia kwa uangalifu",
+      "caseNote": "Herufi kubwa na ndogo huchukuliwa kuwa sawa. Tumia usemi wa kawaida kuzitofautisha.",
+      "allMatchesNote": "Hatua huendeshwa kwa kila kipengele kinachopatikana. Vipengele vilivyofichwa hurukwa wakati kipengele kinachoonekana kinapopatikana."
     },
     "value": {
       "plainText": "Maandishi rahisi",

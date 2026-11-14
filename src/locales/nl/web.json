@@ -624,7 +624,22 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Elementzoeker",
-      "count": "# aantal elementen"
+      "count": "# aantal elementen",
+      "plainText": "Platte tekst",
+      "exactText": "Exacte tekst",
+      "regex": "Reguliere expressie",
+      "newStepsNote": "Werkt in nieuw toegevoegde stappen. Stappen die eerder zijn gemaakt, lezen het doel als een XPath.",
+      "plainTextDesc": "Zoekt naar elementen die deze tekst bevatten. Als er geen worden gevonden, wordt de tekst als CSS-selector geprobeerd.",
+      "exactTextDesc": "Vindt alleen elementen waarvan de tekst exact hetzelfde is als deze tekst.",
+      "regexDesc": "Zoekt naar elementen die overeenkomen met dit patroon.",
+      "attributes": "Ondersteunde HTML-attributen:",
+      "labelText": "het label van het invoerveld",
+      "buttonText": "de tekst op knoppen en links",
+      "autocompleteNote": "behalve {{values}}",
+      "valueNote": "alleen voor selectievakjes, keuzerondjes en knoppen",
+      "classNote": "Veel elementen kunnen dezelfde klasse delen, dus gebruik ze met zorg.",
+      "caseNote": "Hoofdletters en kleine letters worden als hetzelfde beschouwd. Gebruik een reguliere expressie om ze van elkaar te onderscheiden.",
+      "allMatchesNote": "De stap wordt uitgevoerd voor elk gevonden element. Verborgen elementen worden overgeslagen wanneer een zichtbaar element wordt gevonden."
     },
     "value": {
       "plainText": "Platte tekst",

@@ -624,7 +624,22 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "요소 찾기",
-      "count": "요소 수"
+      "count": "요소 수",
+      "plainText": "일반 텍스트",
+      "exactText": "정확한 텍스트",
+      "regex": "정규 표현식",
+      "newStepsNote": "새로 추가된 단계에서는 정상적으로 작동합니다. 이전에 생성된 단계는 대상을 XPath로 읽습니다.",
+      "plainTextDesc": "이 텍스트를 포함하는 요소를 찾습니다. 요소가 없으면 해당 텍스트를 CSS 선택자로 사용해 봅니다.",
+      "exactTextDesc": "이 텍스트와 내용이 완전히 동일한 요소만 찾습니다.",
+      "regexDesc": "이 패턴과 일치하는 요소를 찾습니다.",
+      "attributes": "지원되는 HTML 속성:",
+      "labelText": "입력 필드의 레이블",
+      "buttonText": "버튼과 링크의 텍스트",
+      "autocompleteNote": "{{values}} 제외",
+      "valueNote": "체크박스, 라디오 버튼 및 일반 버튼에만 해당됩니다.",
+      "classNote": "여러 요소가 동일한 클래스를 공유할 수 있으므로 주의해서 사용하십시오.",
+      "caseNote": "대문자와 소문자는 동일하게 취급됩니다. 정규 표현식을 사용하여 대문자와 소문자를 구분하세요.",
+      "allMatchesNote": "이 단계는 발견된 모든 요소에 대해 실행됩니다. 보이는 요소가 발견되면 숨겨진 요소는 건너뜁니다."
     },
     "value": {
       "plainText": "일반 텍스트",

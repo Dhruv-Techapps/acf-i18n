@@ -624,7 +624,22 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Recherche d'éléments",
-      "count": "nombre d'éléments"
+      "count": "nombre d'éléments",
+      "plainText": "Texte brut",
+      "exactText": "Texte exact",
+      "regex": "Expression régulière",
+      "newStepsNote": "Fonctionne dans les étapes nouvellement ajoutées. Les étapes créées précédemment lisent la cible comme un XPath.",
+      "plainTextDesc": "Recherche les éléments contenant ce texte. Si aucun élément n'est trouvé, le texte est testé comme sélecteur CSS.",
+      "exactTextDesc": "Trouve uniquement les éléments dont le texte est exactement le même que ce texte.",
+      "regexDesc": "Trouve les éléments qui correspondent à ce motif.",
+      "attributes": "Attributs HTML pris en charge :",
+      "labelText": "l'étiquette du champ de saisie",
+      "buttonText": "le texte des boutons et des liens",
+      "autocompleteNote": "sauf {{values}}",
+      "valueNote": "uniquement pour les cases à cocher, les boutons radio et les boutons",
+      "classNote": "Plusieurs éléments peuvent appartenir à la même classe, alors utilisez-les avec précaution.",
+      "caseNote": "Les lettres majuscules et minuscules sont traitées de la même manière. Utilisez une expression régulière pour les distinguer.",
+      "allMatchesNote": "Cette étape s'exécute sur chaque élément trouvé. Les éléments cachés sont ignorés lorsqu'un élément visible est trouvé."
     },
     "value": {
       "plainText": "Texte brut",

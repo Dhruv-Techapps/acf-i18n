@@ -275,6 +275,9 @@
   "@REPAIR__UNDONE": {
     "message": "The change has been undone"
   },
+  "@REPAIR__PICK_FAILED": {
+    "message": "That element can't be used for this step. Select another one."
+  },
   "@STATUS__WAITING_RELOAD": {
     "message": "Waiting for the element, reloading the page"
   }

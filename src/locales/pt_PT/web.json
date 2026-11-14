@@ -624,7 +624,22 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Localizador de Elementos",
-      "count": "número de elementos"
+      "count": "número de elementos",
+      "plainText": "Texto simples",
+      "exactText": "Texto exato",
+      "regex": "Expressão regular",
+      "newStepsNote": "Funciona em etapas recém-adicionadas. As etapas criadas anteriormente leem o destino como um XPath.",
+      "plainTextDesc": "Encontra elementos que contenham este texto. Se nenhum for encontrado, o texto é testado como um seletor CSS.",
+      "exactTextDesc": "Encontra apenas os elementos cujo texto é exatamente igual a este texto.",
+      "regexDesc": "Encontra elementos que correspondem a este padrão.",
+      "attributes": "Atributos HTML suportados:",
+      "labelText": "o rótulo do campo de entrada",
+      "buttonText": "o texto nos botões e links",
+      "autocompleteNote": "exceto {{values}}",
+      "valueNote": "Apenas para caixas de seleção, botões de opção e botões.",
+      "classNote": "Muitos elementos podem compartilhar a mesma classe, portanto, use com cuidado.",
+      "caseNote": "Letras maiúsculas e minúsculas são tratadas da mesma forma. Use uma expressão regular para diferenciá-las.",
+      "allMatchesNote": "A etapa é executada em todos os elementos encontrados. Elementos ocultos são ignorados quando um elemento visível é encontrado."
     },
     "value": {
       "plainText": "Texto simples",

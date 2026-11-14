@@ -275,6 +275,9 @@
   "@REPAIR__UNDONE": {
     "message": "Ändringen har ångrats"
   },
+  "@REPAIR__PICK_FAILED": {
+    "message": "Det elementet kan inte användas för det här steget. Välj ett annat."
+  },
   "@STATUS__WAITING_RELOAD": {
     "message": "Väntar på elementet, laddar om sidan"
   }

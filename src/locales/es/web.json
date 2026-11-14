@@ -624,7 +624,22 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Buscador de elementos",
-      "count": "Número de elementos"
+      "count": "Número de elementos",
+      "plainText": "Texto sin formato",
+      "exactText": "Texto exacto",
+      "regex": "Expresión regular",
+      "newStepsNote": "Funciona en los pasos recién añadidos. Los pasos creados anteriormente leen el destino como una ruta XPath.",
+      "plainTextDesc": "Busca elementos que contengan este texto. Si no encuentra ninguno, intenta usar el texto como selector CSS.",
+      "exactTextDesc": "Encuentra únicamente los elementos cuyo texto sea exactamente igual a este texto.",
+      "regexDesc": "Encuentra elementos que coincidan con este patrón.",
+      "attributes": "Atributos HTML compatibles:",
+      "labelText": "la etiqueta del campo de entrada",
+      "buttonText": "el texto en botones y enlaces",
+      "autocompleteNote": "excepto {{values}}",
+      "valueNote": "Solo para casillas de verificación, botones de opción y botones.",
+      "classNote": "Muchos elementos pueden compartir la misma clase, así que úselo con cuidado.",
+      "caseNote": "Las mayúsculas y minúsculas se tratan como si fueran iguales. Utilice una expresión regular para diferenciarlas.",
+      "allMatchesNote": "Este paso se ejecuta en cada elemento que se encuentra. Los elementos ocultos se omiten cuando se encuentra un elemento visible."
     },
     "value": {
       "plainText": "Texto sin formato",

@@ -624,7 +624,22 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Ricerca elementi",
-      "count": "numero di elementi"
+      "count": "numero di elementi",
+      "plainText": "Testo semplice",
+      "exactText": "Testo esatto",
+      "regex": "Espressione regolare",
+      "newStepsNote": "Funziona nei passaggi aggiunti di recente. I passaggi creati in precedenza leggono la destinazione come un XPath.",
+      "plainTextDesc": "Trova gli elementi che contengono questo testo. Se non ne vengono trovati, il testo viene provato come selettore CSS.",
+      "exactTextDesc": "Trova solo gli elementi il cui testo è esattamente uguale a questo testo.",
+      "regexDesc": "Trova gli elementi che corrispondono a questo schema.",
+      "attributes": "Attributi HTML supportati:",
+      "labelText": "l'etichetta del campo di input",
+      "buttonText": "il testo sui pulsanti e sui link",
+      "autocompleteNote": "eccetto {{values}}",
+      "valueNote": "solo per caselle di controllo, pulsanti di opzione e pulsanti",
+      "classNote": "Molti elementi possono condividere la stessa classe, quindi usateli con cautela.",
+      "caseNote": "Le lettere maiuscole e minuscole vengono trattate allo stesso modo. Per distinguerle, è necessario utilizzare un'espressione regolare.",
+      "allMatchesNote": "Questo passaggio viene eseguito su ogni elemento trovato. Gli elementi nascosti vengono ignorati quando viene trovato un elemento visibile."
     },
     "value": {
       "plainText": "Testo semplice",

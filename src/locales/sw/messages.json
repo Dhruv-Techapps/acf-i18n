@@ -275,6 +275,9 @@
   "@REPAIR__UNDONE": {
     "message": "Mabadiliko yamefutwa"
   },
+  "@REPAIR__PICK_FAILED": {
+    "message": "Kipengele hicho hakiwezi kutumika kwa hatua hii. Chagua kingine."
+  },
   "@STATUS__WAITING_RELOAD": {
     "message": "Inasubiri kipengele, inapakia upya ukurasa"
   }

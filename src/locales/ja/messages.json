@@ -275,6 +275,9 @@
   "@REPAIR__UNDONE": {
     "message": "変更は元に戻されました"
   },
+  "@REPAIR__PICK_FAILED": {
+    "message": "その要素はこのステップでは使用できません。別の要素を選択してください。"
+  },
   "@STATUS__WAITING_RELOAD": {
     "message": "要素を待機中、ページを再読み込みします"
   }

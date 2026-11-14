@@ -624,7 +624,22 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Wyszukiwarka elementów",
-      "count": "Liczba elementów"
+      "count": "Liczba elementów",
+      "plainText": "Zwykły tekst",
+      "exactText": "Dokładny tekst",
+      "regex": "Wyrażenie regularne",
+      "newStepsNote": "Działa w nowo dodanych krokach. Kroki utworzone wcześniej odczytują cel jako XPath.",
+      "plainTextDesc": "Znajduje elementy zawierające ten tekst. Jeśli nie zostaną znalezione, tekst jest sprawdzany jako selektor CSS.",
+      "exactTextDesc": "Znajduje tylko elementy, których tekst jest dokładnie taki sam jak ten tekst.",
+      "regexDesc": "Znajduje elementy pasujące do tego wzorca.",
+      "attributes": "Obsługiwane atrybuty HTML:",
+      "labelText": "etykieta pola wejściowego",
+      "buttonText": "tekst na przyciskach i linkach",
+      "autocompleteNote": "z wyjątkiem {{values}}",
+      "valueNote": "tylko dla pól wyboru, przycisków radiowych i przycisków",
+      "classNote": "wiele elementów może dzielić tę samą klasę, dlatego należy używać ich ostrożnie",
+      "caseNote": "Wielkie i małe litery są traktowane tak samo. Użyj wyrażenia regularnego, aby je rozróżnić.",
+      "allMatchesNote": "Ten krok jest wykonywany dla każdego znalezionego elementu. Elementy ukryte są pomijane po znalezieniu widocznego elementu."
     },
     "value": {
       "plainText": "Zwykły tekst",

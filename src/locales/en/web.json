@@ -624,7 +624,22 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Element Finder",
-      "count": "# of elements"
+      "count": "# of elements",
+      "plainText": "Plain text",
+      "exactText": "Exact text",
+      "regex": "Regular expression",
+      "newStepsNote": "Works in newly added steps. Steps created earlier read the target as an XPath.",
+      "plainTextDesc": "Finds elements that contain this text. If none are found, the text is tried as a CSS selector.",
+      "exactTextDesc": "Finds only elements whose text is exactly the same as this text.",
+      "regexDesc": "Finds elements that match this pattern.",
+      "attributes": "Supported HTML attributes:",
+      "labelText": "the label of the input field",
+      "buttonText": "the text on buttons and links",
+      "autocompleteNote": "except {{values}}",
+      "valueNote": "only for checkboxes, radio buttons and buttons",
+      "classNote": "many elements can share the same class, so use with care",
+      "caseNote": "Capital and small letters are treated as the same. Use a regular expression to tell them apart.",
+      "allMatchesNote": "The step runs on every element that is found. Hidden elements are skipped when a visible element is found."
     },
     "value": {
       "plainText": "Plain text",

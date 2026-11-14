@@ -275,6 +275,9 @@
   "@REPAIR__UNDONE": {
     "message": "La modifica è stata annullata"
   },
+  "@REPAIR__PICK_FAILED": {
+    "message": "Questo elemento non può essere utilizzato per questo passaggio. Selezionane un altro."
+  },
   "@STATUS__WAITING_RELOAD": {
     "message": "In attesa dell'elemento, ricaricamento della pagina"
   }

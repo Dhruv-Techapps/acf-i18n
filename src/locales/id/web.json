@@ -624,7 +624,22 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Pencari Elemen",
-      "count": "jumlah elemen"
+      "count": "jumlah elemen",
+      "plainText": "Teks biasa",
+      "exactText": "Teks persis",
+      "regex": "Ekspresi reguler",
+      "newStepsNote": "Berfungsi pada langkah-langkah yang baru ditambahkan. Langkah-langkah yang dibuat sebelumnya membaca target sebagai XPath.",
+      "plainTextDesc": "Mencari elemen yang berisi teks ini. Jika tidak ditemukan, teks tersebut dicoba sebagai selektor CSS.",
+      "exactTextDesc": "Hanya menemukan elemen yang teksnya persis sama dengan teks ini.",
+      "regexDesc": "Menemukan elemen yang sesuai dengan pola ini.",
+      "attributes": "Atribut HTML yang didukung:",
+      "labelText": "label kolom input",
+      "buttonText": "teks pada tombol dan tautan",
+      "autocompleteNote": "kecuali {{values}}",
+      "valueNote": "hanya untuk kotak centang, tombol radio, dan tombol",
+      "classNote": "Banyak elemen dapat memiliki kelas yang sama, jadi gunakan dengan hati-hati.",
+      "caseNote": "Huruf kapital dan huruf kecil diperlakukan sama. Gunakan ekspresi reguler untuk membedakannya.",
+      "allMatchesNote": "Langkah ini dijalankan pada setiap elemen yang ditemukan. Elemen tersembunyi akan dilewati ketika elemen yang terlihat ditemukan."
     },
     "value": {
       "plainText": "Teks biasa",

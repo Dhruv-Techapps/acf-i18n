@@ -93,7 +93,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "zh-tw": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -188,7 +189,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "fr": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -283,7 +285,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "ko": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -378,7 +381,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "sv": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -473,7 +477,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "pt": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -568,7 +573,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "ja": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -663,7 +669,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "nl": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -758,7 +765,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "de": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -853,7 +861,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "es": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -948,7 +957,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "vi": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1043,7 +1053,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "fi": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1138,7 +1149,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "ar": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1233,7 +1245,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "it": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1328,7 +1341,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "ru": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1423,7 +1437,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "id": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1518,7 +1533,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "hi": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1613,7 +1629,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "bg": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1708,7 +1725,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "pl": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1803,7 +1821,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "th": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1898,7 +1917,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "sw": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1993,7 +2013,8 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   },
   "fil": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -2088,6 +2109,7 @@
     "@REPAIR__SAVED.message": "Selector updated",
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
-    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page"
+    "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
   }
 }
