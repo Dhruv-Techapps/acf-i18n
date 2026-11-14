@@ -625,7 +625,7 @@
       "getElementBy": "getElementBy",
       "elementFinder": "तत्व खोजक",
       "count": "तत्वों की संख्या",
-      "plainText": "सादे पाठ",
+      "plainText": "सादा पाठ",
       "exactText": "सटीक पाठ",
       "regex": "नियमित अभिव्यक्ति",
       "newStepsNote": "यह नए जोड़े गए चरणों में काम करता है। पहले से बनाए गए चरण लक्ष्य को XPath के रूप में पढ़ते हैं।"

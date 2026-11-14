@@ -628,7 +628,7 @@
       "plainText": "Testo semplice",
       "exactText": "Testo esatto",
       "regex": "Espressione regolare",
-      "newStepsNote": "Funziona nei passaggi aggiunti di recente. I passaggi creati in precedenza leggevano la destinazione come un XPath."
+      "newStepsNote": "Funziona nei passaggi aggiunti di recente. I passaggi creati in precedenza leggono la destinazione come un XPath."
     },
     "value": {
       "plainText": "Testo semplice",
