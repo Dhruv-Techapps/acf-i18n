@@ -45,7 +45,10 @@
     "message": "⌖ Configure by Position"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Side Panel / ☉ Recording"
+    "message": "▤ Automations"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Recording"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Ask AI"
