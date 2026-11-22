@@ -125,6 +125,9 @@
   "@SIDE_PANEL__CONTINUE_RECORDING": {
     "message": "녹화 계속하기"
   },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "제거 단계"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ 설정 페이지 열기"
   },

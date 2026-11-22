@@ -125,6 +125,9 @@
   "@SIDE_PANEL__CONTINUE_RECORDING": {
     "message": "Lanjutkan Perekaman"
   },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Hapus langkah"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Buka Halaman Konfigurasi"
   },

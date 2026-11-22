@@ -125,6 +125,9 @@
   "@SIDE_PANEL__CONTINUE_RECORDING": {
     "message": "Continua la registrazione"
   },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Rimuovere il passaggio"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Apri la pagina di configurazione"
   },

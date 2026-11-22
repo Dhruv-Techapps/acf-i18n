@@ -125,6 +125,9 @@
   "@SIDE_PANEL__CONTINUE_RECORDING": {
     "message": "रिकॉर्डिंग जारी रखें"
   },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "चरण हटाएँ"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ कॉन्फ़िगरेशन पृष्ठ खोलें"
   },

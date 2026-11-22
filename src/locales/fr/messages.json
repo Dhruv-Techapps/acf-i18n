@@ -125,6 +125,9 @@
   "@SIDE_PANEL__CONTINUE_RECORDING": {
     "message": "Poursuivre l'enregistrement"
   },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Supprimer l'étape"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Ouvrir la page de configuration"
   },

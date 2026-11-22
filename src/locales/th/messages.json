@@ -125,6 +125,9 @@
   "@SIDE_PANEL__CONTINUE_RECORDING": {
     "message": "บันทึกต่อ"
   },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "ลบขั้นตอน"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ เปิดหน้าการตั้งค่า"
   },

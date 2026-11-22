@@ -125,6 +125,9 @@
   "@SIDE_PANEL__CONTINUE_RECORDING": {
     "message": "繼續錄製"
   },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "移除步驟"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ 開啟設定頁面"
   },

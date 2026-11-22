@@ -125,6 +125,9 @@
   "@SIDE_PANEL__CONTINUE_RECORDING": {
     "message": "Continuar grabando"
   },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Eliminar paso"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Abrir página de configuración"
   },

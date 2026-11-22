@@ -125,6 +125,9 @@
   "@SIDE_PANEL__CONTINUE_RECORDING": {
     "message": "Ipagpatuloy ang Pagre-record"
   },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Alisin ang hakbang"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Buksan ang Pahina ng Pag-configure"
   },

@@ -125,6 +125,9 @@
   "@SIDE_PANEL__CONTINUE_RECORDING": {
     "message": "استمر في التسجيل"
   },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "خطوة الإزالة"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ فتح صفحة الإعدادات"
   },

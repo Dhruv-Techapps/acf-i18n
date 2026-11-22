@@ -96,7 +96,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "zh-tw": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -194,7 +195,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "fr": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -292,7 +294,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "ko": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -390,7 +393,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "sv": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -488,7 +492,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "pt": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -586,7 +591,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "ja": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -684,7 +690,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "nl": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -782,7 +789,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "de": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -880,7 +888,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "es": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -978,7 +987,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "vi": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1076,7 +1086,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "fi": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1174,7 +1185,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "ar": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1272,7 +1284,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "it": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1370,7 +1383,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "ru": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1468,7 +1482,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "id": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1566,7 +1581,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "hi": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1664,7 +1680,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "bg": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1762,7 +1779,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "pl": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1860,7 +1878,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "th": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1958,7 +1977,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "sw": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -2056,7 +2076,8 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   },
   "fil": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -2154,6 +2175,7 @@
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
     "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
     "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
-    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording",
+    "@SIDE_PANEL__REMOVE_STEP.message": "Remove step"
   }
 }

@@ -125,6 +125,9 @@
   "@SIDE_PANEL__CONTINUE_RECORDING": {
     "message": "Aufnahme fortsetzen"
   },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Schritt entfernen"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Konfigurationsseite öffnen"
   },
