@@ -119,6 +119,9 @@
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Edit Automation"
   },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Continue Recording"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Open Configuration Page"
   },
