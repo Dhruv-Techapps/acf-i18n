@@ -45,7 +45,10 @@
     "message": "⌖ Konfiguruj według pozycji"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Panel boczny / ☉ Nagrywanie"
+    "message": "▤ Automatyzacje"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Nagrywanie"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Zapytaj AI"
@@ -118,6 +121,9 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Edytuj automatyzację"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Kontynuuj nagrywanie"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Otwórz stronę konfiguracji"

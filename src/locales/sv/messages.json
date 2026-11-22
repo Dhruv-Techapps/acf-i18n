@@ -45,7 +45,10 @@
     "message": "⌖ Konfigurera efter position"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Sidopanel / ☉ Inspelning"
+    "message": "▤ Automatiseringar"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Inspelning"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Fråga AI"
@@ -118,6 +121,9 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Redigera automatisering"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Fortsätt inspelningen"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Öppna konfigurationssidan"

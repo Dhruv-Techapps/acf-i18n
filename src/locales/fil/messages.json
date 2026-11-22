@@ -45,7 +45,10 @@
     "message": "⌖ I-configure ayon sa Posisyon"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Panel sa Gilid / ☉ Pagre-record"
+    "message": "▤ Mga Awtomasyon"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Pagre-record"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Magtanong sa AI"
@@ -118,6 +121,9 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Pag-edit ng Awtomasyon"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Ipagpatuloy ang Pagre-record"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Buksan ang Pahina ng Pag-configure"

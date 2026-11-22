@@ -45,7 +45,10 @@
     "message": "⌖ Настройка по положению"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Боковая панель / ☉ Запись"
+    "message": "▤ Автоматизация"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Запись"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Спросите ИИ"
@@ -118,6 +121,9 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Редактировать автоматизацию"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Продолжить запись"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Открыть страницу настроек"

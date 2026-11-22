@@ -45,7 +45,10 @@
     "message": "⌖ Nach Position konfigurieren"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Seitenleiste / ☉ Aufnahme"
+    "message": "▤ Automatisierungen"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Aufnahme"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Frag die KI"
@@ -118,6 +121,9 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Automatisierung bearbeiten"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Aufnahme fortsetzen"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Konfigurationsseite öffnen"

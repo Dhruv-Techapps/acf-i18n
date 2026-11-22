@@ -16,7 +16,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -94,7 +94,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "zh-tw": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -112,7 +114,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -190,7 +192,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "fr": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -208,7 +212,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -286,7 +290,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "ko": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -304,7 +310,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -382,7 +388,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "sv": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -400,7 +408,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -478,7 +486,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "pt": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -496,7 +506,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -574,7 +584,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "ja": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -592,7 +604,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -670,7 +682,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "nl": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -688,7 +702,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -766,7 +780,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "de": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -784,7 +800,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -862,7 +878,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "es": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -880,7 +898,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -958,7 +976,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "vi": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -976,7 +996,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -1054,7 +1074,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "fi": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1072,7 +1094,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -1150,7 +1172,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "ar": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1168,7 +1192,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -1246,7 +1270,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "it": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1264,7 +1290,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -1342,7 +1368,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "ru": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1360,7 +1388,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -1438,7 +1466,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "id": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1456,7 +1486,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -1534,7 +1564,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "hi": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1552,7 +1584,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -1630,7 +1662,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "bg": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1648,7 +1682,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -1726,7 +1760,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "pl": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1744,7 +1780,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -1822,7 +1858,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "th": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1840,7 +1878,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -1918,7 +1956,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "sw": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -1936,7 +1976,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -2014,7 +2054,9 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   },
   "fil": {
     "EXT_NAME.message": "Auto Clicker - AutoFill",
@@ -2032,7 +2074,7 @@
     "@PORT__METHOD_NOT_FOUND.message": "process method is not found",
     "@CONTEXT_MENU__FIELD.message": "⊕ Configure for this Field",
     "@CONTEXT_MENU__FIELD_POSITION.message": "⌖ Configure by Position",
-    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Side Panel / ☉ Recording",
+    "@CONTEXT_MENU__SIDE_PANEL.message": "▤ Automations",
     "@CONTEXT_MENU__ASK_AI.message": "✨ Ask AI",
     "@SIDE_PANEL__AUTOMATIONS_TAB.message": "Automations",
     "@SIDE_PANEL__RECORDING_TAB.message": "Recording",
@@ -2110,6 +2152,8 @@
     "@REPAIR__SKIP_SAVED.message": "This step will be skipped when its element is not found",
     "@REPAIR__UNDONE.message": "The change has been undone",
     "@STATUS__WAITING_RELOAD.message": "Waiting for the element, reloading the page",
-    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one."
+    "@REPAIR__PICK_FAILED.message": "That element can't be used for this step. Select another one.",
+    "@CONTEXT_MENU__RECORDING.message": "☉ Recording",
+    "@SIDE_PANEL__CONTINUE_RECORDING.message": "Continue Recording"
   }
 }

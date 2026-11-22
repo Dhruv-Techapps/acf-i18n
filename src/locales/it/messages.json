@@ -45,7 +45,10 @@
     "message": "⌖ Configura per posizione"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Pannello laterale / ☉ Registrazione"
+    "message": "▤ Automazioni"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Registrazione"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Chiedi all'IA"
@@ -118,6 +121,9 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Automazione di modifica"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Continua la registrazione"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Apri la pagina di configurazione"

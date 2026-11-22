@@ -45,7 +45,10 @@
     "message": "⌖ Sanidi kwa Nafasi"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Paneli ya Upande / ☉ Kurekodi"
+    "message": "▤ Otomatiki"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Kurekodi"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Uliza AI"
@@ -118,6 +121,9 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Hariri Otomatiki"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Endelea Kurekodi"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Fungua Ukurasa wa Usanidi"

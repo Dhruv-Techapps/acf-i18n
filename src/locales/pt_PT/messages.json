@@ -45,7 +45,10 @@
     "message": "⌖ Configurar por posição"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Painel lateral / ☉ Gravação"
+    "message": "▤ Automações"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Gravação"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Pergunte à IA"
@@ -118,6 +121,9 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Editar Automação"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Continuar a gravação"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Abrir página de configuração"

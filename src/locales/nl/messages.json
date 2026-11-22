@@ -45,7 +45,10 @@
     "message": "⌖ Configureren op positie"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Zijpaneel / ☉ Opnemen"
+    "message": "▤ Automatiseringen"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Opname"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Vraag het aan AI"
@@ -118,6 +121,9 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Automatisering bewerken"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Doorgaan met opnemen"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Configuratiepagina openen"

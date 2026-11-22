@@ -45,7 +45,10 @@
     "message": "⌖ Конфигуриране по позиция"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Страничен панел / ☉ Запис"
+    "message": "▤ Автоматизации"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Запис"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Попитайте ИИ"
@@ -118,6 +121,9 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Редактиране на автоматизация"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Продължи записа"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Отворете страницата с конфигурацията"

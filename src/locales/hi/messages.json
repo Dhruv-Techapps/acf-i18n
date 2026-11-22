@@ -45,7 +45,10 @@
     "message": "⌖ स्थिति के अनुसार कॉन्फ़िगर करें"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ साइड पैनल / ☉ रिकॉर्डिंग"
+    "message": "▤ स्वचालन"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ रिकॉर्डिंग"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ एआई से पूछें"
@@ -118,6 +121,9 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "संपादन स्वचालन"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "रिकॉर्डिंग जारी रखें"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ कॉन्फ़िगरेशन पृष्ठ खोलें"

@@ -45,7 +45,10 @@
     "message": "⌖ التكوين حسب الموضع"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ اللوحة الجانبية / ☉ التسجيل"
+    "message": "▤ الأتمتة"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ التسجيل"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ اسأل الذكاء الاصطناعي"
@@ -118,6 +121,9 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "أتمتة التحرير"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "استمر في التسجيل"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ فتح صفحة الإعدادات"

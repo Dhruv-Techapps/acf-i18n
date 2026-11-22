@@ -45,7 +45,10 @@
     "message": "⌖ Määritä sijainnin mukaan"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Sivupaneeli / ☉ Tallennus"
+    "message": "▤ Automaatiot"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Äänitys"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Kysy tekoälältä"
@@ -118,6 +121,9 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Muokkaa automatisointia"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Jatka tallennusta"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Avaa asetussivu"
