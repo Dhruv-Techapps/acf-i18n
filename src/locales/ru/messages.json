@@ -128,6 +128,9 @@
   "@SIDE_PANEL__REMOVE_STEP": {
     "message": "Удалить шаг"
   },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "Запись на этой странице недоступна."
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Открыть страницу настроек"
   },

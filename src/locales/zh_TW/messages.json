@@ -128,6 +128,9 @@
   "@SIDE_PANEL__REMOVE_STEP": {
     "message": "移除步驟"
   },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "本頁面不提供錄音。"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ 開啟設定頁面"
   },

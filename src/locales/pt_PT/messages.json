@@ -128,6 +128,9 @@
   "@SIDE_PANEL__REMOVE_STEP": {
     "message": "Remover etapa"
   },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "A gravação não está disponível nesta página."
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Abrir página de configuração"
   },

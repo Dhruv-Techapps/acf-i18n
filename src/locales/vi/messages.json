@@ -128,6 +128,9 @@
   "@SIDE_PANEL__REMOVE_STEP": {
     "message": "Xóa bước"
   },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "Bản ghi âm không có sẵn trên trang này."
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Mở trang cấu hình"
   },

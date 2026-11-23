@@ -128,6 +128,9 @@
   "@SIDE_PANEL__REMOVE_STEP": {
     "message": "Verwijder stap"
   },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "Op deze pagina is geen opname beschikbaar."
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Configuratiepagina openen"
   },

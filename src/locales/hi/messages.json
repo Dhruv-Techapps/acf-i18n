@@ -128,6 +128,9 @@
   "@SIDE_PANEL__REMOVE_STEP": {
     "message": "चरण हटाएँ"
   },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "इस पेज पर रिकॉर्डिंग उपलब्ध नहीं है।"
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ कॉन्फ़िगरेशन पृष्ठ खोलें"
   },
