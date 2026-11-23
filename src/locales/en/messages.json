@@ -128,6 +128,9 @@
   "@SIDE_PANEL__REMOVE_STEP": {
     "message": "Remove step"
   },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "Recording isn't available on this page."
+  },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Open Configuration Page"
   },
