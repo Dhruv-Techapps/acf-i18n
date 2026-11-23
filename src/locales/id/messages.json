@@ -45,7 +45,10 @@
     "message": "⌖ Konfigurasi berdasarkan Posisi"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Panel Samping / ☉ Perekaman"
+    "message": "▤ Otomatisasi"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Rekaman"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Tanya AI"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Edit Otomatisasi"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Lanjutkan Perekaman"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Hapus langkah"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "Rekaman tidak tersedia di halaman ini."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Buka Halaman Konfigurasi"

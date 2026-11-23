@@ -45,7 +45,10 @@
     "message": "⌖ 按位置配置"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ 侧面板 / ☉ 录制"
+    "message": "▤ 自动化"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ 录音"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ 问问人工智能"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "编辑自动化"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "继续录制"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "移除步骤"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "本页面不提供录音。"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ 打开配置页面"

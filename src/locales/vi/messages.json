@@ -45,7 +45,10 @@
     "message": "⌖ Cấu hình theo vị trí"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Bảng điều khiển bên / ☉ Ghi âm"
+    "message": "▤ Tự động hóa"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Ghi âm"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Hỏi AI"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Tự động chỉnh sửa"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Tiếp tục ghi âm"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Xóa bước"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "Bản ghi âm không có sẵn trên trang này."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Mở trang cấu hình"

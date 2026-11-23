@@ -45,7 +45,10 @@
     "message": "⌖ Configure by Position"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Side Panel / ☉ Recording"
+    "message": "▤ Automations"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Recording"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Ask AI"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Edit Automation"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Continue Recording"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Remove step"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "Recording isn't available on this page."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Open Configuration Page"

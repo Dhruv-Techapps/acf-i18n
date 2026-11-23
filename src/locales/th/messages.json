@@ -45,7 +45,10 @@
     "message": "⌖ กำหนดค่าตามตำแหน่ง"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ แผงด้านข้าง / ☉ การบันทึก"
+    "message": "▤ ระบบอัตโนมัติ"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ การบันทึก"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ ถาม AI"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "แก้ไขอัตโนมัติ"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "บันทึกต่อ"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "ลบขั้นตอน"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "ไม่สามารถบันทึกวิดีโอได้ในหน้านี้"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ เปิดหน้าการตั้งค่า"

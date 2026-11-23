@@ -45,7 +45,10 @@
     "message": "⌖ 按位置配置"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ 側面板 / ☉ 錄製"
+    "message": "▤ 自動化"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ 錄音"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ 問問人工智慧"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "編輯自動化"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "繼續錄製"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "移除步驟"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "本頁面不提供錄音。"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ 開啟設定頁面"

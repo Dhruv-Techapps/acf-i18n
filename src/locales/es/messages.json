@@ -45,7 +45,10 @@
     "message": "⌖ Configurar por posición"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Panel lateral / ☉ Grabación"
+    "message": "▤ Automatizaciones"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Grabación"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Pregúntale a la IA"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Automatización de edición"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Continuar grabando"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Eliminar paso"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "La grabación no está disponible en esta página."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Abrir página de configuración"

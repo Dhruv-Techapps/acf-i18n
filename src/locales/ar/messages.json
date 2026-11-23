@@ -45,7 +45,10 @@
     "message": "⌖ التكوين حسب الموضع"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ اللوحة الجانبية / ☉ التسجيل"
+    "message": "▤ الأتمتة"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ التسجيل"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ اسأل الذكاء الاصطناعي"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "أتمتة التحرير"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "استمر في التسجيل"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "خطوة الإزالة"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "التسجيل غير متاح في هذه الصفحة."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ فتح صفحة الإعدادات"

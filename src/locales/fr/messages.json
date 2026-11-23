@@ -45,7 +45,10 @@
     "message": "⌖ Configurer par position"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Panneau latéral / ☉ Enregistrement"
+    "message": "▤ Automatisations"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Enregistrement"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Demandez à l'IA"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Automatisation de la modification"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Poursuivre l'enregistrement"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Supprimer l'étape"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "L'enregistrement n'est pas disponible sur cette page."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Ouvrir la page de configuration"
