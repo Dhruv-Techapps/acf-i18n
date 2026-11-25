@@ -45,7 +45,10 @@
     "message": "⌖ स्थिति के अनुसार कॉन्फ़िगर करें"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ साइड पैनल / ☉ रिकॉर्डिंग"
+    "message": "▤ स्वचालन"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ रिकॉर्डिंग"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ एआई से पूछें"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "संपादन स्वचालन"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "रिकॉर्डिंग जारी रखें"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "चरण हटाएँ"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "इस पेज पर रिकॉर्डिंग उपलब्ध नहीं है।"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ कॉन्फ़िगरेशन पृष्ठ खोलें"
@@ -244,5 +256,41 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "$2 फ़ीचर का उपयोग करने के लिए आपके पास $1 की सदस्यता होनी चाहिए।"
+  },
+  "@REPAIR__REPICK": {
+    "message": "तत्व को पुनः चुनें"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "इस चरण को ठीक करने के लिए इस पृष्ठ पर सही तत्व पर क्लिक करें।"
+  },
+  "@REPAIR__SKIP": {
+    "message": "इस पृष्ठ पर नहीं"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "यदि इसका कोई तत्व अनुपस्थित हो तो इस चरण को छोड़ दें।"
+  },
+  "@REPAIR__UNDO": {
+    "message": "परिवर्तन को पूर्ववत करें"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "इस चरण में किए गए परिवर्तन को वापस लें"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "इस चरण के लिए एलिमेंट पर क्लिक करें · रद्द करने के लिए Esc दबाएँ"
+  },
+  "@REPAIR__SAVED": {
+    "message": "चयनकर्ता अपडेट किया गया"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "जब इसका तत्व नहीं मिलेगा तो यह चरण छोड़ दिया जाएगा।"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "यह बदलाव उलट दिया गया है।"
+  },
+  "@REPAIR__PICK_FAILED": {
+    "message": "इस चरण के लिए उस तत्व का उपयोग नहीं किया जा सकता है। कोई दूसरा तत्व चुनें।"
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "एलिमेंट का इंतज़ार हो रहा है, पेज रीलोड हो रहा है"
   }
 }

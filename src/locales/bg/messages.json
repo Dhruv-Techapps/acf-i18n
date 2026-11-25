@@ -45,7 +45,10 @@
     "message": "⌖ Конфигуриране по позиция"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Страничен панел / ☉ Запис"
+    "message": "▤ Автоматизации"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Запис"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Попитайте ИИ"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Редактиране на автоматизация"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Продължи записа"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Премахване на стъпка"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "Записът не е наличен на тази страница."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Отворете страницата с конфигурацията"
@@ -244,5 +256,41 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Трябва да имате абонамент за $1, за да получите достъп до функцията $2."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Изберете елемент отново"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Кликнете върху правилния елемент на тази страница, за да коригирате тази стъпка"
+  },
+  "@REPAIR__SKIP": {
+    "message": "Не е на тази страница"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Пропуснете тази стъпка, когато липсва елементът ѝ"
+  },
+  "@REPAIR__UNDO": {
+    "message": "Отмяна на промяната"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Отменете промяната, направена в тази стъпка"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Щракнете върху елемента за тази стъпка · Esc за отмяна"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Селекторът е актуализиран"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Тази стъпка ще бъде пропусната, когато нейният елемент не бъде намерен"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "Промяната е отменена"
+  },
+  "@REPAIR__PICK_FAILED": {
+    "message": "Този елемент не може да се използва за тази стъпка. Изберете друг."
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Чакане на елемента, презареждане на страницата"
   }
 }

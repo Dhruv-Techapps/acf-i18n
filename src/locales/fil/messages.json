@@ -45,7 +45,10 @@
     "message": "⌖ I-configure ayon sa Posisyon"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Panel sa Gilid / ☉ Pagre-record"
+    "message": "▤ Mga Awtomasyon"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Pagre-record"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Magtanong sa AI"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Pag-edit ng Awtomasyon"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Ipagpatuloy ang Pagre-record"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Alisin ang hakbang"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "Hindi available ang pagre-record sa pahinang ito."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Buksan ang Pahina ng Pag-configure"
@@ -244,5 +256,41 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Kailangan mo ng subscription sa $1 para ma-access ang feature na $2."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Piliin muli ang elemento"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "I-click ang tamang elemento sa pahinang ito upang ayusin ang hakbang na ito"
+  },
+  "@REPAIR__SKIP": {
+    "message": "Wala sa pahinang ito"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Laktawan ang hakbang na ito kapag nawawala ang elemento nito"
+  },
+  "@REPAIR__UNDO": {
+    "message": "I-undo ang pagbabago"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Baliktarin ang pagbabagong ginawa sa hakbang na ito"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "I-click ang elemento para sa hakbang na ito · Esc para kanselahin"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Na-update ang tagapili"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Lalaktawan ang hakbang na ito kapag hindi natagpuan ang elemento nito"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "Nabawi na ang pagbabago"
+  },
+  "@REPAIR__PICK_FAILED": {
+    "message": "Hindi magagamit ang elementong iyan para sa hakbang na ito. Pumili ng iba."
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Naghihintay para sa elemento, nire-reload ang pahina"
   }
 }

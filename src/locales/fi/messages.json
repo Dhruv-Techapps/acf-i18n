@@ -45,7 +45,10 @@
     "message": "⌖ Määritä sijainnin mukaan"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Sivupaneeli / ☉ Tallennus"
+    "message": "▤ Automaatiot"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Äänitys"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Kysy tekoälältä"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Muokkaa automatisointia"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Jatka tallennusta"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Poista vaihe"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "Tallennus ei ole saatavilla tällä sivulla."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Avaa asetussivu"
@@ -244,5 +256,41 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Tarvitset $1-tilauksen käyttääksesi $2-ominaisuutta."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Valitse elementti uudelleen"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Korjaa tämä vaihe napsauttamalla oikeaa elementtiä tällä sivulla"
+  },
+  "@REPAIR__SKIP": {
+    "message": "Ei tällä sivulla"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Ohita tämä vaihe aina, kun sen elementti puuttuu"
+  },
+  "@REPAIR__UNDO": {
+    "message": "Kumoa muutos"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Peruuta tähän vaiheeseen tehty muutos"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Napsauta tämän vaiheen elementtiä · Peruuta painamalla Esc"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Valitsin päivitetty"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Tämä vaihe ohitetaan, jos sen elementtiä ei löydy"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "Muutos on peruttu"
+  },
+  "@REPAIR__PICK_FAILED": {
+    "message": "Tätä elementtiä ei voida käyttää tässä vaiheessa. Valitse toinen."
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Odotetaan elementtiä, sivua ladataan uudelleen"
   }
 }

@@ -45,7 +45,10 @@
     "message": "⌖ Konfigurera efter position"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Sidopanel / ☉ Inspelning"
+    "message": "▤ Automatiseringar"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Inspelning"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Fråga AI"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Redigera automatisering"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Fortsätt inspelningen"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Ta bort steg"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "Inspelning är inte tillgänglig på den här sidan."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Öppna konfigurationssidan"
@@ -244,5 +256,41 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Du behöver en $1-prenumeration för att få tillgång till $2-funktionen."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Välj element igen"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Klicka på rätt element på den här sidan för att åtgärda det här steget"
+  },
+  "@REPAIR__SKIP": {
+    "message": "Inte på den här sidan"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Hoppa över det här steget när dess element saknas"
+  },
+  "@REPAIR__UNDO": {
+    "message": "Ångra ändring"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Återställ ändringen som gjorts i det här steget"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Klicka på elementet för det här steget · Esc för att avbryta"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Väljaren uppdaterad"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Det här steget hoppas över om dess element inte hittas"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "Ändringen har ångrats"
+  },
+  "@REPAIR__PICK_FAILED": {
+    "message": "Det elementet kan inte användas för det här steget. Välj ett annat."
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Väntar på elementet, laddar om sidan"
   }
 }

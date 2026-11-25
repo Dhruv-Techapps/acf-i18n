@@ -45,7 +45,10 @@
     "message": "⌖ Sanidi kwa Nafasi"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Paneli ya Upande / ☉ Kurekodi"
+    "message": "▤ Otomatiki"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Kurekodi"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Uliza AI"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Hariri Otomatiki"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Endelea Kurekodi"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Ondoa hatua"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "Kurekodi hakupatikani kwenye ukurasa huu."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Fungua Ukurasa wa Usanidi"
@@ -244,5 +256,41 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Unahitaji kuwa na usajili wa $1 ili kufikia kipengele cha $2."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Chagua kipengele tena"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Bofya kipengele sahihi kwenye ukurasa huu ili kurekebisha hatua hii"
+  },
+  "@REPAIR__SKIP": {
+    "message": "Sio kwenye ukurasa huu"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Ruka hatua hii wakati wowote kipengele chake kinapokosekana"
+  },
+  "@REPAIR__UNDO": {
+    "message": "Tendua mabadiliko"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Badilisha mabadiliko yaliyofanywa kwa hatua hii"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Bofya kipengele cha hatua hii · Esc ili kughairi"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Kiteuzi kimesasishwa"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Hatua hii itarukwa wakati kipengele chake hakitapatikana"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "Mabadiliko yamefutwa"
+  },
+  "@REPAIR__PICK_FAILED": {
+    "message": "Kipengele hicho hakiwezi kutumika kwa hatua hii. Chagua kingine."
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Inasubiri kipengele, inapakia upya ukurasa"
   }
 }

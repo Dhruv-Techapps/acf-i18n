@@ -45,7 +45,10 @@
     "message": "⌖ 按位置配置"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ 侧面板 / ☉ 录制"
+    "message": "▤ 自动化"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ 录音"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ 问问人工智能"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "编辑自动化"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "继续录制"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "移除步骤"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "本页面不提供录音。"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ 打开配置页面"
@@ -244,5 +256,41 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "您需要订阅 $1 才能使用 $2 功能。"
+  },
+  "@REPAIR__REPICK": {
+    "message": "再次选择元素"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "点击此页面上的正确元素以完成此步骤"
+  },
+  "@REPAIR__SKIP": {
+    "message": "本页未显示"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "如果缺少此步骤的元素，则跳过此步骤。"
+  },
+  "@REPAIR__UNDO": {
+    "message": "撤销更改"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "撤销此步骤所做的更改"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "点击此步骤的元素 · 按 Esc 键取消"
+  },
+  "@REPAIR__SAVED": {
+    "message": "选择器已更新"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "如果找不到该元素，则跳过此步骤。"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "这一改变已被撤销。"
+  },
+  "@REPAIR__PICK_FAILED": {
+    "message": "该元素不能用于此步骤。请选择其他元素。"
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "正在等待元素加载，重新加载页面"
   }
 }

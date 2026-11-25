@@ -45,7 +45,10 @@
     "message": "⌖ Konfigurasi berdasarkan Posisi"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Panel Samping / ☉ Perekaman"
+    "message": "▤ Otomatisasi"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Rekaman"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Tanya AI"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Edit Otomatisasi"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Lanjutkan Perekaman"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Hapus langkah"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "Rekaman tidak tersedia di halaman ini."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Buka Halaman Konfigurasi"
@@ -244,5 +256,41 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Anda perlu memiliki langganan $1 untuk mengakses fitur $2."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Pilih elemen lagi"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Klik elemen yang tepat di halaman ini untuk memperbaiki langkah ini."
+  },
+  "@REPAIR__SKIP": {
+    "message": "Tidak ada di halaman ini"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Lewati langkah ini jika elemennya hilang."
+  },
+  "@REPAIR__UNDO": {
+    "message": "Batalkan perubahan"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Batalkan perubahan yang dilakukan pada langkah ini"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Klik elemen untuk langkah ini · Tekan Esc untuk membatalkan"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Pemilih diperbarui"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Langkah ini akan dilewati jika elemennya tidak ditemukan."
+  },
+  "@REPAIR__UNDONE": {
+    "message": "Perubahan tersebut telah dibatalkan."
+  },
+  "@REPAIR__PICK_FAILED": {
+    "message": "Elemen tersebut tidak dapat digunakan untuk langkah ini. Pilih elemen lain."
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Menunggu elemen, memuat ulang halaman"
   }
 }

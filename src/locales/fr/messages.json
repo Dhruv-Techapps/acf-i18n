@@ -45,7 +45,10 @@
     "message": "⌖ Configurer par position"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Panneau latéral / ☉ Enregistrement"
+    "message": "▤ Automatisations"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Enregistrement"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Demandez à l'IA"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Automatisation de la modification"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Poursuivre l'enregistrement"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Supprimer l'étape"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "L'enregistrement n'est pas disponible sur cette page."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Ouvrir la page de configuration"
@@ -244,5 +256,41 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Vous devez disposer d'un abonnement $1 pour accéder à la fonctionnalité $2."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Sélectionnez à nouveau l'élément"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Cliquez sur l'élément approprié sur cette page pour corriger cette étape."
+  },
+  "@REPAIR__SKIP": {
+    "message": "Pas sur cette page"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Ignorez cette étape si l'élément correspondant est manquant."
+  },
+  "@REPAIR__UNDO": {
+    "message": "Annuler la modification"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Annuler la modification apportée à cette étape"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Cliquez sur l'élément correspondant à cette étape · Appuyez sur Échap pour annuler"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Sélecteur mis à jour"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Cette étape sera ignorée si l'élément recherché est introuvable."
+  },
+  "@REPAIR__UNDONE": {
+    "message": "La modification a été annulée."
+  },
+  "@REPAIR__PICK_FAILED": {
+    "message": "Cet élément ne peut pas être utilisé pour cette étape. Veuillez en sélectionner un autre."
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "En attente de l'élément, rechargement de la page"
   }
 }

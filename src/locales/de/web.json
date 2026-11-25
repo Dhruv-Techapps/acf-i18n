@@ -64,7 +64,7 @@
   },
   "discord": {
     "title": "Benachrichtigung auf Discord",
-    "loginRequired": "Melde dich mit <1>Log in</1> in deinem Konto an, bevor du dich mit Discord verbindest."
+    "loginRequired": "<1>Melde dich in deinem Konto an</1>, bevor du dich mit Discord verbindest."
   },
   "checkIFrames": {
     "title": "Suche in eingebetteten Seiten",
@@ -110,7 +110,7 @@
     "weekly": "Wöchentlich",
     "monthly": "Monatlich",
     "off": "Aus",
-    "loginRequired": "Melden Sie sich mit <1>Login</1> in Ihrem Konto an, bevor Sie eine Verbindung zu Google Drive herstellen.",
+    "loginRequired": "<1>Melden Sie sich in Ihrem Konto an</1>, bevor Sie eine Verbindung zu Google Drive herstellen.",
     "checkingAccess": "Überprüfung des Google Drive-Zugriffs...",
     "connect": "Mit Google Drive verbinden",
     "connected": "Google Drive-Backup",
@@ -341,7 +341,7 @@
       "title": "Verwenden Sie stabile Versionen für Google Sheets-Funktionen.",
       "message": "Für optimale Ergebnisse verwenden Sie die stabile Version <1>Stable</1> der Google Tabellen-Funktionen. Stabile Versionen werden gründlich getestet, um eine zuverlässige Leistung zu gewährleisten und unerwartete Probleme zu vermeiden. Bei Fragen wenden Sie sich bitte an den Support."
     },
-    "loginRequired": "Melden Sie sich mit <1>Login</1> in Ihrem Konto an, bevor Sie eine Verbindung zu Google Sheets herstellen.",
+    "loginRequired": "<1>Melden Sie sich in Ihrem Konto an</1>, bevor Sie eine Verbindung zu Google Sheets herstellen.",
     "connect": "Mit Google Sheets verbinden",
     "connected": "Mit Google Sheets verbunden"
   },
@@ -485,7 +485,7 @@
     "title": "Automatisierungen erkunden",
     "search": "Suchautomatisierungen...",
     "loadMore": "Mehr laden",
-    "loginToExplore": "Melden Sie sich mit <1>Log in</1> an, um veröffentlichte Automatisierungen zu erkunden.",
+    "loginToExplore": "<1>Melden Sie sich an</1>, um veröffentlichte Automatisierungen zu entdecken.",
     "no-published": "Keine Automatisierungen gefunden. Sei der Erste, der eine veröffentlicht!",
     "downloads_zero": "Keine Downloads",
     "downloads_one": "1 Download",
@@ -595,7 +595,12 @@
       "body": "Schritt erfolgreich gespeichert!",
       "remove": "Schritt erfolgreich entfernt!",
       "reorder": "Schritte erfolgreich neu angeordnet!"
-    }
+    },
+    "finderWarning": {
+      "blank": "Dieser Schritt hat noch kein Ziel. Die Automatisierung wird hier beendet.",
+      "invalid": "Das Ziel dieses Schritts ist kein gültiger XPath oder Selektor. Die Automatisierung wird hier abgebrochen."
+    },
+    "noStepsWarning": "Diese Automatisierung hat keine Schritte, daher tut sie beim Ausführen nichts."
   },
   "userscript": {
     "add": "Benutzerskript hinzufügen",
@@ -619,7 +624,22 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "Elementfinder",
-      "count": "Anzahl der Elemente"
+      "count": "Anzahl der Elemente",
+      "plainText": "Klartext",
+      "exactText": "Genauer Text",
+      "regex": "Regulärer Ausdruck",
+      "newStepsNote": "Funktioniert in neu hinzugefügten Schritten. Zuvor erstellte Schritte lesen das Ziel als XPath.",
+      "plainTextDesc": "Sucht nach Elementen, die diesen Text enthalten. Falls keine gefunden werden, wird der Text als CSS-Selektor verwendet.",
+      "exactTextDesc": "Findet nur Elemente, deren Text exakt mit diesem Text übereinstimmt.",
+      "regexDesc": "Findet Elemente, die diesem Muster entsprechen.",
+      "attributes": "Unterstützte HTML-Attribute:",
+      "labelText": "die Bezeichnung des Eingabefelds",
+      "buttonText": "der Text auf Schaltflächen und Links",
+      "autocompleteNote": "außer {{values}}",
+      "valueNote": "nur für Kontrollkästchen, Optionsfelder und Schaltflächen",
+      "classNote": "Viele Elemente können derselben Klasse angehören, daher mit Vorsicht verwenden.",
+      "caseNote": "Groß- und Kleinbuchstaben werden gleich behandelt. Verwenden Sie einen regulären Ausdruck, um sie zu unterscheiden.",
+      "allMatchesNote": "Dieser Schritt wird für jedes gefundene Element ausgeführt. Versteckte Elemente werden übersprungen, sobald ein sichtbares Element gefunden wird."
     },
     "value": {
       "plainText": "Klartext",

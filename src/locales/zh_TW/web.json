@@ -595,7 +595,12 @@
       "body": "步驟保存成功！",
       "remove": "步驟已成功移除！",
       "reorder": "步驟重新排序成功！"
-    }
+    },
+    "finderWarning": {
+      "blank": "此步驟暫無目標。自動化流程將在此停止。",
+      "invalid": "此步驟的目標不是有效的 XPath 或選擇器。自動化流程將在此停止。"
+    },
+    "noStepsWarning": "此自動化流程沒有步驟，因此運行時不會執行任何操作。"
   },
   "userscript": {
     "add": "新增使用者腳本",
@@ -619,7 +624,22 @@
     "elementFinder": {
       "getElementBy": "getElementBy",
       "elementFinder": "元素查找器",
-      "count": "元素數量"
+      "count": "元素數量",
+      "plainText": "純文字",
+      "exactText": "精確文字",
+      "regex": "正規表示式",
+      "newStepsNote": "適用於新增步驟。先前建立的步驟會將目標讀取為 XPath。",
+      "plainTextDesc": "尋找包含此文字的元素。如果未找到，則嘗試將該文字用作 CSS 選擇器。",
+      "exactTextDesc": "僅尋找文字與目前文字完全相同的元素。",
+      "regexDesc": "尋找符合此模式的元素。",
+      "attributes": "支援的HTML屬性：",
+      "labelText": "輸入欄位的標籤",
+      "buttonText": "按鈕和連結上的文字",
+      "autocompleteNote": "除了 {{values}}",
+      "valueNote": "僅適用於複選框、單選按鈕和按鈕",
+      "classNote": "許多元素可以共享同一個類，因此請謹慎使用。",
+      "caseNote": "大小寫字母被視為相同。請使用正規表示式來區分它們。",
+      "allMatchesNote": "該步驟會對找到的每個元素執行。如果找到可見元素，則會跳過隱藏元素。"
     },
     "value": {
       "plainText": "純文字",

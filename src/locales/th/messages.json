@@ -45,7 +45,10 @@
     "message": "⌖ กำหนดค่าตามตำแหน่ง"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ แผงด้านข้าง / ☉ การบันทึก"
+    "message": "▤ ระบบอัตโนมัติ"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ การบันทึก"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ ถาม AI"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "แก้ไขอัตโนมัติ"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "บันทึกต่อ"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "ลบขั้นตอน"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "ไม่สามารถบันทึกวิดีโอได้ในหน้านี้"
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ เปิดหน้าการตั้งค่า"
@@ -244,5 +256,41 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "คุณต้องสมัครสมาชิก $1 เพื่อเข้าถึงฟีเจอร์ $2"
+  },
+  "@REPAIR__REPICK": {
+    "message": "เลือกองค์ประกอบอีกครั้ง"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "คลิกองค์ประกอบที่ถูกต้องในหน้านี้เพื่อแก้ไขขั้นตอนนี้"
+  },
+  "@REPAIR__SKIP": {
+    "message": "ไม่มีในหน้านี้"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "ข้ามขั้นตอนนี้หากส่วนประกอบนั้นขาดหายไป"
+  },
+  "@REPAIR__UNDO": {
+    "message": "ยกเลิกการเปลี่ยนแปลง"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "ยกเลิกการเปลี่ยนแปลงที่เกิดขึ้นในขั้นตอนนี้"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "คลิกที่องค์ประกอบสำหรับขั้นตอนนี้ · กด Esc เพื่อยกเลิก"
+  },
+  "@REPAIR__SAVED": {
+    "message": "ตัวเลือกได้รับการอัปเดตแล้ว"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "ขั้นตอนนี้จะถูกข้ามไปหากไม่พบองค์ประกอบดังกล่าว"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "การเปลี่ยนแปลงนั้นถูกยกเลิกแล้ว"
+  },
+  "@REPAIR__PICK_FAILED": {
+    "message": "องค์ประกอบนั้นไม่สามารถใช้ในขั้นตอนนี้ได้โปรดเลือกองค์ประกอบอื่น"
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "กำลังรอองค์ประกอบนั้นอยู่กำลังโหลดหน้าเว็บใหม่"
   }
 }

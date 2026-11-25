@@ -8,7 +8,7 @@
     "web:force": "node src/translate-web.mjs --force",
     "message": "node src/translate-message.mjs",
     "message:force": "node src/translate-message.mjs --force",
-    "test": "node src/locales.test.mjs",
+    "test": "node --test src/locales.test.mjs src/translate.common.test.mjs",
     "clean": "node src/clean-locales.mjs",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",

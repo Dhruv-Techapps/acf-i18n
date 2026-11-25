@@ -45,7 +45,10 @@
     "message": "⌖ Configurar por posición"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Panel lateral / ☉ Grabación"
+    "message": "▤ Automatizaciones"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Grabación"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Pregúntale a la IA"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Automatización de edición"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Continuar grabando"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Eliminar paso"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "La grabación no está disponible en esta página."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Abrir página de configuración"
@@ -244,5 +256,41 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Necesitas tener una suscripción $1 para acceder a la función $2."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Seleccione el elemento de nuevo"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Haz clic en el elemento correcto de esta página para corregir este paso."
+  },
+  "@REPAIR__SKIP": {
+    "message": "No en esta página"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Omita este paso siempre que falte su elemento."
+  },
+  "@REPAIR__UNDO": {
+    "message": "Deshacer el cambio"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Revertir el cambio realizado en este paso."
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Haz clic en el elemento para este paso · Esc para cancelar"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Selector actualizado"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Este paso se omitirá cuando no se encuentre su elemento."
+  },
+  "@REPAIR__UNDONE": {
+    "message": "El cambio se ha deshecho."
+  },
+  "@REPAIR__PICK_FAILED": {
+    "message": "Ese elemento no se puede utilizar para este paso. Seleccione otro."
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Esperando el elemento, recargando la página."
   }
 }

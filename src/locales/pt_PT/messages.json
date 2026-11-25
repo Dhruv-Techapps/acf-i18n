@@ -45,7 +45,10 @@
     "message": "⌖ Configurar por posição"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Painel lateral / ☉ Gravação"
+    "message": "▤ Automações"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Gravação"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Pergunte à IA"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Editar Automação"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Continuar a gravação"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Remover etapa"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "A gravação não está disponível nesta página."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Abrir página de configuração"
@@ -244,5 +256,41 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Você precisa ter uma assinatura $1 para acessar o recurso $2."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Selecione o elemento novamente"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Clique no elemento correto nesta página para corrigir esta etapa."
+  },
+  "@REPAIR__SKIP": {
+    "message": "Não nesta página"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Ignore esta etapa sempre que o elemento correspondente estiver faltando."
+  },
+  "@REPAIR__UNDO": {
+    "message": "Desfazer alteração"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Reverta a alteração feita nesta etapa."
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Clique no elemento correspondente a esta etapa · Pressione Esc para cancelar"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Seletor atualizado"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Esta etapa será ignorada quando o elemento correspondente não for encontrado."
+  },
+  "@REPAIR__UNDONE": {
+    "message": "A alteração foi desfeita."
+  },
+  "@REPAIR__PICK_FAILED": {
+    "message": "Esse elemento não pode ser usado nesta etapa. Selecione outro."
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Aguardando o elemento, recarregando a página."
   }
 }

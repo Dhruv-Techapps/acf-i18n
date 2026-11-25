@@ -45,7 +45,10 @@
     "message": "⌖ Konfiguruj według pozycji"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ Panel boczny / ☉ Nagrywanie"
+    "message": "▤ Automatyzacje"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ Nagrywanie"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ Zapytaj AI"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "Edytuj automatyzację"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "Kontynuuj nagrywanie"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "Usuń krok"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "Nagranie nie jest dostępne na tej stronie."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ Otwórz stronę konfiguracji"
@@ -244,5 +256,41 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "Aby uzyskać dostęp do funkcji $2, musisz posiadać subskrypcję $1."
+  },
+  "@REPAIR__REPICK": {
+    "message": "Wybierz element ponownie"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "Aby naprawić ten krok, kliknij odpowiedni element na tej stronie"
+  },
+  "@REPAIR__SKIP": {
+    "message": "Nie na tej stronie"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "Pomiń ten krok, jeśli brakuje jego elementu"
+  },
+  "@REPAIR__UNDO": {
+    "message": "Cofnij zmianę"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "Cofnij zmianę wprowadzoną w tym kroku"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "Kliknij element dla tego kroku · Esc, aby anulować"
+  },
+  "@REPAIR__SAVED": {
+    "message": "Selektor zaktualizowany"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "Ten krok zostanie pominięty, jeśli nie zostanie znaleziony jego element"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "Zmiana została cofnięta"
+  },
+  "@REPAIR__PICK_FAILED": {
+    "message": "Tego elementu nie można użyć w tym kroku. Wybierz inny."
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "Oczekiwanie na element, ponowne ładowanie strony"
   }
 }

@@ -45,7 +45,10 @@
     "message": "⌖ التكوين حسب الموضع"
   },
   "@CONTEXT_MENU__SIDE_PANEL": {
-    "message": "▤ اللوحة الجانبية / ☉ التسجيل"
+    "message": "▤ الأتمتة"
+  },
+  "@CONTEXT_MENU__RECORDING": {
+    "message": "☉ التسجيل"
   },
   "@CONTEXT_MENU__ASK_AI": {
     "message": "✨ اسأل الذكاء الاصطناعي"
@@ -118,6 +121,15 @@
   },
   "@SIDE_PANEL__EDIT_AUTOMATION": {
     "message": "أتمتة التحرير"
+  },
+  "@SIDE_PANEL__CONTINUE_RECORDING": {
+    "message": "استمر في التسجيل"
+  },
+  "@SIDE_PANEL__REMOVE_STEP": {
+    "message": "خطوة الإزالة"
+  },
+  "@SIDE_PANEL__RECORDING_UNSUPPORTED": {
+    "message": "التسجيل غير متاح في هذه الصفحة."
   },
   "@CONTEXT_MENU__CONFIG_PAGE": {
     "message": "↗ فتح صفحة الإعدادات"
@@ -244,5 +256,41 @@
   },
   "@SUBSCRIPTION__REQUIRED_MESSAGE": {
     "message": "يجب أن يكون لديك اشتراك $1 للوصول إلى ميزة $2."
+  },
+  "@REPAIR__REPICK": {
+    "message": "حدد العنصر مرة أخرى"
+  },
+  "@REPAIR__REPICK_TITLE": {
+    "message": "انقر على العنصر الصحيح في هذه الصفحة لإصلاح هذه الخطوة"
+  },
+  "@REPAIR__SKIP": {
+    "message": "غير موجود في هذه الصفحة"
+  },
+  "@REPAIR__SKIP_TITLE": {
+    "message": "تخطَّ هذه الخطوة إذا كان العنصر الخاص بها مفقودًا."
+  },
+  "@REPAIR__UNDO": {
+    "message": "التراجع عن التغيير"
+  },
+  "@REPAIR__UNDO_TITLE": {
+    "message": "قم بإلغاء التغيير الذي تم إجراؤه على هذه الخطوة"
+  },
+  "@REPAIR__PICK_HINT": {
+    "message": "انقر على العنصر المطلوب لهذه الخطوة · اضغط على زر Esc للإلغاء"
+  },
+  "@REPAIR__SAVED": {
+    "message": "تم تحديث المحدد"
+  },
+  "@REPAIR__SKIP_SAVED": {
+    "message": "سيتم تخطي هذه الخطوة عندما لا يتم العثور على العنصر الخاص بها"
+  },
+  "@REPAIR__UNDONE": {
+    "message": "تم التراجع عن التغيير"
+  },
+  "@REPAIR__PICK_FAILED": {
+    "message": "لا يمكن استخدام هذا العنصر في هذه الخطوة. اختر عنصرًا آخر."
+  },
+  "@STATUS__WAITING_RELOAD": {
+    "message": "في انتظار العنصر، إعادة تحميل الصفحة"
   }
 }
