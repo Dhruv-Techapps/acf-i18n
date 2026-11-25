@@ -15,7 +15,7 @@
     "message": "자동 클릭 - 자동 채우기"
   },
   "EXT_DESCRIPTION": {
-    "message": "입력 필드 자동 채우기, 버튼 자동 클릭, 링크 자동 생성 등 모든 기능을 자동화할 수 있습니다. 클릭 속도 테스트를 설정하고 확인할 수도 있습니다."
+    "message": "반복적인 브라우저 작업(클릭, 양식 작성 및 워크플로)을 기록하고 재생합니다."
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
     "message": "ACF 백업"

@@ -15,7 +15,7 @@
     "message": "Automaattinen napsauttaja - Automaattinen täyttö"
   },
   "EXT_DESCRIPTION": {
-    "message": "Täytä syöttökenttä automaattisesti tai napsauta painiketta tai linkitä mitä tahansa missä tahansa. Voit määrittää ja tarkistaa napsautusnopeustestin"
+    "message": "Tallenna ja toista toistuvia selaintehtäviä: klikkauksia, lomakkeiden täyttöjä ja työnkulkuja."
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
     "message": "ACF-varmuuskopio"

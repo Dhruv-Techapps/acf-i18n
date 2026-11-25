@@ -15,7 +15,7 @@
     "message": "Awtomatikong Pag-click - Awtomatikong Pagpuno"
   },
   "EXT_DESCRIPTION": {
-    "message": "AutoFill input field o auto click button o link kahit saan. Maaari mong i-configure at suriin ang click speed test"
+    "message": "I-record at i-replay ang mga paulit-ulit na gawain sa browser: mga pag-click, pagpuno ng form at mga daloy ng trabaho."
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
     "message": "Pag-backup ng ACF"

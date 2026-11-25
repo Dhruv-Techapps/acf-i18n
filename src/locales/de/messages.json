@@ -15,7 +15,7 @@
     "message": "Auto Clicker - AutoFill"
   },
   "EXT_DESCRIPTION": {
-    "message": "Automatisches Ausfüllen von Eingabefeldern, automatisches Klicken von Schaltflächen oder Links an beliebiger Stelle. Sie können die Klickgeschwindigkeit konfigurieren und testen."
+    "message": "Wiederkehrende Browseraufgaben aufzeichnen und wiedergeben: Klicks, Formularausfüllungen und Arbeitsabläufe."
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
     "message": "ACF-Sicherung"
