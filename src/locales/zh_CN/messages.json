@@ -15,7 +15,7 @@
     "message": "自动点击器 - 自动填充"
   },
   "EXT_DESCRIPTION": {
-    "message": "自动填充输入字段、自动点击按钮或链接到任何位置的任何内容。您可以配置并检查点击速度测试。"
+    "message": "记录和重放重复的浏览器任务：点击、表单填写和工作流程。"
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
     "message": "ACF备份"

@@ -15,7 +15,7 @@
     "message": "Phần mềm tự động nhấp chuột - Tự động điền"
   },
   "EXT_DESCRIPTION": {
-    "message": "Tự động điền vào trường nhập liệu, tự động nhấp chuột vào nút hoặc liên kết, bất cứ thứ gì ở bất cứ đâu. Bạn có thể cấu hình và kiểm tra tốc độ nhấp chuột."
+    "message": "Ghi lại và phát lại các tác vụ lặp đi lặp lại trên trình duyệt: nhấp chuột, điền biểu mẫu và quy trình làm việc."
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
     "message": "Sao lưu ACF"

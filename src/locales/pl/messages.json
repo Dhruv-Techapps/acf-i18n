@@ -15,7 +15,7 @@
     "message": "Autoklikacz - automatyczne wypełnianie"
   },
   "EXT_DESCRIPTION": {
-    "message": "Automatyczne wypełnianie pól wprowadzania danych, automatyczne klikanie przycisków lub linkowanie czegokolwiek w dowolnym miejscu. Możesz skonfigurować i sprawdzić test szybkości klikania"
+    "message": "Rejestruj i odtwarzaj powtarzające się zadania wykonywane w przeglądarce: kliknięcia, wypełnianie formularzy i przepływy pracy."
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
     "message": "Kopia zapasowa ACF"

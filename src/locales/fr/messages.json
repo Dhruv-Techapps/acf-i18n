@@ -15,7 +15,7 @@
     "message": "Clic automatique - Remplissage automatique"
   },
   "EXT_DESCRIPTION": {
-    "message": "Remplissez automatiquement les champs de saisie, cliquez automatiquement sur les boutons ou créez des liens n'importe où. Vous pouvez configurer et tester la vitesse de clic."
+    "message": "Enregistrez et rejouez les tâches répétitives du navigateur : clics, remplissages de formulaires et flux de travail."
   },
   "@ACF_BACKUP__NOTIFICATION_TITLE": {
     "message": "Sauvegarde ACF"
